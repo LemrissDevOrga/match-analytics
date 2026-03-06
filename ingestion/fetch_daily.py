@@ -26,17 +26,33 @@ def fetch_yesterday_matches():
         print(f"❌ Failed: {response.status_code} - {response.text}")
         return [], yesterday
 
-def save_raw(matches, date):
-    os.makedirs("data/raw/daily", exist_ok=True)
-    filepath = f"data/raw/daily/{date}.json"
+def save_raw(matches):
+    os.makedirs("data/raw", exist_ok=True)
+    
+    if not matches:
+        return
+
+    # Determine season from first match date
+    season_year = int(matches[0]["season"]["startDate"][:4])
+    filepath = f"data/raw/laliga_{season_year}.json"
+
+    # Load existing data if file exists
+    if os.path.exists(filepath):
+        with open(filepath) as f:
+            existing = json.load(f)
+        existing_ids = {m["id"] for m in existing}
+        new_matches = [m for m in matches if m["id"] not in existing_ids]
+        updated = existing + new_matches
+        print(f"➕ {len(new_matches)} new matches added to season {season_year}")
+    else:
+        updated = matches
+        print(f"🆕 Created new file for season {season_year}")
+
     with open(filepath, "w") as f:
-        json.dump(matches, f, indent=2)
+        json.dump(updated, f, indent=2)
     print(f"💾 Saved to {filepath}")
 
 def main():
     matches, date = fetch_yesterday_matches()
     if matches:
-        save_raw(matches, date)
-
-if __name__ == "__main__":
-    main()
+        save_raw(matches)
