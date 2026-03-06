@@ -1,0 +1,41 @@
+name: Daily La Liga Update
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # runs every day at 6am UTC
+  workflow_dispatch:       # allows manual trigger from GitHub
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch daily matches
+        env:
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+        run: python ingestion/fetch_daily.py
+
+      - name: Run transformation
+        run: python transformation/clean.py
+
+      - name: Run analysis
+        run: python analysis/team_stats.py
+
+      - name: Commit and push updated data
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "auto: daily update $(date +'%Y-%m-%d')"
+          git push
