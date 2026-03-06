@@ -338,9 +338,9 @@ async function loadCSV(url) {
 
 async function switchSeason(s) {
   currentSeason = s;
-  document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active',
-    (s==='2023'&&i===0)||(s==='2024'&&i===1)||(s==='2025'&&i===2)
-  ));
+  document.querySelectorAll('.tab').forEach(t => {
+    t.classList.toggle('active', t.getAttribute('onclick').includes(`'${s}'`));
+  });
   const labels = {'2023':'2023/24','2024':'2024/25','2025':'2025/26'};
   document.getElementById('seasonLabel').textContent = labels[s];
   await loadAndRenderOverview();
