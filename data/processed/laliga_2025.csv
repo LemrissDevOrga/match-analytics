@@ -1,0 +1,262 @@
+match_id,season,matchday,date,status,home_team,home_team_short,home_team_tla,away_team,away_team_short,away_team_tla,home_goals_ft,away_goals_ft,home_goals_ht,away_goals_ht,result,referee
+544214,2025,1,2025-08-15,FINISHED,Girona FC,Girona,GIR,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,1,3,0,3,AWAY_TEAM,Javier Alberola Rojas
+544220,2025,1,2025-08-15,FINISHED,Villarreal CF,Villarreal,VIL,Real Oviedo,Real Oviedo,OVI,2,0,2,0,HOME_TEAM,Alejandro Muñiz Ruiz
+544216,2025,1,2025-08-16,FINISHED,RCD Mallorca,Mallorca,MAL,FC Barcelona,Barça,FCB,0,3,0,2,AWAY_TEAM,José Munuera Montero
+544211,2025,1,2025-08-16,FINISHED,Deportivo Alavés,Alavés,ALA,Levante UD,Levante,LEV,2,1,1,0,HOME_TEAM,Miguel Sesma Espinosa
+544219,2025,1,2025-08-16,FINISHED,Valencia CF,Valencia,VAL,Real Sociedad de Fútbol,Real Sociedad,RSO,1,1,0,0,DRAW,José Sánchez Martínez
+544213,2025,1,2025-08-17,FINISHED,RC Celta de Vigo,Celta,CEL,Getafe CF,Getafe,GET,0,2,0,0,AWAY_TEAM,
+544212,2025,1,2025-08-17,FINISHED,Athletic Club,Athletic,ATH,Sevilla FC,Sevilla FC,SEV,3,2,2,0,HOME_TEAM,
+544215,2025,1,2025-08-17,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,Club Atlético de Madrid,Atleti,ATL,2,1,0,1,HOME_TEAM,
+544217,2025,1,2025-08-18,FINISHED,Elche CF,Elche,ELC,Real Betis Balompié,Real Betis,BET,1,1,0,1,DRAW,Víctor García Verdura
+544218,2025,1,2025-08-19,FINISHED,Real Madrid CF,Real Madrid,RMA,CA Osasuna,Osasuna,OSA,1,0,0,0,HOME_TEAM,Adrián Cordero Vega
+544225,2025,2,2025-08-22,FINISHED,Real Betis Balompié,Real Betis,BET,Deportivo Alavés,Alavés,ALA,1,0,1,0,HOME_TEAM,Miguel Ortiz Arias
+544227,2025,2,2025-08-23,FINISHED,RCD Mallorca,Mallorca,MAL,RC Celta de Vigo,Celta,CEL,1,1,0,1,DRAW,José Luis Guzmán Mansilla
+544222,2025,2,2025-08-23,FINISHED,Club Atlético de Madrid,Atleti,ATL,Elche CF,Elche,ELC,1,1,1,1,DRAW,César Soto Grado
+544226,2025,2,2025-08-23,FINISHED,Levante UD,Levante,LEV,FC Barcelona,Barça,FCB,2,3,2,0,AWAY_TEAM,Alejandro Hernández Hernández
+544223,2025,2,2025-08-24,FINISHED,CA Osasuna,Osasuna,OSA,Valencia CF,Valencia,VAL,1,0,1,0,HOME_TEAM,Jesús Gil Manzano
+544228,2025,2,2025-08-24,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,RCD Espanyol de Barcelona,Espanyol,ESP,2,2,0,2,DRAW,Alejandro Quintero González
+544230,2025,2,2025-08-24,FINISHED,Villarreal CF,Villarreal,VIL,Girona FC,Girona,GIR,5,0,4,0,HOME_TEAM,Guillermo Cuadra Fernández
+544224,2025,2,2025-08-24,FINISHED,Real Oviedo,Real Oviedo,OVI,Real Madrid CF,Real Madrid,RMA,0,3,0,1,AWAY_TEAM,Ricardo de Burgos
+544221,2025,2,2025-08-25,FINISHED,Athletic Club,Athletic,ATH,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,1,0,0,0,HOME_TEAM,Juan Martínez Munuera
+544229,2025,2,2025-08-25,FINISHED,Sevilla FC,Sevilla FC,SEV,Getafe CF,Getafe,GET,1,2,1,1,AWAY_TEAM,Isidro Díaz de Mera
+544268,2025,6,2025-08-27,FINISHED,RC Celta de Vigo,Celta,CEL,Real Betis Balompié,Real Betis,BET,1,1,0,1,DRAW,Jesús Gil Manzano
+544233,2025,3,2025-08-29,FINISHED,Elche CF,Elche,ELC,Levante UD,Levante,LEV,2,0,0,0,HOME_TEAM,
+544239,2025,3,2025-08-29,FINISHED,Valencia CF,Valencia,VAL,Getafe CF,Getafe,GET,3,0,1,0,HOME_TEAM,Francisco Hernández Maeso
+544231,2025,3,2025-08-30,FINISHED,Deportivo Alavés,Alavés,ALA,Club Atlético de Madrid,Atleti,ATL,1,1,1,1,DRAW,
+544236,2025,3,2025-08-30,FINISHED,Real Oviedo,Real Oviedo,OVI,Real Sociedad de Fútbol,Real Sociedad,RSO,1,0,1,0,HOME_TEAM,
+544235,2025,3,2025-08-30,FINISHED,Girona FC,Girona,GIR,Sevilla FC,Sevilla FC,SEV,0,2,0,1,AWAY_TEAM,
+544240,2025,3,2025-08-30,FINISHED,Real Madrid CF,Real Madrid,RMA,RCD Mallorca,Mallorca,MAL,2,1,2,1,HOME_TEAM,
+544232,2025,3,2025-08-31,FINISHED,RC Celta de Vigo,Celta,CEL,Villarreal CF,Villarreal,VIL,1,1,0,0,DRAW,
+544237,2025,3,2025-08-31,FINISHED,Real Betis Balompié,Real Betis,BET,Athletic Club,Athletic,ATH,1,2,0,0,AWAY_TEAM,
+544234,2025,3,2025-08-31,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,CA Osasuna,Osasuna,OSA,1,0,0,0,HOME_TEAM,
+544238,2025,3,2025-08-31,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,FC Barcelona,Barça,FCB,1,1,0,1,DRAW,
+544249,2025,4,2025-09-12,FINISHED,Sevilla FC,Sevilla FC,SEV,Elche CF,Elche,ELC,2,2,1,0,DRAW,Javier Alberola Rojas
+544245,2025,4,2025-09-13,FINISHED,Getafe CF,Getafe,GET,Real Oviedo,Real Oviedo,OVI,2,0,2,0,HOME_TEAM,José Luis Guzmán Mansilla
+544250,2025,4,2025-09-13,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,Real Madrid CF,Real Madrid,RMA,1,2,0,2,AWAY_TEAM,Jesús Gil Manzano
+544247,2025,4,2025-09-13,FINISHED,Athletic Club,Athletic,ATH,Deportivo Alavés,Alavés,ALA,0,1,0,0,AWAY_TEAM,
+544241,2025,4,2025-09-13,FINISHED,Club Atlético de Madrid,Atleti,ATL,Villarreal CF,Villarreal,VIL,2,0,1,0,HOME_TEAM,
+544243,2025,4,2025-09-14,FINISHED,RC Celta de Vigo,Celta,CEL,Girona FC,Girona,GIR,1,1,0,1,DRAW,
+544248,2025,4,2025-09-14,FINISHED,Levante UD,Levante,LEV,Real Betis Balompié,Real Betis,BET,2,2,2,1,DRAW,
+544246,2025,4,2025-09-14,FINISHED,CA Osasuna,Osasuna,OSA,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,2,0,1,0,HOME_TEAM,
+544242,2025,4,2025-09-14,FINISHED,FC Barcelona,Barça,FCB,Valencia CF,Valencia,VAL,6,0,1,0,HOME_TEAM,
+544244,2025,4,2025-09-15,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,RCD Mallorca,Mallorca,MAL,3,2,2,1,HOME_TEAM,
+544253,2025,5,2025-09-19,FINISHED,Real Betis Balompié,Real Betis,BET,Real Sociedad de Fútbol,Real Sociedad,RSO,3,1,1,1,HOME_TEAM,
+544255,2025,5,2025-09-20,FINISHED,Girona FC,Girona,GIR,Levante UD,Levante,LEV,0,4,0,1,AWAY_TEAM,Alejandro Quintero González
+544259,2025,5,2025-09-20,FINISHED,Real Madrid CF,Real Madrid,RMA,RCD Espanyol de Barcelona,Espanyol,ESP,2,0,1,0,HOME_TEAM,Juan Martínez Munuera
+544260,2025,5,2025-09-20,FINISHED,Villarreal CF,Villarreal,VIL,CA Osasuna,Osasuna,OSA,2,1,0,1,HOME_TEAM,Isidro Díaz de Mera
+544251,2025,5,2025-09-20,FINISHED,Deportivo Alavés,Alavés,ALA,Sevilla FC,Sevilla FC,SEV,1,2,1,1,AWAY_TEAM,Iosu Galech Apezteguía
+544256,2025,5,2025-09-20,FINISHED,Valencia CF,Valencia,VAL,Athletic Club,Athletic,ATH,2,0,0,0,HOME_TEAM,
+544258,2025,5,2025-09-21,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,RC Celta de Vigo,Celta,CEL,1,1,0,0,DRAW,Víctor García Verdura
+544257,2025,5,2025-09-21,FINISHED,RCD Mallorca,Mallorca,MAL,Club Atlético de Madrid,Atleti,ATL,1,1,0,0,DRAW,Francisco Hernández Maeso
+544254,2025,5,2025-09-21,FINISHED,Elche CF,Elche,ELC,Real Oviedo,Real Oviedo,OVI,1,0,1,0,HOME_TEAM,Miguel Sesma Espinosa
+544252,2025,5,2025-09-21,FINISHED,FC Barcelona,Barça,FCB,Getafe CF,Getafe,GET,3,0,2,0,HOME_TEAM,Ricardo de Burgos
+544261,2025,6,2025-09-23,FINISHED,Athletic Club,Athletic,ATH,Girona FC,Girona,GIR,1,1,0,1,DRAW,José Munuera Montero
+544263,2025,6,2025-09-23,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,Valencia CF,Valencia,VAL,2,2,0,1,DRAW,José Luis Guzmán Mansilla
+544264,2025,6,2025-09-23,FINISHED,Levante UD,Levante,LEV,Real Madrid CF,Real Madrid,RMA,1,4,0,2,AWAY_TEAM,Isidro Díaz de Mera
+544265,2025,6,2025-09-23,FINISHED,Sevilla FC,Sevilla FC,SEV,Villarreal CF,Villarreal,VIL,1,2,0,1,AWAY_TEAM,César Soto Grado
+544266,2025,6,2025-09-24,FINISHED,Getafe CF,Getafe,GET,Deportivo Alavés,Alavés,ALA,1,1,0,0,DRAW,Alejandro Quintero González
+544262,2025,6,2025-09-24,FINISHED,Club Atlético de Madrid,Atleti,ATL,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,3,2,1,1,HOME_TEAM,Alejandro Hernández Hernández
+544270,2025,6,2025-09-24,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,RCD Mallorca,Mallorca,MAL,1,0,0,0,HOME_TEAM,Iosu Galech Apezteguía
+544269,2025,6,2025-09-25,FINISHED,CA Osasuna,Osasuna,OSA,Elche CF,Elche,ELC,1,1,1,0,DRAW,Adrián Cordero Vega
+544267,2025,6,2025-09-25,FINISHED,Real Oviedo,Real Oviedo,OVI,FC Barcelona,Barça,FCB,1,3,1,0,AWAY_TEAM,Miguel Ortiz Arias
+544279,2025,7,2025-09-26,FINISHED,Girona FC,Girona,GIR,RCD Espanyol de Barcelona,Espanyol,ESP,0,0,0,0,DRAW,Francisco Hernández Maeso
+544274,2025,7,2025-09-27,FINISHED,Getafe CF,Getafe,GET,Levante UD,Levante,LEV,1,1,0,1,DRAW,Mateo Busquets Ferrer
+544271,2025,7,2025-09-27,FINISHED,Club Atlético de Madrid,Atleti,ATL,Real Madrid CF,Real Madrid,RMA,5,2,2,2,HOME_TEAM,Javier Alberola Rojas
+544276,2025,7,2025-09-27,FINISHED,RCD Mallorca,Mallorca,MAL,Deportivo Alavés,Alavés,ALA,1,0,1,0,HOME_TEAM,Adrián Cordero Vega
+544277,2025,7,2025-09-27,FINISHED,Villarreal CF,Villarreal,VIL,Athletic Club,Athletic,ATH,1,0,0,0,HOME_TEAM,Miguel Sesma Espinosa
+544275,2025,7,2025-09-28,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,Sevilla FC,Sevilla FC,SEV,0,1,0,0,AWAY_TEAM,Jesús Gil Manzano
+544278,2025,7,2025-09-28,FINISHED,Elche CF,Elche,ELC,RC Celta de Vigo,Celta,CEL,2,1,1,1,HOME_TEAM,Guillermo Cuadra Fernández
+544272,2025,7,2025-09-28,FINISHED,FC Barcelona,Barça,FCB,Real Sociedad de Fútbol,Real Sociedad,RSO,2,1,1,1,HOME_TEAM,Alejandro Hernández Hernández
+544273,2025,7,2025-09-28,FINISHED,Real Betis Balompié,Real Betis,BET,CA Osasuna,Osasuna,OSA,2,0,2,0,HOME_TEAM,Víctor García Verdura
+544280,2025,7,2025-09-30,FINISHED,Valencia CF,Valencia,VAL,Real Oviedo,Real Oviedo,OVI,1,2,1,0,AWAY_TEAM,Ricardo de Burgos
+544288,2025,8,2025-10-03,FINISHED,CA Osasuna,Osasuna,OSA,Getafe CF,Getafe,GET,2,1,1,1,HOME_TEAM,Javier Alberola Rojas
+544289,2025,8,2025-10-04,FINISHED,Real Oviedo,Real Oviedo,OVI,Levante UD,Levante,LEV,0,2,0,1,AWAY_TEAM,José Munuera Montero
+544283,2025,8,2025-10-04,FINISHED,Girona FC,Girona,GIR,Valencia CF,Valencia,VAL,2,1,1,0,HOME_TEAM,Isidro Díaz de Mera
+544282,2025,8,2025-10-04,FINISHED,Athletic Club,Athletic,ATH,RCD Mallorca,Mallorca,MAL,2,1,1,0,HOME_TEAM,Alejandro Quintero González
+544284,2025,8,2025-10-04,FINISHED,Real Madrid CF,Real Madrid,RMA,Villarreal CF,Villarreal,VIL,3,1,0,0,HOME_TEAM,Guillermo Cuadra Fernández
+544281,2025,8,2025-10-05,FINISHED,Deportivo Alavés,Alavés,ALA,Elche CF,Elche,ELC,3,1,0,0,HOME_TEAM,Miguel Ortiz Arias
+544286,2025,8,2025-10-05,FINISHED,Sevilla FC,Sevilla FC,SEV,FC Barcelona,Barça,FCB,4,1,2,1,HOME_TEAM,Alejandro Muñiz Ruiz
+544287,2025,8,2025-10-05,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,Real Betis Balompié,Real Betis,BET,1,2,1,0,AWAY_TEAM,Iosu Galech Apezteguía
+544290,2025,8,2025-10-05,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,0,1,0,0,AWAY_TEAM,José Luis Guzmán Mansilla
+544285,2025,8,2025-10-05,FINISHED,RC Celta de Vigo,Celta,CEL,Club Atlético de Madrid,Atleti,ATL,1,1,0,1,DRAW,César Soto Grado
+544299,2025,9,2025-10-17,FINISHED,Real Oviedo,Real Oviedo,OVI,RCD Espanyol de Barcelona,Espanyol,ESP,0,2,0,0,AWAY_TEAM,Mateo Busquets Ferrer
+544300,2025,9,2025-10-18,FINISHED,Sevilla FC,Sevilla FC,SEV,RCD Mallorca,Mallorca,MAL,1,3,1,0,AWAY_TEAM,Víctor García Verdura
+544293,2025,9,2025-10-18,FINISHED,FC Barcelona,Barça,FCB,Girona FC,Girona,GIR,2,1,1,1,HOME_TEAM,Jesús Gil Manzano
+544298,2025,9,2025-10-18,FINISHED,Villarreal CF,Villarreal,VIL,Real Betis Balompié,Real Betis,BET,2,2,1,0,DRAW,Francisco Hernández Maeso
+544292,2025,9,2025-10-18,FINISHED,Club Atlético de Madrid,Atleti,ATL,CA Osasuna,Osasuna,OSA,1,0,0,0,HOME_TEAM,Ricardo de Burgos
+544297,2025,9,2025-10-19,FINISHED,Elche CF,Elche,ELC,Athletic Club,Athletic,ATH,0,0,0,0,DRAW,José Luis Guzmán Mansilla
+544294,2025,9,2025-10-19,FINISHED,RC Celta de Vigo,Celta,CEL,Real Sociedad de Fútbol,Real Sociedad,RSO,1,1,1,0,DRAW,Juan Martínez Munuera
+544296,2025,9,2025-10-19,FINISHED,Levante UD,Levante,LEV,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,0,3,0,2,AWAY_TEAM,Miguel Sesma Espinosa
+544295,2025,9,2025-10-19,FINISHED,Getafe CF,Getafe,GET,Real Madrid CF,Real Madrid,RMA,0,1,0,0,AWAY_TEAM,José Munuera Montero
+544291,2025,9,2025-10-20,FINISHED,Deportivo Alavés,Alavés,ALA,Valencia CF,Valencia,VAL,0,0,0,0,DRAW,Iosu Galech Apezteguía
+544303,2025,10,2025-10-24,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,Sevilla FC,Sevilla FC,SEV,2,1,2,1,HOME_TEAM,Adrián Cordero Vega
+544302,2025,10,2025-10-25,FINISHED,Girona FC,Girona,GIR,Real Oviedo,Real Oviedo,OVI,3,3,0,1,DRAW,Alejandro Muñiz Ruiz
+544309,2025,10,2025-10-25,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,Elche CF,Elche,ELC,1,0,0,0,HOME_TEAM,Ricardo de Burgos
+544301,2025,10,2025-10-25,FINISHED,Athletic Club,Athletic,ATH,Getafe CF,Getafe,GET,0,1,0,0,AWAY_TEAM,Isidro Díaz de Mera
+544304,2025,10,2025-10-25,FINISHED,Valencia CF,Valencia,VAL,Villarreal CF,Villarreal,VIL,0,2,0,1,AWAY_TEAM,Javier Alberola Rojas
+544310,2025,10,2025-10-26,FINISHED,RCD Mallorca,Mallorca,MAL,Levante UD,Levante,LEV,1,1,0,1,DRAW,Miguel Ortiz Arias
+544307,2025,10,2025-10-26,FINISHED,Real Madrid CF,Real Madrid,RMA,FC Barcelona,Barça,FCB,2,1,2,1,HOME_TEAM,César Soto Grado
+544308,2025,10,2025-10-26,FINISHED,CA Osasuna,Osasuna,OSA,RC Celta de Vigo,Celta,CEL,2,3,2,1,AWAY_TEAM,Alejandro Hernández Hernández
+544305,2025,10,2025-10-26,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,Deportivo Alavés,Alavés,ALA,1,0,0,0,HOME_TEAM,Víctor García Verdura
+544306,2025,10,2025-10-27,FINISHED,Real Betis Balompié,Real Betis,BET,Club Atlético de Madrid,Atleti,ATL,0,2,0,2,AWAY_TEAM,Juan Martínez Munuera
+544315,2025,11,2025-10-31,FINISHED,Getafe CF,Getafe,GET,Girona FC,Girona,GIR,2,1,0,0,HOME_TEAM,José Sánchez Martínez
+544320,2025,11,2025-11-01,FINISHED,Villarreal CF,Villarreal,VIL,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,4,0,1,0,HOME_TEAM,Iosu Galech Apezteguía
+544312,2025,11,2025-11-01,FINISHED,Club Atlético de Madrid,Atleti,ATL,Sevilla FC,Sevilla FC,SEV,3,0,0,0,HOME_TEAM,Francisco Hernández Maeso
+544317,2025,11,2025-11-01,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,Athletic Club,Athletic,ATH,3,2,1,1,HOME_TEAM,José Munuera Montero
+544316,2025,11,2025-11-01,FINISHED,Real Madrid CF,Real Madrid,RMA,Valencia CF,Valencia,VAL,4,0,3,0,HOME_TEAM,Mateo Busquets Ferrer
+544318,2025,11,2025-11-02,FINISHED,Levante UD,Levante,LEV,RC Celta de Vigo,Celta,CEL,1,2,0,1,AWAY_TEAM,Alejandro Quintero González
+544311,2025,11,2025-11-02,FINISHED,Deportivo Alavés,Alavés,ALA,RCD Espanyol de Barcelona,Espanyol,ESP,2,1,2,0,HOME_TEAM,Guillermo Cuadra Fernández
+544313,2025,11,2025-11-02,FINISHED,FC Barcelona,Barça,FCB,Elche CF,Elche,ELC,3,1,2,1,HOME_TEAM,Miguel Sesma Espinosa
+544314,2025,11,2025-11-02,FINISHED,Real Betis Balompié,Real Betis,BET,RCD Mallorca,Mallorca,MAL,3,0,3,0,HOME_TEAM,Jesús Gil Manzano
+544319,2025,11,2025-11-03,FINISHED,Real Oviedo,Real Oviedo,OVI,CA Osasuna,Osasuna,OSA,0,0,0,0,DRAW,José Luis Guzmán Mansilla
+544323,2025,12,2025-11-07,FINISHED,Elche CF,Elche,ELC,Real Sociedad de Fútbol,Real Sociedad,RSO,1,1,0,0,DRAW,Isidro Díaz de Mera
+544326,2025,12,2025-11-08,FINISHED,Girona FC,Girona,GIR,Deportivo Alavés,Alavés,ALA,1,0,1,0,HOME_TEAM,Adrián Cordero Vega
+544330,2025,12,2025-11-08,FINISHED,Sevilla FC,Sevilla FC,SEV,CA Osasuna,Osasuna,OSA,1,0,0,0,HOME_TEAM,Miguel Ortiz Arias
+544322,2025,12,2025-11-08,FINISHED,Club Atlético de Madrid,Atleti,ATL,Levante UD,Levante,LEV,3,1,1,1,HOME_TEAM,Jesús Gil Manzano
+544324,2025,12,2025-11-08,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,Villarreal CF,Villarreal,VIL,0,2,0,1,AWAY_TEAM,Alejandro Hernández Hernández
+544321,2025,12,2025-11-09,FINISHED,Athletic Club,Athletic,ATH,Real Oviedo,Real Oviedo,OVI,1,0,1,0,HOME_TEAM,César Soto Grado
+544325,2025,12,2025-11-09,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,Real Madrid CF,Real Madrid,RMA,0,0,0,0,DRAW,
+544328,2025,12,2025-11-09,FINISHED,Valencia CF,Valencia,VAL,Real Betis Balompié,Real Betis,BET,1,1,0,0,DRAW,Víctor García Verdura
+544329,2025,12,2025-11-09,FINISHED,RCD Mallorca,Mallorca,MAL,Getafe CF,Getafe,GET,1,0,1,0,HOME_TEAM,Ricardo de Burgos
+544327,2025,12,2025-11-09,FINISHED,RC Celta de Vigo,Celta,CEL,FC Barcelona,Barça,FCB,2,4,2,3,AWAY_TEAM,Javier Alberola Rojas
+544339,2025,13,2025-11-21,FINISHED,Valencia CF,Valencia,VAL,Levante UD,Levante,LEV,1,0,0,0,HOME_TEAM,
+544331,2025,13,2025-11-22,FINISHED,Deportivo Alavés,Alavés,ALA,RC Celta de Vigo,Celta,CEL,0,1,0,0,AWAY_TEAM,
+544337,2025,13,2025-11-22,FINISHED,FC Barcelona,Barça,FCB,Athletic Club,Athletic,ATH,4,0,2,0,HOME_TEAM,José Sánchez Martínez
+544335,2025,13,2025-11-22,FINISHED,CA Osasuna,Osasuna,OSA,Real Sociedad de Fútbol,Real Sociedad,RSO,1,3,1,0,AWAY_TEAM,
+544340,2025,13,2025-11-22,FINISHED,Villarreal CF,Villarreal,VIL,RCD Mallorca,Mallorca,MAL,2,1,1,1,HOME_TEAM,
+544336,2025,13,2025-11-23,FINISHED,Real Oviedo,Real Oviedo,OVI,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,0,0,0,0,DRAW,Alejandro Quintero González
+544332,2025,13,2025-11-23,FINISHED,Real Betis Balompié,Real Betis,BET,Girona FC,Girona,GIR,1,1,0,1,DRAW,Iosu Galech Apezteguía
+544338,2025,13,2025-11-23,FINISHED,Getafe CF,Getafe,GET,Club Atlético de Madrid,Atleti,ATL,0,1,0,0,AWAY_TEAM,Guillermo Cuadra Fernández
+544333,2025,13,2025-11-23,FINISHED,Elche CF,Elche,ELC,Real Madrid CF,Real Madrid,RMA,2,2,0,0,DRAW,Francisco Hernández Maeso
+544334,2025,13,2025-11-24,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,Sevilla FC,Sevilla FC,SEV,2,1,0,0,HOME_TEAM,Miguel Sesma Espinosa
+544350,2025,14,2025-11-28,FINISHED,Getafe CF,Getafe,GET,Elche CF,Elche,ELC,1,0,0,0,HOME_TEAM,Alejandro Hernández Hernández
+544344,2025,14,2025-11-29,FINISHED,RCD Mallorca,Mallorca,MAL,CA Osasuna,Osasuna,OSA,2,2,0,0,DRAW,Jesús Gil Manzano
+544347,2025,14,2025-11-29,FINISHED,FC Barcelona,Barça,FCB,Deportivo Alavés,Alavés,ALA,3,1,2,1,HOME_TEAM,Miguel Ortiz Arias
+544348,2025,14,2025-11-29,FINISHED,Levante UD,Levante,LEV,Athletic Club,Athletic,ATH,0,2,0,2,AWAY_TEAM,Adrián Cordero Vega
+544341,2025,14,2025-11-29,FINISHED,Club Atlético de Madrid,Atleti,ATL,Real Oviedo,Real Oviedo,OVI,2,0,2,0,HOME_TEAM,Víctor García Verdura
+544346,2025,14,2025-11-30,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,Villarreal CF,Villarreal,VIL,2,3,0,1,AWAY_TEAM,César Soto Grado
+544349,2025,14,2025-11-30,FINISHED,Sevilla FC,Sevilla FC,SEV,Real Betis Balompié,Real Betis,BET,0,2,0,0,AWAY_TEAM,José Munuera Montero
+544342,2025,14,2025-11-30,FINISHED,RC Celta de Vigo,Celta,CEL,RCD Espanyol de Barcelona,Espanyol,ESP,0,1,0,0,AWAY_TEAM,Isidro Díaz de Mera
+544343,2025,14,2025-11-30,FINISHED,Girona FC,Girona,GIR,Real Madrid CF,Real Madrid,RMA,1,1,1,0,DRAW,Ricardo de Burgos
+544345,2025,14,2025-12-01,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,Valencia CF,Valencia,VAL,1,1,1,0,DRAW,Javier Alberola Rojas
+544395,2025,19,2025-12-02,FINISHED,FC Barcelona,Barça,FCB,Club Atlético de Madrid,Atleti,ATL,3,1,1,1,HOME_TEAM,Ricardo de Burgos
+544391,2025,19,2025-12-03,FINISHED,Athletic Club,Athletic,ATH,Real Madrid CF,Real Madrid,RMA,0,3,0,2,AWAY_TEAM,Jesús Gil Manzano
+544359,2025,15,2025-12-05,FINISHED,Real Oviedo,Real Oviedo,OVI,RCD Mallorca,Mallorca,MAL,0,0,0,0,DRAW,Iosu Galech Apezteguía
+544357,2025,15,2025-12-06,FINISHED,Villarreal CF,Villarreal,VIL,Getafe CF,Getafe,GET,2,0,1,0,HOME_TEAM,Mateo Busquets Ferrer
+544351,2025,15,2025-12-06,FINISHED,Deportivo Alavés,Alavés,ALA,Real Sociedad de Fútbol,Real Sociedad,RSO,1,0,1,0,HOME_TEAM,Javier Alberola Rojas
+544355,2025,15,2025-12-06,FINISHED,Real Betis Balompié,Real Betis,BET,FC Barcelona,Barça,FCB,3,5,1,4,AWAY_TEAM,Francisco Hernández Maeso
+544352,2025,15,2025-12-06,FINISHED,Athletic Club,Athletic,ATH,Club Atlético de Madrid,Atleti,ATL,1,0,0,0,HOME_TEAM,Alejandro Muñiz Ruiz
+544353,2025,15,2025-12-07,FINISHED,Elche CF,Elche,ELC,Girona FC,Girona,GIR,3,0,1,0,HOME_TEAM,Miguel Sesma Espinosa
+544360,2025,15,2025-12-07,FINISHED,Valencia CF,Valencia,VAL,Sevilla FC,Sevilla FC,SEV,1,1,0,0,DRAW,Guillermo Cuadra Fernández
+544354,2025,15,2025-12-07,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,1,0,1,0,HOME_TEAM,José Sánchez Martínez
+544356,2025,15,2025-12-07,FINISHED,Real Madrid CF,Real Madrid,RMA,RC Celta de Vigo,Celta,CEL,0,2,0,0,AWAY_TEAM,Alejandro Quintero González
+544358,2025,15,2025-12-08,FINISHED,CA Osasuna,Osasuna,OSA,Levante UD,Levante,LEV,2,0,2,0,HOME_TEAM,José Luis Guzmán Mansilla
+544369,2025,16,2025-12-12,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,Girona FC,Girona,GIR,1,2,1,0,AWAY_TEAM,Miguel Ortiz Arias
+544362,2025,16,2025-12-13,FINISHED,Club Atlético de Madrid,Atleti,ATL,Valencia CF,Valencia,VAL,2,1,1,0,HOME_TEAM,César Soto Grado
+544367,2025,16,2025-12-13,FINISHED,RCD Mallorca,Mallorca,MAL,Elche CF,Elche,ELC,3,1,1,1,HOME_TEAM,José Munuera Montero
+544363,2025,16,2025-12-13,FINISHED,FC Barcelona,Barça,FCB,CA Osasuna,Osasuna,OSA,2,0,0,0,HOME_TEAM,Adrián Cordero Vega
+544368,2025,16,2025-12-13,FINISHED,Getafe CF,Getafe,GET,RCD Espanyol de Barcelona,Espanyol,ESP,0,1,0,0,AWAY_TEAM,Jesús Gil Manzano
+544370,2025,16,2025-12-14,FINISHED,Sevilla FC,Sevilla FC,SEV,Real Oviedo,Real Oviedo,OVI,4,0,2,0,HOME_TEAM,Isidro Díaz de Mera
+544365,2025,16,2025-12-14,FINISHED,RC Celta de Vigo,Celta,CEL,Athletic Club,Athletic,ATH,2,0,0,0,HOME_TEAM,Alejandro Hernández Hernández
+544361,2025,16,2025-12-14,FINISHED,Deportivo Alavés,Alavés,ALA,Real Madrid CF,Real Madrid,RMA,1,2,0,1,AWAY_TEAM,Víctor García Verdura
+544366,2025,16,2025-12-15,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,Real Betis Balompié,Real Betis,BET,0,0,0,0,DRAW,Ricardo de Burgos
+544380,2025,17,2025-12-19,FINISHED,Valencia CF,Valencia,VAL,RCD Mallorca,Mallorca,MAL,1,1,0,1,DRAW,Alejandro Quintero González
+544379,2025,17,2025-12-20,FINISHED,Real Oviedo,Real Oviedo,OVI,RC Celta de Vigo,Celta,CEL,0,0,0,0,DRAW,Francisco Hernández Maeso
+544374,2025,17,2025-12-20,FINISHED,Levante UD,Levante,LEV,Real Sociedad de Fútbol,Real Sociedad,RSO,1,1,0,1,DRAW,Guillermo Cuadra Fernández
+544376,2025,17,2025-12-20,FINISHED,CA Osasuna,Osasuna,OSA,Deportivo Alavés,Alavés,ALA,3,0,0,0,HOME_TEAM,César Soto Grado
+544375,2025,17,2025-12-20,FINISHED,Real Madrid CF,Real Madrid,RMA,Sevilla FC,Sevilla FC,SEV,2,0,1,0,HOME_TEAM,Alejandro Muñiz Ruiz
+544377,2025,17,2025-12-21,FINISHED,Girona FC,Girona,GIR,Club Atlético de Madrid,Atleti,ATL,0,3,0,2,AWAY_TEAM,José Luis Guzmán Mansilla
+544378,2025,17,2025-12-21,FINISHED,Villarreal CF,Villarreal,VIL,FC Barcelona,Barça,FCB,0,2,0,1,AWAY_TEAM,Javier Alberola Rojas
+544373,2025,17,2025-12-21,FINISHED,Elche CF,Elche,ELC,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,4,0,1,0,HOME_TEAM,Adrián Cordero Vega
+544372,2025,17,2025-12-21,FINISHED,Real Betis Balompié,Real Betis,BET,Getafe CF,Getafe,GET,4,0,1,0,HOME_TEAM,Miguel Sesma Espinosa
+544371,2025,17,2025-12-22,FINISHED,Athletic Club,Athletic,ATH,RCD Espanyol de Barcelona,Espanyol,ESP,1,2,1,1,AWAY_TEAM,Mateo Busquets Ferrer
+544388,2025,18,2026-01-02,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,Getafe CF,Getafe,GET,1,1,1,0,DRAW,Miguel Ortiz Arias
+544382,2025,18,2026-01-03,FINISHED,RC Celta de Vigo,Celta,CEL,Valencia CF,Valencia,VAL,4,1,1,0,HOME_TEAM,Ricardo de Burgos
+544384,2025,18,2026-01-03,FINISHED,CA Osasuna,Osasuna,OSA,Athletic Club,Athletic,ATH,1,1,1,0,DRAW,José Munuera Montero
+544383,2025,18,2026-01-03,FINISHED,Elche CF,Elche,ELC,Villarreal CF,Villarreal,VIL,1,3,1,2,AWAY_TEAM,Isidro Díaz de Mera
+544386,2025,18,2026-01-03,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,FC Barcelona,Barça,FCB,0,2,0,0,AWAY_TEAM,Víctor García Acosta
+544390,2025,18,2026-01-04,FINISHED,Sevilla FC,Sevilla FC,SEV,Levante UD,Levante,LEV,0,3,0,1,AWAY_TEAM,Iosu Galech Apezteguía
+544387,2025,18,2026-01-04,FINISHED,Real Madrid CF,Real Madrid,RMA,Real Betis Balompié,Real Betis,BET,5,1,1,0,HOME_TEAM,Alejandro Hernández Hernández
+544381,2025,18,2026-01-04,FINISHED,Deportivo Alavés,Alavés,ALA,Real Oviedo,Real Oviedo,OVI,1,1,0,0,DRAW,Jesús Gil Manzano
+544389,2025,18,2026-01-04,FINISHED,RCD Mallorca,Mallorca,MAL,Girona FC,Girona,GIR,1,2,0,1,AWAY_TEAM,Javier Alberola Rojas
+544385,2025,18,2026-01-04,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,Club Atlético de Madrid,Atleti,ATL,1,1,0,0,DRAW,Juan Martínez Munuera
+544392,2025,19,2026-01-09,FINISHED,Getafe CF,Getafe,GET,Real Sociedad de Fútbol,Real Sociedad,RSO,1,2,0,1,AWAY_TEAM,Francisco Hernández Maeso
+544396,2025,19,2026-01-10,FINISHED,Real Oviedo,Real Oviedo,OVI,Real Betis Balompié,Real Betis,BET,1,1,0,0,DRAW,Guillermo Cuadra Fernández
+544394,2025,19,2026-01-10,FINISHED,Villarreal CF,Villarreal,VIL,Deportivo Alavés,Alavés,ALA,3,1,0,0,HOME_TEAM,Alejandro Muñiz Ruiz
+544393,2025,19,2026-01-10,FINISHED,Girona FC,Girona,GIR,CA Osasuna,Osasuna,OSA,1,0,1,0,HOME_TEAM,Alejandro Hernández Hernández
+544398,2025,19,2026-01-10,FINISHED,Valencia CF,Valencia,VAL,Elche CF,Elche,ELC,1,1,0,0,DRAW,Miguel Ortiz Arias
+544400,2025,19,2026-01-11,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,RCD Mallorca,Mallorca,MAL,2,1,2,1,HOME_TEAM,Juan Martínez Munuera
+544399,2025,19,2026-01-11,FINISHED,Levante UD,Levante,LEV,RCD Espanyol de Barcelona,Espanyol,ESP,1,1,0,0,DRAW,César Soto Grado
+544397,2025,19,2026-01-12,FINISHED,Sevilla FC,Sevilla FC,SEV,RC Celta de Vigo,Celta,CEL,0,1,0,0,AWAY_TEAM,José Sánchez Martínez
+544404,2025,20,2026-01-16,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,Girona FC,Girona,GIR,0,2,0,1,AWAY_TEAM,Iosu Galech Apezteguía
+544410,2025,20,2026-01-17,FINISHED,Real Madrid CF,Real Madrid,RMA,Levante UD,Levante,LEV,2,0,0,0,HOME_TEAM,Miguel Sesma Espinosa
+544408,2025,20,2026-01-17,FINISHED,RCD Mallorca,Mallorca,MAL,Athletic Club,Athletic,ATH,3,2,2,2,HOME_TEAM,José Luis Guzmán Mansilla
+544406,2025,20,2026-01-17,FINISHED,CA Osasuna,Osasuna,OSA,Real Oviedo,Real Oviedo,OVI,3,2,1,1,HOME_TEAM,Alejandro Quintero González
+544401,2025,20,2026-01-17,FINISHED,Real Betis Balompié,Real Betis,BET,Villarreal CF,Villarreal,VIL,2,0,0,0,HOME_TEAM,Víctor García Verdura
+544405,2025,20,2026-01-18,FINISHED,Getafe CF,Getafe,GET,Valencia CF,Valencia,VAL,0,1,0,0,AWAY_TEAM,Isidro Díaz de Mera
+544407,2025,20,2026-01-18,FINISHED,Club Atlético de Madrid,Atleti,ATL,Deportivo Alavés,Alavés,ALA,1,0,0,0,HOME_TEAM,Guillermo Cuadra Fernández
+544402,2025,20,2026-01-18,FINISHED,RC Celta de Vigo,Celta,CEL,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,3,0,1,0,HOME_TEAM,Mateo Busquets Ferrer
+544409,2025,20,2026-01-18,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,FC Barcelona,Barça,FCB,2,1,1,0,HOME_TEAM,Jesús Gil Manzano
+544403,2025,20,2026-01-19,FINISHED,Elche CF,Elche,ELC,Sevilla FC,Sevilla FC,SEV,2,2,1,0,DRAW,Ricardo de Burgos
+544416,2025,21,2026-01-23,FINISHED,Levante UD,Levante,LEV,Elche CF,Elche,ELC,3,2,0,1,HOME_TEAM,José Munuera Montero
+544419,2025,21,2026-01-24,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,CA Osasuna,Osasuna,OSA,1,3,0,1,AWAY_TEAM,Miguel Sesma Espinosa
+544417,2025,21,2026-01-24,FINISHED,Valencia CF,Valencia,VAL,RCD Espanyol de Barcelona,Espanyol,ESP,3,2,1,0,HOME_TEAM,Alejandro Hernández Hernández
+544414,2025,21,2026-01-24,FINISHED,Sevilla FC,Sevilla FC,SEV,Athletic Club,Athletic,ATH,2,1,1,1,HOME_TEAM,Francisco Hernández Maeso
+544420,2025,21,2026-01-24,FINISHED,Villarreal CF,Villarreal,VIL,Real Madrid CF,Real Madrid,RMA,0,2,0,0,AWAY_TEAM,César Soto Grado
+544412,2025,21,2026-01-25,FINISHED,Club Atlético de Madrid,Atleti,ATL,RCD Mallorca,Mallorca,MAL,3,0,1,0,HOME_TEAM,José Sánchez Martínez
+544413,2025,21,2026-01-25,FINISHED,FC Barcelona,Barça,FCB,Real Oviedo,Real Oviedo,OVI,3,0,0,0,HOME_TEAM,Juan Martínez Munuera
+544415,2025,21,2026-01-25,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,RC Celta de Vigo,Celta,CEL,3,1,1,0,HOME_TEAM,Javier Alberola Rojas
+544411,2025,21,2026-01-25,FINISHED,Deportivo Alavés,Alavés,ALA,Real Betis Balompié,Real Betis,BET,2,1,1,0,HOME_TEAM,Miguel Ortiz Arias
+544418,2025,21,2026-01-26,FINISHED,Girona FC,Girona,GIR,Getafe CF,Getafe,GET,1,1,0,0,DRAW,Alejandro Quintero González
+544425,2025,22,2026-01-30,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,Deportivo Alavés,Alavés,ALA,1,2,1,1,AWAY_TEAM,Miguel Sesma Espinosa
+544429,2025,22,2026-01-31,FINISHED,Real Oviedo,Real Oviedo,OVI,Girona FC,Girona,GIR,1,0,0,0,HOME_TEAM,Javier Alberola Rojas
+544424,2025,22,2026-01-31,FINISHED,CA Osasuna,Osasuna,OSA,Villarreal CF,Villarreal,VIL,2,2,2,1,DRAW,Ricardo de Burgos
+544426,2025,22,2026-01-31,FINISHED,Levante UD,Levante,LEV,Club Atlético de Madrid,Atleti,ATL,0,0,0,0,DRAW,Víctor García Verdura
+544427,2025,22,2026-01-31,FINISHED,Elche CF,Elche,ELC,FC Barcelona,Barça,FCB,1,3,1,2,AWAY_TEAM,Alejandro Muñiz Ruiz
+544430,2025,22,2026-02-01,FINISHED,Real Madrid CF,Real Madrid,RMA,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,2,1,1,0,HOME_TEAM,Isidro Díaz de Mera
+544422,2025,22,2026-02-01,FINISHED,Real Betis Balompié,Real Betis,BET,Valencia CF,Valencia,VAL,2,1,1,1,HOME_TEAM,José Sánchez Martínez
+544428,2025,22,2026-02-01,FINISHED,Getafe CF,Getafe,GET,RC Celta de Vigo,Celta,CEL,0,0,0,0,DRAW,Iosu Galech Apezteguía
+544421,2025,22,2026-02-01,FINISHED,Athletic Club,Athletic,ATH,Real Sociedad de Fútbol,Real Sociedad,RSO,1,1,0,1,DRAW,Guillermo Cuadra Fernández
+544423,2025,22,2026-02-02,FINISHED,RCD Mallorca,Mallorca,MAL,Sevilla FC,Sevilla FC,SEV,4,1,1,1,HOME_TEAM,César Soto Grado
+544435,2025,23,2026-02-06,FINISHED,RC Celta de Vigo,Celta,CEL,CA Osasuna,Osasuna,OSA,1,2,0,1,AWAY_TEAM,José Munuera Montero
+544434,2025,23,2026-02-07,FINISHED,FC Barcelona,Barça,FCB,RCD Mallorca,Mallorca,MAL,3,0,1,0,HOME_TEAM,Alejandro Quintero González
+544436,2025,23,2026-02-07,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,Elche CF,Elche,ELC,3,1,2,1,HOME_TEAM,José Luis Guzmán Mansilla
+544431,2025,23,2026-02-08,FINISHED,Deportivo Alavés,Alavés,ALA,Getafe CF,Getafe,GET,0,2,0,0,AWAY_TEAM,Juan Martínez Munuera
+544432,2025,23,2026-02-08,FINISHED,Athletic Club,Athletic,ATH,Levante UD,Levante,LEV,4,2,2,0,HOME_TEAM,Alejandro Muñiz Ruiz
+544438,2025,23,2026-02-08,FINISHED,Sevilla FC,Sevilla FC,SEV,Girona FC,Girona,GIR,1,1,0,1,DRAW,Jesús Gil Manzano
+544433,2025,23,2026-02-08,FINISHED,Club Atlético de Madrid,Atleti,ATL,Real Betis Balompié,Real Betis,BET,0,1,0,1,AWAY_TEAM,Mateo Busquets Ferrer
+544439,2025,23,2026-02-08,FINISHED,Valencia CF,Valencia,VAL,Real Madrid CF,Real Madrid,RMA,0,2,0,0,AWAY_TEAM,Javier Alberola Rojas
+544437,2025,23,2026-02-09,FINISHED,Villarreal CF,Villarreal,VIL,RCD Espanyol de Barcelona,Espanyol,ESP,4,1,2,0,HOME_TEAM,Javier Alberola Rojas
+544441,2025,24,2026-02-13,FINISHED,Elche CF,Elche,ELC,CA Osasuna,Osasuna,OSA,0,0,0,0,DRAW,José Sánchez Martínez
+544450,2025,24,2026-02-14,FINISHED,RCD Espanyol de Barcelona,Espanyol,ESP,RC Celta de Vigo,Celta,CEL,2,2,0,1,DRAW,Guillermo Cuadra Fernández
+544442,2025,24,2026-02-14,FINISHED,Getafe CF,Getafe,GET,Villarreal CF,Villarreal,VIL,2,1,1,0,HOME_TEAM,Miguel Sesma Espinosa
+544445,2025,24,2026-02-14,FINISHED,Sevilla FC,Sevilla FC,SEV,Deportivo Alavés,Alavés,ALA,1,1,1,0,DRAW,Iosu Galech Apezteguía
+544444,2025,24,2026-02-14,FINISHED,Real Madrid CF,Real Madrid,RMA,Real Sociedad de Fútbol,Real Sociedad,RSO,4,1,3,1,HOME_TEAM,Francisco Hernández Maeso
+544446,2025,24,2026-02-15,FINISHED,Real Oviedo,Real Oviedo,OVI,Athletic Club,Athletic,ATH,1,2,1,0,AWAY_TEAM,Mateo Busquets Ferrer
+544447,2025,24,2026-02-15,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,Club Atlético de Madrid,Atleti,ATL,3,0,2,0,HOME_TEAM,Ricardo de Burgos
+544443,2025,24,2026-02-15,FINISHED,Levante UD,Levante,LEV,Valencia CF,Valencia,VAL,0,2,0,0,AWAY_TEAM,Miguel Ortiz Arias
+544449,2025,24,2026-02-15,FINISHED,RCD Mallorca,Mallorca,MAL,Real Betis Balompié,Real Betis,BET,1,2,0,2,AWAY_TEAM,Isidro Díaz de Mera
+544448,2025,24,2026-02-16,FINISHED,Girona FC,Girona,GIR,FC Barcelona,Barça,FCB,2,1,0,0,HOME_TEAM,César Soto Grado
+544364,2025,16,2026-02-18,FINISHED,Levante UD,Levante,LEV,Villarreal CF,Villarreal,VIL,0,1,0,0,AWAY_TEAM,Juan Martínez Munuera
+544452,2025,25,2026-02-20,FINISHED,Athletic Club,Athletic,ATH,Elche CF,Elche,ELC,2,1,0,0,HOME_TEAM,Alejandro Hernández Hernández
+544460,2025,25,2026-02-21,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,Real Oviedo,Real Oviedo,OVI,3,3,0,0,DRAW,José Munuera Montero
+544455,2025,25,2026-02-21,FINISHED,Real Betis Balompié,Real Betis,BET,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,1,1,1,1,DRAW,Juan Martínez Munuera
+544458,2025,25,2026-02-21,FINISHED,CA Osasuna,Osasuna,OSA,Real Madrid CF,Real Madrid,RMA,2,1,1,0,HOME_TEAM,Alejandro Quintero González
+544453,2025,25,2026-02-21,FINISHED,Club Atlético de Madrid,Atleti,ATL,RCD Espanyol de Barcelona,Espanyol,ESP,4,2,1,1,HOME_TEAM,Alejandro Muñiz Ruiz
+544457,2025,25,2026-02-22,FINISHED,Getafe CF,Getafe,GET,Sevilla FC,Sevilla FC,SEV,0,1,0,0,AWAY_TEAM,Mateo Busquets Ferrer
+544454,2025,25,2026-02-22,FINISHED,FC Barcelona,Barça,FCB,Levante UD,Levante,LEV,3,0,2,0,HOME_TEAM,Javier Alberola Rojas
+544456,2025,25,2026-02-22,FINISHED,RC Celta de Vigo,Celta,CEL,RCD Mallorca,Mallorca,MAL,2,0,0,0,HOME_TEAM,José Luis Guzmán Mansilla
+544459,2025,25,2026-02-22,FINISHED,Villarreal CF,Villarreal,VIL,Valencia CF,Valencia,VAL,2,1,2,1,HOME_TEAM,Jesús Gil Manzano
+544451,2025,25,2026-02-23,FINISHED,Deportivo Alavés,Alavés,ALA,Girona FC,Girona,GIR,2,2,1,1,DRAW,Adrián Cordero Vega
+544465,2025,26,2026-02-27,FINISHED,Levante UD,Levante,LEV,Deportivo Alavés,Alavés,ALA,2,0,0,0,HOME_TEAM,Francisco Hernández Maeso
+544466,2025,26,2026-02-28,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,Athletic Club,Athletic,ATH,1,1,1,0,DRAW,Víctor García Verdura
+544461,2025,26,2026-02-28,FINISHED,FC Barcelona,Barça,FCB,Villarreal CF,Villarreal,VIL,4,1,2,0,HOME_TEAM,Isidro Díaz de Mera
+544464,2025,26,2026-02-28,FINISHED,RCD Mallorca,Mallorca,MAL,Real Sociedad de Fútbol,Real Sociedad,RSO,0,1,0,1,AWAY_TEAM,Miguel Sesma Espinosa
+544467,2025,26,2026-02-28,FINISHED,Real Oviedo,Real Oviedo,OVI,Club Atlético de Madrid,Atleti,ATL,0,1,0,0,AWAY_TEAM,César Soto Grado
+544463,2025,26,2026-03-01,FINISHED,Elche CF,Elche,ELC,RCD Espanyol de Barcelona,Espanyol,ESP,2,2,1,1,DRAW,Iosu Galech Apezteguía
+544470,2025,26,2026-03-01,FINISHED,Valencia CF,Valencia,VAL,CA Osasuna,Osasuna,OSA,1,0,0,0,HOME_TEAM,Adrián Cordero Vega
+544462,2025,26,2026-03-01,FINISHED,Real Betis Balompié,Real Betis,BET,Sevilla FC,Sevilla FC,SEV,2,2,2,0,DRAW,Ricardo de Burgos
+544468,2025,26,2026-03-01,FINISHED,Girona FC,Girona,GIR,RC Celta de Vigo,Celta,CEL,1,2,1,0,AWAY_TEAM,Miguel Ortiz Arias
+544469,2025,26,2026-03-02,FINISHED,Real Madrid CF,Real Madrid,RMA,Getafe CF,Getafe,GET,0,1,0,1,AWAY_TEAM,Alejandro Muñiz Ruiz
+544440,2025,23,2026-03-04,FINISHED,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,Real Oviedo,Real Oviedo,OVI,3,0,1,0,HOME_TEAM,Alejandro Hernández Hernández
+544473,2025,27,2026-03-06,FINISHED,RC Celta de Vigo,Celta,CEL,Real Madrid CF,Real Madrid,RMA,1,2,1,1,AWAY_TEAM,Isidro Díaz de Mera
