@@ -186,6 +186,7 @@ footer span { color: var(--accent); }
   <div class="nav-breadcrumb" id="breadcrumb"><span>Overview</span></div>
   <div class="season-tabs">
     <button class="tab active" onclick="switchSeason('2023')">23/24</button>
+    <button class="tab" onclick="switchSeason('2025')">25/26</button>
     <button class="tab" onclick="switchSeason('2024')">24/25</button>
   </div>
 </nav>
@@ -330,8 +331,11 @@ async function loadCSV(url) {
 
 async function switchSeason(s) {
   currentSeason = s;
-  document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active',(s==='2023'&&i===0)||(s==='2024'&&i===1)));
-  document.getElementById('seasonLabel').textContent = s==='2023' ? '2023/24' : '2024/25';
+  document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active',
+    (s==='2023'&&i===0)||(s==='2024'&&i===1)||(s==='2025'&&i===2)
+  ));
+  const labels = {'2023':'2023/24','2024':'2024/25','2025':'2025/26'};
+  document.getElementById('seasonLabel').textContent = labels[s];
   await loadAndRenderOverview();
 }
 
