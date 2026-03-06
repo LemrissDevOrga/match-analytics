@@ -186,8 +186,8 @@ footer span { color: var(--accent); }
   <div class="nav-breadcrumb" id="breadcrumb"><span>Overview</span></div>
   <div class="season-tabs">
     <button class="tab active" onclick="switchSeason('2023')">23/24</button>
-    <button class="tab" onclick="switchSeason('2025')">25/26</button>
     <button class="tab" onclick="switchSeason('2024')">24/25</button>
+    <button class="tab" onclick="switchSeason('2025')">25/26</button>
   </div>
 </nav>
 
@@ -459,7 +459,8 @@ function showTeam(teamName) {
   document.getElementById('teamAvatar').textContent = tla;
   document.getElementById('teamHeroName').textContent = teamName;
   const rankPos = [...allStats].sort((a,b)=>b.points-a.points).findIndex(t=>t.team===teamName)+1;
-  document.getElementById('teamHeroSub').textContent = `${currentSeason==='2023'?'2023/24':'2024/25'} · ${stat.played} matches · Rank #${rankPos}`;
+  const seasonLabels = {'2023':'2023/24','2024':'2024/25','2025':'2025/26'};
+  document.getElementById('teamHeroSub').textContent = `${seasonLabels[currentSeason]} · ${stat.played} matches · Rank #${rankPos}`;
   document.getElementById('breadcrumb').innerHTML = `<span style="cursor:pointer;color:var(--muted2)" onclick="showOverview()">Overview</span><span class="crumb-sep">›</span><span class="crumb-active">${teamName}</span>`;
 
   const winRate = stat.played ? ((stat.wins/stat.played)*100).toFixed(0) : 0;
