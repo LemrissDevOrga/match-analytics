@@ -699,10 +699,9 @@ function showTeamSection(id,btn){
 
 // ── H2H ──────────────────────────────────────────────────────
 async function loadH2HData(){
-  document.getElementById('h2hResults').innerHTML=`<div class="loading"><div class="spinner"></div><span>Loading all leagues data…</span></div>`;
+  document.getElementById('h2hResults').innerHTML=`<div class="loading"><div class="spinner"></div><span>Loading all competitions data…</span></div>`;
   const allMatches=[];
   for(const league of Object.keys(LEAGUE_CONFIG)){
-    if(LEAGUE_CONFIG[league].isCup)continue;
     const cfg=LEAGUE_CONFIG[league];
     for(const season of cfg.seasons){
       try{
