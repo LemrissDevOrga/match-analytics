@@ -14344,11 +14344,11 @@
     },
     "id": 542623,
     "utcDate": "2026-03-07T16:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-01T01:32:04Z",
+    "lastUpdated": "2026-03-07T18:01:41Z",
     "homeTeam": {
       "id": 543,
       "name": "FC Nantes",
@@ -14364,15 +14364,27 @@
       "crest": "https://crests.football-data.org/532.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -14410,11 +14422,11 @@
     },
     "id": 542622,
     "utcDate": "2026-03-07T18:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-01T01:32:04Z",
+    "lastUpdated": "2026-03-07T19:58:30Z",
     "homeTeam": {
       "id": 519,
       "name": "AJ Auxerre",
@@ -14430,21 +14442,40 @@
       "crest": "https://crests.football-data.org/576.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57073,
+        "name": "J\u00e9r\u00e9mie Pignard",
+        "type": "REFEREE",
+        "nationality": "France"
+      }
+    ]
   },
   {
     "area": {
@@ -14469,11 +14500,11 @@
     },
     "id": 542624,
     "utcDate": "2026-03-07T20:05:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-02T01:32:03Z",
+    "lastUpdated": "2026-03-07T22:07:25Z",
     "homeTeam": {
       "id": 511,
       "name": "Toulouse FC",
@@ -14489,21 +14520,40 @@
       "crest": "https://crests.football-data.org/516.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57088,
+        "name": "Bastien Dechepy",
+        "type": "REFEREE",
+        "nationality": "France"
+      }
+    ]
   },
   {
     "area": {

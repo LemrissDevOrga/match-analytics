@@ -1,19 +1,19 @@
 team,home_team_tla,played,wins,draws,losses,points,goals_scored,goals_conceded,goal_difference,avg_goals_scored,avg_goals_conceded,clean_sheets,home_wins,home_draws,home_losses,away_wins,away_draws,away_losses,form_last5
 FC Porto,FCP,24,21,2,1,65,47,8,39,1.96,0.33,17,10,2,0,11,0,1,LDWWW
-Sporting Clube de Portugal,SPO,24,19,4,1,61,62,12,50,2.58,0.5,13,10,1,1,9,3,0,WDWWW
+Sporting Clube de Portugal,SPO,25,19,5,1,62,64,14,50,2.56,0.56,13,10,1,1,9,4,0,DWWWD
 Sport Lisboa e Benfica,BEN,24,17,7,0,58,51,14,37,2.12,0.58,12,8,4,0,9,3,0,DWWWW
-Sporting Clube de Braga,SCB,24,13,6,5,45,50,23,27,2.08,0.96,9,7,2,2,6,4,3,WWLWW
+Sporting Clube de Braga,SCB,25,13,7,5,46,52,25,27,2.08,1.0,9,7,3,2,6,4,3,WLWWD
 Gil Vicente FC,GIL,24,11,7,6,40,35,23,12,1.46,0.96,10,7,2,3,4,5,3,WWWLL
 FC Famalicão,FAM,25,11,6,8,39,30,21,9,1.2,0.84,13,7,2,4,4,4,4,WLWDW
-Moreirense FC,MOR,24,10,4,10,34,30,34,-4,1.25,1.42,7,6,1,4,4,3,6,LLWLD
-GD Estoril Praia,EST,24,9,6,9,33,46,42,4,1.92,1.75,3,6,4,2,3,2,7,WDLWL
+Moreirense FC,MOR,25,10,5,10,35,31,35,-4,1.24,1.4,7,6,2,4,4,3,6,LWLDD
+GD Estoril Praia,EST,25,9,7,9,34,46,42,4,1.84,1.68,4,6,5,2,3,2,7,DLWLD
 Vitória SC,GUI,24,9,5,10,32,28,35,-7,1.17,1.46,7,6,4,3,3,1,7,WLWLD
-FC Alverca,ALV,24,7,6,11,27,24,39,-15,1.0,1.62,5,5,3,4,2,3,7,DLDDD
+FC Alverca,ALV,25,7,7,11,28,24,39,-15,0.96,1.56,6,5,4,4,2,3,7,LDDDD
 FC Arouca,FCA,25,7,5,13,26,32,53,-21,1.28,2.12,5,4,3,5,3,2,8,WLWLL
 CF Estrela da Amadora,AMA,24,5,9,10,24,26,41,-15,1.08,1.71,6,3,4,5,2,5,5,DWLLD
-Casa Pia AC,CAS,24,5,8,11,23,26,44,-18,1.08,1.83,4,2,6,4,3,2,7,WDWLD
-CD Nacional,CDN,24,5,6,13,21,28,36,-8,1.17,1.5,4,3,2,7,2,4,6,LDLLL
+Casa Pia AC,CAS,25,5,9,11,24,26,44,-18,1.04,1.76,5,2,6,4,3,3,7,DWLDD
+CD Nacional,CDN,25,5,7,13,22,29,37,-8,1.16,1.48,4,3,2,7,2,5,6,DLLLD
 Rio Ave FC,RIO,24,4,9,11,21,23,44,-21,0.96,1.83,3,2,4,6,2,5,5,LLLLD
 CD Tondela,TON,24,4,7,13,19,19,38,-19,0.79,1.58,4,1,5,6,3,2,7,DDDWD
 CD Santa Clara,CD ,24,4,7,13,19,20,31,-11,0.83,1.29,5,3,2,7,1,5,6,LLLDD
-AVS,AVS,24,1,6,17,9,18,57,-39,0.75,2.38,2,1,4,8,0,2,9,LLWLD
+AVS,AVS,25,1,7,17,10,18,57,-39,0.72,2.28,3,1,4,8,0,3,9,LWLDD

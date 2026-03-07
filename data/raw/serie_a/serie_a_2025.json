@@ -17908,11 +17908,11 @@
     },
     "id": 537088,
     "utcDate": "2026-03-07T14:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-07T14:55:06Z",
+    "lastUpdated": "2026-03-07T16:03:20Z",
     "homeTeam": {
       "id": 104,
       "name": "Cagliari Calcio",
@@ -17931,8 +17931,8 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 1
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
         "home": 0,
@@ -17986,11 +17986,11 @@
     },
     "id": 537087,
     "utcDate": "2026-03-07T17:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-03T01:32:02Z",
+    "lastUpdated": "2026-03-07T19:02:11Z",
     "homeTeam": {
       "id": 102,
       "name": "Atalanta BC",
@@ -18006,21 +18006,40 @@
       "crest": "https://crests.football-data.org/115.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11018,
+        "name": "Antonio Rapuano",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -18045,11 +18064,11 @@
     },
     "id": 537091,
     "utcDate": "2026-03-07T19:45:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-01T01:32:04Z",
+    "lastUpdated": "2026-03-07T21:43:00Z",
     "homeTeam": {
       "id": 109,
       "name": "Juventus FC",
@@ -18065,21 +18084,40 @@
       "crest": "https://crests.football-data.org/487.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 206189,
+        "name": "Juan Luca Sacchi",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {

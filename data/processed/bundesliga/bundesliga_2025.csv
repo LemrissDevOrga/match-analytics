@@ -216,3 +216,9 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 540616,2025,24,2026-03-01,FINISHED,REGULAR_SEASON,Hamburger SV,HSV,HSV,RB Leipzig,RB Leipzig,RBL,1,2,1,1,AWAY_TEAM,REGULAR,Bastian Dankert
 540558,2025,17,2026-03-04,FINISHED,REGULAR_SEASON,Hamburger SV,HSV,HSV,Bayer 04 Leverkusen,Leverkusen,B04,0,1,0,0,AWAY_TEAM,REGULAR,Sören Storks
 540627,2025,25,2026-03-06,FINISHED,REGULAR_SEASON,FC Bayern München,Bayern,FCB,Borussia Mönchengladbach,M'gladbach,BMG,4,1,2,0,HOME_TEAM,REGULAR,Robert Schröder
+540622,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,SC Freiburg,Freiburg,SCF,Bayer 04 Leverkusen,Leverkusen,B04,3,3,2,2,DRAW,REGULAR,Benjamin Brand
+540626,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,1. FSV Mainz 05,Mainz,M05,VfB Stuttgart,Stuttgart,VFB,2,2,1,0,DRAW,REGULAR,Matthias Jöllenbeck
+540628,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,RB Leipzig,RB Leipzig,RBL,FC Augsburg,Augsburg,FCA,2,1,0,1,HOME_TEAM,REGULAR,Martin Petersen
+540629,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,1. FC Heidenheim 1846,Heidenheim,HEI,TSG 1899 Hoffenheim,Hoffenheim,TSG,2,4,0,2,AWAY_TEAM,REGULAR,Robert Hartmann
+540630,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,VfL Wolfsburg,Wolfsburg,WOB,Hamburger SV,HSV,HSV,1,2,1,1,AWAY_TEAM,REGULAR,Florian Exner
+540624,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,1. FC Köln,1. FC Köln,KOE,Borussia Dortmund,Dortmund,BVB,1,2,0,1,AWAY_TEAM,REGULAR,Daniel Siebert

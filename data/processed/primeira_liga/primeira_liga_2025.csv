@@ -216,3 +216,7 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 545910,2025,24,2026-03-01,FINISHED,REGULAR_SEASON,Rio Ave FC,Rio Ave,RIO,FC Famalicão,Famalicão,FAM,0,0,0,0,DRAW,REGULAR,José Bessa
 545913,2025,24,2026-03-02,FINISHED,REGULAR_SEASON,Gil Vicente FC,Gil Vicente,GIL,Sport Lisboa e Benfica,SL Benfica,BEN,1,2,0,1,AWAY_TEAM,REGULAR,João Gonçalves
 545918,2025,25,2026-03-06,FINISHED,REGULAR_SEASON,FC Famalicão,Famalicão,FAM,FC Arouca,Arouca,FCA,1,0,0,0,HOME_TEAM,REGULAR,António Nobre
+545916,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,FC Alverca,Alverca,ALV,AVS,AVS,AVS,0,0,0,0,DRAW,REGULAR,João Gonçalves
+545921,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,Moreirense FC,Moreirense,MOR,CD Nacional,CD Nacional,CDN,1,1,1,0,DRAW,REGULAR,Marcio Torres
+545923,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,Sporting Clube de Braga,Braga,SCB,Sporting Clube de Portugal,Sporting CP,SPO,2,2,1,2,DRAW,REGULAR,Miguel Nogueira
+545917,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,GD Estoril Praia,Estoril Praia,EST,Casa Pia AC,Casa Pia,CAS,0,0,0,0,DRAW,REGULAR,Bruno Costa

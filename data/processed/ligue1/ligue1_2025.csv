@@ -216,3 +216,6 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 542619,2025,24,2026-03-01,FINISHED,REGULAR_SEASON,Lille OSC,Lille,LIL,FC Nantes,Nantes,NAN,1,0,0,0,HOME_TEAM,REGULAR,Thomas Léonard
 542618,2025,24,2026-03-01,FINISHED,REGULAR_SEASON,Olympique de Marseille,Marseille,MAR,Olympique Lyonnais,Olympique Lyon,LYO,3,2,0,1,HOME_TEAM,REGULAR,Jérôme Brisard
 542628,2025,25,2026-03-06,FINISHED,REGULAR_SEASON,Paris Saint-Germain FC,PSG,PSG,AS Monaco FC,Monaco,ASM,1,3,0,1,AWAY_TEAM,REGULAR,Ruddy Buquet
+542623,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,FC Nantes,Nantes,NAN,Angers SCO,Angers SCO,ANG,0,1,0,0,AWAY_TEAM,REGULAR,Willy Delajod
+542622,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,AJ Auxerre,Auxerre,AJA,RC Strasbourg Alsace,Strasbourg,RC ,0,0,0,0,DRAW,REGULAR,Jérémie Pignard
+542624,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,Toulouse FC,Toulouse,TOU,Olympique de Marseille,Marseille,MAR,0,1,0,1,AWAY_TEAM,REGULAR,Bastien Dechepy

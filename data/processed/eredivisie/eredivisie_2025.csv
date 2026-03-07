@@ -225,3 +225,6 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 537658,2025,25,2026-03-01,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,AZ,AZ,AZ,2,0,2,0,HOME_TEAM,REGULAR,Rob Dieperink
 537657,2025,25,2026-03-01,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,Go Ahead Eagles,Go Ahead,GOA,0,1,0,0,AWAY_TEAM,REGULAR,Jannick van der Laan
 537670,2025,26,2026-03-06,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,FC Utrecht,Utrecht,UTR,0,0,0,0,DRAW,REGULAR,Jannick van der Laan
+537667,2025,26,2026-03-07,FINISHED,REGULAR_SEASON,FC Groningen,Groningen,GRO,AFC Ajax,Ajax,AJA,3,1,1,1,HOME_TEAM,REGULAR,Serdar Gözübüyük
+537673,2025,26,2026-03-07,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,AZ,AZ,AZ,2,1,1,1,HOME_TEAM,REGULAR,Sander Van der Eijk
+537666,2025,26,2026-03-07,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,SC Heerenveen,Heerenveen,HEE,1,2,0,1,AWAY_TEAM,REGULAR,Danny Makkelie

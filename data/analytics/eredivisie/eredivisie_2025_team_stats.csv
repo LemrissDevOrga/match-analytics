@@ -1,19 +1,19 @@
 team,home_team_tla,played,wins,draws,losses,points,goals_scored,goals_conceded,goal_difference,avg_goals_scored,avg_goals_conceded,clean_sheets,home_wins,home_draws,home_losses,away_wins,away_draws,away_losses,form_last5
-PSV,PSV,25,21,2,2,65,73,30,43,2.92,1.2,6,9,2,1,12,0,1,WWLWW
+PSV,PSV,26,22,2,2,68,75,31,44,2.88,1.19,6,10,2,1,12,0,1,WLWWW
 Feyenoord Rotterdam,FEY,25,15,3,7,48,55,35,20,2.2,1.4,8,9,1,3,6,2,4,LWWWL
-AFC Ajax,AJA,25,11,11,3,44,47,31,16,1.88,1.24,6,8,3,2,3,8,1,DDWDD
+AFC Ajax,AJA,26,11,11,4,44,48,34,14,1.85,1.31,6,8,3,2,3,8,2,DWDDL
 NEC,NEC,25,12,7,6,43,61,43,18,2.44,1.72,3,7,2,3,5,5,3,WLDDL
 FC Twente '65,TWE,25,10,11,4,41,41,26,15,1.64,1.04,7,7,4,2,3,7,2,DWDWW
-AZ,AZ,25,11,6,8,39,42,40,2,1.68,1.6,5,5,5,2,6,1,6,LDWWL
+AZ,AZ,26,11,6,9,39,43,42,1,1.65,1.62,5,5,5,2,6,1,7,DWWLL
+SC Heerenveen,HEE,26,10,7,9,37,44,44,0,1.69,1.69,2,5,5,3,5,2,6,WWLWW
 Sparta Rotterdam,SPA,25,11,4,10,37,32,42,-10,1.28,1.68,9,5,3,4,6,1,6,WDDLL
 FC Utrecht,UTR,26,9,8,9,35,38,31,7,1.46,1.19,5,6,3,4,3,5,5,WWDWD
-SC Heerenveen,HEE,25,9,7,9,34,42,43,-1,1.68,1.72,2,5,5,3,4,2,6,LWWLW
+FC Groningen,GRO,26,10,4,12,34,36,36,0,1.38,1.38,7,5,3,5,5,1,7,LLLLW
 Fortuna Sittard,SIT,25,9,5,11,32,39,45,-6,1.56,1.8,3,6,3,3,3,2,8,LDLWW
-FC Groningen,GRO,25,9,4,12,31,33,35,-2,1.32,1.4,7,4,3,5,5,1,7,LLLLL
 Go Ahead Eagles,GOA,25,6,11,8,29,38,39,-1,1.52,1.56,5,4,6,2,2,5,6,DLLWW
 PEC Zwolle,ZWO,25,7,7,11,28,34,50,-16,1.36,2.0,5,6,2,4,1,5,7,WLLDD
 FC Volendam,VOL,25,7,6,12,27,29,41,-12,1.16,1.64,1,6,4,3,1,2,9,DWWLW
-SBV Excelsior,EXC,25,7,5,13,26,26,42,-16,1.04,1.68,5,4,2,7,3,3,6,DWLLL
+SBV Excelsior,EXC,26,7,5,14,26,27,44,-17,1.04,1.69,5,4,2,8,3,3,6,WLLLL
 NAC Breda,NAC,25,5,7,13,22,25,39,-14,1.0,1.56,4,4,3,6,1,4,7,DLWWL
 Telstar 1963,TEL,25,4,9,12,21,31,41,-10,1.24,1.64,4,2,5,6,2,4,6,LDDLW
 Heracles Almelo,HER,26,5,3,18,18,32,65,-33,1.23,2.5,2,4,2,7,1,1,11,LLLLD

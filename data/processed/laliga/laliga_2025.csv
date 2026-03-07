@@ -260,3 +260,7 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 544469,2025,26,2026-03-02,FINISHED,REGULAR_SEASON,Real Madrid CF,Real Madrid,RMA,Getafe CF,Getafe,GET,0,1,0,1,AWAY_TEAM,REGULAR,Alejandro Muñiz Ruiz
 544440,2025,23,2026-03-04,FINISHED,REGULAR_SEASON,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,Real Oviedo,Real Oviedo,OVI,3,0,1,0,HOME_TEAM,REGULAR,Alejandro Hernández Hernández
 544473,2025,27,2026-03-06,FINISHED,REGULAR_SEASON,RC Celta de Vigo,Celta,CEL,Real Madrid CF,Real Madrid,RMA,1,2,1,1,AWAY_TEAM,REGULAR,Isidro Díaz de Mera
+544479,2025,27,2026-03-07,FINISHED,REGULAR_SEASON,CA Osasuna,Osasuna,OSA,RCD Mallorca,Mallorca,MAL,2,2,0,1,DRAW,REGULAR,Alejandro Hernández Hernández
+544478,2025,27,2026-03-07,FINISHED,REGULAR_SEASON,Levante UD,Levante,LEV,Girona FC,Girona,GIR,1,1,0,0,DRAW,REGULAR,Guillermo Cuadra Fernández
+544472,2025,27,2026-03-07,FINISHED,REGULAR_SEASON,Club Atlético de Madrid,Atleti,ATL,Real Sociedad de Fútbol,Real Sociedad,RSO,3,2,1,1,HOME_TEAM,REGULAR,Adrián Cordero Vega
+544471,2025,27,2026-03-07,FINISHED,REGULAR_SEASON,Athletic Club,Athletic,ATH,FC Barcelona,Barça,FCB,0,1,0,0,AWAY_TEAM,REGULAR,José Munuera Montero

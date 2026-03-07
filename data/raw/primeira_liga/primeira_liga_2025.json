@@ -13392,11 +13392,11 @@
     },
     "id": 545916,
     "utcDate": "2026-03-07T15:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-01T01:32:04Z",
+    "lastUpdated": "2026-03-07T17:37:20Z",
     "homeTeam": {
       "id": 7822,
       "name": "FC Alverca",
@@ -13412,15 +13412,27 @@
       "crest": "https://crests.football-data.org/10340.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -13458,11 +13470,11 @@
     },
     "id": 545921,
     "utcDate": "2026-03-07T15:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-02T01:32:02Z",
+    "lastUpdated": "2026-03-07T17:41:20Z",
     "homeTeam": {
       "id": 583,
       "name": "Moreirense FC",
@@ -13478,15 +13490,27 @@
       "crest": "https://crests.football-data.org/5529.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -13524,11 +13548,11 @@
     },
     "id": 545923,
     "utcDate": "2026-03-07T18:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-01T01:32:04Z",
+    "lastUpdated": "2026-03-07T20:10:30Z",
     "homeTeam": {
       "id": 5613,
       "name": "Sporting Clube de Braga",
@@ -13544,21 +13568,40 @@
       "crest": "https://crests.football-data.org/498.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 40158,
+        "name": "Miguel Nogueira",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
@@ -13583,11 +13626,11 @@
     },
     "id": 545917,
     "utcDate": "2026-03-07T20:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-02T01:32:03Z",
+    "lastUpdated": "2026-03-07T22:31:45Z",
     "homeTeam": {
       "id": 582,
       "name": "GD Estoril Praia",
@@ -13603,21 +13646,40 @@
       "crest": "https://crests.football-data.org/6618.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 220513,
+        "name": "Bruno Costa",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
