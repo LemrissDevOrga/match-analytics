@@ -1,0 +1,19 @@
+team,home_team_tla,played,wins,draws,losses,points,goals_scored,goals_conceded,goal_difference,avg_goals_scored,avg_goals_conceded,clean_sheets,home_wins,home_draws,home_losses,away_wins,away_draws,away_losses,form_last5
+FC Bayern München,FCB,34,25,7,2,82,99,32,67,2.91,0.94,16,14,2,1,11,5,1,WWDWW
+Bayer 04 Leverkusen,B04,34,19,12,3,69,72,43,29,2.12,1.26,9,10,4,3,9,8,0,DWDLD
+Eintracht Frankfurt,SGE,34,17,9,8,60,68,46,22,2.0,1.35,9,10,4,3,7,5,5,DWDDW
+Borussia Dortmund,BVB,34,17,6,11,57,71,51,20,2.09,1.5,7,11,3,3,6,3,8,WWWWW
+SC Freiburg,SCF,34,16,7,11,55,49,53,-4,1.44,1.56,11,9,3,5,7,4,6,WWDWL
+1. FSV Mainz 05,M05,34,14,10,10,52,55,43,12,1.62,1.26,9,6,8,3,8,2,7,DLDWD
+RB Leipzig,RBL,34,13,12,9,51,53,48,5,1.56,1.41,14,8,6,3,5,6,6,DLDDL
+SV Werder Bremen,SVW,34,14,9,11,51,54,57,-3,1.59,1.68,10,5,6,6,9,3,5,WDDDW
+VfB Stuttgart,VFB,34,14,8,12,50,64,53,11,1.88,1.56,7,7,2,8,7,6,4,DLWWW
+Borussia Mönchengladbach,BMG,34,13,6,15,45,55,57,-2,1.62,1.68,7,7,3,7,6,3,8,LLDLL
+VfL Wolfsburg,WOB,34,11,10,13,43,56,54,2,1.65,1.59,6,3,7,7,8,3,6,DLLDW
+FC Augsburg,FCA,34,11,10,13,43,35,51,-16,1.03,1.5,11,6,5,6,5,5,7,DLLLL
+1. FC Union Berlin,UNB,33,10,10,13,40,35,49,-14,1.06,1.48,8,5,6,5,5,4,8,DDDLW
+FC St. Pauli 1910,STP,34,8,8,18,32,28,41,-13,0.82,1.21,9,3,5,9,5,3,9,DDLDL
+TSG 1899 Hoffenheim,TSG,34,7,11,16,32,46,68,-22,1.35,2.0,4,4,5,8,3,6,8,LLDDL
+1. FC Heidenheim 1846,HEI,34,8,5,21,29,37,64,-27,1.09,1.88,9,3,2,12,5,3,9,LWDWL
+Holstein Kiel,KSV,34,6,7,21,25,49,80,-31,1.44,2.35,2,4,2,11,2,5,10,DWWLL
+VfL Bochum 1848,BOC,33,5,7,21,22,31,67,-36,0.94,2.03,5,3,4,10,2,3,11,LDDLW

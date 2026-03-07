@@ -1,13 +1,14 @@
 import pandas as pd
-import json
 import os
 
-PROCESSED_DIR = "data/processed"
-ANALYTICS_DIR = "data/analytics"
-SEASONS = [2023, 2024, 2025]
-
-def load_season(season):
-    return pd.read_csv(f"{PROCESSED_DIR}/laliga_{season}.csv")
+LEAGUES = {
+    "laliga":           [2023, 2024, 2025],
+    "premier_league":   [2023, 2024, 2025],
+    "champions_league": [2023, 2024, 2025],
+    "ligue1":           [2023, 2024, 2025],
+    "serie_a":          [2023, 2024, 2025],
+    "bundesliga":       [2023, 2024, 2025],
+}
 
 def compute_team_stats(df):
     teams = set(df["home_team"].unique()) | set(df["away_team"].unique())
@@ -17,11 +18,9 @@ def compute_team_stats(df):
         home = df[df["home_team"] == team].copy()
         away = df[df["away_team"] == team].copy()
 
-        # Wins, draws, losses
         home_wins   = (home["result"] == "HOME_TEAM").sum()
         home_draws  = (home["result"] == "DRAW").sum()
         home_losses = (home["result"] == "AWAY_TEAM").sum()
-
         away_wins   = (away["result"] == "AWAY_TEAM").sum()
         away_draws  = (away["result"] == "DRAW").sum()
         away_losses = (away["result"] == "HOME_TEAM").sum()
@@ -31,73 +30,60 @@ def compute_team_stats(df):
         total_losses = home_losses + away_losses
         total_played = total_wins + total_draws + total_losses
 
-        # Goals
-        goals_scored    = home["home_goals_ft"].sum() + away["away_goals_ft"].sum()
-        goals_conceded  = home["away_goals_ft"].sum() + away["home_goals_ft"].sum()
-        goal_difference = goals_scored - goals_conceded
-        points          = (total_wins * 3) + total_draws
+        goals_scored   = home["home_goals_ft"].sum() + away["away_goals_ft"].sum()
+        goals_conceded = home["away_goals_ft"].sum() + away["home_goals_ft"].sum()
+        goal_diff      = goals_scored - goals_conceded
+        points         = (total_wins * 3) + total_draws
 
-        # Averages
         avg_scored   = round(goals_scored / total_played, 2) if total_played else 0
         avg_conceded = round(goals_conceded / total_played, 2) if total_played else 0
 
-        # Clean sheets
         home_cs = (home["away_goals_ft"] == 0).sum()
         away_cs = (away["home_goals_ft"] == 0).sum()
-        clean_sheets = home_cs + away_cs
 
-        # Form: last 5 matches by date
         home["date"] = pd.to_datetime(home["date"])
         away["date"] = pd.to_datetime(away["date"])
+        home_res = home[["date","result"]].copy()
+        home_res["team_result"] = home_res["result"].map({"HOME_TEAM":"W","DRAW":"D","AWAY_TEAM":"L"})
+        away_res = away[["date","result"]].copy()
+        away_res["team_result"] = away_res["result"].map({"AWAY_TEAM":"W","DRAW":"D","HOME_TEAM":"L"})
+        all_res = pd.concat([home_res, away_res]).sort_values("date")
+        last5   = "".join(all_res["team_result"].tail(5).tolist())
 
-        home_results = home[["date", "result"]].copy()
-        home_results["team_result"] = home_results["result"].map(
-            {"HOME_TEAM": "W", "DRAW": "D", "AWAY_TEAM": "L"}
-        )
-        away_results = away[["date", "result"]].copy()
-        away_results["team_result"] = away_results["result"].map(
-            {"AWAY_TEAM": "W", "DRAW": "D", "HOME_TEAM": "L"}
-        )
-
-        all_results = pd.concat([home_results, away_results]).sort_values("date")
-        last5 = "".join(all_results["team_result"].tail(5).tolist())
+        tla = home["home_team_tla"].iloc[0] if not home.empty else away["away_team_tla"].iloc[0] if not away.empty else ""
 
         stats.append({
-            "team": team,
-            "played": total_played,
-            "wins": total_wins,
-            "draws": total_draws,
-            "losses": total_losses,
-            "points": points,
-            "goals_scored": goals_scored,
-            "goals_conceded": goals_conceded,
-            "goal_difference": goal_difference,
-            "avg_goals_scored": avg_scored,
-            "avg_goals_conceded": avg_conceded,
-            "clean_sheets": clean_sheets,
-            "home_wins": home_wins,
-            "home_draws": home_draws,
-            "home_losses": home_losses,
-            "away_wins": away_wins,
-            "away_draws": away_draws,
-            "away_losses": away_losses,
+            "team": team, "home_team_tla": tla,
+            "played": total_played, "wins": total_wins, "draws": total_draws, "losses": total_losses,
+            "points": points, "goals_scored": int(goals_scored), "goals_conceded": int(goals_conceded),
+            "goal_difference": int(goal_diff),
+            "avg_goals_scored": avg_scored, "avg_goals_conceded": avg_conceded,
+            "clean_sheets": int(home_cs + away_cs),
+            "home_wins": int(home_wins), "home_draws": int(home_draws), "home_losses": int(home_losses),
+            "away_wins": int(away_wins), "away_draws": int(away_draws), "away_losses": int(away_losses),
             "form_last5": last5,
         })
 
     return pd.DataFrame(stats).sort_values("points", ascending=False)
 
 def main():
-    os.makedirs(ANALYTICS_DIR, exist_ok=True)
-
-    for season in SEASONS:
-        print(f"\n📊 Analyzing season {season}...")
-        df = load_season(season)
-        stats = compute_team_stats(df)
-        
-        output_path = f"{ANALYTICS_DIR}/laliga_{season}_team_stats.csv"
-        stats.to_csv(output_path, index=False)
-        print(stats[["team", "played", "wins", "draws", "losses", "points", "goals_scored", "goal_difference", "form_last5"]].to_string(index=False))
-        print(f"\n💾 Saved to {output_path}")
+    for league, seasons in LEAGUES.items():
+        print(f"\n🏆 Analyzing {league.replace('_',' ').title()}...")
+        for season in seasons:
+            filepath = f"data/processed/{league}/{league}_{season}.csv"
+            if not os.path.exists(filepath):
+                print(f"  ⚠️  Not found: {filepath}, skipping")
+                continue
+            df = pd.read_csv(filepath)
+            df = df[df["home_goals_ft"].notna() & df["away_goals_ft"].notna()]
+            if df.empty:
+                print(f"  ⚠️  No data for {league} {season}")
+                continue
+            stats = compute_team_stats(df)
+            os.makedirs(f"data/analytics/{league}", exist_ok=True)
+            out = f"data/analytics/{league}/{league}_{season}_team_stats.csv"
+            stats.to_csv(out, index=False)
+            print(f"  💾 Saved to {out}")
 
 if __name__ == "__main__":
     main()

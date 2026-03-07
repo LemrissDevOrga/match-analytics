@@ -1,0 +1,307 @@
+match_id,season,matchday,date,status,home_team,home_team_short,home_team_tla,away_team,away_team_short,away_team_tla,home_goals_ft,away_goals_ft,home_goals_ht,away_goals_ht,result,referee
+441789,2023,1,2023-08-18,FINISHED,SV Werder Bremen,Bremen,SVW,FC Bayern München,Bayern,FCB,0,4,0,1,AWAY_TEAM,Felix Zwayer
+441792,2023,1,2023-08-19,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,RB Leipzig,RB Leipzig,RBL,3,2,2,1,HOME_TEAM,Felix Brych
+441794,2023,1,2023-08-19,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,1. FC Heidenheim 1846,Heidenheim,HEI,2,0,2,0,HOME_TEAM,Florian Badstübner
+441795,2023,1,2023-08-19,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,SC Freiburg,Freiburg,SCF,1,2,0,2,AWAY_TEAM,Sven Jablonski
+441796,2023,1,2023-08-19,FINISHED,FC Augsburg,Augsburg,FCA,Borussia Mönchengladbach,M'gladbach,BMG,4,4,3,3,DRAW,Daniel Schlager
+441797,2023,1,2023-08-19,FINISHED,VfB Stuttgart,Stuttgart,VFB,VfL Bochum 1848,Bochum,BOC,5,0,2,0,HOME_TEAM,Daniel Siebert
+441790,2023,1,2023-08-19,FINISHED,Borussia Dortmund,Dortmund,BVB,1. FC Köln,1. FC Köln,KOE,1,0,0,0,HOME_TEAM,Deniz Aytekin
+441791,2023,1,2023-08-20,FINISHED,1. FC Union Berlin,Union Berlin,UNB,1. FSV Mainz 05,Mainz,M05,4,1,2,0,HOME_TEAM,Tobias Stieler
+441793,2023,1,2023-08-20,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,SV Darmstadt 98,Darmstadt,SVD,1,0,1,0,HOME_TEAM,Harm Osmers
+441799,2023,2,2023-08-25,FINISHED,RB Leipzig,RB Leipzig,RBL,VfB Stuttgart,Stuttgart,VFB,5,1,0,1,HOME_TEAM,Frank Willenborg
+441800,2023,2,2023-08-26,FINISHED,SC Freiburg,Freiburg,SCF,SV Werder Bremen,Bremen,SVW,1,0,0,0,HOME_TEAM,Benjamin Brand
+441803,2023,2,2023-08-26,FINISHED,1. FC Köln,1. FC Köln,KOE,VfL Wolfsburg,Wolfsburg,WOB,1,2,0,0,AWAY_TEAM,Matthias Jöllenbeck
+441804,2023,2,2023-08-26,FINISHED,VfL Bochum 1848,Bochum,BOC,Borussia Dortmund,Dortmund,BVB,1,1,1,0,DRAW,Robert Schröder
+441805,2023,2,2023-08-26,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,TSG 1899 Hoffenheim,Hoffenheim,TSG,2,3,1,0,AWAY_TEAM,Robert Hartmann
+441806,2023,2,2023-08-26,FINISHED,SV Darmstadt 98,Darmstadt,SVD,1. FC Union Berlin,Union Berlin,UNB,1,4,1,3,AWAY_TEAM,Patrick Ittrich
+441802,2023,2,2023-08-26,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,Bayer 04 Leverkusen,Leverkusen,B04,0,3,0,2,AWAY_TEAM,Christian Dingert
+441801,2023,2,2023-08-27,FINISHED,1. FSV Mainz 05,Mainz,M05,Eintracht Frankfurt,Frankfurt,SGE,1,1,1,0,DRAW,Bastian Dankert
+441798,2023,2,2023-08-27,FINISHED,FC Bayern München,Bayern,FCB,FC Augsburg,Augsburg,FCA,3,1,2,0,HOME_TEAM,Daniel Siebert
+441807,2023,3,2023-09-01,FINISHED,Borussia Dortmund,Dortmund,BVB,1. FC Heidenheim 1846,Heidenheim,HEI,2,2,2,0,DRAW,Tobias Reichel
+441809,2023,3,2023-09-02,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,SV Darmstadt 98,Darmstadt,SVD,5,1,1,1,HOME_TEAM,Sven Jablonski
+441812,2023,3,2023-09-02,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,VfL Wolfsburg,Wolfsburg,WOB,3,1,1,1,HOME_TEAM,Felix Zwayer
+441813,2023,3,2023-09-02,FINISHED,SV Werder Bremen,Bremen,SVW,1. FSV Mainz 05,Mainz,M05,4,0,1,0,HOME_TEAM,Robert Schröder
+441814,2023,3,2023-09-02,FINISHED,FC Augsburg,Augsburg,FCA,VfL Bochum 1848,Bochum,BOC,2,2,1,1,DRAW,Martin Petersen
+441815,2023,3,2023-09-02,FINISHED,VfB Stuttgart,Stuttgart,VFB,SC Freiburg,Freiburg,SCF,5,0,3,0,HOME_TEAM,Felix Brych
+441811,2023,3,2023-09-02,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,FC Bayern München,Bayern,FCB,1,2,1,0,AWAY_TEAM,Deniz Aytekin
+441810,2023,3,2023-09-03,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,1. FC Köln,1. FC Köln,KOE,1,1,0,1,DRAW,Florian Badstübner
+441808,2023,3,2023-09-03,FINISHED,1. FC Union Berlin,Union Berlin,UNB,RB Leipzig,RB Leipzig,RBL,0,3,0,0,AWAY_TEAM,Daniel Schlager
+441816,2023,4,2023-09-15,FINISHED,FC Bayern München,Bayern,FCB,Bayer 04 Leverkusen,Leverkusen,B04,2,2,1,1,DRAW,Daniel Schlager
+441817,2023,4,2023-09-16,FINISHED,RB Leipzig,RB Leipzig,RBL,FC Augsburg,Augsburg,FCA,3,0,3,0,HOME_TEAM,Sascha Stegemann
+441818,2023,4,2023-09-16,FINISHED,SC Freiburg,Freiburg,SCF,Borussia Dortmund,Dortmund,BVB,2,4,2,1,AWAY_TEAM,Tobias Stieler
+441819,2023,4,2023-09-16,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,1. FC Union Berlin,Union Berlin,UNB,2,1,2,1,HOME_TEAM,Felix Brych
+441820,2023,4,2023-09-16,FINISHED,1. FSV Mainz 05,Mainz,M05,VfB Stuttgart,Stuttgart,VFB,1,3,0,0,AWAY_TEAM,Harm Osmers
+441821,2023,4,2023-09-16,FINISHED,1. FC Köln,1. FC Köln,KOE,TSG 1899 Hoffenheim,Hoffenheim,TSG,1,3,0,2,AWAY_TEAM,Daniel Siebert
+441822,2023,4,2023-09-16,FINISHED,VfL Bochum 1848,Bochum,BOC,Eintracht Frankfurt,Frankfurt,SGE,1,1,0,0,DRAW,Benjamin Brand
+441823,2023,4,2023-09-17,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,SV Werder Bremen,Bremen,SVW,4,2,2,0,HOME_TEAM,Patrick Ittrich
+441824,2023,4,2023-09-17,FINISHED,SV Darmstadt 98,Darmstadt,SVD,Borussia Mönchengladbach,M'gladbach,BMG,3,3,3,0,DRAW,Timo Gerach
+441833,2023,5,2023-09-22,FINISHED,VfB Stuttgart,Stuttgart,VFB,SV Darmstadt 98,Darmstadt,SVD,3,1,2,1,HOME_TEAM,Matthias Jöllenbeck
+441825,2023,5,2023-09-23,FINISHED,FC Bayern München,Bayern,FCB,VfL Bochum 1848,Bochum,BOC,7,0,4,0,HOME_TEAM,Robert Hartmann
+441826,2023,5,2023-09-23,FINISHED,Borussia Dortmund,Dortmund,BVB,VfL Wolfsburg,Wolfsburg,WOB,1,0,0,0,HOME_TEAM,Sven Jablonski
+441827,2023,5,2023-09-23,FINISHED,1. FC Union Berlin,Union Berlin,UNB,TSG 1899 Hoffenheim,Hoffenheim,TSG,0,2,0,2,AWAY_TEAM,Deniz Aytekin
+441830,2023,5,2023-09-23,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,RB Leipzig,RB Leipzig,RBL,0,1,0,0,AWAY_TEAM,Robert Schröder
+441832,2023,5,2023-09-23,FINISHED,FC Augsburg,Augsburg,FCA,1. FSV Mainz 05,Mainz,M05,2,1,2,1,HOME_TEAM,Marco Fritz
+441831,2023,5,2023-09-23,FINISHED,SV Werder Bremen,Bremen,SVW,1. FC Köln,1. FC Köln,KOE,2,1,1,1,HOME_TEAM,Bastian Dankert
+441828,2023,5,2023-09-24,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,1. FC Heidenheim 1846,Heidenheim,HEI,4,1,1,0,HOME_TEAM,Christian Dingert
+441829,2023,5,2023-09-24,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,SC Freiburg,Freiburg,SCF,0,0,0,0,DRAW,Felix Zwayer
+441839,2023,6,2023-09-29,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,Borussia Dortmund,Dortmund,BVB,1,3,1,2,AWAY_TEAM,Florian Badstübner
+441836,2023,6,2023-09-30,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,Eintracht Frankfurt,Frankfurt,SGE,2,0,1,0,HOME_TEAM,Frank Willenborg
+441837,2023,6,2023-09-30,FINISHED,1. FSV Mainz 05,Mainz,M05,Bayer 04 Leverkusen,Leverkusen,B04,0,3,0,1,AWAY_TEAM,Benjamin Brand
+441838,2023,6,2023-09-30,FINISHED,1. FC Köln,1. FC Köln,KOE,VfB Stuttgart,Stuttgart,VFB,0,2,0,0,AWAY_TEAM,Tobias Stieler
+441840,2023,6,2023-09-30,FINISHED,VfL Bochum 1848,Bochum,BOC,Borussia Mönchengladbach,M'gladbach,BMG,1,3,0,3,AWAY_TEAM,Felix Brych
+441841,2023,6,2023-09-30,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,1. FC Union Berlin,Union Berlin,UNB,1,0,0,0,HOME_TEAM,Sascha Stegemann
+441834,2023,6,2023-09-30,FINISHED,RB Leipzig,RB Leipzig,RBL,FC Bayern München,Bayern,FCB,2,2,2,0,DRAW,Marco Fritz
+441842,2023,6,2023-10-01,FINISHED,SV Darmstadt 98,Darmstadt,SVD,SV Werder Bremen,Bremen,SVW,4,2,2,0,HOME_TEAM,Martin Petersen
+441835,2023,6,2023-10-01,FINISHED,SC Freiburg,Freiburg,SCF,FC Augsburg,Augsburg,FCA,2,0,1,0,HOME_TEAM,Harm Osmers
+441848,2023,7,2023-10-06,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,1. FSV Mainz 05,Mainz,M05,2,2,1,1,DRAW,Sven Jablonski
+441844,2023,7,2023-10-07,FINISHED,Borussia Dortmund,Dortmund,BVB,1. FC Union Berlin,Union Berlin,UNB,4,2,1,2,HOME_TEAM,Patrick Ittrich
+441845,2023,7,2023-10-07,FINISHED,RB Leipzig,RB Leipzig,RBL,VfL Bochum 1848,Bochum,BOC,0,0,0,0,DRAW,Timo Gerach
+441850,2023,7,2023-10-07,FINISHED,FC Augsburg,Augsburg,FCA,SV Darmstadt 98,Darmstadt,SVD,1,2,0,0,AWAY_TEAM,Deniz Aytekin
+441851,2023,7,2023-10-07,FINISHED,VfB Stuttgart,Stuttgart,VFB,VfL Wolfsburg,Wolfsburg,WOB,3,1,0,1,HOME_TEAM,Daniel Siebert
+441849,2023,7,2023-10-07,FINISHED,SV Werder Bremen,Bremen,SVW,TSG 1899 Hoffenheim,Hoffenheim,TSG,2,3,1,2,AWAY_TEAM,Christian Dingert
+441846,2023,7,2023-10-08,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,1. FC Köln,1. FC Köln,KOE,3,0,2,0,HOME_TEAM,Felix Zwayer
+441843,2023,7,2023-10-08,FINISHED,FC Bayern München,Bayern,FCB,SC Freiburg,Freiburg,SCF,3,0,2,0,HOME_TEAM,Robert Schröder
+441847,2023,7,2023-10-08,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,1. FC Heidenheim 1846,Heidenheim,HEI,2,0,1,0,HOME_TEAM,Daniel Schlager
+441852,2023,8,2023-10-20,FINISHED,Borussia Dortmund,Dortmund,BVB,SV Werder Bremen,Bremen,SVW,1,0,0,0,HOME_TEAM,Felix Brych
+441858,2023,8,2023-10-21,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,Eintracht Frankfurt,Frankfurt,SGE,1,3,1,3,AWAY_TEAM,Matthias Jöllenbeck
+441860,2023,8,2023-10-21,FINISHED,SV Darmstadt 98,Darmstadt,SVD,RB Leipzig,RB Leipzig,RBL,1,3,1,2,AWAY_TEAM,Harm Osmers
+441853,2023,8,2023-10-21,FINISHED,1. FC Union Berlin,Union Berlin,UNB,VfB Stuttgart,Stuttgart,VFB,0,3,0,1,AWAY_TEAM,Bastian Dankert
+441854,2023,8,2023-10-21,FINISHED,SC Freiburg,Freiburg,SCF,VfL Bochum 1848,Bochum,BOC,2,1,2,1,HOME_TEAM,Tobias Reichel
+441855,2023,8,2023-10-21,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,Bayer 04 Leverkusen,Leverkusen,B04,1,2,1,1,AWAY_TEAM,Marco Fritz
+441856,2023,8,2023-10-21,FINISHED,1. FSV Mainz 05,Mainz,M05,FC Bayern München,Bayern,FCB,1,3,1,2,AWAY_TEAM,Sascha Stegemann
+441857,2023,8,2023-10-22,FINISHED,1. FC Köln,1. FC Köln,KOE,Borussia Mönchengladbach,M'gladbach,BMG,3,1,1,0,HOME_TEAM,Deniz Aytekin
+441859,2023,8,2023-10-22,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,FC Augsburg,Augsburg,FCA,2,5,2,3,AWAY_TEAM,Tobias Stieler
+441867,2023,9,2023-10-27,FINISHED,VfL Bochum 1848,Bochum,BOC,1. FSV Mainz 05,Mainz,M05,2,2,1,0,DRAW,Patrick Ittrich
+441861,2023,9,2023-10-28,FINISHED,FC Bayern München,Bayern,FCB,SV Darmstadt 98,Darmstadt,SVD,8,0,0,0,HOME_TEAM,Martin Petersen
+441865,2023,9,2023-10-28,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,1. FC Heidenheim 1846,Heidenheim,HEI,2,1,1,1,HOME_TEAM,Robert Hartmann
+441866,2023,9,2023-10-28,FINISHED,SV Werder Bremen,Bremen,SVW,1. FC Union Berlin,Union Berlin,UNB,2,0,1,0,HOME_TEAM,Tobias Stieler
+441868,2023,9,2023-10-28,FINISHED,FC Augsburg,Augsburg,FCA,VfL Wolfsburg,Wolfsburg,WOB,3,2,1,2,HOME_TEAM,Daniel Schlager
+441869,2023,9,2023-10-28,FINISHED,VfB Stuttgart,Stuttgart,VFB,TSG 1899 Hoffenheim,Hoffenheim,TSG,2,3,0,2,AWAY_TEAM,Felix Zwayer
+441862,2023,9,2023-10-28,FINISHED,RB Leipzig,RB Leipzig,RBL,1. FC Köln,1. FC Köln,KOE,6,0,4,0,HOME_TEAM,Benjamin Brand
+441864,2023,9,2023-10-29,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,Borussia Dortmund,Dortmund,BVB,3,3,2,1,DRAW,Robert Schröder
+441863,2023,9,2023-10-29,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,SC Freiburg,Freiburg,SCF,2,1,1,0,HOME_TEAM,Daniel Siebert
+441878,2023,10,2023-11-03,FINISHED,SV Darmstadt 98,Darmstadt,SVD,VfL Bochum 1848,Bochum,BOC,1,2,1,1,AWAY_TEAM,Marco Fritz
+441871,2023,10,2023-11-04,FINISHED,1. FC Union Berlin,Union Berlin,UNB,Eintracht Frankfurt,Frankfurt,SGE,0,3,0,2,AWAY_TEAM,Sven Jablonski
+441872,2023,10,2023-11-04,FINISHED,SC Freiburg,Freiburg,SCF,Borussia Mönchengladbach,M'gladbach,BMG,3,3,1,3,DRAW,Felix Brych
+441874,2023,10,2023-11-04,FINISHED,1. FSV Mainz 05,Mainz,M05,RB Leipzig,RB Leipzig,RBL,2,0,0,0,HOME_TEAM,Bastian Dankert
+441875,2023,10,2023-11-04,FINISHED,1. FC Köln,1. FC Köln,KOE,FC Augsburg,Augsburg,FCA,1,1,1,1,DRAW,Christian Dingert
+441876,2023,10,2023-11-04,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,Bayer 04 Leverkusen,Leverkusen,B04,2,3,0,2,AWAY_TEAM,Frank Willenborg
+441870,2023,10,2023-11-04,FINISHED,Borussia Dortmund,Dortmund,BVB,FC Bayern München,Bayern,FCB,0,4,0,2,AWAY_TEAM,Deniz Aytekin
+441873,2023,10,2023-11-05,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,SV Werder Bremen,Bremen,SVW,2,2,1,1,DRAW,
+441877,2023,10,2023-11-05,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,VfB Stuttgart,Stuttgart,VFB,2,0,0,0,HOME_TEAM,
+441882,2023,11,2023-11-10,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,VfL Wolfsburg,Wolfsburg,WOB,4,0,2,0,HOME_TEAM,Felix Zwayer
+441879,2023,11,2023-11-11,FINISHED,FC Bayern München,Bayern,FCB,1. FC Heidenheim 1846,Heidenheim,HEI,4,2,2,0,HOME_TEAM,Harm Osmers
+441885,2023,11,2023-11-11,FINISHED,FC Augsburg,Augsburg,FCA,TSG 1899 Hoffenheim,Hoffenheim,TSG,1,1,0,1,DRAW,Felix Brych
+441886,2023,11,2023-11-11,FINISHED,VfB Stuttgart,Stuttgart,VFB,Borussia Dortmund,Dortmund,BVB,2,1,1,1,HOME_TEAM,Tobias Stieler
+441887,2023,11,2023-11-11,FINISHED,SV Darmstadt 98,Darmstadt,SVD,1. FSV Mainz 05,Mainz,M05,0,0,0,0,DRAW,Daniel Siebert
+441884,2023,11,2023-11-11,FINISHED,VfL Bochum 1848,Bochum,BOC,1. FC Köln,1. FC Köln,KOE,1,1,1,0,DRAW,Matthias Jöllenbeck
+441881,2023,11,2023-11-12,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,1. FC Union Berlin,Union Berlin,UNB,4,0,1,0,HOME_TEAM,Timo Gerach
+441883,2023,11,2023-11-12,FINISHED,SV Werder Bremen,Bremen,SVW,Eintracht Frankfurt,Frankfurt,SGE,2,2,1,0,DRAW,Benjamin Brand
+441880,2023,11,2023-11-12,FINISHED,RB Leipzig,RB Leipzig,RBL,SC Freiburg,Freiburg,SCF,3,1,1,1,HOME_TEAM,Patrick Ittrich
+441893,2023,12,2023-11-24,FINISHED,1. FC Köln,1. FC Köln,KOE,FC Bayern München,Bayern,FCB,0,1,0,1,AWAY_TEAM,Marco Fritz
+441888,2023,12,2023-11-25,FINISHED,Borussia Dortmund,Dortmund,BVB,Borussia Mönchengladbach,M'gladbach,BMG,4,2,3,2,HOME_TEAM,Sven Jablonski
+441889,2023,12,2023-11-25,FINISHED,1. FC Union Berlin,Union Berlin,UNB,FC Augsburg,Augsburg,FCA,1,1,0,1,DRAW,Florian Badstübner
+441890,2023,12,2023-11-25,FINISHED,SC Freiburg,Freiburg,SCF,SV Darmstadt 98,Darmstadt,SVD,1,1,1,1,DRAW,Sascha Stegemann
+441892,2023,12,2023-11-25,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,RB Leipzig,RB Leipzig,RBL,2,1,1,0,HOME_TEAM,Robert Hartmann
+441895,2023,12,2023-11-25,FINISHED,SV Werder Bremen,Bremen,SVW,Bayer 04 Leverkusen,Leverkusen,B04,0,3,0,2,AWAY_TEAM,Martin Petersen
+441891,2023,12,2023-11-25,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,VfB Stuttgart,Stuttgart,VFB,1,2,1,2,AWAY_TEAM,Felix Brych
+441896,2023,12,2023-11-26,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,VfL Bochum 1848,Bochum,BOC,0,0,0,0,DRAW,Felix Zwayer
+441894,2023,12,2023-11-26,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,1. FSV Mainz 05,Mainz,M05,1,1,0,1,DRAW,Deniz Aytekin
+441905,2023,13,2023-12-01,FINISHED,SV Darmstadt 98,Darmstadt,SVD,1. FC Köln,1. FC Köln,KOE,0,1,0,0,AWAY_TEAM,Patrick Ittrich
+441898,2023,13,2023-12-02,FINISHED,RB Leipzig,RB Leipzig,RBL,1. FC Heidenheim 1846,Heidenheim,HEI,2,1,2,1,HOME_TEAM,Christian Dingert
+441901,2023,13,2023-12-02,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,TSG 1899 Hoffenheim,Hoffenheim,TSG,2,1,0,0,HOME_TEAM,Tobias Reichel
+441902,2023,13,2023-12-02,FINISHED,VfL Bochum 1848,Bochum,BOC,VfL Wolfsburg,Wolfsburg,WOB,3,1,2,1,HOME_TEAM,Robert Schröder
+441904,2023,13,2023-12-02,FINISHED,VfB Stuttgart,Stuttgart,VFB,SV Werder Bremen,Bremen,SVW,2,0,1,0,HOME_TEAM,Bastian Dankert
+441900,2023,13,2023-12-03,FINISHED,1. FSV Mainz 05,Mainz,M05,SC Freiburg,Freiburg,SCF,0,1,0,0,AWAY_TEAM,Tobias Stieler
+441899,2023,13,2023-12-03,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,Borussia Dortmund,Dortmund,BVB,1,1,0,1,DRAW,Daniel Siebert
+441903,2023,13,2023-12-03,FINISHED,FC Augsburg,Augsburg,FCA,Eintracht Frankfurt,Frankfurt,SGE,2,1,1,0,HOME_TEAM,Harm Osmers
+441911,2023,14,2023-12-08,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,VfL Bochum 1848,Bochum,BOC,3,1,2,0,HOME_TEAM,Matthias Jöllenbeck
+441907,2023,14,2023-12-09,FINISHED,1. FC Union Berlin,Union Berlin,UNB,Borussia Mönchengladbach,M'gladbach,BMG,3,1,1,0,HOME_TEAM,Martin Petersen
+441908,2023,14,2023-12-09,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,FC Bayern München,Bayern,FCB,5,1,3,1,HOME_TEAM,Felix Zwayer
+441909,2023,14,2023-12-09,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,SC Freiburg,Freiburg,SCF,0,1,0,0,AWAY_TEAM,Marco Fritz
+441912,2023,14,2023-12-09,FINISHED,SV Werder Bremen,Bremen,SVW,FC Augsburg,Augsburg,FCA,2,0,1,0,HOME_TEAM,Sascha Stegemann
+441914,2023,14,2023-12-09,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,SV Darmstadt 98,Darmstadt,SVD,3,2,1,0,HOME_TEAM,Daniel Schlager
+441906,2023,14,2023-12-09,FINISHED,Borussia Dortmund,Dortmund,BVB,RB Leipzig,RB Leipzig,RBL,2,3,1,1,AWAY_TEAM,Sven Jablonski
+441913,2023,14,2023-12-10,FINISHED,VfB Stuttgart,Stuttgart,VFB,Bayer 04 Leverkusen,Leverkusen,B04,1,1,1,0,DRAW,Deniz Aytekin
+441910,2023,14,2023-12-10,FINISHED,1. FC Köln,1. FC Köln,KOE,1. FSV Mainz 05,Mainz,M05,0,0,0,0,DRAW,Frank Willenborg
+441920,2023,15,2023-12-15,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,SV Werder Bremen,Bremen,SVW,2,2,1,1,DRAW,Felix Zwayer
+441919,2023,15,2023-12-16,FINISHED,1. FSV Mainz 05,Mainz,M05,1. FC Heidenheim 1846,Heidenheim,HEI,0,1,0,1,AWAY_TEAM,Bastian Dankert
+441921,2023,15,2023-12-16,FINISHED,VfL Bochum 1848,Bochum,BOC,1. FC Union Berlin,Union Berlin,UNB,3,0,1,0,HOME_TEAM,Sven Jablonski
+441922,2023,15,2023-12-16,FINISHED,FC Augsburg,Augsburg,FCA,Borussia Dortmund,Dortmund,BVB,1,1,1,1,DRAW,Matthias Jöllenbeck
+441923,2023,15,2023-12-16,FINISHED,SV Darmstadt 98,Darmstadt,SVD,VfL Wolfsburg,Wolfsburg,WOB,0,1,0,0,AWAY_TEAM,Robert Hartmann
+441916,2023,15,2023-12-16,FINISHED,RB Leipzig,RB Leipzig,RBL,TSG 1899 Hoffenheim,Hoffenheim,TSG,3,1,1,1,HOME_TEAM,Robert Schröder
+441917,2023,15,2023-12-17,FINISHED,SC Freiburg,Freiburg,SCF,1. FC Köln,1. FC Köln,KOE,2,0,0,0,HOME_TEAM,Harm Osmers
+441918,2023,15,2023-12-17,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,Eintracht Frankfurt,Frankfurt,SGE,3,0,1,0,HOME_TEAM,Christian Dingert
+441915,2023,15,2023-12-17,FINISHED,FC Bayern München,Bayern,FCB,VfB Stuttgart,Stuttgart,VFB,3,0,1,0,HOME_TEAM,Tobias Stieler
+441930,2023,16,2023-12-19,FINISHED,SV Werder Bremen,Bremen,SVW,RB Leipzig,RB Leipzig,RBL,1,1,0,0,DRAW,Tobias Reichel
+441924,2023,16,2023-12-19,FINISHED,Borussia Dortmund,Dortmund,BVB,1. FSV Mainz 05,Mainz,M05,1,1,1,1,DRAW,Marco Fritz
+441929,2023,16,2023-12-19,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,SV Darmstadt 98,Darmstadt,SVD,3,3,2,1,DRAW,Frank Willenborg
+441925,2023,16,2023-12-20,FINISHED,1. FC Union Berlin,Union Berlin,UNB,1. FC Köln,1. FC Köln,KOE,2,0,0,0,HOME_TEAM,Deniz Aytekin
+441926,2023,16,2023-12-20,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,VfL Bochum 1848,Bochum,BOC,4,0,3,0,HOME_TEAM,Daniel Schlager
+441927,2023,16,2023-12-20,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,Borussia Mönchengladbach,M'gladbach,BMG,2,1,0,1,HOME_TEAM,Florian Badstübner
+441928,2023,16,2023-12-20,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,FC Bayern München,Bayern,FCB,1,2,1,2,AWAY_TEAM,Sascha Stegemann
+441931,2023,16,2023-12-20,FINISHED,VfB Stuttgart,Stuttgart,VFB,FC Augsburg,Augsburg,FCA,3,0,2,0,HOME_TEAM,Daniel Siebert
+441932,2023,16,2023-12-20,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,SC Freiburg,Freiburg,SCF,3,2,0,1,HOME_TEAM,Benjamin Brand
+441933,2023,17,2024-01-12,FINISHED,FC Bayern München,Bayern,FCB,TSG 1899 Hoffenheim,Hoffenheim,TSG,3,0,1,0,HOME_TEAM,Benjamin Brand
+441934,2023,17,2024-01-13,FINISHED,RB Leipzig,RB Leipzig,RBL,Eintracht Frankfurt,Frankfurt,SGE,0,1,0,1,AWAY_TEAM,Frank Willenborg
+441935,2023,17,2024-01-13,FINISHED,SC Freiburg,Freiburg,SCF,1. FC Union Berlin,Union Berlin,UNB,0,0,0,0,DRAW,Christian Dingert
+441936,2023,17,2024-01-13,FINISHED,1. FSV Mainz 05,Mainz,M05,VfL Wolfsburg,Wolfsburg,WOB,1,1,0,1,DRAW,Patrick Ittrich
+441938,2023,17,2024-01-13,FINISHED,1. FC Köln,1. FC Köln,KOE,1. FC Heidenheim 1846,Heidenheim,HEI,1,1,1,0,DRAW,Felix Zwayer
+441940,2023,17,2024-01-13,FINISHED,FC Augsburg,Augsburg,FCA,Bayer 04 Leverkusen,Leverkusen,B04,0,1,0,0,AWAY_TEAM,Sven Jablonski
+441941,2023,17,2024-01-13,FINISHED,SV Darmstadt 98,Darmstadt,SVD,Borussia Dortmund,Dortmund,BVB,0,3,0,1,AWAY_TEAM,Deniz Aytekin
+441939,2023,17,2024-01-14,FINISHED,VfL Bochum 1848,Bochum,BOC,SV Werder Bremen,Bremen,SVW,1,1,0,0,DRAW,Tobias Stieler
+441937,2023,17,2024-01-14,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,VfB Stuttgart,Stuttgart,VFB,3,1,2,0,HOME_TEAM,Harm Osmers
+441943,2023,18,2024-01-20,FINISHED,1. FC Köln,1. FC Köln,KOE,Borussia Dortmund,Dortmund,BVB,0,4,0,1,AWAY_TEAM,Daniel Schlager
+441946,2023,18,2024-01-20,FINISHED,SV Darmstadt 98,Darmstadt,SVD,Eintracht Frankfurt,Frankfurt,SGE,2,2,0,1,DRAW,Daniel Siebert
+441947,2023,18,2024-01-20,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,VfL Wolfsburg,Wolfsburg,WOB,1,1,1,1,DRAW,Timo Gerach
+441948,2023,18,2024-01-20,FINISHED,SC Freiburg,Freiburg,SCF,TSG 1899 Hoffenheim,Hoffenheim,TSG,3,2,1,0,HOME_TEAM,Sascha Stegemann
+441950,2023,18,2024-01-20,FINISHED,VfL Bochum 1848,Bochum,BOC,VfB Stuttgart,Stuttgart,VFB,1,0,0,0,HOME_TEAM,Bastian Dankert
+441945,2023,18,2024-01-20,FINISHED,RB Leipzig,RB Leipzig,RBL,Bayer 04 Leverkusen,Leverkusen,B04,2,3,1,0,AWAY_TEAM,Matthias Jöllenbeck
+441942,2023,18,2024-01-21,FINISHED,FC Bayern München,Bayern,FCB,SV Werder Bremen,Bremen,SVW,0,1,0,0,AWAY_TEAM,Marco Fritz
+441949,2023,18,2024-01-21,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,FC Augsburg,Augsburg,FCA,1,2,1,0,AWAY_TEAM,Martin Petersen
+441897,2023,13,2024-01-24,FINISHED,FC Bayern München,Bayern,FCB,1. FC Union Berlin,Union Berlin,UNB,1,0,0,0,HOME_TEAM,Frank Willenborg
+441954,2023,19,2024-01-26,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,1. FSV Mainz 05,Mainz,M05,1,0,0,0,HOME_TEAM,Felix Zwayer
+441951,2023,19,2024-01-27,FINISHED,FC Augsburg,Augsburg,FCA,FC Bayern München,Bayern,FCB,2,3,0,2,AWAY_TEAM,Christian Dingert
+441952,2023,19,2024-01-27,FINISHED,VfB Stuttgart,Stuttgart,VFB,RB Leipzig,RB Leipzig,RBL,5,2,2,1,HOME_TEAM,Sven Jablonski
+441953,2023,19,2024-01-27,FINISHED,SV Werder Bremen,Bremen,SVW,SC Freiburg,Freiburg,SCF,3,1,1,1,HOME_TEAM,Robert Hartmann
+441956,2023,19,2024-01-27,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,1. FC Köln,1. FC Köln,KOE,1,1,1,1,DRAW,Sören Storks
+441958,2023,19,2024-01-27,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,1. FC Heidenheim 1846,Heidenheim,HEI,1,1,1,1,DRAW,Tobias Welz
+441955,2023,19,2024-01-27,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,Borussia Mönchengladbach,M'gladbach,BMG,0,0,0,0,DRAW,Deniz Aytekin
+441959,2023,19,2024-01-28,FINISHED,1. FC Union Berlin,Union Berlin,UNB,SV Darmstadt 98,Darmstadt,SVD,1,0,0,0,HOME_TEAM,Harm Osmers
+441957,2023,19,2024-01-28,FINISHED,Borussia Dortmund,Dortmund,BVB,VfL Bochum 1848,Bochum,BOC,3,1,1,1,HOME_TEAM,Benjamin Brand
+441960,2023,20,2024-02-02,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,Borussia Dortmund,Dortmund,BVB,0,0,0,0,DRAW,Bastian Dankert
+441962,2023,20,2024-02-03,FINISHED,SV Darmstadt 98,Darmstadt,SVD,Bayer 04 Leverkusen,Leverkusen,B04,0,2,0,1,AWAY_TEAM,Tobias Reichel
+441964,2023,20,2024-02-03,FINISHED,FC Bayern München,Bayern,FCB,Borussia Mönchengladbach,M'gladbach,BMG,3,1,1,1,HOME_TEAM,Tobias Stieler
+441966,2023,20,2024-02-03,FINISHED,1. FSV Mainz 05,Mainz,M05,SV Werder Bremen,Bremen,SVW,0,1,0,1,AWAY_TEAM,Benjamin Brand
+441967,2023,20,2024-02-03,FINISHED,VfL Bochum 1848,Bochum,BOC,FC Augsburg,Augsburg,FCA,1,1,1,0,DRAW,Patrick Ittrich
+441968,2023,20,2024-02-03,FINISHED,SC Freiburg,Freiburg,SCF,VfB Stuttgart,Stuttgart,VFB,1,3,1,2,AWAY_TEAM,Daniel Siebert
+441963,2023,20,2024-02-03,FINISHED,1. FC Köln,1. FC Köln,KOE,Eintracht Frankfurt,Frankfurt,SGE,2,0,0,0,HOME_TEAM,Timo Gerach
+441965,2023,20,2024-02-04,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,TSG 1899 Hoffenheim,Hoffenheim,TSG,2,2,0,1,DRAW,Florian Badstübner
+441961,2023,20,2024-02-04,FINISHED,RB Leipzig,RB Leipzig,RBL,1. FC Union Berlin,Union Berlin,UNB,2,0,1,0,HOME_TEAM,Marco Fritz
+441944,2023,18,2024-02-07,FINISHED,1. FSV Mainz 05,Mainz,M05,1. FC Union Berlin,Union Berlin,UNB,1,1,1,1,DRAW,Martin Petersen
+441971,2023,21,2024-02-09,FINISHED,Borussia Dortmund,Dortmund,BVB,SC Freiburg,Freiburg,SCF,3,0,2,0,HOME_TEAM,Harm Osmers
+441970,2023,21,2024-02-10,FINISHED,FC Augsburg,Augsburg,FCA,RB Leipzig,RB Leipzig,RBL,2,2,1,1,DRAW,Benjamin Brand
+441972,2023,21,2024-02-10,FINISHED,1. FC Union Berlin,Union Berlin,UNB,VfL Wolfsburg,Wolfsburg,WOB,1,0,1,0,HOME_TEAM,Matthias Jöllenbeck
+441975,2023,21,2024-02-10,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,VfL Bochum 1848,Bochum,BOC,1,1,1,1,DRAW,Sven Jablonski
+441976,2023,21,2024-02-10,FINISHED,SV Werder Bremen,Bremen,SVW,1. FC Heidenheim 1846,Heidenheim,HEI,1,2,1,2,AWAY_TEAM,Robert Schröder
+441977,2023,21,2024-02-10,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,SV Darmstadt 98,Darmstadt,SVD,0,0,0,0,DRAW,Sascha Stegemann
+441969,2023,21,2024-02-10,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,FC Bayern München,Bayern,FCB,3,0,1,0,HOME_TEAM,Felix Zwayer
+441973,2023,21,2024-02-11,FINISHED,VfB Stuttgart,Stuttgart,VFB,1. FSV Mainz 05,Mainz,M05,3,1,2,0,HOME_TEAM,Deniz Aytekin
+441974,2023,21,2024-02-11,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,1. FC Köln,1. FC Köln,KOE,1,1,0,0,DRAW,Christian Dingert
+441984,2023,22,2024-02-16,FINISHED,1. FC Köln,1. FC Köln,KOE,SV Werder Bremen,Bremen,SVW,0,1,0,0,AWAY_TEAM,Daniel Siebert
+441979,2023,22,2024-02-17,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,Borussia Dortmund,Dortmund,BVB,1,1,0,1,DRAW,Martin Petersen
+441980,2023,22,2024-02-17,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,1. FC Union Berlin,Union Berlin,UNB,0,1,0,0,AWAY_TEAM,Robert Hartmann
+441981,2023,22,2024-02-17,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,Bayer 04 Leverkusen,Leverkusen,B04,1,2,0,1,AWAY_TEAM,Harm Osmers
+441985,2023,22,2024-02-17,FINISHED,1. FSV Mainz 05,Mainz,M05,FC Augsburg,Augsburg,FCA,1,0,1,0,HOME_TEAM,Tobias Reichel
+441986,2023,22,2024-02-17,FINISHED,SV Darmstadt 98,Darmstadt,SVD,VfB Stuttgart,Stuttgart,VFB,1,2,0,1,AWAY_TEAM,Tobias Welz
+441983,2023,22,2024-02-17,FINISHED,RB Leipzig,RB Leipzig,RBL,Borussia Mönchengladbach,M'gladbach,BMG,2,0,1,0,HOME_TEAM,Sören Storks
+441982,2023,22,2024-02-18,FINISHED,SC Freiburg,Freiburg,SCF,Eintracht Frankfurt,Frankfurt,SGE,3,3,2,2,DRAW,Tobias Stieler
+441978,2023,22,2024-02-18,FINISHED,VfL Bochum 1848,Bochum,BOC,FC Bayern München,Bayern,FCB,3,2,2,1,HOME_TEAM,Daniel Schlager
+441990,2023,23,2024-02-23,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,1. FSV Mainz 05,Mainz,M05,2,1,1,1,HOME_TEAM,Timo Gerach
+441991,2023,23,2024-02-24,FINISHED,VfB Stuttgart,Stuttgart,VFB,1. FC Köln,1. FC Köln,KOE,1,1,0,0,DRAW,Patrick Ittrich
+441994,2023,23,2024-02-24,FINISHED,1. FC Union Berlin,Union Berlin,UNB,1. FC Heidenheim 1846,Heidenheim,HEI,2,2,2,1,DRAW,Deniz Aytekin
+441995,2023,23,2024-02-24,FINISHED,SV Werder Bremen,Bremen,SVW,SV Darmstadt 98,Darmstadt,SVD,1,1,1,1,DRAW,Florian Badstübner
+441993,2023,23,2024-02-24,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,VfL Bochum 1848,Bochum,BOC,5,2,2,0,HOME_TEAM,Frank Willenborg
+441987,2023,23,2024-02-24,FINISHED,FC Bayern München,Bayern,FCB,RB Leipzig,RB Leipzig,RBL,2,1,0,0,HOME_TEAM,Sascha Stegemann
+441989,2023,23,2024-02-25,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,VfL Wolfsburg,Wolfsburg,WOB,2,2,1,2,DRAW,Daniel Schlager
+441992,2023,23,2024-02-25,FINISHED,Borussia Dortmund,Dortmund,BVB,TSG 1899 Hoffenheim,Hoffenheim,TSG,2,3,2,1,AWAY_TEAM,Marco Fritz
+441988,2023,23,2024-02-25,FINISHED,FC Augsburg,Augsburg,FCA,SC Freiburg,Freiburg,SCF,2,1,0,1,HOME_TEAM,Bastian Dankert
+441996,2023,24,2024-03-01,FINISHED,SC Freiburg,Freiburg,SCF,FC Bayern München,Bayern,FCB,2,2,1,1,DRAW,Sven Jablonski
+441997,2023,24,2024-03-02,FINISHED,1. FC Union Berlin,Union Berlin,UNB,Borussia Dortmund,Dortmund,BVB,0,2,0,1,AWAY_TEAM,Christian Dingert
+441998,2023,24,2024-03-02,FINISHED,VfL Bochum 1848,Bochum,BOC,RB Leipzig,RB Leipzig,RBL,1,4,1,1,AWAY_TEAM,Harm Osmers
+442000,2023,24,2024-03-02,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,Eintracht Frankfurt,Frankfurt,SGE,1,2,0,1,AWAY_TEAM,Sören Storks
+442001,2023,24,2024-03-02,FINISHED,1. FSV Mainz 05,Mainz,M05,Borussia Mönchengladbach,M'gladbach,BMG,1,1,1,0,DRAW,Robert Schröder
+442003,2023,24,2024-03-02,FINISHED,SV Darmstadt 98,Darmstadt,SVD,FC Augsburg,Augsburg,FCA,0,6,0,5,AWAY_TEAM,Felix Zwayer
+442004,2023,24,2024-03-02,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,VfB Stuttgart,Stuttgart,VFB,2,3,0,1,AWAY_TEAM,Benjamin Brand
+441999,2023,24,2024-03-03,FINISHED,1. FC Köln,1. FC Köln,KOE,Bayer 04 Leverkusen,Leverkusen,B04,0,2,0,1,AWAY_TEAM,Tobias Stieler
+442002,2023,24,2024-03-03,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,SV Werder Bremen,Bremen,SVW,2,1,2,0,HOME_TEAM,Matthias Jöllenbeck
+442006,2023,25,2024-03-08,FINISHED,VfB Stuttgart,Stuttgart,VFB,1. FC Union Berlin,Union Berlin,UNB,2,0,1,0,HOME_TEAM,Robert Schröder
+442009,2023,25,2024-03-09,FINISHED,FC Bayern München,Bayern,FCB,1. FSV Mainz 05,Mainz,M05,8,1,3,1,HOME_TEAM,Patrick Ittrich
+442010,2023,25,2024-03-09,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,1. FC Köln,1. FC Köln,KOE,3,3,1,1,DRAW,Felix Zwayer
+442012,2023,25,2024-03-09,FINISHED,FC Augsburg,Augsburg,FCA,1. FC Heidenheim 1846,Heidenheim,HEI,1,0,1,0,HOME_TEAM,Tobias Welz
+442013,2023,25,2024-03-09,FINISHED,RB Leipzig,RB Leipzig,RBL,SV Darmstadt 98,Darmstadt,SVD,2,0,1,0,HOME_TEAM,Robert Hartmann
+442005,2023,25,2024-03-09,FINISHED,SV Werder Bremen,Bremen,SVW,Borussia Dortmund,Dortmund,BVB,1,2,0,2,AWAY_TEAM,Deniz Aytekin
+442007,2023,25,2024-03-10,FINISHED,VfL Bochum 1848,Bochum,BOC,SC Freiburg,Freiburg,SCF,1,2,0,1,AWAY_TEAM,Marco Fritz
+442011,2023,25,2024-03-10,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,TSG 1899 Hoffenheim,Hoffenheim,TSG,3,1,1,1,HOME_TEAM,Bastian Dankert
+442008,2023,25,2024-03-10,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,VfL Wolfsburg,Wolfsburg,WOB,2,0,1,0,HOME_TEAM,Daniel Siebert
+442015,2023,26,2024-03-15,FINISHED,1. FC Köln,1. FC Köln,KOE,RB Leipzig,RB Leipzig,RBL,1,5,1,1,AWAY_TEAM,Florian Badstübner
+442014,2023,26,2024-03-16,FINISHED,SV Darmstadt 98,Darmstadt,SVD,FC Bayern München,Bayern,FCB,2,5,1,2,AWAY_TEAM,Tobias Reichel
+442018,2023,26,2024-03-16,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,Borussia Mönchengladbach,M'gladbach,BMG,1,1,0,1,DRAW,Martin Petersen
+442019,2023,26,2024-03-16,FINISHED,1. FC Union Berlin,Union Berlin,UNB,SV Werder Bremen,Bremen,SVW,2,1,0,0,HOME_TEAM,Daniel Schlager
+442020,2023,26,2024-03-16,FINISHED,1. FSV Mainz 05,Mainz,M05,VfL Bochum 1848,Bochum,BOC,2,0,1,0,HOME_TEAM,Matthias Jöllenbeck
+442021,2023,26,2024-03-16,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,FC Augsburg,Augsburg,FCA,1,3,1,1,AWAY_TEAM,Timo Gerach
+442022,2023,26,2024-03-16,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,VfB Stuttgart,Stuttgart,VFB,0,3,0,2,AWAY_TEAM,Sascha Stegemann
+442016,2023,26,2024-03-17,FINISHED,SC Freiburg,Freiburg,SCF,Bayer 04 Leverkusen,Leverkusen,B04,2,3,1,2,AWAY_TEAM,Harm Osmers
+442017,2023,26,2024-03-17,FINISHED,Borussia Dortmund,Dortmund,BVB,Eintracht Frankfurt,Frankfurt,SGE,3,1,1,1,HOME_TEAM,Tobias Stieler
+442024,2023,27,2024-03-30,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,1. FC Union Berlin,Union Berlin,UNB,0,0,0,0,DRAW,Marco Fritz
+442025,2023,27,2024-03-30,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,SC Freiburg,Freiburg,SCF,0,3,0,1,AWAY_TEAM,Christian Dingert
+442026,2023,27,2024-03-30,FINISHED,SV Werder Bremen,Bremen,SVW,VfL Wolfsburg,Wolfsburg,WOB,0,2,0,1,AWAY_TEAM,Sascha Stegemann
+442027,2023,27,2024-03-30,FINISHED,RB Leipzig,RB Leipzig,RBL,1. FSV Mainz 05,Mainz,M05,0,0,0,0,DRAW,Frank Willenborg
+442029,2023,27,2024-03-30,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,TSG 1899 Hoffenheim,Hoffenheim,TSG,2,1,0,1,HOME_TEAM,Deniz Aytekin
+442023,2023,27,2024-03-30,FINISHED,FC Bayern München,Bayern,FCB,Borussia Dortmund,Dortmund,BVB,0,2,0,1,AWAY_TEAM,Harm Osmers
+442028,2023,27,2024-03-31,FINISHED,FC Augsburg,Augsburg,FCA,1. FC Köln,1. FC Köln,KOE,1,1,1,1,DRAW,Sören Storks
+442030,2023,27,2024-03-31,FINISHED,VfB Stuttgart,Stuttgart,VFB,1. FC Heidenheim 1846,Heidenheim,HEI,3,3,1,0,DRAW,Felix Zwayer
+442031,2023,27,2024-03-31,FINISHED,VfL Bochum 1848,Bochum,BOC,SV Darmstadt 98,Darmstadt,SVD,2,2,1,0,DRAW,Sven Jablonski
+442036,2023,28,2024-04-05,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,SV Werder Bremen,Bremen,SVW,1,1,0,0,DRAW,Robert Hartmann
+442032,2023,28,2024-04-06,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,FC Bayern München,Bayern,FCB,3,2,0,2,HOME_TEAM,Robert Schröder
+442033,2023,28,2024-04-06,FINISHED,SC Freiburg,Freiburg,SCF,RB Leipzig,RB Leipzig,RBL,1,4,0,3,AWAY_TEAM,Daniel Siebert
+442034,2023,28,2024-04-06,FINISHED,1. FC Union Berlin,Union Berlin,UNB,Bayer 04 Leverkusen,Leverkusen,B04,0,1,0,1,AWAY_TEAM,Benjamin Brand
+442037,2023,28,2024-04-06,FINISHED,1. FC Köln,1. FC Köln,KOE,VfL Bochum 1848,Bochum,BOC,2,1,0,0,HOME_TEAM,Tobias Welz
+442040,2023,28,2024-04-06,FINISHED,1. FSV Mainz 05,Mainz,M05,SV Darmstadt 98,Darmstadt,SVD,4,0,1,0,HOME_TEAM,Daniel Schlager
+442039,2023,28,2024-04-06,FINISHED,Borussia Dortmund,Dortmund,BVB,VfB Stuttgart,Stuttgart,VFB,0,1,0,0,AWAY_TEAM,Matthias Jöllenbeck
+442038,2023,28,2024-04-07,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,FC Augsburg,Augsburg,FCA,3,1,2,0,HOME_TEAM,Florian Exner
+442035,2023,28,2024-04-07,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,Borussia Mönchengladbach,M'gladbach,BMG,1,3,1,0,AWAY_TEAM,Bastian Dankert
+442042,2023,29,2024-04-12,FINISHED,FC Augsburg,Augsburg,FCA,1. FC Union Berlin,Union Berlin,UNB,2,0,0,0,HOME_TEAM,Tobias Stieler
+442041,2023,29,2024-04-13,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,Borussia Dortmund,Dortmund,BVB,1,2,1,2,AWAY_TEAM,Florian Badstübner
+442045,2023,29,2024-04-13,FINISHED,RB Leipzig,RB Leipzig,RBL,VfL Wolfsburg,Wolfsburg,WOB,3,0,1,0,HOME_TEAM,Christian Dingert
+442046,2023,29,2024-04-13,FINISHED,FC Bayern München,Bayern,FCB,1. FC Köln,1. FC Köln,KOE,2,0,0,0,HOME_TEAM,Frank Willenborg
+442047,2023,29,2024-04-13,FINISHED,1. FSV Mainz 05,Mainz,M05,TSG 1899 Hoffenheim,Hoffenheim,TSG,4,1,0,1,HOME_TEAM,Felix Zwayer
+442049,2023,29,2024-04-13,FINISHED,VfL Bochum 1848,Bochum,BOC,1. FC Heidenheim 1846,Heidenheim,HEI,1,1,0,0,DRAW,Patrick Ittrich
+442044,2023,29,2024-04-13,FINISHED,VfB Stuttgart,Stuttgart,VFB,Eintracht Frankfurt,Frankfurt,SGE,3,0,3,0,HOME_TEAM,Deniz Aytekin
+442043,2023,29,2024-04-14,FINISHED,SV Darmstadt 98,Darmstadt,SVD,SC Freiburg,Freiburg,SCF,0,1,0,1,AWAY_TEAM,Sascha Stegemann
+442048,2023,29,2024-04-14,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,SV Werder Bremen,Bremen,SVW,5,0,1,0,HOME_TEAM,Harm Osmers
+442056,2023,30,2024-04-19,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,FC Augsburg,Augsburg,FCA,3,1,0,1,HOME_TEAM,Martin Petersen
+442051,2023,30,2024-04-20,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,RB Leipzig,RB Leipzig,RBL,1,2,0,1,AWAY_TEAM,Tobias Welz
+442054,2023,30,2024-04-20,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,Borussia Mönchengladbach,M'gladbach,BMG,4,3,1,1,HOME_TEAM,Sören Storks
+442055,2023,30,2024-04-20,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,VfL Bochum 1848,Bochum,BOC,1,0,1,0,HOME_TEAM,Tobias Reichel
+442058,2023,30,2024-04-20,FINISHED,1. FC Köln,1. FC Köln,KOE,SV Darmstadt 98,Darmstadt,SVD,0,2,0,0,AWAY_TEAM,Matthias Jöllenbeck
+442050,2023,30,2024-04-20,FINISHED,1. FC Union Berlin,Union Berlin,UNB,FC Bayern München,Bayern,FCB,1,5,0,2,AWAY_TEAM,Sven Jablonski
+442057,2023,30,2024-04-21,FINISHED,SV Werder Bremen,Bremen,SVW,VfB Stuttgart,Stuttgart,VFB,2,1,1,0,HOME_TEAM,Robert Schröder
+442052,2023,30,2024-04-21,FINISHED,Borussia Dortmund,Dortmund,BVB,Bayer 04 Leverkusen,Leverkusen,B04,1,1,0,0,DRAW,Daniel Siebert
+442053,2023,30,2024-04-21,FINISHED,SC Freiburg,Freiburg,SCF,1. FSV Mainz 05,Mainz,M05,1,1,1,1,DRAW,Marco Fritz
+442064,2023,31,2024-04-26,FINISHED,VfL Bochum 1848,Bochum,BOC,TSG 1899 Hoffenheim,Hoffenheim,TSG,3,2,2,0,HOME_TEAM,Tobias Stieler
+442059,2023,31,2024-04-27,FINISHED,RB Leipzig,RB Leipzig,RBL,Borussia Dortmund,Dortmund,BVB,4,1,2,1,HOME_TEAM,Deniz Aytekin
+442061,2023,31,2024-04-27,FINISHED,FC Bayern München,Bayern,FCB,Eintracht Frankfurt,Frankfurt,SGE,2,1,1,1,HOME_TEAM,Daniel Schlager
+442062,2023,31,2024-04-27,FINISHED,SC Freiburg,Freiburg,SCF,VfL Wolfsburg,Wolfsburg,WOB,1,2,1,0,AWAY_TEAM,Frank Willenborg
+442065,2023,31,2024-04-27,FINISHED,FC Augsburg,Augsburg,FCA,SV Werder Bremen,Bremen,SVW,0,3,0,0,AWAY_TEAM,Tobias Welz
+442066,2023,31,2024-04-27,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,VfB Stuttgart,Stuttgart,VFB,2,2,0,0,DRAW,Felix Zwayer
+442060,2023,31,2024-04-28,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,1. FC Union Berlin,Union Berlin,UNB,0,0,0,0,DRAW,Sascha Stegemann
+442063,2023,31,2024-04-28,FINISHED,1. FSV Mainz 05,Mainz,M05,1. FC Köln,1. FC Köln,KOE,1,1,1,0,DRAW,Benjamin Brand
+442067,2023,31,2024-04-28,FINISHED,SV Darmstadt 98,Darmstadt,SVD,1. FC Heidenheim 1846,Heidenheim,HEI,0,1,0,0,AWAY_TEAM,Bastian Dankert
+442069,2023,32,2024-05-03,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,RB Leipzig,RB Leipzig,RBL,1,1,0,1,DRAW,Harm Osmers
+442068,2023,32,2024-05-04,FINISHED,VfB Stuttgart,Stuttgart,VFB,FC Bayern München,Bayern,FCB,3,1,1,1,HOME_TEAM,Tobias Welz
+442073,2023,32,2024-05-04,FINISHED,SV Werder Bremen,Bremen,SVW,Borussia Mönchengladbach,M'gladbach,BMG,2,2,1,1,DRAW,Timo Gerach
+442075,2023,32,2024-05-04,FINISHED,Borussia Dortmund,Dortmund,BVB,FC Augsburg,Augsburg,FCA,5,1,4,1,HOME_TEAM,Robert Schröder
+442076,2023,32,2024-05-04,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,SV Darmstadt 98,Darmstadt,SVD,3,0,2,0,HOME_TEAM,Robert Hartmann
+442070,2023,32,2024-05-04,FINISHED,1. FC Köln,1. FC Köln,KOE,SC Freiburg,Freiburg,SCF,0,0,0,0,DRAW,Sören Storks
+442074,2023,32,2024-05-05,FINISHED,1. FC Union Berlin,Union Berlin,UNB,VfL Bochum 1848,Bochum,BOC,3,4,0,3,AWAY_TEAM,Marco Fritz
+442071,2023,32,2024-05-05,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,Bayer 04 Leverkusen,Leverkusen,B04,1,5,1,2,AWAY_TEAM,Christian Dingert
+442072,2023,32,2024-05-05,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,1. FSV Mainz 05,Mainz,M05,1,1,0,1,DRAW,Sven Jablonski
+442084,2023,33,2024-05-10,FINISHED,FC Augsburg,Augsburg,FCA,VfB Stuttgart,Stuttgart,VFB,0,1,0,0,AWAY_TEAM,Patrick Ittrich
+442078,2023,33,2024-05-11,FINISHED,1. FC Köln,1. FC Köln,KOE,1. FC Union Berlin,Union Berlin,UNB,3,2,1,2,HOME_TEAM,Deniz Aytekin
+442080,2023,33,2024-05-11,FINISHED,Borussia Mönchengladbach,M'gladbach,BMG,Eintracht Frankfurt,Frankfurt,SGE,1,1,1,1,DRAW,Robert Schröder
+442083,2023,33,2024-05-11,FINISHED,RB Leipzig,RB Leipzig,RBL,SV Werder Bremen,Bremen,SVW,1,1,0,1,DRAW,Sascha Stegemann
+442085,2023,33,2024-05-11,FINISHED,SC Freiburg,Freiburg,SCF,1. FC Heidenheim 1846,Heidenheim,HEI,1,1,1,1,DRAW,Daniel Siebert
+442077,2023,33,2024-05-11,FINISHED,1. FSV Mainz 05,Mainz,M05,Borussia Dortmund,Dortmund,BVB,3,0,3,0,HOME_TEAM,Tobias Stieler
+442082,2023,33,2024-05-12,FINISHED,SV Darmstadt 98,Darmstadt,SVD,TSG 1899 Hoffenheim,Hoffenheim,TSG,0,6,0,5,AWAY_TEAM,Florian Badstübner
+442081,2023,33,2024-05-12,FINISHED,FC Bayern München,Bayern,FCB,VfL Wolfsburg,Wolfsburg,WOB,2,0,2,0,HOME_TEAM,Bastian Dankert
+442079,2023,33,2024-05-12,FINISHED,VfL Bochum 1848,Bochum,BOC,Bayer 04 Leverkusen,Leverkusen,B04,0,5,0,2,AWAY_TEAM,Benjamin Brand
+442086,2023,34,2024-05-18,FINISHED,TSG 1899 Hoffenheim,Hoffenheim,TSG,FC Bayern München,Bayern,FCB,4,2,1,2,HOME_TEAM,Marco Fritz
+442087,2023,34,2024-05-18,FINISHED,Eintracht Frankfurt,Frankfurt,SGE,RB Leipzig,RB Leipzig,RBL,2,2,0,1,DRAW,Felix Zwayer
+442088,2023,34,2024-05-18,FINISHED,1. FC Union Berlin,Union Berlin,UNB,SC Freiburg,Freiburg,SCF,2,1,0,0,HOME_TEAM,Christian Dingert
+442089,2023,34,2024-05-18,FINISHED,VfL Wolfsburg,Wolfsburg,WOB,1. FSV Mainz 05,Mainz,M05,1,3,1,1,AWAY_TEAM,Frank Willenborg
+442090,2023,34,2024-05-18,FINISHED,VfB Stuttgart,Stuttgart,VFB,Borussia Mönchengladbach,M'gladbach,BMG,4,0,2,0,HOME_TEAM,Daniel Schlager
+442091,2023,34,2024-05-18,FINISHED,1. FC Heidenheim 1846,Heidenheim,HEI,1. FC Köln,1. FC Köln,KOE,4,1,3,0,HOME_TEAM,Tobias Welz
+442092,2023,34,2024-05-18,FINISHED,SV Werder Bremen,Bremen,SVW,VfL Bochum 1848,Bochum,BOC,4,1,1,0,HOME_TEAM,Martin Petersen
+442093,2023,34,2024-05-18,FINISHED,Bayer 04 Leverkusen,Leverkusen,B04,FC Augsburg,Augsburg,FCA,2,1,2,0,HOME_TEAM,Matthias Jöllenbeck
+442094,2023,34,2024-05-18,FINISHED,Borussia Dortmund,Dortmund,BVB,SV Darmstadt 98,Darmstadt,SVD,4,0,2,0,HOME_TEAM,Daniel Siebert

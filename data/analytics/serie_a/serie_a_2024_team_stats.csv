@@ -1,0 +1,21 @@
+team,home_team_tla,played,wins,draws,losses,points,goals_scored,goals_conceded,goal_difference,avg_goals_scored,avg_goals_conceded,clean_sheets,home_wins,home_draws,home_losses,away_wins,away_draws,away_losses,form_last5
+SSC Napoli,NAP,38,24,10,4,82,59,27,32,1.55,0.71,19,14,3,2,10,7,2,WWDDW
+FC Internazionale Milano,INT,38,24,9,5,81,79,35,44,2.08,0.92,16,13,4,2,11,5,3,LWWDW
+Atalanta BC,ATA,38,22,8,8,74,78,37,41,2.05,0.97,15,9,5,5,13,3,3,DWWWL
+Juventus FC,JUV,38,18,16,4,70,58,35,23,1.53,0.92,17,11,7,1,7,9,3,WDDWW
+AS Roma,ROM,38,20,9,9,69,56,35,21,1.47,0.92,16,13,2,4,7,7,5,WWLWW
+SS Lazio,LAZ,38,18,11,9,65,61,49,12,1.61,1.29,9,7,9,3,11,2,6,DWDDL
+ACF Fiorentina,FIO,38,19,8,11,65,60,41,19,1.58,1.08,12,12,4,3,7,4,8,WLLWW
+AC Milan,MIL,38,18,9,11,63,61,43,18,1.61,1.13,13,9,7,3,9,2,8,WWWLW
+Bologna FC 1909,BOL,38,16,14,8,62,57,47,10,1.5,1.24,12,10,7,2,6,7,6,DDLLL
+Como 1907,COM,38,13,10,15,49,49,52,-3,1.29,1.37,7,8,5,6,5,5,9,WWWDL
+Udinese Calcio,UDI,38,12,8,18,44,41,56,-15,1.08,1.47,9,7,3,9,5,5,9,DWLLL
+Torino FC,TOR,38,10,14,14,44,39,45,-6,1.03,1.18,10,6,7,6,4,7,8,LDLLL
+Genoa CFC,GEN,38,10,13,15,43,37,49,-12,0.97,1.29,11,5,7,7,5,6,8,LLDLW
+Hellas Verona FC,HVE,38,10,7,21,37,34,66,-32,0.89,1.74,8,4,5,10,6,2,11,LLDDW
+Parma Calcio 1913,PAR,38,7,15,16,36,44,58,-14,1.16,1.53,7,5,6,8,2,9,8,DLLDW
+Cagliari Calcio,CAG,38,9,9,20,36,40,56,-16,1.05,1.47,7,6,4,9,3,5,11,WLLWL
+US Lecce,USL,38,8,10,20,34,27,58,-31,0.71,1.53,9,4,6,9,4,4,11,DLDWW
+Empoli FC,EMP,38,6,13,19,31,33,59,-26,0.87,1.55,6,2,7,10,4,6,9,LLWWL
+Venezia FC,VEN,38,5,14,19,29,32,56,-24,0.84,1.47,6,5,5,9,0,9,10,LDWLL
+AC Monza,MON,38,3,9,26,18,28,69,-41,0.74,1.82,3,1,5,13,2,4,13,LLWLL

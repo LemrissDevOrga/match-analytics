@@ -1,0 +1,218 @@
+match_id,season,matchday,date,status,home_team,home_team_short,home_team_tla,away_team,away_team_short,away_team_tla,home_goals_ft,away_goals_ft,home_goals_ht,away_goals_ht,result,referee
+542414,2025,1,2025-08-15,FINISHED,Stade Rennais FC 1901,Stade Rennais,REN,Olympique de Marseille,Marseille,MAR,1,0,0,0,HOME_TEAM,Jérémie Pignard
+542411,2025,1,2025-08-16,FINISHED,Racing Club de Lens,RC Lens,RCL,Olympique Lyonnais,Olympique Lyon,LYO,0,1,0,1,AWAY_TEAM,Romain Lissorgue
+542407,2025,1,2025-08-16,FINISHED,AS Monaco FC,Monaco,ASM,Le Havre AC,Le Havre,HAC,3,1,1,0,HOME_TEAM,Ruddy Buquet
+542410,2025,1,2025-08-16,FINISHED,OGC Nice,Nice,NIC,Toulouse FC,Toulouse,TOU,0,1,0,0,AWAY_TEAM,Thomas Léonard
+542413,2025,1,2025-08-17,FINISHED,Stade Brestois 29,Brest,BRE,Lille OSC,Lille,LIL,3,3,1,2,DRAW,Clément Turpin
+542406,2025,1,2025-08-17,FINISHED,AJ Auxerre,Auxerre,AJA,FC Lorient,Lorient,FCL,1,0,0,0,HOME_TEAM,Abdelatif Kherradji
+542408,2025,1,2025-08-17,FINISHED,FC Metz,FC Metz,FCM,RC Strasbourg Alsace,Strasbourg,RC ,0,1,0,0,AWAY_TEAM,Mathieu Vernice
+542412,2025,1,2025-08-17,FINISHED,Angers SCO,Angers SCO,ANG,Paris FC,Paris FC,PFC,1,0,1,0,HOME_TEAM,François Letexier
+542409,2025,1,2025-08-17,FINISHED,FC Nantes,Nantes,NAN,Paris Saint-Germain FC,PSG,PSG,0,1,0,0,AWAY_TEAM,Benoît Bastien
+542422,2025,2,2025-08-22,FINISHED,Paris Saint-Germain FC,PSG,PSG,Angers SCO,Angers SCO,ANG,1,0,0,0,HOME_TEAM,Hakim Ben El Hadj Salem
+542420,2025,2,2025-08-23,FINISHED,Olympique de Marseille,Marseille,MAR,Paris FC,Paris FC,PFC,5,2,2,1,HOME_TEAM,Marc Bollengier
+542418,2025,2,2025-08-23,FINISHED,OGC Nice,Nice,NIC,AJ Auxerre,Auxerre,AJA,3,1,2,1,HOME_TEAM,Jeremy Stinat
+542419,2025,2,2025-08-23,FINISHED,Olympique Lyonnais,Olympique Lyon,LYO,FC Metz,FC Metz,FCM,3,0,2,0,HOME_TEAM,Eric Wattellier
+542416,2025,2,2025-08-24,FINISHED,FC Lorient,Lorient,FCL,Stade Rennais FC 1901,Stade Rennais,REN,4,0,1,0,HOME_TEAM,Jérôme Brisard
+542415,2025,2,2025-08-24,FINISHED,Le Havre AC,Le Havre,HAC,Racing Club de Lens,RC Lens,RCL,1,2,1,2,AWAY_TEAM,Guillaume Paradis
+542417,2025,2,2025-08-24,FINISHED,Toulouse FC,Toulouse,TOU,Stade Brestois 29,Brest,BRE,2,0,0,0,HOME_TEAM,Benoît Millot
+542423,2025,2,2025-08-24,FINISHED,RC Strasbourg Alsace,Strasbourg,RC ,FC Nantes,Nantes,NAN,1,0,0,0,HOME_TEAM,Bastien Dechepy
+542421,2025,2,2025-08-24,FINISHED,Lille OSC,Lille,LIL,AS Monaco FC,Monaco,ASM,1,0,0,0,HOME_TEAM,Willy Delajod
+542431,2025,3,2025-08-29,FINISHED,Racing Club de Lens,RC Lens,RCL,Stade Brestois 29,Brest,BRE,3,1,0,1,HOME_TEAM,Abdelatif Kherradji
+542426,2025,3,2025-08-30,FINISHED,FC Lorient,Lorient,FCL,Lille OSC,Lille,LIL,1,7,0,0,AWAY_TEAM,Romain Lissorgue
+542427,2025,3,2025-08-30,FINISHED,FC Nantes,Nantes,NAN,AJ Auxerre,Auxerre,AJA,1,0,1,0,HOME_TEAM,Stéphanie Frappart
+542429,2025,3,2025-08-30,FINISHED,Toulouse FC,Toulouse,TOU,Paris Saint-Germain FC,PSG,PSG,3,6,1,4,AWAY_TEAM,Eric Wattellier
+542432,2025,3,2025-08-31,FINISHED,Angers SCO,Angers SCO,ANG,Stade Rennais FC 1901,Stade Rennais,REN,1,1,0,1,DRAW,Marc Bollengier
+542424,2025,3,2025-08-31,FINISHED,Le Havre AC,Le Havre,HAC,OGC Nice,Nice,NIC,3,1,1,0,HOME_TEAM,Jérôme Brisard
+542425,2025,3,2025-08-31,FINISHED,AS Monaco FC,Monaco,ASM,RC Strasbourg Alsace,Strasbourg,RC ,3,2,1,0,HOME_TEAM,Benoît Bastien
+542428,2025,3,2025-08-31,FINISHED,Paris FC,Paris FC,PFC,FC Metz,FC Metz,FCM,3,2,1,1,HOME_TEAM,Gaël Angoula
+542430,2025,3,2025-08-31,FINISHED,Olympique Lyonnais,Olympique Lyon,LYO,Olympique de Marseille,Marseille,MAR,1,0,0,0,HOME_TEAM,François Letexier
+542436,2025,4,2025-09-12,FINISHED,Olympique de Marseille,Marseille,MAR,FC Lorient,Lorient,FCL,4,0,3,0,HOME_TEAM,Thomas Léonard
+542435,2025,4,2025-09-13,FINISHED,OGC Nice,Nice,NIC,FC Nantes,Nantes,NAN,1,0,0,0,HOME_TEAM,Guillaume Paradis
+542433,2025,4,2025-09-13,FINISHED,AJ Auxerre,Auxerre,AJA,AS Monaco FC,Monaco,ASM,1,2,0,1,AWAY_TEAM,Romain Lissorgue
+542437,2025,4,2025-09-14,FINISHED,Lille OSC,Lille,LIL,Toulouse FC,Toulouse,TOU,2,1,0,0,HOME_TEAM,Jeremy Stinat
+542434,2025,4,2025-09-14,FINISHED,FC Metz,FC Metz,FCM,Angers SCO,Angers SCO,ANG,1,1,1,0,DRAW,Benoît Millot
+542438,2025,4,2025-09-14,FINISHED,Paris Saint-Germain FC,PSG,PSG,Racing Club de Lens,RC Lens,RCL,2,0,1,0,HOME_TEAM,Jérémie Pignard
+542439,2025,4,2025-09-14,FINISHED,RC Strasbourg Alsace,Strasbourg,RC ,Le Havre AC,Le Havre,HAC,1,0,0,0,HOME_TEAM,Willy Delajod
+542440,2025,4,2025-09-14,FINISHED,Stade Brestois 29,Brest,BRE,Paris FC,Paris FC,PFC,1,2,0,2,AWAY_TEAM,Bastien Dechepy
+542441,2025,4,2025-09-14,FINISHED,Stade Rennais FC 1901,Stade Rennais,REN,Olympique Lyonnais,Olympique Lyon,LYO,3,1,0,1,HOME_TEAM,Ruddy Buquet
+542448,2025,5,2025-09-19,FINISHED,Olympique Lyonnais,Olympique Lyon,LYO,Angers SCO,Angers SCO,ANG,1,0,0,0,HOME_TEAM,Clément Turpin
+542445,2025,5,2025-09-20,FINISHED,FC Nantes,Nantes,NAN,Stade Rennais FC 1901,Stade Rennais,REN,2,2,0,2,DRAW,Mathieu Vernice
+542450,2025,5,2025-09-20,FINISHED,Stade Brestois 29,Brest,BRE,OGC Nice,Nice,NIC,4,1,2,1,HOME_TEAM,Benoît Bastien
+542449,2025,5,2025-09-20,FINISHED,Racing Club de Lens,RC Lens,RCL,Lille OSC,Lille,LIL,3,0,2,0,HOME_TEAM,Eric Wattellier
+542446,2025,5,2025-09-21,FINISHED,Paris FC,Paris FC,PFC,RC Strasbourg Alsace,Strasbourg,RC ,2,3,0,1,AWAY_TEAM,François Letexier
+542442,2025,5,2025-09-21,FINISHED,Le Havre AC,Le Havre,HAC,FC Lorient,Lorient,FCL,1,1,0,1,DRAW,Abdelatif Kherradji
+542443,2025,5,2025-09-21,FINISHED,AJ Auxerre,Auxerre,AJA,Toulouse FC,Toulouse,TOU,1,0,1,0,HOME_TEAM,Marc Bollengier
+542444,2025,5,2025-09-21,FINISHED,AS Monaco FC,Monaco,ASM,FC Metz,FC Metz,FCM,5,2,1,1,HOME_TEAM,Stéphanie Frappart
+542447,2025,5,2025-09-22,FINISHED,Olympique de Marseille,Marseille,MAR,Paris Saint-Germain FC,PSG,PSG,1,0,1,0,HOME_TEAM,Jérôme Brisard
+542457,2025,6,2025-09-26,FINISHED,RC Strasbourg Alsace,Strasbourg,RC ,Olympique de Marseille,Marseille,MAR,1,2,0,0,AWAY_TEAM,Jérémie Pignard
+542451,2025,6,2025-09-27,FINISHED,FC Lorient,Lorient,FCL,AS Monaco FC,Monaco,ASM,3,1,1,0,HOME_TEAM,Ruddy Buquet
+542453,2025,6,2025-09-27,FINISHED,Toulouse FC,Toulouse,TOU,FC Nantes,Nantes,NAN,2,2,0,1,DRAW,Benoît Bastien
+542456,2025,6,2025-09-27,FINISHED,Paris Saint-Germain FC,PSG,PSG,AJ Auxerre,Auxerre,AJA,2,0,1,0,HOME_TEAM,Thomas Léonard
+542454,2025,6,2025-09-28,FINISHED,OGC Nice,Nice,NIC,Paris FC,Paris FC,PFC,1,1,1,0,DRAW,Abdelatif Kherradji
+542452,2025,6,2025-09-28,FINISHED,FC Metz,FC Metz,FCM,Le Havre AC,Le Havre,HAC,0,0,0,0,DRAW,Romain Lissorgue
+542455,2025,6,2025-09-28,FINISHED,Lille OSC,Lille,LIL,Olympique Lyonnais,Olympique Lyon,LYO,0,1,0,1,AWAY_TEAM,Mathieu Vernice
+542458,2025,6,2025-09-28,FINISHED,Angers SCO,Angers SCO,ANG,Stade Brestois 29,Brest,BRE,0,2,0,2,AWAY_TEAM,Willy Delajod
+542459,2025,6,2025-09-28,FINISHED,Stade Rennais FC 1901,Stade Rennais,REN,Racing Club de Lens,RC Lens,RCL,0,0,0,0,DRAW,Bastien Dechepy
+542464,2025,7,2025-10-03,FINISHED,Paris FC,Paris FC,PFC,FC Lorient,Lorient,FCL,2,0,2,0,HOME_TEAM,Benoît Millot
+542463,2025,7,2025-10-04,FINISHED,FC Metz,FC Metz,FCM,Olympique de Marseille,Marseille,MAR,0,3,0,0,AWAY_TEAM,Clément Turpin
+542468,2025,7,2025-10-04,FINISHED,Stade Brestois 29,Brest,BRE,FC Nantes,Nantes,NAN,0,0,0,0,DRAW,Gaël Angoula
+542461,2025,7,2025-10-04,FINISHED,AJ Auxerre,Auxerre,AJA,Racing Club de Lens,RC Lens,RCL,1,2,0,1,AWAY_TEAM,François Letexier
+542465,2025,7,2025-10-05,FINISHED,Olympique Lyonnais,Olympique Lyon,LYO,Toulouse FC,Toulouse,TOU,1,2,1,0,AWAY_TEAM,Thomas Léonard
+542467,2025,7,2025-10-05,FINISHED,RC Strasbourg Alsace,Strasbourg,RC ,Angers SCO,Angers SCO,ANG,5,0,1,0,HOME_TEAM,Guillaume Paradis
+542460,2025,7,2025-10-05,FINISHED,Le Havre AC,Le Havre,HAC,Stade Rennais FC 1901,Stade Rennais,REN,2,2,1,2,DRAW,Jérémie Pignard
+542462,2025,7,2025-10-05,FINISHED,AS Monaco FC,Monaco,ASM,OGC Nice,Nice,NIC,2,2,1,2,DRAW,Willy Delajod
+542466,2025,7,2025-10-05,FINISHED,Lille OSC,Lille,LIL,Paris Saint-Germain FC,PSG,PSG,1,1,0,0,DRAW,Benoît Bastien
+542474,2025,8,2025-10-17,FINISHED,Paris Saint-Germain FC,PSG,PSG,RC Strasbourg Alsace,Strasbourg,RC ,3,3,1,2,DRAW,Clément Turpin
+542472,2025,8,2025-10-18,FINISHED,OGC Nice,Nice,NIC,Olympique Lyonnais,Olympique Lyon,LYO,3,2,2,1,HOME_TEAM,Jérôme Brisard
+542476,2025,8,2025-10-18,FINISHED,Angers SCO,Angers SCO,ANG,AS Monaco FC,Monaco,ASM,1,1,0,0,DRAW,Jeremy Stinat
+542473,2025,8,2025-10-18,FINISHED,Olympique de Marseille,Marseille,MAR,Le Havre AC,Le Havre,HAC,6,2,1,1,HOME_TEAM,Bastien Dechepy
+542475,2025,8,2025-10-19,FINISHED,Racing Club de Lens,RC Lens,RCL,Paris FC,Paris FC,PFC,2,1,1,1,HOME_TEAM,Gaël Angoula
+542469,2025,8,2025-10-19,FINISHED,FC Lorient,Lorient,FCL,Stade Brestois 29,Brest,BRE,3,3,1,2,DRAW,Marc Bollengier
+542471,2025,8,2025-10-19,FINISHED,Toulouse FC,Toulouse,TOU,FC Metz,FC Metz,FCM,4,0,2,0,HOME_TEAM,François Letexier
+542477,2025,8,2025-10-19,FINISHED,Stade Rennais FC 1901,Stade Rennais,REN,AJ Auxerre,Auxerre,AJA,2,2,1,1,DRAW,Eric Wattellier
+542470,2025,8,2025-10-19,FINISHED,FC Nantes,Nantes,NAN,Lille OSC,Lille,LIL,0,2,0,1,AWAY_TEAM,Thomas Léonard
+542480,2025,9,2025-10-24,FINISHED,Paris FC,Paris FC,PFC,FC Nantes,Nantes,NAN,1,2,1,2,AWAY_TEAM,Ruddy Buquet
+542485,2025,9,2025-10-25,FINISHED,Stade Brestois 29,Brest,BRE,Paris Saint-Germain FC,PSG,PSG,0,3,0,2,AWAY_TEAM,Jérémie Pignard
+542479,2025,9,2025-10-25,FINISHED,AS Monaco FC,Monaco,ASM,Toulouse FC,Toulouse,TOU,1,0,1,0,HOME_TEAM,Guillaume Paradis
+542483,2025,9,2025-10-25,FINISHED,Racing Club de Lens,RC Lens,RCL,Olympique de Marseille,Marseille,MAR,2,1,1,1,HOME_TEAM,Stéphanie Frappart
+542482,2025,9,2025-10-26,FINISHED,Lille OSC,Lille,LIL,FC Metz,FC Metz,FCM,6,1,2,0,HOME_TEAM,Benoît Millot
+542478,2025,9,2025-10-26,FINISHED,AJ Auxerre,Auxerre,AJA,Le Havre AC,Le Havre,HAC,0,1,0,0,AWAY_TEAM,Hakim Ben El Hadj Salem
+542484,2025,9,2025-10-26,FINISHED,Angers SCO,Angers SCO,ANG,FC Lorient,Lorient,FCL,2,0,1,0,HOME_TEAM,Benoît Bastien
+542486,2025,9,2025-10-26,FINISHED,Stade Rennais FC 1901,Stade Rennais,REN,OGC Nice,Nice,NIC,1,2,0,2,AWAY_TEAM,Marc Bollengier
+542481,2025,9,2025-10-26,FINISHED,Olympique Lyonnais,Olympique Lyon,LYO,RC Strasbourg Alsace,Strasbourg,RC ,2,1,1,1,HOME_TEAM,Eric Wattellier
+542487,2025,10,2025-10-29,FINISHED,Le Havre AC,Le Havre,HAC,Stade Brestois 29,Brest,BRE,1,0,0,0,HOME_TEAM,Benoît Millot
+542488,2025,10,2025-10-29,FINISHED,FC Lorient,Lorient,FCL,Paris Saint-Germain FC,PSG,PSG,1,1,0,0,DRAW,Willy Delajod
+542489,2025,10,2025-10-29,FINISHED,FC Metz,FC Metz,FCM,Racing Club de Lens,RC Lens,RCL,2,0,0,0,HOME_TEAM,Abdelatif Kherradji
+542493,2025,10,2025-10-29,FINISHED,OGC Nice,Nice,NIC,Lille OSC,Lille,LIL,2,0,1,0,HOME_TEAM,Bastien Dechepy
+542490,2025,10,2025-10-29,FINISHED,FC Nantes,Nantes,NAN,AS Monaco FC,Monaco,ASM,3,5,2,2,AWAY_TEAM,Jérôme Brisard
+542491,2025,10,2025-10-29,FINISHED,Paris FC,Paris FC,PFC,Olympique Lyonnais,Olympique Lyon,LYO,3,3,0,1,DRAW,Jeremy Stinat
+542492,2025,10,2025-10-29,FINISHED,Toulouse FC,Toulouse,TOU,Stade Rennais FC 1901,Stade Rennais,REN,2,2,0,0,DRAW,Clément Turpin
+542494,2025,10,2025-10-29,FINISHED,Olympique de Marseille,Marseille,MAR,Angers SCO,Angers SCO,ANG,2,2,0,1,DRAW,Thomas Léonard
+542495,2025,10,2025-10-29,FINISHED,RC Strasbourg Alsace,Strasbourg,RC ,AJ Auxerre,Auxerre,AJA,3,0,0,0,HOME_TEAM,Ruddy Buquet
+542501,2025,11,2025-11-01,FINISHED,Paris Saint-Germain FC,PSG,PSG,OGC Nice,Nice,NIC,1,0,0,0,HOME_TEAM,François Letexier
+542497,2025,11,2025-11-01,FINISHED,AS Monaco FC,Monaco,ASM,Paris FC,Paris FC,PFC,0,1,0,0,AWAY_TEAM,Eric Wattellier
+542496,2025,11,2025-11-01,FINISHED,AJ Auxerre,Auxerre,AJA,Olympique de Marseille,Marseille,MAR,0,1,0,1,AWAY_TEAM,Benoît Bastien
+542504,2025,11,2025-11-02,FINISHED,Stade Rennais FC 1901,Stade Rennais,REN,RC Strasbourg Alsace,Strasbourg,RC ,4,1,2,0,HOME_TEAM,Thomas Léonard
+542498,2025,11,2025-11-02,FINISHED,FC Nantes,Nantes,NAN,FC Metz,FC Metz,FCM,0,2,0,0,AWAY_TEAM,Gaël Angoula
+542499,2025,11,2025-11-02,FINISHED,Toulouse FC,Toulouse,TOU,Le Havre AC,Le Havre,HAC,0,0,0,0,DRAW,Jeremy Stinat
+542500,2025,11,2025-11-02,FINISHED,Lille OSC,Lille,LIL,Angers SCO,Angers SCO,ANG,1,0,1,0,HOME_TEAM,Jérôme Brisard
+542502,2025,11,2025-11-02,FINISHED,Racing Club de Lens,RC Lens,RCL,FC Lorient,Lorient,FCL,3,0,1,0,HOME_TEAM,Jérémie Pignard
+542503,2025,11,2025-11-02,FINISHED,Stade Brestois 29,Brest,BRE,Olympique Lyonnais,Olympique Lyon,LYO,0,0,0,0,DRAW,Clément Turpin
+542509,2025,12,2025-11-07,FINISHED,Paris FC,Paris FC,PFC,Stade Rennais FC 1901,Stade Rennais,REN,0,1,0,0,AWAY_TEAM,Guillaume Paradis
+542511,2025,12,2025-11-08,FINISHED,Olympique de Marseille,Marseille,MAR,Stade Brestois 29,Brest,BRE,3,0,2,0,HOME_TEAM,Willy Delajod
+542505,2025,12,2025-11-08,FINISHED,Le Havre AC,Le Havre,HAC,FC Nantes,Nantes,NAN,1,1,0,1,DRAW,Romain Lissorgue
+542506,2025,12,2025-11-08,FINISHED,AS Monaco FC,Monaco,ASM,Racing Club de Lens,RC Lens,RCL,1,4,1,3,AWAY_TEAM,Bastien Dechepy
+542507,2025,12,2025-11-09,FINISHED,FC Lorient,Lorient,FCL,Toulouse FC,Toulouse,TOU,1,1,1,0,DRAW,Hakim Ben El Hadj Salem
+542508,2025,12,2025-11-09,FINISHED,FC Metz,FC Metz,FCM,OGC Nice,Nice,NIC,2,1,0,1,HOME_TEAM,Stéphanie Frappart
+542512,2025,12,2025-11-09,FINISHED,RC Strasbourg Alsace,Strasbourg,RC ,Lille OSC,Lille,LIL,2,0,1,0,HOME_TEAM,François Letexier
+542513,2025,12,2025-11-09,FINISHED,Angers SCO,Angers SCO,ANG,AJ Auxerre,Auxerre,AJA,2,0,0,0,HOME_TEAM,Abdelatif Kherradji
+542510,2025,12,2025-11-09,FINISHED,Olympique Lyonnais,Olympique Lyon,LYO,Paris Saint-Germain FC,PSG,PSG,2,3,1,2,AWAY_TEAM,Benoît Bastien
+542517,2025,13,2025-11-21,FINISHED,OGC Nice,Nice,NIC,Olympique de Marseille,Marseille,MAR,1,5,0,2,AWAY_TEAM,Jérémie Pignard
+542520,2025,13,2025-11-22,FINISHED,Racing Club de Lens,RC Lens,RCL,RC Strasbourg Alsace,Strasbourg,RC ,1,0,0,0,HOME_TEAM,Jérôme Brisard
+542522,2025,13,2025-11-22,FINISHED,Stade Rennais FC 1901,Stade Rennais,REN,AS Monaco FC,Monaco,ASM,4,1,1,0,HOME_TEAM,Hakim Ben El Hadj Salem
+542519,2025,13,2025-11-22,FINISHED,Paris Saint-Germain FC,PSG,PSG,Le Havre AC,Le Havre,HAC,3,0,1,0,HOME_TEAM,Mathieu Vernice
+542514,2025,13,2025-11-23,FINISHED,AJ Auxerre,Auxerre,AJA,Olympique Lyonnais,Olympique Lyon,LYO,0,0,0,0,DRAW,Thomas Léonard
+542515,2025,13,2025-11-23,FINISHED,FC Nantes,Nantes,NAN,FC Lorient,Lorient,FCL,1,1,0,1,DRAW,Ruddy Buquet
+542516,2025,13,2025-11-23,FINISHED,Toulouse FC,Toulouse,TOU,Angers SCO,Angers SCO,ANG,0,1,0,1,AWAY_TEAM,Marc Bollengier
+542521,2025,13,2025-11-23,FINISHED,Stade Brestois 29,Brest,BRE,FC Metz,FC Metz,FCM,3,2,1,1,HOME_TEAM,Gaël Angoula
+542518,2025,13,2025-11-23,FINISHED,Lille OSC,Lille,LIL,Paris FC,Paris FC,PFC,4,2,1,1,HOME_TEAM,Benoît Millot
+542526,2025,14,2025-11-28,FINISHED,FC Metz,FC Metz,FCM,Stade Rennais FC 1901,Stade Rennais,REN,0,1,0,1,AWAY_TEAM,Jeremy Stinat
+542524,2025,14,2025-11-29,FINISHED,AS Monaco FC,Monaco,ASM,Paris Saint-Germain FC,PSG,PSG,1,0,0,0,HOME_TEAM,Clément Turpin
+542527,2025,14,2025-11-29,FINISHED,Paris FC,Paris FC,PFC,AJ Auxerre,Auxerre,AJA,1,1,1,1,DRAW,François Letexier
+542529,2025,14,2025-11-29,FINISHED,Olympique de Marseille,Marseille,MAR,Toulouse FC,Toulouse,TOU,2,2,0,1,DRAW,Eric Wattellier
+542530,2025,14,2025-11-30,FINISHED,RC Strasbourg Alsace,Strasbourg,RC ,Stade Brestois 29,Brest,BRE,1,2,1,0,AWAY_TEAM,Bastien Dechepy
+542523,2025,14,2025-11-30,FINISHED,Le Havre AC,Le Havre,HAC,Lille OSC,Lille,LIL,0,1,0,0,AWAY_TEAM,Willy Delajod
+542525,2025,14,2025-11-30,FINISHED,FC Lorient,Lorient,FCL,OGC Nice,Nice,NIC,3,1,2,1,HOME_TEAM,Romain Lissorgue
+542531,2025,14,2025-11-30,FINISHED,Angers SCO,Angers SCO,ANG,Racing Club de Lens,RC Lens,RCL,1,2,0,1,AWAY_TEAM,Guillaume Paradis
+542528,2025,14,2025-11-30,FINISHED,Olympique Lyonnais,Olympique Lyon,LYO,FC Nantes,Nantes,NAN,3,0,0,0,HOME_TEAM,Abdelatif Kherradji
+542540,2025,15,2025-12-05,FINISHED,Stade Brestois 29,Brest,BRE,AS Monaco FC,Monaco,ASM,1,0,1,0,HOME_TEAM,Thomas Léonard
+542538,2025,15,2025-12-05,FINISHED,Lille OSC,Lille,LIL,Olympique de Marseille,Marseille,MAR,1,0,1,0,HOME_TEAM,Jérôme Brisard
+542535,2025,15,2025-12-06,FINISHED,FC Nantes,Nantes,NAN,Racing Club de Lens,RC Lens,RCL,1,2,1,1,AWAY_TEAM,Benoît Bastien
+542536,2025,15,2025-12-06,FINISHED,Toulouse FC,Toulouse,TOU,RC Strasbourg Alsace,Strasbourg,RC ,1,0,1,0,HOME_TEAM,Stéphanie Frappart
+542539,2025,15,2025-12-06,FINISHED,Paris Saint-Germain FC,PSG,PSG,Stade Rennais FC 1901,Stade Rennais,REN,5,0,2,0,HOME_TEAM,Marc Bollengier
+542537,2025,15,2025-12-07,FINISHED,OGC Nice,Nice,NIC,Angers SCO,Angers SCO,ANG,0,1,0,1,AWAY_TEAM,Hakim Ben El Hadj Salem
+542532,2025,15,2025-12-07,FINISHED,Le Havre AC,Le Havre,HAC,Paris FC,Paris FC,PFC,0,0,0,0,DRAW,Ruddy Buquet
+542533,2025,15,2025-12-07,FINISHED,AJ Auxerre,Auxerre,AJA,FC Metz,FC Metz,FCM,3,1,2,1,HOME_TEAM,Eric Wattellier
+542534,2025,15,2025-12-07,FINISHED,FC Lorient,Lorient,FCL,Olympique Lyonnais,Olympique Lyon,LYO,1,0,1,0,HOME_TEAM,Mathieu Vernice
+542548,2025,16,2025-12-12,FINISHED,Angers SCO,Angers SCO,ANG,FC Nantes,Nantes,NAN,4,1,1,0,HOME_TEAM,Stéphanie Frappart
+542549,2025,16,2025-12-13,FINISHED,Stade Rennais FC 1901,Stade Rennais,REN,Stade Brestois 29,Brest,BRE,3,1,2,1,HOME_TEAM,Benoît Millot
+542542,2025,16,2025-12-13,FINISHED,FC Metz,FC Metz,FCM,Paris Saint-Germain FC,PSG,PSG,2,3,1,2,AWAY_TEAM,Romain Lissorgue
+542543,2025,16,2025-12-13,FINISHED,Paris FC,Paris FC,PFC,Toulouse FC,Toulouse,TOU,0,3,0,2,AWAY_TEAM,Bastien Dechepy
+542544,2025,16,2025-12-14,FINISHED,Olympique Lyonnais,Olympique Lyon,LYO,Le Havre AC,Le Havre,HAC,1,0,0,0,HOME_TEAM,Marc Bollengier
+542541,2025,16,2025-12-14,FINISHED,AJ Auxerre,Auxerre,AJA,Lille OSC,Lille,LIL,3,4,0,1,AWAY_TEAM,Jérémie Pignard
+542546,2025,16,2025-12-14,FINISHED,RC Strasbourg Alsace,Strasbourg,RC ,FC Lorient,Lorient,FCL,0,0,0,0,DRAW,Gaël Angoula
+542547,2025,16,2025-12-14,FINISHED,Racing Club de Lens,RC Lens,RCL,OGC Nice,Nice,NIC,2,0,1,0,HOME_TEAM,Willy Delajod
+542545,2025,16,2025-12-14,FINISHED,Olympique de Marseille,Marseille,MAR,AS Monaco FC,Monaco,ASM,1,0,0,0,HOME_TEAM,François Letexier
+542553,2025,17,2026-01-02,FINISHED,Toulouse FC,Toulouse,TOU,Racing Club de Lens,RC Lens,RCL,0,3,0,0,AWAY_TEAM,Mathieu Vernice
+542551,2025,17,2026-01-03,FINISHED,AS Monaco FC,Monaco,ASM,Olympique Lyonnais,Olympique Lyon,LYO,1,3,1,1,AWAY_TEAM,Jérôme Brisard
+542554,2025,17,2026-01-03,FINISHED,OGC Nice,Nice,NIC,RC Strasbourg Alsace,Strasbourg,RC ,1,1,0,1,DRAW,Clément Turpin
+542556,2025,17,2026-01-03,FINISHED,Lille OSC,Lille,LIL,Stade Rennais FC 1901,Stade Rennais,REN,0,2,0,0,AWAY_TEAM,Eric Wattellier
+542555,2025,17,2026-01-04,FINISHED,Olympique de Marseille,Marseille,MAR,FC Nantes,Nantes,NAN,0,2,0,1,AWAY_TEAM,Marc Bollengier
+542550,2025,17,2026-01-04,FINISHED,Le Havre AC,Le Havre,HAC,Angers SCO,Angers SCO,ANG,2,1,1,0,HOME_TEAM,Hakim Ben El Hadj Salem
+542552,2025,17,2026-01-04,FINISHED,FC Lorient,Lorient,FCL,FC Metz,FC Metz,FCM,1,1,0,1,DRAW,Guillaume Paradis
+542558,2025,17,2026-01-04,FINISHED,Stade Brestois 29,Brest,BRE,AJ Auxerre,Auxerre,AJA,2,0,1,0,HOME_TEAM,Jeremy Stinat
+542557,2025,17,2026-01-04,FINISHED,Paris Saint-Germain FC,PSG,PSG,Paris FC,Paris FC,PFC,2,1,1,0,HOME_TEAM,Benoît Bastien
+542559,2025,18,2026-01-16,FINISHED,AS Monaco FC,Monaco,ASM,FC Lorient,Lorient,FCL,1,3,0,0,AWAY_TEAM,Willy Delajod
+542563,2025,18,2026-01-16,FINISHED,Paris Saint-Germain FC,PSG,PSG,Lille OSC,Lille,LIL,3,0,1,0,HOME_TEAM,Jérôme Brisard
+542565,2025,18,2026-01-17,FINISHED,Racing Club de Lens,RC Lens,RCL,AJ Auxerre,Auxerre,AJA,1,0,0,0,HOME_TEAM,Bastien Dechepy
+542561,2025,18,2026-01-17,FINISHED,Toulouse FC,Toulouse,TOU,OGC Nice,Nice,NIC,5,1,2,0,HOME_TEAM,Gaël Angoula
+542566,2025,18,2026-01-17,FINISHED,Angers SCO,Angers SCO,ANG,Olympique de Marseille,Marseille,MAR,2,5,1,4,AWAY_TEAM,Ruddy Buquet
+542564,2025,18,2026-01-18,FINISHED,RC Strasbourg Alsace,Strasbourg,RC ,FC Metz,FC Metz,FCM,2,1,2,1,HOME_TEAM,Jérémie Pignard
+542560,2025,18,2026-01-18,FINISHED,FC Nantes,Nantes,NAN,Paris FC,Paris FC,PFC,1,2,0,1,AWAY_TEAM,Benoît Millot
+542567,2025,18,2026-01-18,FINISHED,Stade Rennais FC 1901,Stade Rennais,REN,Le Havre AC,Le Havre,HAC,1,1,0,0,DRAW,Stéphanie Frappart
+542562,2025,18,2026-01-18,FINISHED,Olympique Lyonnais,Olympique Lyon,LYO,Stade Brestois 29,Brest,BRE,2,1,2,0,HOME_TEAM,Romain Lissorgue
+542569,2025,19,2026-01-23,FINISHED,AJ Auxerre,Auxerre,AJA,Paris Saint-Germain FC,PSG,PSG,0,1,0,0,AWAY_TEAM,Mathieu Vernice
+542576,2025,19,2026-01-24,FINISHED,Stade Rennais FC 1901,Stade Rennais,REN,FC Lorient,Lorient,FCL,0,2,0,1,AWAY_TEAM,Clément Turpin
+542568,2025,19,2026-01-24,FINISHED,Le Havre AC,Le Havre,HAC,AS Monaco FC,Monaco,ASM,0,0,0,0,DRAW,Marc Bollengier
+542573,2025,19,2026-01-24,FINISHED,Olympique de Marseille,Marseille,MAR,Racing Club de Lens,RC Lens,RCL,3,1,2,0,HOME_TEAM,Benoît Bastien
+542571,2025,19,2026-01-25,FINISHED,FC Nantes,Nantes,NAN,OGC Nice,Nice,NIC,1,4,1,3,AWAY_TEAM,Hakim Ben El Hadj Salem
+542570,2025,19,2026-01-25,FINISHED,FC Metz,FC Metz,FCM,Olympique Lyonnais,Olympique Lyon,LYO,2,5,1,4,AWAY_TEAM,Eric Wattellier
+542572,2025,19,2026-01-25,FINISHED,Paris FC,Paris FC,PFC,Angers SCO,Angers SCO,ANG,0,0,0,0,DRAW,Thomas Léonard
+542575,2025,19,2026-01-25,FINISHED,Stade Brestois 29,Brest,BRE,Toulouse FC,Toulouse,TOU,0,2,0,2,AWAY_TEAM,Guillaume Paradis
+542574,2025,19,2026-01-25,FINISHED,Lille OSC,Lille,LIL,RC Strasbourg Alsace,Strasbourg,RC ,1,4,0,2,AWAY_TEAM,Willy Delajod
+542584,2025,20,2026-01-30,FINISHED,Racing Club de Lens,RC Lens,RCL,Le Havre AC,Le Havre,HAC,1,0,1,0,HOME_TEAM,Jeremy Stinat
+542579,2025,20,2026-01-31,FINISHED,Paris FC,Paris FC,PFC,Olympique de Marseille,Marseille,MAR,2,2,0,1,DRAW,Jérémie Pignard
+542578,2025,20,2026-01-31,FINISHED,FC Lorient,Lorient,FCL,FC Nantes,Nantes,NAN,2,1,1,0,HOME_TEAM,Bastien Dechepy
+542577,2025,20,2026-01-31,FINISHED,AS Monaco FC,Monaco,ASM,Stade Rennais FC 1901,Stade Rennais,REN,4,0,1,0,HOME_TEAM,Ruddy Buquet
+542582,2025,20,2026-02-01,FINISHED,Olympique Lyonnais,Olympique Lyon,LYO,Lille OSC,Lille,LIL,1,0,1,0,HOME_TEAM,François Letexier
+542580,2025,20,2026-02-01,FINISHED,Toulouse FC,Toulouse,TOU,AJ Auxerre,Auxerre,AJA,0,0,0,0,DRAW,Romain Lissorgue
+542581,2025,20,2026-02-01,FINISHED,OGC Nice,Nice,NIC,Stade Brestois 29,Brest,BRE,2,2,0,2,DRAW,Stéphanie Frappart
+542585,2025,20,2026-02-01,FINISHED,Angers SCO,Angers SCO,ANG,FC Metz,FC Metz,FCM,1,0,1,0,HOME_TEAM,Benoît Millot
+542583,2025,20,2026-02-01,FINISHED,RC Strasbourg Alsace,Strasbourg,RC ,Paris Saint-Germain FC,PSG,PSG,1,2,1,1,AWAY_TEAM,Eric Wattellier
+542588,2025,21,2026-02-06,FINISHED,FC Metz,FC Metz,FCM,Lille OSC,Lille,LIL,0,0,0,0,DRAW,Guillaume Paradis
+542592,2025,21,2026-02-07,FINISHED,Racing Club de Lens,RC Lens,RCL,Stade Rennais FC 1901,Stade Rennais,REN,3,1,1,1,HOME_TEAM,Jérémie Pignard
+542594,2025,21,2026-02-07,FINISHED,Stade Brestois 29,Brest,BRE,FC Lorient,Lorient,FCL,2,0,0,0,HOME_TEAM,Gaël Angoula
+542589,2025,21,2026-02-07,FINISHED,FC Nantes,Nantes,NAN,Olympique Lyonnais,Olympique Lyon,LYO,0,1,0,1,AWAY_TEAM,Mathieu Vernice
+542590,2025,21,2026-02-08,FINISHED,OGC Nice,Nice,NIC,AS Monaco FC,Monaco,ASM,0,0,0,0,DRAW,Benoît Bastien
+542586,2025,21,2026-02-08,FINISHED,Le Havre AC,Le Havre,HAC,RC Strasbourg Alsace,Strasbourg,RC ,2,1,1,1,HOME_TEAM,Abdelatif Kherradji
+542587,2025,21,2026-02-08,FINISHED,AJ Auxerre,Auxerre,AJA,Paris FC,Paris FC,PFC,0,0,0,0,DRAW,François Letexier
+542593,2025,21,2026-02-08,FINISHED,Angers SCO,Angers SCO,ANG,Toulouse FC,Toulouse,TOU,1,0,0,0,HOME_TEAM,Clément Turpin
+542591,2025,21,2026-02-08,FINISHED,Paris Saint-Germain FC,PSG,PSG,Olympique de Marseille,Marseille,MAR,5,0,2,0,HOME_TEAM,Willy Delajod
+542603,2025,22,2026-02-13,FINISHED,Stade Rennais FC 1901,Stade Rennais,REN,Paris Saint-Germain FC,PSG,PSG,3,1,1,0,HOME_TEAM,Benoît Bastien
+542596,2025,22,2026-02-13,FINISHED,AS Monaco FC,Monaco,ASM,FC Nantes,Nantes,NAN,3,1,3,1,HOME_TEAM,Eric Wattellier
+542601,2025,22,2026-02-14,FINISHED,Olympique de Marseille,Marseille,MAR,RC Strasbourg Alsace,Strasbourg,RC ,2,2,1,0,DRAW,François Letexier
+542602,2025,22,2026-02-14,FINISHED,Lille OSC,Lille,LIL,Stade Brestois 29,Brest,BRE,1,1,0,0,DRAW,Hakim Ben El Hadj Salem
+542599,2025,22,2026-02-14,FINISHED,Paris FC,Paris FC,PFC,Racing Club de Lens,RC Lens,RCL,0,5,0,2,AWAY_TEAM,Bastien Dechepy
+542595,2025,22,2026-02-15,FINISHED,Le Havre AC,Le Havre,HAC,Toulouse FC,Toulouse,TOU,2,1,1,1,HOME_TEAM,Jérôme Brisard
+542597,2025,22,2026-02-15,FINISHED,FC Lorient,Lorient,FCL,Angers SCO,Angers SCO,ANG,2,0,1,0,HOME_TEAM,Stéphanie Frappart
+542598,2025,22,2026-02-15,FINISHED,FC Metz,FC Metz,FCM,AJ Auxerre,Auxerre,AJA,1,3,0,1,AWAY_TEAM,Marc Bollengier
+542600,2025,22,2026-02-15,FINISHED,Olympique Lyonnais,Olympique Lyon,LYO,OGC Nice,Nice,NIC,2,0,1,0,HOME_TEAM,Thomas Léonard
+542612,2025,23,2026-02-20,FINISHED,Stade Brestois 29,Brest,BRE,Olympique de Marseille,Marseille,MAR,2,0,2,0,HOME_TEAM,Romain Lissorgue
+542610,2025,23,2026-02-21,FINISHED,Racing Club de Lens,RC Lens,RCL,AS Monaco FC,Monaco,ASM,2,3,1,0,AWAY_TEAM,Willy Delajod
+542606,2025,23,2026-02-21,FINISHED,Toulouse FC,Toulouse,TOU,Paris FC,Paris FC,PFC,1,1,0,1,DRAW,Benoît Millot
+542608,2025,23,2026-02-21,FINISHED,Paris Saint-Germain FC,PSG,PSG,FC Metz,FC Metz,FCM,3,0,2,0,HOME_TEAM,Abdelatif Kherradji
+542604,2025,23,2026-02-22,FINISHED,AJ Auxerre,Auxerre,AJA,Stade Rennais FC 1901,Stade Rennais,REN,0,3,0,3,AWAY_TEAM,Gaël Angoula
+542605,2025,23,2026-02-22,FINISHED,FC Nantes,Nantes,NAN,Le Havre AC,Le Havre,HAC,2,0,2,0,HOME_TEAM,Jérémie Pignard
+542607,2025,23,2026-02-22,FINISHED,OGC Nice,Nice,NIC,FC Lorient,Lorient,FCL,3,3,2,1,DRAW,Jeremy Stinat
+542611,2025,23,2026-02-22,FINISHED,Angers SCO,Angers SCO,ANG,Lille OSC,Lille,LIL,0,1,0,1,AWAY_TEAM,Mathieu Vernice
+542609,2025,23,2026-02-22,FINISHED,RC Strasbourg Alsace,Strasbourg,RC ,Olympique Lyonnais,Olympique Lyon,LYO,3,1,1,0,HOME_TEAM,Ruddy Buquet
+542620,2025,24,2026-02-27,FINISHED,RC Strasbourg Alsace,Strasbourg,RC ,Racing Club de Lens,RC Lens,RCL,1,1,1,0,DRAW,Clément Turpin
+542621,2025,24,2026-02-28,FINISHED,Stade Rennais FC 1901,Stade Rennais,REN,Toulouse FC,Toulouse,TOU,1,0,1,0,HOME_TEAM,Stéphanie Frappart
+542614,2025,24,2026-02-28,FINISHED,AS Monaco FC,Monaco,ASM,Angers SCO,Angers SCO,ANG,2,0,0,0,HOME_TEAM,Guillaume Paradis
+542613,2025,24,2026-02-28,FINISHED,Le Havre AC,Le Havre,HAC,Paris Saint-Germain FC,PSG,PSG,0,1,0,1,AWAY_TEAM,Marc Bollengier
+542617,2025,24,2026-03-01,FINISHED,Paris FC,Paris FC,PFC,OGC Nice,Nice,NIC,1,0,1,0,HOME_TEAM,Hakim Ben El Hadj Salem
+542615,2025,24,2026-03-01,FINISHED,FC Lorient,Lorient,FCL,AJ Auxerre,Auxerre,AJA,2,2,2,2,DRAW,Ruddy Buquet
+542616,2025,24,2026-03-01,FINISHED,FC Metz,FC Metz,FCM,Stade Brestois 29,Brest,BRE,0,1,0,0,AWAY_TEAM,Jeremy Stinat
+542619,2025,24,2026-03-01,FINISHED,Lille OSC,Lille,LIL,FC Nantes,Nantes,NAN,1,0,0,0,HOME_TEAM,Thomas Léonard
+542618,2025,24,2026-03-01,FINISHED,Olympique de Marseille,Marseille,MAR,Olympique Lyonnais,Olympique Lyon,LYO,3,2,0,1,HOME_TEAM,Jérôme Brisard
+542628,2025,25,2026-03-06,FINISHED,Paris Saint-Germain FC,PSG,PSG,AS Monaco FC,Monaco,ASM,1,3,0,1,AWAY_TEAM,Ruddy Buquet

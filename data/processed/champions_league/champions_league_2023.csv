@@ -1,0 +1,126 @@
+match_id,season,matchday,date,status,home_team,home_team_short,home_team_tla,away_team,away_team_short,away_team_tla,home_goals_ft,away_goals_ft,home_goals_ht,away_goals_ht,result,referee
+451623,2023,1,2023-09-19,FINISHED,AC Milan,Milan,MIL,Newcastle United FC,Newcastle,NEW,0,0,0,0,DRAW,José Sánchez Martínez
+451637,2023,1,2023-09-19,FINISHED,BSC Young Boys,Young Boys,YOB,RB Leipzig,RB Leipzig,RBL,1,3,1,1,AWAY_TEAM,Enea Jorgji
+451614,2023,1,2023-09-19,FINISHED,SS Lazio,Lazio,LAZ,Club Atlético de Madrid,Atleti,ATL,1,1,0,1,DRAW,Slavko Vinčič
+451616,2023,1,2023-09-19,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,Celtic FC,Celtic,CEL,2,0,1,0,HOME_TEAM,Irfan Peljto
+451630,2023,1,2023-09-19,FINISHED,Paris Saint-Germain FC,PSG,PSG,Borussia Dortmund,Dortmund,BVB,2,0,0,0,HOME_TEAM,Jesús Gil Manzano
+451640,2023,1,2023-09-19,FINISHED,Manchester City FC,Man City,MCI,FK Crvena Zvezda,Crvena Zvedza,CRV,3,1,0,1,HOME_TEAM,João Pinheiro
+451647,2023,1,2023-09-19,FINISHED,FC Barcelona,Barça,FCB,Royal Antwerp FC,Antwerp FC,ANT,5,0,3,0,HOME_TEAM,Radu Petrescu
+451654,2023,1,2023-09-19,FINISHED,FK Shakhtar Donetsk,Shaktar,SHD,FC Porto,Porto,FCP,1,3,1,3,AWAY_TEAM,Davide Massa
+451586,2023,1,2023-09-20,FINISHED,Real Madrid CF,Real Madrid,RMA,1. FC Union Berlin,Union Berlin,UNB,1,0,0,0,HOME_TEAM,Espen Eskås
+451568,2023,1,2023-09-20,FINISHED,Galatasaray SK,Galatasaray,GAL,FC København,København,KOB,2,2,0,1,DRAW,Georgi Kabakov
+451584,2023,1,2023-09-20,FINISHED,Sevilla FC,Sevilla FC,SEV,Racing Club de Lens,RC Lens,RCL,1,1,1,1,DRAW,Tobias Stieler
+451595,2023,1,2023-09-20,FINISHED,Sporting Clube de Braga,Braga,SCB,SSC Napoli,Napoli,NAP,1,2,0,1,AWAY_TEAM,Serdar Gözübüyük
+451600,2023,1,2023-09-20,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,FC Internazionale Milano,Inter,INT,1,1,1,0,DRAW,Michael Oliver
+451606,2023,1,2023-09-20,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,FC Red Bull Salzburg,RB Salzburg,RBS,0,2,0,1,AWAY_TEAM,Halil Meler
+451565,2023,1,2023-09-20,FINISHED,FC Bayern München,Bayern,FCB,Manchester United FC,Man United,MUN,4,3,2,0,HOME_TEAM,Glenn Nyberg
+451573,2023,1,2023-09-20,FINISHED,Arsenal FC,Arsenal,ARS,PSV,PSV,PSV,4,0,3,0,HOME_TEAM,Felix Zwayer
+451587,2023,2,2023-10-03,FINISHED,1. FC Union Berlin,Union Berlin,UNB,Sporting Clube de Braga,Braga,SCB,2,3,2,1,AWAY_TEAM,Srđan Jovanović
+451603,2023,2,2023-10-03,FINISHED,FC Red Bull Salzburg,RB Salzburg,RBS,Real Sociedad de Fútbol,Real Sociedad,RSO,0,2,0,2,AWAY_TEAM,Bartosz Frankowski
+451594,2023,2,2023-10-03,FINISHED,SSC Napoli,Napoli,NAP,Real Madrid CF,Real Madrid,RMA,2,3,1,2,AWAY_TEAM,Clément Turpin
+451601,2023,2,2023-10-03,FINISHED,FC Internazionale Milano,Inter,INT,Sport Lisboa e Benfica,SL Benfica,BEN,1,0,0,0,HOME_TEAM,Danny Makkelie
+451562,2023,2,2023-10-03,FINISHED,FC København,København,KOB,FC Bayern München,Bayern,FCB,1,2,0,0,AWAY_TEAM,Orel Grinfeld
+451572,2023,2,2023-10-03,FINISHED,Manchester United FC,Man United,MUN,Galatasaray SK,Galatasaray,GAL,2,3,1,1,AWAY_TEAM,Ivan Kružliak
+451576,2023,2,2023-10-03,FINISHED,Racing Club de Lens,RC Lens,RCL,Arsenal FC,Arsenal,ARS,2,1,1,1,HOME_TEAM,Marco Guida
+451581,2023,2,2023-10-03,FINISHED,PSV,PSV,PSV,Sevilla FC,Sevilla FC,SEV,2,2,0,0,DRAW,Daniele Orsato
+451611,2023,2,2023-10-04,FINISHED,Club Atlético de Madrid,Atleti,ATL,Feyenoord Rotterdam,Feyenoord,FEY,3,2,2,2,HOME_TEAM,François Letexier
+451655,2023,2,2023-10-04,FINISHED,Royal Antwerp FC,Antwerp FC,ANT,FK Shakhtar Donetsk,Shaktar,SHD,2,3,2,0,AWAY_TEAM,Rade Obrenović
+451617,2023,2,2023-10-04,FINISHED,Celtic FC,Celtic,CEL,SS Lazio,Lazio,LAZ,1,2,1,1,AWAY_TEAM,Donatas Rumšas
+451622,2023,2,2023-10-04,FINISHED,Borussia Dortmund,Dortmund,BVB,AC Milan,Milan,MIL,0,0,0,0,DRAW,Szymon Marciniak
+451631,2023,2,2023-10-04,FINISHED,Newcastle United FC,Newcastle,NEW,Paris Saint-Germain FC,PSG,PSG,4,1,2,0,HOME_TEAM,István Kovács
+451634,2023,2,2023-10-04,FINISHED,FK Crvena Zvezda,Crvena Zvedza,CRV,BSC Young Boys,Young Boys,YOB,2,2,1,0,DRAW,William Collum
+451644,2023,2,2023-10-04,FINISHED,RB Leipzig,RB Leipzig,RBL,Manchester City FC,Man City,MCI,1,3,0,1,AWAY_TEAM,Artur Dias
+451646,2023,2,2023-10-04,FINISHED,FC Porto,Porto,FCP,FC Barcelona,Barça,FCB,0,1,0,1,AWAY_TEAM,Anthony Taylor
+451597,2023,3,2023-10-24,FINISHED,FC Internazionale Milano,Inter,INT,FC Red Bull Salzburg,RB Salzburg,RBS,2,1,1,0,HOME_TEAM,François Letexier
+451564,2023,3,2023-10-24,FINISHED,Galatasaray SK,Galatasaray,GAL,FC Bayern München,Bayern,FCB,1,3,1,1,AWAY_TEAM,Davide Massa
+451589,2023,3,2023-10-24,FINISHED,1. FC Union Berlin,Union Berlin,UNB,SSC Napoli,Napoli,NAP,0,1,0,0,AWAY_TEAM,Irfan Peljto
+451592,2023,3,2023-10-24,FINISHED,Sporting Clube de Braga,Braga,SCB,Real Madrid CF,Real Madrid,RMA,1,2,0,1,AWAY_TEAM,Michael Oliver
+451608,2023,3,2023-10-24,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,Real Sociedad de Fútbol,Real Sociedad,RSO,0,1,0,0,AWAY_TEAM,Clément Turpin
+451570,2023,3,2023-10-24,FINISHED,Manchester United FC,Man United,MUN,FC København,København,KOB,1,0,0,0,HOME_TEAM,Marco Guida
+451578,2023,3,2023-10-24,FINISHED,Sevilla FC,Sevilla FC,SEV,Arsenal FC,Arsenal,ARS,1,2,0,1,AWAY_TEAM,Glenn Nyberg
+451580,2023,3,2023-10-24,FINISHED,Racing Club de Lens,RC Lens,RCL,PSV,PSV,PSV,1,1,0,0,DRAW,Radu Petrescu
+451619,2023,3,2023-10-25,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,SS Lazio,Lazio,LAZ,3,1,2,0,HOME_TEAM,Tobias Stieler
+451649,2023,3,2023-10-25,FINISHED,FC Barcelona,Barça,FCB,FK Shakhtar Donetsk,Shaktar,SHD,2,1,2,0,HOME_TEAM,Ivan Kružliak
+451610,2023,3,2023-10-25,FINISHED,Celtic FC,Celtic,CEL,Club Atlético de Madrid,Atleti,ATL,2,2,2,1,DRAW,Felix Zwayer
+451626,2023,3,2023-10-25,FINISHED,Paris Saint-Germain FC,PSG,PSG,AC Milan,Milan,MIL,3,0,1,0,HOME_TEAM,Slavko Vinčič
+451628,2023,3,2023-10-25,FINISHED,Newcastle United FC,Newcastle,NEW,Borussia Dortmund,Dortmund,BVB,0,1,0,1,AWAY_TEAM,Artur Dias
+451635,2023,3,2023-10-25,FINISHED,BSC Young Boys,Young Boys,YOB,Manchester City FC,Man City,MCI,1,3,0,0,AWAY_TEAM,Morten Krogh
+451642,2023,3,2023-10-25,FINISHED,RB Leipzig,RB Leipzig,RBL,FK Crvena Zvezda,Crvena Zvedza,CRV,3,1,1,0,HOME_TEAM,José Sánchez Martínez
+451652,2023,3,2023-10-25,FINISHED,Royal Antwerp FC,Antwerp FC,ANT,FC Porto,Porto,FCP,1,4,1,0,AWAY_TEAM,Benoît Bastien
+451627,2023,4,2023-11-07,FINISHED,Borussia Dortmund,Dortmund,BVB,Newcastle United FC,Newcastle,NEW,2,0,1,0,HOME_TEAM,Alejandro Hernández Hernández
+451650,2023,4,2023-11-07,FINISHED,FK Shakhtar Donetsk,Shaktar,SHD,FC Barcelona,Barça,FCB,1,0,1,0,HOME_TEAM,Irfan Peljto
+451609,2023,4,2023-11-07,FINISHED,Club Atlético de Madrid,Atleti,ATL,Celtic FC,Celtic,CEL,6,0,2,0,HOME_TEAM,Ivan Kružliak
+451620,2023,4,2023-11-07,FINISHED,SS Lazio,Lazio,LAZ,Feyenoord Rotterdam,Feyenoord,FEY,1,0,1,0,HOME_TEAM,Szymon Marciniak
+451625,2023,4,2023-11-07,FINISHED,AC Milan,Milan,MIL,Paris Saint-Germain FC,PSG,PSG,2,1,1,1,HOME_TEAM,Jesús Gil Manzano
+451636,2023,4,2023-11-07,FINISHED,Manchester City FC,Man City,MCI,BSC Young Boys,Young Boys,YOB,3,0,2,0,HOME_TEAM,Erik Lambrechts
+451641,2023,4,2023-11-07,FINISHED,FK Crvena Zvezda,Crvena Zvedza,CRV,RB Leipzig,RB Leipzig,RBL,1,2,0,1,AWAY_TEAM,Daniele Orsato
+451651,2023,4,2023-11-07,FINISHED,FC Porto,Porto,FCP,Royal Antwerp FC,Antwerp FC,ANT,2,0,1,0,HOME_TEAM,Maurizio Mariani
+451590,2023,4,2023-11-08,FINISHED,SSC Napoli,Napoli,NAP,1. FC Union Berlin,Union Berlin,UNB,1,1,1,0,DRAW,Danny Makkelie
+451607,2023,4,2023-11-08,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,Sport Lisboa e Benfica,SL Benfica,BEN,3,1,3,0,HOME_TEAM,Anthony Taylor
+451591,2023,4,2023-11-08,FINISHED,Real Madrid CF,Real Madrid,RMA,Sporting Clube de Braga,Braga,SCB,3,0,1,0,HOME_TEAM,Halil Meler
+451598,2023,4,2023-11-08,FINISHED,FC Red Bull Salzburg,RB Salzburg,RBS,FC Internazionale Milano,Inter,INT,0,1,0,0,AWAY_TEAM,Serdar Gözübüyük
+451563,2023,4,2023-11-08,FINISHED,FC Bayern München,Bayern,FCB,Galatasaray SK,Galatasaray,GAL,2,1,0,0,HOME_TEAM,António Nobre
+451569,2023,4,2023-11-08,FINISHED,FC København,København,KOB,Manchester United FC,Man United,MUN,4,3,2,2,HOME_TEAM,Donatas Rumšas
+451577,2023,4,2023-11-08,FINISHED,Arsenal FC,Arsenal,ARS,Sevilla FC,Sevilla FC,SEV,2,0,1,0,HOME_TEAM,István Kovács
+451579,2023,4,2023-11-08,FINISHED,PSV,PSV,PSV,Racing Club de Lens,RC Lens,RCL,1,0,1,0,HOME_TEAM,Daniel Siebert
+451618,2023,5,2023-11-28,FINISHED,SS Lazio,Lazio,LAZ,Celtic FC,Celtic,CEL,2,0,0,0,HOME_TEAM,Halil Meler
+451656,2023,5,2023-11-28,FINISHED,FK Shakhtar Donetsk,Shaktar,SHD,Royal Antwerp FC,Antwerp FC,ANT,1,0,1,0,HOME_TEAM,Bartosz Frankowski
+451612,2023,5,2023-11-28,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,Club Atlético de Madrid,Atleti,ATL,1,3,0,1,AWAY_TEAM,Anthony Taylor
+451621,2023,5,2023-11-28,FINISHED,AC Milan,Milan,MIL,Borussia Dortmund,Dortmund,BVB,1,3,1,1,AWAY_TEAM,István Kovács
+451632,2023,5,2023-11-28,FINISHED,Paris Saint-Germain FC,PSG,PSG,Newcastle United FC,Newcastle,NEW,1,1,0,1,DRAW,Szymon Marciniak
+451633,2023,5,2023-11-28,FINISHED,BSC Young Boys,Young Boys,YOB,FK Crvena Zvezda,Crvena Zvedza,CRV,2,0,2,0,HOME_TEAM,Danny Makkelie
+451643,2023,5,2023-11-28,FINISHED,Manchester City FC,Man City,MCI,RB Leipzig,RB Leipzig,RBL,3,2,0,2,HOME_TEAM,Glenn Nyberg
+451645,2023,5,2023-11-28,FINISHED,FC Barcelona,Barça,FCB,FC Porto,Porto,FCP,2,1,1,1,HOME_TEAM,Daniele Orsato
+451571,2023,5,2023-11-29,FINISHED,Galatasaray SK,Galatasaray,GAL,Manchester United FC,Man United,MUN,3,3,1,2,DRAW,José Sánchez Martínez
+451582,2023,5,2023-11-29,FINISHED,Sevilla FC,Sevilla FC,SEV,PSV,PSV,PSV,2,3,1,0,AWAY_TEAM,Davide Massa
+451588,2023,5,2023-11-29,FINISHED,Sporting Clube de Braga,Braga,SCB,1. FC Union Berlin,Union Berlin,UNB,1,1,0,1,DRAW,Clément Turpin
+451593,2023,5,2023-11-29,FINISHED,Real Madrid CF,Real Madrid,RMA,SSC Napoli,Napoli,NAP,4,2,2,1,HOME_TEAM,François Letexier
+451602,2023,5,2023-11-29,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,FC Internazionale Milano,Inter,INT,3,3,3,0,DRAW,Andris Treimanis
+451604,2023,5,2023-11-29,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,FC Red Bull Salzburg,RB Salzburg,RBS,0,0,0,0,DRAW,Mikola Balakin
+451561,2023,5,2023-11-29,FINISHED,FC Bayern München,Bayern,FCB,FC København,København,KOB,0,0,0,0,DRAW,Stéphanie Frappart
+451575,2023,5,2023-11-29,FINISHED,Arsenal FC,Arsenal,ARS,Racing Club de Lens,RC Lens,RCL,6,0,5,0,HOME_TEAM,Artur Dias
+451574,2023,6,2023-12-12,FINISHED,PSV,PSV,PSV,Arsenal FC,Arsenal,ARS,1,1,0,1,DRAW,Tobias Stieler
+451583,2023,6,2023-12-12,FINISHED,Racing Club de Lens,RC Lens,RCL,Sevilla FC,Sevilla FC,SEV,2,1,0,0,HOME_TEAM,Felix Zwayer
+451585,2023,6,2023-12-12,FINISHED,1. FC Union Berlin,Union Berlin,UNB,Real Madrid CF,Real Madrid,RMA,2,3,1,0,AWAY_TEAM,Rade Obrenović
+451596,2023,6,2023-12-12,FINISHED,SSC Napoli,Napoli,NAP,Sporting Clube de Braga,Braga,SCB,2,0,2,0,HOME_TEAM,Slavko Vinčič
+451599,2023,6,2023-12-12,FINISHED,FC Internazionale Milano,Inter,INT,Real Sociedad de Fútbol,Real Sociedad,RSO,0,0,0,0,DRAW,Sandro Schärer
+451605,2023,6,2023-12-12,FINISHED,FC Red Bull Salzburg,RB Salzburg,RBS,Sport Lisboa e Benfica,SL Benfica,BEN,1,3,0,2,AWAY_TEAM,Daniel Siebert
+451566,2023,6,2023-12-12,FINISHED,Manchester United FC,Man United,MUN,FC Bayern München,Bayern,FCB,0,1,0,0,AWAY_TEAM,Espen Eskås
+451567,2023,6,2023-12-12,FINISHED,FC København,København,KOB,Galatasaray SK,Galatasaray,GAL,1,0,0,0,HOME_TEAM,Daniele Orsato
+451638,2023,6,2023-12-13,FINISHED,RB Leipzig,RB Leipzig,RBL,BSC Young Boys,Young Boys,YOB,2,1,0,0,HOME_TEAM,Manfredas Lukjančukas
+451639,2023,6,2023-12-13,FINISHED,FK Crvena Zvezda,Crvena Zvedza,CRV,Manchester City FC,Man City,MCI,2,3,0,1,AWAY_TEAM,Äliyar Ağayev
+451613,2023,6,2023-12-13,FINISHED,Club Atlético de Madrid,Atleti,ATL,SS Lazio,Lazio,LAZ,2,0,1,0,HOME_TEAM,Serdar Gözübüyük
+451615,2023,6,2023-12-13,FINISHED,Celtic FC,Celtic,CEL,Feyenoord Rotterdam,Feyenoord,FEY,2,1,1,0,HOME_TEAM,Benoît Bastien
+451624,2023,6,2023-12-13,FINISHED,Newcastle United FC,Newcastle,NEW,AC Milan,Milan,MIL,1,2,1,0,AWAY_TEAM,Danny Makkelie
+451629,2023,6,2023-12-13,FINISHED,Borussia Dortmund,Dortmund,BVB,Paris Saint-Germain FC,PSG,PSG,1,1,0,0,DRAW,Glenn Nyberg
+451648,2023,6,2023-12-13,FINISHED,Royal Antwerp FC,Antwerp FC,ANT,FC Barcelona,Barça,FCB,3,2,1,1,HOME_TEAM,Marco Guida
+451653,2023,6,2023-12-13,FINISHED,FC Porto,Porto,FCP,FK Shakhtar Donetsk,Shaktar,SHD,5,3,2,1,HOME_TEAM,István Kovács
+451663,2023,1,2024-02-13,FINISHED,FC København,København,KOB,Manchester City FC,Man City,MCI,1,3,1,2,AWAY_TEAM,José Sánchez Martínez
+451664,2023,1,2024-02-13,FINISHED,RB Leipzig,RB Leipzig,RBL,Real Madrid CF,Real Madrid,RMA,0,1,0,0,AWAY_TEAM,Irfan Peljto
+451659,2023,1,2024-02-14,FINISHED,Paris Saint-Germain FC,PSG,PSG,Real Sociedad de Fútbol,Real Sociedad,RSO,2,0,0,0,HOME_TEAM,Marco Guida
+451662,2023,1,2024-02-14,FINISHED,SS Lazio,Lazio,LAZ,FC Bayern München,Bayern,FCB,1,0,0,0,HOME_TEAM,François Letexier
+451660,2023,1,2024-02-20,FINISHED,FC Internazionale Milano,Inter,INT,Club Atlético de Madrid,Atleti,ATL,1,0,0,0,HOME_TEAM,István Kovács
+451661,2023,1,2024-02-20,FINISHED,PSV,PSV,PSV,Borussia Dortmund,Dortmund,BVB,1,1,0,1,DRAW,Srđan Jovanović
+451657,2023,1,2024-02-21,FINISHED,FC Porto,Porto,FCP,Arsenal FC,Arsenal,ARS,1,0,0,0,HOME_TEAM,Serdar Gözübüyük
+451658,2023,1,2024-02-21,FINISHED,SSC Napoli,Napoli,NAP,FC Barcelona,Barça,FCB,1,1,0,0,DRAW,Felix Zwayer
+451667,2023,2,2024-03-05,FINISHED,Real Sociedad de Fútbol,Real Sociedad,RSO,Paris Saint-Germain FC,PSG,PSG,1,2,0,1,AWAY_TEAM,Michael Oliver
+451670,2023,2,2024-03-05,FINISHED,FC Bayern München,Bayern,FCB,SS Lazio,Lazio,LAZ,3,0,2,0,HOME_TEAM,Slavko Vinčič
+451671,2023,2,2024-03-06,FINISHED,Manchester City FC,Man City,MCI,FC København,København,KOB,3,1,3,1,HOME_TEAM,Espen Eskås
+451672,2023,2,2024-03-06,FINISHED,Real Madrid CF,Real Madrid,RMA,RB Leipzig,RB Leipzig,RBL,1,1,0,0,DRAW,Davide Massa
+451665,2023,2,2024-03-12,FINISHED,Arsenal FC,Arsenal,ARS,FC Porto,Porto,FCP,5,2,1,0,HOME_TEAM,Clément Turpin
+451666,2023,2,2024-03-12,FINISHED,FC Barcelona,Barça,FCB,SSC Napoli,Napoli,NAP,3,1,2,1,HOME_TEAM,Danny Makkelie
+451668,2023,2,2024-03-13,FINISHED,Club Atlético de Madrid,Atleti,ATL,FC Internazionale Milano,Inter,INT,5,3,1,1,HOME_TEAM,Szymon Marciniak
+451669,2023,2,2024-03-13,FINISHED,Borussia Dortmund,Dortmund,BVB,PSV,PSV,PSV,2,0,1,0,HOME_TEAM,Daniele Orsato
+451673,2023,1,2024-04-09,FINISHED,Arsenal FC,Arsenal,ARS,FC Bayern München,Bayern,FCB,2,2,1,2,DRAW,Glenn Nyberg
+451675,2023,1,2024-04-09,FINISHED,Real Madrid CF,Real Madrid,RMA,Manchester City FC,Man City,MCI,3,3,2,1,DRAW,François Letexier
+451674,2023,1,2024-04-10,FINISHED,Club Atlético de Madrid,Atleti,ATL,Borussia Dortmund,Dortmund,BVB,2,1,2,0,HOME_TEAM,Marco Guida
+451676,2023,1,2024-04-10,FINISHED,Paris Saint-Germain FC,PSG,PSG,FC Barcelona,Barça,FCB,2,3,0,1,AWAY_TEAM,Anthony Taylor
+451678,2023,2,2024-04-16,FINISHED,Borussia Dortmund,Dortmund,BVB,Club Atlético de Madrid,Atleti,ATL,4,2,2,0,HOME_TEAM,Slavko Vinčič
+451680,2023,2,2024-04-16,FINISHED,FC Barcelona,Barça,FCB,Paris Saint-Germain FC,PSG,PSG,1,4,1,1,AWAY_TEAM,István Kovács
+451677,2023,2,2024-04-17,FINISHED,FC Bayern München,Bayern,FCB,Arsenal FC,Arsenal,ARS,1,0,0,0,HOME_TEAM,Danny Makkelie
+451679,2023,2,2024-04-17,FINISHED,Manchester City FC,Man City,MCI,Real Madrid CF,Real Madrid,RMA,4,5,0,1,AWAY_TEAM,Daniele Orsato
+451682,2023,1,2024-04-30,FINISHED,FC Bayern München,Bayern,FCB,Real Madrid CF,Real Madrid,RMA,2,2,0,1,DRAW,Clément Turpin
+451681,2023,1,2024-05-01,FINISHED,Borussia Dortmund,Dortmund,BVB,Paris Saint-Germain FC,PSG,PSG,1,0,1,0,HOME_TEAM,Anthony Taylor
+451683,2023,2,2024-05-07,FINISHED,Paris Saint-Germain FC,PSG,PSG,Borussia Dortmund,Dortmund,BVB,0,1,0,0,AWAY_TEAM,Daniele Orsato
+451684,2023,2,2024-05-08,FINISHED,Real Madrid CF,Real Madrid,RMA,FC Bayern München,Bayern,FCB,2,1,0,0,HOME_TEAM,Szymon Marciniak
+451685,2023,,2024-06-01,FINISHED,Borussia Dortmund,Dortmund,BVB,Real Madrid CF,Real Madrid,RMA,0,2,0,0,AWAY_TEAM,Slavko Vinčič
