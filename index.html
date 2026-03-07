@@ -615,7 +615,7 @@ function renderCLGroups(finished){
 function renderCLKnockout(finished){
   const el=document.getElementById('clSectionKnockout');
   const ROUND_ORDER=['PLAYOFFS','LAST_16','QUARTER_FINALS','SEMI_FINALS','FINAL'];
-  const ROUND_LABELS={'PLAYOFFS':'Playoffs','LAST_16':'Round of 16','QUARTER_FINALS':'Quarter-Finals','SEMI_FINALS','Semi-Finals','FINAL':'Final'};
+  const ROUND_LABELS={'PLAYOFFS':'Playoffs','LAST_16':'Round of 16','QUARTER_FINALS':'Quarter-Finals','SEMI_FINALS':'Semi-Finals','FINAL':'Final'};
   const rounds={};
   finished.filter(m=>ROUND_ORDER.includes(m.stage)).forEach(m=>{
     if(!rounds[m.stage])rounds[m.stage]=[];
