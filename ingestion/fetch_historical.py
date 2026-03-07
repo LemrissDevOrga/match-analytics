@@ -17,6 +17,8 @@ LEAGUES = {
     "ligue1":           {"code": "FL1", "seasons": [2023, 2024, 2025]},
     "serie_a":          {"code": "SA",  "seasons": [2023, 2024, 2025]},
     "bundesliga":       {"code": "BL1", "seasons": [2023, 2024, 2025]},
+    "eredivisie":       {"code": "DED", "seasons": [2023, 2024, 2025]},
+    "primeira_liga":    {"code": "PPL", "seasons": [2023, 2024, 2025]},
 }
 
 def fetch_matches(competition_code, season):
