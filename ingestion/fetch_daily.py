@@ -3,7 +3,6 @@ import json
 import os
 import time
 from dotenv import load_dotenv
-from datetime import datetime, timedelta
 
 load_dotenv()
 
@@ -11,59 +10,46 @@ API_KEY = os.getenv("FOOTBALL_API_KEY")
 BASE_URL = "https://api.football-data.org/v4"
 HEADERS = {"X-Auth-Token": API_KEY}
 
+current_season = 2025
+
 LEAGUES = {
-    "laliga":           "PD",
-    "premier_league":   "PL",
-    "champions_league": "CL",
-    "ligue1":           "FL1",
-    "serie_a":          "SA",
-    "bundesliga":       "BL1",
-    "eredivisie":       "DED",
-    "primeira_liga":    "PPL"
+    "laliga":           {"code": "PD",  "seasons": [current_season]},
+    "premier_league":   {"code": "PL",  "seasons": [current_season]},
+    "champions_league": {"code": "CL",  "seasons": [current_season]},
+    "ligue1":           {"code": "FL1", "seasons": [current_season]},
+    "serie_a":          {"code": "SA",  "seasons": [current_season]},
+    "bundesliga":       {"code": "BL1", "seasons": [current_season]},
+    "eredivisie":       {"code": "DED", "seasons": [current_season]},
+    "primeira_liga":    {"code": "PPL", "seasons": [current_season]},
 }
 
-def fetch_yesterday(competition_code):
-    yesterday = (datetime.utcnow() - timedelta(days=1)).strftime("%Y-%m-%d")
-    today     = datetime.utcnow().strftime("%Y-%m-%d")
-    url = f"{BASE_URL}/competitions/{competition_code}/matches?dateFrom={yesterday}&dateTo={today}"
+def fetch_matches(competition_code, season):
+    url = f"{BASE_URL}/competitions/{competition_code}/matches?season={season}"
     response = requests.get(url, headers=HEADERS)
     if response.status_code == 200:
         matches = response.json().get("matches", [])
-        print(f"  ✅ {len(matches)} matches fetched for {yesterday}")
+        print(f"  ✅ Season {season}: {len(matches)} matches fetched")
         return matches
     else:
-        print(f"  ❌ Failed: {response.status_code} - {response.json().get('message','')}")
+        print(f"  ❌ Season {season} failed: {response.status_code} - {response.json().get('message','')}")
         return []
 
-def save_raw(matches, league_folder):
-    if not matches:
-        return
-    season_year = int(matches[0]["season"]["startDate"][:4])
-    filepath = f"data/raw/{league_folder}/{league_folder}_{season_year}.json"
+def save_raw(matches, league_folder, season):
     os.makedirs(f"data/raw/{league_folder}", exist_ok=True)
-
-    if os.path.exists(filepath):
-        with open(filepath) as f:
-            existing = json.load(f)
-        existing_ids = {m["id"] for m in existing}
-        new_matches = [m for m in matches if m["id"] not in existing_ids]
-        updated = existing + new_matches
-        print(f"  ➕ {len(new_matches)} new matches added to {filepath}")
-    else:
-        updated = matches
-        print(f"  🆕 Created {filepath}")
-
+    filepath = f"data/raw/{league_folder}/{league_folder}_{season}.json"
     with open(filepath, "w") as f:
-        json.dump(updated, f, indent=2)
+        json.dump(matches, f, indent=2)
+    print(f"  💾 Saved to {filepath}")
 
 def main():
-    for league_name, code in LEAGUES.items():
-        print(f"\n🏆 Daily update: {league_name.replace('_',' ').title()}...")
-        matches = fetch_yesterday(code)
-        if matches:
-            save_raw(matches, league_name)
-        print(f"  ⏳ Waiting 12 seconds...")
-        time.sleep(12)
+    for league_name, config in LEAGUES.items():
+        print(f"\n🏆 Fetching {league_name.replace('_',' ').title()}...")
+        for season in config["seasons"]:
+            matches = fetch_matches(config["code"], season)
+            if matches:
+                save_raw(matches, league_name, season)
+            print(f"  ⏳ Waiting 12 seconds...")
+            time.sleep(12)
 
 if __name__ == "__main__":
     main()
