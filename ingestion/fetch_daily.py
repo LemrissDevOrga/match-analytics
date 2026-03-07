@@ -18,6 +18,8 @@ LEAGUES = {
     "ligue1":           "FL1",
     "serie_a":          "SA",
     "bundesliga":       "BL1",
+    "eredivisie":       "DED",
+    "primeira_liga":    "PPL"
 }
 
 def fetch_yesterday(competition_code):

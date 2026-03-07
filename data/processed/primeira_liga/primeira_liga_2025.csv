@@ -1,0 +1,218 @@
+match_id,season,matchday,date,status,home_team,home_team_short,home_team_tla,away_team,away_team_short,away_team_tla,home_goals_ft,away_goals_ft,home_goals_ht,away_goals_ht,result,referee
+545700,2025,1,2025-08-08,FINISHED,Casa Pia AC,Casa Pia,CAS,Sporting Clube de Portugal,Sporting CP,SPO,0,2,0,1,AWAY_TEAM,
+545706,2025,1,2025-08-09,FINISHED,CD Nacional,CD Nacional,CDN,Gil Vicente FC,Gil Vicente,GIL,0,2,0,2,AWAY_TEAM,
+545703,2025,1,2025-08-09,FINISHED,FC Arouca,Arouca,FCA,AVS,AVS,AVS,3,1,1,0,HOME_TEAM,
+545707,2025,1,2025-08-10,FINISHED,FC Famalicão,Famalicão,FAM,CD Santa Clara,Santa Clara,CD ,3,0,2,0,HOME_TEAM,
+545701,2025,1,2025-08-10,FINISHED,Sporting Clube de Braga,Braga,SCB,CD Tondela,Tondela,TON,3,0,2,0,HOME_TEAM,
+545705,2025,1,2025-08-10,FINISHED,Moreirense FC,Moreirense,MOR,FC Alverca,Alverca,ALV,2,1,1,1,HOME_TEAM,
+545704,2025,1,2025-08-11,FINISHED,GD Estoril Praia,Estoril Praia,EST,CF Estrela da Amadora,Amadora,AMA,1,1,1,0,DRAW,
+545708,2025,1,2025-08-11,FINISHED,FC Porto,Porto,FCP,Vitória SC,Vitória SC,GUI,3,0,2,0,HOME_TEAM,
+545709,2025,2,2025-08-15,FINISHED,AVS,AVS,AVS,Casa Pia AC,Casa Pia,CAS,0,2,0,1,AWAY_TEAM,
+545716,2025,2,2025-08-16,FINISHED,CD Tondela,Tondela,TON,FC Famalicão,Famalicão,FAM,0,1,0,0,AWAY_TEAM,
+545714,2025,2,2025-08-16,FINISHED,Vitória SC,Vitória SC,GUI,GD Estoril Praia,Estoril Praia,EST,3,2,1,1,HOME_TEAM,
+545717,2025,2,2025-08-16,FINISHED,CF Estrela da Amadora,Amadora,AMA,Sport Lisboa e Benfica,SL Benfica,BEN,0,1,0,0,AWAY_TEAM,
+545713,2025,2,2025-08-17,FINISHED,Rio Ave FC,Rio Ave,RIO,CD Nacional,CD Nacional,CDN,1,1,1,0,DRAW,
+545710,2025,2,2025-08-17,FINISHED,FC Alverca,Alverca,ALV,Sporting Clube de Braga,Braga,SCB,0,3,0,3,AWAY_TEAM,
+545712,2025,2,2025-08-17,FINISHED,CD Santa Clara,Santa Clara,CD ,Moreirense FC,Moreirense,MOR,0,1,0,1,AWAY_TEAM,
+545715,2025,2,2025-08-17,FINISHED,Sporting Clube de Portugal,Sporting CP,SPO,FC Arouca,Arouca,FCA,6,0,3,0,HOME_TEAM,
+545711,2025,2,2025-08-18,FINISHED,Gil Vicente FC,Gil Vicente,GIL,FC Porto,Porto,FCP,0,2,0,1,AWAY_TEAM,
+545726,2025,3,2025-08-23,FINISHED,Moreirense FC,Moreirense,MOR,Vitória SC,Vitória SC,GUI,2,0,0,0,HOME_TEAM,
+545718,2025,3,2025-08-23,FINISHED,CD Nacional,CD Nacional,CDN,Sporting Clube de Portugal,Sporting CP,SPO,1,4,1,0,AWAY_TEAM,
+545719,2025,3,2025-08-23,FINISHED,FC Arouca,Arouca,FCA,Rio Ave FC,Rio Ave,RIO,3,3,1,0,DRAW,
+545721,2025,3,2025-08-23,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,CD Tondela,Tondela,TON,3,0,2,0,HOME_TEAM,
+545720,2025,3,2025-08-24,FINISHED,FC Famalicão,Famalicão,FAM,Gil Vicente FC,Gil Vicente,GIL,0,0,0,0,DRAW,
+545723,2025,3,2025-08-24,FINISHED,FC Porto,Porto,FCP,Casa Pia AC,Casa Pia,CAS,4,0,3,0,HOME_TEAM,
+545722,2025,3,2025-08-24,FINISHED,Sporting Clube de Braga,Braga,SCB,AVS,AVS,AVS,2,2,1,2,DRAW,
+545724,2025,3,2025-08-25,FINISHED,CF Estrela da Amadora,Amadora,AMA,FC Alverca,Alverca,ALV,2,2,1,2,DRAW,
+545730,2025,4,2025-08-29,FINISHED,Gil Vicente FC,Gil Vicente,GIL,Moreirense FC,Moreirense,MOR,2,0,0,0,HOME_TEAM,
+545728,2025,4,2025-08-30,FINISHED,Casa Pia AC,Casa Pia,CAS,CD Nacional,CD Nacional,CDN,0,2,0,2,AWAY_TEAM,
+545727,2025,4,2025-08-30,FINISHED,AVS,AVS,AVS,FC Famalicão,Famalicão,FAM,0,1,0,0,AWAY_TEAM,
+545733,2025,4,2025-08-30,FINISHED,Vitória SC,Vitória SC,GUI,FC Arouca,Arouca,FCA,1,1,1,1,DRAW,
+545734,2025,4,2025-08-30,FINISHED,Sporting Clube de Portugal,Sporting CP,SPO,FC Porto,Porto,FCP,1,2,0,0,AWAY_TEAM,
+545732,2025,4,2025-08-31,FINISHED,CD Tondela,Tondela,TON,GD Estoril Praia,Estoril Praia,EST,2,2,0,1,DRAW,
+545729,2025,4,2025-08-31,FINISHED,FC Alverca,Alverca,ALV,Sport Lisboa e Benfica,SL Benfica,BEN,1,2,0,2,AWAY_TEAM,
+545731,2025,4,2025-08-31,FINISHED,CD Santa Clara,Santa Clara,CD ,CF Estrela da Amadora,Amadora,AMA,0,0,0,0,DRAW,
+545735,2025,4,2025-08-31,FINISHED,Rio Ave FC,Rio Ave,RIO,Sporting Clube de Braga,Braga,SCB,2,2,2,1,DRAW,
+545725,2025,3,2025-09-06,FINISHED,GD Estoril Praia,Estoril Praia,EST,CD Santa Clara,Santa Clara,CD ,0,1,0,0,AWAY_TEAM,
+545737,2025,5,2025-09-12,FINISHED,FC Alverca,Alverca,ALV,CD Tondela,Tondela,TON,1,0,1,0,HOME_TEAM,
+545742,2025,5,2025-09-12,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,CD Santa Clara,Santa Clara,CD ,1,1,0,0,DRAW,
+545740,2025,5,2025-09-13,FINISHED,Moreirense FC,Moreirense,MOR,Rio Ave FC,Rio Ave,RIO,3,1,0,0,HOME_TEAM,
+545743,2025,5,2025-09-13,FINISHED,GD Estoril Praia,Estoril Praia,EST,AVS,AVS,AVS,3,1,2,0,HOME_TEAM,
+545744,2025,5,2025-09-13,FINISHED,FC Porto,Porto,FCP,CD Nacional,CD Nacional,CDN,1,0,1,0,HOME_TEAM,
+545739,2025,5,2025-09-13,FINISHED,FC Famalicão,Famalicão,FAM,Sporting Clube de Portugal,Sporting CP,SPO,1,2,1,1,AWAY_TEAM,
+545736,2025,5,2025-09-14,FINISHED,CF Estrela da Amadora,Amadora,AMA,Vitória SC,Vitória SC,GUI,0,2,0,1,AWAY_TEAM,
+545738,2025,5,2025-09-14,FINISHED,FC Arouca,Arouca,FCA,Casa Pia AC,Casa Pia,CAS,0,2,0,1,AWAY_TEAM,
+545741,2025,5,2025-09-14,FINISHED,Sporting Clube de Braga,Braga,SCB,Gil Vicente FC,Gil Vicente,GIL,0,1,0,1,AWAY_TEAM,
+545751,2025,6,2025-09-19,FINISHED,Rio Ave FC,Rio Ave,RIO,FC Porto,Porto,FCP,0,3,0,2,AWAY_TEAM,
+545749,2025,6,2025-09-20,FINISHED,CD Santa Clara,Santa Clara,CD ,FC Alverca,Alverca,ALV,2,1,1,1,HOME_TEAM,
+545750,2025,6,2025-09-20,FINISHED,CD Nacional,CD Nacional,CDN,FC Arouca,Arouca,FCA,1,2,0,0,AWAY_TEAM,João Gonçalves
+545745,2025,6,2025-09-20,FINISHED,AVS,AVS,AVS,Sport Lisboa e Benfica,SL Benfica,BEN,0,3,0,1,AWAY_TEAM,
+545753,2025,6,2025-09-20,FINISHED,Vitória SC,Vitória SC,GUI,Sporting Clube de Braga,Braga,SCB,1,1,1,1,DRAW,
+545748,2025,6,2025-09-21,FINISHED,CD Tondela,Tondela,TON,CF Estrela da Amadora,Amadora,AMA,0,0,0,0,DRAW,
+545747,2025,6,2025-09-21,FINISHED,Gil Vicente FC,Gil Vicente,GIL,GD Estoril Praia,Estoril Praia,EST,2,0,1,0,HOME_TEAM,
+545746,2025,6,2025-09-21,FINISHED,Casa Pia AC,Casa Pia,CAS,FC Famalicão,Famalicão,FAM,1,1,0,0,DRAW,
+545752,2025,6,2025-09-22,FINISHED,Sporting Clube de Portugal,Sporting CP,SPO,Moreirense FC,Moreirense,MOR,3,0,0,0,HOME_TEAM,
+545702,2025,1,2025-09-23,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,Rio Ave FC,Rio Ave,RIO,1,1,0,0,DRAW,Sérgio Guelho
+545760,2025,7,2025-09-26,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,Gil Vicente FC,Gil Vicente,GIL,2,1,2,1,HOME_TEAM,
+545762,2025,7,2025-09-27,FINISHED,Moreirense FC,Moreirense,MOR,Casa Pia AC,Casa Pia,CAS,2,1,1,1,HOME_TEAM,
+545758,2025,7,2025-09-27,FINISHED,CD Santa Clara,Santa Clara,CD ,CD Tondela,Tondela,TON,1,2,0,0,AWAY_TEAM,
+545761,2025,7,2025-09-27,FINISHED,CF Estrela da Amadora,Amadora,AMA,AVS,AVS,AVS,3,0,3,0,HOME_TEAM,
+545754,2025,7,2025-09-27,FINISHED,GD Estoril Praia,Estoril Praia,EST,Sporting Clube de Portugal,Sporting CP,SPO,0,1,0,1,AWAY_TEAM,
+545755,2025,7,2025-09-28,FINISHED,FC Alverca,Alverca,ALV,Vitória SC,Vitória SC,GUI,2,0,1,0,HOME_TEAM,
+545759,2025,7,2025-09-28,FINISHED,Sporting Clube de Braga,Braga,SCB,CD Nacional,CD Nacional,CDN,0,1,0,1,AWAY_TEAM,
+545757,2025,7,2025-09-28,FINISHED,FC Famalicão,Famalicão,FAM,Rio Ave FC,Rio Ave,RIO,0,0,0,0,DRAW,
+545756,2025,7,2025-09-29,FINISHED,FC Arouca,Arouca,FCA,FC Porto,Porto,FCP,0,4,0,1,AWAY_TEAM,
+545764,2025,8,2025-10-03,FINISHED,Casa Pia AC,Casa Pia,CAS,GD Estoril Praia,Estoril Praia,EST,2,2,2,1,DRAW,
+545767,2025,8,2025-10-04,FINISHED,Gil Vicente FC,Gil Vicente,GIL,CF Estrela da Amadora,Amadora,AMA,2,0,2,0,HOME_TEAM,
+545768,2025,8,2025-10-04,FINISHED,CD Nacional,CD Nacional,CDN,Moreirense FC,Moreirense,MOR,3,2,1,1,HOME_TEAM,
+545763,2025,8,2025-10-04,FINISHED,AVS,AVS,AVS,FC Alverca,Alverca,ALV,1,3,1,1,AWAY_TEAM,David Silva
+545769,2025,8,2025-10-04,FINISHED,Vitória SC,Vitória SC,GUI,CD Santa Clara,Santa Clara,CD ,2,1,0,1,HOME_TEAM,
+545765,2025,8,2025-10-05,FINISHED,FC Arouca,Arouca,FCA,FC Famalicão,Famalicão,FAM,1,1,0,0,DRAW,
+545766,2025,8,2025-10-05,FINISHED,Rio Ave FC,Rio Ave,RIO,CD Tondela,Tondela,TON,3,0,2,0,HOME_TEAM,
+545770,2025,8,2025-10-05,FINISHED,Sporting Clube de Portugal,Sporting CP,SPO,Sporting Clube de Braga,Braga,SCB,1,1,1,0,DRAW,
+545771,2025,8,2025-10-05,FINISHED,FC Porto,Porto,FCP,Sport Lisboa e Benfica,SL Benfica,BEN,0,0,0,0,DRAW,
+545774,2025,9,2025-10-24,FINISHED,FC Alverca,Alverca,ALV,Gil Vicente FC,Gil Vicente,GIL,0,4,0,2,AWAY_TEAM,
+545778,2025,9,2025-10-25,FINISHED,CD Santa Clara,Santa Clara,CD ,AVS,AVS,AVS,2,0,0,0,HOME_TEAM,
+545773,2025,9,2025-10-25,FINISHED,CF Estrela da Amadora,Amadora,AMA,Rio Ave FC,Rio Ave,RIO,1,2,1,0,AWAY_TEAM,
+545779,2025,9,2025-10-25,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,FC Arouca,Arouca,FCA,5,0,3,0,HOME_TEAM,
+545772,2025,9,2025-10-26,FINISHED,GD Estoril Praia,Estoril Praia,EST,CD Nacional,CD Nacional,CDN,1,1,0,1,DRAW,
+545775,2025,9,2025-10-26,FINISHED,FC Famalicão,Famalicão,FAM,Vitória SC,Vitória SC,GUI,2,0,1,0,HOME_TEAM,
+545780,2025,9,2025-10-26,FINISHED,CD Tondela,Tondela,TON,Sporting Clube de Portugal,Sporting CP,SPO,0,3,0,1,AWAY_TEAM,
+545777,2025,9,2025-10-26,FINISHED,Sporting Clube de Braga,Braga,SCB,Casa Pia AC,Casa Pia,CAS,4,0,2,0,HOME_TEAM,
+545776,2025,9,2025-10-27,FINISHED,Moreirense FC,Moreirense,MOR,FC Porto,Porto,FCP,1,2,1,1,AWAY_TEAM,
+545785,2025,10,2025-10-31,FINISHED,Sporting Clube de Portugal,Sporting CP,SPO,FC Alverca,Alverca,ALV,2,0,0,0,HOME_TEAM,
+545786,2025,10,2025-11-01,FINISHED,CD Nacional,CD Nacional,CDN,FC Famalicão,Famalicão,FAM,0,1,0,1,AWAY_TEAM,
+545782,2025,10,2025-11-01,FINISHED,Casa Pia AC,Casa Pia,CAS,CF Estrela da Amadora,Amadora,AMA,3,5,1,2,AWAY_TEAM,
+545784,2025,10,2025-11-01,FINISHED,Rio Ave FC,Rio Ave,RIO,GD Estoril Praia,Estoril Praia,EST,0,4,0,2,AWAY_TEAM,
+545789,2025,10,2025-11-01,FINISHED,Vitória SC,Vitória SC,GUI,Sport Lisboa e Benfica,SL Benfica,BEN,0,3,0,0,AWAY_TEAM,
+545781,2025,10,2025-11-02,FINISHED,AVS,AVS,AVS,CD Tondela,Tondela,TON,2,2,1,1,DRAW,
+545783,2025,10,2025-11-02,FINISHED,FC Arouca,Arouca,FCA,Moreirense FC,Moreirense,MOR,0,2,0,2,AWAY_TEAM,
+545788,2025,10,2025-11-02,FINISHED,FC Porto,Porto,FCP,Sporting Clube de Braga,Braga,SCB,2,1,1,0,HOME_TEAM,Fábio Veríssimo
+545787,2025,10,2025-11-03,FINISHED,Gil Vicente FC,Gil Vicente,GIL,CD Santa Clara,Santa Clara,CD ,1,0,1,0,HOME_TEAM,
+545797,2025,11,2025-11-07,FINISHED,GD Estoril Praia,Estoril Praia,EST,FC Arouca,Arouca,FCA,4,3,2,2,HOME_TEAM,
+545792,2025,11,2025-11-08,FINISHED,FC Alverca,Alverca,ALV,Rio Ave FC,Rio Ave,RIO,1,1,0,1,DRAW,
+545798,2025,11,2025-11-08,FINISHED,CD Tondela,Tondela,TON,Vitória SC,Vitória SC,GUI,0,1,0,0,AWAY_TEAM,
+545794,2025,11,2025-11-08,FINISHED,CD Santa Clara,Santa Clara,CD ,Sporting Clube de Portugal,Sporting CP,SPO,1,2,1,1,AWAY_TEAM,
+545790,2025,11,2025-11-09,FINISHED,AVS,AVS,AVS,Gil Vicente FC,Gil Vicente,GIL,1,1,0,1,DRAW,
+545791,2025,11,2025-11-09,FINISHED,CF Estrela da Amadora,Amadora,AMA,CD Nacional,CD Nacional,CDN,1,1,0,1,DRAW,
+545793,2025,11,2025-11-09,FINISHED,FC Famalicão,Famalicão,FAM,FC Porto,Porto,FCP,0,1,0,1,AWAY_TEAM,
+545795,2025,11,2025-11-09,FINISHED,Sporting Clube de Braga,Braga,SCB,Moreirense FC,Moreirense,MOR,2,1,1,0,HOME_TEAM,
+545796,2025,11,2025-11-09,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,Casa Pia AC,Casa Pia,CAS,2,2,1,0,DRAW,
+545801,2025,12,2025-11-28,FINISHED,Vitória SC,Vitória SC,GUI,AVS,AVS,AVS,4,0,3,0,HOME_TEAM,
+545804,2025,12,2025-11-29,FINISHED,Casa Pia AC,Casa Pia,CAS,FC Alverca,Alverca,ALV,0,2,0,0,AWAY_TEAM,
+545805,2025,12,2025-11-29,FINISHED,Moreirense FC,Moreirense,MOR,FC Famalicão,Famalicão,FAM,2,2,0,1,DRAW,
+545807,2025,12,2025-11-29,FINISHED,CD Nacional,CD Nacional,CDN,Sport Lisboa e Benfica,SL Benfica,BEN,1,2,0,0,AWAY_TEAM,
+545800,2025,12,2025-11-29,FINISHED,Gil Vicente FC,Gil Vicente,GIL,CD Tondela,Tondela,TON,0,1,0,1,AWAY_TEAM,
+545806,2025,12,2025-11-30,FINISHED,Rio Ave FC,Rio Ave,RIO,CD Santa Clara,Santa Clara,CD ,1,1,1,1,DRAW,
+545803,2025,12,2025-11-30,FINISHED,Sporting Clube de Portugal,Sporting CP,SPO,CF Estrela da Amadora,Amadora,AMA,4,0,3,0,HOME_TEAM,
+545802,2025,12,2025-11-30,FINISHED,FC Porto,Porto,FCP,GD Estoril Praia,Estoril Praia,EST,1,0,1,0,HOME_TEAM,
+545799,2025,12,2025-12-01,FINISHED,FC Arouca,Arouca,FCA,Sporting Clube de Braga,Braga,SCB,0,4,0,3,AWAY_TEAM,
+545812,2025,13,2025-12-05,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,Sporting Clube de Portugal,Sporting CP,SPO,1,1,1,1,DRAW,
+545811,2025,13,2025-12-06,FINISHED,CD Santa Clara,Santa Clara,CD ,Casa Pia AC,Casa Pia,CAS,1,0,1,0,HOME_TEAM,
+545808,2025,13,2025-12-06,FINISHED,AVS,AVS,AVS,Rio Ave FC,Rio Ave,RIO,1,2,0,1,AWAY_TEAM,
+545816,2025,13,2025-12-06,FINISHED,FC Famalicão,Famalicão,FAM,Sporting Clube de Braga,Braga,SCB,1,2,1,1,AWAY_TEAM,
+545809,2025,13,2025-12-07,FINISHED,GD Estoril Praia,Estoril Praia,EST,Moreirense FC,Moreirense,MOR,3,3,1,1,DRAW,
+545810,2025,13,2025-12-07,FINISHED,FC Alverca,Alverca,ALV,CD Nacional,CD Nacional,CDN,1,0,0,0,HOME_TEAM,
+545814,2025,13,2025-12-07,FINISHED,CF Estrela da Amadora,Amadora,AMA,FC Arouca,Arouca,FCA,3,1,2,0,HOME_TEAM,
+545815,2025,13,2025-12-07,FINISHED,CD Tondela,Tondela,TON,FC Porto,Porto,FCP,0,2,0,0,AWAY_TEAM,
+545813,2025,13,2025-12-08,FINISHED,Vitória SC,Vitória SC,GUI,Gil Vicente FC,Gil Vicente,GIL,0,0,0,0,DRAW,
+545817,2025,14,2025-12-13,FINISHED,Casa Pia AC,Casa Pia,CAS,Gil Vicente FC,Gil Vicente,GIL,1,1,0,1,DRAW,
+545825,2025,14,2025-12-13,FINISHED,Rio Ave FC,Rio Ave,RIO,Vitória SC,Vitória SC,GUI,0,1,0,1,AWAY_TEAM,
+545820,2025,14,2025-12-13,FINISHED,Sporting Clube de Portugal,Sporting CP,SPO,AVS,AVS,AVS,6,0,3,0,HOME_TEAM,
+545821,2025,14,2025-12-14,FINISHED,FC Famalicão,Famalicão,FAM,GD Estoril Praia,Estoril Praia,EST,4,0,2,0,HOME_TEAM,
+545824,2025,14,2025-12-14,FINISHED,Moreirense FC,Moreirense,MOR,Sport Lisboa e Benfica,SL Benfica,BEN,0,4,0,1,AWAY_TEAM,
+545823,2025,14,2025-12-14,FINISHED,FC Arouca,Arouca,FCA,FC Alverca,Alverca,ALV,1,0,0,0,HOME_TEAM,
+545818,2025,14,2025-12-15,FINISHED,CD Nacional,CD Nacional,CDN,CD Tondela,Tondela,TON,3,1,0,0,HOME_TEAM,Ricardo Baixinho
+545819,2025,14,2025-12-15,FINISHED,Sporting Clube de Braga,Braga,SCB,CD Santa Clara,Santa Clara,CD ,1,0,1,0,HOME_TEAM,
+545822,2025,14,2025-12-15,FINISHED,FC Porto,Porto,FCP,CF Estrela da Amadora,Amadora,AMA,3,1,1,0,HOME_TEAM,
+545834,2025,15,2025-12-19,FINISHED,GD Estoril Praia,Estoril Praia,EST,Sporting Clube de Braga,Braga,SCB,1,0,1,0,HOME_TEAM,
+545829,2025,15,2025-12-20,FINISHED,Gil Vicente FC,Gil Vicente,GIL,Rio Ave FC,Rio Ave,RIO,2,2,1,1,DRAW,Diogo Rosa
+545827,2025,15,2025-12-20,FINISHED,CF Estrela da Amadora,Amadora,AMA,Moreirense FC,Moreirense,MOR,0,0,0,0,DRAW,
+545826,2025,15,2025-12-21,FINISHED,AVS,AVS,AVS,CD Nacional,CD Nacional,CDN,2,2,2,0,DRAW,
+545832,2025,15,2025-12-21,FINISHED,CD Tondela,Tondela,TON,Casa Pia AC,Casa Pia,CAS,1,2,0,0,AWAY_TEAM,
+545833,2025,15,2025-12-21,FINISHED,CD Santa Clara,Santa Clara,CD ,FC Arouca,Arouca,FCA,0,0,0,0,DRAW,
+545828,2025,15,2025-12-22,FINISHED,FC Alverca,Alverca,ALV,FC Porto,Porto,FCP,0,3,0,1,AWAY_TEAM,
+545830,2025,15,2025-12-22,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,FC Famalicão,Famalicão,FAM,1,0,1,0,HOME_TEAM,
+545831,2025,15,2025-12-23,FINISHED,Vitória SC,Vitória SC,GUI,Sporting Clube de Portugal,Sporting CP,SPO,1,4,0,2,AWAY_TEAM,
+545839,2025,16,2025-12-27,FINISHED,FC Famalicão,Famalicão,FAM,CF Estrela da Amadora,Amadora,AMA,2,3,2,2,AWAY_TEAM,
+545840,2025,16,2025-12-27,FINISHED,GD Estoril Praia,Estoril Praia,EST,FC Alverca,Alverca,ALV,4,1,2,0,HOME_TEAM,
+545835,2025,16,2025-12-28,FINISHED,Casa Pia AC,Casa Pia,CAS,Vitória SC,Vitória SC,GUI,0,0,0,0,DRAW,
+545836,2025,16,2025-12-28,FINISHED,FC Arouca,Arouca,FCA,Gil Vicente FC,Gil Vicente,GIL,2,2,2,1,DRAW,
+545843,2025,16,2025-12-28,FINISHED,Sporting Clube de Braga,Braga,SCB,Sport Lisboa e Benfica,SL Benfica,BEN,2,2,2,1,DRAW,
+545841,2025,16,2025-12-28,FINISHED,Sporting Clube de Portugal,Sporting CP,SPO,Rio Ave FC,Rio Ave,RIO,4,0,1,0,HOME_TEAM,
+545838,2025,16,2025-12-29,FINISHED,FC Porto,Porto,FCP,AVS,AVS,AVS,2,0,0,0,HOME_TEAM,
+545846,2025,17,2026-01-02,FINISHED,Gil Vicente FC,Gil Vicente,GIL,Sporting Clube de Portugal,Sporting CP,SPO,1,1,0,1,DRAW,Gustavo Correia
+545849,2025,17,2026-01-02,FINISHED,Vitória SC,Vitória SC,GUI,CD Nacional,CD Nacional,CDN,2,1,0,0,HOME_TEAM,André Narciso
+545851,2025,17,2026-01-03,FINISHED,CD Tondela,Tondela,TON,FC Arouca,Arouca,FCA,3,1,2,1,HOME_TEAM,João Gonçalves
+545848,2025,17,2026-01-03,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,GD Estoril Praia,Estoril Praia,EST,3,1,2,1,HOME_TEAM,Anzhony Rodrigues
+545852,2025,17,2026-01-03,FINISHED,CF Estrela da Amadora,Amadora,AMA,Sporting Clube de Braga,Braga,SCB,3,3,1,1,DRAW,Hélder Carvalho
+545844,2025,17,2026-01-03,FINISHED,AVS,AVS,AVS,Moreirense FC,Moreirense,MOR,0,2,0,1,AWAY_TEAM,Miguel Fonseca
+545850,2025,17,2026-01-04,FINISHED,Rio Ave FC,Rio Ave,RIO,Casa Pia AC,Casa Pia,CAS,3,1,0,0,HOME_TEAM,Iancu Vasilica
+545847,2025,17,2026-01-04,FINISHED,CD Santa Clara,Santa Clara,CD ,FC Porto,Porto,FCP,0,1,0,0,AWAY_TEAM,Claudio Pereira
+545845,2025,17,2026-01-04,FINISHED,FC Alverca,Alverca,ALV,FC Famalicão,Famalicão,FAM,1,0,0,0,HOME_TEAM,Diogo Rosa
+545842,2025,16,2026-01-11,FINISHED,CD Nacional,CD Nacional,CDN,CD Santa Clara,Santa Clara,CD ,3,3,2,2,DRAW,Fábio Veríssimo
+545837,2025,16,2026-01-11,FINISHED,Moreirense FC,Moreirense,MOR,CD Tondela,Tondela,TON,1,0,0,0,HOME_TEAM,Sérgio Guelho
+545853,2025,18,2026-01-16,FINISHED,Sporting Clube de Portugal,Sporting CP,SPO,Casa Pia AC,Casa Pia,CAS,3,0,2,0,HOME_TEAM,David Silva
+545859,2025,18,2026-01-17,FINISHED,Gil Vicente FC,Gil Vicente,GIL,CD Nacional,CD Nacional,CDN,2,1,1,1,HOME_TEAM,Miguel Nogueira
+545856,2025,18,2026-01-17,FINISHED,AVS,AVS,AVS,FC Arouca,Arouca,FCA,0,1,0,1,AWAY_TEAM,João Pinheiro
+545858,2025,18,2026-01-17,FINISHED,FC Alverca,Alverca,ALV,Moreirense FC,Moreirense,MOR,2,1,0,0,HOME_TEAM,Luís Godinho
+545855,2025,18,2026-01-17,FINISHED,Rio Ave FC,Rio Ave,RIO,Sport Lisboa e Benfica,SL Benfica,BEN,0,2,0,2,AWAY_TEAM,Claudio Pereira
+545860,2025,18,2026-01-18,FINISHED,CD Santa Clara,Santa Clara,CD ,FC Famalicão,Famalicão,FAM,0,1,0,0,AWAY_TEAM,Marcio Torres
+545854,2025,18,2026-01-18,FINISHED,CD Tondela,Tondela,TON,Sporting Clube de Braga,Braga,SCB,0,1,0,0,AWAY_TEAM,Gustavo Correia
+545861,2025,18,2026-01-18,FINISHED,Vitória SC,Vitória SC,GUI,FC Porto,Porto,FCP,0,1,0,0,AWAY_TEAM,João Gonçalves
+545857,2025,18,2026-01-19,FINISHED,CF Estrela da Amadora,Amadora,AMA,GD Estoril Praia,Estoril Praia,EST,0,5,0,1,AWAY_TEAM,Pedro Ramalho
+545862,2025,19,2026-01-23,FINISHED,Casa Pia AC,Casa Pia,CAS,AVS,AVS,AVS,3,3,1,0,DRAW,Ricardo Baixinho
+545865,2025,19,2026-01-24,FINISHED,Moreirense FC,Moreirense,MOR,CD Santa Clara,Santa Clara,CD ,1,0,0,0,HOME_TEAM,João Pinheiro
+545868,2025,19,2026-01-24,FINISHED,FC Arouca,Arouca,FCA,Sporting Clube de Portugal,Sporting CP,SPO,1,2,0,1,AWAY_TEAM,Hélder Carvalho
+545867,2025,19,2026-01-24,FINISHED,GD Estoril Praia,Estoril Praia,EST,Vitória SC,Vitória SC,GUI,4,2,1,2,HOME_TEAM,Fábio Veríssimo
+545866,2025,19,2026-01-25,FINISHED,CD Nacional,CD Nacional,CDN,Rio Ave FC,Rio Ave,RIO,4,0,1,0,HOME_TEAM,Iancu Vasilica
+545869,2025,19,2026-01-25,FINISHED,FC Famalicão,Famalicão,FAM,CD Tondela,Tondela,TON,3,0,1,0,HOME_TEAM,Carlos Macedo
+545870,2025,19,2026-01-25,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,CF Estrela da Amadora,Amadora,AMA,4,0,1,0,HOME_TEAM,David Silva
+545863,2025,19,2026-01-25,FINISHED,Sporting Clube de Braga,Braga,SCB,FC Alverca,Alverca,ALV,5,0,4,0,HOME_TEAM,Anzhony Rodrigues
+545864,2025,19,2026-01-26,FINISHED,FC Porto,Porto,FCP,Gil Vicente FC,Gil Vicente,GIL,3,0,1,0,HOME_TEAM,António Nobre
+545879,2025,20,2026-01-30,FINISHED,Vitória SC,Vitória SC,GUI,Moreirense FC,Moreirense,MOR,1,0,0,0,HOME_TEAM,António Nobre
+545878,2025,20,2026-01-31,FINISHED,CD Santa Clara,Santa Clara,CD ,GD Estoril Praia,Estoril Praia,EST,2,4,0,2,AWAY_TEAM,Hélder Malheiro
+545872,2025,20,2026-01-31,FINISHED,Rio Ave FC,Rio Ave,RIO,FC Arouca,Arouca,FCA,0,3,0,1,AWAY_TEAM,Sérgio Guelho
+545877,2025,20,2026-01-31,FINISHED,FC Alverca,Alverca,ALV,CF Estrela da Amadora,Amadora,AMA,1,1,0,0,DRAW,José Bessa
+545873,2025,20,2026-02-01,FINISHED,Gil Vicente FC,Gil Vicente,GIL,FC Famalicão,Famalicão,FAM,5,0,1,0,HOME_TEAM,Anzhony Rodrigues
+545871,2025,20,2026-02-01,FINISHED,Sporting Clube de Portugal,Sporting CP,SPO,CD Nacional,CD Nacional,CDN,2,1,0,0,HOME_TEAM,Ricardo Baixinho
+545874,2025,20,2026-02-01,FINISHED,CD Tondela,Tondela,TON,Sport Lisboa e Benfica,SL Benfica,BEN,0,0,0,0,DRAW,Luís Godinho
+545875,2025,20,2026-02-02,FINISHED,AVS,AVS,AVS,Sporting Clube de Braga,Braga,SCB,0,4,0,2,AWAY_TEAM,Carlos Macedo
+545876,2025,20,2026-02-02,FINISHED,Casa Pia AC,Casa Pia,CAS,FC Porto,Porto,FCP,2,1,2,0,HOME_TEAM,Pedro Ramalho
+545883,2025,21,2026-02-07,FINISHED,Moreirense FC,Moreirense,MOR,Gil Vicente FC,Gil Vicente,GIL,1,2,0,1,AWAY_TEAM,David Silva
+545884,2025,21,2026-02-07,FINISHED,CF Estrela da Amadora,Amadora,AMA,CD Santa Clara,Santa Clara,CD ,1,0,0,0,HOME_TEAM,Fábio Veríssimo
+545885,2025,21,2026-02-07,FINISHED,GD Estoril Praia,Estoril Praia,EST,CD Tondela,Tondela,TON,2,2,2,2,DRAW,Marcio Torres
+545886,2025,21,2026-02-07,FINISHED,FC Arouca,Arouca,FCA,Vitória SC,Vitória SC,GUI,3,2,1,2,HOME_TEAM,Miguel Fonseca
+545881,2025,21,2026-02-08,FINISHED,CD Nacional,CD Nacional,CDN,Casa Pia AC,Casa Pia,CAS,0,0,0,0,DRAW,Gustavo Correia
+545888,2025,21,2026-02-08,FINISHED,Sporting Clube de Braga,Braga,SCB,Rio Ave FC,Rio Ave,RIO,3,0,1,0,HOME_TEAM,Miguel Nogueira
+545882,2025,21,2026-02-08,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,FC Alverca,Alverca,ALV,2,1,1,1,HOME_TEAM,Bruno Costa
+545880,2025,21,2026-02-09,FINISHED,FC Famalicão,Famalicão,FAM,AVS,AVS,AVS,3,1,0,0,HOME_TEAM,Luí­s Carlos Mateus Filipe
+545887,2025,21,2026-02-09,FINISHED,FC Porto,Porto,FCP,Sporting Clube de Portugal,Sporting CP,SPO,1,1,0,0,DRAW,Luís Godinho
+545895,2025,22,2026-02-13,FINISHED,CD Santa Clara,Santa Clara,CD ,Sport Lisboa e Benfica,SL Benfica,BEN,1,2,0,2,AWAY_TEAM,António Nobre
+545890,2025,22,2026-02-13,FINISHED,CD Tondela,Tondela,TON,FC Alverca,Alverca,ALV,1,1,0,1,DRAW,Pedro Ramalho
+545891,2025,22,2026-02-14,FINISHED,Casa Pia AC,Casa Pia,CAS,FC Arouca,Arouca,FCA,3,2,3,2,HOME_TEAM,Diogo Rosa
+545889,2025,22,2026-02-14,FINISHED,Vitória SC,Vitória SC,GUI,CF Estrela da Amadora,Amadora,AMA,2,1,0,1,HOME_TEAM,Carlos Macedo
+545894,2025,22,2026-02-14,FINISHED,Gil Vicente FC,Gil Vicente,GIL,Sporting Clube de Braga,Braga,SCB,2,1,0,1,HOME_TEAM,Claudio Pereira
+545897,2025,22,2026-02-15,FINISHED,CD Nacional,CD Nacional,CDN,FC Porto,Porto,FCP,0,1,0,0,AWAY_TEAM,José Bessa
+545896,2025,22,2026-02-15,FINISHED,AVS,AVS,AVS,GD Estoril Praia,Estoril Praia,EST,3,0,0,0,HOME_TEAM,Luís Godinho
+545892,2025,22,2026-02-15,FINISHED,Sporting Clube de Portugal,Sporting CP,SPO,FC Famalicão,Famalicão,FAM,1,0,0,0,HOME_TEAM,David Silva
+545893,2025,22,2026-02-16,FINISHED,Rio Ave FC,Rio Ave,RIO,Moreirense FC,Moreirense,MOR,1,2,1,1,AWAY_TEAM,Ricardo Baixinho
+545901,2025,23,2026-02-20,FINISHED,CF Estrela da Amadora,Amadora,AMA,CD Tondela,Tondela,TON,0,2,0,1,AWAY_TEAM,Gustavo Correia
+545902,2025,23,2026-02-21,FINISHED,FC Alverca,Alverca,ALV,CD Santa Clara,Santa Clara,CD ,1,1,1,0,DRAW,Hélder Carvalho
+545903,2025,23,2026-02-21,FINISHED,FC Arouca,Arouca,FCA,CD Nacional,CD Nacional,CDN,3,0,0,0,HOME_TEAM,Luí­s Carlos Mateus Filipe
+545898,2025,23,2026-02-21,FINISHED,Sport Lisboa e Benfica,SL Benfica,BEN,AVS,AVS,AVS,3,0,3,0,HOME_TEAM,Miguel Fonseca
+545905,2025,23,2026-02-21,FINISHED,Moreirense FC,Moreirense,MOR,Sporting Clube de Portugal,Sporting CP,SPO,0,3,0,0,AWAY_TEAM,Bruno Costa
+545906,2025,23,2026-02-21,FINISHED,Sporting Clube de Braga,Braga,SCB,Vitória SC,Vitória SC,GUI,3,2,2,1,HOME_TEAM,João Pinheiro
+545900,2025,23,2026-02-22,FINISHED,GD Estoril Praia,Estoril Praia,EST,Gil Vicente FC,Gil Vicente,GIL,3,1,1,1,HOME_TEAM,Iancu Vasilica
+545904,2025,23,2026-02-22,FINISHED,FC Porto,Porto,FCP,Rio Ave FC,Rio Ave,RIO,1,0,1,0,HOME_TEAM,David Silva
+545899,2025,23,2026-02-23,FINISHED,FC Famalicão,Famalicão,FAM,Casa Pia AC,Casa Pia,CAS,2,0,1,0,HOME_TEAM,André Narciso
+545909,2025,24,2026-02-27,FINISHED,FC Porto,Porto,FCP,FC Arouca,Arouca,FCA,3,1,1,0,HOME_TEAM,Iancu Vasilica
+545907,2025,24,2026-02-27,FINISHED,Sporting Clube de Portugal,Sporting CP,SPO,GD Estoril Praia,Estoril Praia,EST,3,0,2,0,HOME_TEAM,Sérgio Guelho
+545914,2025,24,2026-02-28,FINISHED,AVS,AVS,AVS,CF Estrela da Amadora,Amadora,AMA,0,0,0,0,DRAW,Hélder Carvalho
+545912,2025,24,2026-02-28,FINISHED,CD Nacional,CD Nacional,CDN,Sporting Clube de Braga,Braga,SCB,1,2,0,1,AWAY_TEAM,Diogo Rosa
+545908,2025,24,2026-02-28,FINISHED,Vitória SC,Vitória SC,GUI,FC Alverca,Alverca,ALV,1,1,0,0,DRAW,Luí­s Carlos Mateus Filipe
+545911,2025,24,2026-03-01,FINISHED,CD Tondela,Tondela,TON,CD Santa Clara,Santa Clara,CD ,2,2,1,1,DRAW,Anzhony Rodrigues
+545915,2025,24,2026-03-01,FINISHED,Casa Pia AC,Casa Pia,CAS,Moreirense FC,Moreirense,MOR,1,1,1,0,DRAW,Fábio Veríssimo
+545910,2025,24,2026-03-01,FINISHED,Rio Ave FC,Rio Ave,RIO,FC Famalicão,Famalicão,FAM,0,0,0,0,DRAW,José Bessa
+545913,2025,24,2026-03-02,FINISHED,Gil Vicente FC,Gil Vicente,GIL,Sport Lisboa e Benfica,SL Benfica,BEN,1,2,0,1,AWAY_TEAM,João Gonçalves
+545918,2025,25,2026-03-06,FINISHED,FC Famalicão,Famalicão,FAM,FC Arouca,Arouca,FCA,1,0,0,0,HOME_TEAM,António Nobre

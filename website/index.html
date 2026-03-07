@@ -25,8 +25,8 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:999;ba
 .home-title{font-family:'Archivo Black';font-size:clamp(52px,8vw,110px);line-height:0.92;letter-spacing:-3px;margin-bottom:24px;}
 .home-title em{font-style:normal;color:var(--muted2);}
 .home-subtitle{font-size:16px;color:var(--muted2);font-weight:300;max-width:440px;line-height:1.7;margin-bottom:64px;}
-.leagues-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;width:100%;max-width:900px;}
-@media(max-width:700px){.leagues-grid{grid-template-columns:repeat(2,1fr);}}
+.leagues-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;width:100%;max-width:1100px;}
+@media(max-width:900px){.leagues-grid{grid-template-columns:repeat(2,1fr);}}
 @media(max-width:460px){.leagues-grid{grid-template-columns:1fr;}}
 .league-card{position:relative;overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px 24px;cursor:pointer;transition:transform 0.25s,border-color 0.25s,box-shadow 0.25s;text-align:left;animation:cardIn 0.5s ease both;}
 .league-card:nth-child(1){animation-delay:0.05s}.league-card:nth-child(2){animation-delay:0.1s}.league-card:nth-child(3){animation-delay:0.15s}.league-card:nth-child(4){animation-delay:0.2s}.league-card:nth-child(5){animation-delay:0.25s}.league-card:nth-child(6){animation-delay:0.3s}
@@ -294,6 +294,8 @@ footer span{color:var(--league-color);}
       <div class="league-card" style="--c:#d0021b" onclick="selectLeague('bundesliga')"><span class="lc-flag">🇩🇪</span><div class="lc-name">Bundesliga</div><div class="lc-country">Germany</div><span class="lc-arrow">↗</span></div>
       <div class="league-card" style="--c:#007bc3" onclick="selectLeague('serie_a')"><span class="lc-flag">🇮🇹</span><div class="lc-name">Serie A</div><div class="lc-country">Italy</div><span class="lc-arrow">↗</span></div>
       <div class="league-card" style="--c:#003399" onclick="selectLeague('ligue1')"><span class="lc-flag">🇫🇷</span><div class="lc-name">Ligue 1</div><div class="lc-country">France</div><span class="lc-arrow">↗</span></div>
+      <div class="league-card" style="--c:#ff6b00" onclick="selectLeague('eredivisie')"><span class="lc-flag">🇳🇱</span><div class="lc-name">Eredivisie</div><div class="lc-country">Netherlands</div><span class="lc-arrow">↗</span></div>
+      <div class="league-card" style="--c:#006600" onclick="selectLeague('primeira_liga')"><span class="lc-flag">🇵🇹</span><div class="lc-name">Primeira Liga</div><div class="lc-country">Portugal</div><span class="lc-arrow">↗</span></div>
     </div>
   </div>
 </div>
@@ -420,7 +422,7 @@ footer span{color:var(--league-color);}
 </div>
 </div>
 
-<footer id="dashFooter" style="display:none">Data via <span>lmrisse.aziz@gmail.com</span> · Auto-updated daily · Football Analytics Platform</footer>
+<footer id="dashFooter" style="display:none">Data via <span>football-data.org</span> · Auto-updated daily · Football Analytics Platform</footer>
 
 <script>
 const GH_USER="aziz1998-lemriss",GH_REPO="match-analytics";
@@ -432,6 +434,8 @@ const LEAGUE_CONFIG={
   bundesliga:{name:"Bundesliga",country:"Germany",color:"#d0021b",abbr:"BL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
   serie_a:{name:"Serie A",country:"Italy",color:"#007bc3",abbr:"SA",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
   ligue1:{name:"Ligue 1",country:"France",color:"#4466ff",abbr:"L1",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
+  eredivisie:{name:"Eredivisie",country:"Netherlands",color:"#ff6b00",abbr:"ED",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
+  primeira_liga:{name:"Primeira Liga",country:"Portugal",color:"#006600",abbr:"PL2",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
 };
 let currentLeague=null,currentSeason=null,currentTeam=null;
 let allStats=[],rawMatches=[],clRawMatches=[];
@@ -710,9 +714,13 @@ async function loadH2HData(){
   }
   allH2HMatches=allMatches;
   h2hDataLoaded=true;
-  const opponents=[...new Set(allMatches.flatMap(m=>[m.home_team,m.away_team]))].filter(t=>t&&t!==currentTeam).sort();
+  // Only show opponents that have actually faced currentTeam
+  const opponents=[...new Set(allMatches
+    .filter(m=>m.home_team===currentTeam||m.away_team===currentTeam)
+    .map(m=>m.home_team===currentTeam?m.away_team:m.home_team)
+  )].filter(Boolean).sort();
   const sel=document.getElementById('h2hOpponentSelect');
-  sel.innerHTML=`<option value="">Select opponent…</option>`+opponents.map(t=>`<option value="${t}">${t}</option>`).join('');
+  sel.innerHTML=`<option value="">Select opponent (${opponents.length} teams found)…</option>`+opponents.map(t=>`<option value="${t}">${t}</option>`).join('');
   document.getElementById('h2hResults').innerHTML='';
 }
 

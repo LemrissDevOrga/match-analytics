@@ -9,6 +9,8 @@ LEAGUES = {
     "ligue1":           [2023, 2024, 2025],
     "serie_a":          [2023, 2024, 2025],
     "bundesliga":       [2023, 2024, 2025],
+    "eredivisie":       [2023, 2024, 2025],
+    "primeira_liga":    [2023, 2024, 2025],
 }
 
 def parse_match(match):
