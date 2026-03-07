@@ -1,15 +1,15 @@
 team,home_team_tla,played,wins,draws,losses,points,goals_scored,goals_conceded,goal_difference,avg_goals_scored,avg_goals_conceded,clean_sheets,home_wins,home_draws,home_losses,away_wins,away_draws,away_losses,form_last5
-Paris Saint-Germain FC,PSG,17,11,1,5,34,42,16,26,2.47,0.94,6,6,1,2,5,0,3,WLWWW
+Paris Saint-Germain FC,PSG,17,11,1,5,34,38,15,23,2.24,0.88,7,6,1,2,5,0,3,WLWWW
 FC Internazionale Milano,INT,15,10,3,2,33,26,16,10,1.73,1.07,8,6,1,0,4,2,2,WDDWL
 Arsenal FC,ARS,14,9,2,3,29,31,10,21,2.21,0.71,6,5,1,1,4,1,2,DWWLL
 FC Barcelona,FCB,14,9,2,3,29,43,24,19,3.07,1.71,4,5,2,0,4,0,3,WWLDL
-Real Madrid CF,RMA,14,9,0,5,27,33,24,9,2.36,1.71,1,5,0,2,4,0,3,WWWLL
+Real Madrid CF,RMA,14,9,0,5,27,29,22,7,2.07,1.57,1,5,0,2,4,0,3,WWWLL
 Borussia Dortmund,BVB,14,8,2,4,26,31,19,12,2.21,1.36,5,4,2,1,4,0,3,DDWLW
 FC Bayern München,FCB,14,8,2,4,26,31,18,13,2.21,1.29,4,5,1,1,3,1,3,DWWLD
 Aston Villa FC,AVL,12,8,1,3,25,23,12,11,1.92,1.0,5,5,1,0,3,0,3,WWWLW
-Liverpool FC,LIV,10,8,0,2,24,19,10,9,1.9,1.0,6,4,0,1,4,0,1,WWLWL
+Liverpool FC,LIV,10,8,0,2,24,18,6,12,1.8,0.6,6,4,0,1,4,0,1,WWLWL
 PSV,PSV,12,5,3,4,18,23,24,-1,1.92,2.0,1,4,1,1,1,2,3,WLWLD
-Club Atlético de Madrid,ATL,10,6,0,4,18,24,18,6,2.4,1.8,1,3,0,2,3,0,2,WWWLL
+Club Atlético de Madrid,ATL,10,6,0,4,18,22,14,8,2.2,1.4,2,3,0,2,3,0,2,WWWLL
 Lille OSC,LIL,10,5,2,3,17,19,13,6,1.9,1.3,1,3,1,1,2,1,2,WLWDL
 Club Brugge KV,BRU,12,5,2,5,17,13,19,-6,1.08,1.58,3,3,1,2,2,1,3,LWWLL
 Feyenoord Rotterdam,FEY,12,5,2,5,17,21,26,-5,1.75,2.17,2,3,0,3,2,2,2,LWDLL

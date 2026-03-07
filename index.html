@@ -634,6 +634,15 @@ function renderCLGroups(finished){
       <div style="padding:12px 16px;background:var(--surface2);display:flex;gap:20px;font-size:11px;color:var(--muted);flex-wrap:wrap"><span style="color:var(--league-color)">■</span> Direct qualification (Top 8) &nbsp;<span style="color:rgba(255,193,7,0.8)">■</span> Playoffs (9th–24th)</div></div>`;
   }else{el.innerHTML=`<div style="text-align:center;padding:40px;color:var(--muted)">No group/league stage data available.</div>`;}
 }
+function clGoals(m,side){
+  const s=m.score, dur=s.duration;
+  if(dur==='PENALTY_SHOOTOUT'){
+    const reg=(s.regularTime||{})[side]||0;
+    const ext=(s.extraTime||{})[side]||0;
+    return reg+ext;
+  }
+  return (s.fullTime||{})[side]||0;
+}
 function renderCLKnockout(finished){
   const el=document.getElementById('clSectionKnockout');
   const ROUND_ORDER=['PLAYOFFS','LAST_16','QUARTER_FINALS','SEMI_FINALS','FINAL'];
@@ -644,19 +653,28 @@ function renderCLKnockout(finished){
   el.innerHTML=ROUND_ORDER.filter(r=>rounds[r]).map(round=>{
     const matches=rounds[round],label=ROUND_LABELS[round]||round;
     if(round==='FINAL'&&matches.length===1){
-      const m=matches[0],hg=m.score.fullTime.home,ag=m.score.fullTime.away;
+      const m=matches[0];
+      const hg=clGoals(m,'home'),ag=clGoals(m,'away');
+      const pen=m.score.duration==='PENALTY_SHOOTOUT';
       const winner=m.score.winner==='HOME_TEAM'?m.homeTeam.name:m.score.winner==='AWAY_TEAM'?m.awayTeam.name:null;
-      return `<div class="bracket-section"><div class="bracket-round-title">🏆 ${label}</div><div class="single-match-card"><div class="sm-teams"><div class="sm-team"><div class="sm-team-name" style="${winner===m.homeTeam.name?'color:var(--league-color)':''}">${m.homeTeam.name}</div><div class="sm-tla">${m.homeTeam.tla}</div></div><div class="sm-score">${hg} – ${ag}</div><div class="sm-team"><div class="sm-team-name" style="${winner===m.awayTeam.name?'color:var(--league-color)':''}">${m.awayTeam.name}</div><div class="sm-tla">${m.awayTeam.tla}</div></div></div><div class="sm-meta">${m.utcDate?m.utcDate.substring(0,10):''} · Winner: <strong style="color:var(--league-color)">${winner||'TBD'}</strong></div></div></div>`;
+      return `<div class="bracket-section"><div class="bracket-round-title">🏆 ${label}</div><div class="single-match-card"><div class="sm-teams"><div class="sm-team"><div class="sm-team-name" style="${winner===m.homeTeam.name?'color:var(--league-color)':''}">${m.homeTeam.name}</div><div class="sm-tla">${m.homeTeam.tla}</div></div><div class="sm-score">${hg} – ${ag}${pen?'<span style="font-size:14px;color:var(--yellow)"> (p)</span>':''}</div><div class="sm-team"><div class="sm-team-name" style="${winner===m.awayTeam.name?'color:var(--league-color)':''}">${m.awayTeam.name}</div><div class="sm-tla">${m.awayTeam.tla}</div></div></div><div class="sm-meta">${m.utcDate?m.utcDate.substring(0,10):''} · Winner: <strong style="color:var(--league-color)">${winner||'TBD'}</strong>${pen?` · Penalties: ${m.score.penalties.home}–${m.score.penalties.away}`:''}</div></div></div>`;
     }
     const ties={};
     matches.forEach(m=>{const key=[m.homeTeam.name,m.awayTeam.name].sort().join('__');if(!ties[key])ties[key]=[];ties[key].push(m);});
     return `<div class="bracket-section"><div class="bracket-round-title">${label}</div><div class="bracket-grid">${Object.values(ties).map(legs=>{
       const leg1=legs[0],leg2=legs[1];
-      const agg1=(leg1?leg1.score.fullTime.home:0)+(leg2?leg2.score.fullTime.away:0);
-      const agg2=(leg1?leg1.score.fullTime.away:0)+(leg2?leg2.score.fullTime.home:0);
+      const l1hg=leg1?clGoals(leg1,'home'):0, l1ag=leg1?clGoals(leg1,'away'):0;
+      const l2hg=leg2?clGoals(leg2,'home'):0, l2ag=leg2?clGoals(leg2,'away'):0;
+      const agg1=l1hg+l2ag, agg2=l1ag+l2hg;
       const t1=leg1.homeTeam,t2=leg1.awayTeam;
       const winner=agg1>agg2?t1.name:agg2>agg1?t2.name:null;
-      return `<div class="tie-card">${leg1?`<div class="tie-leg"><div class="tie-team"><span class="tie-tla">${t1.tla}</span>${t1.name}</div><span class="tie-score">${leg1.score.fullTime.home}–${leg1.score.fullTime.away}</span></div>`:''} ${leg2?`<div class="tie-leg"><div class="tie-team"><span class="tie-tla">${t2.tla}</span>${t2.name}</div><span class="tie-score">${leg2.score.fullTime.home}–${leg2.score.fullTime.away}</span></div>`:''}<div class="tie-agg"><span class="tie-winner">${winner?'✓ '+short(winner):'In Progress'}</span><span class="tie-agg-score">${agg1}–${agg2}</span></div></div>`;
+      const pen1=leg1&&leg1.score.duration==='PENALTY_SHOOTOUT';
+      const pen2=leg2&&leg2.score.duration==='PENALTY_SHOOTOUT';
+      return `<div class="tie-card">
+        ${leg1?`<div class="tie-leg"><div class="tie-team"><span class="tie-tla">${t1.tla}</span>${t1.name}</div><span class="tie-score">${l1hg}–${l1ag}${pen1?` <span style="font-size:9px;color:var(--yellow)">(p)</span>`:''}</span></div>`:''}
+        ${leg2?`<div class="tie-leg"><div class="tie-team"><span class="tie-tla">${t2.tla}</span>${t2.name}</div><span class="tie-score">${l2hg}–${l2ag}${pen2?` <span style="font-size:9px;color:var(--yellow)">(p)</span>`:''}</span></div>`:''}
+        <div class="tie-agg"><span class="tie-winner">${winner?'✓ '+short(winner):'In Progress'}</span><span class="tie-agg-score">${agg1}–${agg2}</span></div>
+      </div>`;
     }).join('')}</div></div>`;
   }).join('');
 }

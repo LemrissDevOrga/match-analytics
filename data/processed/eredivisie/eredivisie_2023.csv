@@ -1,307 +1,307 @@
-match_id,season,matchday,date,status,home_team,home_team_short,home_team_tla,away_team,away_team_short,away_team_tla,home_goals_ft,away_goals_ft,home_goals_ht,away_goals_ht,result,referee
-441482,2023,1,2023-08-11,FINISHED,FC Volendam,Volendam,VOL,SBV Vitesse,Vitesse,VIT,1,2,1,0,AWAY_TEAM,Dennis Higler
-441483,2023,1,2023-08-12,FINISHED,PSV,PSV,PSV,FC Utrecht,Utrecht,UTR,2,0,1,0,HOME_TEAM,Serdar Gözübüyük
-441484,2023,1,2023-08-12,FINISHED,SC Heerenveen,Heerenveen,HEE,RKC Waalwijk,RKC,RKC,3,1,3,0,HOME_TEAM,Marc Nagtegaal
-441485,2023,1,2023-08-12,FINISHED,AFC Ajax,Ajax,AJA,Heracles Almelo,Heracles,HER,4,1,1,1,HOME_TEAM,Jeroen Manschot
-441486,2023,1,2023-08-12,FINISHED,PEC Zwolle,Zwolle,ZWO,Sparta Rotterdam,Sparta,SPA,1,2,0,1,AWAY_TEAM,Joey Kooij
-441487,2023,1,2023-08-13,FINISHED,NEC,NEC,NEC,SBV Excelsior,Excelsior,EXC,3,4,2,1,AWAY_TEAM,Allard Lindhout
-441488,2023,1,2023-08-13,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,Fortuna Sittard,Sittard,SIT,0,0,0,0,DRAW,Rob Dieperink
-441489,2023,1,2023-08-13,FINISHED,AZ,AZ,AZ,Go Ahead Eagles,Go Ahead,GOA,5,1,2,0,HOME_TEAM,Danny Makkelie
-441490,2023,1,2023-08-13,FINISHED,Almere City FC,Almere City,ALM,FC Twente '65,Twente,TWE,1,4,0,0,AWAY_TEAM,Sander Van der Eijk
-441491,2023,2,2023-08-18,FINISHED,Heracles Almelo,Heracles,HER,NEC,NEC,NEC,2,1,0,1,HOME_TEAM,Erwin Blank
-441495,2023,2,2023-08-19,FINISHED,SBV Excelsior,Excelsior,EXC,AFC Ajax,Ajax,AJA,2,2,1,1,DRAW,Dennis Higler
-441493,2023,2,2023-08-19,FINISHED,SBV Vitesse,Vitesse,VIT,PSV,PSV,PSV,1,3,1,0,AWAY_TEAM,Bas Nijhuis
-441494,2023,2,2023-08-19,FINISHED,Fortuna Sittard,Sittard,SIT,Almere City FC,Almere City,ALM,2,1,2,1,HOME_TEAM,Jannick van der Laan
-441496,2023,2,2023-08-19,FINISHED,Go Ahead Eagles,Go Ahead,GOA,FC Volendam,Volendam,VOL,4,1,3,0,HOME_TEAM,Edwin van de Graaf
-441492,2023,2,2023-08-20,FINISHED,FC Utrecht,Utrecht,UTR,SC Heerenveen,Heerenveen,HEE,0,2,0,0,AWAY_TEAM,Ingmar Oostrom
-441497,2023,2,2023-08-20,FINISHED,Sparta Rotterdam,Sparta,SPA,Feyenoord Rotterdam,Feyenoord,FEY,2,2,1,0,DRAW,Danny Makkelie
-441498,2023,2,2023-08-20,FINISHED,FC Twente '65,Twente,TWE,PEC Zwolle,Zwolle,ZWO,3,1,1,1,HOME_TEAM,Serdar Gözübüyük
-441499,2023,2,2023-08-20,FINISHED,RKC Waalwijk,RKC,RKC,AZ,AZ,AZ,1,3,1,0,AWAY_TEAM,Alex Bos
-441500,2023,3,2023-08-26,FINISHED,NEC,NEC,NEC,RKC Waalwijk,RKC,RKC,3,0,1,0,HOME_TEAM,Jochem Kamphuis
-441502,2023,3,2023-08-26,FINISHED,SBV Excelsior,Excelsior,EXC,Fortuna Sittard,Sittard,SIT,2,2,1,0,DRAW,Robin Hensgens
-441503,2023,3,2023-08-27,FINISHED,PEC Zwolle,Zwolle,ZWO,FC Utrecht,Utrecht,UTR,1,0,0,0,HOME_TEAM,Laurens Gerrets
-441504,2023,3,2023-08-27,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,Almere City FC,Almere City,ALM,6,1,3,0,HOME_TEAM,Bas Nijhuis
-441505,2023,3,2023-08-27,FINISHED,SC Heerenveen,Heerenveen,HEE,Sparta Rotterdam,Sparta,SPA,1,3,0,1,AWAY_TEAM,Allard Lindhout
-441509,2023,4,2023-09-01,FINISHED,Sparta Rotterdam,Sparta,SPA,NEC,NEC,NEC,1,1,0,0,DRAW,Serdar Gözübüyük
-441510,2023,4,2023-09-02,FINISHED,Almere City FC,Almere City,ALM,PEC Zwolle,Zwolle,ZWO,1,2,0,1,AWAY_TEAM,Marc Nagtegaal
-441511,2023,4,2023-09-02,FINISHED,Go Ahead Eagles,Go Ahead,GOA,SC Heerenveen,Heerenveen,HEE,3,2,2,1,HOME_TEAM,Jannick van der Laan
-441512,2023,4,2023-09-02,FINISHED,RKC Waalwijk,RKC,RKC,PSV,PSV,PSV,0,4,0,1,AWAY_TEAM,Dennis Higler
-441513,2023,4,2023-09-02,FINISHED,Heracles Almelo,Heracles,HER,SBV Excelsior,Excelsior,EXC,3,1,0,1,HOME_TEAM,Joey Kooij
-441514,2023,4,2023-09-03,FINISHED,FC Utrecht,Utrecht,UTR,Feyenoord Rotterdam,Feyenoord,FEY,1,5,1,2,AWAY_TEAM,Pol van Boekel
-441515,2023,4,2023-09-03,FINISHED,Fortuna Sittard,Sittard,SIT,AFC Ajax,Ajax,AJA,0,0,0,0,DRAW,Sander Van der Eijk
-441516,2023,4,2023-09-03,FINISHED,FC Volendam,Volendam,VOL,FC Twente '65,Twente,TWE,0,2,0,1,AWAY_TEAM,Richard Martens
-441517,2023,4,2023-09-03,FINISHED,SBV Vitesse,Vitesse,VIT,AZ,AZ,AZ,0,2,0,0,AWAY_TEAM,Jeroen Manschot
-441518,2023,5,2023-09-16,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,SC Heerenveen,Heerenveen,HEE,6,1,3,1,HOME_TEAM,Jeroen Manschot
-441519,2023,5,2023-09-16,FINISHED,SBV Vitesse,Vitesse,VIT,RKC Waalwijk,RKC,RKC,0,2,0,1,AWAY_TEAM,Allard Lindhout
-441520,2023,5,2023-09-16,FINISHED,PSV,PSV,PSV,NEC,NEC,NEC,4,0,2,0,HOME_TEAM,Joey Kooij
-441521,2023,5,2023-09-16,FINISHED,Fortuna Sittard,Sittard,SIT,FC Volendam,Volendam,VOL,3,1,0,1,HOME_TEAM,Jochem Kamphuis
-441522,2023,5,2023-09-16,FINISHED,Heracles Almelo,Heracles,HER,FC Utrecht,Utrecht,UTR,1,3,0,2,AWAY_TEAM,Sander Van der Eijk
-441523,2023,5,2023-09-17,FINISHED,PEC Zwolle,Zwolle,ZWO,Go Ahead Eagles,Go Ahead,GOA,1,1,0,0,DRAW,Rob Dieperink
-441524,2023,5,2023-09-17,FINISHED,FC Twente '65,Twente,TWE,AFC Ajax,Ajax,AJA,3,1,2,1,HOME_TEAM,Danny Makkelie
-441525,2023,5,2023-09-17,FINISHED,SBV Excelsior,Excelsior,EXC,Almere City FC,Almere City,ALM,0,0,0,0,DRAW,Martin van den Kerkhof
-441526,2023,5,2023-09-17,FINISHED,AZ,AZ,AZ,Sparta Rotterdam,Sparta,SPA,2,0,2,0,HOME_TEAM,Pol van Boekel
-441527,2023,6,2023-09-22,FINISHED,Go Ahead Eagles,Go Ahead,GOA,Fortuna Sittard,Sittard,SIT,3,0,1,0,HOME_TEAM,Bas Nijhuis
-441528,2023,6,2023-09-23,FINISHED,FC Volendam,Volendam,VOL,Heracles Almelo,Heracles,HER,2,2,0,0,DRAW,Ingmar Oostrom
-441529,2023,6,2023-09-23,FINISHED,NEC,NEC,NEC,FC Utrecht,Utrecht,UTR,3,0,2,0,HOME_TEAM,Dennis Higler
-441530,2023,6,2023-09-23,FINISHED,Almere City FC,Almere City,ALM,PSV,PSV,PSV,0,4,0,2,AWAY_TEAM,Alex Bos
-441531,2023,6,2023-09-23,FINISHED,SC Heerenveen,Heerenveen,HEE,SBV Excelsior,Excelsior,EXC,0,3,0,2,AWAY_TEAM,Erwin Blank
-441532,2023,6,2023-09-24,FINISHED,Sparta Rotterdam,Sparta,SPA,SBV Vitesse,Vitesse,VIT,1,0,1,0,HOME_TEAM,Richard Martens
-441534,2023,6,2023-09-24,FINISHED,RKC Waalwijk,RKC,RKC,FC Twente '65,Twente,TWE,1,0,0,0,HOME_TEAM,Joey Kooij
-441535,2023,6,2023-09-24,FINISHED,PEC Zwolle,Zwolle,ZWO,AZ,AZ,AZ,0,3,0,1,AWAY_TEAM,Edwin van de Graaf
-441533,2023,6,2023-09-27,FINISHED,AFC Ajax,Ajax,AJA,Feyenoord Rotterdam,Feyenoord,FEY,0,4,0,3,AWAY_TEAM,Serdar Gözübüyük
-441501,2023,3,2023-09-27,FINISHED,PSV,PSV,PSV,Go Ahead Eagles,Go Ahead,GOA,3,0,1,0,HOME_TEAM,Marc Nagtegaal
-441506,2023,3,2023-09-27,FINISHED,FC Twente '65,Twente,TWE,SBV Vitesse,Vitesse,VIT,1,0,1,0,HOME_TEAM,Jannick van der Laan
-441508,2023,3,2023-09-28,FINISHED,AZ,AZ,AZ,Heracles Almelo,Heracles,HER,1,1,1,0,DRAW,Danny Makkelie
-441536,2023,7,2023-09-30,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,Go Ahead Eagles,Go Ahead,GOA,3,1,1,0,HOME_TEAM,Jochem Kamphuis
-441537,2023,7,2023-09-30,FINISHED,FC Utrecht,Utrecht,UTR,Almere City FC,Almere City,ALM,0,2,0,0,AWAY_TEAM,Edwin van de Graaf
-441538,2023,7,2023-09-30,FINISHED,PSV,PSV,PSV,FC Volendam,Volendam,VOL,3,1,1,0,HOME_TEAM,Allard Lindhout
-441539,2023,7,2023-09-30,FINISHED,FC Twente '65,Twente,TWE,SC Heerenveen,Heerenveen,HEE,1,0,0,0,HOME_TEAM,Rob Dieperink
-441541,2023,7,2023-10-01,FINISHED,NEC,NEC,NEC,SBV Vitesse,Vitesse,VIT,1,2,1,1,AWAY_TEAM,Sander Van der Eijk
-441542,2023,7,2023-10-01,FINISHED,SBV Excelsior,Excelsior,EXC,Sparta Rotterdam,Sparta,SPA,2,1,0,0,HOME_TEAM,Bas Nijhuis
-441543,2023,7,2023-10-01,FINISHED,Heracles Almelo,Heracles,HER,PEC Zwolle,Zwolle,ZWO,2,1,0,0,HOME_TEAM,Jeroen Manschot
-441544,2023,7,2023-10-01,FINISHED,AZ,AZ,AZ,Fortuna Sittard,Sittard,SIT,4,0,1,0,HOME_TEAM,Serdar Gözübüyük
-441545,2023,8,2023-10-06,FINISHED,FC Volendam,Volendam,VOL,FC Utrecht,Utrecht,UTR,1,0,0,0,HOME_TEAM,Serdar Gözübüyük
-441546,2023,8,2023-10-07,FINISHED,SC Heerenveen,Heerenveen,HEE,NEC,NEC,NEC,1,1,1,1,DRAW,Marc Nagtegaal
-441547,2023,8,2023-10-07,FINISHED,Almere City FC,Almere City,ALM,RKC Waalwijk,RKC,RKC,1,0,1,0,HOME_TEAM,Jeroen Manschot
-441548,2023,8,2023-10-07,FINISHED,Go Ahead Eagles,Go Ahead,GOA,Heracles Almelo,Heracles,HER,4,0,2,0,HOME_TEAM,Alex Bos
-441549,2023,8,2023-10-07,FINISHED,SBV Vitesse,Vitesse,VIT,SBV Excelsior,Excelsior,EXC,0,0,0,0,DRAW,Joey Kooij
-441550,2023,8,2023-10-08,FINISHED,PEC Zwolle,Zwolle,ZWO,Feyenoord Rotterdam,Feyenoord,FEY,0,2,0,1,AWAY_TEAM,Sander Van der Eijk
-441551,2023,8,2023-10-08,FINISHED,Fortuna Sittard,Sittard,SIT,FC Twente '65,Twente,TWE,0,3,0,1,AWAY_TEAM,Martin van den Kerkhof
-441552,2023,8,2023-10-08,FINISHED,AFC Ajax,Ajax,AJA,AZ,AZ,AZ,1,2,0,1,AWAY_TEAM,Allard Lindhout
-441553,2023,8,2023-10-08,FINISHED,Sparta Rotterdam,Sparta,SPA,PSV,PSV,PSV,0,4,0,0,AWAY_TEAM,Dennis Higler
-441555,2023,9,2023-10-21,FINISHED,RKC Waalwijk,RKC,RKC,FC Volendam,Volendam,VOL,2,1,1,0,HOME_TEAM,Edwin van de Graaf
-441556,2023,9,2023-10-21,FINISHED,PSV,PSV,PSV,Fortuna Sittard,Sittard,SIT,3,1,1,0,HOME_TEAM,Rob Dieperink
-441558,2023,9,2023-10-21,FINISHED,NEC,NEC,NEC,Almere City FC,Almere City,ALM,1,1,0,1,DRAW,Danny Makkelie
-441554,2023,9,2023-10-21,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,SBV Vitesse,Vitesse,VIT,4,0,2,0,HOME_TEAM,Bas Nijhuis
-441557,2023,9,2023-10-21,FINISHED,AZ,AZ,AZ,SC Heerenveen,Heerenveen,HEE,3,0,1,0,HOME_TEAM,Jochem Kamphuis
-441559,2023,9,2023-10-22,FINISHED,FC Utrecht,Utrecht,UTR,AFC Ajax,Ajax,AJA,4,3,1,0,HOME_TEAM,Dennis Higler
-441560,2023,9,2023-10-22,FINISHED,Heracles Almelo,Heracles,HER,FC Twente '65,Twente,TWE,2,2,0,2,DRAW,Pol van Boekel
-441561,2023,9,2023-10-22,FINISHED,SBV Excelsior,Excelsior,EXC,PEC Zwolle,Zwolle,ZWO,2,4,1,0,AWAY_TEAM,Jannick van der Laan
-441562,2023,9,2023-10-22,FINISHED,Go Ahead Eagles,Go Ahead,GOA,Sparta Rotterdam,Sparta,SPA,0,0,0,0,DRAW,Ingmar Oostrom
-441563,2023,10,2023-10-27,FINISHED,SBV Vitesse,Vitesse,VIT,PEC Zwolle,Zwolle,ZWO,1,1,0,1,DRAW,Robin Hensgens
-441565,2023,10,2023-10-28,FINISHED,SC Heerenveen,Heerenveen,HEE,Heracles Almelo,Heracles,HER,3,0,2,0,HOME_TEAM,Martin van den Kerkhof
-441564,2023,10,2023-10-28,FINISHED,Almere City FC,Almere City,ALM,Go Ahead Eagles,Go Ahead,GOA,0,0,0,0,DRAW,Serdar Gözübüyük
-441566,2023,10,2023-10-28,FINISHED,Sparta Rotterdam,Sparta,SPA,RKC Waalwijk,RKC,RKC,2,0,0,0,HOME_TEAM,Sander Van der Eijk
-441567,2023,10,2023-10-28,FINISHED,Fortuna Sittard,Sittard,SIT,FC Utrecht,Utrecht,UTR,0,0,0,0,DRAW,Bas Nijhuis
-441568,2023,10,2023-10-29,FINISHED,FC Twente '65,Twente,TWE,Feyenoord Rotterdam,Feyenoord,FEY,2,1,1,0,HOME_TEAM,Dennis Higler
-441569,2023,10,2023-10-29,FINISHED,FC Volendam,Volendam,VOL,SBV Excelsior,Excelsior,EXC,3,1,0,1,HOME_TEAM,Alex Bos
-441570,2023,10,2023-10-29,FINISHED,PSV,PSV,PSV,AFC Ajax,Ajax,AJA,5,2,1,2,HOME_TEAM,Danny Makkelie
-441507,2023,3,2023-11-02,FINISHED,AFC Ajax,Ajax,AJA,FC Volendam,Volendam,VOL,2,0,0,0,HOME_TEAM,Martin van den Kerkhof
-441576,2023,11,2023-11-04,FINISHED,Heracles Almelo,Heracles,HER,PSV,PSV,PSV,0,6,0,2,AWAY_TEAM,Joey Kooij
-441573,2023,11,2023-11-04,FINISHED,RKC Waalwijk,RKC,RKC,Feyenoord Rotterdam,Feyenoord,FEY,1,2,1,1,AWAY_TEAM,Pol van Boekel
-441574,2023,11,2023-11-04,FINISHED,SBV Excelsior,Excelsior,EXC,AZ,AZ,AZ,1,1,0,0,DRAW,Laurens Gerrets
-441575,2023,11,2023-11-04,FINISHED,Go Ahead Eagles,Go Ahead,GOA,SBV Vitesse,Vitesse,VIT,5,1,1,0,HOME_TEAM,Erwin Blank
-441577,2023,11,2023-11-05,FINISHED,FC Utrecht,Utrecht,UTR,FC Twente '65,Twente,TWE,1,1,1,1,DRAW,Serdar Gözübüyük
-441578,2023,11,2023-11-05,FINISHED,PEC Zwolle,Zwolle,ZWO,Fortuna Sittard,Sittard,SIT,2,0,1,0,HOME_TEAM,Danny Makkelie
-441579,2023,11,2023-11-05,FINISHED,NEC,NEC,NEC,FC Volendam,Volendam,VOL,3,3,1,1,DRAW,Jochem Kamphuis
-441572,2023,11,2023-11-05,FINISHED,AFC Ajax,Ajax,AJA,SC Heerenveen,Heerenveen,HEE,4,1,2,1,HOME_TEAM,Sander Van der Eijk
-441580,2023,11,2023-11-05,FINISHED,Sparta Rotterdam,Sparta,SPA,Almere City FC,Almere City,ALM,1,2,0,1,AWAY_TEAM,Allard Lindhout
-441581,2023,12,2023-11-10,FINISHED,Fortuna Sittard,Sittard,SIT,Heracles Almelo,Heracles,HER,4,1,4,0,HOME_TEAM,Allard Lindhout
-441584,2023,12,2023-11-11,FINISHED,RKC Waalwijk,RKC,RKC,Go Ahead Eagles,Go Ahead,GOA,0,1,0,1,AWAY_TEAM,Jeroen Manschot
-441586,2023,12,2023-11-11,FINISHED,FC Twente '65,Twente,TWE,NEC,NEC,NEC,3,3,1,0,DRAW,Joey Kooij
-441582,2023,12,2023-11-11,FINISHED,SBV Vitesse,Vitesse,VIT,SC Heerenveen,Heerenveen,HEE,1,3,1,1,AWAY_TEAM,Edwin van de Graaf
-441583,2023,12,2023-11-12,FINISHED,PSV,PSV,PSV,PEC Zwolle,Zwolle,ZWO,4,0,2,0,HOME_TEAM,Ingmar Oostrom
-441585,2023,12,2023-11-12,FINISHED,FC Volendam,Volendam,VOL,Sparta Rotterdam,Sparta,SPA,1,4,1,2,AWAY_TEAM,Richard Martens
-441587,2023,12,2023-11-12,FINISHED,Almere City FC,Almere City,ALM,AFC Ajax,Ajax,AJA,2,2,0,0,DRAW,Bas Nijhuis
-441588,2023,12,2023-11-12,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,AZ,AZ,AZ,1,0,1,0,HOME_TEAM,Danny Makkelie
-441589,2023,12,2023-11-12,FINISHED,FC Utrecht,Utrecht,UTR,SBV Excelsior,Excelsior,EXC,2,2,0,0,DRAW,Marc Nagtegaal
-441590,2023,13,2023-11-25,FINISHED,SBV Excelsior,Excelsior,EXC,Feyenoord Rotterdam,Feyenoord,FEY,2,4,1,1,AWAY_TEAM,Serdar Gözübüyük
-441591,2023,13,2023-11-25,FINISHED,FC Twente '65,Twente,TWE,PSV,PSV,PSV,0,3,0,1,AWAY_TEAM,Allard Lindhout
-441592,2023,13,2023-11-25,FINISHED,SC Heerenveen,Heerenveen,HEE,Fortuna Sittard,Sittard,SIT,3,0,1,0,HOME_TEAM,Jeroen Manschot
-441593,2023,13,2023-11-25,FINISHED,PEC Zwolle,Zwolle,ZWO,RKC Waalwijk,RKC,RKC,1,2,1,1,AWAY_TEAM,Martin van den Kerkhof
-441594,2023,13,2023-11-25,FINISHED,AFC Ajax,Ajax,AJA,SBV Vitesse,Vitesse,VIT,5,0,2,0,HOME_TEAM,Dennis Higler
-441595,2023,13,2023-11-26,FINISHED,Almere City FC,Almere City,ALM,Heracles Almelo,Heracles,HER,0,5,0,1,AWAY_TEAM,Jannick van der Laan
-441596,2023,13,2023-11-26,FINISHED,AZ,AZ,AZ,FC Volendam,Volendam,VOL,3,0,1,0,HOME_TEAM,Bas Nijhuis
-441597,2023,13,2023-11-26,FINISHED,NEC,NEC,NEC,Go Ahead Eagles,Go Ahead,GOA,1,1,0,0,DRAW,Robin Hensgens
-441598,2023,13,2023-11-26,FINISHED,Sparta Rotterdam,Sparta,SPA,FC Utrecht,Utrecht,UTR,1,2,1,1,AWAY_TEAM,Joey Kooij
-441599,2023,14,2023-12-01,FINISHED,SC Heerenveen,Heerenveen,HEE,Almere City FC,Almere City,ALM,3,0,2,0,HOME_TEAM,Richard Martens
-441601,2023,14,2023-12-02,FINISHED,FC Volendam,Volendam,VOL,PEC Zwolle,Zwolle,ZWO,0,5,0,0,AWAY_TEAM,Dennis Higler
-441602,2023,14,2023-12-02,FINISHED,Fortuna Sittard,Sittard,SIT,SBV Vitesse,Vitesse,VIT,3,1,2,0,HOME_TEAM,Alex Bos
-441603,2023,14,2023-12-02,FINISHED,RKC Waalwijk,RKC,RKC,SBV Excelsior,Excelsior,EXC,2,2,1,0,DRAW,Bas Nijhuis
-441600,2023,14,2023-12-02,FINISHED,Heracles Almelo,Heracles,HER,Sparta Rotterdam,Sparta,SPA,0,1,0,0,AWAY_TEAM,Edwin van de Graaf
-441604,2023,14,2023-12-03,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,PSV,PSV,PSV,1,2,0,0,AWAY_TEAM,Danny Makkelie
-441605,2023,14,2023-12-03,FINISHED,NEC,NEC,NEC,AFC Ajax,Ajax,AJA,1,2,0,0,AWAY_TEAM,Marc Nagtegaal
-441606,2023,14,2023-12-03,FINISHED,Go Ahead Eagles,Go Ahead,GOA,FC Twente '65,Twente,TWE,1,3,0,2,AWAY_TEAM,Sander Van der Eijk
-441607,2023,14,2023-12-03,FINISHED,FC Utrecht,Utrecht,UTR,AZ,AZ,AZ,1,1,0,1,DRAW,Erwin Blank
-441571,2023,10,2023-12-06,FINISHED,AZ,AZ,AZ,NEC,NEC,NEC,1,2,0,2,AWAY_TEAM,Jeroen Manschot
-441540,2023,7,2023-12-06,FINISHED,RKC Waalwijk,RKC,RKC,AFC Ajax,Ajax,AJA,2,3,1,2,AWAY_TEAM,Pol van Boekel
-441610,2023,15,2023-12-07,FINISHED,PSV,PSV,PSV,SC Heerenveen,Heerenveen,HEE,2,0,1,0,HOME_TEAM,Bas Nijhuis
-441608,2023,15,2023-12-07,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,FC Volendam,Volendam,VOL,3,1,1,1,HOME_TEAM,Martin van den Kerkhof
-441609,2023,15,2023-12-08,FINISHED,FC Twente '65,Twente,TWE,SBV Excelsior,Excelsior,EXC,4,2,1,2,HOME_TEAM,Ingmar Oostrom
-441614,2023,15,2023-12-09,FINISHED,AFC Ajax,Ajax,AJA,Sparta Rotterdam,Sparta,SPA,2,1,2,0,HOME_TEAM,Danny Makkelie
-441611,2023,15,2023-12-09,FINISHED,PEC Zwolle,Zwolle,ZWO,NEC,NEC,NEC,1,3,0,1,AWAY_TEAM,Pol van Boekel
-441612,2023,15,2023-12-09,FINISHED,AZ,AZ,AZ,Almere City FC,Almere City,ALM,4,1,1,0,HOME_TEAM,Sander Van der Eijk
-441613,2023,15,2023-12-10,FINISHED,Go Ahead Eagles,Go Ahead,GOA,FC Utrecht,Utrecht,UTR,0,2,0,2,AWAY_TEAM,Allard Lindhout
-441615,2023,15,2023-12-10,FINISHED,Fortuna Sittard,Sittard,SIT,RKC Waalwijk,RKC,RKC,1,0,0,0,HOME_TEAM,Joey Kooij
-441616,2023,15,2023-12-10,FINISHED,SBV Vitesse,Vitesse,VIT,Heracles Almelo,Heracles,HER,2,0,1,0,HOME_TEAM,Serdar Gözübüyük
-441617,2023,16,2023-12-15,FINISHED,NEC,NEC,NEC,Fortuna Sittard,Sittard,SIT,4,1,2,0,HOME_TEAM,Edwin van de Graaf
-441618,2023,16,2023-12-16,FINISHED,FC Utrecht,Utrecht,UTR,RKC Waalwijk,RKC,RKC,1,1,1,1,DRAW,Serdar Gözübüyük
-441620,2023,16,2023-12-16,FINISHED,SBV Excelsior,Excelsior,EXC,Go Ahead Eagles,Go Ahead,GOA,1,1,0,0,DRAW,Alex Bos
-441619,2023,16,2023-12-16,FINISHED,SC Heerenveen,Heerenveen,HEE,FC Volendam,Volendam,VOL,1,2,0,1,AWAY_TEAM,Allard Lindhout
-441621,2023,16,2023-12-17,FINISHED,Almere City FC,Almere City,ALM,SBV Vitesse,Vitesse,VIT,5,0,2,0,HOME_TEAM,Danny Makkelie
-441622,2023,16,2023-12-17,FINISHED,Sparta Rotterdam,Sparta,SPA,FC Twente '65,Twente,TWE,2,2,0,1,DRAW,Martin van den Kerkhof
-441623,2023,16,2023-12-17,FINISHED,Heracles Almelo,Heracles,HER,Feyenoord Rotterdam,Feyenoord,FEY,0,4,0,2,AWAY_TEAM,Jeroen Manschot
-441624,2023,16,2023-12-17,FINISHED,AFC Ajax,Ajax,AJA,PEC Zwolle,Zwolle,ZWO,2,2,1,0,DRAW,Joey Kooij
-441625,2023,16,2023-12-17,FINISHED,AZ,AZ,AZ,PSV,PSV,PSV,0,4,0,3,AWAY_TEAM,Dennis Higler
-441626,2023,17,2024-01-12,FINISHED,RKC Waalwijk,RKC,RKC,Heracles Almelo,Heracles,HER,1,2,0,1,AWAY_TEAM,Rob Dieperink
-441627,2023,17,2024-01-13,FINISHED,Fortuna Sittard,Sittard,SIT,Sparta Rotterdam,Sparta,SPA,0,2,0,1,AWAY_TEAM,Erwin Blank
-441628,2023,17,2024-01-13,FINISHED,FC Twente '65,Twente,TWE,AZ,AZ,AZ,2,1,1,1,HOME_TEAM,Serdar Gözübüyük
-441629,2023,17,2024-01-13,FINISHED,PEC Zwolle,Zwolle,ZWO,SC Heerenveen,Heerenveen,HEE,2,2,0,1,DRAW,Danny Makkelie
-441630,2023,17,2024-01-13,FINISHED,PSV,PSV,PSV,SBV Excelsior,Excelsior,EXC,3,1,2,0,HOME_TEAM,Marc Nagtegaal
-441631,2023,17,2024-01-14,FINISHED,FC Volendam,Volendam,VOL,Almere City FC,Almere City,ALM,0,1,0,1,AWAY_TEAM,Ingmar Oostrom
-441632,2023,17,2024-01-14,FINISHED,Go Ahead Eagles,Go Ahead,GOA,AFC Ajax,Ajax,AJA,2,3,1,2,AWAY_TEAM,Pol van Boekel
-441633,2023,17,2024-01-14,FINISHED,SBV Vitesse,Vitesse,VIT,FC Utrecht,Utrecht,UTR,0,0,0,0,DRAW,Richard Martens
-441634,2023,17,2024-01-14,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,NEC,NEC,NEC,2,2,2,1,DRAW,Sander Van der Eijk
-441635,2023,18,2024-01-19,FINISHED,SBV Excelsior,Excelsior,EXC,SC Heerenveen,Heerenveen,HEE,3,0,2,0,HOME_TEAM,Edwin van de Graaf
-441636,2023,18,2024-01-20,FINISHED,NEC,NEC,NEC,FC Twente '65,Twente,TWE,1,0,0,0,HOME_TEAM,Martin van den Kerkhof
-441637,2023,18,2024-01-20,FINISHED,Heracles Almelo,Heracles,HER,FC Volendam,Volendam,VOL,1,1,0,1,DRAW,Jannick van der Laan
-441638,2023,18,2024-01-20,FINISHED,AZ,AZ,AZ,PEC Zwolle,Zwolle,ZWO,2,2,0,0,DRAW,Allard Lindhout
-441640,2023,18,2024-01-21,FINISHED,FC Utrecht,Utrecht,UTR,PSV,PSV,PSV,1,1,0,1,DRAW,Joey Kooij
-441641,2023,18,2024-01-21,FINISHED,SBV Vitesse,Vitesse,VIT,Feyenoord Rotterdam,Feyenoord,FEY,1,2,0,1,AWAY_TEAM,Serdar Gözübüyük
-441642,2023,18,2024-01-21,FINISHED,Sparta Rotterdam,Sparta,SPA,Go Ahead Eagles,Go Ahead,GOA,0,2,0,1,AWAY_TEAM,Danny Makkelie
-441643,2023,18,2024-01-21,FINISHED,AFC Ajax,Ajax,AJA,RKC Waalwijk,RKC,RKC,4,1,2,1,HOME_TEAM,Bas Nijhuis
-441639,2023,18,2024-01-24,FINISHED,Almere City FC,Almere City,ALM,Fortuna Sittard,Sittard,SIT,0,0,0,0,DRAW,Jeroen Manschot
-441644,2023,19,2024-01-26,FINISHED,PEC Zwolle,Zwolle,ZWO,SBV Vitesse,Vitesse,VIT,1,0,1,0,HOME_TEAM,Laurens Gerrets
-441645,2023,19,2024-01-27,FINISHED,RKC Waalwijk,RKC,RKC,Sparta Rotterdam,Sparta,SPA,1,1,0,0,DRAW,Alex Bos
-441646,2023,19,2024-01-27,FINISHED,PSV,PSV,PSV,Almere City FC,Almere City,ALM,2,0,1,0,HOME_TEAM,Rob Dieperink
-441647,2023,19,2024-01-27,FINISHED,SBV Excelsior,Excelsior,EXC,FC Utrecht,Utrecht,UTR,1,1,0,0,DRAW,Pol van Boekel
-441648,2023,19,2024-01-27,FINISHED,Heracles Almelo,Heracles,HER,AFC Ajax,Ajax,AJA,2,4,1,1,AWAY_TEAM,Dennis Higler
-441649,2023,19,2024-01-28,FINISHED,SC Heerenveen,Heerenveen,HEE,AZ,AZ,AZ,2,2,1,1,DRAW,Sander Van der Eijk
-441650,2023,19,2024-01-28,FINISHED,Go Ahead Eagles,Go Ahead,GOA,NEC,NEC,NEC,2,2,0,1,DRAW,Ingmar Oostrom
-441651,2023,19,2024-01-28,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,FC Twente '65,Twente,TWE,0,0,0,0,DRAW,Allard Lindhout
-441652,2023,19,2024-01-28,FINISHED,FC Volendam,Volendam,VOL,Fortuna Sittard,Sittard,SIT,0,1,0,0,AWAY_TEAM,Edwin van de Graaf
-441653,2023,20,2024-02-02,FINISHED,Almere City FC,Almere City,ALM,SBV Excelsior,Excelsior,EXC,2,1,1,1,HOME_TEAM,Robin Hensgens
-441654,2023,20,2024-02-03,FINISHED,FC Twente '65,Twente,TWE,RKC Waalwijk,RKC,RKC,3,0,1,0,HOME_TEAM,Sander Van der Eijk
-441655,2023,20,2024-02-03,FINISHED,Fortuna Sittard,Sittard,SIT,SC Heerenveen,Heerenveen,HEE,3,3,0,2,DRAW,Jannick van der Laan
-441656,2023,20,2024-02-03,FINISHED,AFC Ajax,Ajax,AJA,PSV,PSV,PSV,1,1,1,1,DRAW,Serdar Gözübüyük
-441657,2023,20,2024-02-03,FINISHED,NEC,NEC,NEC,Heracles Almelo,Heracles,HER,3,1,0,1,HOME_TEAM,Marc Nagtegaal
-441658,2023,20,2024-02-04,FINISHED,SBV Vitesse,Vitesse,VIT,Go Ahead Eagles,Go Ahead,GOA,0,2,0,1,AWAY_TEAM,Joey Kooij
-441659,2023,20,2024-02-04,FINISHED,AZ,AZ,AZ,Feyenoord Rotterdam,Feyenoord,FEY,0,1,0,1,AWAY_TEAM,Danny Makkelie
-441661,2023,20,2024-02-04,FINISHED,FC Utrecht,Utrecht,UTR,FC Volendam,Volendam,VOL,4,2,2,1,HOME_TEAM,Allard Lindhout
-441660,2023,20,2024-02-04,FINISHED,Sparta Rotterdam,Sparta,SPA,PEC Zwolle,Zwolle,ZWO,0,2,0,1,AWAY_TEAM,Jeroen Manschot
-441662,2023,21,2024-02-09,FINISHED,RKC Waalwijk,RKC,RKC,NEC,NEC,NEC,2,0,2,0,HOME_TEAM,Jeroen Manschot
-441668,2023,21,2024-02-10,FINISHED,SBV Excelsior,Excelsior,EXC,FC Twente '65,Twente,TWE,0,3,0,3,AWAY_TEAM,Rob Dieperink
-441665,2023,21,2024-02-10,FINISHED,Almere City FC,Almere City,ALM,AZ,AZ,AZ,0,0,0,0,DRAW,Alex Bos
-441663,2023,21,2024-02-10,FINISHED,Heracles Almelo,Heracles,HER,SBV Vitesse,Vitesse,VIT,3,2,1,2,HOME_TEAM,Bas Nijhuis
-441667,2023,21,2024-02-11,FINISHED,Go Ahead Eagles,Go Ahead,GOA,PEC Zwolle,Zwolle,ZWO,1,1,0,0,DRAW,Dennis Higler
-441669,2023,21,2024-02-11,FINISHED,FC Utrecht,Utrecht,UTR,Fortuna Sittard,Sittard,SIT,4,0,1,0,HOME_TEAM,Serdar Gözübüyük
-441670,2023,21,2024-02-11,FINISHED,SC Heerenveen,Heerenveen,HEE,AFC Ajax,Ajax,AJA,3,2,2,0,HOME_TEAM,Danny Makkelie
-441664,2023,21,2024-02-11,FINISHED,FC Volendam,Volendam,VOL,PSV,PSV,PSV,1,5,1,1,AWAY_TEAM,Martin van den Kerkhof
-441666,2023,21,2024-02-11,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,Sparta Rotterdam,Sparta,SPA,2,0,0,0,HOME_TEAM,Pol van Boekel
-441675,2023,22,2024-02-16,FINISHED,PSV,PSV,PSV,Heracles Almelo,Heracles,HER,2,0,1,0,HOME_TEAM,Ingmar Oostrom
-441671,2023,22,2024-02-17,FINISHED,Sparta Rotterdam,Sparta,SPA,SBV Excelsior,Excelsior,EXC,4,2,2,2,HOME_TEAM,Serdar Gözübüyük
-441678,2023,22,2024-02-17,FINISHED,Fortuna Sittard,Sittard,SIT,AZ,AZ,AZ,1,2,1,0,AWAY_TEAM,Richard Martens
-441673,2023,22,2024-02-17,FINISHED,SC Heerenveen,Heerenveen,HEE,Go Ahead Eagles,Go Ahead,GOA,0,2,0,0,AWAY_TEAM,Erwin Blank
-441674,2023,22,2024-02-17,FINISHED,PEC Zwolle,Zwolle,ZWO,Almere City FC,Almere City,ALM,0,1,0,0,AWAY_TEAM,Martijn Vos
-441677,2023,22,2024-02-18,FINISHED,FC Twente '65,Twente,TWE,FC Utrecht,Utrecht,UTR,0,1,0,1,AWAY_TEAM,Marc Nagtegaal
-441676,2023,22,2024-02-18,FINISHED,AFC Ajax,Ajax,AJA,NEC,NEC,NEC,2,2,1,0,DRAW,Bas Nijhuis
-441679,2023,22,2024-02-18,FINISHED,SBV Vitesse,Vitesse,VIT,FC Volendam,Volendam,VOL,1,1,1,1,DRAW,Danny Makkelie
-441672,2023,22,2024-02-18,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,RKC Waalwijk,RKC,RKC,1,0,0,0,HOME_TEAM,Martin van den Kerkhof
-441683,2023,23,2024-02-23,FINISHED,FC Utrecht,Utrecht,UTR,Heracles Almelo,Heracles,HER,1,0,0,0,HOME_TEAM,Jochem Kamphuis
-441681,2023,23,2024-02-24,FINISHED,RKC Waalwijk,RKC,RKC,Fortuna Sittard,Sittard,SIT,0,1,0,0,AWAY_TEAM,Joey Kooij
-441686,2023,23,2024-02-24,FINISHED,PEC Zwolle,Zwolle,ZWO,PSV,PSV,PSV,1,7,1,2,AWAY_TEAM,Alex Bos
-441684,2023,23,2024-02-24,FINISHED,NEC,NEC,NEC,Sparta Rotterdam,Sparta,SPA,2,0,2,0,HOME_TEAM,Dennis Higler
-441680,2023,23,2024-02-25,FINISHED,SBV Excelsior,Excelsior,EXC,SBV Vitesse,Vitesse,VIT,1,2,0,0,AWAY_TEAM,Marc Nagtegaal
-441685,2023,23,2024-02-25,FINISHED,Almere City FC,Almere City,ALM,Feyenoord Rotterdam,Feyenoord,FEY,0,2,0,0,AWAY_TEAM,Edwin van de Graaf
-441687,2023,23,2024-02-25,FINISHED,FC Twente '65,Twente,TWE,Go Ahead Eagles,Go Ahead,GOA,3,0,2,0,HOME_TEAM,Jannick van der Laan
-441688,2023,23,2024-02-25,FINISHED,AZ,AZ,AZ,AFC Ajax,Ajax,AJA,2,0,1,0,HOME_TEAM,Allard Lindhout
-441682,2023,23,2024-02-25,FINISHED,FC Volendam,Volendam,VOL,SC Heerenveen,Heerenveen,HEE,0,4,0,1,AWAY_TEAM,Rob Dieperink
-441689,2023,24,2024-03-01,FINISHED,FC Volendam,Volendam,VOL,NEC,NEC,NEC,2,5,0,3,AWAY_TEAM,Martijn Vos
-441691,2023,24,2024-03-02,FINISHED,Go Ahead Eagles,Go Ahead,GOA,RKC Waalwijk,RKC,RKC,1,0,0,0,HOME_TEAM,Pol van Boekel
-441694,2023,24,2024-03-02,FINISHED,SBV Vitesse,Vitesse,VIT,FC Twente '65,Twente,TWE,1,2,1,1,AWAY_TEAM,Ingmar Oostrom
-441693,2023,24,2024-03-02,FINISHED,Sparta Rotterdam,Sparta,SPA,AZ,AZ,AZ,1,1,0,1,DRAW,Jochem Kamphuis
-441695,2023,24,2024-03-03,FINISHED,AFC Ajax,Ajax,AJA,FC Utrecht,Utrecht,UTR,2,0,1,0,HOME_TEAM,Sander Van der Eijk
-441690,2023,24,2024-03-03,FINISHED,PSV,PSV,PSV,Feyenoord Rotterdam,Feyenoord,FEY,2,2,1,1,DRAW,Serdar Gözübüyük
-441696,2023,24,2024-03-03,FINISHED,SC Heerenveen,Heerenveen,HEE,PEC Zwolle,Zwolle,ZWO,2,0,1,0,HOME_TEAM,Robin Hensgens
-441697,2023,24,2024-03-03,FINISHED,Fortuna Sittard,Sittard,SIT,SBV Excelsior,Excelsior,EXC,5,2,4,0,HOME_TEAM,Jeroen Manschot
-441692,2023,24,2024-03-03,FINISHED,Heracles Almelo,Heracles,HER,Almere City FC,Almere City,ALM,2,2,0,2,DRAW,Dennis Higler
-441700,2023,25,2024-03-08,FINISHED,Go Ahead Eagles,Go Ahead,GOA,PSV,PSV,PSV,0,1,0,1,AWAY_TEAM,Danny Makkelie
-441705,2023,25,2024-03-09,FINISHED,FC Twente '65,Twente,TWE,Sparta Rotterdam,Sparta,SPA,2,1,1,0,HOME_TEAM,Rob Dieperink
-441698,2023,25,2024-03-09,FINISHED,Almere City FC,Almere City,ALM,FC Utrecht,Utrecht,UTR,1,1,1,1,DRAW,Jannick van der Laan
-441703,2023,25,2024-03-09,FINISHED,RKC Waalwijk,RKC,RKC,SBV Vitesse,Vitesse,VIT,3,1,1,0,HOME_TEAM,Allard Lindhout
-441706,2023,25,2024-03-10,FINISHED,AZ,AZ,AZ,SBV Excelsior,Excelsior,EXC,4,0,3,0,HOME_TEAM,Martin van den Kerkhof
-441701,2023,25,2024-03-10,FINISHED,PEC Zwolle,Zwolle,ZWO,FC Volendam,Volendam,VOL,1,1,0,0,DRAW,Pol van Boekel
-441704,2023,25,2024-03-10,FINISHED,AFC Ajax,Ajax,AJA,Fortuna Sittard,Sittard,SIT,2,2,1,0,DRAW,Edwin van de Graaf
-441702,2023,25,2024-03-10,FINISHED,NEC,NEC,NEC,SC Heerenveen,Heerenveen,HEE,2,0,0,0,HOME_TEAM,Joey Kooij
-441699,2023,25,2024-03-10,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,Heracles Almelo,Heracles,HER,3,0,2,0,HOME_TEAM,Bas Nijhuis
-441711,2023,26,2024-03-15,FINISHED,Heracles Almelo,Heracles,HER,Go Ahead Eagles,Go Ahead,GOA,2,0,0,0,HOME_TEAM,Jeroen Manschot
-441707,2023,26,2024-03-16,FINISHED,Fortuna Sittard,Sittard,SIT,PEC Zwolle,Zwolle,ZWO,3,1,1,0,HOME_TEAM,Marc Nagtegaal
-441708,2023,26,2024-03-16,FINISHED,SBV Excelsior,Excelsior,EXC,RKC Waalwijk,RKC,RKC,1,1,1,0,DRAW,Edwin van de Graaf
-441710,2023,26,2024-03-16,FINISHED,SBV Vitesse,Vitesse,VIT,Almere City FC,Almere City,ALM,1,1,0,1,DRAW,Erwin Blank
-441714,2023,26,2024-03-17,FINISHED,FC Volendam,Volendam,VOL,AZ,AZ,AZ,0,4,0,2,AWAY_TEAM,Sander Van der Eijk
-441709,2023,26,2024-03-17,FINISHED,FC Utrecht,Utrecht,UTR,NEC,NEC,NEC,1,0,0,0,HOME_TEAM,Danny Makkelie
-441712,2023,26,2024-03-17,FINISHED,SC Heerenveen,Heerenveen,HEE,Feyenoord Rotterdam,Feyenoord,FEY,2,3,1,1,AWAY_TEAM,Jochem Kamphuis
-441715,2023,26,2024-03-17,FINISHED,Sparta Rotterdam,Sparta,SPA,AFC Ajax,Ajax,AJA,2,2,1,0,DRAW,Serdar Gözübüyük
-441713,2023,26,2024-03-17,FINISHED,PSV,PSV,PSV,FC Twente '65,Twente,TWE,1,0,0,0,HOME_TEAM,Joey Kooij
-441722,2023,27,2024-03-30,FINISHED,NEC,NEC,NEC,PSV,PSV,PSV,3,1,1,1,HOME_TEAM,Bas Nijhuis
-441724,2023,27,2024-03-30,FINISHED,Sparta Rotterdam,Sparta,SPA,Fortuna Sittard,Sittard,SIT,4,0,1,0,HOME_TEAM,Martin van den Kerkhof
-441717,2023,27,2024-03-30,FINISHED,Go Ahead Eagles,Go Ahead,GOA,SBV Excelsior,Excelsior,EXC,3,0,1,0,HOME_TEAM,Dennis Higler
-441720,2023,27,2024-03-30,FINISHED,RKC Waalwijk,RKC,RKC,SC Heerenveen,Heerenveen,HEE,1,1,0,0,DRAW,Erwin Blank
-441719,2023,27,2024-03-30,FINISHED,AZ,AZ,AZ,SBV Vitesse,Vitesse,VIT,2,0,0,0,HOME_TEAM,Jannick van der Laan
-441721,2023,27,2024-03-31,FINISHED,PEC Zwolle,Zwolle,ZWO,AFC Ajax,Ajax,AJA,1,3,0,2,AWAY_TEAM,Jeroen Manschot
-441716,2023,27,2024-03-31,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,FC Utrecht,Utrecht,UTR,4,2,1,2,HOME_TEAM,Allard Lindhout
-441723,2023,27,2024-03-31,FINISHED,FC Twente '65,Twente,TWE,Heracles Almelo,Heracles,HER,1,0,0,0,HOME_TEAM,Danny Makkelie
-441718,2023,27,2024-03-31,FINISHED,Almere City FC,Almere City,ALM,FC Volendam,Volendam,VOL,1,1,0,0,DRAW,Robin Hensgens
-441732,2023,28,2024-04-02,FINISHED,SBV Vitesse,Vitesse,VIT,Sparta Rotterdam,Sparta,SPA,1,4,1,3,AWAY_TEAM,Edwin van de Graaf
-441727,2023,28,2024-04-02,FINISHED,SBV Excelsior,Excelsior,EXC,PSV,PSV,PSV,0,2,0,0,AWAY_TEAM,Sander Van der Eijk
-441733,2023,28,2024-04-02,FINISHED,Fortuna Sittard,Sittard,SIT,NEC,NEC,NEC,1,1,0,0,DRAW,Richard Martens
-441731,2023,28,2024-04-03,FINISHED,Heracles Almelo,Heracles,HER,AZ,AZ,AZ,5,0,3,0,HOME_TEAM,Allard Lindhout
-441729,2023,28,2024-04-03,FINISHED,FC Utrecht,Utrecht,UTR,PEC Zwolle,Zwolle,ZWO,5,1,0,0,HOME_TEAM,Serdar Gözübüyük
-441728,2023,28,2024-04-03,FINISHED,SC Heerenveen,Heerenveen,HEE,FC Twente '65,Twente,TWE,3,3,2,3,DRAW,Alex Bos
-441725,2023,28,2024-04-04,FINISHED,FC Volendam,Volendam,VOL,Feyenoord Rotterdam,Feyenoord,FEY,0,0,0,0,DRAW,Ingmar Oostrom
-441726,2023,28,2024-04-04,FINISHED,RKC Waalwijk,RKC,RKC,Almere City FC,Almere City,ALM,0,0,0,0,DRAW,Martin van den Kerkhof
-441730,2023,28,2024-04-04,FINISHED,AFC Ajax,Ajax,AJA,Go Ahead Eagles,Go Ahead,GOA,1,1,1,0,DRAW,Marc Nagtegaal
-441742,2023,29,2024-04-06,FINISHED,Sparta Rotterdam,Sparta,SPA,Heracles Almelo,Heracles,HER,1,2,1,0,AWAY_TEAM,Laurens Gerrets
-441738,2023,29,2024-04-06,FINISHED,PSV,PSV,PSV,AZ,AZ,AZ,5,1,2,0,HOME_TEAM,Dennis Higler
-441737,2023,29,2024-04-06,FINISHED,PEC Zwolle,Zwolle,ZWO,SBV Excelsior,Excelsior,EXC,2,1,1,0,HOME_TEAM,Martin Perez
-441741,2023,29,2024-04-06,FINISHED,FC Twente '65,Twente,TWE,Fortuna Sittard,Sittard,SIT,2,0,0,0,HOME_TEAM,Rob Dieperink
-441739,2023,29,2024-04-07,FINISHED,SBV Vitesse,Vitesse,VIT,NEC,NEC,NEC,0,3,0,0,AWAY_TEAM,Allard Lindhout
-441734,2023,29,2024-04-07,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,AFC Ajax,Ajax,AJA,6,0,3,0,HOME_TEAM,Danny Makkelie
-441740,2023,29,2024-04-07,FINISHED,Go Ahead Eagles,Go Ahead,GOA,Almere City FC,Almere City,ALM,1,1,1,1,DRAW,Bas Nijhuis
-441735,2023,29,2024-04-07,FINISHED,FC Volendam,Volendam,VOL,RKC Waalwijk,RKC,RKC,3,2,2,0,HOME_TEAM,Serdar Gözübüyük
-441736,2023,29,2024-04-07,FINISHED,SC Heerenveen,Heerenveen,HEE,FC Utrecht,Utrecht,UTR,2,3,0,1,AWAY_TEAM,Jeroen Manschot
-441743,2023,30,2024-04-12,FINISHED,SBV Excelsior,Excelsior,EXC,FC Volendam,Volendam,VOL,4,0,2,0,HOME_TEAM,Danny Makkelie
-441745,2023,30,2024-04-13,FINISHED,PSV,PSV,PSV,SBV Vitesse,Vitesse,VIT,6,0,3,0,HOME_TEAM,Jeroen Manschot
-441748,2023,30,2024-04-13,FINISHED,AZ,AZ,AZ,RKC Waalwijk,RKC,RKC,3,2,0,2,HOME_TEAM,Marc Nagtegaal
-441746,2023,30,2024-04-13,FINISHED,Almere City FC,Almere City,ALM,Sparta Rotterdam,Sparta,SPA,2,3,1,2,AWAY_TEAM,Alex Bos
-441749,2023,30,2024-04-14,FINISHED,Heracles Almelo,Heracles,HER,SC Heerenveen,Heerenveen,HEE,0,2,0,1,AWAY_TEAM,Rob Dieperink
-441744,2023,30,2024-04-14,FINISHED,Fortuna Sittard,Sittard,SIT,Feyenoord Rotterdam,Feyenoord,FEY,0,1,0,1,AWAY_TEAM,Bas Nijhuis
-441750,2023,30,2024-04-14,FINISHED,FC Utrecht,Utrecht,UTR,Go Ahead Eagles,Go Ahead,GOA,2,1,1,1,HOME_TEAM,Sander Van der Eijk
-441751,2023,30,2024-04-14,FINISHED,AFC Ajax,Ajax,AJA,FC Twente '65,Twente,TWE,2,1,0,1,HOME_TEAM,Serdar Gözübüyük
-441747,2023,30,2024-04-14,FINISHED,NEC,NEC,NEC,PEC Zwolle,Zwolle,ZWO,2,2,0,1,DRAW,Dennis Higler
-441752,2023,31,2024-04-24,FINISHED,FC Twente '65,Twente,TWE,Almere City FC,Almere City,ALM,3,1,1,0,HOME_TEAM,Ingmar Oostrom
-441757,2023,31,2024-04-24,FINISHED,AFC Ajax,Ajax,AJA,SBV Excelsior,Excelsior,EXC,2,2,1,1,DRAW,Sander Van der Eijk
-441754,2023,31,2024-04-25,FINISHED,SC Heerenveen,Heerenveen,HEE,PSV,PSV,PSV,0,8,0,5,AWAY_TEAM,Danny Makkelie
-441753,2023,31,2024-04-25,FINISHED,Go Ahead Eagles,Go Ahead,GOA,Feyenoord Rotterdam,Feyenoord,FEY,1,3,1,2,AWAY_TEAM,Erwin Blank
-441755,2023,31,2024-04-28,FINISHED,NEC,NEC,NEC,AZ,AZ,AZ,0,3,0,1,AWAY_TEAM,Martin van den Kerkhof
-441756,2023,31,2024-04-28,FINISHED,PEC Zwolle,Zwolle,ZWO,Heracles Almelo,Heracles,HER,3,1,1,1,HOME_TEAM,Serdar Gözübüyük
-441759,2023,31,2024-04-28,FINISHED,Sparta Rotterdam,Sparta,SPA,FC Volendam,Volendam,VOL,1,0,0,0,HOME_TEAM,Jeroen Manschot
-441760,2023,31,2024-04-28,FINISHED,RKC Waalwijk,RKC,RKC,FC Utrecht,Utrecht,UTR,2,2,1,0,DRAW,Dennis Higler
-441758,2023,31,2024-04-28,FINISHED,SBV Vitesse,Vitesse,VIT,Fortuna Sittard,Sittard,SIT,3,2,1,1,HOME_TEAM,Robin Hensgens
-441761,2023,32,2024-05-03,FINISHED,Fortuna Sittard,Sittard,SIT,Go Ahead Eagles,Go Ahead,GOA,0,0,0,0,DRAW,Jannick van der Laan
-441762,2023,32,2024-05-03,FINISHED,Almere City FC,Almere City,ALM,SC Heerenveen,Heerenveen,HEE,1,1,0,0,DRAW,Martijn Vos
-441764,2023,32,2024-05-05,FINISHED,PSV,PSV,PSV,Sparta Rotterdam,Sparta,SPA,4,2,2,2,HOME_TEAM,Dennis Higler
-441766,2023,32,2024-05-05,FINISHED,Heracles Almelo,Heracles,HER,RKC Waalwijk,RKC,RKC,0,5,0,2,AWAY_TEAM,Allard Lindhout
-441765,2023,32,2024-05-05,FINISHED,FC Utrecht,Utrecht,UTR,SBV Vitesse,Vitesse,VIT,1,0,0,0,HOME_TEAM,Rob Dieperink
-441767,2023,32,2024-05-05,FINISHED,FC Volendam,Volendam,VOL,AFC Ajax,Ajax,AJA,1,4,0,1,AWAY_TEAM,Alex Bos
-441763,2023,32,2024-05-05,FINISHED,AZ,AZ,AZ,FC Twente '65,Twente,TWE,2,1,0,1,HOME_TEAM,Danny Makkelie
-441769,2023,32,2024-05-05,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,PEC Zwolle,Zwolle,ZWO,5,0,2,0,HOME_TEAM,Marc Nagtegaal
-441768,2023,32,2024-05-06,FINISHED,SBV Excelsior,Excelsior,EXC,NEC,NEC,NEC,0,3,0,0,AWAY_TEAM,Bas Nijhuis
-441770,2023,33,2024-05-12,FINISHED,AFC Ajax,Ajax,AJA,Almere City FC,Almere City,ALM,3,0,3,0,HOME_TEAM,Danny Makkelie
-441771,2023,33,2024-05-12,FINISHED,SBV Excelsior,Excelsior,EXC,Heracles Almelo,Heracles,HER,4,0,1,0,HOME_TEAM,Dennis Higler
-441772,2023,33,2024-05-12,FINISHED,FC Twente '65,Twente,TWE,FC Volendam,Volendam,VOL,7,2,5,2,HOME_TEAM,Allard Lindhout
-441773,2023,33,2024-05-12,FINISHED,FC Utrecht,Utrecht,UTR,Sparta Rotterdam,Sparta,SPA,0,1,0,0,AWAY_TEAM,Jannick van der Laan
-441774,2023,33,2024-05-12,FINISHED,Fortuna Sittard,Sittard,SIT,PSV,PSV,PSV,1,1,1,0,DRAW,Martin van den Kerkhof
-441775,2023,33,2024-05-12,FINISHED,Go Ahead Eagles,Go Ahead,GOA,AZ,AZ,AZ,0,3,0,2,AWAY_TEAM,Serdar Gözübüyük
-441776,2023,33,2024-05-12,FINISHED,NEC,NEC,NEC,Feyenoord Rotterdam,Feyenoord,FEY,2,3,0,1,AWAY_TEAM,Alex Bos
-441777,2023,33,2024-05-12,FINISHED,RKC Waalwijk,RKC,RKC,PEC Zwolle,Zwolle,ZWO,1,1,0,0,DRAW,Bas Nijhuis
-441778,2023,33,2024-05-12,FINISHED,SC Heerenveen,Heerenveen,HEE,SBV Vitesse,Vitesse,VIT,1,3,1,1,AWAY_TEAM,Richard Martens
-441779,2023,34,2024-05-19,FINISHED,Almere City FC,Almere City,ALM,NEC,NEC,NEC,1,4,1,2,AWAY_TEAM,Edwin van de Graaf
-441780,2023,34,2024-05-19,FINISHED,AZ,AZ,AZ,FC Utrecht,Utrecht,UTR,3,3,3,0,DRAW,Bas Nijhuis
-441781,2023,34,2024-05-19,FINISHED,FC Volendam,Volendam,VOL,Go Ahead Eagles,Go Ahead,GOA,1,2,1,1,AWAY_TEAM,Ingmar Oostrom
-441782,2023,34,2024-05-19,FINISHED,Feyenoord Rotterdam,Feyenoord,FEY,SBV Excelsior,Excelsior,EXC,4,0,0,0,HOME_TEAM,Allard Lindhout
-441783,2023,34,2024-05-19,FINISHED,Heracles Almelo,Heracles,HER,Fortuna Sittard,Sittard,SIT,0,0,0,0,DRAW,Jeroen Manschot
-441784,2023,34,2024-05-19,FINISHED,PEC Zwolle,Zwolle,ZWO,FC Twente '65,Twente,TWE,1,2,0,0,AWAY_TEAM,Dennis Higler
-441785,2023,34,2024-05-19,FINISHED,PSV,PSV,PSV,RKC Waalwijk,RKC,RKC,3,1,1,1,HOME_TEAM,Danny Makkelie
-441786,2023,34,2024-05-19,FINISHED,Sparta Rotterdam,Sparta,SPA,SC Heerenveen,Heerenveen,HEE,2,1,0,0,HOME_TEAM,Sander Van der Eijk
-441787,2023,34,2024-05-19,FINISHED,SBV Vitesse,Vitesse,VIT,AFC Ajax,Ajax,AJA,2,2,1,1,DRAW,Erwin Blank
+match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_tla,away_team,away_team_short,away_team_tla,home_goals_ft,away_goals_ft,home_goals_ht,away_goals_ht,result,duration,referee
+441482,2023,1,2023-08-11,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,SBV Vitesse,Vitesse,VIT,1,2,1,0,AWAY_TEAM,REGULAR,Dennis Higler
+441483,2023,1,2023-08-12,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,FC Utrecht,Utrecht,UTR,2,0,1,0,HOME_TEAM,REGULAR,Serdar Gözübüyük
+441484,2023,1,2023-08-12,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,RKC Waalwijk,RKC,RKC,3,1,3,0,HOME_TEAM,REGULAR,Marc Nagtegaal
+441485,2023,1,2023-08-12,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,Heracles Almelo,Heracles,HER,4,1,1,1,HOME_TEAM,REGULAR,Jeroen Manschot
+441486,2023,1,2023-08-12,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,Sparta Rotterdam,Sparta,SPA,1,2,0,1,AWAY_TEAM,REGULAR,Joey Kooij
+441487,2023,1,2023-08-13,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,SBV Excelsior,Excelsior,EXC,3,4,2,1,AWAY_TEAM,REGULAR,Allard Lindhout
+441488,2023,1,2023-08-13,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,Fortuna Sittard,Sittard,SIT,0,0,0,0,DRAW,REGULAR,Rob Dieperink
+441489,2023,1,2023-08-13,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,Go Ahead Eagles,Go Ahead,GOA,5,1,2,0,HOME_TEAM,REGULAR,Danny Makkelie
+441490,2023,1,2023-08-13,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,FC Twente '65,Twente,TWE,1,4,0,0,AWAY_TEAM,REGULAR,Sander Van der Eijk
+441491,2023,2,2023-08-18,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,NEC,NEC,NEC,2,1,0,1,HOME_TEAM,REGULAR,Erwin Blank
+441495,2023,2,2023-08-19,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,AFC Ajax,Ajax,AJA,2,2,1,1,DRAW,REGULAR,Dennis Higler
+441493,2023,2,2023-08-19,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,PSV,PSV,PSV,1,3,1,0,AWAY_TEAM,REGULAR,Bas Nijhuis
+441494,2023,2,2023-08-19,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,Almere City FC,Almere City,ALM,2,1,2,1,HOME_TEAM,REGULAR,Jannick van der Laan
+441496,2023,2,2023-08-19,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,FC Volendam,Volendam,VOL,4,1,3,0,HOME_TEAM,REGULAR,Edwin van de Graaf
+441492,2023,2,2023-08-20,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,SC Heerenveen,Heerenveen,HEE,0,2,0,0,AWAY_TEAM,REGULAR,Ingmar Oostrom
+441497,2023,2,2023-08-20,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,Feyenoord Rotterdam,Feyenoord,FEY,2,2,1,0,DRAW,REGULAR,Danny Makkelie
+441498,2023,2,2023-08-20,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,PEC Zwolle,Zwolle,ZWO,3,1,1,1,HOME_TEAM,REGULAR,Serdar Gözübüyük
+441499,2023,2,2023-08-20,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,AZ,AZ,AZ,1,3,1,0,AWAY_TEAM,REGULAR,Alex Bos
+441500,2023,3,2023-08-26,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,RKC Waalwijk,RKC,RKC,3,0,1,0,HOME_TEAM,REGULAR,Jochem Kamphuis
+441502,2023,3,2023-08-26,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,Fortuna Sittard,Sittard,SIT,2,2,1,0,DRAW,REGULAR,Robin Hensgens
+441503,2023,3,2023-08-27,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,FC Utrecht,Utrecht,UTR,1,0,0,0,HOME_TEAM,REGULAR,Laurens Gerrets
+441504,2023,3,2023-08-27,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,Almere City FC,Almere City,ALM,6,1,3,0,HOME_TEAM,REGULAR,Bas Nijhuis
+441505,2023,3,2023-08-27,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,Sparta Rotterdam,Sparta,SPA,1,3,0,1,AWAY_TEAM,REGULAR,Allard Lindhout
+441509,2023,4,2023-09-01,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,NEC,NEC,NEC,1,1,0,0,DRAW,REGULAR,Serdar Gözübüyük
+441510,2023,4,2023-09-02,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,PEC Zwolle,Zwolle,ZWO,1,2,0,1,AWAY_TEAM,REGULAR,Marc Nagtegaal
+441511,2023,4,2023-09-02,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,SC Heerenveen,Heerenveen,HEE,3,2,2,1,HOME_TEAM,REGULAR,Jannick van der Laan
+441512,2023,4,2023-09-02,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,PSV,PSV,PSV,0,4,0,1,AWAY_TEAM,REGULAR,Dennis Higler
+441513,2023,4,2023-09-02,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,SBV Excelsior,Excelsior,EXC,3,1,0,1,HOME_TEAM,REGULAR,Joey Kooij
+441514,2023,4,2023-09-03,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,Feyenoord Rotterdam,Feyenoord,FEY,1,5,1,2,AWAY_TEAM,REGULAR,Pol van Boekel
+441515,2023,4,2023-09-03,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,AFC Ajax,Ajax,AJA,0,0,0,0,DRAW,REGULAR,Sander Van der Eijk
+441516,2023,4,2023-09-03,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,FC Twente '65,Twente,TWE,0,2,0,1,AWAY_TEAM,REGULAR,Richard Martens
+441517,2023,4,2023-09-03,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,AZ,AZ,AZ,0,2,0,0,AWAY_TEAM,REGULAR,Jeroen Manschot
+441518,2023,5,2023-09-16,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,SC Heerenveen,Heerenveen,HEE,6,1,3,1,HOME_TEAM,REGULAR,Jeroen Manschot
+441519,2023,5,2023-09-16,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,RKC Waalwijk,RKC,RKC,0,2,0,1,AWAY_TEAM,REGULAR,Allard Lindhout
+441520,2023,5,2023-09-16,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,NEC,NEC,NEC,4,0,2,0,HOME_TEAM,REGULAR,Joey Kooij
+441521,2023,5,2023-09-16,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,FC Volendam,Volendam,VOL,3,1,0,1,HOME_TEAM,REGULAR,Jochem Kamphuis
+441522,2023,5,2023-09-16,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,FC Utrecht,Utrecht,UTR,1,3,0,2,AWAY_TEAM,REGULAR,Sander Van der Eijk
+441523,2023,5,2023-09-17,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,Go Ahead Eagles,Go Ahead,GOA,1,1,0,0,DRAW,REGULAR,Rob Dieperink
+441524,2023,5,2023-09-17,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,AFC Ajax,Ajax,AJA,3,1,2,1,HOME_TEAM,REGULAR,Danny Makkelie
+441525,2023,5,2023-09-17,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,Almere City FC,Almere City,ALM,0,0,0,0,DRAW,REGULAR,Martin van den Kerkhof
+441526,2023,5,2023-09-17,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,Sparta Rotterdam,Sparta,SPA,2,0,2,0,HOME_TEAM,REGULAR,Pol van Boekel
+441527,2023,6,2023-09-22,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,Fortuna Sittard,Sittard,SIT,3,0,1,0,HOME_TEAM,REGULAR,Bas Nijhuis
+441528,2023,6,2023-09-23,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,Heracles Almelo,Heracles,HER,2,2,0,0,DRAW,REGULAR,Ingmar Oostrom
+441529,2023,6,2023-09-23,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,FC Utrecht,Utrecht,UTR,3,0,2,0,HOME_TEAM,REGULAR,Dennis Higler
+441530,2023,6,2023-09-23,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,PSV,PSV,PSV,0,4,0,2,AWAY_TEAM,REGULAR,Alex Bos
+441531,2023,6,2023-09-23,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,SBV Excelsior,Excelsior,EXC,0,3,0,2,AWAY_TEAM,REGULAR,Erwin Blank
+441532,2023,6,2023-09-24,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,SBV Vitesse,Vitesse,VIT,1,0,1,0,HOME_TEAM,REGULAR,Richard Martens
+441534,2023,6,2023-09-24,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,FC Twente '65,Twente,TWE,1,0,0,0,HOME_TEAM,REGULAR,Joey Kooij
+441535,2023,6,2023-09-24,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,AZ,AZ,AZ,0,3,0,1,AWAY_TEAM,REGULAR,Edwin van de Graaf
+441533,2023,6,2023-09-27,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,Feyenoord Rotterdam,Feyenoord,FEY,0,4,0,3,AWAY_TEAM,REGULAR,Serdar Gözübüyük
+441501,2023,3,2023-09-27,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,Go Ahead Eagles,Go Ahead,GOA,3,0,1,0,HOME_TEAM,REGULAR,Marc Nagtegaal
+441506,2023,3,2023-09-27,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,SBV Vitesse,Vitesse,VIT,1,0,1,0,HOME_TEAM,REGULAR,Jannick van der Laan
+441508,2023,3,2023-09-28,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,Heracles Almelo,Heracles,HER,1,1,1,0,DRAW,REGULAR,Danny Makkelie
+441536,2023,7,2023-09-30,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,Go Ahead Eagles,Go Ahead,GOA,3,1,1,0,HOME_TEAM,REGULAR,Jochem Kamphuis
+441537,2023,7,2023-09-30,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,Almere City FC,Almere City,ALM,0,2,0,0,AWAY_TEAM,REGULAR,Edwin van de Graaf
+441538,2023,7,2023-09-30,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,FC Volendam,Volendam,VOL,3,1,1,0,HOME_TEAM,REGULAR,Allard Lindhout
+441539,2023,7,2023-09-30,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,SC Heerenveen,Heerenveen,HEE,1,0,0,0,HOME_TEAM,REGULAR,Rob Dieperink
+441541,2023,7,2023-10-01,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,SBV Vitesse,Vitesse,VIT,1,2,1,1,AWAY_TEAM,REGULAR,Sander Van der Eijk
+441542,2023,7,2023-10-01,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,Sparta Rotterdam,Sparta,SPA,2,1,0,0,HOME_TEAM,REGULAR,Bas Nijhuis
+441543,2023,7,2023-10-01,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,PEC Zwolle,Zwolle,ZWO,2,1,0,0,HOME_TEAM,REGULAR,Jeroen Manschot
+441544,2023,7,2023-10-01,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,Fortuna Sittard,Sittard,SIT,4,0,1,0,HOME_TEAM,REGULAR,Serdar Gözübüyük
+441545,2023,8,2023-10-06,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,FC Utrecht,Utrecht,UTR,1,0,0,0,HOME_TEAM,REGULAR,Serdar Gözübüyük
+441546,2023,8,2023-10-07,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,NEC,NEC,NEC,1,1,1,1,DRAW,REGULAR,Marc Nagtegaal
+441547,2023,8,2023-10-07,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,RKC Waalwijk,RKC,RKC,1,0,1,0,HOME_TEAM,REGULAR,Jeroen Manschot
+441548,2023,8,2023-10-07,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,Heracles Almelo,Heracles,HER,4,0,2,0,HOME_TEAM,REGULAR,Alex Bos
+441549,2023,8,2023-10-07,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,SBV Excelsior,Excelsior,EXC,0,0,0,0,DRAW,REGULAR,Joey Kooij
+441550,2023,8,2023-10-08,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,Feyenoord Rotterdam,Feyenoord,FEY,0,2,0,1,AWAY_TEAM,REGULAR,Sander Van der Eijk
+441551,2023,8,2023-10-08,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,FC Twente '65,Twente,TWE,0,3,0,1,AWAY_TEAM,REGULAR,Martin van den Kerkhof
+441552,2023,8,2023-10-08,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,AZ,AZ,AZ,1,2,0,1,AWAY_TEAM,REGULAR,Allard Lindhout
+441553,2023,8,2023-10-08,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,PSV,PSV,PSV,0,4,0,0,AWAY_TEAM,REGULAR,Dennis Higler
+441555,2023,9,2023-10-21,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,FC Volendam,Volendam,VOL,2,1,1,0,HOME_TEAM,REGULAR,Edwin van de Graaf
+441556,2023,9,2023-10-21,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,Fortuna Sittard,Sittard,SIT,3,1,1,0,HOME_TEAM,REGULAR,Rob Dieperink
+441558,2023,9,2023-10-21,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,Almere City FC,Almere City,ALM,1,1,0,1,DRAW,REGULAR,Danny Makkelie
+441554,2023,9,2023-10-21,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,SBV Vitesse,Vitesse,VIT,4,0,2,0,HOME_TEAM,REGULAR,Bas Nijhuis
+441557,2023,9,2023-10-21,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,SC Heerenveen,Heerenveen,HEE,3,0,1,0,HOME_TEAM,REGULAR,Jochem Kamphuis
+441559,2023,9,2023-10-22,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,AFC Ajax,Ajax,AJA,4,3,1,0,HOME_TEAM,REGULAR,Dennis Higler
+441560,2023,9,2023-10-22,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,FC Twente '65,Twente,TWE,2,2,0,2,DRAW,REGULAR,Pol van Boekel
+441561,2023,9,2023-10-22,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,PEC Zwolle,Zwolle,ZWO,2,4,1,0,AWAY_TEAM,REGULAR,Jannick van der Laan
+441562,2023,9,2023-10-22,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,Sparta Rotterdam,Sparta,SPA,0,0,0,0,DRAW,REGULAR,Ingmar Oostrom
+441563,2023,10,2023-10-27,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,PEC Zwolle,Zwolle,ZWO,1,1,0,1,DRAW,REGULAR,Robin Hensgens
+441565,2023,10,2023-10-28,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,Heracles Almelo,Heracles,HER,3,0,2,0,HOME_TEAM,REGULAR,Martin van den Kerkhof
+441564,2023,10,2023-10-28,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,Go Ahead Eagles,Go Ahead,GOA,0,0,0,0,DRAW,REGULAR,Serdar Gözübüyük
+441566,2023,10,2023-10-28,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,RKC Waalwijk,RKC,RKC,2,0,0,0,HOME_TEAM,REGULAR,Sander Van der Eijk
+441567,2023,10,2023-10-28,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,FC Utrecht,Utrecht,UTR,0,0,0,0,DRAW,REGULAR,Bas Nijhuis
+441568,2023,10,2023-10-29,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,Feyenoord Rotterdam,Feyenoord,FEY,2,1,1,0,HOME_TEAM,REGULAR,Dennis Higler
+441569,2023,10,2023-10-29,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,SBV Excelsior,Excelsior,EXC,3,1,0,1,HOME_TEAM,REGULAR,Alex Bos
+441570,2023,10,2023-10-29,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,AFC Ajax,Ajax,AJA,5,2,1,2,HOME_TEAM,REGULAR,Danny Makkelie
+441507,2023,3,2023-11-02,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,FC Volendam,Volendam,VOL,2,0,0,0,HOME_TEAM,REGULAR,Martin van den Kerkhof
+441576,2023,11,2023-11-04,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,PSV,PSV,PSV,0,6,0,2,AWAY_TEAM,REGULAR,Joey Kooij
+441573,2023,11,2023-11-04,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,Feyenoord Rotterdam,Feyenoord,FEY,1,2,1,1,AWAY_TEAM,REGULAR,Pol van Boekel
+441574,2023,11,2023-11-04,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,AZ,AZ,AZ,1,1,0,0,DRAW,REGULAR,Laurens Gerrets
+441575,2023,11,2023-11-04,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,SBV Vitesse,Vitesse,VIT,5,1,1,0,HOME_TEAM,REGULAR,Erwin Blank
+441577,2023,11,2023-11-05,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,FC Twente '65,Twente,TWE,1,1,1,1,DRAW,REGULAR,Serdar Gözübüyük
+441578,2023,11,2023-11-05,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,Fortuna Sittard,Sittard,SIT,2,0,1,0,HOME_TEAM,REGULAR,Danny Makkelie
+441579,2023,11,2023-11-05,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,FC Volendam,Volendam,VOL,3,3,1,1,DRAW,REGULAR,Jochem Kamphuis
+441572,2023,11,2023-11-05,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,SC Heerenveen,Heerenveen,HEE,4,1,2,1,HOME_TEAM,REGULAR,Sander Van der Eijk
+441580,2023,11,2023-11-05,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,Almere City FC,Almere City,ALM,1,2,0,1,AWAY_TEAM,REGULAR,Allard Lindhout
+441581,2023,12,2023-11-10,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,Heracles Almelo,Heracles,HER,4,1,4,0,HOME_TEAM,REGULAR,Allard Lindhout
+441584,2023,12,2023-11-11,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,Go Ahead Eagles,Go Ahead,GOA,0,1,0,1,AWAY_TEAM,REGULAR,Jeroen Manschot
+441586,2023,12,2023-11-11,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,NEC,NEC,NEC,3,3,1,0,DRAW,REGULAR,Joey Kooij
+441582,2023,12,2023-11-11,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,SC Heerenveen,Heerenveen,HEE,1,3,1,1,AWAY_TEAM,REGULAR,Edwin van de Graaf
+441583,2023,12,2023-11-12,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,PEC Zwolle,Zwolle,ZWO,4,0,2,0,HOME_TEAM,REGULAR,Ingmar Oostrom
+441585,2023,12,2023-11-12,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,Sparta Rotterdam,Sparta,SPA,1,4,1,2,AWAY_TEAM,REGULAR,Richard Martens
+441587,2023,12,2023-11-12,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,AFC Ajax,Ajax,AJA,2,2,0,0,DRAW,REGULAR,Bas Nijhuis
+441588,2023,12,2023-11-12,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,AZ,AZ,AZ,1,0,1,0,HOME_TEAM,REGULAR,Danny Makkelie
+441589,2023,12,2023-11-12,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,SBV Excelsior,Excelsior,EXC,2,2,0,0,DRAW,REGULAR,Marc Nagtegaal
+441590,2023,13,2023-11-25,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,Feyenoord Rotterdam,Feyenoord,FEY,2,4,1,1,AWAY_TEAM,REGULAR,Serdar Gözübüyük
+441591,2023,13,2023-11-25,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,PSV,PSV,PSV,0,3,0,1,AWAY_TEAM,REGULAR,Allard Lindhout
+441592,2023,13,2023-11-25,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,Fortuna Sittard,Sittard,SIT,3,0,1,0,HOME_TEAM,REGULAR,Jeroen Manschot
+441593,2023,13,2023-11-25,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,RKC Waalwijk,RKC,RKC,1,2,1,1,AWAY_TEAM,REGULAR,Martin van den Kerkhof
+441594,2023,13,2023-11-25,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,SBV Vitesse,Vitesse,VIT,5,0,2,0,HOME_TEAM,REGULAR,Dennis Higler
+441595,2023,13,2023-11-26,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,Heracles Almelo,Heracles,HER,0,5,0,1,AWAY_TEAM,REGULAR,Jannick van der Laan
+441596,2023,13,2023-11-26,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,FC Volendam,Volendam,VOL,3,0,1,0,HOME_TEAM,REGULAR,Bas Nijhuis
+441597,2023,13,2023-11-26,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,Go Ahead Eagles,Go Ahead,GOA,1,1,0,0,DRAW,REGULAR,Robin Hensgens
+441598,2023,13,2023-11-26,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,FC Utrecht,Utrecht,UTR,1,2,1,1,AWAY_TEAM,REGULAR,Joey Kooij
+441599,2023,14,2023-12-01,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,Almere City FC,Almere City,ALM,3,0,2,0,HOME_TEAM,REGULAR,Richard Martens
+441601,2023,14,2023-12-02,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,PEC Zwolle,Zwolle,ZWO,0,5,0,0,AWAY_TEAM,REGULAR,Dennis Higler
+441602,2023,14,2023-12-02,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,SBV Vitesse,Vitesse,VIT,3,1,2,0,HOME_TEAM,REGULAR,Alex Bos
+441603,2023,14,2023-12-02,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,SBV Excelsior,Excelsior,EXC,2,2,1,0,DRAW,REGULAR,Bas Nijhuis
+441600,2023,14,2023-12-02,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,Sparta Rotterdam,Sparta,SPA,0,1,0,0,AWAY_TEAM,REGULAR,Edwin van de Graaf
+441604,2023,14,2023-12-03,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,PSV,PSV,PSV,1,2,0,0,AWAY_TEAM,REGULAR,Danny Makkelie
+441605,2023,14,2023-12-03,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,AFC Ajax,Ajax,AJA,1,2,0,0,AWAY_TEAM,REGULAR,Marc Nagtegaal
+441606,2023,14,2023-12-03,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,FC Twente '65,Twente,TWE,1,3,0,2,AWAY_TEAM,REGULAR,Sander Van der Eijk
+441607,2023,14,2023-12-03,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,AZ,AZ,AZ,1,1,0,1,DRAW,REGULAR,Erwin Blank
+441571,2023,10,2023-12-06,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,NEC,NEC,NEC,1,2,0,2,AWAY_TEAM,REGULAR,Jeroen Manschot
+441540,2023,7,2023-12-06,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,AFC Ajax,Ajax,AJA,2,3,1,2,AWAY_TEAM,REGULAR,Pol van Boekel
+441610,2023,15,2023-12-07,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,SC Heerenveen,Heerenveen,HEE,2,0,1,0,HOME_TEAM,REGULAR,Bas Nijhuis
+441608,2023,15,2023-12-07,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,FC Volendam,Volendam,VOL,3,1,1,1,HOME_TEAM,REGULAR,Martin van den Kerkhof
+441609,2023,15,2023-12-08,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,SBV Excelsior,Excelsior,EXC,4,2,1,2,HOME_TEAM,REGULAR,Ingmar Oostrom
+441614,2023,15,2023-12-09,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,Sparta Rotterdam,Sparta,SPA,2,1,2,0,HOME_TEAM,REGULAR,Danny Makkelie
+441611,2023,15,2023-12-09,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,NEC,NEC,NEC,1,3,0,1,AWAY_TEAM,REGULAR,Pol van Boekel
+441612,2023,15,2023-12-09,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,Almere City FC,Almere City,ALM,4,1,1,0,HOME_TEAM,REGULAR,Sander Van der Eijk
+441613,2023,15,2023-12-10,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,FC Utrecht,Utrecht,UTR,0,2,0,2,AWAY_TEAM,REGULAR,Allard Lindhout
+441615,2023,15,2023-12-10,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,RKC Waalwijk,RKC,RKC,1,0,0,0,HOME_TEAM,REGULAR,Joey Kooij
+441616,2023,15,2023-12-10,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,Heracles Almelo,Heracles,HER,2,0,1,0,HOME_TEAM,REGULAR,Serdar Gözübüyük
+441617,2023,16,2023-12-15,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,Fortuna Sittard,Sittard,SIT,4,1,2,0,HOME_TEAM,REGULAR,Edwin van de Graaf
+441618,2023,16,2023-12-16,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,RKC Waalwijk,RKC,RKC,1,1,1,1,DRAW,REGULAR,Serdar Gözübüyük
+441620,2023,16,2023-12-16,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,Go Ahead Eagles,Go Ahead,GOA,1,1,0,0,DRAW,REGULAR,Alex Bos
+441619,2023,16,2023-12-16,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,FC Volendam,Volendam,VOL,1,2,0,1,AWAY_TEAM,REGULAR,Allard Lindhout
+441621,2023,16,2023-12-17,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,SBV Vitesse,Vitesse,VIT,5,0,2,0,HOME_TEAM,REGULAR,Danny Makkelie
+441622,2023,16,2023-12-17,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,FC Twente '65,Twente,TWE,2,2,0,1,DRAW,REGULAR,Martin van den Kerkhof
+441623,2023,16,2023-12-17,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,Feyenoord Rotterdam,Feyenoord,FEY,0,4,0,2,AWAY_TEAM,REGULAR,Jeroen Manschot
+441624,2023,16,2023-12-17,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,PEC Zwolle,Zwolle,ZWO,2,2,1,0,DRAW,REGULAR,Joey Kooij
+441625,2023,16,2023-12-17,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,PSV,PSV,PSV,0,4,0,3,AWAY_TEAM,REGULAR,Dennis Higler
+441626,2023,17,2024-01-12,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,Heracles Almelo,Heracles,HER,1,2,0,1,AWAY_TEAM,REGULAR,Rob Dieperink
+441627,2023,17,2024-01-13,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,Sparta Rotterdam,Sparta,SPA,0,2,0,1,AWAY_TEAM,REGULAR,Erwin Blank
+441628,2023,17,2024-01-13,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,AZ,AZ,AZ,2,1,1,1,HOME_TEAM,REGULAR,Serdar Gözübüyük
+441629,2023,17,2024-01-13,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,SC Heerenveen,Heerenveen,HEE,2,2,0,1,DRAW,REGULAR,Danny Makkelie
+441630,2023,17,2024-01-13,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,SBV Excelsior,Excelsior,EXC,3,1,2,0,HOME_TEAM,REGULAR,Marc Nagtegaal
+441631,2023,17,2024-01-14,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,Almere City FC,Almere City,ALM,0,1,0,1,AWAY_TEAM,REGULAR,Ingmar Oostrom
+441632,2023,17,2024-01-14,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,AFC Ajax,Ajax,AJA,2,3,1,2,AWAY_TEAM,REGULAR,Pol van Boekel
+441633,2023,17,2024-01-14,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,FC Utrecht,Utrecht,UTR,0,0,0,0,DRAW,REGULAR,Richard Martens
+441634,2023,17,2024-01-14,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,NEC,NEC,NEC,2,2,2,1,DRAW,REGULAR,Sander Van der Eijk
+441635,2023,18,2024-01-19,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,SC Heerenveen,Heerenveen,HEE,3,0,2,0,HOME_TEAM,REGULAR,Edwin van de Graaf
+441636,2023,18,2024-01-20,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,FC Twente '65,Twente,TWE,1,0,0,0,HOME_TEAM,REGULAR,Martin van den Kerkhof
+441637,2023,18,2024-01-20,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,FC Volendam,Volendam,VOL,1,1,0,1,DRAW,REGULAR,Jannick van der Laan
+441638,2023,18,2024-01-20,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,PEC Zwolle,Zwolle,ZWO,2,2,0,0,DRAW,REGULAR,Allard Lindhout
+441640,2023,18,2024-01-21,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,PSV,PSV,PSV,1,1,0,1,DRAW,REGULAR,Joey Kooij
+441641,2023,18,2024-01-21,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,Feyenoord Rotterdam,Feyenoord,FEY,1,2,0,1,AWAY_TEAM,REGULAR,Serdar Gözübüyük
+441642,2023,18,2024-01-21,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,Go Ahead Eagles,Go Ahead,GOA,0,2,0,1,AWAY_TEAM,REGULAR,Danny Makkelie
+441643,2023,18,2024-01-21,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,RKC Waalwijk,RKC,RKC,4,1,2,1,HOME_TEAM,REGULAR,Bas Nijhuis
+441639,2023,18,2024-01-24,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,Fortuna Sittard,Sittard,SIT,0,0,0,0,DRAW,REGULAR,Jeroen Manschot
+441644,2023,19,2024-01-26,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,SBV Vitesse,Vitesse,VIT,1,0,1,0,HOME_TEAM,REGULAR,Laurens Gerrets
+441645,2023,19,2024-01-27,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,Sparta Rotterdam,Sparta,SPA,1,1,0,0,DRAW,REGULAR,Alex Bos
+441646,2023,19,2024-01-27,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,Almere City FC,Almere City,ALM,2,0,1,0,HOME_TEAM,REGULAR,Rob Dieperink
+441647,2023,19,2024-01-27,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,FC Utrecht,Utrecht,UTR,1,1,0,0,DRAW,REGULAR,Pol van Boekel
+441648,2023,19,2024-01-27,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,AFC Ajax,Ajax,AJA,2,4,1,1,AWAY_TEAM,REGULAR,Dennis Higler
+441649,2023,19,2024-01-28,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,AZ,AZ,AZ,2,2,1,1,DRAW,REGULAR,Sander Van der Eijk
+441650,2023,19,2024-01-28,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,NEC,NEC,NEC,2,2,0,1,DRAW,REGULAR,Ingmar Oostrom
+441651,2023,19,2024-01-28,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,FC Twente '65,Twente,TWE,0,0,0,0,DRAW,REGULAR,Allard Lindhout
+441652,2023,19,2024-01-28,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,Fortuna Sittard,Sittard,SIT,0,1,0,0,AWAY_TEAM,REGULAR,Edwin van de Graaf
+441653,2023,20,2024-02-02,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,SBV Excelsior,Excelsior,EXC,2,1,1,1,HOME_TEAM,REGULAR,Robin Hensgens
+441654,2023,20,2024-02-03,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,RKC Waalwijk,RKC,RKC,3,0,1,0,HOME_TEAM,REGULAR,Sander Van der Eijk
+441655,2023,20,2024-02-03,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,SC Heerenveen,Heerenveen,HEE,3,3,0,2,DRAW,REGULAR,Jannick van der Laan
+441656,2023,20,2024-02-03,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,PSV,PSV,PSV,1,1,1,1,DRAW,REGULAR,Serdar Gözübüyük
+441657,2023,20,2024-02-03,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,Heracles Almelo,Heracles,HER,3,1,0,1,HOME_TEAM,REGULAR,Marc Nagtegaal
+441658,2023,20,2024-02-04,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,Go Ahead Eagles,Go Ahead,GOA,0,2,0,1,AWAY_TEAM,REGULAR,Joey Kooij
+441659,2023,20,2024-02-04,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,Feyenoord Rotterdam,Feyenoord,FEY,0,1,0,1,AWAY_TEAM,REGULAR,Danny Makkelie
+441661,2023,20,2024-02-04,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,FC Volendam,Volendam,VOL,4,2,2,1,HOME_TEAM,REGULAR,Allard Lindhout
+441660,2023,20,2024-02-04,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,PEC Zwolle,Zwolle,ZWO,0,2,0,1,AWAY_TEAM,REGULAR,Jeroen Manschot
+441662,2023,21,2024-02-09,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,NEC,NEC,NEC,2,0,2,0,HOME_TEAM,REGULAR,Jeroen Manschot
+441668,2023,21,2024-02-10,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,FC Twente '65,Twente,TWE,0,3,0,3,AWAY_TEAM,REGULAR,Rob Dieperink
+441665,2023,21,2024-02-10,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,AZ,AZ,AZ,0,0,0,0,DRAW,REGULAR,Alex Bos
+441663,2023,21,2024-02-10,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,SBV Vitesse,Vitesse,VIT,3,2,1,2,HOME_TEAM,REGULAR,Bas Nijhuis
+441667,2023,21,2024-02-11,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,PEC Zwolle,Zwolle,ZWO,1,1,0,0,DRAW,REGULAR,Dennis Higler
+441669,2023,21,2024-02-11,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,Fortuna Sittard,Sittard,SIT,4,0,1,0,HOME_TEAM,REGULAR,Serdar Gözübüyük
+441670,2023,21,2024-02-11,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,AFC Ajax,Ajax,AJA,3,2,2,0,HOME_TEAM,REGULAR,Danny Makkelie
+441664,2023,21,2024-02-11,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,PSV,PSV,PSV,1,5,1,1,AWAY_TEAM,REGULAR,Martin van den Kerkhof
+441666,2023,21,2024-02-11,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,Sparta Rotterdam,Sparta,SPA,2,0,0,0,HOME_TEAM,REGULAR,Pol van Boekel
+441675,2023,22,2024-02-16,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,Heracles Almelo,Heracles,HER,2,0,1,0,HOME_TEAM,REGULAR,Ingmar Oostrom
+441671,2023,22,2024-02-17,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,SBV Excelsior,Excelsior,EXC,4,2,2,2,HOME_TEAM,REGULAR,Serdar Gözübüyük
+441678,2023,22,2024-02-17,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,AZ,AZ,AZ,1,2,1,0,AWAY_TEAM,REGULAR,Richard Martens
+441673,2023,22,2024-02-17,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,Go Ahead Eagles,Go Ahead,GOA,0,2,0,0,AWAY_TEAM,REGULAR,Erwin Blank
+441674,2023,22,2024-02-17,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,Almere City FC,Almere City,ALM,0,1,0,0,AWAY_TEAM,REGULAR,Martijn Vos
+441677,2023,22,2024-02-18,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,FC Utrecht,Utrecht,UTR,0,1,0,1,AWAY_TEAM,REGULAR,Marc Nagtegaal
+441676,2023,22,2024-02-18,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,NEC,NEC,NEC,2,2,1,0,DRAW,REGULAR,Bas Nijhuis
+441679,2023,22,2024-02-18,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,FC Volendam,Volendam,VOL,1,1,1,1,DRAW,REGULAR,Danny Makkelie
+441672,2023,22,2024-02-18,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,RKC Waalwijk,RKC,RKC,1,0,0,0,HOME_TEAM,REGULAR,Martin van den Kerkhof
+441683,2023,23,2024-02-23,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,Heracles Almelo,Heracles,HER,1,0,0,0,HOME_TEAM,REGULAR,Jochem Kamphuis
+441681,2023,23,2024-02-24,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,Fortuna Sittard,Sittard,SIT,0,1,0,0,AWAY_TEAM,REGULAR,Joey Kooij
+441686,2023,23,2024-02-24,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,PSV,PSV,PSV,1,7,1,2,AWAY_TEAM,REGULAR,Alex Bos
+441684,2023,23,2024-02-24,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,Sparta Rotterdam,Sparta,SPA,2,0,2,0,HOME_TEAM,REGULAR,Dennis Higler
+441680,2023,23,2024-02-25,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,SBV Vitesse,Vitesse,VIT,1,2,0,0,AWAY_TEAM,REGULAR,Marc Nagtegaal
+441685,2023,23,2024-02-25,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,Feyenoord Rotterdam,Feyenoord,FEY,0,2,0,0,AWAY_TEAM,REGULAR,Edwin van de Graaf
+441687,2023,23,2024-02-25,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,Go Ahead Eagles,Go Ahead,GOA,3,0,2,0,HOME_TEAM,REGULAR,Jannick van der Laan
+441688,2023,23,2024-02-25,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,AFC Ajax,Ajax,AJA,2,0,1,0,HOME_TEAM,REGULAR,Allard Lindhout
+441682,2023,23,2024-02-25,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,SC Heerenveen,Heerenveen,HEE,0,4,0,1,AWAY_TEAM,REGULAR,Rob Dieperink
+441689,2023,24,2024-03-01,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,NEC,NEC,NEC,2,5,0,3,AWAY_TEAM,REGULAR,Martijn Vos
+441691,2023,24,2024-03-02,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,RKC Waalwijk,RKC,RKC,1,0,0,0,HOME_TEAM,REGULAR,Pol van Boekel
+441694,2023,24,2024-03-02,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,FC Twente '65,Twente,TWE,1,2,1,1,AWAY_TEAM,REGULAR,Ingmar Oostrom
+441693,2023,24,2024-03-02,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,AZ,AZ,AZ,1,1,0,1,DRAW,REGULAR,Jochem Kamphuis
+441695,2023,24,2024-03-03,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,FC Utrecht,Utrecht,UTR,2,0,1,0,HOME_TEAM,REGULAR,Sander Van der Eijk
+441690,2023,24,2024-03-03,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,Feyenoord Rotterdam,Feyenoord,FEY,2,2,1,1,DRAW,REGULAR,Serdar Gözübüyük
+441696,2023,24,2024-03-03,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,PEC Zwolle,Zwolle,ZWO,2,0,1,0,HOME_TEAM,REGULAR,Robin Hensgens
+441697,2023,24,2024-03-03,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,SBV Excelsior,Excelsior,EXC,5,2,4,0,HOME_TEAM,REGULAR,Jeroen Manschot
+441692,2023,24,2024-03-03,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,Almere City FC,Almere City,ALM,2,2,0,2,DRAW,REGULAR,Dennis Higler
+441700,2023,25,2024-03-08,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,PSV,PSV,PSV,0,1,0,1,AWAY_TEAM,REGULAR,Danny Makkelie
+441705,2023,25,2024-03-09,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,Sparta Rotterdam,Sparta,SPA,2,1,1,0,HOME_TEAM,REGULAR,Rob Dieperink
+441698,2023,25,2024-03-09,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,FC Utrecht,Utrecht,UTR,1,1,1,1,DRAW,REGULAR,Jannick van der Laan
+441703,2023,25,2024-03-09,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,SBV Vitesse,Vitesse,VIT,3,1,1,0,HOME_TEAM,REGULAR,Allard Lindhout
+441706,2023,25,2024-03-10,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,SBV Excelsior,Excelsior,EXC,4,0,3,0,HOME_TEAM,REGULAR,Martin van den Kerkhof
+441701,2023,25,2024-03-10,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,FC Volendam,Volendam,VOL,1,1,0,0,DRAW,REGULAR,Pol van Boekel
+441704,2023,25,2024-03-10,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,Fortuna Sittard,Sittard,SIT,2,2,1,0,DRAW,REGULAR,Edwin van de Graaf
+441702,2023,25,2024-03-10,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,SC Heerenveen,Heerenveen,HEE,2,0,0,0,HOME_TEAM,REGULAR,Joey Kooij
+441699,2023,25,2024-03-10,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,Heracles Almelo,Heracles,HER,3,0,2,0,HOME_TEAM,REGULAR,Bas Nijhuis
+441711,2023,26,2024-03-15,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,Go Ahead Eagles,Go Ahead,GOA,2,0,0,0,HOME_TEAM,REGULAR,Jeroen Manschot
+441707,2023,26,2024-03-16,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,PEC Zwolle,Zwolle,ZWO,3,1,1,0,HOME_TEAM,REGULAR,Marc Nagtegaal
+441708,2023,26,2024-03-16,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,RKC Waalwijk,RKC,RKC,1,1,1,0,DRAW,REGULAR,Edwin van de Graaf
+441710,2023,26,2024-03-16,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,Almere City FC,Almere City,ALM,1,1,0,1,DRAW,REGULAR,Erwin Blank
+441714,2023,26,2024-03-17,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,AZ,AZ,AZ,0,4,0,2,AWAY_TEAM,REGULAR,Sander Van der Eijk
+441709,2023,26,2024-03-17,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,NEC,NEC,NEC,1,0,0,0,HOME_TEAM,REGULAR,Danny Makkelie
+441712,2023,26,2024-03-17,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,Feyenoord Rotterdam,Feyenoord,FEY,2,3,1,1,AWAY_TEAM,REGULAR,Jochem Kamphuis
+441715,2023,26,2024-03-17,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,AFC Ajax,Ajax,AJA,2,2,1,0,DRAW,REGULAR,Serdar Gözübüyük
+441713,2023,26,2024-03-17,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,FC Twente '65,Twente,TWE,1,0,0,0,HOME_TEAM,REGULAR,Joey Kooij
+441722,2023,27,2024-03-30,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,PSV,PSV,PSV,3,1,1,1,HOME_TEAM,REGULAR,Bas Nijhuis
+441724,2023,27,2024-03-30,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,Fortuna Sittard,Sittard,SIT,4,0,1,0,HOME_TEAM,REGULAR,Martin van den Kerkhof
+441717,2023,27,2024-03-30,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,SBV Excelsior,Excelsior,EXC,3,0,1,0,HOME_TEAM,REGULAR,Dennis Higler
+441720,2023,27,2024-03-30,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,SC Heerenveen,Heerenveen,HEE,1,1,0,0,DRAW,REGULAR,Erwin Blank
+441719,2023,27,2024-03-30,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,SBV Vitesse,Vitesse,VIT,2,0,0,0,HOME_TEAM,REGULAR,Jannick van der Laan
+441721,2023,27,2024-03-31,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,AFC Ajax,Ajax,AJA,1,3,0,2,AWAY_TEAM,REGULAR,Jeroen Manschot
+441716,2023,27,2024-03-31,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,FC Utrecht,Utrecht,UTR,4,2,1,2,HOME_TEAM,REGULAR,Allard Lindhout
+441723,2023,27,2024-03-31,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,Heracles Almelo,Heracles,HER,1,0,0,0,HOME_TEAM,REGULAR,Danny Makkelie
+441718,2023,27,2024-03-31,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,FC Volendam,Volendam,VOL,1,1,0,0,DRAW,REGULAR,Robin Hensgens
+441732,2023,28,2024-04-02,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,Sparta Rotterdam,Sparta,SPA,1,4,1,3,AWAY_TEAM,REGULAR,Edwin van de Graaf
+441727,2023,28,2024-04-02,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,PSV,PSV,PSV,0,2,0,0,AWAY_TEAM,REGULAR,Sander Van der Eijk
+441733,2023,28,2024-04-02,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,NEC,NEC,NEC,1,1,0,0,DRAW,REGULAR,Richard Martens
+441731,2023,28,2024-04-03,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,AZ,AZ,AZ,5,0,3,0,HOME_TEAM,REGULAR,Allard Lindhout
+441729,2023,28,2024-04-03,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,PEC Zwolle,Zwolle,ZWO,5,1,0,0,HOME_TEAM,REGULAR,Serdar Gözübüyük
+441728,2023,28,2024-04-03,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,FC Twente '65,Twente,TWE,3,3,2,3,DRAW,REGULAR,Alex Bos
+441725,2023,28,2024-04-04,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,Feyenoord Rotterdam,Feyenoord,FEY,0,0,0,0,DRAW,REGULAR,Ingmar Oostrom
+441726,2023,28,2024-04-04,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,Almere City FC,Almere City,ALM,0,0,0,0,DRAW,REGULAR,Martin van den Kerkhof
+441730,2023,28,2024-04-04,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,Go Ahead Eagles,Go Ahead,GOA,1,1,1,0,DRAW,REGULAR,Marc Nagtegaal
+441742,2023,29,2024-04-06,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,Heracles Almelo,Heracles,HER,1,2,1,0,AWAY_TEAM,REGULAR,Laurens Gerrets
+441738,2023,29,2024-04-06,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,AZ,AZ,AZ,5,1,2,0,HOME_TEAM,REGULAR,Dennis Higler
+441737,2023,29,2024-04-06,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,SBV Excelsior,Excelsior,EXC,2,1,1,0,HOME_TEAM,REGULAR,Martin Perez
+441741,2023,29,2024-04-06,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,Fortuna Sittard,Sittard,SIT,2,0,0,0,HOME_TEAM,REGULAR,Rob Dieperink
+441739,2023,29,2024-04-07,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,NEC,NEC,NEC,0,3,0,0,AWAY_TEAM,REGULAR,Allard Lindhout
+441734,2023,29,2024-04-07,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,AFC Ajax,Ajax,AJA,6,0,3,0,HOME_TEAM,REGULAR,Danny Makkelie
+441740,2023,29,2024-04-07,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,Almere City FC,Almere City,ALM,1,1,1,1,DRAW,REGULAR,Bas Nijhuis
+441735,2023,29,2024-04-07,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,RKC Waalwijk,RKC,RKC,3,2,2,0,HOME_TEAM,REGULAR,Serdar Gözübüyük
+441736,2023,29,2024-04-07,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,FC Utrecht,Utrecht,UTR,2,3,0,1,AWAY_TEAM,REGULAR,Jeroen Manschot
+441743,2023,30,2024-04-12,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,FC Volendam,Volendam,VOL,4,0,2,0,HOME_TEAM,REGULAR,Danny Makkelie
+441745,2023,30,2024-04-13,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,SBV Vitesse,Vitesse,VIT,6,0,3,0,HOME_TEAM,REGULAR,Jeroen Manschot
+441748,2023,30,2024-04-13,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,RKC Waalwijk,RKC,RKC,3,2,0,2,HOME_TEAM,REGULAR,Marc Nagtegaal
+441746,2023,30,2024-04-13,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,Sparta Rotterdam,Sparta,SPA,2,3,1,2,AWAY_TEAM,REGULAR,Alex Bos
+441749,2023,30,2024-04-14,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,SC Heerenveen,Heerenveen,HEE,0,2,0,1,AWAY_TEAM,REGULAR,Rob Dieperink
+441744,2023,30,2024-04-14,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,Feyenoord Rotterdam,Feyenoord,FEY,0,1,0,1,AWAY_TEAM,REGULAR,Bas Nijhuis
+441750,2023,30,2024-04-14,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,Go Ahead Eagles,Go Ahead,GOA,2,1,1,1,HOME_TEAM,REGULAR,Sander Van der Eijk
+441751,2023,30,2024-04-14,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,FC Twente '65,Twente,TWE,2,1,0,1,HOME_TEAM,REGULAR,Serdar Gözübüyük
+441747,2023,30,2024-04-14,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,PEC Zwolle,Zwolle,ZWO,2,2,0,1,DRAW,REGULAR,Dennis Higler
+441752,2023,31,2024-04-24,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,Almere City FC,Almere City,ALM,3,1,1,0,HOME_TEAM,REGULAR,Ingmar Oostrom
+441757,2023,31,2024-04-24,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,SBV Excelsior,Excelsior,EXC,2,2,1,1,DRAW,REGULAR,Sander Van der Eijk
+441754,2023,31,2024-04-25,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,PSV,PSV,PSV,0,8,0,5,AWAY_TEAM,REGULAR,Danny Makkelie
+441753,2023,31,2024-04-25,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,Feyenoord Rotterdam,Feyenoord,FEY,1,3,1,2,AWAY_TEAM,REGULAR,Erwin Blank
+441755,2023,31,2024-04-28,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,AZ,AZ,AZ,0,3,0,1,AWAY_TEAM,REGULAR,Martin van den Kerkhof
+441756,2023,31,2024-04-28,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,Heracles Almelo,Heracles,HER,3,1,1,1,HOME_TEAM,REGULAR,Serdar Gözübüyük
+441759,2023,31,2024-04-28,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,FC Volendam,Volendam,VOL,1,0,0,0,HOME_TEAM,REGULAR,Jeroen Manschot
+441760,2023,31,2024-04-28,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,FC Utrecht,Utrecht,UTR,2,2,1,0,DRAW,REGULAR,Dennis Higler
+441758,2023,31,2024-04-28,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,Fortuna Sittard,Sittard,SIT,3,2,1,1,HOME_TEAM,REGULAR,Robin Hensgens
+441761,2023,32,2024-05-03,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,Go Ahead Eagles,Go Ahead,GOA,0,0,0,0,DRAW,REGULAR,Jannick van der Laan
+441762,2023,32,2024-05-03,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,SC Heerenveen,Heerenveen,HEE,1,1,0,0,DRAW,REGULAR,Martijn Vos
+441764,2023,32,2024-05-05,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,Sparta Rotterdam,Sparta,SPA,4,2,2,2,HOME_TEAM,REGULAR,Dennis Higler
+441766,2023,32,2024-05-05,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,RKC Waalwijk,RKC,RKC,0,5,0,2,AWAY_TEAM,REGULAR,Allard Lindhout
+441765,2023,32,2024-05-05,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,SBV Vitesse,Vitesse,VIT,1,0,0,0,HOME_TEAM,REGULAR,Rob Dieperink
+441767,2023,32,2024-05-05,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,AFC Ajax,Ajax,AJA,1,4,0,1,AWAY_TEAM,REGULAR,Alex Bos
+441763,2023,32,2024-05-05,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,FC Twente '65,Twente,TWE,2,1,0,1,HOME_TEAM,REGULAR,Danny Makkelie
+441769,2023,32,2024-05-05,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,PEC Zwolle,Zwolle,ZWO,5,0,2,0,HOME_TEAM,REGULAR,Marc Nagtegaal
+441768,2023,32,2024-05-06,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,NEC,NEC,NEC,0,3,0,0,AWAY_TEAM,REGULAR,Bas Nijhuis
+441770,2023,33,2024-05-12,FINISHED,REGULAR_SEASON,AFC Ajax,Ajax,AJA,Almere City FC,Almere City,ALM,3,0,3,0,HOME_TEAM,REGULAR,Danny Makkelie
+441771,2023,33,2024-05-12,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,Heracles Almelo,Heracles,HER,4,0,1,0,HOME_TEAM,REGULAR,Dennis Higler
+441772,2023,33,2024-05-12,FINISHED,REGULAR_SEASON,FC Twente '65,Twente,TWE,FC Volendam,Volendam,VOL,7,2,5,2,HOME_TEAM,REGULAR,Allard Lindhout
+441773,2023,33,2024-05-12,FINISHED,REGULAR_SEASON,FC Utrecht,Utrecht,UTR,Sparta Rotterdam,Sparta,SPA,0,1,0,0,AWAY_TEAM,REGULAR,Jannick van der Laan
+441774,2023,33,2024-05-12,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,PSV,PSV,PSV,1,1,1,0,DRAW,REGULAR,Martin van den Kerkhof
+441775,2023,33,2024-05-12,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,AZ,AZ,AZ,0,3,0,2,AWAY_TEAM,REGULAR,Serdar Gözübüyük
+441776,2023,33,2024-05-12,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,Feyenoord Rotterdam,Feyenoord,FEY,2,3,0,1,AWAY_TEAM,REGULAR,Alex Bos
+441777,2023,33,2024-05-12,FINISHED,REGULAR_SEASON,RKC Waalwijk,RKC,RKC,PEC Zwolle,Zwolle,ZWO,1,1,0,0,DRAW,REGULAR,Bas Nijhuis
+441778,2023,33,2024-05-12,FINISHED,REGULAR_SEASON,SC Heerenveen,Heerenveen,HEE,SBV Vitesse,Vitesse,VIT,1,3,1,1,AWAY_TEAM,REGULAR,Richard Martens
+441779,2023,34,2024-05-19,FINISHED,REGULAR_SEASON,Almere City FC,Almere City,ALM,NEC,NEC,NEC,1,4,1,2,AWAY_TEAM,REGULAR,Edwin van de Graaf
+441780,2023,34,2024-05-19,FINISHED,REGULAR_SEASON,AZ,AZ,AZ,FC Utrecht,Utrecht,UTR,3,3,3,0,DRAW,REGULAR,Bas Nijhuis
+441781,2023,34,2024-05-19,FINISHED,REGULAR_SEASON,FC Volendam,Volendam,VOL,Go Ahead Eagles,Go Ahead,GOA,1,2,1,1,AWAY_TEAM,REGULAR,Ingmar Oostrom
+441782,2023,34,2024-05-19,FINISHED,REGULAR_SEASON,Feyenoord Rotterdam,Feyenoord,FEY,SBV Excelsior,Excelsior,EXC,4,0,0,0,HOME_TEAM,REGULAR,Allard Lindhout
+441783,2023,34,2024-05-19,FINISHED,REGULAR_SEASON,Heracles Almelo,Heracles,HER,Fortuna Sittard,Sittard,SIT,0,0,0,0,DRAW,REGULAR,Jeroen Manschot
+441784,2023,34,2024-05-19,FINISHED,REGULAR_SEASON,PEC Zwolle,Zwolle,ZWO,FC Twente '65,Twente,TWE,1,2,0,0,AWAY_TEAM,REGULAR,Dennis Higler
+441785,2023,34,2024-05-19,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,RKC Waalwijk,RKC,RKC,3,1,1,1,HOME_TEAM,REGULAR,Danny Makkelie
+441786,2023,34,2024-05-19,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,SC Heerenveen,Heerenveen,HEE,2,1,0,0,HOME_TEAM,REGULAR,Sander Van der Eijk
+441787,2023,34,2024-05-19,FINISHED,REGULAR_SEASON,SBV Vitesse,Vitesse,VIT,AFC Ajax,Ajax,AJA,2,2,1,1,DRAW,REGULAR,Erwin Blank

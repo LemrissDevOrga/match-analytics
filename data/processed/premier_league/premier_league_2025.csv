@@ -1,292 +1,292 @@
-match_id,season,matchday,date,status,home_team,home_team_short,home_team_tla,away_team,away_team_short,away_team_tla,home_goals_ft,away_goals_ft,home_goals_ht,away_goals_ht,result,referee
-537785,2025,1,2025-08-15,FINISHED,Liverpool FC,Liverpool,LIV,AFC Bournemouth,Bournemouth,BOU,4,2,1,0,HOME_TEAM,Anthony Taylor
-537786,2025,1,2025-08-16,FINISHED,Aston Villa FC,Aston Villa,AVL,Newcastle United FC,Newcastle,NEW,0,0,0,0,DRAW,Craig Pawson
-537787,2025,1,2025-08-16,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Fulham FC,Fulham,FUL,1,1,0,0,DRAW,Sam Barrott
-537789,2025,1,2025-08-16,FINISHED,Sunderland AFC,Sunderland,SUN,West Ham United FC,West Ham,WHU,3,0,0,0,HOME_TEAM,Robert Jones
-537790,2025,1,2025-08-16,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Burnley FC,Burnley,BUR,3,0,1,0,HOME_TEAM,Michael Oliver
-537791,2025,1,2025-08-16,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Manchester City FC,Man City,MCI,0,4,0,2,AWAY_TEAM,Jarred Gillett
-537788,2025,1,2025-08-17,FINISHED,Nottingham Forest FC,Nottingham,NOT,Brentford FC,Brentford,BRE,3,1,3,0,HOME_TEAM,Peter Bankes
-537792,2025,1,2025-08-17,FINISHED,Chelsea FC,Chelsea,CHE,Crystal Palace FC,Crystal Palace,CRY,0,0,0,0,DRAW,Darren England
-537793,2025,1,2025-08-17,FINISHED,Manchester United FC,Man United,MUN,Arsenal FC,Arsenal,ARS,0,1,0,1,AWAY_TEAM,Simon Hooper
-537794,2025,1,2025-08-18,FINISHED,Leeds United FC,Leeds United,LEE,Everton FC,Everton,EVE,1,0,0,0,HOME_TEAM,Chris Kavanagh
-537804,2025,2,2025-08-22,FINISHED,West Ham United FC,West Ham,WHU,Chelsea FC,Chelsea,CHE,1,5,1,3,AWAY_TEAM,Michael Oliver
-537802,2025,2,2025-08-23,FINISHED,Manchester City FC,Man City,MCI,Tottenham Hotspur FC,Tottenham,TOT,0,2,0,2,AWAY_TEAM,Peter Bankes
-537795,2025,2,2025-08-23,FINISHED,AFC Bournemouth,Bournemouth,BOU,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,0,1,0,HOME_TEAM,Thomas Bramall
-537798,2025,2,2025-08-23,FINISHED,Brentford FC,Brentford,BRE,Aston Villa FC,Aston Villa,AVL,1,0,1,0,HOME_TEAM,Tony Harrington
-537799,2025,2,2025-08-23,FINISHED,Burnley FC,Burnley,BUR,Sunderland AFC,Sunderland,SUN,2,0,0,0,HOME_TEAM,Michael Salisbury
-537797,2025,2,2025-08-23,FINISHED,Arsenal FC,Arsenal,ARS,Leeds United FC,Leeds United,LEE,5,0,2,0,HOME_TEAM,Jarred Gillett
-537796,2025,2,2025-08-24,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Nottingham Forest FC,Nottingham,NOT,1,1,1,0,DRAW,Anthony Taylor
-537800,2025,2,2025-08-24,FINISHED,Everton FC,Everton,EVE,Brighton & Hove Albion FC,Brighton Hove,BHA,2,0,1,0,HOME_TEAM,Stuart Attwell
-537801,2025,2,2025-08-24,FINISHED,Fulham FC,Fulham,FUL,Manchester United FC,Man United,MUN,1,1,0,0,DRAW,Chris Kavanagh
-537803,2025,2,2025-08-25,FINISHED,Newcastle United FC,Newcastle,NEW,Liverpool FC,Liverpool,LIV,2,3,0,1,AWAY_TEAM,Simon Hooper
-537808,2025,3,2025-08-30,FINISHED,Chelsea FC,Chelsea,CHE,Fulham FC,Fulham,FUL,2,0,1,0,HOME_TEAM,Robert Jones
-537805,2025,3,2025-08-30,FINISHED,Sunderland AFC,Sunderland,SUN,Brentford FC,Brentford,BRE,2,1,0,0,HOME_TEAM,Anthony Taylor
-537811,2025,3,2025-08-30,FINISHED,Manchester United FC,Man United,MUN,Burnley FC,Burnley,BUR,3,2,1,0,HOME_TEAM,Sam Barrott
-537813,2025,3,2025-08-30,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,AFC Bournemouth,Bournemouth,BOU,0,1,0,1,AWAY_TEAM,Simon Hooper
-537814,2025,3,2025-08-30,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Everton FC,Everton,EVE,2,3,1,2,AWAY_TEAM,Michael Oliver
-537810,2025,3,2025-08-30,FINISHED,Leeds United FC,Leeds United,LEE,Newcastle United FC,Newcastle,NEW,0,0,0,0,DRAW,Peter Bankes
-537807,2025,3,2025-08-31,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Manchester City FC,Man City,MCI,2,1,0,1,HOME_TEAM,Darren England
-537812,2025,3,2025-08-31,FINISHED,Nottingham Forest FC,Nottingham,NOT,West Ham United FC,West Ham,WHU,0,3,0,0,AWAY_TEAM,Craig Pawson
-537809,2025,3,2025-08-31,FINISHED,Liverpool FC,Liverpool,LIV,Arsenal FC,Arsenal,ARS,1,0,0,0,HOME_TEAM,Chris Kavanagh
-537806,2025,3,2025-08-31,FINISHED,Aston Villa FC,Aston Villa,AVL,Crystal Palace FC,Crystal Palace,CRY,0,3,0,1,AWAY_TEAM,Stuart Attwell
-537817,2025,4,2025-09-13,FINISHED,Arsenal FC,Arsenal,ARS,Nottingham Forest FC,Nottingham,NOT,3,0,1,0,HOME_TEAM,Darren England
-537815,2025,4,2025-09-13,FINISHED,AFC Bournemouth,Bournemouth,BOU,Brighton & Hove Albion FC,Brighton Hove,BHA,2,1,1,0,HOME_TEAM,Peter Bankes
-537816,2025,4,2025-09-13,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Sunderland AFC,Sunderland,SUN,0,0,0,0,DRAW,Thomas Bramall
-537820,2025,4,2025-09-13,FINISHED,Everton FC,Everton,EVE,Aston Villa FC,Aston Villa,AVL,0,0,0,0,DRAW,Simon Hooper
-537821,2025,4,2025-09-13,FINISHED,Fulham FC,Fulham,FUL,Leeds United FC,Leeds United,LEE,1,0,0,0,HOME_TEAM,Craig Pawson
-537823,2025,4,2025-09-13,FINISHED,Newcastle United FC,Newcastle,NEW,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,0,1,0,HOME_TEAM,Chris Kavanagh
-537824,2025,4,2025-09-13,FINISHED,West Ham United FC,West Ham,WHU,Tottenham Hotspur FC,Tottenham,TOT,0,3,0,0,AWAY_TEAM,Jarred Gillett
-537818,2025,4,2025-09-13,FINISHED,Brentford FC,Brentford,BRE,Chelsea FC,Chelsea,CHE,2,2,1,0,DRAW,Stuart Attwell
-537819,2025,4,2025-09-14,FINISHED,Burnley FC,Burnley,BUR,Liverpool FC,Liverpool,LIV,0,1,0,0,AWAY_TEAM,Michael Oliver
-537822,2025,4,2025-09-14,FINISHED,Manchester City FC,Man City,MCI,Manchester United FC,Man United,MUN,3,0,1,0,HOME_TEAM,Anthony Taylor
-537831,2025,5,2025-09-20,FINISHED,Liverpool FC,Liverpool,LIV,Everton FC,Everton,EVE,2,1,2,0,HOME_TEAM,Darren England
-537827,2025,5,2025-09-20,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Tottenham Hotspur FC,Tottenham,TOT,2,2,2,1,DRAW,Chris Kavanagh
-537829,2025,5,2025-09-20,FINISHED,Burnley FC,Burnley,BUR,Nottingham Forest FC,Nottingham,NOT,1,1,1,1,DRAW,Thomas Bramall
-537833,2025,5,2025-09-20,FINISHED,West Ham United FC,West Ham,WHU,Crystal Palace FC,Crystal Palace,CRY,1,2,0,1,AWAY_TEAM,Tony Harrington
-537834,2025,5,2025-09-20,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Leeds United FC,Leeds United,LEE,1,3,1,3,AWAY_TEAM,Anthony Taylor
-537832,2025,5,2025-09-20,FINISHED,Manchester United FC,Man United,MUN,Chelsea FC,Chelsea,CHE,2,1,2,0,HOME_TEAM,Peter Bankes
-537830,2025,5,2025-09-20,FINISHED,Fulham FC,Fulham,FUL,Brentford FC,Brentford,BRE,3,1,2,1,HOME_TEAM,Michael Oliver
-537825,2025,5,2025-09-21,FINISHED,AFC Bournemouth,Bournemouth,BOU,Newcastle United FC,Newcastle,NEW,0,0,0,0,DRAW,Robert Jones
-537826,2025,5,2025-09-21,FINISHED,Sunderland AFC,Sunderland,SUN,Aston Villa FC,Aston Villa,AVL,1,1,0,0,DRAW,Sam Barrott
-537828,2025,5,2025-09-21,FINISHED,Arsenal FC,Arsenal,ARS,Manchester City FC,Man City,MCI,1,1,0,1,DRAW,Stuart Attwell
-537837,2025,6,2025-09-27,FINISHED,Brentford FC,Brentford,BRE,Manchester United FC,Man United,MUN,3,1,2,1,HOME_TEAM,Craig Pawson
-537836,2025,6,2025-09-27,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Liverpool FC,Liverpool,LIV,2,1,1,0,HOME_TEAM,Chris Kavanagh
-537838,2025,6,2025-09-27,FINISHED,Chelsea FC,Chelsea,CHE,Brighton & Hove Albion FC,Brighton Hove,BHA,1,3,1,0,AWAY_TEAM,Simon Hooper
-537840,2025,6,2025-09-27,FINISHED,Leeds United FC,Leeds United,LEE,AFC Bournemouth,Bournemouth,BOU,2,2,1,1,DRAW,Michael Oliver
-537841,2025,6,2025-09-27,FINISHED,Manchester City FC,Man City,MCI,Burnley FC,Burnley,BUR,5,1,1,1,HOME_TEAM,Robert Jones
-537843,2025,6,2025-09-27,FINISHED,Nottingham Forest FC,Nottingham,NOT,Sunderland AFC,Sunderland,SUN,0,1,0,1,AWAY_TEAM,Tony Harrington
-537844,2025,6,2025-09-27,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,1,0,0,DRAW,Michael Salisbury
-537835,2025,6,2025-09-28,FINISHED,Aston Villa FC,Aston Villa,AVL,Fulham FC,Fulham,FUL,3,1,1,1,HOME_TEAM,Andy Madley
-537842,2025,6,2025-09-28,FINISHED,Newcastle United FC,Newcastle,NEW,Arsenal FC,Arsenal,ARS,1,2,1,0,AWAY_TEAM,Jarred Gillett
-537839,2025,6,2025-09-29,FINISHED,Everton FC,Everton,EVE,West Ham United FC,West Ham,WHU,1,1,1,0,DRAW,Sam Barrott
-537845,2025,7,2025-10-03,FINISHED,AFC Bournemouth,Bournemouth,BOU,Fulham FC,Fulham,FUL,3,1,0,0,HOME_TEAM,Simon Hooper
-537851,2025,7,2025-10-04,FINISHED,Leeds United FC,Leeds United,LEE,Tottenham Hotspur FC,Tottenham,TOT,1,2,1,1,AWAY_TEAM,Thomas Bramall
-537847,2025,7,2025-10-04,FINISHED,Arsenal FC,Arsenal,ARS,West Ham United FC,West Ham,WHU,2,0,1,0,HOME_TEAM,John Brooks
-537852,2025,7,2025-10-04,FINISHED,Manchester United FC,Man United,MUN,Sunderland AFC,Sunderland,SUN,2,0,2,0,HOME_TEAM,Stuart Attwell
-537849,2025,7,2025-10-04,FINISHED,Chelsea FC,Chelsea,CHE,Liverpool FC,Liverpool,LIV,2,1,1,0,HOME_TEAM,Anthony Taylor
-537846,2025,7,2025-10-05,FINISHED,Aston Villa FC,Aston Villa,AVL,Burnley FC,Burnley,BUR,2,1,1,0,HOME_TEAM,Andrew Kitchen
-537850,2025,7,2025-10-05,FINISHED,Everton FC,Everton,EVE,Crystal Palace FC,Crystal Palace,CRY,2,1,0,1,HOME_TEAM,Michael Salisbury
-537853,2025,7,2025-10-05,FINISHED,Newcastle United FC,Newcastle,NEW,Nottingham Forest FC,Nottingham,NOT,2,0,0,0,HOME_TEAM,Peter Bankes
-537854,2025,7,2025-10-05,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Brighton & Hove Albion FC,Brighton Hove,BHA,1,1,1,0,DRAW,Jarred Gillett
-537848,2025,7,2025-10-05,FINISHED,Brentford FC,Brentford,BRE,Manchester City FC,Man City,MCI,0,1,0,1,AWAY_TEAM,Darren England
-537862,2025,8,2025-10-18,FINISHED,Nottingham Forest FC,Nottingham,NOT,Chelsea FC,Chelsea,CHE,0,3,0,0,AWAY_TEAM,Chris Kavanagh
-537856,2025,8,2025-10-18,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Newcastle United FC,Newcastle,NEW,2,1,1,0,HOME_TEAM,Craig Pawson
-537857,2025,8,2025-10-18,FINISHED,Crystal Palace FC,Crystal Palace,CRY,AFC Bournemouth,Bournemouth,BOU,3,3,0,2,DRAW,Jarred Gillett
-537858,2025,8,2025-10-18,FINISHED,Burnley FC,Burnley,BUR,Leeds United FC,Leeds United,LEE,2,0,1,0,HOME_TEAM,Tim Robinson
-537861,2025,8,2025-10-18,FINISHED,Manchester City FC,Man City,MCI,Everton FC,Everton,EVE,2,0,0,0,HOME_TEAM,Tony Harrington
-537855,2025,8,2025-10-18,FINISHED,Sunderland AFC,Sunderland,SUN,Wolverhampton Wanderers FC,Wolverhampton,WOL,2,0,1,0,HOME_TEAM,Robert Jones
-537859,2025,8,2025-10-18,FINISHED,Fulham FC,Fulham,FUL,Arsenal FC,Arsenal,ARS,0,1,0,0,AWAY_TEAM,Anthony Taylor
-537863,2025,8,2025-10-19,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Aston Villa FC,Aston Villa,AVL,1,2,1,1,AWAY_TEAM,Simon Hooper
-537860,2025,8,2025-10-19,FINISHED,Liverpool FC,Liverpool,LIV,Manchester United FC,Man United,MUN,1,2,0,1,AWAY_TEAM,Michael Oliver
-537864,2025,8,2025-10-20,FINISHED,West Ham United FC,West Ham,WHU,Brentford FC,Brentford,BRE,0,2,0,1,AWAY_TEAM,Andy Madley
-537871,2025,9,2025-10-24,FINISHED,Leeds United FC,Leeds United,LEE,West Ham United FC,West Ham,WHU,2,1,2,0,HOME_TEAM,Stuart Attwell
-537869,2025,9,2025-10-25,FINISHED,Chelsea FC,Chelsea,CHE,Sunderland AFC,Sunderland,SUN,1,2,1,1,AWAY_TEAM,Andy Madley
-537873,2025,9,2025-10-25,FINISHED,Newcastle United FC,Newcastle,NEW,Fulham FC,Fulham,FUL,2,1,1,0,HOME_TEAM,Tony Harrington
-537872,2025,9,2025-10-25,FINISHED,Manchester United FC,Man United,MUN,Brighton & Hove Albion FC,Brighton Hove,BHA,4,2,2,0,HOME_TEAM,Anthony Taylor
-537868,2025,9,2025-10-25,FINISHED,Brentford FC,Brentford,BRE,Liverpool FC,Liverpool,LIV,3,2,2,1,HOME_TEAM,Simon Hooper
-537865,2025,9,2025-10-26,FINISHED,AFC Bournemouth,Bournemouth,BOU,Nottingham Forest FC,Nottingham,NOT,2,0,2,0,HOME_TEAM,Sam Barrott
-537866,2025,9,2025-10-26,FINISHED,Aston Villa FC,Aston Villa,AVL,Manchester City FC,Man City,MCI,1,0,1,0,HOME_TEAM,Michael Oliver
-537867,2025,9,2025-10-26,FINISHED,Arsenal FC,Arsenal,ARS,Crystal Palace FC,Crystal Palace,CRY,1,0,1,0,HOME_TEAM,Thomas Bramall
-537874,2025,9,2025-10-26,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Burnley FC,Burnley,BUR,2,3,2,2,AWAY_TEAM,Peter Bankes
-537870,2025,9,2025-10-26,FINISHED,Everton FC,Everton,EVE,Tottenham Hotspur FC,Tottenham,TOT,0,3,0,2,AWAY_TEAM,Craig Pawson
-537876,2025,10,2025-11-01,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Leeds United FC,Leeds United,LEE,3,0,1,0,HOME_TEAM,Michael Oliver
-537877,2025,10,2025-11-01,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Brentford FC,Brentford,BRE,2,0,1,0,HOME_TEAM,Peter Bankes
-537878,2025,10,2025-11-01,FINISHED,Burnley FC,Burnley,BUR,Arsenal FC,Arsenal,ARS,0,2,0,2,AWAY_TEAM,Chris Kavanagh
-537879,2025,10,2025-11-01,FINISHED,Fulham FC,Fulham,FUL,Wolverhampton Wanderers FC,Wolverhampton,WOL,3,0,1,0,HOME_TEAM,John Brooks
-537882,2025,10,2025-11-01,FINISHED,Nottingham Forest FC,Nottingham,NOT,Manchester United FC,Man United,MUN,2,2,0,1,DRAW,Darren England
-537883,2025,10,2025-11-01,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Chelsea FC,Chelsea,CHE,0,1,0,1,AWAY_TEAM,Jarred Gillett
-537880,2025,10,2025-11-01,FINISHED,Liverpool FC,Liverpool,LIV,Aston Villa FC,Aston Villa,AVL,2,0,1,0,HOME_TEAM,Stuart Attwell
-537884,2025,10,2025-11-02,FINISHED,West Ham United FC,West Ham,WHU,Newcastle United FC,Newcastle,NEW,3,1,2,1,HOME_TEAM,Robert Jones
-537881,2025,10,2025-11-02,FINISHED,Manchester City FC,Man City,MCI,AFC Bournemouth,Bournemouth,BOU,3,1,2,1,HOME_TEAM,Anthony Taylor
-537875,2025,10,2025-11-03,FINISHED,Sunderland AFC,Sunderland,SUN,Everton FC,Everton,EVE,1,1,0,1,DRAW,Thomas Bramall
-537893,2025,11,2025-11-08,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Manchester United FC,Man United,MUN,2,2,0,1,DRAW,Sam Barrott
-537890,2025,11,2025-11-08,FINISHED,Everton FC,Everton,EVE,Fulham FC,Fulham,FUL,2,0,1,0,HOME_TEAM,Andy Madley
-537894,2025,11,2025-11-08,FINISHED,West Ham United FC,West Ham,WHU,Burnley FC,Burnley,BUR,3,2,1,1,HOME_TEAM,Michael Salisbury
-537885,2025,11,2025-11-08,FINISHED,Sunderland AFC,Sunderland,SUN,Arsenal FC,Arsenal,ARS,2,2,1,0,DRAW,Craig Pawson
-537889,2025,11,2025-11-08,FINISHED,Chelsea FC,Chelsea,CHE,Wolverhampton Wanderers FC,Wolverhampton,WOL,3,0,0,0,HOME_TEAM,Andrew Kitchen
-537886,2025,11,2025-11-09,FINISHED,Aston Villa FC,Aston Villa,AVL,AFC Bournemouth,Bournemouth,BOU,4,0,2,0,HOME_TEAM,John Brooks
-537887,2025,11,2025-11-09,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Brighton & Hove Albion FC,Brighton Hove,BHA,0,0,0,0,DRAW,Tim Robinson
-537888,2025,11,2025-11-09,FINISHED,Brentford FC,Brentford,BRE,Newcastle United FC,Newcastle,NEW,3,1,0,1,HOME_TEAM,Stuart Attwell
-537892,2025,11,2025-11-09,FINISHED,Nottingham Forest FC,Nottingham,NOT,Leeds United FC,Leeds United,LEE,3,1,1,1,HOME_TEAM,Jarred Gillett
-537891,2025,11,2025-11-09,FINISHED,Manchester City FC,Man City,MCI,Liverpool FC,Liverpool,LIV,3,0,2,0,HOME_TEAM,Chris Kavanagh
-537898,2025,12,2025-11-22,FINISHED,Burnley FC,Burnley,BUR,Chelsea FC,Chelsea,CHE,0,2,0,1,AWAY_TEAM,Peter Bankes
-537895,2025,12,2025-11-22,FINISHED,AFC Bournemouth,Bournemouth,BOU,West Ham United FC,West Ham,WHU,2,2,0,2,DRAW,Thomas Bramall
-537896,2025,12,2025-11-22,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Brentford FC,Brentford,BRE,2,1,0,1,HOME_TEAM,Chris Kavanagh
-537899,2025,12,2025-11-22,FINISHED,Fulham FC,Fulham,FUL,Sunderland AFC,Sunderland,SUN,1,0,0,0,HOME_TEAM,Darren England
-537900,2025,12,2025-11-22,FINISHED,Liverpool FC,Liverpool,LIV,Nottingham Forest FC,Nottingham,NOT,0,3,0,1,AWAY_TEAM,Andy Madley
-537904,2025,12,2025-11-22,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Crystal Palace FC,Crystal Palace,CRY,0,2,0,0,AWAY_TEAM,Anthony Taylor
-537903,2025,12,2025-11-22,FINISHED,Newcastle United FC,Newcastle,NEW,Manchester City FC,Man City,MCI,2,1,0,0,HOME_TEAM,Sam Barrott
-537901,2025,12,2025-11-23,FINISHED,Leeds United FC,Leeds United,LEE,Aston Villa FC,Aston Villa,AVL,1,2,1,0,AWAY_TEAM,Robert Jones
-537897,2025,12,2025-11-23,FINISHED,Arsenal FC,Arsenal,ARS,Tottenham Hotspur FC,Tottenham,TOT,4,1,2,0,HOME_TEAM,Michael Oliver
-537902,2025,12,2025-11-24,FINISHED,Manchester United FC,Man United,MUN,Everton FC,Everton,EVE,0,1,0,1,AWAY_TEAM,Tony Harrington
-537905,2025,13,2025-11-29,FINISHED,Sunderland AFC,Sunderland,SUN,AFC Bournemouth,Bournemouth,BOU,3,2,1,2,HOME_TEAM,Tim Robinson
-537908,2025,13,2025-11-29,FINISHED,Brentford FC,Brentford,BRE,Burnley FC,Burnley,BUR,3,1,0,0,HOME_TEAM,Sam Barrott
-537911,2025,13,2025-11-29,FINISHED,Manchester City FC,Man City,MCI,Leeds United FC,Leeds United,LEE,3,2,2,0,HOME_TEAM,Peter Bankes
-537910,2025,13,2025-11-29,FINISHED,Everton FC,Everton,EVE,Newcastle United FC,Newcastle,NEW,1,4,0,3,AWAY_TEAM,Craig Pawson
-537913,2025,13,2025-11-29,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Fulham FC,Fulham,FUL,1,2,0,2,AWAY_TEAM,Stuart Attwell
-537907,2025,13,2025-11-30,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Manchester United FC,Man United,MUN,1,2,1,0,AWAY_TEAM,Robert Jones
-537906,2025,13,2025-11-30,FINISHED,Aston Villa FC,Aston Villa,AVL,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,0,0,0,HOME_TEAM,Chris Kavanagh
-537912,2025,13,2025-11-30,FINISHED,Nottingham Forest FC,Nottingham,NOT,Brighton & Hove Albion FC,Brighton Hove,BHA,0,2,0,1,AWAY_TEAM,Michael Oliver
-537914,2025,13,2025-11-30,FINISHED,West Ham United FC,West Ham,WHU,Liverpool FC,Liverpool,LIV,0,2,0,0,AWAY_TEAM,Darren England
-537909,2025,13,2025-11-30,FINISHED,Chelsea FC,Chelsea,CHE,Arsenal FC,Arsenal,ARS,1,1,0,0,DRAW,Anthony Taylor
-537915,2025,14,2025-12-02,FINISHED,AFC Bournemouth,Bournemouth,BOU,Everton FC,Everton,EVE,0,1,0,0,AWAY_TEAM,Michael Salisbury
-537919,2025,14,2025-12-02,FINISHED,Fulham FC,Fulham,FUL,Manchester City FC,Man City,MCI,4,5,1,3,AWAY_TEAM,Craig Pawson
-537923,2025,14,2025-12-02,FINISHED,Newcastle United FC,Newcastle,NEW,Tottenham Hotspur FC,Tottenham,TOT,2,2,0,0,DRAW,Thomas Bramall
-537916,2025,14,2025-12-03,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Aston Villa FC,Aston Villa,AVL,3,4,2,2,AWAY_TEAM,Andy Madley
-537917,2025,14,2025-12-03,FINISHED,Arsenal FC,Arsenal,ARS,Brentford FC,Brentford,BRE,2,0,1,0,HOME_TEAM,Tony Harrington
-537918,2025,14,2025-12-03,FINISHED,Burnley FC,Burnley,BUR,Crystal Palace FC,Crystal Palace,CRY,0,1,0,1,AWAY_TEAM,Thomas Kirk
-537924,2025,14,2025-12-03,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Nottingham Forest FC,Nottingham,NOT,0,1,0,0,AWAY_TEAM,Tim Robinson
-537920,2025,14,2025-12-03,FINISHED,Liverpool FC,Liverpool,LIV,Sunderland AFC,Sunderland,SUN,1,1,0,0,DRAW,Stuart Attwell
-537921,2025,14,2025-12-03,FINISHED,Leeds United FC,Leeds United,LEE,Chelsea FC,Chelsea,CHE,3,1,2,0,HOME_TEAM,Darren England
-537922,2025,14,2025-12-04,FINISHED,Manchester United FC,Man United,MUN,West Ham United FC,West Ham,WHU,1,1,0,0,DRAW,Andrew Kitchen
-537926,2025,15,2025-12-06,FINISHED,Aston Villa FC,Aston Villa,AVL,Arsenal FC,Arsenal,ARS,2,1,1,0,HOME_TEAM,Peter Bankes
-537925,2025,15,2025-12-06,FINISHED,AFC Bournemouth,Bournemouth,BOU,Chelsea FC,Chelsea,CHE,0,0,0,0,DRAW,Michael Oliver
-537928,2025,15,2025-12-06,FINISHED,Everton FC,Everton,EVE,Nottingham Forest FC,Nottingham,NOT,3,0,2,0,HOME_TEAM,Chris Kavanagh
-537931,2025,15,2025-12-06,FINISHED,Manchester City FC,Man City,MCI,Sunderland AFC,Sunderland,SUN,3,0,2,0,HOME_TEAM,Andy Madley
-537932,2025,15,2025-12-06,FINISHED,Newcastle United FC,Newcastle,NEW,Burnley FC,Burnley,BUR,2,1,2,0,HOME_TEAM,Stuart Attwell
-537933,2025,15,2025-12-06,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Brentford FC,Brentford,BRE,2,0,2,0,HOME_TEAM,Robert Jones
-537930,2025,15,2025-12-06,FINISHED,Leeds United FC,Leeds United,LEE,Liverpool FC,Liverpool,LIV,3,3,0,0,DRAW,Anthony Taylor
-537927,2025,15,2025-12-07,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,West Ham United FC,West Ham,WHU,1,1,0,0,DRAW,Simon Hooper
-537929,2025,15,2025-12-07,FINISHED,Fulham FC,Fulham,FUL,Crystal Palace FC,Crystal Palace,CRY,1,2,1,1,AWAY_TEAM,Sam Barrott
-537934,2025,15,2025-12-08,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Manchester United FC,Man United,MUN,1,4,1,1,AWAY_TEAM,Michael Salisbury
-537940,2025,16,2025-12-13,FINISHED,Chelsea FC,Chelsea,CHE,Everton FC,Everton,EVE,2,0,2,0,HOME_TEAM,Thomas Bramall
-537941,2025,16,2025-12-13,FINISHED,Liverpool FC,Liverpool,LIV,Brighton & Hove Albion FC,Brighton Hove,BHA,2,0,1,0,HOME_TEAM,Craig Pawson
-537939,2025,16,2025-12-13,FINISHED,Burnley FC,Burnley,BUR,Fulham FC,Fulham,FUL,2,3,1,2,AWAY_TEAM,Michael Oliver
-537937,2025,16,2025-12-13,FINISHED,Arsenal FC,Arsenal,ARS,Wolverhampton Wanderers FC,Wolverhampton,WOL,2,1,0,0,HOME_TEAM,Robert Jones
-537935,2025,16,2025-12-14,FINISHED,Sunderland AFC,Sunderland,SUN,Newcastle United FC,Newcastle,NEW,1,0,0,0,HOME_TEAM,Peter Bankes
-537936,2025,16,2025-12-14,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Manchester City FC,Man City,MCI,0,3,0,1,AWAY_TEAM,Darren England
-537943,2025,16,2025-12-14,FINISHED,Nottingham Forest FC,Nottingham,NOT,Tottenham Hotspur FC,Tottenham,TOT,3,0,1,0,HOME_TEAM,Sam Barrott
-537944,2025,16,2025-12-14,FINISHED,West Ham United FC,West Ham,WHU,Aston Villa FC,Aston Villa,AVL,2,3,2,1,AWAY_TEAM,Anthony Taylor
-537938,2025,16,2025-12-14,FINISHED,Brentford FC,Brentford,BRE,Leeds United FC,Leeds United,LEE,1,1,0,0,DRAW,John Brooks
-537942,2025,16,2025-12-15,FINISHED,Manchester United FC,Man United,MUN,AFC Bournemouth,Bournemouth,BOU,4,4,2,1,DRAW,Simon Hooper
-537952,2025,17,2025-12-20,FINISHED,Newcastle United FC,Newcastle,NEW,Chelsea FC,Chelsea,CHE,2,2,2,0,DRAW,Andy Madley
-537945,2025,17,2025-12-20,FINISHED,AFC Bournemouth,Bournemouth,BOU,Burnley FC,Burnley,BUR,1,1,0,0,DRAW,Chris Kavanagh
-537947,2025,17,2025-12-20,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Sunderland AFC,Sunderland,SUN,0,0,0,0,DRAW,Darren England
-537951,2025,17,2025-12-20,FINISHED,Manchester City FC,Man City,MCI,West Ham United FC,West Ham,WHU,3,0,2,0,HOME_TEAM,Paul Tierney
-537954,2025,17,2025-12-20,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Brentford FC,Brentford,BRE,0,2,0,0,AWAY_TEAM,Matt Donohue
-537953,2025,17,2025-12-20,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Liverpool FC,Liverpool,LIV,1,2,0,0,AWAY_TEAM,John Brooks
-537948,2025,17,2025-12-20,FINISHED,Everton FC,Everton,EVE,Arsenal FC,Arsenal,ARS,0,1,0,1,AWAY_TEAM,Sam Barrott
-537950,2025,17,2025-12-20,FINISHED,Leeds United FC,Leeds United,LEE,Crystal Palace FC,Crystal Palace,CRY,4,1,2,0,HOME_TEAM,Thomas Bramall
-537946,2025,17,2025-12-21,FINISHED,Aston Villa FC,Aston Villa,AVL,Manchester United FC,Man United,MUN,2,1,1,1,HOME_TEAM,Michael Oliver
-537949,2025,17,2025-12-22,FINISHED,Fulham FC,Fulham,FUL,Nottingham Forest FC,Nottingham,NOT,1,0,1,0,HOME_TEAM,Anthony Taylor
-537962,2025,18,2025-12-26,FINISHED,Manchester United FC,Man United,MUN,Newcastle United FC,Newcastle,NEW,1,0,1,0,HOME_TEAM,Anthony Taylor
-537963,2025,18,2025-12-27,FINISHED,Nottingham Forest FC,Nottingham,NOT,Manchester City FC,Man City,MCI,1,2,0,0,AWAY_TEAM,Robert Jones
-537957,2025,18,2025-12-27,FINISHED,Arsenal FC,Arsenal,ARS,Brighton & Hove Albion FC,Brighton Hove,BHA,2,1,1,0,HOME_TEAM,John Brooks
-537958,2025,18,2025-12-27,FINISHED,Brentford FC,Brentford,BRE,AFC Bournemouth,Bournemouth,BOU,4,1,2,0,HOME_TEAM,Peter Bankes
-537959,2025,18,2025-12-27,FINISHED,Burnley FC,Burnley,BUR,Everton FC,Everton,EVE,0,0,0,0,DRAW,Craig Pawson
-537961,2025,18,2025-12-27,FINISHED,Liverpool FC,Liverpool,LIV,Wolverhampton Wanderers FC,Wolverhampton,WOL,2,1,2,0,HOME_TEAM,Simon Hooper
-537964,2025,18,2025-12-27,FINISHED,West Ham United FC,West Ham,WHU,Fulham FC,Fulham,FUL,0,1,0,0,AWAY_TEAM,Chris Kavanagh
-537960,2025,18,2025-12-27,FINISHED,Chelsea FC,Chelsea,CHE,Aston Villa FC,Aston Villa,AVL,1,2,1,0,AWAY_TEAM,Stuart Attwell
-537955,2025,18,2025-12-28,FINISHED,Sunderland AFC,Sunderland,SUN,Leeds United FC,Leeds United,LEE,1,1,1,0,DRAW,Tony Harrington
-537956,2025,18,2025-12-28,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Tottenham Hotspur FC,Tottenham,TOT,0,1,0,1,AWAY_TEAM,Jarred Gillett
-537969,2025,19,2025-12-30,FINISHED,Burnley FC,Burnley,BUR,Newcastle United FC,Newcastle,NEW,1,3,1,2,AWAY_TEAM,Robert Jones
-537970,2025,19,2025-12-30,FINISHED,Chelsea FC,Chelsea,CHE,AFC Bournemouth,Bournemouth,BOU,2,2,2,2,DRAW,Sam Barrott
-537973,2025,19,2025-12-30,FINISHED,Nottingham Forest FC,Nottingham,NOT,Everton FC,Everton,EVE,0,2,0,1,AWAY_TEAM,Michael Oliver
-537974,2025,19,2025-12-30,FINISHED,West Ham United FC,West Ham,WHU,Brighton & Hove Albion FC,Brighton Hove,BHA,2,2,2,1,DRAW,Michael Salisbury
-537967,2025,19,2025-12-30,FINISHED,Arsenal FC,Arsenal,ARS,Aston Villa FC,Aston Villa,AVL,4,1,0,0,HOME_TEAM,Darren England
-537972,2025,19,2025-12-30,FINISHED,Manchester United FC,Man United,MUN,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,1,1,1,DRAW,Thomas Bramall
-537966,2025,19,2026-01-01,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Fulham FC,Fulham,FUL,1,1,1,0,DRAW,Tony Harrington
-537971,2025,19,2026-01-01,FINISHED,Liverpool FC,Liverpool,LIV,Leeds United FC,Leeds United,LEE,0,0,0,0,DRAW,Chris Kavanagh
-537965,2025,19,2026-01-01,FINISHED,Sunderland AFC,Sunderland,SUN,Manchester City FC,Man City,MCI,0,0,0,0,DRAW,Jarred Gillett
-537968,2025,19,2026-01-01,FINISHED,Brentford FC,Brentford,BRE,Tottenham Hotspur FC,Tottenham,TOT,0,0,0,0,DRAW,Andy Madley
-537976,2025,20,2026-01-03,FINISHED,Aston Villa FC,Aston Villa,AVL,Nottingham Forest FC,Nottingham,NOT,3,1,1,0,HOME_TEAM,Simon Hooper
-537977,2025,20,2026-01-03,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Burnley FC,Burnley,BUR,2,0,1,0,HOME_TEAM,Tim Robinson
-537984,2025,20,2026-01-03,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,West Ham United FC,West Ham,WHU,3,0,3,0,HOME_TEAM,Peter Bankes
-537975,2025,20,2026-01-03,FINISHED,AFC Bournemouth,Bournemouth,BOU,Arsenal FC,Arsenal,ARS,2,3,1,1,AWAY_TEAM,Chris Kavanagh
-537980,2025,20,2026-01-04,FINISHED,Leeds United FC,Leeds United,LEE,Manchester United FC,Man United,MUN,1,1,0,0,DRAW,Jarred Gillett
-537978,2025,20,2026-01-04,FINISHED,Everton FC,Everton,EVE,Brentford FC,Brentford,BRE,2,4,0,1,AWAY_TEAM,Anthony Taylor
-537982,2025,20,2026-01-04,FINISHED,Newcastle United FC,Newcastle,NEW,Crystal Palace FC,Crystal Palace,CRY,2,0,0,0,HOME_TEAM,John Brooks
-537983,2025,20,2026-01-04,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Sunderland AFC,Sunderland,SUN,1,1,1,0,DRAW,Stuart Attwell
-537979,2025,20,2026-01-04,FINISHED,Fulham FC,Fulham,FUL,Liverpool FC,Liverpool,LIV,2,2,1,0,DRAW,Craig Pawson
-537981,2025,20,2026-01-04,FINISHED,Manchester City FC,Man City,MCI,Chelsea FC,Chelsea,CHE,1,1,1,0,DRAW,Michael Oliver
-537994,2025,21,2026-01-06,FINISHED,West Ham United FC,West Ham,WHU,Nottingham Forest FC,Nottingham,NOT,1,2,1,0,AWAY_TEAM,Tony Harrington
-537985,2025,21,2026-01-07,FINISHED,AFC Bournemouth,Bournemouth,BOU,Tottenham Hotspur FC,Tottenham,TOT,3,2,2,1,HOME_TEAM,Darren England
-537986,2025,21,2026-01-07,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Aston Villa FC,Aston Villa,AVL,0,0,0,0,DRAW,Andy Madley
-537988,2025,21,2026-01-07,FINISHED,Brentford FC,Brentford,BRE,Sunderland AFC,Sunderland,SUN,3,0,1,0,HOME_TEAM,Matt Donohue
-537990,2025,21,2026-01-07,FINISHED,Everton FC,Everton,EVE,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,1,1,0,DRAW,Thomas Kirk
-537991,2025,21,2026-01-07,FINISHED,Fulham FC,Fulham,FUL,Chelsea FC,Chelsea,CHE,2,1,0,0,HOME_TEAM,Peter Bankes
-537992,2025,21,2026-01-07,FINISHED,Manchester City FC,Man City,MCI,Brighton & Hove Albion FC,Brighton Hove,BHA,1,1,1,0,DRAW,Thomas Bramall
-537989,2025,21,2026-01-07,FINISHED,Burnley FC,Burnley,BUR,Manchester United FC,Man United,MUN,2,2,1,0,DRAW,Stuart Attwell
-537993,2025,21,2026-01-07,FINISHED,Newcastle United FC,Newcastle,NEW,Leeds United FC,Leeds United,LEE,4,3,1,2,HOME_TEAM,Michael Salisbury
-537987,2025,21,2026-01-08,FINISHED,Arsenal FC,Arsenal,ARS,Liverpool FC,Liverpool,LIV,0,0,0,0,DRAW,Anthony Taylor
-538001,2025,22,2026-01-17,FINISHED,Manchester United FC,Man United,MUN,Manchester City FC,Man City,MCI,2,0,0,0,HOME_TEAM,Anthony Taylor
-537995,2025,22,2026-01-17,FINISHED,Sunderland AFC,Sunderland,SUN,Crystal Palace FC,Crystal Palace,CRY,2,1,1,1,HOME_TEAM,Robert Jones
-537998,2025,22,2026-01-17,FINISHED,Chelsea FC,Chelsea,CHE,Brentford FC,Brentford,BRE,2,0,1,0,HOME_TEAM,John Brooks
-537999,2025,22,2026-01-17,FINISHED,Liverpool FC,Liverpool,LIV,Burnley FC,Burnley,BUR,1,1,1,0,DRAW,Andy Madley
-538000,2025,22,2026-01-17,FINISHED,Leeds United FC,Leeds United,LEE,Fulham FC,Fulham,FUL,1,0,0,0,HOME_TEAM,Chris Kavanagh
-538003,2025,22,2026-01-17,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,West Ham United FC,West Ham,WHU,1,2,0,1,AWAY_TEAM,Jarred Gillett
-538002,2025,22,2026-01-17,FINISHED,Nottingham Forest FC,Nottingham,NOT,Arsenal FC,Arsenal,ARS,0,0,0,0,DRAW,Michael Oliver
-538004,2025,22,2026-01-18,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Newcastle United FC,Newcastle,NEW,0,0,0,0,DRAW,Sam Barrott
-537996,2025,22,2026-01-18,FINISHED,Aston Villa FC,Aston Villa,AVL,Everton FC,Everton,EVE,0,1,0,0,AWAY_TEAM,Tony Harrington
-537997,2025,22,2026-01-19,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,AFC Bournemouth,Bournemouth,BOU,1,1,0,1,DRAW,Paul Tierney
-538014,2025,23,2026-01-24,FINISHED,West Ham United FC,West Ham,WHU,Sunderland AFC,Sunderland,SUN,3,1,3,0,HOME_TEAM,Thomas Bramall
-538009,2025,23,2026-01-24,FINISHED,Burnley FC,Burnley,BUR,Tottenham Hotspur FC,Tottenham,TOT,2,2,1,1,DRAW,Peter Bankes
-538011,2025,23,2026-01-24,FINISHED,Fulham FC,Fulham,FUL,Brighton & Hove Albion FC,Brighton Hove,BHA,2,1,0,1,HOME_TEAM,Michael Oliver
-538012,2025,23,2026-01-24,FINISHED,Manchester City FC,Man City,MCI,Wolverhampton Wanderers FC,Wolverhampton,WOL,2,0,2,0,HOME_TEAM,Farai Hallam
-538005,2025,23,2026-01-24,FINISHED,AFC Bournemouth,Bournemouth,BOU,Liverpool FC,Liverpool,LIV,3,2,2,1,HOME_TEAM,Michael Salisbury
-538006,2025,23,2026-01-25,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Chelsea FC,Chelsea,CHE,1,3,0,1,AWAY_TEAM,Darren England
-538008,2025,23,2026-01-25,FINISHED,Brentford FC,Brentford,BRE,Nottingham Forest FC,Nottingham,NOT,0,2,0,1,AWAY_TEAM,Sam Barrott
-538013,2025,23,2026-01-25,FINISHED,Newcastle United FC,Newcastle,NEW,Aston Villa FC,Aston Villa,AVL,0,2,0,1,AWAY_TEAM,Jarred Gillett
-538007,2025,23,2026-01-25,FINISHED,Arsenal FC,Arsenal,ARS,Manchester United FC,Man United,MUN,2,3,1,1,AWAY_TEAM,Craig Pawson
-538010,2025,23,2026-01-26,FINISHED,Everton FC,Everton,EVE,Leeds United FC,Leeds United,LEE,1,1,0,1,DRAW,Simon Hooper
-538017,2025,24,2026-01-31,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Everton FC,Everton,EVE,1,1,0,0,DRAW,Chris Kavanagh
-538020,2025,24,2026-01-31,FINISHED,Leeds United FC,Leeds United,LEE,Arsenal FC,Arsenal,ARS,0,4,0,2,AWAY_TEAM,Stuart Attwell
-538024,2025,24,2026-01-31,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,AFC Bournemouth,Bournemouth,BOU,0,2,0,1,AWAY_TEAM,Michael Oliver
-538018,2025,24,2026-01-31,FINISHED,Chelsea FC,Chelsea,CHE,West Ham United FC,West Ham,WHU,3,2,0,2,HOME_TEAM,Anthony Taylor
-538019,2025,24,2026-01-31,FINISHED,Liverpool FC,Liverpool,LIV,Newcastle United FC,Newcastle,NEW,4,1,2,1,HOME_TEAM,Simon Hooper
-538016,2025,24,2026-02-01,FINISHED,Aston Villa FC,Aston Villa,AVL,Brentford FC,Brentford,BRE,0,1,0,1,AWAY_TEAM,Tim Robinson
-538021,2025,24,2026-02-01,FINISHED,Manchester United FC,Man United,MUN,Fulham FC,Fulham,FUL,3,2,1,0,HOME_TEAM,John Brooks
-538022,2025,24,2026-02-01,FINISHED,Nottingham Forest FC,Nottingham,NOT,Crystal Palace FC,Crystal Palace,CRY,1,1,1,1,DRAW,Michael Salisbury
-538023,2025,24,2026-02-01,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Manchester City FC,Man City,MCI,2,2,0,2,DRAW,Robert Jones
-538015,2025,24,2026-02-02,FINISHED,Sunderland AFC,Sunderland,SUN,Burnley FC,Burnley,BUR,3,0,2,0,HOME_TEAM,Paul Tierney
-538031,2025,25,2026-02-06,FINISHED,Leeds United FC,Leeds United,LEE,Nottingham Forest FC,Nottingham,NOT,3,1,2,0,HOME_TEAM,Peter Bankes
-538032,2025,25,2026-02-07,FINISHED,Manchester United FC,Man United,MUN,Tottenham Hotspur FC,Tottenham,TOT,2,0,1,0,HOME_TEAM,Michael Oliver
-538025,2025,25,2026-02-07,FINISHED,AFC Bournemouth,Bournemouth,BOU,Aston Villa FC,Aston Villa,AVL,1,1,0,1,DRAW,Anthony Taylor
-538027,2025,25,2026-02-07,FINISHED,Arsenal FC,Arsenal,ARS,Sunderland AFC,Sunderland,SUN,3,0,1,0,HOME_TEAM,Sam Barrott
-538028,2025,25,2026-02-07,FINISHED,Burnley FC,Burnley,BUR,West Ham United FC,West Ham,WHU,0,2,0,2,AWAY_TEAM,Darren England
-538029,2025,25,2026-02-07,FINISHED,Fulham FC,Fulham,FUL,Everton FC,Everton,EVE,1,2,1,0,AWAY_TEAM,Stuart Attwell
-538034,2025,25,2026-02-07,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Chelsea FC,Chelsea,CHE,1,3,0,3,AWAY_TEAM,Jarred Gillett
-538033,2025,25,2026-02-07,FINISHED,Newcastle United FC,Newcastle,NEW,Brentford FC,Brentford,BRE,2,3,1,2,AWAY_TEAM,Andy Madley
-538026,2025,25,2026-02-08,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Crystal Palace FC,Crystal Palace,CRY,0,1,0,0,AWAY_TEAM,Thomas Bramall
-538030,2025,25,2026-02-08,FINISHED,Liverpool FC,Liverpool,LIV,Manchester City FC,Man City,MCI,1,2,0,0,AWAY_TEAM,Craig Pawson
-538039,2025,26,2026-02-10,FINISHED,Chelsea FC,Chelsea,CHE,Leeds United FC,Leeds United,LEE,2,2,1,0,DRAW,Robert Jones
-538040,2025,26,2026-02-10,FINISHED,Everton FC,Everton,EVE,AFC Bournemouth,Bournemouth,BOU,1,2,1,0,AWAY_TEAM,Andy Madley
-538043,2025,26,2026-02-10,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Newcastle United FC,Newcastle,NEW,1,2,0,1,AWAY_TEAM,Anthony Taylor
-538044,2025,26,2026-02-10,FINISHED,West Ham United FC,West Ham,WHU,Manchester United FC,Man United,MUN,1,1,0,0,DRAW,Simon Hooper
-538036,2025,26,2026-02-11,FINISHED,Aston Villa FC,Aston Villa,AVL,Brighton & Hove Albion FC,Brighton Hove,BHA,1,0,0,0,HOME_TEAM,Peter Bankes
-538041,2025,26,2026-02-11,FINISHED,Manchester City FC,Man City,MCI,Fulham FC,Fulham,FUL,3,0,3,0,HOME_TEAM,Paul Tierney
-538042,2025,26,2026-02-11,FINISHED,Nottingham Forest FC,Nottingham,NOT,Wolverhampton Wanderers FC,Wolverhampton,WOL,0,0,0,0,DRAW,Tim Robinson
-538037,2025,26,2026-02-11,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Burnley FC,Burnley,BUR,2,3,2,3,AWAY_TEAM,Farai Hallam
-538035,2025,26,2026-02-11,FINISHED,Sunderland AFC,Sunderland,SUN,Liverpool FC,Liverpool,LIV,0,1,0,0,AWAY_TEAM,Chris Kavanagh
-538038,2025,26,2026-02-12,FINISHED,Brentford FC,Brentford,BRE,Arsenal FC,Arsenal,ARS,1,1,0,0,DRAW,Tony Harrington
-538094,2025,31,2026-02-18,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Arsenal FC,Arsenal,ARS,2,2,0,1,DRAW,Paul Tierney
-538046,2025,27,2026-02-21,FINISHED,Aston Villa FC,Aston Villa,AVL,Leeds United FC,Leeds United,LEE,1,1,0,1,DRAW,Michael Oliver
-538048,2025,27,2026-02-21,FINISHED,Brentford FC,Brentford,BRE,Brighton & Hove Albion FC,Brighton Hove,BHA,0,2,0,2,AWAY_TEAM,Jarred Gillett
-538049,2025,27,2026-02-21,FINISHED,Chelsea FC,Chelsea,CHE,Burnley FC,Burnley,BUR,1,1,1,0,DRAW,Lewis Smith
-538054,2025,27,2026-02-21,FINISHED,West Ham United FC,West Ham,WHU,AFC Bournemouth,Bournemouth,BOU,0,0,0,0,DRAW,Sam Barrott
-538051,2025,27,2026-02-21,FINISHED,Manchester City FC,Man City,MCI,Newcastle United FC,Newcastle,NEW,2,1,2,1,HOME_TEAM,Thomas Bramall
-538045,2025,27,2026-02-22,FINISHED,Sunderland AFC,Sunderland,SUN,Fulham FC,Fulham,FUL,1,3,0,0,AWAY_TEAM,Craig Pawson
-538047,2025,27,2026-02-22,FINISHED,Crystal Palace FC,Crystal Palace,CRY,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,0,0,0,HOME_TEAM,Thomas Kirk
-538052,2025,27,2026-02-22,FINISHED,Nottingham Forest FC,Nottingham,NOT,Liverpool FC,Liverpool,LIV,0,1,0,0,AWAY_TEAM,Anthony Taylor
-538053,2025,27,2026-02-22,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Arsenal FC,Arsenal,ARS,1,4,1,1,AWAY_TEAM,Peter Bankes
-538050,2025,27,2026-02-23,FINISHED,Everton FC,Everton,EVE,Manchester United FC,Man United,MUN,0,1,0,0,AWAY_TEAM,Darren England
-538064,2025,28,2026-02-27,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Aston Villa FC,Aston Villa,AVL,2,0,0,0,HOME_TEAM,Craig Pawson
-538055,2025,28,2026-02-28,FINISHED,AFC Bournemouth,Bournemouth,BOU,Sunderland AFC,Sunderland,SUN,1,1,0,1,DRAW,Jarred Gillett
-538058,2025,28,2026-02-28,FINISHED,Burnley FC,Burnley,BUR,Brentford FC,Brentford,BRE,3,4,1,3,AWAY_TEAM,Sam Barrott
-538060,2025,28,2026-02-28,FINISHED,Liverpool FC,Liverpool,LIV,West Ham United FC,West Ham,WHU,5,2,3,0,HOME_TEAM,Tim Robinson
-538063,2025,28,2026-02-28,FINISHED,Newcastle United FC,Newcastle,NEW,Everton FC,Everton,EVE,2,3,1,2,AWAY_TEAM,Stuart Attwell
-538061,2025,28,2026-02-28,FINISHED,Leeds United FC,Leeds United,LEE,Manchester City FC,Man City,MCI,0,1,0,1,AWAY_TEAM,Peter Bankes
-538056,2025,28,2026-03-01,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Nottingham Forest FC,Nottingham,NOT,2,1,2,1,HOME_TEAM,Andy Madley
-538059,2025,28,2026-03-01,FINISHED,Fulham FC,Fulham,FUL,Tottenham Hotspur FC,Tottenham,TOT,2,1,2,0,HOME_TEAM,Paul Tierney
-538062,2025,28,2026-03-01,FINISHED,Manchester United FC,Man United,MUN,Crystal Palace FC,Crystal Palace,CRY,2,1,0,1,HOME_TEAM,Chris Kavanagh
-538057,2025,28,2026-03-01,FINISHED,Arsenal FC,Arsenal,ARS,Chelsea FC,Chelsea,CHE,2,1,1,1,HOME_TEAM,Darren England
-538065,2025,29,2026-03-03,FINISHED,AFC Bournemouth,Bournemouth,BOU,Brentford FC,Brentford,BRE,0,0,0,0,DRAW,Craig Pawson
-538068,2025,29,2026-03-03,FINISHED,Everton FC,Everton,EVE,Burnley FC,Burnley,BUR,2,0,1,0,HOME_TEAM,Tim Robinson
-538070,2025,29,2026-03-03,FINISHED,Leeds United FC,Leeds United,LEE,Sunderland AFC,Sunderland,SUN,0,1,0,0,AWAY_TEAM,Stuart Attwell
-538074,2025,29,2026-03-03,FINISHED,Wolverhampton Wanderers FC,Wolverhampton,WOL,Liverpool FC,Liverpool,LIV,2,1,0,0,HOME_TEAM,Thomas Bramall
-538066,2025,29,2026-03-04,FINISHED,Aston Villa FC,Aston Villa,AVL,Chelsea FC,Chelsea,CHE,1,4,1,2,AWAY_TEAM,Jarred Gillett
-538067,2025,29,2026-03-04,FINISHED,Brighton & Hove Albion FC,Brighton Hove,BHA,Arsenal FC,Arsenal,ARS,0,1,0,1,AWAY_TEAM,Chris Kavanagh
-538069,2025,29,2026-03-04,FINISHED,Fulham FC,Fulham,FUL,West Ham United FC,West Ham,WHU,0,1,0,0,AWAY_TEAM,Matt Donohue
-538071,2025,29,2026-03-04,FINISHED,Manchester City FC,Man City,MCI,Nottingham Forest FC,Nottingham,NOT,2,2,1,0,DRAW,Darren England
-538072,2025,29,2026-03-04,FINISHED,Newcastle United FC,Newcastle,NEW,Manchester United FC,Man United,MUN,2,1,1,1,HOME_TEAM,Peter Bankes
-538073,2025,29,2026-03-05,FINISHED,Tottenham Hotspur FC,Tottenham,TOT,Crystal Palace FC,Crystal Palace,CRY,1,3,1,3,AWAY_TEAM,Andy Madley
+match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_tla,away_team,away_team_short,away_team_tla,home_goals_ft,away_goals_ft,home_goals_ht,away_goals_ht,result,duration,referee
+537785,2025,1,2025-08-15,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,AFC Bournemouth,Bournemouth,BOU,4,2,1,0,HOME_TEAM,REGULAR,Anthony Taylor
+537786,2025,1,2025-08-16,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Newcastle United FC,Newcastle,NEW,0,0,0,0,DRAW,REGULAR,Craig Pawson
+537787,2025,1,2025-08-16,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Fulham FC,Fulham,FUL,1,1,0,0,DRAW,REGULAR,Sam Barrott
+537789,2025,1,2025-08-16,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,West Ham United FC,West Ham,WHU,3,0,0,0,HOME_TEAM,REGULAR,Robert Jones
+537790,2025,1,2025-08-16,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Burnley FC,Burnley,BUR,3,0,1,0,HOME_TEAM,REGULAR,Michael Oliver
+537791,2025,1,2025-08-16,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Manchester City FC,Man City,MCI,0,4,0,2,AWAY_TEAM,REGULAR,Jarred Gillett
+537788,2025,1,2025-08-17,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Brentford FC,Brentford,BRE,3,1,3,0,HOME_TEAM,REGULAR,Peter Bankes
+537792,2025,1,2025-08-17,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,Crystal Palace FC,Crystal Palace,CRY,0,0,0,0,DRAW,REGULAR,Darren England
+537793,2025,1,2025-08-17,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,Arsenal FC,Arsenal,ARS,0,1,0,1,AWAY_TEAM,REGULAR,Simon Hooper
+537794,2025,1,2025-08-18,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Everton FC,Everton,EVE,1,0,0,0,HOME_TEAM,REGULAR,Chris Kavanagh
+537804,2025,2,2025-08-22,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Chelsea FC,Chelsea,CHE,1,5,1,3,AWAY_TEAM,REGULAR,Michael Oliver
+537802,2025,2,2025-08-23,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Tottenham Hotspur FC,Tottenham,TOT,0,2,0,2,AWAY_TEAM,REGULAR,Peter Bankes
+537795,2025,2,2025-08-23,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,0,1,0,HOME_TEAM,REGULAR,Thomas Bramall
+537798,2025,2,2025-08-23,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Aston Villa FC,Aston Villa,AVL,1,0,1,0,HOME_TEAM,REGULAR,Tony Harrington
+537799,2025,2,2025-08-23,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Sunderland AFC,Sunderland,SUN,2,0,0,0,HOME_TEAM,REGULAR,Michael Salisbury
+537797,2025,2,2025-08-23,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Leeds United FC,Leeds United,LEE,5,0,2,0,HOME_TEAM,REGULAR,Jarred Gillett
+537796,2025,2,2025-08-24,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Nottingham Forest FC,Nottingham,NOT,1,1,1,0,DRAW,REGULAR,Anthony Taylor
+537800,2025,2,2025-08-24,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Brighton & Hove Albion FC,Brighton Hove,BHA,2,0,1,0,HOME_TEAM,REGULAR,Stuart Attwell
+537801,2025,2,2025-08-24,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Manchester United FC,Man United,MUN,1,1,0,0,DRAW,REGULAR,Chris Kavanagh
+537803,2025,2,2025-08-25,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Liverpool FC,Liverpool,LIV,2,3,0,1,AWAY_TEAM,REGULAR,Simon Hooper
+537808,2025,3,2025-08-30,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,Fulham FC,Fulham,FUL,2,0,1,0,HOME_TEAM,REGULAR,Robert Jones
+537805,2025,3,2025-08-30,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,Brentford FC,Brentford,BRE,2,1,0,0,HOME_TEAM,REGULAR,Anthony Taylor
+537811,2025,3,2025-08-30,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,Burnley FC,Burnley,BUR,3,2,1,0,HOME_TEAM,REGULAR,Sam Barrott
+537813,2025,3,2025-08-30,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,AFC Bournemouth,Bournemouth,BOU,0,1,0,1,AWAY_TEAM,REGULAR,Simon Hooper
+537814,2025,3,2025-08-30,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Everton FC,Everton,EVE,2,3,1,2,AWAY_TEAM,REGULAR,Michael Oliver
+537810,2025,3,2025-08-30,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Newcastle United FC,Newcastle,NEW,0,0,0,0,DRAW,REGULAR,Peter Bankes
+537807,2025,3,2025-08-31,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Manchester City FC,Man City,MCI,2,1,0,1,HOME_TEAM,REGULAR,Darren England
+537812,2025,3,2025-08-31,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,West Ham United FC,West Ham,WHU,0,3,0,0,AWAY_TEAM,REGULAR,Craig Pawson
+537809,2025,3,2025-08-31,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,Arsenal FC,Arsenal,ARS,1,0,0,0,HOME_TEAM,REGULAR,Chris Kavanagh
+537806,2025,3,2025-08-31,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Crystal Palace FC,Crystal Palace,CRY,0,3,0,1,AWAY_TEAM,REGULAR,Stuart Attwell
+537817,2025,4,2025-09-13,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Nottingham Forest FC,Nottingham,NOT,3,0,1,0,HOME_TEAM,REGULAR,Darren England
+537815,2025,4,2025-09-13,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Brighton & Hove Albion FC,Brighton Hove,BHA,2,1,1,0,HOME_TEAM,REGULAR,Peter Bankes
+537816,2025,4,2025-09-13,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Sunderland AFC,Sunderland,SUN,0,0,0,0,DRAW,REGULAR,Thomas Bramall
+537820,2025,4,2025-09-13,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Aston Villa FC,Aston Villa,AVL,0,0,0,0,DRAW,REGULAR,Simon Hooper
+537821,2025,4,2025-09-13,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Leeds United FC,Leeds United,LEE,1,0,0,0,HOME_TEAM,REGULAR,Craig Pawson
+537823,2025,4,2025-09-13,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,0,1,0,HOME_TEAM,REGULAR,Chris Kavanagh
+537824,2025,4,2025-09-13,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Tottenham Hotspur FC,Tottenham,TOT,0,3,0,0,AWAY_TEAM,REGULAR,Jarred Gillett
+537818,2025,4,2025-09-13,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Chelsea FC,Chelsea,CHE,2,2,1,0,DRAW,REGULAR,Stuart Attwell
+537819,2025,4,2025-09-14,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Liverpool FC,Liverpool,LIV,0,1,0,0,AWAY_TEAM,REGULAR,Michael Oliver
+537822,2025,4,2025-09-14,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Manchester United FC,Man United,MUN,3,0,1,0,HOME_TEAM,REGULAR,Anthony Taylor
+537831,2025,5,2025-09-20,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,Everton FC,Everton,EVE,2,1,2,0,HOME_TEAM,REGULAR,Darren England
+537827,2025,5,2025-09-20,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Tottenham Hotspur FC,Tottenham,TOT,2,2,2,1,DRAW,REGULAR,Chris Kavanagh
+537829,2025,5,2025-09-20,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Nottingham Forest FC,Nottingham,NOT,1,1,1,1,DRAW,REGULAR,Thomas Bramall
+537833,2025,5,2025-09-20,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Crystal Palace FC,Crystal Palace,CRY,1,2,0,1,AWAY_TEAM,REGULAR,Tony Harrington
+537834,2025,5,2025-09-20,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Leeds United FC,Leeds United,LEE,1,3,1,3,AWAY_TEAM,REGULAR,Anthony Taylor
+537832,2025,5,2025-09-20,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,Chelsea FC,Chelsea,CHE,2,1,2,0,HOME_TEAM,REGULAR,Peter Bankes
+537830,2025,5,2025-09-20,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Brentford FC,Brentford,BRE,3,1,2,1,HOME_TEAM,REGULAR,Michael Oliver
+537825,2025,5,2025-09-21,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Newcastle United FC,Newcastle,NEW,0,0,0,0,DRAW,REGULAR,Robert Jones
+537826,2025,5,2025-09-21,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,Aston Villa FC,Aston Villa,AVL,1,1,0,0,DRAW,REGULAR,Sam Barrott
+537828,2025,5,2025-09-21,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Manchester City FC,Man City,MCI,1,1,0,1,DRAW,REGULAR,Stuart Attwell
+537837,2025,6,2025-09-27,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Manchester United FC,Man United,MUN,3,1,2,1,HOME_TEAM,REGULAR,Craig Pawson
+537836,2025,6,2025-09-27,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Liverpool FC,Liverpool,LIV,2,1,1,0,HOME_TEAM,REGULAR,Chris Kavanagh
+537838,2025,6,2025-09-27,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,Brighton & Hove Albion FC,Brighton Hove,BHA,1,3,1,0,AWAY_TEAM,REGULAR,Simon Hooper
+537840,2025,6,2025-09-27,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,AFC Bournemouth,Bournemouth,BOU,2,2,1,1,DRAW,REGULAR,Michael Oliver
+537841,2025,6,2025-09-27,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Burnley FC,Burnley,BUR,5,1,1,1,HOME_TEAM,REGULAR,Robert Jones
+537843,2025,6,2025-09-27,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Sunderland AFC,Sunderland,SUN,0,1,0,1,AWAY_TEAM,REGULAR,Tony Harrington
+537844,2025,6,2025-09-27,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,1,0,0,DRAW,REGULAR,Michael Salisbury
+537835,2025,6,2025-09-28,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Fulham FC,Fulham,FUL,3,1,1,1,HOME_TEAM,REGULAR,Andy Madley
+537842,2025,6,2025-09-28,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Arsenal FC,Arsenal,ARS,1,2,1,0,AWAY_TEAM,REGULAR,Jarred Gillett
+537839,2025,6,2025-09-29,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,West Ham United FC,West Ham,WHU,1,1,1,0,DRAW,REGULAR,Sam Barrott
+537845,2025,7,2025-10-03,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Fulham FC,Fulham,FUL,3,1,0,0,HOME_TEAM,REGULAR,Simon Hooper
+537851,2025,7,2025-10-04,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Tottenham Hotspur FC,Tottenham,TOT,1,2,1,1,AWAY_TEAM,REGULAR,Thomas Bramall
+537847,2025,7,2025-10-04,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,West Ham United FC,West Ham,WHU,2,0,1,0,HOME_TEAM,REGULAR,John Brooks
+537852,2025,7,2025-10-04,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,Sunderland AFC,Sunderland,SUN,2,0,2,0,HOME_TEAM,REGULAR,Stuart Attwell
+537849,2025,7,2025-10-04,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,Liverpool FC,Liverpool,LIV,2,1,1,0,HOME_TEAM,REGULAR,Anthony Taylor
+537846,2025,7,2025-10-05,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Burnley FC,Burnley,BUR,2,1,1,0,HOME_TEAM,REGULAR,Andrew Kitchen
+537850,2025,7,2025-10-05,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Crystal Palace FC,Crystal Palace,CRY,2,1,0,1,HOME_TEAM,REGULAR,Michael Salisbury
+537853,2025,7,2025-10-05,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Nottingham Forest FC,Nottingham,NOT,2,0,0,0,HOME_TEAM,REGULAR,Peter Bankes
+537854,2025,7,2025-10-05,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Brighton & Hove Albion FC,Brighton Hove,BHA,1,1,1,0,DRAW,REGULAR,Jarred Gillett
+537848,2025,7,2025-10-05,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Manchester City FC,Man City,MCI,0,1,0,1,AWAY_TEAM,REGULAR,Darren England
+537862,2025,8,2025-10-18,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Chelsea FC,Chelsea,CHE,0,3,0,0,AWAY_TEAM,REGULAR,Chris Kavanagh
+537856,2025,8,2025-10-18,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Newcastle United FC,Newcastle,NEW,2,1,1,0,HOME_TEAM,REGULAR,Craig Pawson
+537857,2025,8,2025-10-18,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,AFC Bournemouth,Bournemouth,BOU,3,3,0,2,DRAW,REGULAR,Jarred Gillett
+537858,2025,8,2025-10-18,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Leeds United FC,Leeds United,LEE,2,0,1,0,HOME_TEAM,REGULAR,Tim Robinson
+537861,2025,8,2025-10-18,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Everton FC,Everton,EVE,2,0,0,0,HOME_TEAM,REGULAR,Tony Harrington
+537855,2025,8,2025-10-18,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,Wolverhampton Wanderers FC,Wolverhampton,WOL,2,0,1,0,HOME_TEAM,REGULAR,Robert Jones
+537859,2025,8,2025-10-18,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Arsenal FC,Arsenal,ARS,0,1,0,0,AWAY_TEAM,REGULAR,Anthony Taylor
+537863,2025,8,2025-10-19,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Aston Villa FC,Aston Villa,AVL,1,2,1,1,AWAY_TEAM,REGULAR,Simon Hooper
+537860,2025,8,2025-10-19,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,Manchester United FC,Man United,MUN,1,2,0,1,AWAY_TEAM,REGULAR,Michael Oliver
+537864,2025,8,2025-10-20,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Brentford FC,Brentford,BRE,0,2,0,1,AWAY_TEAM,REGULAR,Andy Madley
+537871,2025,9,2025-10-24,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,West Ham United FC,West Ham,WHU,2,1,2,0,HOME_TEAM,REGULAR,Stuart Attwell
+537869,2025,9,2025-10-25,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,Sunderland AFC,Sunderland,SUN,1,2,1,1,AWAY_TEAM,REGULAR,Andy Madley
+537873,2025,9,2025-10-25,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Fulham FC,Fulham,FUL,2,1,1,0,HOME_TEAM,REGULAR,Tony Harrington
+537872,2025,9,2025-10-25,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,Brighton & Hove Albion FC,Brighton Hove,BHA,4,2,2,0,HOME_TEAM,REGULAR,Anthony Taylor
+537868,2025,9,2025-10-25,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Liverpool FC,Liverpool,LIV,3,2,2,1,HOME_TEAM,REGULAR,Simon Hooper
+537865,2025,9,2025-10-26,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Nottingham Forest FC,Nottingham,NOT,2,0,2,0,HOME_TEAM,REGULAR,Sam Barrott
+537866,2025,9,2025-10-26,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Manchester City FC,Man City,MCI,1,0,1,0,HOME_TEAM,REGULAR,Michael Oliver
+537867,2025,9,2025-10-26,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Crystal Palace FC,Crystal Palace,CRY,1,0,1,0,HOME_TEAM,REGULAR,Thomas Bramall
+537874,2025,9,2025-10-26,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Burnley FC,Burnley,BUR,2,3,2,2,AWAY_TEAM,REGULAR,Peter Bankes
+537870,2025,9,2025-10-26,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Tottenham Hotspur FC,Tottenham,TOT,0,3,0,2,AWAY_TEAM,REGULAR,Craig Pawson
+537876,2025,10,2025-11-01,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Leeds United FC,Leeds United,LEE,3,0,1,0,HOME_TEAM,REGULAR,Michael Oliver
+537877,2025,10,2025-11-01,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Brentford FC,Brentford,BRE,2,0,1,0,HOME_TEAM,REGULAR,Peter Bankes
+537878,2025,10,2025-11-01,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Arsenal FC,Arsenal,ARS,0,2,0,2,AWAY_TEAM,REGULAR,Chris Kavanagh
+537879,2025,10,2025-11-01,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Wolverhampton Wanderers FC,Wolverhampton,WOL,3,0,1,0,HOME_TEAM,REGULAR,John Brooks
+537882,2025,10,2025-11-01,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Manchester United FC,Man United,MUN,2,2,0,1,DRAW,REGULAR,Darren England
+537883,2025,10,2025-11-01,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Chelsea FC,Chelsea,CHE,0,1,0,1,AWAY_TEAM,REGULAR,Jarred Gillett
+537880,2025,10,2025-11-01,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,Aston Villa FC,Aston Villa,AVL,2,0,1,0,HOME_TEAM,REGULAR,Stuart Attwell
+537884,2025,10,2025-11-02,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Newcastle United FC,Newcastle,NEW,3,1,2,1,HOME_TEAM,REGULAR,Robert Jones
+537881,2025,10,2025-11-02,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,AFC Bournemouth,Bournemouth,BOU,3,1,2,1,HOME_TEAM,REGULAR,Anthony Taylor
+537875,2025,10,2025-11-03,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,Everton FC,Everton,EVE,1,1,0,1,DRAW,REGULAR,Thomas Bramall
+537893,2025,11,2025-11-08,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Manchester United FC,Man United,MUN,2,2,0,1,DRAW,REGULAR,Sam Barrott
+537890,2025,11,2025-11-08,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Fulham FC,Fulham,FUL,2,0,1,0,HOME_TEAM,REGULAR,Andy Madley
+537894,2025,11,2025-11-08,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Burnley FC,Burnley,BUR,3,2,1,1,HOME_TEAM,REGULAR,Michael Salisbury
+537885,2025,11,2025-11-08,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,Arsenal FC,Arsenal,ARS,2,2,1,0,DRAW,REGULAR,Craig Pawson
+537889,2025,11,2025-11-08,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,Wolverhampton Wanderers FC,Wolverhampton,WOL,3,0,0,0,HOME_TEAM,REGULAR,Andrew Kitchen
+537886,2025,11,2025-11-09,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,AFC Bournemouth,Bournemouth,BOU,4,0,2,0,HOME_TEAM,REGULAR,John Brooks
+537887,2025,11,2025-11-09,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Brighton & Hove Albion FC,Brighton Hove,BHA,0,0,0,0,DRAW,REGULAR,Tim Robinson
+537888,2025,11,2025-11-09,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Newcastle United FC,Newcastle,NEW,3,1,0,1,HOME_TEAM,REGULAR,Stuart Attwell
+537892,2025,11,2025-11-09,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Leeds United FC,Leeds United,LEE,3,1,1,1,HOME_TEAM,REGULAR,Jarred Gillett
+537891,2025,11,2025-11-09,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Liverpool FC,Liverpool,LIV,3,0,2,0,HOME_TEAM,REGULAR,Chris Kavanagh
+537898,2025,12,2025-11-22,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Chelsea FC,Chelsea,CHE,0,2,0,1,AWAY_TEAM,REGULAR,Peter Bankes
+537895,2025,12,2025-11-22,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,West Ham United FC,West Ham,WHU,2,2,0,2,DRAW,REGULAR,Thomas Bramall
+537896,2025,12,2025-11-22,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Brentford FC,Brentford,BRE,2,1,0,1,HOME_TEAM,REGULAR,Chris Kavanagh
+537899,2025,12,2025-11-22,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Sunderland AFC,Sunderland,SUN,1,0,0,0,HOME_TEAM,REGULAR,Darren England
+537900,2025,12,2025-11-22,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,Nottingham Forest FC,Nottingham,NOT,0,3,0,1,AWAY_TEAM,REGULAR,Andy Madley
+537904,2025,12,2025-11-22,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Crystal Palace FC,Crystal Palace,CRY,0,2,0,0,AWAY_TEAM,REGULAR,Anthony Taylor
+537903,2025,12,2025-11-22,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Manchester City FC,Man City,MCI,2,1,0,0,HOME_TEAM,REGULAR,Sam Barrott
+537901,2025,12,2025-11-23,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Aston Villa FC,Aston Villa,AVL,1,2,1,0,AWAY_TEAM,REGULAR,Robert Jones
+537897,2025,12,2025-11-23,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Tottenham Hotspur FC,Tottenham,TOT,4,1,2,0,HOME_TEAM,REGULAR,Michael Oliver
+537902,2025,12,2025-11-24,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,Everton FC,Everton,EVE,0,1,0,1,AWAY_TEAM,REGULAR,Tony Harrington
+537905,2025,13,2025-11-29,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,AFC Bournemouth,Bournemouth,BOU,3,2,1,2,HOME_TEAM,REGULAR,Tim Robinson
+537908,2025,13,2025-11-29,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Burnley FC,Burnley,BUR,3,1,0,0,HOME_TEAM,REGULAR,Sam Barrott
+537911,2025,13,2025-11-29,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Leeds United FC,Leeds United,LEE,3,2,2,0,HOME_TEAM,REGULAR,Peter Bankes
+537910,2025,13,2025-11-29,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Newcastle United FC,Newcastle,NEW,1,4,0,3,AWAY_TEAM,REGULAR,Craig Pawson
+537913,2025,13,2025-11-29,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Fulham FC,Fulham,FUL,1,2,0,2,AWAY_TEAM,REGULAR,Stuart Attwell
+537907,2025,13,2025-11-30,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Manchester United FC,Man United,MUN,1,2,1,0,AWAY_TEAM,REGULAR,Robert Jones
+537906,2025,13,2025-11-30,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,0,0,0,HOME_TEAM,REGULAR,Chris Kavanagh
+537912,2025,13,2025-11-30,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Brighton & Hove Albion FC,Brighton Hove,BHA,0,2,0,1,AWAY_TEAM,REGULAR,Michael Oliver
+537914,2025,13,2025-11-30,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Liverpool FC,Liverpool,LIV,0,2,0,0,AWAY_TEAM,REGULAR,Darren England
+537909,2025,13,2025-11-30,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,Arsenal FC,Arsenal,ARS,1,1,0,0,DRAW,REGULAR,Anthony Taylor
+537915,2025,14,2025-12-02,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Everton FC,Everton,EVE,0,1,0,0,AWAY_TEAM,REGULAR,Michael Salisbury
+537919,2025,14,2025-12-02,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Manchester City FC,Man City,MCI,4,5,1,3,AWAY_TEAM,REGULAR,Craig Pawson
+537923,2025,14,2025-12-02,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Tottenham Hotspur FC,Tottenham,TOT,2,2,0,0,DRAW,REGULAR,Thomas Bramall
+537916,2025,14,2025-12-03,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Aston Villa FC,Aston Villa,AVL,3,4,2,2,AWAY_TEAM,REGULAR,Andy Madley
+537917,2025,14,2025-12-03,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Brentford FC,Brentford,BRE,2,0,1,0,HOME_TEAM,REGULAR,Tony Harrington
+537918,2025,14,2025-12-03,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Crystal Palace FC,Crystal Palace,CRY,0,1,0,1,AWAY_TEAM,REGULAR,Thomas Kirk
+537924,2025,14,2025-12-03,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Nottingham Forest FC,Nottingham,NOT,0,1,0,0,AWAY_TEAM,REGULAR,Tim Robinson
+537920,2025,14,2025-12-03,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,Sunderland AFC,Sunderland,SUN,1,1,0,0,DRAW,REGULAR,Stuart Attwell
+537921,2025,14,2025-12-03,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Chelsea FC,Chelsea,CHE,3,1,2,0,HOME_TEAM,REGULAR,Darren England
+537922,2025,14,2025-12-04,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,West Ham United FC,West Ham,WHU,1,1,0,0,DRAW,REGULAR,Andrew Kitchen
+537926,2025,15,2025-12-06,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Arsenal FC,Arsenal,ARS,2,1,1,0,HOME_TEAM,REGULAR,Peter Bankes
+537925,2025,15,2025-12-06,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Chelsea FC,Chelsea,CHE,0,0,0,0,DRAW,REGULAR,Michael Oliver
+537928,2025,15,2025-12-06,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Nottingham Forest FC,Nottingham,NOT,3,0,2,0,HOME_TEAM,REGULAR,Chris Kavanagh
+537931,2025,15,2025-12-06,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Sunderland AFC,Sunderland,SUN,3,0,2,0,HOME_TEAM,REGULAR,Andy Madley
+537932,2025,15,2025-12-06,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Burnley FC,Burnley,BUR,2,1,2,0,HOME_TEAM,REGULAR,Stuart Attwell
+537933,2025,15,2025-12-06,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Brentford FC,Brentford,BRE,2,0,2,0,HOME_TEAM,REGULAR,Robert Jones
+537930,2025,15,2025-12-06,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Liverpool FC,Liverpool,LIV,3,3,0,0,DRAW,REGULAR,Anthony Taylor
+537927,2025,15,2025-12-07,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,West Ham United FC,West Ham,WHU,1,1,0,0,DRAW,REGULAR,Simon Hooper
+537929,2025,15,2025-12-07,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Crystal Palace FC,Crystal Palace,CRY,1,2,1,1,AWAY_TEAM,REGULAR,Sam Barrott
+537934,2025,15,2025-12-08,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Manchester United FC,Man United,MUN,1,4,1,1,AWAY_TEAM,REGULAR,Michael Salisbury
+537940,2025,16,2025-12-13,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,Everton FC,Everton,EVE,2,0,2,0,HOME_TEAM,REGULAR,Thomas Bramall
+537941,2025,16,2025-12-13,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,Brighton & Hove Albion FC,Brighton Hove,BHA,2,0,1,0,HOME_TEAM,REGULAR,Craig Pawson
+537939,2025,16,2025-12-13,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Fulham FC,Fulham,FUL,2,3,1,2,AWAY_TEAM,REGULAR,Michael Oliver
+537937,2025,16,2025-12-13,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Wolverhampton Wanderers FC,Wolverhampton,WOL,2,1,0,0,HOME_TEAM,REGULAR,Robert Jones
+537935,2025,16,2025-12-14,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,Newcastle United FC,Newcastle,NEW,1,0,0,0,HOME_TEAM,REGULAR,Peter Bankes
+537936,2025,16,2025-12-14,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Manchester City FC,Man City,MCI,0,3,0,1,AWAY_TEAM,REGULAR,Darren England
+537943,2025,16,2025-12-14,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Tottenham Hotspur FC,Tottenham,TOT,3,0,1,0,HOME_TEAM,REGULAR,Sam Barrott
+537944,2025,16,2025-12-14,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Aston Villa FC,Aston Villa,AVL,2,3,2,1,AWAY_TEAM,REGULAR,Anthony Taylor
+537938,2025,16,2025-12-14,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Leeds United FC,Leeds United,LEE,1,1,0,0,DRAW,REGULAR,John Brooks
+537942,2025,16,2025-12-15,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,AFC Bournemouth,Bournemouth,BOU,4,4,2,1,DRAW,REGULAR,Simon Hooper
+537952,2025,17,2025-12-20,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Chelsea FC,Chelsea,CHE,2,2,2,0,DRAW,REGULAR,Andy Madley
+537945,2025,17,2025-12-20,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Burnley FC,Burnley,BUR,1,1,0,0,DRAW,REGULAR,Chris Kavanagh
+537947,2025,17,2025-12-20,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Sunderland AFC,Sunderland,SUN,0,0,0,0,DRAW,REGULAR,Darren England
+537951,2025,17,2025-12-20,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,West Ham United FC,West Ham,WHU,3,0,2,0,HOME_TEAM,REGULAR,Paul Tierney
+537954,2025,17,2025-12-20,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Brentford FC,Brentford,BRE,0,2,0,0,AWAY_TEAM,REGULAR,Matt Donohue
+537953,2025,17,2025-12-20,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Liverpool FC,Liverpool,LIV,1,2,0,0,AWAY_TEAM,REGULAR,John Brooks
+537948,2025,17,2025-12-20,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Arsenal FC,Arsenal,ARS,0,1,0,1,AWAY_TEAM,REGULAR,Sam Barrott
+537950,2025,17,2025-12-20,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Crystal Palace FC,Crystal Palace,CRY,4,1,2,0,HOME_TEAM,REGULAR,Thomas Bramall
+537946,2025,17,2025-12-21,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Manchester United FC,Man United,MUN,2,1,1,1,HOME_TEAM,REGULAR,Michael Oliver
+537949,2025,17,2025-12-22,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Nottingham Forest FC,Nottingham,NOT,1,0,1,0,HOME_TEAM,REGULAR,Anthony Taylor
+537962,2025,18,2025-12-26,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,Newcastle United FC,Newcastle,NEW,1,0,1,0,HOME_TEAM,REGULAR,Anthony Taylor
+537963,2025,18,2025-12-27,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Manchester City FC,Man City,MCI,1,2,0,0,AWAY_TEAM,REGULAR,Robert Jones
+537957,2025,18,2025-12-27,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Brighton & Hove Albion FC,Brighton Hove,BHA,2,1,1,0,HOME_TEAM,REGULAR,John Brooks
+537958,2025,18,2025-12-27,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,AFC Bournemouth,Bournemouth,BOU,4,1,2,0,HOME_TEAM,REGULAR,Peter Bankes
+537959,2025,18,2025-12-27,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Everton FC,Everton,EVE,0,0,0,0,DRAW,REGULAR,Craig Pawson
+537961,2025,18,2025-12-27,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,Wolverhampton Wanderers FC,Wolverhampton,WOL,2,1,2,0,HOME_TEAM,REGULAR,Simon Hooper
+537964,2025,18,2025-12-27,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Fulham FC,Fulham,FUL,0,1,0,0,AWAY_TEAM,REGULAR,Chris Kavanagh
+537960,2025,18,2025-12-27,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,Aston Villa FC,Aston Villa,AVL,1,2,1,0,AWAY_TEAM,REGULAR,Stuart Attwell
+537955,2025,18,2025-12-28,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,Leeds United FC,Leeds United,LEE,1,1,1,0,DRAW,REGULAR,Tony Harrington
+537956,2025,18,2025-12-28,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Tottenham Hotspur FC,Tottenham,TOT,0,1,0,1,AWAY_TEAM,REGULAR,Jarred Gillett
+537969,2025,19,2025-12-30,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Newcastle United FC,Newcastle,NEW,1,3,1,2,AWAY_TEAM,REGULAR,Robert Jones
+537970,2025,19,2025-12-30,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,AFC Bournemouth,Bournemouth,BOU,2,2,2,2,DRAW,REGULAR,Sam Barrott
+537973,2025,19,2025-12-30,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Everton FC,Everton,EVE,0,2,0,1,AWAY_TEAM,REGULAR,Michael Oliver
+537974,2025,19,2025-12-30,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Brighton & Hove Albion FC,Brighton Hove,BHA,2,2,2,1,DRAW,REGULAR,Michael Salisbury
+537967,2025,19,2025-12-30,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Aston Villa FC,Aston Villa,AVL,4,1,0,0,HOME_TEAM,REGULAR,Darren England
+537972,2025,19,2025-12-30,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,1,1,1,DRAW,REGULAR,Thomas Bramall
+537966,2025,19,2026-01-01,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Fulham FC,Fulham,FUL,1,1,1,0,DRAW,REGULAR,Tony Harrington
+537971,2025,19,2026-01-01,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,Leeds United FC,Leeds United,LEE,0,0,0,0,DRAW,REGULAR,Chris Kavanagh
+537965,2025,19,2026-01-01,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,Manchester City FC,Man City,MCI,0,0,0,0,DRAW,REGULAR,Jarred Gillett
+537968,2025,19,2026-01-01,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Tottenham Hotspur FC,Tottenham,TOT,0,0,0,0,DRAW,REGULAR,Andy Madley
+537976,2025,20,2026-01-03,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Nottingham Forest FC,Nottingham,NOT,3,1,1,0,HOME_TEAM,REGULAR,Simon Hooper
+537977,2025,20,2026-01-03,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Burnley FC,Burnley,BUR,2,0,1,0,HOME_TEAM,REGULAR,Tim Robinson
+537984,2025,20,2026-01-03,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,West Ham United FC,West Ham,WHU,3,0,3,0,HOME_TEAM,REGULAR,Peter Bankes
+537975,2025,20,2026-01-03,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Arsenal FC,Arsenal,ARS,2,3,1,1,AWAY_TEAM,REGULAR,Chris Kavanagh
+537980,2025,20,2026-01-04,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Manchester United FC,Man United,MUN,1,1,0,0,DRAW,REGULAR,Jarred Gillett
+537978,2025,20,2026-01-04,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Brentford FC,Brentford,BRE,2,4,0,1,AWAY_TEAM,REGULAR,Anthony Taylor
+537982,2025,20,2026-01-04,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Crystal Palace FC,Crystal Palace,CRY,2,0,0,0,HOME_TEAM,REGULAR,John Brooks
+537983,2025,20,2026-01-04,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Sunderland AFC,Sunderland,SUN,1,1,1,0,DRAW,REGULAR,Stuart Attwell
+537979,2025,20,2026-01-04,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Liverpool FC,Liverpool,LIV,2,2,1,0,DRAW,REGULAR,Craig Pawson
+537981,2025,20,2026-01-04,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Chelsea FC,Chelsea,CHE,1,1,1,0,DRAW,REGULAR,Michael Oliver
+537994,2025,21,2026-01-06,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Nottingham Forest FC,Nottingham,NOT,1,2,1,0,AWAY_TEAM,REGULAR,Tony Harrington
+537985,2025,21,2026-01-07,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Tottenham Hotspur FC,Tottenham,TOT,3,2,2,1,HOME_TEAM,REGULAR,Darren England
+537986,2025,21,2026-01-07,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Aston Villa FC,Aston Villa,AVL,0,0,0,0,DRAW,REGULAR,Andy Madley
+537988,2025,21,2026-01-07,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Sunderland AFC,Sunderland,SUN,3,0,1,0,HOME_TEAM,REGULAR,Matt Donohue
+537990,2025,21,2026-01-07,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,1,1,0,DRAW,REGULAR,Thomas Kirk
+537991,2025,21,2026-01-07,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Chelsea FC,Chelsea,CHE,2,1,0,0,HOME_TEAM,REGULAR,Peter Bankes
+537992,2025,21,2026-01-07,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Brighton & Hove Albion FC,Brighton Hove,BHA,1,1,1,0,DRAW,REGULAR,Thomas Bramall
+537989,2025,21,2026-01-07,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Manchester United FC,Man United,MUN,2,2,1,0,DRAW,REGULAR,Stuart Attwell
+537993,2025,21,2026-01-07,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Leeds United FC,Leeds United,LEE,4,3,1,2,HOME_TEAM,REGULAR,Michael Salisbury
+537987,2025,21,2026-01-08,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Liverpool FC,Liverpool,LIV,0,0,0,0,DRAW,REGULAR,Anthony Taylor
+538001,2025,22,2026-01-17,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,Manchester City FC,Man City,MCI,2,0,0,0,HOME_TEAM,REGULAR,Anthony Taylor
+537995,2025,22,2026-01-17,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,Crystal Palace FC,Crystal Palace,CRY,2,1,1,1,HOME_TEAM,REGULAR,Robert Jones
+537998,2025,22,2026-01-17,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,Brentford FC,Brentford,BRE,2,0,1,0,HOME_TEAM,REGULAR,John Brooks
+537999,2025,22,2026-01-17,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,Burnley FC,Burnley,BUR,1,1,1,0,DRAW,REGULAR,Andy Madley
+538000,2025,22,2026-01-17,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Fulham FC,Fulham,FUL,1,0,0,0,HOME_TEAM,REGULAR,Chris Kavanagh
+538003,2025,22,2026-01-17,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,West Ham United FC,West Ham,WHU,1,2,0,1,AWAY_TEAM,REGULAR,Jarred Gillett
+538002,2025,22,2026-01-17,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Arsenal FC,Arsenal,ARS,0,0,0,0,DRAW,REGULAR,Michael Oliver
+538004,2025,22,2026-01-18,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Newcastle United FC,Newcastle,NEW,0,0,0,0,DRAW,REGULAR,Sam Barrott
+537996,2025,22,2026-01-18,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Everton FC,Everton,EVE,0,1,0,0,AWAY_TEAM,REGULAR,Tony Harrington
+537997,2025,22,2026-01-19,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,AFC Bournemouth,Bournemouth,BOU,1,1,0,1,DRAW,REGULAR,Paul Tierney
+538014,2025,23,2026-01-24,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Sunderland AFC,Sunderland,SUN,3,1,3,0,HOME_TEAM,REGULAR,Thomas Bramall
+538009,2025,23,2026-01-24,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Tottenham Hotspur FC,Tottenham,TOT,2,2,1,1,DRAW,REGULAR,Peter Bankes
+538011,2025,23,2026-01-24,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Brighton & Hove Albion FC,Brighton Hove,BHA,2,1,0,1,HOME_TEAM,REGULAR,Michael Oliver
+538012,2025,23,2026-01-24,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Wolverhampton Wanderers FC,Wolverhampton,WOL,2,0,2,0,HOME_TEAM,REGULAR,Farai Hallam
+538005,2025,23,2026-01-24,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Liverpool FC,Liverpool,LIV,3,2,2,1,HOME_TEAM,REGULAR,Michael Salisbury
+538006,2025,23,2026-01-25,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Chelsea FC,Chelsea,CHE,1,3,0,1,AWAY_TEAM,REGULAR,Darren England
+538008,2025,23,2026-01-25,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Nottingham Forest FC,Nottingham,NOT,0,2,0,1,AWAY_TEAM,REGULAR,Sam Barrott
+538013,2025,23,2026-01-25,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Aston Villa FC,Aston Villa,AVL,0,2,0,1,AWAY_TEAM,REGULAR,Jarred Gillett
+538007,2025,23,2026-01-25,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Manchester United FC,Man United,MUN,2,3,1,1,AWAY_TEAM,REGULAR,Craig Pawson
+538010,2025,23,2026-01-26,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Leeds United FC,Leeds United,LEE,1,1,0,1,DRAW,REGULAR,Simon Hooper
+538017,2025,24,2026-01-31,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Everton FC,Everton,EVE,1,1,0,0,DRAW,REGULAR,Chris Kavanagh
+538020,2025,24,2026-01-31,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Arsenal FC,Arsenal,ARS,0,4,0,2,AWAY_TEAM,REGULAR,Stuart Attwell
+538024,2025,24,2026-01-31,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,AFC Bournemouth,Bournemouth,BOU,0,2,0,1,AWAY_TEAM,REGULAR,Michael Oliver
+538018,2025,24,2026-01-31,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,West Ham United FC,West Ham,WHU,3,2,0,2,HOME_TEAM,REGULAR,Anthony Taylor
+538019,2025,24,2026-01-31,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,Newcastle United FC,Newcastle,NEW,4,1,2,1,HOME_TEAM,REGULAR,Simon Hooper
+538016,2025,24,2026-02-01,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Brentford FC,Brentford,BRE,0,1,0,1,AWAY_TEAM,REGULAR,Tim Robinson
+538021,2025,24,2026-02-01,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,Fulham FC,Fulham,FUL,3,2,1,0,HOME_TEAM,REGULAR,John Brooks
+538022,2025,24,2026-02-01,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Crystal Palace FC,Crystal Palace,CRY,1,1,1,1,DRAW,REGULAR,Michael Salisbury
+538023,2025,24,2026-02-01,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Manchester City FC,Man City,MCI,2,2,0,2,DRAW,REGULAR,Robert Jones
+538015,2025,24,2026-02-02,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,Burnley FC,Burnley,BUR,3,0,2,0,HOME_TEAM,REGULAR,Paul Tierney
+538031,2025,25,2026-02-06,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Nottingham Forest FC,Nottingham,NOT,3,1,2,0,HOME_TEAM,REGULAR,Peter Bankes
+538032,2025,25,2026-02-07,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,Tottenham Hotspur FC,Tottenham,TOT,2,0,1,0,HOME_TEAM,REGULAR,Michael Oliver
+538025,2025,25,2026-02-07,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Aston Villa FC,Aston Villa,AVL,1,1,0,1,DRAW,REGULAR,Anthony Taylor
+538027,2025,25,2026-02-07,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Sunderland AFC,Sunderland,SUN,3,0,1,0,HOME_TEAM,REGULAR,Sam Barrott
+538028,2025,25,2026-02-07,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,West Ham United FC,West Ham,WHU,0,2,0,2,AWAY_TEAM,REGULAR,Darren England
+538029,2025,25,2026-02-07,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Everton FC,Everton,EVE,1,2,1,0,AWAY_TEAM,REGULAR,Stuart Attwell
+538034,2025,25,2026-02-07,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Chelsea FC,Chelsea,CHE,1,3,0,3,AWAY_TEAM,REGULAR,Jarred Gillett
+538033,2025,25,2026-02-07,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Brentford FC,Brentford,BRE,2,3,1,2,AWAY_TEAM,REGULAR,Andy Madley
+538026,2025,25,2026-02-08,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Crystal Palace FC,Crystal Palace,CRY,0,1,0,0,AWAY_TEAM,REGULAR,Thomas Bramall
+538030,2025,25,2026-02-08,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,Manchester City FC,Man City,MCI,1,2,0,0,AWAY_TEAM,REGULAR,Craig Pawson
+538039,2025,26,2026-02-10,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,Leeds United FC,Leeds United,LEE,2,2,1,0,DRAW,REGULAR,Robert Jones
+538040,2025,26,2026-02-10,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,AFC Bournemouth,Bournemouth,BOU,1,2,1,0,AWAY_TEAM,REGULAR,Andy Madley
+538043,2025,26,2026-02-10,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Newcastle United FC,Newcastle,NEW,1,2,0,1,AWAY_TEAM,REGULAR,Anthony Taylor
+538044,2025,26,2026-02-10,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,Manchester United FC,Man United,MUN,1,1,0,0,DRAW,REGULAR,Simon Hooper
+538036,2025,26,2026-02-11,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Brighton & Hove Albion FC,Brighton Hove,BHA,1,0,0,0,HOME_TEAM,REGULAR,Peter Bankes
+538041,2025,26,2026-02-11,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Fulham FC,Fulham,FUL,3,0,3,0,HOME_TEAM,REGULAR,Paul Tierney
+538042,2025,26,2026-02-11,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Wolverhampton Wanderers FC,Wolverhampton,WOL,0,0,0,0,DRAW,REGULAR,Tim Robinson
+538037,2025,26,2026-02-11,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Burnley FC,Burnley,BUR,2,3,2,3,AWAY_TEAM,REGULAR,Farai Hallam
+538035,2025,26,2026-02-11,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,Liverpool FC,Liverpool,LIV,0,1,0,0,AWAY_TEAM,REGULAR,Chris Kavanagh
+538038,2025,26,2026-02-12,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Arsenal FC,Arsenal,ARS,1,1,0,0,DRAW,REGULAR,Tony Harrington
+538094,2025,31,2026-02-18,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Arsenal FC,Arsenal,ARS,2,2,0,1,DRAW,REGULAR,Paul Tierney
+538046,2025,27,2026-02-21,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Leeds United FC,Leeds United,LEE,1,1,0,1,DRAW,REGULAR,Michael Oliver
+538048,2025,27,2026-02-21,FINISHED,REGULAR_SEASON,Brentford FC,Brentford,BRE,Brighton & Hove Albion FC,Brighton Hove,BHA,0,2,0,2,AWAY_TEAM,REGULAR,Jarred Gillett
+538049,2025,27,2026-02-21,FINISHED,REGULAR_SEASON,Chelsea FC,Chelsea,CHE,Burnley FC,Burnley,BUR,1,1,1,0,DRAW,REGULAR,Lewis Smith
+538054,2025,27,2026-02-21,FINISHED,REGULAR_SEASON,West Ham United FC,West Ham,WHU,AFC Bournemouth,Bournemouth,BOU,0,0,0,0,DRAW,REGULAR,Sam Barrott
+538051,2025,27,2026-02-21,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Newcastle United FC,Newcastle,NEW,2,1,2,1,HOME_TEAM,REGULAR,Thomas Bramall
+538045,2025,27,2026-02-22,FINISHED,REGULAR_SEASON,Sunderland AFC,Sunderland,SUN,Fulham FC,Fulham,FUL,1,3,0,0,AWAY_TEAM,REGULAR,Craig Pawson
+538047,2025,27,2026-02-22,FINISHED,REGULAR_SEASON,Crystal Palace FC,Crystal Palace,CRY,Wolverhampton Wanderers FC,Wolverhampton,WOL,1,0,0,0,HOME_TEAM,REGULAR,Thomas Kirk
+538052,2025,27,2026-02-22,FINISHED,REGULAR_SEASON,Nottingham Forest FC,Nottingham,NOT,Liverpool FC,Liverpool,LIV,0,1,0,0,AWAY_TEAM,REGULAR,Anthony Taylor
+538053,2025,27,2026-02-22,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Arsenal FC,Arsenal,ARS,1,4,1,1,AWAY_TEAM,REGULAR,Peter Bankes
+538050,2025,27,2026-02-23,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Manchester United FC,Man United,MUN,0,1,0,0,AWAY_TEAM,REGULAR,Darren England
+538064,2025,28,2026-02-27,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Aston Villa FC,Aston Villa,AVL,2,0,0,0,HOME_TEAM,REGULAR,Craig Pawson
+538055,2025,28,2026-02-28,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Sunderland AFC,Sunderland,SUN,1,1,0,1,DRAW,REGULAR,Jarred Gillett
+538058,2025,28,2026-02-28,FINISHED,REGULAR_SEASON,Burnley FC,Burnley,BUR,Brentford FC,Brentford,BRE,3,4,1,3,AWAY_TEAM,REGULAR,Sam Barrott
+538060,2025,28,2026-02-28,FINISHED,REGULAR_SEASON,Liverpool FC,Liverpool,LIV,West Ham United FC,West Ham,WHU,5,2,3,0,HOME_TEAM,REGULAR,Tim Robinson
+538063,2025,28,2026-02-28,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Everton FC,Everton,EVE,2,3,1,2,AWAY_TEAM,REGULAR,Stuart Attwell
+538061,2025,28,2026-02-28,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Manchester City FC,Man City,MCI,0,1,0,1,AWAY_TEAM,REGULAR,Peter Bankes
+538056,2025,28,2026-03-01,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Nottingham Forest FC,Nottingham,NOT,2,1,2,1,HOME_TEAM,REGULAR,Andy Madley
+538059,2025,28,2026-03-01,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,Tottenham Hotspur FC,Tottenham,TOT,2,1,2,0,HOME_TEAM,REGULAR,Paul Tierney
+538062,2025,28,2026-03-01,FINISHED,REGULAR_SEASON,Manchester United FC,Man United,MUN,Crystal Palace FC,Crystal Palace,CRY,2,1,0,1,HOME_TEAM,REGULAR,Chris Kavanagh
+538057,2025,28,2026-03-01,FINISHED,REGULAR_SEASON,Arsenal FC,Arsenal,ARS,Chelsea FC,Chelsea,CHE,2,1,1,1,HOME_TEAM,REGULAR,Darren England
+538065,2025,29,2026-03-03,FINISHED,REGULAR_SEASON,AFC Bournemouth,Bournemouth,BOU,Brentford FC,Brentford,BRE,0,0,0,0,DRAW,REGULAR,Craig Pawson
+538068,2025,29,2026-03-03,FINISHED,REGULAR_SEASON,Everton FC,Everton,EVE,Burnley FC,Burnley,BUR,2,0,1,0,HOME_TEAM,REGULAR,Tim Robinson
+538070,2025,29,2026-03-03,FINISHED,REGULAR_SEASON,Leeds United FC,Leeds United,LEE,Sunderland AFC,Sunderland,SUN,0,1,0,0,AWAY_TEAM,REGULAR,Stuart Attwell
+538074,2025,29,2026-03-03,FINISHED,REGULAR_SEASON,Wolverhampton Wanderers FC,Wolverhampton,WOL,Liverpool FC,Liverpool,LIV,2,1,0,0,HOME_TEAM,REGULAR,Thomas Bramall
+538066,2025,29,2026-03-04,FINISHED,REGULAR_SEASON,Aston Villa FC,Aston Villa,AVL,Chelsea FC,Chelsea,CHE,1,4,1,2,AWAY_TEAM,REGULAR,Jarred Gillett
+538067,2025,29,2026-03-04,FINISHED,REGULAR_SEASON,Brighton & Hove Albion FC,Brighton Hove,BHA,Arsenal FC,Arsenal,ARS,0,1,0,1,AWAY_TEAM,REGULAR,Chris Kavanagh
+538069,2025,29,2026-03-04,FINISHED,REGULAR_SEASON,Fulham FC,Fulham,FUL,West Ham United FC,West Ham,WHU,0,1,0,0,AWAY_TEAM,REGULAR,Matt Donohue
+538071,2025,29,2026-03-04,FINISHED,REGULAR_SEASON,Manchester City FC,Man City,MCI,Nottingham Forest FC,Nottingham,NOT,2,2,1,0,DRAW,REGULAR,Darren England
+538072,2025,29,2026-03-04,FINISHED,REGULAR_SEASON,Newcastle United FC,Newcastle,NEW,Manchester United FC,Man United,MUN,2,1,1,1,HOME_TEAM,REGULAR,Peter Bankes
+538073,2025,29,2026-03-05,FINISHED,REGULAR_SEASON,Tottenham Hotspur FC,Tottenham,TOT,Crystal Palace FC,Crystal Palace,CRY,1,3,1,3,AWAY_TEAM,REGULAR,Andy Madley

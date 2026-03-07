@@ -13,25 +13,41 @@ LEAGUES = {
     "primeira_liga":    [2023, 2024, 2025],
 }
 
+def get_goals(score, side):
+    """
+    Return the correct goals for a side, excluding penalty shootout goals.
+    - REGULAR / EXTRA_TIME: use fullTime (already correct)
+    - PENALTY_SHOOTOUT: use regularTime + extraTime (exclude penalties)
+    """
+    duration = score.get("duration", "REGULAR")
+    if duration == "PENALTY_SHOOTOUT":
+        reg = (score.get("regularTime") or {}).get(side) or 0
+        ext = (score.get("extraTime") or {}).get(side) or 0
+        return reg + ext
+    return (score.get("fullTime") or {}).get(side) or 0
+
 def parse_match(match):
+    score = match["score"]
     return {
-        "match_id":       match["id"],
-        "season":         match["season"]["startDate"][:4],
-        "matchday":       match.get("matchday"),
-        "date":           match["utcDate"][:10],
-        "status":         match["status"],
-        "home_team":      match["homeTeam"]["name"],
-        "home_team_short":match["homeTeam"]["shortName"],
-        "home_team_tla":  match["homeTeam"]["tla"],
-        "away_team":      match["awayTeam"]["name"],
-        "away_team_short":match["awayTeam"]["shortName"],
-        "away_team_tla":  match["awayTeam"]["tla"],
-        "home_goals_ft":  match["score"]["fullTime"]["home"],
-        "away_goals_ft":  match["score"]["fullTime"]["away"],
-        "home_goals_ht":  match["score"]["halfTime"]["home"],
-        "away_goals_ht":  match["score"]["halfTime"]["away"],
-        "result":         match["score"]["winner"],
-        "referee":        match["referees"][0]["name"] if match["referees"] else None,
+        "match_id":        match["id"],
+        "season":          match["season"]["startDate"][:4],
+        "matchday":        match.get("matchday"),
+        "date":            match["utcDate"][:10],
+        "status":          match["status"],
+        "stage":           match.get("stage"),
+        "home_team":       match["homeTeam"]["name"],
+        "home_team_short": match["homeTeam"]["shortName"],
+        "home_team_tla":   match["homeTeam"]["tla"],
+        "away_team":       match["awayTeam"]["name"],
+        "away_team_short": match["awayTeam"]["shortName"],
+        "away_team_tla":   match["awayTeam"]["tla"],
+        "home_goals_ft":   get_goals(score, "home"),
+        "away_goals_ft":   get_goals(score, "away"),
+        "home_goals_ht":   (score.get("halfTime") or {}).get("home") or 0,
+        "away_goals_ht":   (score.get("halfTime") or {}).get("away") or 0,
+        "result":          score.get("winner"),
+        "duration":        score.get("duration", "REGULAR"),
+        "referee":         match["referees"][0]["name"] if match.get("referees") else None,
     }
 
 def clean_league_season(league, season):
@@ -45,7 +61,9 @@ def clean_league_season(league, season):
 
     finished = [m for m in matches if m["status"] == "FINISHED"]
     parsed   = [parse_match(m) for m in finished]
-    print(f"  ✅ {league} {season}: {len(parsed)} finished matches")
+
+    pen_count = sum(1 for m in finished if m["score"].get("duration") == "PENALTY_SHOOTOUT")
+    print(f"  ✅ {league} {season}: {len(parsed)} finished matches ({pen_count} went to penalties)")
     return parsed
 
 def save_processed(rows, league, season):

@@ -1,272 +1,272 @@
-match_id,season,matchday,date,status,home_team,home_team_short,home_team_tla,away_team,away_team_short,away_team_tla,home_goals_ft,away_goals_ft,home_goals_ht,away_goals_ht,result,referee
-536819,2025,1,2025-08-23,FINISHED,Genoa CFC,Genoa,GEN,US Lecce,Lecce,USL,0,0,0,0,DRAW,Davide Massa
-536823,2025,1,2025-08-23,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,SSC Napoli,Napoli,NAP,0,2,0,1,AWAY_TEAM,Giovanni Ayroldi
-536815,2025,1,2025-08-23,FINISHED,AC Milan,Milan,MIL,US Cremonese,Cremonese,CRE,1,2,1,1,AWAY_TEAM,Giuseppe Collu
-536816,2025,1,2025-08-23,FINISHED,AS Roma,Roma,ROM,Bologna FC 1909,Bologna,BOL,1,0,0,0,HOME_TEAM,Luca Zufferli
-536818,2025,1,2025-08-24,FINISHED,Cagliari Calcio,Cagliari,CAG,ACF Fiorentina,Fiorentina,FIO,1,1,0,0,DRAW,Simone Sozza
-536820,2025,1,2025-08-24,FINISHED,Como 1907,Como 1907,COM,SS Lazio,Lazio,LAZ,2,0,0,0,HOME_TEAM,Gianluca Manganiello
-536817,2025,1,2025-08-24,FINISHED,Atalanta BC,Atalanta,ATA,AC Pisa 1909,AC Pisa,PIS,1,1,0,1,DRAW,Alberto Arena
-536822,2025,1,2025-08-24,FINISHED,Juventus FC,Juventus,JUV,Parma Calcio 1913,Parma,PAR,2,0,0,0,HOME_TEAM,Matteo Marcenaro
-536824,2025,1,2025-08-25,FINISHED,Udinese Calcio,Udinese,UDI,Hellas Verona FC,Verona,HVE,1,1,0,0,DRAW,Paride Tremolada
-536821,2025,1,2025-08-25,FINISHED,FC Internazionale Milano,Inter,INT,Torino FC,Torino,TOR,5,0,2,0,HOME_TEAM,Federico La Penna
-536833,2025,2,2025-08-29,FINISHED,US Cremonese,Cremonese,CRE,US Sassuolo Calcio,Sassuolo,SAS,3,2,2,0,HOME_TEAM,Marco Guida
-536834,2025,2,2025-08-29,FINISHED,US Lecce,Lecce,USL,AC Milan,Milan,MIL,0,2,0,0,AWAY_TEAM,Livio Marinelli
-536826,2025,2,2025-08-30,FINISHED,Bologna FC 1909,Bologna,BOL,Como 1907,Como 1907,COM,1,0,0,0,HOME_TEAM,Daniele Doveri
-536830,2025,2,2025-08-30,FINISHED,Parma Calcio 1913,Parma,PAR,Atalanta BC,Atalanta,ATA,1,1,0,0,DRAW,Maurizio Mariani
-536832,2025,2,2025-08-30,FINISHED,SSC Napoli,Napoli,NAP,Cagliari Calcio,Cagliari,CAG,1,0,0,0,HOME_TEAM,Kevin Bonacina
-536831,2025,2,2025-08-30,FINISHED,AC Pisa 1909,AC Pisa,PIS,AS Roma,Roma,ROM,0,1,0,0,AWAY_TEAM,Giuseppe Collu
-536825,2025,2,2025-08-31,FINISHED,Genoa CFC,Genoa,GEN,Juventus FC,Juventus,JUV,0,1,0,0,AWAY_TEAM,Daniele Chiffi
-536827,2025,2,2025-08-31,FINISHED,Torino FC,Torino,TOR,ACF Fiorentina,Fiorentina,FIO,0,0,0,0,DRAW,Rosario Abisso
-536828,2025,2,2025-08-31,FINISHED,FC Internazionale Milano,Inter,INT,Udinese Calcio,Udinese,UDI,1,2,1,2,AWAY_TEAM,Matteo Marchetti
-536829,2025,2,2025-08-31,FINISHED,SS Lazio,Lazio,LAZ,Hellas Verona FC,Verona,HVE,4,0,3,0,HOME_TEAM,Valerio Crezzini
-536839,2025,3,2025-09-13,FINISHED,Cagliari Calcio,Cagliari,CAG,Parma Calcio 1913,Parma,PAR,2,0,1,0,HOME_TEAM,Francesco Fourneau
-536842,2025,3,2025-09-13,FINISHED,Juventus FC,Juventus,JUV,FC Internazionale Milano,Inter,INT,4,3,2,1,HOME_TEAM,Andrea Colombo
-536835,2025,3,2025-09-13,FINISHED,ACF Fiorentina,Fiorentina,FIO,SSC Napoli,Napoli,NAP,1,3,0,2,AWAY_TEAM,Luca Zufferli
-536837,2025,3,2025-09-14,FINISHED,AS Roma,Roma,ROM,Torino FC,Torino,TOR,0,1,0,0,AWAY_TEAM,Giovanni Ayroldi
-536838,2025,3,2025-09-14,FINISHED,Atalanta BC,Atalanta,ATA,US Lecce,Lecce,USL,4,1,1,0,HOME_TEAM,Gianluca Manganiello
-536843,2025,3,2025-09-14,FINISHED,AC Pisa 1909,AC Pisa,PIS,Udinese Calcio,Udinese,UDI,0,1,0,1,AWAY_TEAM,Davide Massa
-536844,2025,3,2025-09-14,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,SS Lazio,Lazio,LAZ,1,0,0,0,HOME_TEAM,Paride Tremolada
-536836,2025,3,2025-09-14,FINISHED,AC Milan,Milan,MIL,Bologna FC 1909,Bologna,BOL,1,0,0,0,HOME_TEAM,Matteo Marcenaro
-536841,2025,3,2025-09-15,FINISHED,Hellas Verona FC,Verona,HVE,US Cremonese,Cremonese,CRE,0,0,0,0,DRAW,Alberto Arena
-536840,2025,3,2025-09-15,FINISHED,Como 1907,Como 1907,COM,Genoa CFC,Genoa,GEN,1,1,1,0,DRAW,Marco Piccinini
-536854,2025,4,2025-09-19,FINISHED,US Lecce,Lecce,USL,Cagliari Calcio,Cagliari,CAG,1,2,1,1,AWAY_TEAM,Luca Zufferli
-536846,2025,4,2025-09-20,FINISHED,Bologna FC 1909,Bologna,BOL,Genoa CFC,Genoa,GEN,2,1,0,0,HOME_TEAM,Giuseppe Collu
-536848,2025,4,2025-09-20,FINISHED,Hellas Verona FC,Verona,HVE,Juventus FC,Juventus,JUV,1,1,1,1,DRAW,Antonio Rapuano
-536852,2025,4,2025-09-20,FINISHED,Udinese Calcio,Udinese,UDI,AC Milan,Milan,MIL,0,3,0,1,AWAY_TEAM,Daniele Doveri
-536850,2025,4,2025-09-21,FINISHED,SS Lazio,Lazio,LAZ,AS Roma,Roma,ROM,0,1,0,1,AWAY_TEAM,Simone Sozza
-536847,2025,4,2025-09-21,FINISHED,Torino FC,Torino,TOR,Atalanta BC,Atalanta,ATA,0,3,0,3,AWAY_TEAM,Andrea Colombo
-536853,2025,4,2025-09-21,FINISHED,US Cremonese,Cremonese,CRE,Parma Calcio 1913,Parma,PAR,0,0,0,0,DRAW,Federico La Penna
-536845,2025,4,2025-09-21,FINISHED,ACF Fiorentina,Fiorentina,FIO,Como 1907,Como 1907,COM,1,2,1,0,AWAY_TEAM,Kevin Bonacina
-536849,2025,4,2025-09-21,FINISHED,FC Internazionale Milano,Inter,INT,US Sassuolo Calcio,Sassuolo,SAS,2,1,1,0,HOME_TEAM,Livio Marinelli
-536851,2025,4,2025-09-22,FINISHED,SSC Napoli,Napoli,NAP,AC Pisa 1909,AC Pisa,PIS,3,2,1,0,HOME_TEAM,Valerio Crezzini
-536859,2025,5,2025-09-27,FINISHED,Como 1907,Como 1907,COM,US Cremonese,Cremonese,CRE,1,1,1,0,DRAW,Marco Di Bello
-536860,2025,5,2025-09-27,FINISHED,Juventus FC,Juventus,JUV,Atalanta BC,Atalanta,ATA,1,1,0,1,DRAW,Simone Sozza
-536857,2025,5,2025-09-27,FINISHED,Cagliari Calcio,Cagliari,CAG,FC Internazionale Milano,Inter,INT,0,2,0,1,AWAY_TEAM,Marco Piccinini
-536863,2025,5,2025-09-28,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,Udinese Calcio,Udinese,UDI,3,1,2,0,HOME_TEAM,Daniele Perenzoni
-536856,2025,5,2025-09-28,FINISHED,AS Roma,Roma,ROM,Hellas Verona FC,Verona,HVE,2,0,1,0,HOME_TEAM,Ermanno Feliciani
-536862,2025,5,2025-09-28,FINISHED,AC Pisa 1909,AC Pisa,PIS,ACF Fiorentina,Fiorentina,FIO,0,0,0,0,DRAW,Gianluca Manganiello
-536864,2025,5,2025-09-28,FINISHED,US Lecce,Lecce,USL,Bologna FC 1909,Bologna,BOL,2,2,1,1,DRAW,Francesco Fourneau
-536855,2025,5,2025-09-28,FINISHED,AC Milan,Milan,MIL,SSC Napoli,Napoli,NAP,2,1,2,0,HOME_TEAM,Daniele Chiffi
-536861,2025,5,2025-09-29,FINISHED,Parma Calcio 1913,Parma,PAR,Torino FC,Torino,TOR,2,1,1,0,HOME_TEAM,Giuseppe Collu
-536858,2025,5,2025-09-29,FINISHED,Genoa CFC,Genoa,GEN,SS Lazio,Lazio,LAZ,0,3,0,2,AWAY_TEAM,Giovanni Ayroldi
-536868,2025,6,2025-10-03,FINISHED,Hellas Verona FC,Verona,HVE,US Sassuolo Calcio,Sassuolo,SAS,0,1,0,0,AWAY_TEAM,Francesco Fourneau
-536871,2025,6,2025-10-04,FINISHED,SS Lazio,Lazio,LAZ,Torino FC,Torino,TOR,3,3,2,1,DRAW,Marco Piccinini
-536872,2025,6,2025-10-04,FINISHED,Parma Calcio 1913,Parma,PAR,US Lecce,Lecce,USL,0,1,0,1,AWAY_TEAM,Daniele Doveri
-536869,2025,6,2025-10-04,FINISHED,FC Internazionale Milano,Inter,INT,US Cremonese,Cremonese,CRE,4,1,2,0,HOME_TEAM,Ermanno Feliciani
-536866,2025,6,2025-10-04,FINISHED,Atalanta BC,Atalanta,ATA,Como 1907,Como 1907,COM,1,1,1,1,DRAW,Luca Zufferli
-536874,2025,6,2025-10-05,FINISHED,Udinese Calcio,Udinese,UDI,Cagliari Calcio,Cagliari,CAG,1,1,0,1,DRAW,Alberto Arena
-536865,2025,6,2025-10-05,FINISHED,ACF Fiorentina,Fiorentina,FIO,AS Roma,Roma,ROM,1,2,1,2,AWAY_TEAM,Andrea Colombo
-536867,2025,6,2025-10-05,FINISHED,Bologna FC 1909,Bologna,BOL,AC Pisa 1909,AC Pisa,PIS,4,0,3,0,HOME_TEAM,Rosario Abisso
-536873,2025,6,2025-10-05,FINISHED,SSC Napoli,Napoli,NAP,Genoa CFC,Genoa,GEN,2,1,0,1,HOME_TEAM,Federico La Penna
-536870,2025,6,2025-10-05,FINISHED,Juventus FC,Juventus,JUV,AC Milan,Milan,MIL,0,0,0,0,DRAW,Marco Guida
-536882,2025,7,2025-10-18,FINISHED,AC Pisa 1909,AC Pisa,PIS,Hellas Verona FC,Verona,HVE,0,0,0,0,DRAW,Marco Guida
-536884,2025,7,2025-10-18,FINISHED,US Lecce,Lecce,USL,US Sassuolo Calcio,Sassuolo,SAS,0,0,0,0,DRAW,Valerio Crezzini
-536881,2025,7,2025-10-18,FINISHED,Torino FC,Torino,TOR,SSC Napoli,Napoli,NAP,1,0,1,0,HOME_TEAM,Matteo Marcenaro
-536876,2025,7,2025-10-18,FINISHED,AS Roma,Roma,ROM,FC Internazionale Milano,Inter,INT,0,1,0,1,AWAY_TEAM,Davide Massa
-536880,2025,7,2025-10-19,FINISHED,Como 1907,Como 1907,COM,Juventus FC,Juventus,JUV,2,0,1,0,HOME_TEAM,Giovanni Ayroldi
-536878,2025,7,2025-10-19,FINISHED,Cagliari Calcio,Cagliari,CAG,Bologna FC 1909,Bologna,BOL,0,2,0,1,AWAY_TEAM,Matteo Marchetti
-536879,2025,7,2025-10-19,FINISHED,Genoa CFC,Genoa,GEN,Parma Calcio 1913,Parma,PAR,0,0,0,0,DRAW,Simone Sozza
-536877,2025,7,2025-10-19,FINISHED,Atalanta BC,Atalanta,ATA,SS Lazio,Lazio,LAZ,0,0,0,0,DRAW,Giuseppe Collu
-536875,2025,7,2025-10-19,FINISHED,AC Milan,Milan,MIL,ACF Fiorentina,Fiorentina,FIO,2,1,0,0,HOME_TEAM,Livio Marinelli
-536883,2025,7,2025-10-20,FINISHED,US Cremonese,Cremonese,CRE,Udinese Calcio,Udinese,UDI,1,1,1,0,DRAW,Michael Fabbri
-536886,2025,8,2025-10-24,FINISHED,AC Milan,Milan,MIL,AC Pisa 1909,AC Pisa,PIS,2,2,1,0,DRAW,Luca Zufferli
-536890,2025,8,2025-10-25,FINISHED,Parma Calcio 1913,Parma,PAR,Como 1907,Como 1907,COM,0,0,0,0,DRAW,Daniele Chiffi
-536893,2025,8,2025-10-25,FINISHED,Udinese Calcio,Udinese,UDI,US Lecce,Lecce,USL,3,2,2,0,HOME_TEAM,Ermanno Feliciani
-536892,2025,8,2025-10-25,FINISHED,SSC Napoli,Napoli,NAP,FC Internazionale Milano,Inter,INT,3,1,1,0,HOME_TEAM,Maurizio Mariani
-536894,2025,8,2025-10-25,FINISHED,US Cremonese,Cremonese,CRE,Atalanta BC,Atalanta,ATA,1,1,0,0,DRAW,Alberto Arena
-536887,2025,8,2025-10-26,FINISHED,Torino FC,Torino,TOR,Genoa CFC,Genoa,GEN,2,1,0,1,HOME_TEAM,Kevin Bonacina
-536888,2025,8,2025-10-26,FINISHED,Hellas Verona FC,Verona,HVE,Cagliari Calcio,Cagliari,CAG,2,2,1,0,DRAW,Federico Dionisi
-536891,2025,8,2025-10-26,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,AS Roma,Roma,ROM,0,1,0,1,AWAY_TEAM,Gianluca Manganiello
-536885,2025,8,2025-10-26,FINISHED,ACF Fiorentina,Fiorentina,FIO,Bologna FC 1909,Bologna,BOL,2,2,0,1,DRAW,Federico La Penna
-536889,2025,8,2025-10-26,FINISHED,SS Lazio,Lazio,LAZ,Juventus FC,Juventus,JUV,1,0,1,0,HOME_TEAM,Andrea Colombo
-536904,2025,9,2025-10-28,FINISHED,US Lecce,Lecce,USL,SSC Napoli,Napoli,NAP,0,1,0,0,AWAY_TEAM,Giuseppe Collu
-536896,2025,9,2025-10-28,FINISHED,Atalanta BC,Atalanta,ATA,AC Milan,Milan,MIL,1,1,1,1,DRAW,Daniele Doveri
-536895,2025,9,2025-10-29,FINISHED,AS Roma,Roma,ROM,Parma Calcio 1913,Parma,PAR,2,1,0,0,HOME_TEAM,Valerio Crezzini
-536899,2025,9,2025-10-29,FINISHED,Como 1907,Como 1907,COM,Hellas Verona FC,Verona,HVE,3,1,1,1,HOME_TEAM,Matteo Marcenaro
-536902,2025,9,2025-10-29,FINISHED,Juventus FC,Juventus,JUV,Udinese Calcio,Udinese,UDI,3,1,1,1,HOME_TEAM,Marco Di Bello
-536898,2025,9,2025-10-29,FINISHED,Genoa CFC,Genoa,GEN,US Cremonese,Cremonese,CRE,0,2,0,1,AWAY_TEAM,Rosario Abisso
-536900,2025,9,2025-10-29,FINISHED,Bologna FC 1909,Bologna,BOL,Torino FC,Torino,TOR,0,0,0,0,DRAW,Giovanni Ayroldi
-536901,2025,9,2025-10-29,FINISHED,FC Internazionale Milano,Inter,INT,ACF Fiorentina,Fiorentina,FIO,3,0,0,0,HOME_TEAM,Simone Sozza
-536897,2025,9,2025-10-30,FINISHED,Cagliari Calcio,Cagliari,CAG,US Sassuolo Calcio,Sassuolo,SAS,1,2,0,0,AWAY_TEAM,Luca Pairetto
-536903,2025,9,2025-10-30,FINISHED,AC Pisa 1909,AC Pisa,PIS,SS Lazio,Lazio,LAZ,0,0,0,0,DRAW,Davide Massa
-536913,2025,10,2025-11-01,FINISHED,Udinese Calcio,Udinese,UDI,Atalanta BC,Atalanta,ATA,1,0,1,0,HOME_TEAM,Michael Fabbri
-536912,2025,10,2025-11-01,FINISHED,SSC Napoli,Napoli,NAP,Como 1907,Como 1907,COM,0,0,0,0,DRAW,Luca Zufferli
-536914,2025,10,2025-11-01,FINISHED,US Cremonese,Cremonese,CRE,Juventus FC,Juventus,JUV,1,2,0,1,AWAY_TEAM,Daniele Chiffi
-536908,2025,10,2025-11-02,FINISHED,Hellas Verona FC,Verona,HVE,FC Internazionale Milano,Inter,INT,1,2,1,1,AWAY_TEAM,Daniele Doveri
-536905,2025,10,2025-11-02,FINISHED,ACF Fiorentina,Fiorentina,FIO,US Lecce,Lecce,USL,0,1,0,1,AWAY_TEAM,Antonio Rapuano
-536907,2025,10,2025-11-02,FINISHED,Torino FC,Torino,TOR,AC Pisa 1909,AC Pisa,PIS,2,2,2,2,DRAW,Alberto Arena
-536910,2025,10,2025-11-02,FINISHED,Parma Calcio 1913,Parma,PAR,Bologna FC 1909,Bologna,BOL,1,3,1,1,AWAY_TEAM,Kevin Bonacina
-536906,2025,10,2025-11-02,FINISHED,AC Milan,Milan,MIL,AS Roma,Roma,ROM,1,0,1,0,HOME_TEAM,Marco Guida
-536911,2025,10,2025-11-03,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,Genoa CFC,Genoa,GEN,1,2,0,1,AWAY_TEAM,Ermanno Feliciani
-536909,2025,10,2025-11-03,FINISHED,SS Lazio,Lazio,LAZ,Cagliari Calcio,Cagliari,CAG,2,0,0,0,HOME_TEAM,Juan Luca Sacchi
-536923,2025,11,2025-11-07,FINISHED,AC Pisa 1909,AC Pisa,PIS,US Cremonese,Cremonese,CRE,1,0,0,0,HOME_TEAM,Matteo Marcenaro
-536918,2025,11,2025-11-08,FINISHED,Como 1907,Como 1907,COM,Cagliari Calcio,Cagliari,CAG,0,0,0,0,DRAW,Ivano Pezzuto
-536924,2025,11,2025-11-08,FINISHED,US Lecce,Lecce,USL,Hellas Verona FC,Verona,HVE,0,0,0,0,DRAW,Rosario Abisso
-536921,2025,11,2025-11-08,FINISHED,Juventus FC,Juventus,JUV,Torino FC,Torino,TOR,0,0,0,0,DRAW,Luca Zufferli
-536922,2025,11,2025-11-08,FINISHED,Parma Calcio 1913,Parma,PAR,AC Milan,Milan,MIL,2,2,1,2,DRAW,Marco Di Bello
-536916,2025,11,2025-11-09,FINISHED,Atalanta BC,Atalanta,ATA,US Sassuolo Calcio,Sassuolo,SAS,0,3,0,1,AWAY_TEAM,Valerio Crezzini
-536917,2025,11,2025-11-09,FINISHED,Genoa CFC,Genoa,GEN,ACF Fiorentina,Fiorentina,FIO,2,2,1,1,DRAW,Marco Guida
-536919,2025,11,2025-11-09,FINISHED,Bologna FC 1909,Bologna,BOL,SSC Napoli,Napoli,NAP,2,0,0,0,HOME_TEAM,Daniele Chiffi
-536915,2025,11,2025-11-09,FINISHED,AS Roma,Roma,ROM,Udinese Calcio,Udinese,UDI,2,0,1,0,HOME_TEAM,Giuseppe Collu
-536920,2025,11,2025-11-09,FINISHED,FC Internazionale Milano,Inter,INT,SS Lazio,Lazio,LAZ,2,0,1,0,HOME_TEAM,Gianluca Manganiello
-536926,2025,12,2025-11-22,FINISHED,Cagliari Calcio,Cagliari,CAG,Genoa CFC,Genoa,GEN,3,3,2,2,DRAW,Federico La Penna
-536933,2025,12,2025-11-22,FINISHED,Udinese Calcio,Udinese,UDI,Bologna FC 1909,Bologna,BOL,0,3,0,0,AWAY_TEAM,Juan Luca Sacchi
-536925,2025,12,2025-11-22,FINISHED,ACF Fiorentina,Fiorentina,FIO,Juventus FC,Juventus,JUV,1,1,0,1,DRAW,Daniele Doveri
-536932,2025,12,2025-11-22,FINISHED,SSC Napoli,Napoli,NAP,Atalanta BC,Atalanta,ATA,3,1,3,0,HOME_TEAM,Marco Di Bello
-536928,2025,12,2025-11-23,FINISHED,Hellas Verona FC,Verona,HVE,Parma Calcio 1913,Parma,PAR,1,2,0,1,AWAY_TEAM,Luca Pairetto
-536934,2025,12,2025-11-23,FINISHED,US Cremonese,Cremonese,CRE,AS Roma,Roma,ROM,1,3,0,1,AWAY_TEAM,Giovanni Ayroldi
-536930,2025,12,2025-11-23,FINISHED,SS Lazio,Lazio,LAZ,US Lecce,Lecce,USL,2,0,1,0,HOME_TEAM,Alberto Arena
-536929,2025,12,2025-11-23,FINISHED,FC Internazionale Milano,Inter,INT,AC Milan,Milan,MIL,0,1,0,0,AWAY_TEAM,Simone Sozza
-536927,2025,12,2025-11-24,FINISHED,Torino FC,Torino,TOR,Como 1907,Como 1907,COM,1,5,1,1,AWAY_TEAM,Kevin Bonacina
-536931,2025,12,2025-11-24,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,AC Pisa 1909,AC Pisa,PIS,2,2,1,1,DRAW,Davide Di Marco
-536939,2025,13,2025-11-28,FINISHED,Como 1907,Como 1907,COM,US Sassuolo Calcio,Sassuolo,SAS,2,0,1,0,HOME_TEAM,Matteo Marchetti
-536938,2025,13,2025-11-29,FINISHED,Genoa CFC,Genoa,GEN,Hellas Verona FC,Verona,HVE,2,1,1,1,HOME_TEAM,Michael Fabbri
-536942,2025,13,2025-11-29,FINISHED,Parma Calcio 1913,Parma,PAR,Udinese Calcio,Udinese,UDI,0,2,0,1,AWAY_TEAM,Marco Piccinini
-536941,2025,13,2025-11-29,FINISHED,Juventus FC,Juventus,JUV,Cagliari Calcio,Cagliari,CAG,2,1,2,1,HOME_TEAM,Valerio Crezzini
-536935,2025,13,2025-11-29,FINISHED,AC Milan,Milan,MIL,SS Lazio,Lazio,LAZ,1,0,0,0,HOME_TEAM,Giuseppe Collu
-536944,2025,13,2025-11-30,FINISHED,US Lecce,Lecce,USL,Torino FC,Torino,TOR,2,1,2,0,HOME_TEAM,Maurizio Mariani
-536943,2025,13,2025-11-30,FINISHED,AC Pisa 1909,AC Pisa,PIS,FC Internazionale Milano,Inter,INT,0,2,0,0,AWAY_TEAM,Marco Guida
-536937,2025,13,2025-11-30,FINISHED,Atalanta BC,Atalanta,ATA,ACF Fiorentina,Fiorentina,FIO,2,0,1,0,HOME_TEAM,Matteo Marcenaro
-536936,2025,13,2025-11-30,FINISHED,AS Roma,Roma,ROM,SSC Napoli,Napoli,NAP,0,1,0,1,AWAY_TEAM,Davide Massa
-536940,2025,13,2025-12-01,FINISHED,Bologna FC 1909,Bologna,BOL,US Cremonese,Cremonese,CRE,1,3,1,2,AWAY_TEAM,Ermanno Feliciani
-536951,2025,14,2025-12-06,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,ACF Fiorentina,Fiorentina,FIO,3,1,2,1,HOME_TEAM,Luca Pairetto
-536948,2025,14,2025-12-06,FINISHED,FC Internazionale Milano,Inter,INT,Como 1907,Como 1907,COM,4,0,1,0,HOME_TEAM,Marco Di Bello
-536947,2025,14,2025-12-06,FINISHED,Hellas Verona FC,Verona,HVE,Atalanta BC,Atalanta,ATA,3,1,2,0,HOME_TEAM,Maurizio Mariani
-536954,2025,14,2025-12-07,FINISHED,US Cremonese,Cremonese,CRE,US Lecce,Lecce,USL,2,0,0,0,HOME_TEAM,Giuseppe Mucera
-536945,2025,14,2025-12-07,FINISHED,Cagliari Calcio,Cagliari,CAG,AS Roma,Roma,ROM,1,0,0,0,HOME_TEAM,Luca Zufferli
-536949,2025,14,2025-12-07,FINISHED,SS Lazio,Lazio,LAZ,Bologna FC 1909,Bologna,BOL,1,1,1,1,DRAW,Michael Fabbri
-536952,2025,14,2025-12-07,FINISHED,SSC Napoli,Napoli,NAP,Juventus FC,Juventus,JUV,2,1,1,0,HOME_TEAM,Federico La Penna
-536950,2025,14,2025-12-08,FINISHED,AC Pisa 1909,AC Pisa,PIS,Parma Calcio 1913,Parma,PAR,0,1,0,1,AWAY_TEAM,Daniele Doveri
-536953,2025,14,2025-12-08,FINISHED,Udinese Calcio,Udinese,UDI,Genoa CFC,Genoa,GEN,1,2,0,1,AWAY_TEAM,Fabio Maresca
-536946,2025,14,2025-12-08,FINISHED,Torino FC,Torino,TOR,AC Milan,Milan,MIL,2,3,2,1,AWAY_TEAM,Daniele Chiffi
-536964,2025,15,2025-12-12,FINISHED,US Lecce,Lecce,USL,AC Pisa 1909,AC Pisa,PIS,1,0,0,0,HOME_TEAM,Juan Luca Sacchi
-536961,2025,15,2025-12-13,FINISHED,Torino FC,Torino,TOR,US Cremonese,Cremonese,CRE,1,0,1,0,HOME_TEAM,Livio Marinelli
-536962,2025,15,2025-12-13,FINISHED,Parma Calcio 1913,Parma,PAR,SS Lazio,Lazio,LAZ,0,1,0,0,AWAY_TEAM,Matteo Marchetti
-536958,2025,15,2025-12-13,FINISHED,Atalanta BC,Atalanta,ATA,Cagliari Calcio,Cagliari,CAG,2,1,1,0,HOME_TEAM,Davide Di Marco
-536956,2025,15,2025-12-14,FINISHED,AC Milan,Milan,MIL,US Sassuolo Calcio,Sassuolo,SAS,2,2,1,1,DRAW,Valerio Crezzini
-536955,2025,15,2025-12-14,FINISHED,ACF Fiorentina,Fiorentina,FIO,Hellas Verona FC,Verona,HVE,1,2,0,1,AWAY_TEAM,Andrea Colombo
-536963,2025,15,2025-12-14,FINISHED,Udinese Calcio,Udinese,UDI,SSC Napoli,Napoli,NAP,1,0,0,0,HOME_TEAM,Simone Sozza
-536959,2025,15,2025-12-14,FINISHED,Genoa CFC,Genoa,GEN,FC Internazionale Milano,Inter,INT,1,2,0,2,AWAY_TEAM,Daniele Doveri
-536960,2025,15,2025-12-14,FINISHED,Bologna FC 1909,Bologna,BOL,Juventus FC,Juventus,JUV,0,1,0,0,AWAY_TEAM,Davide Massa
-536957,2025,15,2025-12-15,FINISHED,AS Roma,Roma,ROM,Como 1907,Como 1907,COM,1,0,0,0,HOME_TEAM,Ermanno Feliciani
-536972,2025,16,2025-12-20,FINISHED,SS Lazio,Lazio,LAZ,US Cremonese,Cremonese,CRE,0,0,0,0,DRAW,Luca Pairetto
-536971,2025,16,2025-12-20,FINISHED,Juventus FC,Juventus,JUV,AS Roma,Roma,ROM,2,1,1,0,HOME_TEAM,Simone Sozza
-536966,2025,16,2025-12-21,FINISHED,Cagliari Calcio,Cagliari,CAG,AC Pisa 1909,AC Pisa,PIS,2,2,0,1,DRAW,Francesco Fourneau
-536973,2025,16,2025-12-21,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,Torino FC,Torino,TOR,0,1,0,0,AWAY_TEAM,Andrea Calzavara
-536965,2025,16,2025-12-21,FINISHED,ACF Fiorentina,Fiorentina,FIO,Udinese Calcio,Udinese,UDI,5,1,3,0,HOME_TEAM,Maurizio Mariani
-536967,2025,16,2025-12-21,FINISHED,Genoa CFC,Genoa,GEN,Atalanta BC,Atalanta,ATA,0,1,0,0,AWAY_TEAM,Rosario Abisso
-536980,2025,17,2025-12-27,FINISHED,Parma Calcio 1913,Parma,PAR,ACF Fiorentina,Fiorentina,FIO,1,0,0,0,HOME_TEAM,Marco Guida
-536979,2025,17,2025-12-27,FINISHED,Torino FC,Torino,TOR,Cagliari Calcio,Cagliari,CAG,1,2,1,1,AWAY_TEAM,Daniele Doveri
-536984,2025,17,2025-12-27,FINISHED,US Lecce,Lecce,USL,Como 1907,Como 1907,COM,0,3,0,1,AWAY_TEAM,Matteo Marchetti
-536982,2025,17,2025-12-27,FINISHED,Udinese Calcio,Udinese,UDI,SS Lazio,Lazio,LAZ,1,1,0,0,DRAW,Andrea Colombo
-536981,2025,17,2025-12-27,FINISHED,AC Pisa 1909,AC Pisa,PIS,Juventus FC,Juventus,JUV,0,2,0,0,AWAY_TEAM,Fabio Maresca
-536975,2025,17,2025-12-28,FINISHED,AC Milan,Milan,MIL,Hellas Verona FC,Verona,HVE,3,0,1,0,HOME_TEAM,Michael Fabbri
-536983,2025,17,2025-12-28,FINISHED,US Cremonese,Cremonese,CRE,SSC Napoli,Napoli,NAP,0,2,0,2,AWAY_TEAM,Maurizio Mariani
-536978,2025,17,2025-12-28,FINISHED,Bologna FC 1909,Bologna,BOL,US Sassuolo Calcio,Sassuolo,SAS,1,1,0,0,DRAW,Juan Luca Sacchi
-536977,2025,17,2025-12-28,FINISHED,Atalanta BC,Atalanta,ATA,FC Internazionale Milano,Inter,INT,0,1,0,0,AWAY_TEAM,Federico La Penna
-536976,2025,17,2025-12-29,FINISHED,AS Roma,Roma,ROM,Genoa CFC,Genoa,GEN,3,1,3,0,HOME_TEAM,Marco Di Bello
-536987,2025,18,2026-01-02,FINISHED,Cagliari Calcio,Cagliari,CAG,AC Milan,Milan,MIL,0,1,0,0,AWAY_TEAM,Rosario Abisso
-536989,2025,18,2026-01-03,FINISHED,Como 1907,Como 1907,COM,Udinese Calcio,Udinese,UDI,1,0,1,0,HOME_TEAM,Alberto Arena
-536988,2025,18,2026-01-03,FINISHED,Genoa CFC,Genoa,GEN,AC Pisa 1909,AC Pisa,PIS,1,1,1,1,DRAW,Daniele Chiffi
-536994,2025,18,2026-01-03,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,Parma Calcio 1913,Parma,PAR,1,1,1,1,DRAW,Ermanno Feliciani
-536992,2025,18,2026-01-03,FINISHED,Juventus FC,Juventus,JUV,US Lecce,Lecce,USL,1,1,0,1,DRAW,Giuseppe Collu
-536986,2025,18,2026-01-03,FINISHED,Atalanta BC,Atalanta,ATA,AS Roma,Roma,ROM,1,0,1,0,HOME_TEAM,Michael Fabbri
-536993,2025,18,2026-01-04,FINISHED,SS Lazio,Lazio,LAZ,SSC Napoli,Napoli,NAP,0,2,0,2,AWAY_TEAM,Davide Massa
-536985,2025,18,2026-01-04,FINISHED,ACF Fiorentina,Fiorentina,FIO,US Cremonese,Cremonese,CRE,1,0,0,0,HOME_TEAM,Federico La Penna
-536990,2025,18,2026-01-04,FINISHED,Hellas Verona FC,Verona,HVE,Torino FC,Torino,TOR,0,3,0,1,AWAY_TEAM,Antonio Rapuano
-536991,2025,18,2026-01-04,FINISHED,FC Internazionale Milano,Inter,INT,Bologna FC 1909,Bologna,BOL,3,1,1,0,HOME_TEAM,Marco Guida
-537000,2025,19,2026-01-06,FINISHED,AC Pisa 1909,AC Pisa,PIS,Como 1907,Como 1907,COM,0,3,0,0,AWAY_TEAM,Luca Pairetto
-537004,2025,19,2026-01-06,FINISHED,US Lecce,Lecce,USL,AS Roma,Roma,ROM,0,2,0,1,AWAY_TEAM,Juan Luca Sacchi
-537001,2025,19,2026-01-06,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,Juventus FC,Juventus,JUV,0,3,0,1,AWAY_TEAM,Luca Zufferli
-536996,2025,19,2026-01-07,FINISHED,Bologna FC 1909,Bologna,BOL,Atalanta BC,Atalanta,ATA,0,2,0,1,AWAY_TEAM,Marco Di Bello
-537002,2025,19,2026-01-07,FINISHED,SSC Napoli,Napoli,NAP,Hellas Verona FC,Verona,HVE,2,2,0,2,DRAW,Matteo Marchetti
-536997,2025,19,2026-01-07,FINISHED,Torino FC,Torino,TOR,Udinese Calcio,Udinese,UDI,1,2,0,0,AWAY_TEAM,Fabio Maresca
-536998,2025,19,2026-01-07,FINISHED,SS Lazio,Lazio,LAZ,ACF Fiorentina,Fiorentina,FIO,2,2,0,0,DRAW,Simone Sozza
-536999,2025,19,2026-01-07,FINISHED,Parma Calcio 1913,Parma,PAR,FC Internazionale Milano,Inter,INT,0,2,0,1,AWAY_TEAM,Andrea Colombo
-537003,2025,19,2026-01-08,FINISHED,US Cremonese,Cremonese,CRE,Cagliari Calcio,Cagliari,CAG,2,2,2,0,DRAW,Kevin Bonacina
-536995,2025,19,2026-01-08,FINISHED,AC Milan,Milan,MIL,Genoa CFC,Genoa,GEN,1,1,0,1,DRAW,Maurizio Mariani
-537009,2025,20,2026-01-10,FINISHED,Como 1907,Como 1907,COM,Bologna FC 1909,Bologna,BOL,1,1,0,0,DRAW,Rosario Abisso
-537013,2025,20,2026-01-10,FINISHED,Udinese Calcio,Udinese,UDI,AC Pisa 1909,AC Pisa,PIS,2,2,2,1,DRAW,Giovanni Ayroldi
-537006,2025,20,2026-01-10,FINISHED,AS Roma,Roma,ROM,US Sassuolo Calcio,Sassuolo,SAS,2,0,0,0,HOME_TEAM,Matteo Marcenaro
-537007,2025,20,2026-01-10,FINISHED,Atalanta BC,Atalanta,ATA,Torino FC,Torino,TOR,2,0,1,0,HOME_TEAM,Francesco Fourneau
-537014,2025,20,2026-01-11,FINISHED,US Lecce,Lecce,USL,Parma Calcio 1913,Parma,PAR,1,2,1,0,AWAY_TEAM,Livio Marinelli
-537005,2025,20,2026-01-11,FINISHED,ACF Fiorentina,Fiorentina,FIO,AC Milan,Milan,MIL,1,1,0,0,DRAW,Davide Massa
-537010,2025,20,2026-01-11,FINISHED,Hellas Verona FC,Verona,HVE,SS Lazio,Lazio,LAZ,0,1,0,0,AWAY_TEAM,Marco Guida
-537011,2025,20,2026-01-11,FINISHED,FC Internazionale Milano,Inter,INT,SSC Napoli,Napoli,NAP,2,2,1,1,DRAW,Daniele Doveri
-537008,2025,20,2026-01-12,FINISHED,Genoa CFC,Genoa,GEN,Cagliari Calcio,Cagliari,CAG,3,0,1,0,HOME_TEAM,Federico La Penna
-537012,2025,20,2026-01-12,FINISHED,Juventus FC,Juventus,JUV,US Cremonese,Cremonese,CRE,5,0,3,0,HOME_TEAM,Ermanno Feliciani
-536974,2025,16,2026-01-14,FINISHED,SSC Napoli,Napoli,NAP,Parma Calcio 1913,Parma,PAR,0,0,0,0,DRAW,Michael Fabbri
-536970,2025,16,2026-01-14,FINISHED,FC Internazionale Milano,Inter,INT,US Lecce,Lecce,USL,1,0,0,0,HOME_TEAM,Fabio Maresca
-536969,2025,16,2026-01-15,FINISHED,Hellas Verona FC,Verona,HVE,Bologna FC 1909,Bologna,BOL,2,3,1,3,AWAY_TEAM,Maurizio Mariani
-536968,2025,16,2026-01-15,FINISHED,Como 1907,Como 1907,COM,AC Milan,Milan,MIL,1,3,1,1,AWAY_TEAM,Marco Guida
-537021,2025,21,2026-01-16,FINISHED,AC Pisa 1909,AC Pisa,PIS,Atalanta BC,Atalanta,ATA,1,1,0,0,DRAW,Matteo Marchetti
-537023,2025,21,2026-01-17,FINISHED,Udinese Calcio,Udinese,UDI,FC Internazionale Milano,Inter,INT,0,1,0,1,AWAY_TEAM,Marco Di Bello
-537022,2025,21,2026-01-17,FINISHED,SSC Napoli,Napoli,NAP,US Sassuolo Calcio,Sassuolo,SAS,1,0,1,0,HOME_TEAM,Francesco Fourneau
-537016,2025,21,2026-01-17,FINISHED,Cagliari Calcio,Cagliari,CAG,Juventus FC,Juventus,JUV,1,0,0,0,HOME_TEAM,Davide Massa
-537020,2025,21,2026-01-18,FINISHED,Parma Calcio 1913,Parma,PAR,Genoa CFC,Genoa,GEN,0,0,0,0,DRAW,Luca Pairetto
-537017,2025,21,2026-01-18,FINISHED,Bologna FC 1909,Bologna,BOL,ACF Fiorentina,Fiorentina,FIO,1,2,0,2,AWAY_TEAM,Daniele Doveri
-537018,2025,21,2026-01-18,FINISHED,Torino FC,Torino,TOR,AS Roma,Roma,ROM,0,2,0,1,AWAY_TEAM,Daniele Chiffi
-537015,2025,21,2026-01-18,FINISHED,AC Milan,Milan,MIL,US Lecce,Lecce,USL,1,0,0,0,HOME_TEAM,Luca Zufferli
-537024,2025,21,2026-01-19,FINISHED,US Cremonese,Cremonese,CRE,Hellas Verona FC,Verona,HVE,0,0,0,0,DRAW,Alberto Arena
-537019,2025,21,2026-01-19,FINISHED,SS Lazio,Lazio,LAZ,Como 1907,Como 1907,COM,0,3,0,2,AWAY_TEAM,Michael Fabbri
-537031,2025,22,2026-01-23,FINISHED,FC Internazionale Milano,Inter,INT,AC Pisa 1909,AC Pisa,PIS,6,2,3,2,HOME_TEAM,Matteo Marcenaro
-537029,2025,22,2026-01-24,FINISHED,Como 1907,Como 1907,COM,Torino FC,Torino,TOR,6,0,2,0,HOME_TEAM,Ermanno Feliciani
-537025,2025,22,2026-01-24,FINISHED,ACF Fiorentina,Fiorentina,FIO,Cagliari Calcio,Cagliari,CAG,1,2,0,1,AWAY_TEAM,Marco Guida
-537034,2025,22,2026-01-24,FINISHED,US Lecce,Lecce,USL,SS Lazio,Lazio,LAZ,0,0,0,0,DRAW,Daniele Chiffi
-537033,2025,22,2026-01-25,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,US Cremonese,Cremonese,CRE,1,0,1,0,HOME_TEAM,Giuseppe Collu
-537027,2025,22,2026-01-25,FINISHED,Atalanta BC,Atalanta,ATA,Parma Calcio 1913,Parma,PAR,4,0,2,0,HOME_TEAM,Juan Luca Sacchi
-537028,2025,22,2026-01-25,FINISHED,Genoa CFC,Genoa,GEN,Bologna FC 1909,Bologna,BOL,3,2,0,1,HOME_TEAM,Fabio Maresca
-537032,2025,22,2026-01-25,FINISHED,Juventus FC,Juventus,JUV,SSC Napoli,Napoli,NAP,3,0,1,0,HOME_TEAM,Maurizio Mariani
-537026,2025,22,2026-01-25,FINISHED,AS Roma,Roma,ROM,AC Milan,Milan,MIL,1,1,0,0,DRAW,Andrea Colombo
-537030,2025,22,2026-01-26,FINISHED,Hellas Verona FC,Verona,HVE,Udinese Calcio,Udinese,UDI,1,3,1,1,AWAY_TEAM,Gianluca Manganiello
-537039,2025,23,2026-01-30,FINISHED,SS Lazio,Lazio,LAZ,Genoa CFC,Genoa,GEN,3,2,0,0,HOME_TEAM,Luca Zufferli
-537041,2025,23,2026-01-31,FINISHED,AC Pisa 1909,AC Pisa,PIS,US Sassuolo Calcio,Sassuolo,SAS,1,3,0,2,AWAY_TEAM,Alberto Arena
-537042,2025,23,2026-01-31,FINISHED,SSC Napoli,Napoli,NAP,ACF Fiorentina,Fiorentina,FIO,2,1,1,0,HOME_TEAM,Federico La Penna
-537035,2025,23,2026-01-31,FINISHED,Cagliari Calcio,Cagliari,CAG,Hellas Verona FC,Verona,HVE,4,0,2,0,HOME_TEAM,Kevin Bonacina
-537038,2025,23,2026-02-01,FINISHED,Torino FC,Torino,TOR,US Lecce,Lecce,USL,1,0,1,0,HOME_TEAM,Simone Sozza
-537036,2025,23,2026-02-01,FINISHED,Como 1907,Como 1907,COM,Atalanta BC,Atalanta,ATA,0,0,0,0,DRAW,Luca Pairetto
-537044,2025,23,2026-02-01,FINISHED,US Cremonese,Cremonese,CRE,FC Internazionale Milano,Inter,INT,0,2,0,2,AWAY_TEAM,Davide Massa
-537040,2025,23,2026-02-01,FINISHED,Parma Calcio 1913,Parma,PAR,Juventus FC,Juventus,JUV,1,4,0,2,AWAY_TEAM,Francesco Fourneau
-537043,2025,23,2026-02-02,FINISHED,Udinese Calcio,Udinese,UDI,AS Roma,Roma,ROM,1,0,0,0,HOME_TEAM,Juan Luca Sacchi
-537037,2025,23,2026-02-03,FINISHED,Bologna FC 1909,Bologna,BOL,AC Milan,Milan,MIL,0,3,0,2,AWAY_TEAM,Gianluca Manganiello
-537051,2025,24,2026-02-06,FINISHED,Hellas Verona FC,Verona,HVE,AC Pisa 1909,AC Pisa,PIS,0,0,0,0,DRAW,Daniele Doveri
-537049,2025,24,2026-02-07,FINISHED,Genoa CFC,Genoa,GEN,SSC Napoli,Napoli,NAP,2,3,1,2,AWAY_TEAM,Davide Massa
-537045,2025,24,2026-02-07,FINISHED,ACF Fiorentina,Fiorentina,FIO,Torino FC,Torino,TOR,2,2,0,1,DRAW,Andrea Colombo
-537050,2025,24,2026-02-08,FINISHED,Bologna FC 1909,Bologna,BOL,Parma Calcio 1913,Parma,PAR,0,1,0,0,AWAY_TEAM,Giuseppe Collu
-537054,2025,24,2026-02-08,FINISHED,US Lecce,Lecce,USL,Udinese Calcio,Udinese,UDI,2,1,1,1,HOME_TEAM,Antonio Rapuano
-537053,2025,24,2026-02-08,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,FC Internazionale Milano,Inter,INT,0,5,0,2,AWAY_TEAM,Daniele Chiffi
-537052,2025,24,2026-02-08,FINISHED,Juventus FC,Juventus,JUV,SS Lazio,Lazio,LAZ,2,2,0,1,DRAW,Marco Guida
-537048,2025,24,2026-02-09,FINISHED,Atalanta BC,Atalanta,ATA,US Cremonese,Cremonese,CRE,2,1,2,0,HOME_TEAM,Marco Piccinini
-537047,2025,24,2026-02-09,FINISHED,AS Roma,Roma,ROM,Cagliari Calcio,Cagliari,CAG,2,0,1,0,HOME_TEAM,Matteo Marcenaro
-537061,2025,25,2026-02-13,FINISHED,AC Pisa 1909,AC Pisa,PIS,AC Milan,Milan,MIL,1,2,0,1,AWAY_TEAM,Michael Fabbri
-537056,2025,25,2026-02-14,FINISHED,Como 1907,Como 1907,COM,ACF Fiorentina,Fiorentina,FIO,1,2,0,1,AWAY_TEAM,Matteo Marchetti
-537059,2025,25,2026-02-14,FINISHED,SS Lazio,Lazio,LAZ,Atalanta BC,Atalanta,ATA,0,2,0,1,AWAY_TEAM,Juan Luca Sacchi
-537058,2025,25,2026-02-14,FINISHED,FC Internazionale Milano,Inter,INT,Juventus FC,Juventus,JUV,3,2,1,1,HOME_TEAM,Federico La Penna
-537063,2025,25,2026-02-15,FINISHED,Udinese Calcio,Udinese,UDI,US Sassuolo Calcio,Sassuolo,SAS,1,2,1,0,AWAY_TEAM,Maria Caputi
-537060,2025,25,2026-02-15,FINISHED,Parma Calcio 1913,Parma,PAR,Hellas Verona FC,Verona,HVE,2,1,1,1,HOME_TEAM,Luca Pairetto
-537064,2025,25,2026-02-15,FINISHED,US Cremonese,Cremonese,CRE,Genoa CFC,Genoa,GEN,0,0,0,0,DRAW,Simone Sozza
-537057,2025,25,2026-02-15,FINISHED,Torino FC,Torino,TOR,Bologna FC 1909,Bologna,BOL,1,2,0,0,AWAY_TEAM,Francesco Fourneau
-537062,2025,25,2026-02-15,FINISHED,SSC Napoli,Napoli,NAP,AS Roma,Roma,ROM,2,2,1,1,DRAW,Andrea Colombo
-537055,2025,25,2026-02-16,FINISHED,Cagliari Calcio,Cagliari,CAG,US Lecce,Lecce,USL,0,2,0,0,AWAY_TEAM,Ermanno Feliciani
-537046,2025,24,2026-02-18,FINISHED,AC Milan,Milan,MIL,Como 1907,Como 1907,COM,1,1,0,1,DRAW,Maurizio Mariani
-537073,2025,26,2026-02-20,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,Hellas Verona FC,Verona,HVE,3,0,2,0,HOME_TEAM,Livio Marinelli
-537072,2025,26,2026-02-21,FINISHED,Juventus FC,Juventus,JUV,Como 1907,Como 1907,COM,0,2,0,1,AWAY_TEAM,Daniele Doveri
-537074,2025,26,2026-02-21,FINISHED,US Lecce,Lecce,USL,FC Internazionale Milano,Inter,INT,0,2,0,0,AWAY_TEAM,Gianluca Manganiello
-537069,2025,26,2026-02-21,FINISHED,Cagliari Calcio,Cagliari,CAG,SS Lazio,Lazio,LAZ,0,0,0,0,DRAW,Antonio Rapuano
-537070,2025,26,2026-02-22,FINISHED,Genoa CFC,Genoa,GEN,Torino FC,Torino,TOR,3,0,2,0,HOME_TEAM,Marco Guida
-537068,2025,26,2026-02-22,FINISHED,Atalanta BC,Atalanta,ATA,SSC Napoli,Napoli,NAP,2,1,0,1,HOME_TEAM,Daniele Chiffi
-537066,2025,26,2026-02-22,FINISHED,AC Milan,Milan,MIL,Parma Calcio 1913,Parma,PAR,0,1,0,0,AWAY_TEAM,Marco Piccinini
-537067,2025,26,2026-02-22,FINISHED,AS Roma,Roma,ROM,US Cremonese,Cremonese,CRE,3,0,0,0,HOME_TEAM,Marco Di Bello
-537065,2025,26,2026-02-23,FINISHED,ACF Fiorentina,Fiorentina,FIO,AC Pisa 1909,AC Pisa,PIS,1,0,1,0,HOME_TEAM,Maurizio Mariani
-537071,2025,26,2026-02-23,FINISHED,Bologna FC 1909,Bologna,BOL,Udinese Calcio,Udinese,UDI,1,0,0,0,HOME_TEAM,Matteo Marcenaro
-537080,2025,27,2026-02-27,FINISHED,Parma Calcio 1913,Parma,PAR,Cagliari Calcio,Cagliari,CAG,1,1,0,0,DRAW,Luca Massimi
-537076,2025,27,2026-02-28,FINISHED,Como 1907,Como 1907,COM,US Lecce,Lecce,USL,3,1,3,1,HOME_TEAM,Francesco Fourneau
-537078,2025,27,2026-02-28,FINISHED,Hellas Verona FC,Verona,HVE,SSC Napoli,Napoli,NAP,1,2,0,1,AWAY_TEAM,Andrea Colombo
-537079,2025,27,2026-02-28,FINISHED,FC Internazionale Milano,Inter,INT,Genoa CFC,Genoa,GEN,2,0,1,0,HOME_TEAM,Michael Fabbri
-537084,2025,27,2026-03-01,FINISHED,US Cremonese,Cremonese,CRE,AC Milan,Milan,MIL,0,2,0,0,AWAY_TEAM,Davide Massa
-537082,2025,27,2026-03-01,FINISHED,US Sassuolo Calcio,Sassuolo,SAS,Atalanta BC,Atalanta,ATA,2,1,1,0,HOME_TEAM,Matteo Marchetti
-537077,2025,27,2026-03-01,FINISHED,Torino FC,Torino,TOR,SS Lazio,Lazio,LAZ,2,0,1,0,HOME_TEAM,Rosario Abisso
-537075,2025,27,2026-03-01,FINISHED,AS Roma,Roma,ROM,Juventus FC,Juventus,JUV,3,3,1,0,DRAW,Simone Sozza
-537081,2025,27,2026-03-02,FINISHED,AC Pisa 1909,AC Pisa,PIS,Bologna FC 1909,Bologna,BOL,0,1,0,0,AWAY_TEAM,Ermanno Feliciani
-537083,2025,27,2026-03-02,FINISHED,Udinese Calcio,Udinese,UDI,ACF Fiorentina,Fiorentina,FIO,3,0,1,0,HOME_TEAM,Luca Pairetto
-537093,2025,28,2026-03-06,FINISHED,SSC Napoli,Napoli,NAP,Torino FC,Torino,TOR,2,1,1,0,HOME_TEAM,Michael Fabbri
+match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_tla,away_team,away_team_short,away_team_tla,home_goals_ft,away_goals_ft,home_goals_ht,away_goals_ht,result,duration,referee
+536819,2025,1,2025-08-23,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,US Lecce,Lecce,USL,0,0,0,0,DRAW,REGULAR,Davide Massa
+536823,2025,1,2025-08-23,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,SSC Napoli,Napoli,NAP,0,2,0,1,AWAY_TEAM,REGULAR,Giovanni Ayroldi
+536815,2025,1,2025-08-23,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,US Cremonese,Cremonese,CRE,1,2,1,1,AWAY_TEAM,REGULAR,Giuseppe Collu
+536816,2025,1,2025-08-23,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,Bologna FC 1909,Bologna,BOL,1,0,0,0,HOME_TEAM,REGULAR,Luca Zufferli
+536818,2025,1,2025-08-24,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,ACF Fiorentina,Fiorentina,FIO,1,1,0,0,DRAW,REGULAR,Simone Sozza
+536820,2025,1,2025-08-24,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,SS Lazio,Lazio,LAZ,2,0,0,0,HOME_TEAM,REGULAR,Gianluca Manganiello
+536817,2025,1,2025-08-24,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,AC Pisa 1909,AC Pisa,PIS,1,1,0,1,DRAW,REGULAR,Alberto Arena
+536822,2025,1,2025-08-24,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,Parma Calcio 1913,Parma,PAR,2,0,0,0,HOME_TEAM,REGULAR,Matteo Marcenaro
+536824,2025,1,2025-08-25,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,Hellas Verona FC,Verona,HVE,1,1,0,0,DRAW,REGULAR,Paride Tremolada
+536821,2025,1,2025-08-25,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,Torino FC,Torino,TOR,5,0,2,0,HOME_TEAM,REGULAR,Federico La Penna
+536833,2025,2,2025-08-29,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,US Sassuolo Calcio,Sassuolo,SAS,3,2,2,0,HOME_TEAM,REGULAR,Marco Guida
+536834,2025,2,2025-08-29,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,AC Milan,Milan,MIL,0,2,0,0,AWAY_TEAM,REGULAR,Livio Marinelli
+536826,2025,2,2025-08-30,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,Como 1907,Como 1907,COM,1,0,0,0,HOME_TEAM,REGULAR,Daniele Doveri
+536830,2025,2,2025-08-30,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,Atalanta BC,Atalanta,ATA,1,1,0,0,DRAW,REGULAR,Maurizio Mariani
+536832,2025,2,2025-08-30,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,Cagliari Calcio,Cagliari,CAG,1,0,0,0,HOME_TEAM,REGULAR,Kevin Bonacina
+536831,2025,2,2025-08-30,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,AS Roma,Roma,ROM,0,1,0,0,AWAY_TEAM,REGULAR,Giuseppe Collu
+536825,2025,2,2025-08-31,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,Juventus FC,Juventus,JUV,0,1,0,0,AWAY_TEAM,REGULAR,Daniele Chiffi
+536827,2025,2,2025-08-31,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,ACF Fiorentina,Fiorentina,FIO,0,0,0,0,DRAW,REGULAR,Rosario Abisso
+536828,2025,2,2025-08-31,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,Udinese Calcio,Udinese,UDI,1,2,1,2,AWAY_TEAM,REGULAR,Matteo Marchetti
+536829,2025,2,2025-08-31,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,Hellas Verona FC,Verona,HVE,4,0,3,0,HOME_TEAM,REGULAR,Valerio Crezzini
+536839,2025,3,2025-09-13,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,Parma Calcio 1913,Parma,PAR,2,0,1,0,HOME_TEAM,REGULAR,Francesco Fourneau
+536842,2025,3,2025-09-13,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,FC Internazionale Milano,Inter,INT,4,3,2,1,HOME_TEAM,REGULAR,Andrea Colombo
+536835,2025,3,2025-09-13,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,SSC Napoli,Napoli,NAP,1,3,0,2,AWAY_TEAM,REGULAR,Luca Zufferli
+536837,2025,3,2025-09-14,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,Torino FC,Torino,TOR,0,1,0,0,AWAY_TEAM,REGULAR,Giovanni Ayroldi
+536838,2025,3,2025-09-14,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,US Lecce,Lecce,USL,4,1,1,0,HOME_TEAM,REGULAR,Gianluca Manganiello
+536843,2025,3,2025-09-14,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,Udinese Calcio,Udinese,UDI,0,1,0,1,AWAY_TEAM,REGULAR,Davide Massa
+536844,2025,3,2025-09-14,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,SS Lazio,Lazio,LAZ,1,0,0,0,HOME_TEAM,REGULAR,Paride Tremolada
+536836,2025,3,2025-09-14,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,Bologna FC 1909,Bologna,BOL,1,0,0,0,HOME_TEAM,REGULAR,Matteo Marcenaro
+536841,2025,3,2025-09-15,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,US Cremonese,Cremonese,CRE,0,0,0,0,DRAW,REGULAR,Alberto Arena
+536840,2025,3,2025-09-15,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,Genoa CFC,Genoa,GEN,1,1,1,0,DRAW,REGULAR,Marco Piccinini
+536854,2025,4,2025-09-19,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,Cagliari Calcio,Cagliari,CAG,1,2,1,1,AWAY_TEAM,REGULAR,Luca Zufferli
+536846,2025,4,2025-09-20,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,Genoa CFC,Genoa,GEN,2,1,0,0,HOME_TEAM,REGULAR,Giuseppe Collu
+536848,2025,4,2025-09-20,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,Juventus FC,Juventus,JUV,1,1,1,1,DRAW,REGULAR,Antonio Rapuano
+536852,2025,4,2025-09-20,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,AC Milan,Milan,MIL,0,3,0,1,AWAY_TEAM,REGULAR,Daniele Doveri
+536850,2025,4,2025-09-21,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,AS Roma,Roma,ROM,0,1,0,1,AWAY_TEAM,REGULAR,Simone Sozza
+536847,2025,4,2025-09-21,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,Atalanta BC,Atalanta,ATA,0,3,0,3,AWAY_TEAM,REGULAR,Andrea Colombo
+536853,2025,4,2025-09-21,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,Parma Calcio 1913,Parma,PAR,0,0,0,0,DRAW,REGULAR,Federico La Penna
+536845,2025,4,2025-09-21,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,Como 1907,Como 1907,COM,1,2,1,0,AWAY_TEAM,REGULAR,Kevin Bonacina
+536849,2025,4,2025-09-21,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,US Sassuolo Calcio,Sassuolo,SAS,2,1,1,0,HOME_TEAM,REGULAR,Livio Marinelli
+536851,2025,4,2025-09-22,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,AC Pisa 1909,AC Pisa,PIS,3,2,1,0,HOME_TEAM,REGULAR,Valerio Crezzini
+536859,2025,5,2025-09-27,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,US Cremonese,Cremonese,CRE,1,1,1,0,DRAW,REGULAR,Marco Di Bello
+536860,2025,5,2025-09-27,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,Atalanta BC,Atalanta,ATA,1,1,0,1,DRAW,REGULAR,Simone Sozza
+536857,2025,5,2025-09-27,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,FC Internazionale Milano,Inter,INT,0,2,0,1,AWAY_TEAM,REGULAR,Marco Piccinini
+536863,2025,5,2025-09-28,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,Udinese Calcio,Udinese,UDI,3,1,2,0,HOME_TEAM,REGULAR,Daniele Perenzoni
+536856,2025,5,2025-09-28,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,Hellas Verona FC,Verona,HVE,2,0,1,0,HOME_TEAM,REGULAR,Ermanno Feliciani
+536862,2025,5,2025-09-28,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,ACF Fiorentina,Fiorentina,FIO,0,0,0,0,DRAW,REGULAR,Gianluca Manganiello
+536864,2025,5,2025-09-28,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,Bologna FC 1909,Bologna,BOL,2,2,1,1,DRAW,REGULAR,Francesco Fourneau
+536855,2025,5,2025-09-28,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,SSC Napoli,Napoli,NAP,2,1,2,0,HOME_TEAM,REGULAR,Daniele Chiffi
+536861,2025,5,2025-09-29,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,Torino FC,Torino,TOR,2,1,1,0,HOME_TEAM,REGULAR,Giuseppe Collu
+536858,2025,5,2025-09-29,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,SS Lazio,Lazio,LAZ,0,3,0,2,AWAY_TEAM,REGULAR,Giovanni Ayroldi
+536868,2025,6,2025-10-03,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,US Sassuolo Calcio,Sassuolo,SAS,0,1,0,0,AWAY_TEAM,REGULAR,Francesco Fourneau
+536871,2025,6,2025-10-04,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,Torino FC,Torino,TOR,3,3,2,1,DRAW,REGULAR,Marco Piccinini
+536872,2025,6,2025-10-04,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,US Lecce,Lecce,USL,0,1,0,1,AWAY_TEAM,REGULAR,Daniele Doveri
+536869,2025,6,2025-10-04,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,US Cremonese,Cremonese,CRE,4,1,2,0,HOME_TEAM,REGULAR,Ermanno Feliciani
+536866,2025,6,2025-10-04,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,Como 1907,Como 1907,COM,1,1,1,1,DRAW,REGULAR,Luca Zufferli
+536874,2025,6,2025-10-05,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,Cagliari Calcio,Cagliari,CAG,1,1,0,1,DRAW,REGULAR,Alberto Arena
+536865,2025,6,2025-10-05,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,AS Roma,Roma,ROM,1,2,1,2,AWAY_TEAM,REGULAR,Andrea Colombo
+536867,2025,6,2025-10-05,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,AC Pisa 1909,AC Pisa,PIS,4,0,3,0,HOME_TEAM,REGULAR,Rosario Abisso
+536873,2025,6,2025-10-05,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,Genoa CFC,Genoa,GEN,2,1,0,1,HOME_TEAM,REGULAR,Federico La Penna
+536870,2025,6,2025-10-05,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,AC Milan,Milan,MIL,0,0,0,0,DRAW,REGULAR,Marco Guida
+536882,2025,7,2025-10-18,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,Hellas Verona FC,Verona,HVE,0,0,0,0,DRAW,REGULAR,Marco Guida
+536884,2025,7,2025-10-18,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,US Sassuolo Calcio,Sassuolo,SAS,0,0,0,0,DRAW,REGULAR,Valerio Crezzini
+536881,2025,7,2025-10-18,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,SSC Napoli,Napoli,NAP,1,0,1,0,HOME_TEAM,REGULAR,Matteo Marcenaro
+536876,2025,7,2025-10-18,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,FC Internazionale Milano,Inter,INT,0,1,0,1,AWAY_TEAM,REGULAR,Davide Massa
+536880,2025,7,2025-10-19,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,Juventus FC,Juventus,JUV,2,0,1,0,HOME_TEAM,REGULAR,Giovanni Ayroldi
+536878,2025,7,2025-10-19,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,Bologna FC 1909,Bologna,BOL,0,2,0,1,AWAY_TEAM,REGULAR,Matteo Marchetti
+536879,2025,7,2025-10-19,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,Parma Calcio 1913,Parma,PAR,0,0,0,0,DRAW,REGULAR,Simone Sozza
+536877,2025,7,2025-10-19,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,SS Lazio,Lazio,LAZ,0,0,0,0,DRAW,REGULAR,Giuseppe Collu
+536875,2025,7,2025-10-19,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,ACF Fiorentina,Fiorentina,FIO,2,1,0,0,HOME_TEAM,REGULAR,Livio Marinelli
+536883,2025,7,2025-10-20,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,Udinese Calcio,Udinese,UDI,1,1,1,0,DRAW,REGULAR,Michael Fabbri
+536886,2025,8,2025-10-24,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,AC Pisa 1909,AC Pisa,PIS,2,2,1,0,DRAW,REGULAR,Luca Zufferli
+536890,2025,8,2025-10-25,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,Como 1907,Como 1907,COM,0,0,0,0,DRAW,REGULAR,Daniele Chiffi
+536893,2025,8,2025-10-25,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,US Lecce,Lecce,USL,3,2,2,0,HOME_TEAM,REGULAR,Ermanno Feliciani
+536892,2025,8,2025-10-25,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,FC Internazionale Milano,Inter,INT,3,1,1,0,HOME_TEAM,REGULAR,Maurizio Mariani
+536894,2025,8,2025-10-25,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,Atalanta BC,Atalanta,ATA,1,1,0,0,DRAW,REGULAR,Alberto Arena
+536887,2025,8,2025-10-26,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,Genoa CFC,Genoa,GEN,2,1,0,1,HOME_TEAM,REGULAR,Kevin Bonacina
+536888,2025,8,2025-10-26,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,Cagliari Calcio,Cagliari,CAG,2,2,1,0,DRAW,REGULAR,Federico Dionisi
+536891,2025,8,2025-10-26,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,AS Roma,Roma,ROM,0,1,0,1,AWAY_TEAM,REGULAR,Gianluca Manganiello
+536885,2025,8,2025-10-26,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,Bologna FC 1909,Bologna,BOL,2,2,0,1,DRAW,REGULAR,Federico La Penna
+536889,2025,8,2025-10-26,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,Juventus FC,Juventus,JUV,1,0,1,0,HOME_TEAM,REGULAR,Andrea Colombo
+536904,2025,9,2025-10-28,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,SSC Napoli,Napoli,NAP,0,1,0,0,AWAY_TEAM,REGULAR,Giuseppe Collu
+536896,2025,9,2025-10-28,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,AC Milan,Milan,MIL,1,1,1,1,DRAW,REGULAR,Daniele Doveri
+536895,2025,9,2025-10-29,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,Parma Calcio 1913,Parma,PAR,2,1,0,0,HOME_TEAM,REGULAR,Valerio Crezzini
+536899,2025,9,2025-10-29,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,Hellas Verona FC,Verona,HVE,3,1,1,1,HOME_TEAM,REGULAR,Matteo Marcenaro
+536902,2025,9,2025-10-29,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,Udinese Calcio,Udinese,UDI,3,1,1,1,HOME_TEAM,REGULAR,Marco Di Bello
+536898,2025,9,2025-10-29,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,US Cremonese,Cremonese,CRE,0,2,0,1,AWAY_TEAM,REGULAR,Rosario Abisso
+536900,2025,9,2025-10-29,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,Torino FC,Torino,TOR,0,0,0,0,DRAW,REGULAR,Giovanni Ayroldi
+536901,2025,9,2025-10-29,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,ACF Fiorentina,Fiorentina,FIO,3,0,0,0,HOME_TEAM,REGULAR,Simone Sozza
+536897,2025,9,2025-10-30,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,US Sassuolo Calcio,Sassuolo,SAS,1,2,0,0,AWAY_TEAM,REGULAR,Luca Pairetto
+536903,2025,9,2025-10-30,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,SS Lazio,Lazio,LAZ,0,0,0,0,DRAW,REGULAR,Davide Massa
+536913,2025,10,2025-11-01,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,Atalanta BC,Atalanta,ATA,1,0,1,0,HOME_TEAM,REGULAR,Michael Fabbri
+536912,2025,10,2025-11-01,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,Como 1907,Como 1907,COM,0,0,0,0,DRAW,REGULAR,Luca Zufferli
+536914,2025,10,2025-11-01,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,Juventus FC,Juventus,JUV,1,2,0,1,AWAY_TEAM,REGULAR,Daniele Chiffi
+536908,2025,10,2025-11-02,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,FC Internazionale Milano,Inter,INT,1,2,1,1,AWAY_TEAM,REGULAR,Daniele Doveri
+536905,2025,10,2025-11-02,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,US Lecce,Lecce,USL,0,1,0,1,AWAY_TEAM,REGULAR,Antonio Rapuano
+536907,2025,10,2025-11-02,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,AC Pisa 1909,AC Pisa,PIS,2,2,2,2,DRAW,REGULAR,Alberto Arena
+536910,2025,10,2025-11-02,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,Bologna FC 1909,Bologna,BOL,1,3,1,1,AWAY_TEAM,REGULAR,Kevin Bonacina
+536906,2025,10,2025-11-02,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,AS Roma,Roma,ROM,1,0,1,0,HOME_TEAM,REGULAR,Marco Guida
+536911,2025,10,2025-11-03,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,Genoa CFC,Genoa,GEN,1,2,0,1,AWAY_TEAM,REGULAR,Ermanno Feliciani
+536909,2025,10,2025-11-03,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,Cagliari Calcio,Cagliari,CAG,2,0,0,0,HOME_TEAM,REGULAR,Juan Luca Sacchi
+536923,2025,11,2025-11-07,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,US Cremonese,Cremonese,CRE,1,0,0,0,HOME_TEAM,REGULAR,Matteo Marcenaro
+536918,2025,11,2025-11-08,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,Cagliari Calcio,Cagliari,CAG,0,0,0,0,DRAW,REGULAR,Ivano Pezzuto
+536924,2025,11,2025-11-08,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,Hellas Verona FC,Verona,HVE,0,0,0,0,DRAW,REGULAR,Rosario Abisso
+536921,2025,11,2025-11-08,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,Torino FC,Torino,TOR,0,0,0,0,DRAW,REGULAR,Luca Zufferli
+536922,2025,11,2025-11-08,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,AC Milan,Milan,MIL,2,2,1,2,DRAW,REGULAR,Marco Di Bello
+536916,2025,11,2025-11-09,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,US Sassuolo Calcio,Sassuolo,SAS,0,3,0,1,AWAY_TEAM,REGULAR,Valerio Crezzini
+536917,2025,11,2025-11-09,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,ACF Fiorentina,Fiorentina,FIO,2,2,1,1,DRAW,REGULAR,Marco Guida
+536919,2025,11,2025-11-09,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,SSC Napoli,Napoli,NAP,2,0,0,0,HOME_TEAM,REGULAR,Daniele Chiffi
+536915,2025,11,2025-11-09,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,Udinese Calcio,Udinese,UDI,2,0,1,0,HOME_TEAM,REGULAR,Giuseppe Collu
+536920,2025,11,2025-11-09,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,SS Lazio,Lazio,LAZ,2,0,1,0,HOME_TEAM,REGULAR,Gianluca Manganiello
+536926,2025,12,2025-11-22,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,Genoa CFC,Genoa,GEN,3,3,2,2,DRAW,REGULAR,Federico La Penna
+536933,2025,12,2025-11-22,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,Bologna FC 1909,Bologna,BOL,0,3,0,0,AWAY_TEAM,REGULAR,Juan Luca Sacchi
+536925,2025,12,2025-11-22,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,Juventus FC,Juventus,JUV,1,1,0,1,DRAW,REGULAR,Daniele Doveri
+536932,2025,12,2025-11-22,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,Atalanta BC,Atalanta,ATA,3,1,3,0,HOME_TEAM,REGULAR,Marco Di Bello
+536928,2025,12,2025-11-23,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,Parma Calcio 1913,Parma,PAR,1,2,0,1,AWAY_TEAM,REGULAR,Luca Pairetto
+536934,2025,12,2025-11-23,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,AS Roma,Roma,ROM,1,3,0,1,AWAY_TEAM,REGULAR,Giovanni Ayroldi
+536930,2025,12,2025-11-23,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,US Lecce,Lecce,USL,2,0,1,0,HOME_TEAM,REGULAR,Alberto Arena
+536929,2025,12,2025-11-23,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,AC Milan,Milan,MIL,0,1,0,0,AWAY_TEAM,REGULAR,Simone Sozza
+536927,2025,12,2025-11-24,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,Como 1907,Como 1907,COM,1,5,1,1,AWAY_TEAM,REGULAR,Kevin Bonacina
+536931,2025,12,2025-11-24,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,AC Pisa 1909,AC Pisa,PIS,2,2,1,1,DRAW,REGULAR,Davide Di Marco
+536939,2025,13,2025-11-28,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,US Sassuolo Calcio,Sassuolo,SAS,2,0,1,0,HOME_TEAM,REGULAR,Matteo Marchetti
+536938,2025,13,2025-11-29,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,Hellas Verona FC,Verona,HVE,2,1,1,1,HOME_TEAM,REGULAR,Michael Fabbri
+536942,2025,13,2025-11-29,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,Udinese Calcio,Udinese,UDI,0,2,0,1,AWAY_TEAM,REGULAR,Marco Piccinini
+536941,2025,13,2025-11-29,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,Cagliari Calcio,Cagliari,CAG,2,1,2,1,HOME_TEAM,REGULAR,Valerio Crezzini
+536935,2025,13,2025-11-29,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,SS Lazio,Lazio,LAZ,1,0,0,0,HOME_TEAM,REGULAR,Giuseppe Collu
+536944,2025,13,2025-11-30,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,Torino FC,Torino,TOR,2,1,2,0,HOME_TEAM,REGULAR,Maurizio Mariani
+536943,2025,13,2025-11-30,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,FC Internazionale Milano,Inter,INT,0,2,0,0,AWAY_TEAM,REGULAR,Marco Guida
+536937,2025,13,2025-11-30,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,ACF Fiorentina,Fiorentina,FIO,2,0,1,0,HOME_TEAM,REGULAR,Matteo Marcenaro
+536936,2025,13,2025-11-30,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,SSC Napoli,Napoli,NAP,0,1,0,1,AWAY_TEAM,REGULAR,Davide Massa
+536940,2025,13,2025-12-01,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,US Cremonese,Cremonese,CRE,1,3,1,2,AWAY_TEAM,REGULAR,Ermanno Feliciani
+536951,2025,14,2025-12-06,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,ACF Fiorentina,Fiorentina,FIO,3,1,2,1,HOME_TEAM,REGULAR,Luca Pairetto
+536948,2025,14,2025-12-06,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,Como 1907,Como 1907,COM,4,0,1,0,HOME_TEAM,REGULAR,Marco Di Bello
+536947,2025,14,2025-12-06,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,Atalanta BC,Atalanta,ATA,3,1,2,0,HOME_TEAM,REGULAR,Maurizio Mariani
+536954,2025,14,2025-12-07,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,US Lecce,Lecce,USL,2,0,0,0,HOME_TEAM,REGULAR,Giuseppe Mucera
+536945,2025,14,2025-12-07,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,AS Roma,Roma,ROM,1,0,0,0,HOME_TEAM,REGULAR,Luca Zufferli
+536949,2025,14,2025-12-07,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,Bologna FC 1909,Bologna,BOL,1,1,1,1,DRAW,REGULAR,Michael Fabbri
+536952,2025,14,2025-12-07,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,Juventus FC,Juventus,JUV,2,1,1,0,HOME_TEAM,REGULAR,Federico La Penna
+536950,2025,14,2025-12-08,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,Parma Calcio 1913,Parma,PAR,0,1,0,1,AWAY_TEAM,REGULAR,Daniele Doveri
+536953,2025,14,2025-12-08,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,Genoa CFC,Genoa,GEN,1,2,0,1,AWAY_TEAM,REGULAR,Fabio Maresca
+536946,2025,14,2025-12-08,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,AC Milan,Milan,MIL,2,3,2,1,AWAY_TEAM,REGULAR,Daniele Chiffi
+536964,2025,15,2025-12-12,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,AC Pisa 1909,AC Pisa,PIS,1,0,0,0,HOME_TEAM,REGULAR,Juan Luca Sacchi
+536961,2025,15,2025-12-13,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,US Cremonese,Cremonese,CRE,1,0,1,0,HOME_TEAM,REGULAR,Livio Marinelli
+536962,2025,15,2025-12-13,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,SS Lazio,Lazio,LAZ,0,1,0,0,AWAY_TEAM,REGULAR,Matteo Marchetti
+536958,2025,15,2025-12-13,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,Cagliari Calcio,Cagliari,CAG,2,1,1,0,HOME_TEAM,REGULAR,Davide Di Marco
+536956,2025,15,2025-12-14,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,US Sassuolo Calcio,Sassuolo,SAS,2,2,1,1,DRAW,REGULAR,Valerio Crezzini
+536955,2025,15,2025-12-14,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,Hellas Verona FC,Verona,HVE,1,2,0,1,AWAY_TEAM,REGULAR,Andrea Colombo
+536963,2025,15,2025-12-14,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,SSC Napoli,Napoli,NAP,1,0,0,0,HOME_TEAM,REGULAR,Simone Sozza
+536959,2025,15,2025-12-14,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,FC Internazionale Milano,Inter,INT,1,2,0,2,AWAY_TEAM,REGULAR,Daniele Doveri
+536960,2025,15,2025-12-14,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,Juventus FC,Juventus,JUV,0,1,0,0,AWAY_TEAM,REGULAR,Davide Massa
+536957,2025,15,2025-12-15,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,Como 1907,Como 1907,COM,1,0,0,0,HOME_TEAM,REGULAR,Ermanno Feliciani
+536972,2025,16,2025-12-20,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,US Cremonese,Cremonese,CRE,0,0,0,0,DRAW,REGULAR,Luca Pairetto
+536971,2025,16,2025-12-20,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,AS Roma,Roma,ROM,2,1,1,0,HOME_TEAM,REGULAR,Simone Sozza
+536966,2025,16,2025-12-21,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,AC Pisa 1909,AC Pisa,PIS,2,2,0,1,DRAW,REGULAR,Francesco Fourneau
+536973,2025,16,2025-12-21,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,Torino FC,Torino,TOR,0,1,0,0,AWAY_TEAM,REGULAR,Andrea Calzavara
+536965,2025,16,2025-12-21,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,Udinese Calcio,Udinese,UDI,5,1,3,0,HOME_TEAM,REGULAR,Maurizio Mariani
+536967,2025,16,2025-12-21,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,Atalanta BC,Atalanta,ATA,0,1,0,0,AWAY_TEAM,REGULAR,Rosario Abisso
+536980,2025,17,2025-12-27,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,ACF Fiorentina,Fiorentina,FIO,1,0,0,0,HOME_TEAM,REGULAR,Marco Guida
+536979,2025,17,2025-12-27,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,Cagliari Calcio,Cagliari,CAG,1,2,1,1,AWAY_TEAM,REGULAR,Daniele Doveri
+536984,2025,17,2025-12-27,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,Como 1907,Como 1907,COM,0,3,0,1,AWAY_TEAM,REGULAR,Matteo Marchetti
+536982,2025,17,2025-12-27,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,SS Lazio,Lazio,LAZ,1,1,0,0,DRAW,REGULAR,Andrea Colombo
+536981,2025,17,2025-12-27,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,Juventus FC,Juventus,JUV,0,2,0,0,AWAY_TEAM,REGULAR,Fabio Maresca
+536975,2025,17,2025-12-28,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,Hellas Verona FC,Verona,HVE,3,0,1,0,HOME_TEAM,REGULAR,Michael Fabbri
+536983,2025,17,2025-12-28,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,SSC Napoli,Napoli,NAP,0,2,0,2,AWAY_TEAM,REGULAR,Maurizio Mariani
+536978,2025,17,2025-12-28,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,US Sassuolo Calcio,Sassuolo,SAS,1,1,0,0,DRAW,REGULAR,Juan Luca Sacchi
+536977,2025,17,2025-12-28,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,FC Internazionale Milano,Inter,INT,0,1,0,0,AWAY_TEAM,REGULAR,Federico La Penna
+536976,2025,17,2025-12-29,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,Genoa CFC,Genoa,GEN,3,1,3,0,HOME_TEAM,REGULAR,Marco Di Bello
+536987,2025,18,2026-01-02,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,AC Milan,Milan,MIL,0,1,0,0,AWAY_TEAM,REGULAR,Rosario Abisso
+536989,2025,18,2026-01-03,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,Udinese Calcio,Udinese,UDI,1,0,1,0,HOME_TEAM,REGULAR,Alberto Arena
+536988,2025,18,2026-01-03,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,AC Pisa 1909,AC Pisa,PIS,1,1,1,1,DRAW,REGULAR,Daniele Chiffi
+536994,2025,18,2026-01-03,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,Parma Calcio 1913,Parma,PAR,1,1,1,1,DRAW,REGULAR,Ermanno Feliciani
+536992,2025,18,2026-01-03,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,US Lecce,Lecce,USL,1,1,0,1,DRAW,REGULAR,Giuseppe Collu
+536986,2025,18,2026-01-03,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,AS Roma,Roma,ROM,1,0,1,0,HOME_TEAM,REGULAR,Michael Fabbri
+536993,2025,18,2026-01-04,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,SSC Napoli,Napoli,NAP,0,2,0,2,AWAY_TEAM,REGULAR,Davide Massa
+536985,2025,18,2026-01-04,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,US Cremonese,Cremonese,CRE,1,0,0,0,HOME_TEAM,REGULAR,Federico La Penna
+536990,2025,18,2026-01-04,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,Torino FC,Torino,TOR,0,3,0,1,AWAY_TEAM,REGULAR,Antonio Rapuano
+536991,2025,18,2026-01-04,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,Bologna FC 1909,Bologna,BOL,3,1,1,0,HOME_TEAM,REGULAR,Marco Guida
+537000,2025,19,2026-01-06,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,Como 1907,Como 1907,COM,0,3,0,0,AWAY_TEAM,REGULAR,Luca Pairetto
+537004,2025,19,2026-01-06,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,AS Roma,Roma,ROM,0,2,0,1,AWAY_TEAM,REGULAR,Juan Luca Sacchi
+537001,2025,19,2026-01-06,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,Juventus FC,Juventus,JUV,0,3,0,1,AWAY_TEAM,REGULAR,Luca Zufferli
+536996,2025,19,2026-01-07,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,Atalanta BC,Atalanta,ATA,0,2,0,1,AWAY_TEAM,REGULAR,Marco Di Bello
+537002,2025,19,2026-01-07,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,Hellas Verona FC,Verona,HVE,2,2,0,2,DRAW,REGULAR,Matteo Marchetti
+536997,2025,19,2026-01-07,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,Udinese Calcio,Udinese,UDI,1,2,0,0,AWAY_TEAM,REGULAR,Fabio Maresca
+536998,2025,19,2026-01-07,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,ACF Fiorentina,Fiorentina,FIO,2,2,0,0,DRAW,REGULAR,Simone Sozza
+536999,2025,19,2026-01-07,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,FC Internazionale Milano,Inter,INT,0,2,0,1,AWAY_TEAM,REGULAR,Andrea Colombo
+537003,2025,19,2026-01-08,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,Cagliari Calcio,Cagliari,CAG,2,2,2,0,DRAW,REGULAR,Kevin Bonacina
+536995,2025,19,2026-01-08,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,Genoa CFC,Genoa,GEN,1,1,0,1,DRAW,REGULAR,Maurizio Mariani
+537009,2025,20,2026-01-10,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,Bologna FC 1909,Bologna,BOL,1,1,0,0,DRAW,REGULAR,Rosario Abisso
+537013,2025,20,2026-01-10,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,AC Pisa 1909,AC Pisa,PIS,2,2,2,1,DRAW,REGULAR,Giovanni Ayroldi
+537006,2025,20,2026-01-10,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,US Sassuolo Calcio,Sassuolo,SAS,2,0,0,0,HOME_TEAM,REGULAR,Matteo Marcenaro
+537007,2025,20,2026-01-10,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,Torino FC,Torino,TOR,2,0,1,0,HOME_TEAM,REGULAR,Francesco Fourneau
+537014,2025,20,2026-01-11,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,Parma Calcio 1913,Parma,PAR,1,2,1,0,AWAY_TEAM,REGULAR,Livio Marinelli
+537005,2025,20,2026-01-11,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,AC Milan,Milan,MIL,1,1,0,0,DRAW,REGULAR,Davide Massa
+537010,2025,20,2026-01-11,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,SS Lazio,Lazio,LAZ,0,1,0,0,AWAY_TEAM,REGULAR,Marco Guida
+537011,2025,20,2026-01-11,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,SSC Napoli,Napoli,NAP,2,2,1,1,DRAW,REGULAR,Daniele Doveri
+537008,2025,20,2026-01-12,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,Cagliari Calcio,Cagliari,CAG,3,0,1,0,HOME_TEAM,REGULAR,Federico La Penna
+537012,2025,20,2026-01-12,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,US Cremonese,Cremonese,CRE,5,0,3,0,HOME_TEAM,REGULAR,Ermanno Feliciani
+536974,2025,16,2026-01-14,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,Parma Calcio 1913,Parma,PAR,0,0,0,0,DRAW,REGULAR,Michael Fabbri
+536970,2025,16,2026-01-14,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,US Lecce,Lecce,USL,1,0,0,0,HOME_TEAM,REGULAR,Fabio Maresca
+536969,2025,16,2026-01-15,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,Bologna FC 1909,Bologna,BOL,2,3,1,3,AWAY_TEAM,REGULAR,Maurizio Mariani
+536968,2025,16,2026-01-15,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,AC Milan,Milan,MIL,1,3,1,1,AWAY_TEAM,REGULAR,Marco Guida
+537021,2025,21,2026-01-16,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,Atalanta BC,Atalanta,ATA,1,1,0,0,DRAW,REGULAR,Matteo Marchetti
+537023,2025,21,2026-01-17,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,FC Internazionale Milano,Inter,INT,0,1,0,1,AWAY_TEAM,REGULAR,Marco Di Bello
+537022,2025,21,2026-01-17,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,US Sassuolo Calcio,Sassuolo,SAS,1,0,1,0,HOME_TEAM,REGULAR,Francesco Fourneau
+537016,2025,21,2026-01-17,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,Juventus FC,Juventus,JUV,1,0,0,0,HOME_TEAM,REGULAR,Davide Massa
+537020,2025,21,2026-01-18,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,Genoa CFC,Genoa,GEN,0,0,0,0,DRAW,REGULAR,Luca Pairetto
+537017,2025,21,2026-01-18,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,ACF Fiorentina,Fiorentina,FIO,1,2,0,2,AWAY_TEAM,REGULAR,Daniele Doveri
+537018,2025,21,2026-01-18,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,AS Roma,Roma,ROM,0,2,0,1,AWAY_TEAM,REGULAR,Daniele Chiffi
+537015,2025,21,2026-01-18,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,US Lecce,Lecce,USL,1,0,0,0,HOME_TEAM,REGULAR,Luca Zufferli
+537024,2025,21,2026-01-19,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,Hellas Verona FC,Verona,HVE,0,0,0,0,DRAW,REGULAR,Alberto Arena
+537019,2025,21,2026-01-19,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,Como 1907,Como 1907,COM,0,3,0,2,AWAY_TEAM,REGULAR,Michael Fabbri
+537031,2025,22,2026-01-23,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,AC Pisa 1909,AC Pisa,PIS,6,2,3,2,HOME_TEAM,REGULAR,Matteo Marcenaro
+537029,2025,22,2026-01-24,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,Torino FC,Torino,TOR,6,0,2,0,HOME_TEAM,REGULAR,Ermanno Feliciani
+537025,2025,22,2026-01-24,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,Cagliari Calcio,Cagliari,CAG,1,2,0,1,AWAY_TEAM,REGULAR,Marco Guida
+537034,2025,22,2026-01-24,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,SS Lazio,Lazio,LAZ,0,0,0,0,DRAW,REGULAR,Daniele Chiffi
+537033,2025,22,2026-01-25,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,US Cremonese,Cremonese,CRE,1,0,1,0,HOME_TEAM,REGULAR,Giuseppe Collu
+537027,2025,22,2026-01-25,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,Parma Calcio 1913,Parma,PAR,4,0,2,0,HOME_TEAM,REGULAR,Juan Luca Sacchi
+537028,2025,22,2026-01-25,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,Bologna FC 1909,Bologna,BOL,3,2,0,1,HOME_TEAM,REGULAR,Fabio Maresca
+537032,2025,22,2026-01-25,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,SSC Napoli,Napoli,NAP,3,0,1,0,HOME_TEAM,REGULAR,Maurizio Mariani
+537026,2025,22,2026-01-25,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,AC Milan,Milan,MIL,1,1,0,0,DRAW,REGULAR,Andrea Colombo
+537030,2025,22,2026-01-26,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,Udinese Calcio,Udinese,UDI,1,3,1,1,AWAY_TEAM,REGULAR,Gianluca Manganiello
+537039,2025,23,2026-01-30,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,Genoa CFC,Genoa,GEN,3,2,0,0,HOME_TEAM,REGULAR,Luca Zufferli
+537041,2025,23,2026-01-31,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,US Sassuolo Calcio,Sassuolo,SAS,1,3,0,2,AWAY_TEAM,REGULAR,Alberto Arena
+537042,2025,23,2026-01-31,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,ACF Fiorentina,Fiorentina,FIO,2,1,1,0,HOME_TEAM,REGULAR,Federico La Penna
+537035,2025,23,2026-01-31,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,Hellas Verona FC,Verona,HVE,4,0,2,0,HOME_TEAM,REGULAR,Kevin Bonacina
+537038,2025,23,2026-02-01,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,US Lecce,Lecce,USL,1,0,1,0,HOME_TEAM,REGULAR,Simone Sozza
+537036,2025,23,2026-02-01,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,Atalanta BC,Atalanta,ATA,0,0,0,0,DRAW,REGULAR,Luca Pairetto
+537044,2025,23,2026-02-01,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,FC Internazionale Milano,Inter,INT,0,2,0,2,AWAY_TEAM,REGULAR,Davide Massa
+537040,2025,23,2026-02-01,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,Juventus FC,Juventus,JUV,1,4,0,2,AWAY_TEAM,REGULAR,Francesco Fourneau
+537043,2025,23,2026-02-02,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,AS Roma,Roma,ROM,1,0,0,0,HOME_TEAM,REGULAR,Juan Luca Sacchi
+537037,2025,23,2026-02-03,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,AC Milan,Milan,MIL,0,3,0,2,AWAY_TEAM,REGULAR,Gianluca Manganiello
+537051,2025,24,2026-02-06,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,AC Pisa 1909,AC Pisa,PIS,0,0,0,0,DRAW,REGULAR,Daniele Doveri
+537049,2025,24,2026-02-07,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,SSC Napoli,Napoli,NAP,2,3,1,2,AWAY_TEAM,REGULAR,Davide Massa
+537045,2025,24,2026-02-07,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,Torino FC,Torino,TOR,2,2,0,1,DRAW,REGULAR,Andrea Colombo
+537050,2025,24,2026-02-08,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,Parma Calcio 1913,Parma,PAR,0,1,0,0,AWAY_TEAM,REGULAR,Giuseppe Collu
+537054,2025,24,2026-02-08,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,Udinese Calcio,Udinese,UDI,2,1,1,1,HOME_TEAM,REGULAR,Antonio Rapuano
+537053,2025,24,2026-02-08,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,FC Internazionale Milano,Inter,INT,0,5,0,2,AWAY_TEAM,REGULAR,Daniele Chiffi
+537052,2025,24,2026-02-08,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,SS Lazio,Lazio,LAZ,2,2,0,1,DRAW,REGULAR,Marco Guida
+537048,2025,24,2026-02-09,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,US Cremonese,Cremonese,CRE,2,1,2,0,HOME_TEAM,REGULAR,Marco Piccinini
+537047,2025,24,2026-02-09,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,Cagliari Calcio,Cagliari,CAG,2,0,1,0,HOME_TEAM,REGULAR,Matteo Marcenaro
+537061,2025,25,2026-02-13,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,AC Milan,Milan,MIL,1,2,0,1,AWAY_TEAM,REGULAR,Michael Fabbri
+537056,2025,25,2026-02-14,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,ACF Fiorentina,Fiorentina,FIO,1,2,0,1,AWAY_TEAM,REGULAR,Matteo Marchetti
+537059,2025,25,2026-02-14,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,Atalanta BC,Atalanta,ATA,0,2,0,1,AWAY_TEAM,REGULAR,Juan Luca Sacchi
+537058,2025,25,2026-02-14,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,Juventus FC,Juventus,JUV,3,2,1,1,HOME_TEAM,REGULAR,Federico La Penna
+537063,2025,25,2026-02-15,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,US Sassuolo Calcio,Sassuolo,SAS,1,2,1,0,AWAY_TEAM,REGULAR,Maria Caputi
+537060,2025,25,2026-02-15,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,Hellas Verona FC,Verona,HVE,2,1,1,1,HOME_TEAM,REGULAR,Luca Pairetto
+537064,2025,25,2026-02-15,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,Genoa CFC,Genoa,GEN,0,0,0,0,DRAW,REGULAR,Simone Sozza
+537057,2025,25,2026-02-15,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,Bologna FC 1909,Bologna,BOL,1,2,0,0,AWAY_TEAM,REGULAR,Francesco Fourneau
+537062,2025,25,2026-02-15,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,AS Roma,Roma,ROM,2,2,1,1,DRAW,REGULAR,Andrea Colombo
+537055,2025,25,2026-02-16,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,US Lecce,Lecce,USL,0,2,0,0,AWAY_TEAM,REGULAR,Ermanno Feliciani
+537046,2025,24,2026-02-18,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,Como 1907,Como 1907,COM,1,1,0,1,DRAW,REGULAR,Maurizio Mariani
+537073,2025,26,2026-02-20,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,Hellas Verona FC,Verona,HVE,3,0,2,0,HOME_TEAM,REGULAR,Livio Marinelli
+537072,2025,26,2026-02-21,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,Como 1907,Como 1907,COM,0,2,0,1,AWAY_TEAM,REGULAR,Daniele Doveri
+537074,2025,26,2026-02-21,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,FC Internazionale Milano,Inter,INT,0,2,0,0,AWAY_TEAM,REGULAR,Gianluca Manganiello
+537069,2025,26,2026-02-21,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,SS Lazio,Lazio,LAZ,0,0,0,0,DRAW,REGULAR,Antonio Rapuano
+537070,2025,26,2026-02-22,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,Torino FC,Torino,TOR,3,0,2,0,HOME_TEAM,REGULAR,Marco Guida
+537068,2025,26,2026-02-22,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,SSC Napoli,Napoli,NAP,2,1,0,1,HOME_TEAM,REGULAR,Daniele Chiffi
+537066,2025,26,2026-02-22,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,Parma Calcio 1913,Parma,PAR,0,1,0,0,AWAY_TEAM,REGULAR,Marco Piccinini
+537067,2025,26,2026-02-22,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,US Cremonese,Cremonese,CRE,3,0,0,0,HOME_TEAM,REGULAR,Marco Di Bello
+537065,2025,26,2026-02-23,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,AC Pisa 1909,AC Pisa,PIS,1,0,1,0,HOME_TEAM,REGULAR,Maurizio Mariani
+537071,2025,26,2026-02-23,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,Udinese Calcio,Udinese,UDI,1,0,0,0,HOME_TEAM,REGULAR,Matteo Marcenaro
+537080,2025,27,2026-02-27,FINISHED,REGULAR_SEASON,Parma Calcio 1913,Parma,PAR,Cagliari Calcio,Cagliari,CAG,1,1,0,0,DRAW,REGULAR,Luca Massimi
+537076,2025,27,2026-02-28,FINISHED,REGULAR_SEASON,Como 1907,Como 1907,COM,US Lecce,Lecce,USL,3,1,3,1,HOME_TEAM,REGULAR,Francesco Fourneau
+537078,2025,27,2026-02-28,FINISHED,REGULAR_SEASON,Hellas Verona FC,Verona,HVE,SSC Napoli,Napoli,NAP,1,2,0,1,AWAY_TEAM,REGULAR,Andrea Colombo
+537079,2025,27,2026-02-28,FINISHED,REGULAR_SEASON,FC Internazionale Milano,Inter,INT,Genoa CFC,Genoa,GEN,2,0,1,0,HOME_TEAM,REGULAR,Michael Fabbri
+537084,2025,27,2026-03-01,FINISHED,REGULAR_SEASON,US Cremonese,Cremonese,CRE,AC Milan,Milan,MIL,0,2,0,0,AWAY_TEAM,REGULAR,Davide Massa
+537082,2025,27,2026-03-01,FINISHED,REGULAR_SEASON,US Sassuolo Calcio,Sassuolo,SAS,Atalanta BC,Atalanta,ATA,2,1,1,0,HOME_TEAM,REGULAR,Matteo Marchetti
+537077,2025,27,2026-03-01,FINISHED,REGULAR_SEASON,Torino FC,Torino,TOR,SS Lazio,Lazio,LAZ,2,0,1,0,HOME_TEAM,REGULAR,Rosario Abisso
+537075,2025,27,2026-03-01,FINISHED,REGULAR_SEASON,AS Roma,Roma,ROM,Juventus FC,Juventus,JUV,3,3,1,0,DRAW,REGULAR,Simone Sozza
+537081,2025,27,2026-03-02,FINISHED,REGULAR_SEASON,AC Pisa 1909,AC Pisa,PIS,Bologna FC 1909,Bologna,BOL,0,1,0,0,AWAY_TEAM,REGULAR,Ermanno Feliciani
+537083,2025,27,2026-03-02,FINISHED,REGULAR_SEASON,Udinese Calcio,Udinese,UDI,ACF Fiorentina,Fiorentina,FIO,3,0,1,0,HOME_TEAM,REGULAR,Luca Pairetto
+537093,2025,28,2026-03-06,FINISHED,REGULAR_SEASON,SSC Napoli,Napoli,NAP,Torino FC,Torino,TOR,2,1,1,0,HOME_TEAM,REGULAR,Michael Fabbri
