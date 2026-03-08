@@ -14620,11 +14620,11 @@
     },
     "id": 542625,
     "utcDate": "2026-03-08T16:15:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-07T01:32:02Z",
+    "lastUpdated": "2026-03-08T17:11:31Z",
     "homeTeam": {
       "id": 522,
       "name": "OGC Nice",
@@ -14640,15 +14640,27 @@
       "crest": "https://crests.football-data.org/529.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -14686,11 +14698,11 @@
     },
     "id": 542627,
     "utcDate": "2026-03-08T16:15:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-07T01:32:02Z",
+    "lastUpdated": "2026-03-08T17:09:35Z",
     "homeTeam": {
       "id": 521,
       "name": "Lille OSC",
@@ -14706,15 +14718,27 @@
       "crest": "https://crests.football-data.org/525.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -14752,11 +14776,11 @@
     },
     "id": 542630,
     "utcDate": "2026-03-08T16:15:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-02T01:32:04Z",
+    "lastUpdated": "2026-03-08T17:09:36Z",
     "homeTeam": {
       "id": 512,
       "name": "Stade Brestois 29",
@@ -14772,15 +14796,27 @@
       "crest": "https://crests.football-data.org/533.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

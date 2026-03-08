@@ -18340,11 +18340,11 @@
     },
     "id": 537089,
     "utcDate": "2026-03-08T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T01:32:01Z",
+    "lastUpdated": "2026-03-08T17:05:16Z",
     "homeTeam": {
       "id": 107,
       "name": "Genoa CFC",
@@ -18360,15 +18360,27 @@
       "crest": "https://crests.football-data.org/100.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

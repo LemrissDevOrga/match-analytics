@@ -222,3 +222,4 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 540629,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,1. FC Heidenheim 1846,Heidenheim,HEI,TSG 1899 Hoffenheim,Hoffenheim,TSG,2,4,0,2,AWAY_TEAM,REGULAR,Robert Hartmann
 540630,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,VfL Wolfsburg,Wolfsburg,WOB,Hamburger SV,HSV,HSV,1,2,1,1,AWAY_TEAM,REGULAR,Florian Exner
 540624,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,1. FC Köln,1. FC Köln,KOE,Borussia Dortmund,Dortmund,BVB,1,2,0,1,AWAY_TEAM,REGULAR,Daniel Siebert
+540623,2025,25,2026-03-08,FINISHED,REGULAR_SEASON,FC St. Pauli 1910,St. Pauli,STP,Eintracht Frankfurt,Frankfurt,SGE,0,0,0,0,DRAW,REGULAR,Felix Zwayer

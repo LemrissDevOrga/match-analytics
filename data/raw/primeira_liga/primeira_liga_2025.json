@@ -13660,7 +13660,7 @@
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T15:51:18Z",
+    "lastUpdated": "2026-03-08T17:10:26Z",
     "homeTeam": {
       "id": 9136,
       "name": "CF Estrela da Amadora",
@@ -13676,15 +13676,15 @@
       "crest": "https://crests.football-data.org/5533.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 1
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,
