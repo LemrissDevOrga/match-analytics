@@ -15448,11 +15448,11 @@
     },
     "id": 537672,
     "utcDate": "2026-03-08T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T20:11:22Z",
+    "lastUpdated": "2026-03-08T20:58:00Z",
     "homeTeam": {
       "id": 1915,
       "name": "NEC",
@@ -15471,7 +15471,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 0
       },
       "halfTime": {

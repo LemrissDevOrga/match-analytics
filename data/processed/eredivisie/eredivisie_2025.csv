@@ -232,3 +232,4 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 537668,2025,26,2026-03-08,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,Telstar 1963,Telstar,TEL,1,4,1,2,AWAY_TEAM,REGULAR,Joey Kooij
 537669,2025,26,2026-03-08,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,FC Twente '65,Twente,TWE,1,4,0,2,AWAY_TEAM,REGULAR,Alex Bos
 537671,2025,26,2026-03-08,FINISHED,REGULAR_SEASON,NAC Breda,NAC,NAC,Feyenoord Rotterdam,Feyenoord,FEY,3,3,3,2,DRAW,REGULAR,Jeroen Manschot
+537672,2025,26,2026-03-08,FINISHED,REGULAR_SEASON,NEC,NEC,NEC,FC Volendam,Volendam,VOL,3,0,1,0,HOME_TEAM,REGULAR,Marc Nagtegaal
