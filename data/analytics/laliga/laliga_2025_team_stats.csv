@@ -2,7 +2,7 @@ team,home_team_tla,played,wins,draws,losses,points,goals_scored,goals_conceded,g
 FC Barcelona,FCB,27,22,1,4,67,72,26,46,2.67,0.96,11,13,0,0,9,1,4,WLWWW
 Real Madrid CF,RMA,27,20,3,4,63,56,23,33,2.07,0.85,11,11,0,2,9,3,2,WWLLW
 Club Atlético de Madrid,ATL,27,16,6,5,54,46,25,21,1.7,0.93,11,12,1,1,4,5,4,LLWWW
-Villarreal CF,VIL,26,16,3,7,51,48,31,17,1.85,1.19,8,10,1,2,6,2,5,WLWWL
+Villarreal CF,VIL,27,17,3,7,54,50,32,18,1.85,1.19,8,11,1,2,6,2,5,LWWLW
 Real Betis Balompié,BET,26,11,10,5,43,42,32,10,1.62,1.23,8,7,3,3,4,7,2,WWWDD
 RC Celta de Vigo,CEL,27,10,10,7,40,37,30,7,1.37,1.11,8,4,5,5,6,5,2,LDWWL
 RCD Espanyol de Barcelona,ESP,26,10,6,10,36,33,39,-6,1.27,1.5,7,6,2,5,4,4,5,LLDLD
@@ -15,7 +15,7 @@ Rayo Vallecano de Madrid,RAY,26,7,9,10,30,26,32,-6,1.0,1.23,8,4,7,2,3,2,8,LWDDW
 Sevilla FC,SEV,26,8,6,12,30,34,41,-7,1.31,1.58,5,4,3,6,4,3,6,LDDWD
 Valencia CF,VAL,26,7,8,11,29,27,39,-12,1.04,1.5,7,5,5,3,2,3,8,LLWLW
 Deportivo Alavés,ALA,26,7,6,13,27,23,34,-11,0.88,1.31,3,5,4,4,2,2,9,WLDDL
-Elche CF,ELC,26,5,11,10,26,34,39,-5,1.31,1.5,6,5,7,2,0,4,8,LLDLD
+Elche CF,ELC,27,5,11,11,26,35,41,-6,1.3,1.52,6,5,7,2,0,4,9,LDLDL
 RCD Mallorca,MAL,27,6,7,14,25,31,44,-13,1.15,1.63,3,5,4,4,1,3,10,LLLLD
 Levante UD,LEV,27,5,7,15,22,29,45,-16,1.07,1.67,5,2,5,7,3,2,8,LLLWD
 Real Oviedo,OVI,26,3,8,15,17,16,43,-27,0.62,1.65,6,2,5,6,1,3,9,WLDLL

@@ -264,3 +264,4 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 544478,2025,27,2026-03-07,FINISHED,REGULAR_SEASON,Levante UD,Levante,LEV,Girona FC,Girona,GIR,1,1,0,0,DRAW,REGULAR,Guillermo Cuadra Fernández
 544472,2025,27,2026-03-07,FINISHED,REGULAR_SEASON,Club Atlético de Madrid,Atleti,ATL,Real Sociedad de Fútbol,Real Sociedad,RSO,3,2,1,1,HOME_TEAM,REGULAR,Adrián Cordero Vega
 544471,2025,27,2026-03-07,FINISHED,REGULAR_SEASON,Athletic Club,Athletic,ATH,FC Barcelona,Barça,FCB,0,1,0,0,AWAY_TEAM,REGULAR,José Munuera Montero
+544477,2025,27,2026-03-08,FINISHED,REGULAR_SEASON,Villarreal CF,Villarreal,VIL,Elche CF,Elche,ELC,2,1,2,0,HOME_TEAM,REGULAR,Víctor García Verdura

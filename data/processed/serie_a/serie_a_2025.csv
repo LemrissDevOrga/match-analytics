@@ -273,3 +273,4 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 537088,2025,28,2026-03-07,FINISHED,REGULAR_SEASON,Cagliari Calcio,Cagliari,CAG,Como 1907,Como 1907,COM,1,2,0,1,AWAY_TEAM,REGULAR,Livio Marinelli
 537087,2025,28,2026-03-07,FINISHED,REGULAR_SEASON,Atalanta BC,Atalanta,ATA,Udinese Calcio,Udinese,UDI,2,2,0,1,DRAW,REGULAR,Antonio Rapuano
 537091,2025,28,2026-03-07,FINISHED,REGULAR_SEASON,Juventus FC,Juventus,JUV,AC Pisa 1909,AC Pisa,PIS,4,0,0,0,HOME_TEAM,REGULAR,Juan Luca Sacchi
+537094,2025,28,2026-03-08,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,US Cremonese,Cremonese,CRE,2,2,2,0,DRAW,REGULAR,Simone Sozza
