@@ -1,4 +1,4 @@
-name: Daily La Liga Update
+name: Daily Football Update
 
 on:
   schedule:
@@ -11,34 +11,46 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch daily matches
+      - name: Install Playwright browsers
+        run: playwright install chromium
+
+      # ── PIPELINE 1: football-data.org (scores + results) ──
+      - name: Fetch daily match results
+        run: python ingestion/fetch_daily.py
         env:
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
-        run: python ingestion/fetch_daily.py
 
-      - name: Run transformation
+      - name: Transform football-data results
         run: python transformation/clean.py
 
-      - name: Run analysis
+      - name: Compute basic team stats
         run: python analysis/team_stats.py
 
-      - name: Commit and push updated data
+      # ── PIPELINE 2: SofaScore (deep stats) ──
+      - name: Fetch new SofaScore match stats
+        run: python ingestion/fetch_sofascore_daily.py
+
+      - name: Transform SofaScore data
+        run: python transformation/clean_sofascore.py
+
+      - name: Compute advanced team stats
+        run: python analysis/team_stats_sofascore.py
+
+      # ── COMMIT ──
+      - name: Commit and push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add data/
-          git diff --cached --quiet || git commit -m "auto: daily update $(date +'%Y-%m-%d %H:%M')"
+          git add data/ seasons_map.json
+          git diff --cached --quiet || git commit -m "auto: daily update $(date +'%Y-%m-%d')"
           git push
