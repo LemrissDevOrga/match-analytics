@@ -13812,11 +13812,11 @@
     },
     "id": 545922,
     "utcDate": "2026-03-08T20:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T21:45:23Z",
+    "lastUpdated": "2026-03-08T22:39:15Z",
     "homeTeam": {
       "id": 5530,
       "name": "CD Santa Clara",
