@@ -340,6 +340,7 @@ footer span{color:var(--league-color);}
       <div class="panel fade"><div class="panel-head"><span class="panel-title">Best Defense</span><span class="pill">Conceded</span></div><div id="bestDefense"><div class="loading"><div class="spinner"></div></div></div></div>
     </div>
   </div>
+  <div id="advancedRankings" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:28px"></div>
   <div class="charts-row">
     <div class="panel fade"><div class="panel-head"><span class="panel-title">Points — Top 10</span><span class="pill accent">Chart</span></div><div class="chart-box"><canvas id="chartPts"></canvas></div></div>
     <div class="panel fade"><div class="panel-head"><span class="panel-title">Win / Draw / Loss</span><span class="pill">Top 8</span></div><div class="chart-box"><canvas id="chartWDL"></canvas></div></div>
@@ -383,6 +384,7 @@ footer span{color:var(--league-color);}
   <!-- TABS -->
   <div class="team-tabs">
     <button class="team-tab active" onclick="showTeamSection('stats',this)">📊 Stats</button>
+    <button class="team-tab" onclick="showTeamSection('advanced',this)">⚡ Advanced</button>
     <button class="team-tab" onclick="showTeamSection('h2h',this)">⚔️ Head-to-Head</button>
   </div>
 
@@ -400,6 +402,29 @@ footer span{color:var(--league-color);}
     <div class="detail-layout fade">
       <div class="panel"><div class="panel-head"><span class="panel-title">Streaks & Records</span><span class="pill">Season</span></div><div class="streak-list" id="streakList"></div></div>
       <div class="panel"><div class="panel-head"><span class="panel-title">Cumulative Points</span><span class="pill accent">Arc</span></div><div class="chart-box"><canvas id="chartCumPts"></canvas></div></div>
+    </div>
+  </div>
+
+  <!-- ADVANCED SECTION -->
+  <div class="team-section" id="teamSectionAdvanced">
+    <div id="advancedNoData" style="display:none;text-align:center;padding:60px;color:var(--muted)">
+      <div style="font-size:40px;margin-bottom:16px">📡</div>
+      <div style="font-size:16px;font-weight:600;margin-bottom:8px">No advanced stats available</div>
+      <div style="font-size:13px">SofaScore data not available for this season yet</div>
+    </div>
+    <div id="advancedContent">
+      <!-- KPI row -->
+      <div class="kpi-grid fade" id="advKPIs"></div>
+      <!-- xG trend + radar -->
+      <div class="detail-layout fade">
+        <div class="panel"><div class="panel-head"><span class="panel-title">xG For vs Against</span><span class="pill accent">Per Game</span></div><div class="chart-box"><canvas id="chartXgBar"></canvas></div></div>
+        <div class="panel"><div class="panel-head"><span class="panel-title">Performance Radar</span><span class="pill">vs League Avg</span></div><div class="chart-box"><canvas id="chartRadar"></canvas></div></div>
+      </div>
+      <!-- possession + corners + cards -->
+      <div class="detail-layout fade">
+        <div class="panel"><div class="panel-head"><span class="panel-title">Home vs Away — Advanced</span><span class="pill">Split</span></div><div class="hva-row" id="advHvaRow"></div></div>
+        <div class="panel"><div class="panel-head"><span class="panel-title">Discipline & Set Pieces</span><span class="pill accent">Stats</span></div><div class="streak-list" id="advDiscipline"></div></div>
+      </div>
     </div>
   </div>
 
@@ -422,25 +447,25 @@ footer span{color:var(--league-color);}
 </div>
 </div>
 
-<footer id="dashFooter" style="display:none">Data via <span>football-data.org</span> · Auto-updated daily · Football Analytics Platform</footer>
+<footer id="dashFooter" style="display:none">Data via <span>football-data.org</span> & <span>SofaScore</span> · Auto-updated daily · Football Analytics Platform</footer>
 
 <script>
 const GH_USER="aziz1998-lemriss",GH_REPO="match-analytics";
 const RAW=`https://raw.githubusercontent.com/${GH_USER}/${GH_REPO}/main/data`;
 const LEAGUE_CONFIG={
-  premier_league:{name:"Premier League",country:"England",color:"#7b2fb5",abbr:"PL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
-  laliga:{name:"La Liga",country:"Spain",color:"#ee8700",abbr:"LL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
-  champions_league:{name:"Champions League",country:"Europe",color:"#1a8fff",abbr:"CL",isCup:true,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
-  bundesliga:{name:"Bundesliga",country:"Germany",color:"#d0021b",abbr:"BL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
-  serie_a:{name:"Serie A",country:"Italy",color:"#007bc3",abbr:"SA",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
-  ligue1:{name:"Ligue 1",country:"France",color:"#4466ff",abbr:"L1",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
-  eredivisie:{name:"Eredivisie",country:"Netherlands",color:"#ff6b00",abbr:"ED",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
-  primeira_liga:{name:"Primeira Liga",country:"Portugal",color:"#006600",abbr:"PL2",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"}},
+  premier_league:{name:"Premier League",country:"England",color:"#7b2fb5",abbr:"PL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  laliga:{name:"La Liga",country:"Spain",color:"#ee8700",abbr:"LL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  champions_league:{name:"Champions League",country:"Europe",color:"#1a8fff",abbr:"CL",isCup:true,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  bundesliga:{name:"Bundesliga",country:"Germany",color:"#d0021b",abbr:"BL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  serie_a:{name:"Serie A",country:"Italy",color:"#007bc3",abbr:"SA",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  ligue1:{name:"Ligue 1",country:"France",color:"#4466ff",abbr:"L1",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  eredivisie:{name:"Eredivisie",country:"Netherlands",color:"#ff6b00",abbr:"ED",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  primeira_liga:{name:"Primeira Liga",country:"Portugal",color:"#006600",abbr:"PL2",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
 };
 let currentLeague=null,currentSeason=null,currentTeam=null;
-let allStats=[],rawMatches=[],clRawMatches=[];
+let allStats=[],advancedStats=[],rawMatches=[],clRawMatches=[];
 let sortCol="points",filterQ="";
-let chartPtsI=null,chartWDLI=null,chartGTI=null,chartWDLDI=null,chartCumI=null;
+let chartPtsI=null,chartWDLI=null,chartGTI=null,chartWDLDI=null,chartCumI=null,chartRadarI=null,chartXgI=null;
 let h2hDataLoaded=false,allH2HMatches=[];
 
 const short=t=>{const s=['CF','FC','SD','CD','UD','RC','RCD','CA','SC','AFC','AC','AS','SSC','SL','FK','SK','BSC'];const w=t.split(' ');if(w.length>1&&s.includes(w[w.length-1]))return w.slice(0,-1).join(' ');if(w.length>1&&s.includes(w[0]))return w.slice(1).join(' ');return t;};
@@ -511,10 +536,14 @@ async function loadAndRenderOverview(){
   document.getElementById('overviewSub').textContent=`${cfg.country} · Click any team for deep analysis`;
   document.getElementById('breadcrumb').innerHTML=`<span>Overview</span>`;
   try{
+    const cfg=LEAGUE_CONFIG[currentLeague];
+    const sofaSeason=cfg.sofaSeasons[currentSeason];
+    const advUrl=`${RAW}/analytics/${currentLeague}/${currentLeague}_${sofaSeason}_advanced.csv`;
     [allStats,rawMatches]=await Promise.all([
       loadCSV(`${RAW}/analytics/${currentLeague}/${currentLeague}_${currentSeason}_team_stats.csv`),
       loadCSV(`${RAW}/processed/${currentLeague}/${currentLeague}_${currentSeason}.csv`)
     ]);
+    try{advancedStats=await loadCSV(advUrl);}catch(e){advancedStats=[];}
     filterQ='';renderCards();renderTable();renderSidebar();renderOverviewCharts();
   }catch(e){
     document.getElementById('tableBody').innerHTML=`<tr><td colspan="13" style="text-align:center;padding:40px;color:var(--muted)">⚠️ Could not load data. Check GitHub repo.</td></tr>`;
@@ -528,12 +557,18 @@ function renderCards(){
   const mostCS=[...allStats].sort((a,b)=>b.clean_sheets-a.clean_sheets)[0];
   const topAtk=[...allStats].sort((a,b)=>b.goals_scored-a.goals_scored)[0];
   const maxGD=[...allStats].sort((a,b)=>b.goal_difference-a.goal_difference)[0];
+  let xgLeader=null;
+  if(advancedStats.length){const byXg=[...advancedStats].filter(t=>t.avg_expectedGoals).sort((a,b)=>b.avg_expectedGoals-a.avg_expectedGoals);if(byXg.length)xgLeader=byXg[0];}
+  let posLeader=null;
+  if(advancedStats.length){const byPos=[...advancedStats].filter(t=>t.avg_ballPossession).sort((a,b)=>b.avg_ballPossession-a.avg_ballPossession);if(byPos.length)posLeader=byPos[0];}
   document.getElementById('summaryCards').innerHTML=`
     <div class="card"><div class="card-label">Leader</div><div class="card-value" style="font-size:24px">${short(leader.team)}</div><div class="card-sub">${leader.points} pts · GD ${gdStr(leader.goal_difference)}</div></div>
     <div class="card"><div class="card-label">Total Goals</div><div class="card-value">${totalGoals}</div><div class="card-sub">Avg ${avgGoals}/game</div></div>
     <div class="card"><div class="card-label">Best Attack</div><div class="card-value" style="font-size:24px">${short(topAtk.team)}</div><div class="card-sub">${topAtk.goals_scored} goals</div></div>
     <div class="card"><div class="card-label">Clean Sheets</div><div class="card-value" style="font-size:24px">${short(mostCS.team)}</div><div class="card-sub">${mostCS.clean_sheets} clean sheets</div></div>
-    <div class="card"><div class="card-label">Best GD</div><div class="card-value" style="color:var(--green)">${gdStr(maxGD.goal_difference)}</div><div class="card-sub">${short(maxGD.team)}</div></div>`;
+    <div class="card"><div class="card-label">Best GD</div><div class="card-value" style="color:var(--green)">${gdStr(maxGD.goal_difference)}</div><div class="card-sub">${short(maxGD.team)}</div></div>
+    ${xgLeader?`<div class="card"><div class="card-label">Top xG/Game</div><div class="card-value" style="color:var(--league-color)">${xgLeader.avg_expectedGoals}</div><div class="card-sub">${short(xgLeader.team)}</div></div>`:''}
+    ${posLeader?`<div class="card"><div class="card-label">Most Possession</div><div class="card-value" style="font-size:30px">${posLeader.avg_ballPossession}%</div><div class="card-sub">${short(posLeader.team)}</div></div>`:''}`;
 }
 function setSort(col,btn){sortCol=col;document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));if(btn)btn.classList.add('active');renderTable();}
 function filterTable(q){filterQ=q;renderTable();}
@@ -562,8 +597,24 @@ function renderSidebar(){
   const byG=[...allStats].sort((a,b)=>b.goals_scored-a.goals_scored).slice(0,6);
   const byD=[...allStats].sort((a,b)=>a.goals_conceded-b.goals_conceded).slice(0,6);
   const mG=byG[0].goals_scored||1,mC=byD[byD.length-1].goals_conceded||1;
-  document.getElementById('topScorers').innerHTML=byG.map((t,i)=>`<div class="rank-item" onclick="showTeam('${t.team.replace(/'/g,"\\'").replace(/"/g,"&quot;")}')"><div class="ri-num ${i===0?'g1':i===1?'g2':i===2?'g3':''}">${i+1}</div><div class="ri-body"><div class="ri-name">${t.team}</div><div class="ri-bar"><div class="ri-fill" style="width:${(t.goals_scored/mG*100).toFixed(1)}%"></div></div></div><div class="ri-val">${t.goals_scored}</div></div>`).join('');
-  document.getElementById('bestDefense').innerHTML=byD.map((t,i)=>`<div class="rank-item" onclick="showTeam('${t.team.replace(/'/g,"\\'").replace(/"/g,"&quot;")}')"><div class="ri-num ${i===0?'g1':i===1?'g2':i===2?'g3':''}">${i+1}</div><div class="ri-body"><div class="ri-name">${t.team}</div><div class="ri-bar"><div class="ri-fill teal" style="width:${((1-t.goals_conceded/mC)*100).toFixed(1)}%"></div></div></div><div class="ri-val">${t.goals_conceded}</div></div>`).join('');
+  const riHtml=(t,i,val,fillPct,teal=false)=>`<div class="rank-item" onclick="showTeam('${t.replace(/'/g,"\\'").replace(/"/g,"&quot;")}')"><div class="ri-num ${i===0?'g1':i===1?'g2':i===2?'g3':''}">${i+1}</div><div class="ri-body"><div class="ri-name">${t}</div><div class="ri-bar"><div class="ri-fill${teal?' teal':''}" style="width:${fillPct}%"></div></div></div><div class="ri-val">${val}</div></div>`;
+  document.getElementById('topScorers').innerHTML=byG.map((t,i)=>riHtml(t.team,i,t.goals_scored,(t.goals_scored/mG*100).toFixed(1))).join('');
+  document.getElementById('bestDefense').innerHTML=byD.map((t,i)=>riHtml(t.team,i,t.goals_conceded,((1-t.goals_conceded/mC)*100).toFixed(1),true)).join('');
+
+  // xG and possession rankings from advanced stats
+  const advEl=document.getElementById('advancedRankings');
+  if(advancedStats.length&&advEl){
+    const byXg=[...advancedStats].filter(t=>t.avg_expectedGoals).sort((a,b)=>b.avg_expectedGoals-a.avg_expectedGoals).slice(0,6);
+    const byPos=[...advancedStats].filter(t=>t.avg_ballPossession).sort((a,b)=>b.avg_ballPossession-a.avg_ballPossession).slice(0,6);
+    const byShots=[...advancedStats].filter(t=>t.avg_totalShotsOnGoal).sort((a,b)=>b.avg_totalShotsOnGoal-a.avg_totalShotsOnGoal).slice(0,6);
+    const mXg=byXg[0]?.avg_expectedGoals||1,mPos=byPos[0]?.avg_ballPossession||100,mSh=byShots[0]?.avg_totalShotsOnGoal||1;
+    advEl.innerHTML=`
+      <div class="panel"><div class="panel-head"><span class="panel-title">Top xG/Game</span><span class="pill accent">xG</span></div>${byXg.map((t,i)=>riHtml(t.team,i,t.avg_expectedGoals,(t.avg_expectedGoals/mXg*100).toFixed(1))).join('')}</div>
+      <div class="panel"><div class="panel-head"><span class="panel-title">Most Possession</span><span class="pill">Avg %</span></div>${byPos.map((t,i)=>riHtml(t.team,i,t.avg_ballPossession+'%',(t.avg_ballPossession/mPos*100).toFixed(1))).join('')}</div>
+      <div class="panel"><div class="panel-head"><span class="panel-title">Most Shots/Game</span><span class="pill accent">Shots</span></div>${byShots.map((t,i)=>riHtml(t.team,i,t.avg_totalShotsOnGoal,(t.avg_totalShotsOnGoal/mSh*100).toFixed(1))).join('')}</div>`;
+  } else if(advEl){
+    advEl.innerHTML='';
+  }
 }
 function renderOverviewCharts(){
   const top10=[...allStats].sort((a,b)=>b.points-a.points).slice(0,10);
@@ -713,6 +764,83 @@ function showTeamSection(id,btn){
   document.getElementById(`teamSection${id.charAt(0).toUpperCase()+id.slice(1)}`).classList.add('active');
   if(btn)btn.classList.add('active');
   if(id==='h2h'&&!h2hDataLoaded)loadH2HData();
+  if(id==='advanced')renderAdvancedStats();
+}
+
+// ── ADVANCED STATS ────────────────────────────────────────────
+function renderAdvancedStats(){
+  const adv=advancedStats.find(t=>t.team===currentTeam);
+  const noData=document.getElementById('advancedNoData');
+  const content=document.getElementById('advancedContent');
+  if(!adv||!adv.avg_expectedGoals){
+    noData.style.display='block';content.style.display='none';return;
+  }
+  noData.style.display='none';content.style.display='block';
+  const color=getComputedStyle(document.documentElement).getPropertyValue('--league-color').trim();
+
+  // League averages
+  const leagueAvg=f=>{const vals=advancedStats.map(t=>parseFloat(t[f])).filter(v=>!isNaN(v));return vals.length?(vals.reduce((a,b)=>a+b,0)/vals.length).toFixed(2):0;};
+
+  // KPIs
+  const xgFor=parseFloat(adv.avg_expectedGoals)||0;
+  const xgA=advancedStats.find(t=>t.team===currentTeam)?.away_avg_expectedGoals;
+  const pos=parseFloat(adv.avg_ballPossession)||0;
+  const shots=parseFloat(adv.avg_totalShotsOnGoal)||0;
+  const corners=parseFloat(adv.avg_cornerKicks)||0;
+  const bigC=parseFloat(adv.avg_bigChanceCreated)||0;
+  const bigM=parseFloat(adv.avg_bigChanceMissed)||0;
+  const conversion=bigC>0?((bigC-bigM)/bigC*100).toFixed(0):0;
+  document.getElementById('advKPIs').innerHTML=`
+    <div class="kpi"><div class="kpi-val accent">${xgFor}</div><div class="kpi-label">xG/Game</div></div>
+    <div class="kpi"><div class="kpi-val">${leagueAvg('avg_expectedGoals')}</div><div class="kpi-label">League Avg xG</div></div>
+    <div class="kpi"><div class="kpi-val blue">${pos}%</div><div class="kpi-label">Avg Possession</div></div>
+    <div class="kpi"><div class="kpi-val">${shots}</div><div class="kpi-label">Shots/Game</div></div>
+    <div class="kpi"><div class="kpi-val green">${bigC}</div><div class="kpi-label">Big Chances/Game</div></div>
+    <div class="kpi"><div class="kpi-val orange">${conversion}%</div><div class="kpi-label">Chance Conversion</div></div>
+    <div class="kpi"><div class="kpi-val">${corners}</div><div class="kpi-label">Corners/Game</div></div>
+    <div class="kpi"><div class="kpi-val red">${parseFloat(adv.avg_yellowCards)||0}</div><div class="kpi-label">Yellow Cards/Game</div></div>`;
+
+  // xG bar chart — team vs league avg
+  const xgLabels=['xG For','xG Against (proxy)','Shots/Game','Big Chances'];
+  const teamVals=[xgFor,parseFloat(adv.avg_goalkeeperSaves)||0,shots,bigC];
+  const leagueVals=[parseFloat(leagueAvg('avg_expectedGoals')),parseFloat(leagueAvg('avg_goalkeeperSaves')),parseFloat(leagueAvg('avg_totalShotsOnGoal')),parseFloat(leagueAvg('avg_bigChanceCreated'))];
+  if(chartXgI)chartXgI.destroy();
+  chartXgI=new Chart(document.getElementById('chartXgBar'),{type:'bar',data:{labels:xgLabels,datasets:[{label:currentTeam,data:teamVals,backgroundColor:color+'cc',borderRadius:5,borderSkipped:false},{label:'League Avg',data:leagueVals,backgroundColor:'rgba(255,255,255,0.08)',borderRadius:5,borderSkipped:false}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#8888a5',font:{size:10},boxWidth:8}}},scales:{x:{grid:{display:false},ticks:{color:'#55556a',font:{size:10}}},y:{grid:{color:'rgba(255,255,255,0.03)'},ticks:{color:'#55556a',font:{size:10}}}}}});
+
+  // Radar chart
+  const radarLabels=['xG','Possession','Shots','Big Chances','Corners','Passes'];
+  const normalize=(val,field)=>{const mx=Math.max(...advancedStats.map(t=>parseFloat(t[field])||0));return mx?((val/mx)*100).toFixed(1):0;};
+  const teamRadar=[
+    normalize(xgFor,'avg_expectedGoals'),normalize(pos,'avg_ballPossession'),
+    normalize(shots,'avg_totalShotsOnGoal'),normalize(bigC,'avg_bigChanceCreated'),
+    normalize(corners,'avg_cornerKicks'),normalize(parseFloat(adv.avg_accuratePasses)||0,'avg_accuratePasses')
+  ];
+  if(chartRadarI)chartRadarI.destroy();
+  chartRadarI=new Chart(document.getElementById('chartRadar'),{type:'radar',data:{labels:radarLabels,datasets:[{label:currentTeam,data:teamRadar,borderColor:color,backgroundColor:color+'20',pointBackgroundColor:color,borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,scales:{r:{grid:{color:'rgba(255,255,255,0.05)'},pointLabels:{color:'#8888a5',font:{size:10}},ticks:{display:false},angleLines:{color:'rgba(255,255,255,0.05)'}}},plugins:{legend:{labels:{color:'#8888a5',font:{size:10},boxWidth:8}}}}});
+
+  // Home vs away advanced split
+  const hva2=(label,hV,aV,suffix='')=>{const mx=Math.max(hV,aV)||1;return `<div><div class="hva-label">${label}</div><div class="hva-bars"><span class="hva-tag home">H</span><div class="hva-bar-wrap"><div class="hva-bar-bg"><div class="hva-bar-home" style="width:${(hV/mx*100).toFixed(1)}%"></div></div></div><span class="hva-val">${hV}${suffix}</span><span class="hva-val" style="color:var(--muted)">|</span><span class="hva-val">${aV}${suffix}</span><div class="hva-bar-wrap"><div class="hva-bar-bg"><div class="hva-bar-away" style="width:${(aV/mx*100).toFixed(1)}%"></div></div></div><span class="hva-tag away">A</span></div></div>`;};
+  const hXg=parseFloat(adv.home_avg_expectedGoals)||0,aXg=parseFloat(adv.away_avg_expectedGoals)||0;
+  const hPos=parseFloat(adv.home_avg_ballPossession)||0,aPos=parseFloat(adv.away_avg_ballPossession)||0;
+  const hSh=parseFloat(adv.home_avg_totalShotsOnGoal)||0,aSh=parseFloat(adv.away_avg_totalShotsOnGoal)||0;
+  const hCo=parseFloat(adv.home_avg_cornerKicks)||0,aCo=parseFloat(adv.away_avg_cornerKicks)||0;
+  document.getElementById('advHvaRow').innerHTML=hva2('xG',hXg,aXg)+hva2('Possession',hPos,aPos,'%')+hva2('Shots',hSh,aSh)+hva2('Corners',hCo,aCo);
+
+  // Discipline
+  const yc=parseFloat(adv.avg_yellowCards)||0,rc=parseFloat(adv.avg_redCards)||0;
+  const fouls=parseFloat(adv.avg_fouls)||0,offs=parseFloat(adv.avg_offsides)||0;
+  const passes=parseFloat(adv.avg_accuratePasses)||0;
+  const lgYc=parseFloat(leagueAvg('avg_yellowCards')),lgFouls=parseFloat(leagueAvg('avg_fouls'));
+  const diff=(a,b)=>{const d=(a-b).toFixed(2);return d>0?`<span class="pos">+${d} vs avg</span>`:`<span class="neg">${d} vs avg</span>`;};
+  document.getElementById('advDiscipline').innerHTML=`
+    <div class="streak-item"><span class="streak-label">🟨 Yellow Cards/Game</span><div><span class="streak-val orange">${yc}</span> <small style="color:var(--muted);font-size:11px">${diff(yc,lgYc)}</small></div></div>
+    <div class="streak-item"><span class="streak-label">🟥 Red Cards/Game</span><span class="streak-val red">${rc}</span></div>
+    <div class="streak-item"><span class="streak-label">⚠️ Fouls/Game</span><div><span class="streak-val">${fouls}</span> <small style="color:var(--muted);font-size:11px">${diff(fouls,lgFouls)}</small></div></div>
+    <div class="streak-item"><span class="streak-label">🚩 Offsides/Game</span><span class="streak-val">${offs}</span></div>
+    <div class="streak-item"><span class="streak-label">🎯 Accurate Passes/Game</span><span class="streak-val blue">${passes}</span></div>
+    <div class="streak-item"><span class="streak-label">🅱️ Big Chances Created</span><span class="streak-val green">${bigC}</span></div>
+    <div class="streak-item"><span class="streak-label">❌ Big Chances Missed</span><span class="streak-val red">${bigM}</span></div>
+    <div class="streak-item"><span class="streak-label">🔄 Chance Conversion Rate</span><span class="streak-val accent">${conversion}%</span></div>`;
 }
 
 // ── H2H ──────────────────────────────────────────────────────
