@@ -1,7 +1,7 @@
 team,home_team_tla,played,wins,draws,losses,points,goals_scored,goals_conceded,goal_difference,avg_goals_scored,avg_goals_conceded,clean_sheets,home_wins,home_draws,home_losses,away_wins,away_draws,away_losses,form_last5
-FC Porto,FCP,24,21,2,1,65,47,8,39,1.96,0.33,17,10,2,0,11,0,1,LDWWW
+FC Porto,FCP,25,21,3,1,66,49,10,39,1.96,0.4,17,10,2,0,11,1,1,DWWWD
 Sporting Clube de Portugal,SPO,25,19,5,1,62,64,14,50,2.56,0.56,13,10,1,1,9,4,0,DWWWD
-Sport Lisboa e Benfica,BEN,24,17,7,0,58,51,14,37,2.12,0.58,12,8,4,0,9,3,0,DWWWW
+Sport Lisboa e Benfica,BEN,25,17,8,0,59,53,16,37,2.12,0.64,12,8,5,0,9,3,0,WWWWD
 Sporting Clube de Braga,SCB,25,13,7,5,46,52,25,27,2.08,1.0,9,7,3,2,6,4,3,WLWWD
 Gil Vicente FC,GIL,25,11,8,6,41,37,25,12,1.48,1.0,10,7,2,3,4,6,3,WWLLD
 FC Famalicão,FAM,25,11,6,8,39,30,21,9,1.2,0.84,13,7,2,4,4,4,4,WLWDW

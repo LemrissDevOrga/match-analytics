@@ -13734,11 +13734,11 @@
     },
     "id": 545924,
     "utcDate": "2026-03-08T18:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T19:00:44Z",
+    "lastUpdated": "2026-03-08T20:14:40Z",
     "homeTeam": {
       "id": 1903,
       "name": "Sport Lisboa e Benfica",
@@ -13754,10 +13754,10 @@
       "crest": "https://crests.football-data.org/503.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 2
       },
       "halfTime": {
