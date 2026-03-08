@@ -220,3 +220,6 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 542622,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,AJ Auxerre,Auxerre,AJA,RC Strasbourg Alsace,Strasbourg,RC ,0,0,0,0,DRAW,REGULAR,Jérémie Pignard
 542624,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,Toulouse FC,Toulouse,TOU,Olympique de Marseille,Marseille,MAR,0,1,0,1,AWAY_TEAM,REGULAR,Bastien Dechepy
 542629,2025,25,2026-03-08,FINISHED,REGULAR_SEASON,Racing Club de Lens,RC Lens,RCL,FC Metz,FC Metz,FCM,3,0,1,0,HOME_TEAM,REGULAR,Mathieu Vernice
+542625,2025,25,2026-03-08,FINISHED,REGULAR_SEASON,OGC Nice,Nice,NIC,Stade Rennais FC 1901,Stade Rennais,REN,0,4,0,2,AWAY_TEAM,REGULAR,Romain Lissorgue
+542627,2025,25,2026-03-08,FINISHED,REGULAR_SEASON,Lille OSC,Lille,LIL,FC Lorient,Lorient,FCL,1,1,0,0,DRAW,REGULAR,Abdelatif Kherradji
+542630,2025,25,2026-03-08,FINISHED,REGULAR_SEASON,Stade Brestois 29,Brest,BRE,Le Havre AC,Le Havre,HAC,2,0,1,0,HOME_TEAM,REGULAR,Benoît Bastien

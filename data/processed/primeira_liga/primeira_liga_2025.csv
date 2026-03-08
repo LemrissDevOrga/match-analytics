@@ -220,3 +220,4 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 545921,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,Moreirense FC,Moreirense,MOR,CD Nacional,CD Nacional,CDN,1,1,1,0,DRAW,REGULAR,Marcio Torres
 545923,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,Sporting Clube de Braga,Braga,SCB,Sporting Clube de Portugal,Sporting CP,SPO,2,2,1,2,DRAW,REGULAR,Miguel Nogueira
 545917,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,GD Estoril Praia,Estoril Praia,EST,Casa Pia AC,Casa Pia,CAS,0,0,0,0,DRAW,REGULAR,Bruno Costa
+545920,2025,25,2026-03-08,FINISHED,REGULAR_SEASON,CF Estrela da Amadora,Amadora,AMA,Gil Vicente FC,Gil Vicente,GIL,2,2,0,1,DRAW,REGULAR,Luís Godinho

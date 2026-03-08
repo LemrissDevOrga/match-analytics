@@ -13656,11 +13656,11 @@
     },
     "id": 545920,
     "utcDate": "2026-03-08T15:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T17:10:26Z",
+    "lastUpdated": "2026-03-08T17:39:11Z",
     "homeTeam": {
       "id": 9136,
       "name": "CF Estrela da Amadora",
@@ -13734,11 +13734,11 @@
     },
     "id": 545924,
     "utcDate": "2026-03-08T18:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T00:20:55Z",
+    "lastUpdated": "2026-03-08T18:17:49Z",
     "homeTeam": {
       "id": 1903,
       "name": "Sport Lisboa e Benfica",
@@ -13754,15 +13754,27 @@
       "crest": "https://crests.football-data.org/503.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

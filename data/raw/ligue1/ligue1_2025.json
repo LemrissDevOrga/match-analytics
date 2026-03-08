@@ -14620,11 +14620,11 @@
     },
     "id": 542625,
     "utcDate": "2026-03-08T16:15:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T17:11:31Z",
+    "lastUpdated": "2026-03-08T18:19:06Z",
     "homeTeam": {
       "id": 522,
       "name": "OGC Nice",
@@ -14644,7 +14644,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 2
+        "away": 4
       },
       "halfTime": {
         "home": 0,
@@ -14698,11 +14698,11 @@
     },
     "id": 542627,
     "utcDate": "2026-03-08T16:15:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T17:09:35Z",
+    "lastUpdated": "2026-03-08T18:19:06Z",
     "homeTeam": {
       "id": 521,
       "name": "Lille OSC",
@@ -14721,8 +14721,8 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
         "home": 0,
@@ -14776,11 +14776,11 @@
     },
     "id": 542630,
     "utcDate": "2026-03-08T16:15:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T17:09:36Z",
+    "lastUpdated": "2026-03-08T18:17:13Z",
     "homeTeam": {
       "id": 512,
       "name": "Stade Brestois 29",
@@ -14799,7 +14799,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
@@ -14888,7 +14888,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57092,
+        "name": "Eric Wattellier",
+        "type": "REFEREE",
+        "nationality": "France"
+      }
+    ]
   },
   {
     "area": {

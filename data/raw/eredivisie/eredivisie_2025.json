@@ -15370,11 +15370,11 @@
     },
     "id": 537671,
     "utcDate": "2026-03-08T15:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T17:05:41Z",
+    "lastUpdated": "2026-03-08T17:57:45Z",
     "homeTeam": {
       "id": 681,
       "name": "NAC Breda",
