@@ -40,5 +40,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add data/
-          git diff --cached --quiet || git commit -m "auto: daily update $(date +'%Y-%m-%d')"
+          git diff --cached --quiet || git commit -m "auto: daily update $(date +'%Y-%m-%d %H:%M')"
           git push
