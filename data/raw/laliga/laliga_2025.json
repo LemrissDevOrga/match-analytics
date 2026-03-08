@@ -17408,11 +17408,11 @@
     },
     "id": 544476,
     "utcDate": "2026-03-08T15:15:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-03T01:32:03Z",
+    "lastUpdated": "2026-03-08T16:14:53Z",
     "homeTeam": {
       "id": 82,
       "name": "Getafe CF",
@@ -17428,15 +17428,27 @@
       "crest": "https://crests.football-data.org/90.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -17508,7 +17520,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 215569,
+        "name": "Alejandro Mu\u00f1iz Ruiz",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {

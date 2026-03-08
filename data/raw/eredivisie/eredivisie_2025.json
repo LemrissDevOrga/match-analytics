@@ -15214,11 +15214,11 @@
     },
     "id": 537668,
     "utcDate": "2026-03-08T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T15:02:13Z",
+    "lastUpdated": "2026-03-08T15:32:05Z",
     "homeTeam": {
       "id": 1920,
       "name": "Fortuna Sittard",
@@ -15292,11 +15292,11 @@
     },
     "id": 537669,
     "utcDate": "2026-03-08T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T15:07:36Z",
+    "lastUpdated": "2026-03-08T15:28:42Z",
     "homeTeam": {
       "id": 718,
       "name": "Go Ahead Eagles",
@@ -15370,11 +15370,11 @@
     },
     "id": 537671,
     "utcDate": "2026-03-08T15:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-02T01:32:03Z",
+    "lastUpdated": "2026-03-08T16:12:57Z",
     "homeTeam": {
       "id": 681,
       "name": "NAC Breda",
@@ -15390,15 +15390,27 @@
       "crest": "https://crests.football-data.org/675.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

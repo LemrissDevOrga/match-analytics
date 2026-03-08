@@ -219,3 +219,4 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 542623,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,FC Nantes,Nantes,NAN,Angers SCO,Angers SCO,ANG,0,1,0,0,AWAY_TEAM,REGULAR,Willy Delajod
 542622,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,AJ Auxerre,Auxerre,AJA,RC Strasbourg Alsace,Strasbourg,RC ,0,0,0,0,DRAW,REGULAR,Jérémie Pignard
 542624,2025,25,2026-03-07,FINISHED,REGULAR_SEASON,Toulouse FC,Toulouse,TOU,Olympique de Marseille,Marseille,MAR,0,1,0,1,AWAY_TEAM,REGULAR,Bastien Dechepy
+542629,2025,25,2026-03-08,FINISHED,REGULAR_SEASON,Racing Club de Lens,RC Lens,RCL,FC Metz,FC Metz,FCM,3,0,1,0,HOME_TEAM,REGULAR,Mathieu Vernice

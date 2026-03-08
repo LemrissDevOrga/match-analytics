@@ -18184,11 +18184,11 @@
     },
     "id": 537090,
     "utcDate": "2026-03-08T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T15:11:54Z",
+    "lastUpdated": "2026-03-08T16:04:00Z",
     "homeTeam": {
       "id": 103,
       "name": "Bologna FC 1909",
@@ -18204,11 +18204,11 @@
       "crest": "https://crests.football-data.org/450.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 3
       },
       "halfTime": {
         "home": 0,
@@ -18262,11 +18262,11 @@
     },
     "id": 537085,
     "utcDate": "2026-03-08T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T15:13:32Z",
+    "lastUpdated": "2026-03-08T16:04:02Z",
     "homeTeam": {
       "id": 99,
       "name": "ACF Fiorentina",

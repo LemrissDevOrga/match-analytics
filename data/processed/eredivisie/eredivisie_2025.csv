@@ -229,3 +229,5 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 537673,2025,26,2026-03-07,FINISHED,REGULAR_SEASON,PSV,PSV,PSV,AZ,AZ,AZ,2,1,1,1,HOME_TEAM,REGULAR,Sander Van der Eijk
 537666,2025,26,2026-03-07,FINISHED,REGULAR_SEASON,SBV Excelsior,Excelsior,EXC,SC Heerenveen,Heerenveen,HEE,1,2,0,1,AWAY_TEAM,REGULAR,Danny Makkelie
 537674,2025,26,2026-03-08,FINISHED,REGULAR_SEASON,Sparta Rotterdam,Sparta,SPA,PEC Zwolle,Zwolle,ZWO,1,1,0,0,DRAW,REGULAR,Martin van den Kerkhof
+537668,2025,26,2026-03-08,FINISHED,REGULAR_SEASON,Fortuna Sittard,Sittard,SIT,Telstar 1963,Telstar,TEL,1,4,1,2,AWAY_TEAM,REGULAR,Joey Kooij
+537669,2025,26,2026-03-08,FINISHED,REGULAR_SEASON,Go Ahead Eagles,Go Ahead,GOA,FC Twente '65,Twente,TWE,1,4,0,2,AWAY_TEAM,REGULAR,Alex Bos
