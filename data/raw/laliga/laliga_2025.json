@@ -17564,11 +17564,11 @@
     },
     "id": 544475,
     "utcDate": "2026-03-08T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T21:39:21Z",
+    "lastUpdated": "2026-03-08T22:11:15Z",
     "homeTeam": {
       "id": 95,
       "name": "Valencia CF",
@@ -17584,10 +17584,10 @@
       "crest": "https://crests.football-data.org/263.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 3,
         "away": 2
       },
       "halfTime": {
