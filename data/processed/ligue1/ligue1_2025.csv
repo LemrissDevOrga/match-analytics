@@ -223,3 +223,4 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 542625,2025,25,2026-03-08,FINISHED,REGULAR_SEASON,OGC Nice,Nice,NIC,Stade Rennais FC 1901,Stade Rennais,REN,0,4,0,2,AWAY_TEAM,REGULAR,Romain Lissorgue
 542627,2025,25,2026-03-08,FINISHED,REGULAR_SEASON,Lille OSC,Lille,LIL,FC Lorient,Lorient,FCL,1,1,0,0,DRAW,REGULAR,Abdelatif Kherradji
 542630,2025,25,2026-03-08,FINISHED,REGULAR_SEASON,Stade Brestois 29,Brest,BRE,Le Havre AC,Le Havre,HAC,2,0,1,0,HOME_TEAM,REGULAR,Benoît Bastien
+542626,2025,25,2026-03-08,FINISHED,REGULAR_SEASON,Olympique Lyonnais,Olympique Lyon,LYO,Paris FC,Paris FC,PFC,1,1,0,0,DRAW,REGULAR,Eric Wattellier

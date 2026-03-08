@@ -17568,7 +17568,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T21:12:42Z",
+    "lastUpdated": "2026-03-08T21:39:21Z",
     "homeTeam": {
       "id": 95,
       "name": "Valencia CF",
@@ -17587,8 +17587,8 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 1
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
         "home": 0,

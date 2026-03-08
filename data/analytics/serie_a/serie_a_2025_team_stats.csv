@@ -1,6 +1,6 @@
 team,home_team_tla,played,wins,draws,losses,points,goals_scored,goals_conceded,goal_difference,avg_goals_scored,avg_goals_conceded,clean_sheets,home_wins,home_draws,home_losses,away_wins,away_draws,away_losses,form_last5
-FC Internazionale Milano,INT,27,22,1,4,67,64,21,43,2.37,0.78,15,11,1,2,11,0,2,WWWWW
-AC Milan,MIL,27,16,9,2,57,43,20,23,1.59,0.74,12,7,4,2,9,5,0,WWDLW
+FC Internazionale Milano,INT,28,22,1,5,67,64,22,42,2.29,0.79,15,11,1,2,11,0,3,WWWWL
+AC Milan,MIL,28,17,9,2,60,44,20,24,1.57,0.71,13,8,4,2,9,5,0,WDLWW
 SSC Napoli,NAP,28,17,5,6,56,43,29,14,1.54,1.04,9,9,4,0,8,1,6,WDLWW
 AS Roma,ROM,28,16,3,9,51,38,21,17,1.36,0.75,12,9,2,3,7,1,6,WDWDL
 Como 1907,COM,28,14,9,5,51,46,21,25,1.64,0.75,13,7,5,2,7,4,3,LDWWW

@@ -14854,11 +14854,11 @@
     },
     "id": 542626,
     "utcDate": "2026-03-08T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T21:11:20Z",
+    "lastUpdated": "2026-03-08T21:46:00Z",
     "homeTeam": {
       "id": 523,
       "name": "Olympique Lyonnais",
@@ -14874,10 +14874,10 @@
       "crest": "https://crests.football-data.org/1045.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "halfTime": {
