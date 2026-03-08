@@ -768,8 +768,29 @@ function showTeamSection(id,btn){
 }
 
 // ── ADVANCED STATS ────────────────────────────────────────────
+function normalizeTeamName(name){
+  return name.toLowerCase()
+    .replace(/\b(fc|cf|afc|sc|ac|as|ss|ssc|rc|rcd|cd|ud|sd|ca|sl|fk|sk|bsc|1\.)\b/g,'')
+    .replace(/[^a-z0-9]/g,' ')
+    .replace(/\s+/g,' ').trim();
+}
+function findAdvancedStats(teamName){
+  // exact match first
+  let found=advancedStats.find(t=>t.team===teamName);
+  if(found)return found;
+  // normalized match
+  const norm=normalizeTeamName(teamName);
+  found=advancedStats.find(t=>normalizeTeamName(t.team)===norm);
+  if(found)return found;
+  // partial match — one contains the other
+  found=advancedStats.find(t=>{
+    const tn=normalizeTeamName(t.team);
+    return norm.includes(tn)||tn.includes(norm);
+  });
+  return found||null;
+}
 function renderAdvancedStats(){
-  const adv=advancedStats.find(t=>t.team===currentTeam);
+  const adv=findAdvancedStats(currentTeam);
   const noData=document.getElementById('advancedNoData');
   const content=document.getElementById('advancedContent');
   if(!adv||!adv.avg_expectedGoals){
