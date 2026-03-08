@@ -13734,11 +13734,11 @@
     },
     "id": 545924,
     "utcDate": "2026-03-08T18:00:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T18:17:49Z",
+    "lastUpdated": "2026-03-08T19:00:44Z",
     "homeTeam": {
       "id": 1903,
       "name": "Sport Lisboa e Benfica",
@@ -13758,11 +13758,11 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "regularTime": {
         "home": 0,
@@ -13846,7 +13846,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 98928,
+        "name": "David Silva",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {

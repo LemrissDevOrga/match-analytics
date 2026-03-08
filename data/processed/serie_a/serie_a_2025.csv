@@ -276,3 +276,4 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 537094,2025,28,2026-03-08,FINISHED,REGULAR_SEASON,US Lecce,Lecce,USL,US Cremonese,Cremonese,CRE,2,2,2,0,DRAW,REGULAR,Simone Sozza
 537090,2025,28,2026-03-08,FINISHED,REGULAR_SEASON,Bologna FC 1909,Bologna,BOL,Hellas Verona FC,Verona,HVE,1,3,0,0,AWAY_TEAM,REGULAR,Giuseppe Mucera
 537085,2025,28,2026-03-08,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,Parma Calcio 1913,Parma,PAR,0,0,0,0,DRAW,REGULAR,Luca Zufferli
+537089,2025,28,2026-03-08,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,AS Roma,Roma,ROM,2,1,0,0,HOME_TEAM,REGULAR,Andrea Colombo

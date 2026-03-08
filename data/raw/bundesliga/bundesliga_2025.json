@@ -14830,11 +14830,11 @@
     },
     "id": 540625,
     "utcDate": "2026-03-08T16:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T18:04:58Z",
+    "lastUpdated": "2026-03-08T18:34:00Z",
     "homeTeam": {
       "id": 28,
       "name": "1. FC Union Berlin",
@@ -14854,7 +14854,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 3
+        "away": 4
       },
       "halfTime": {
         "home": 1,
