@@ -573,15 +573,32 @@ footer span{color:var(--league-color);}
 <script>
 const GH_USER="aziz1998-lemriss",GH_REPO="match-analytics";
 const RAW=`https://raw.githubusercontent.com/${GH_USER}/${GH_REPO}/main/data`;
+
 const LEAGUE_CONFIG={
-  premier_league:{name:"Premier League",country:"England",color:"#7b2fb5",abbr:"PL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  laliga:{name:"La Liga",country:"Spain",color:"#ee8700",abbr:"LL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  champions_league:{name:"Champions League",country:"Europe",color:"#1a8fff",abbr:"CL",isCup:true,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  bundesliga:{name:"Bundesliga",country:"Germany",color:"#d0021b",abbr:"BL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  serie_a:{name:"Serie A",country:"Italy",color:"#007bc3",abbr:"SA",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  ligue1:{name:"Ligue 1",country:"France",color:"#4466ff",abbr:"L1",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  eredivisie:{name:"Eredivisie",country:"Netherlands",color:"#ff6b00",abbr:"ED",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  primeira_liga:{name:"Primeira Liga",country:"Portugal",color:"#006600",abbr:"PL2",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  premier_league:{name:"Premier League",country:"England",color:"#7b2fb5",abbr:"PL",isCup:false,
+    seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},
+    sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  laliga:{name:"La Liga",country:"Spain",color:"#ee8700",abbr:"LL",isCup:false,
+    seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},
+    sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  champions_league:{name:"Champions League",country:"Europe",color:"#1a8fff",abbr:"CL",isCup:true,
+    seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},
+    sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  bundesliga:{name:"Bundesliga",country:"Germany",color:"#d0021b",abbr:"BL",isCup:false,
+    seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},
+    sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  serie_a:{name:"Serie A",country:"Italy",color:"#007bc3",abbr:"SA",isCup:false,
+    seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},
+    sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  ligue1:{name:"Ligue 1",country:"France",color:"#4466ff",abbr:"L1",isCup:false,
+    seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},
+    sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  eredivisie:{name:"Eredivisie",country:"Netherlands",color:"#ff6b00",abbr:"ED",isCup:false,
+    seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},
+    sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  primeira_liga:{name:"Primeira Liga",country:"Portugal",color:"#006600",abbr:"PL2",isCup:false,
+    seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},
+    sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
 };
 let currentLeague=null,currentSeason=null,currentTeam=null;
 let allStats=[],advancedStats=[],rawMatches=[],clRawMatches=[];
@@ -657,14 +674,13 @@ async function loadAndRenderOverview(){
   document.getElementById('overviewSub').textContent=`${cfg.country} · Click any team for deep analysis`;
   document.getElementById('breadcrumb').innerHTML=`<span>Overview</span>`;
   try{
-    const cfg=LEAGUE_CONFIG[currentLeague];
     const sofaSeason=cfg.sofaSeasons[currentSeason];
-    const advUrl=`${RAW}/analytics/${currentLeague}/${currentLeague}_${sofaSeason}_advanced.csv`;
     [allStats,rawMatches]=await Promise.all([
       loadCSV(`${RAW}/analytics/${currentLeague}/${currentLeague}_${currentSeason}_team_stats.csv`),
       loadCSV(`${RAW}/processed/${currentLeague}/${currentLeague}_${currentSeason}.csv`)
     ]);
-    try{advancedStats=await loadCSV(advUrl);}catch(e){advancedStats=[];}
+    try{advancedStats=await loadCSV(`${RAW}/analytics/${currentLeague}/${currentLeague}_${sofaSeason}_advanced.csv`);}
+    catch(e){advancedStats=[];}
     filterQ='';renderCards();renderTable();renderSidebar();renderOverviewCharts();
   }catch(e){
     document.getElementById('tableBody').innerHTML=`<tr><td colspan="13" style="text-align:center;padding:40px;color:var(--muted)">⚠️ Could not load data. Check GitHub repo.</td></tr>`;
@@ -988,27 +1004,28 @@ function renderAdvancedStats(){
 // ── H2H ──────────────────────────────────────────────────────
 async function loadH2HData(){
   document.getElementById('h2hResults').innerHTML=`<div class="loading"><div class="spinner"></div><span>Loading all competitions data…</span></div>`;
-  const allMatches=[];
-  for(const league of Object.keys(LEAGUE_CONFIG)){
-    const cfg=LEAGUE_CONFIG[league];
-    for(const season of cfg.seasons){
-      try{
-        const rows=await loadCSV(`${RAW}/processed/${league}/${league}_${season}.csv`);
-        rows.filter(m=>m.status==='FINISHED').forEach(m=>allMatches.push({...m,league,season,leagueName:cfg.name}));
-      }catch(e){}
-      await new Promise(r=>setTimeout(r,60));
+  try{
+    const rows=[];
+    for(const [league,cfg] of Object.entries(LEAGUE_CONFIG)){
+      for(const season of cfg.seasons){
+        try{
+          const data=await loadCSV(`${RAW}/processed/${league}/${league}_${season}.csv`);
+          data.forEach(m=>rows.push({...m,league,season,leagueName:cfg.name}));
+        }catch(e){}
+      }
     }
+    allH2HMatches=rows;
+    h2hDataLoaded=true;
+    const opponents=[...new Set(allH2HMatches
+      .filter(m=>m.home_team===currentTeam||m.away_team===currentTeam)
+      .map(m=>m.home_team===currentTeam?m.away_team:m.home_team)
+    )].filter(Boolean).sort();
+    const sel=document.getElementById('h2hOpponentSelect');
+    sel.innerHTML=`<option value="">Select opponent (${opponents.length} teams found)…</option>`+opponents.map(t=>`<option value="${t}">${t}</option>`).join('');
+    document.getElementById('h2hResults').innerHTML='';
+  }catch(e){
+    document.getElementById('h2hResults').innerHTML=`<div style="text-align:center;padding:40px;color:var(--muted)">⚠️ Could not load H2H data: ${e.message}</div>`;
   }
-  allH2HMatches=allMatches;
-  h2hDataLoaded=true;
-  // Only show opponents that have actually faced currentTeam
-  const opponents=[...new Set(allMatches
-    .filter(m=>m.home_team===currentTeam||m.away_team===currentTeam)
-    .map(m=>m.home_team===currentTeam?m.away_team:m.home_team)
-  )].filter(Boolean).sort();
-  const sel=document.getElementById('h2hOpponentSelect');
-  sel.innerHTML=`<option value="">Select opponent (${opponents.length} teams found)…</option>`+opponents.map(t=>`<option value="${t}">${t}</option>`).join('');
-  document.getElementById('h2hResults').innerHTML='';
 }
 
 function runH2H(){
@@ -1020,15 +1037,23 @@ function runH2H(){
 
   let t1W=0,t2W=0,draws=0,t1G=0,t2G=0,t1HW=0,t1HP=0,t1AW=0,t1AP=0;
 
+  const hg=m=>parseFloat(m.home_goals_ft||m.home_goals||0);
+  const ag=m=>parseFloat(m.away_goals_ft||m.away_goals||0);
+
   const getFormBefore=(team,date)=>{
     return allH2HMatches.filter(m=>m.date<date&&(m.home_team===team||m.away_team===team)).slice(-5)
-      .map(m=>m.home_team===team?(m.result==='HOME_TEAM'?'W':m.result==='DRAW'?'D':'L'):(m.result==='AWAY_TEAM'?'W':m.result==='DRAW'?'D':'L'));
+      .map(m=>{
+        const isHome=m.home_team===team;
+        const gf=isHome?hg(m):ag(m);
+        const ga=isHome?ag(m):hg(m);
+        return gf>ga?'W':gf<ga?'L':'D';
+      });
   };
 
   const details=meetings.map(m=>{
     const isT1Home=m.home_team===team1;
-    const g1=isT1Home?m.home_goals_ft:m.away_goals_ft;
-    const g2=isT1Home?m.away_goals_ft:m.home_goals_ft;
+    const g1=isT1Home?hg(m):ag(m);
+    const g2=isT1Home?ag(m):hg(m);
     let res;
     if(g1>g2){res='T1';t1W++;}else if(g2>g1){res='T2';t2W++;}else{res='D';draws++;}
     t1G+=g1;t2G+=g2;
@@ -1112,7 +1137,8 @@ function runH2H(){
 
 // ── TEAM DETAIL ───────────────────────────────────────────────
 function showTeam(teamName){
-  const stat=allStats.find(t=>t.team===teamName);if(!stat)return;
+  const stat=allStats.find(t=>normalizeTeamName(t.team)===normalizeTeamName(teamName))||allStats.find(t=>t.team===teamName);
+  if(!stat)return;
   currentTeam=teamName;
   h2hDataLoaded=false;
   document.querySelectorAll('.team-tab').forEach((t,i)=>t.classList.toggle('active',i===0));
@@ -1120,19 +1146,23 @@ function showTeam(teamName){
 
   const cfg=LEAGUE_CONFIG[currentLeague];
   const color=getComputedStyle(document.documentElement).getPropertyValue('--league-color').trim();
-  const finished=rawMatches.filter(m=>m.status==='FINISHED');
-  const homeM=finished.filter(m=>m.home_team===teamName);
-  const awayM=finished.filter(m=>m.away_team===teamName);
+
+  // rawMatches from processed CSV — handle both home_goals_ft and home_goals field names
+  const _hg=m=>parseFloat(m.home_goals_ft||m.home_goals||0);
+  const _ag=m=>parseFloat(m.away_goals_ft||m.away_goals||0);
+  const homeM=rawMatches.filter(m=>m.home_team===teamName||m.homeTeam?.name===teamName);
+  const awayM=rawMatches.filter(m=>m.away_team===teamName||m.awayTeam?.name===teamName);
   const matches=[
-    ...homeM.map(m=>({date:m.date,matchday:m.matchday,opponent:m.away_team,goalsFor:m.home_goals_ft,goalsAgainst:m.away_goals_ft,result:m.result==='HOME_TEAM'?'W':m.result==='DRAW'?'D':'L',venue:'H'})),
-    ...awayM.map(m=>({date:m.date,matchday:m.matchday,opponent:m.home_team,goalsFor:m.away_goals_ft,goalsAgainst:m.home_goals_ft,result:m.result==='AWAY_TEAM'?'W':m.result==='DRAW'?'D':'L',venue:'A'}))
+    ...homeM.map((m,i)=>({date:m.date,matchday:i+1,opponent:m.away_team,goalsFor:_hg(m),goalsAgainst:_ag(m),result:_hg(m)>_ag(m)?'W':_hg(m)<_ag(m)?'L':'D',venue:'H'})),
+    ...awayM.map((m,i)=>({date:m.date,matchday:i+1,opponent:m.home_team,goalsFor:_ag(m),goalsAgainst:_hg(m),result:_ag(m)>_hg(m)?'W':_ag(m)<_hg(m)?'L':'D',venue:'A'}))
   ].sort((a,b)=>new Date(a.date)-new Date(b.date));
+  matches.forEach((m,i)=>m.matchday=i+1);
 
   const tla=(stat.home_team_tla||teamName.substring(0,3)).toUpperCase();
   document.getElementById('teamAvatar').textContent=tla;
   document.getElementById('teamHeroName').textContent=teamName;
   document.getElementById('h2hTeam1Name').textContent=teamName;
-  const rankPos=[...allStats].sort((a,b)=>b.points-a.points).findIndex(t=>t.team===teamName)+1;
+  const rankPos=[...allStats].sort((a,b)=>b.points-a.points).findIndex(t=>normalizeTeamName(t.team)===normalizeTeamName(teamName))+1;
   document.getElementById('teamHeroSub').textContent=`${cfg.name} · ${cfg.seasonLabels[currentSeason]} · ${stat.played} matches · Rank #${rankPos}`;
   document.getElementById('breadcrumb').innerHTML=`<span class="crumb-link" onclick="showOverview()">Overview</span><span style="color:var(--border);margin:0 6px">›</span><span class="crumb-active">${teamName}</span>`;
 
@@ -1150,15 +1180,22 @@ function showTeam(teamName){
     <div class="kpi"><div class="kpi-val">${gdStr(stat.goal_difference)}</div><div class="kpi-label">Goal Diff</div></div>
     <div class="kpi"><div class="kpi-val green">${stat.clean_sheets}</div><div class="kpi-label">Clean Sheets</div></div>
     <div class="kpi"><div class="kpi-val">${stat.avg_goals_scored}</div><div class="kpi-label">Avg Goals</div></div>
-    <div class="kpi"><div class="kpi-val">${stat.avg_goals_conceded}</div><div class="kpi-label">Avg Conceded</div></div>`;
+    <div class="kpi"><div class="kpi-val">${(stat.goals_conceded/Math.max(stat.played,1)).toFixed(2)}</div><div class="kpi-label">Avg Conceded</div></div>`;
 
-  const hW=stat.home_wins,hD=stat.home_draws,hL=stat.home_losses,hP=hW+hD+hL||1;
-  const aW=stat.away_wins,aD=stat.away_draws,aL=stat.away_losses,aP=aW+aD+aL||1;
-  const hGF=homeM.reduce((s,m)=>s+m.home_goals_ft,0),aGF=awayM.reduce((s,m)=>s+m.away_goals_ft,0);
-  const hGA=homeM.reduce((s,m)=>s+m.away_goals_ft,0),aGA=awayM.reduce((s,m)=>s+m.home_goals_ft,0);
+  const hW=homeM.filter(m=>_hg(m)>_ag(m)).length;
+  const hD=homeM.filter(m=>_hg(m)===_ag(m)).length;
+  const hL=homeM.filter(m=>_hg(m)<_ag(m)).length;
+  const aW=awayM.filter(m=>_ag(m)>_hg(m)).length;
+  const aD=awayM.filter(m=>_ag(m)===_hg(m)).length;
+  const aL=awayM.filter(m=>_ag(m)<_hg(m)).length;
+  const hP=homeM.length||1, aP=awayM.length||1;
+  const hGF=homeM.reduce((s,m)=>s+_hg(m),0);
+  const aGF=awayM.reduce((s,m)=>s+_ag(m),0);
+  const hGA=homeM.reduce((s,m)=>s+_ag(m),0);
+  const aGA=awayM.reduce((s,m)=>s+_hg(m),0);
   const hva=(label,hV,aV)=>{const mx=Math.max(hV,aV)||1;return `<div><div class="hva-label">${label}</div><div class="hva-bars"><span class="hva-tag home">H</span><div class="hva-bar-wrap"><div class="hva-bar-bg"><div class="hva-bar-home" style="width:${(hV/mx*100).toFixed(1)}%"></div></div></div><span class="hva-val">${hV}</span><span class="hva-val" style="color:var(--muted)">|</span><span class="hva-val">${aV}</span><div class="hva-bar-wrap"><div class="hva-bar-bg"><div class="hva-bar-away" style="width:${(aV/mx*100).toFixed(1)}%"></div></div></div><span class="hva-tag away">A</span></div></div>`;};
   document.getElementById('hvaRow').innerHTML=hva('Wins',hW,aW)+hva('Goals Scored',hGF,aGF)+hva('Goals Conceded',hGA,aGA)+hva('Played',hP,aP);
-  document.getElementById('resultsList').innerHTML=matches.slice(-10).reverse().map(m=>`<div class="result-item"><span class="r-date">${m.date}</span><div class="r-badge ${m.result}">${m.result}</div><span class="r-opponent">${m.opponent}</span><span class="r-score">${m.goalsFor}–${m.goalsAgainst}</span><span class="r-venue">${m.venue}</span></div>`).join('');
+  document.getElementById('resultsList').innerHTML=matches.slice(-10).reverse().map(m=>`<div class="result-item"><span class="r-date">${m.date||''}</span><div class="r-badge ${m.result}">${m.result}</div><span class="r-opponent">${m.opponent}</span><span class="r-score">${m.goalsFor}–${m.goalsAgainst}</span><span class="r-venue">${m.venue}</span></div>`).join('');
 
   let bestW=0,curW=0,longestWless=0,curWless=0,bigWin='N/A',bigLoss='N/A',bigWD=-1,bigLD=-1;
   matches.forEach(m=>{const d=m.goalsFor-m.goalsAgainst;if(m.result==='W'){curW++;bestW=Math.max(bestW,curW);curWless=0;if(d>bigWD){bigWD=d;bigWin=`${m.goalsFor}-${m.goalsAgainst} vs ${short(m.opponent)}`;}}else{curW=0;curWless++;longestWless=Math.max(longestWless,curWless);if(m.result==='L'&&Math.abs(d)>bigLD){bigLD=Math.abs(d);bigLoss=`${m.goalsFor}-${m.goalsAgainst} vs ${short(m.opponent)}`; }}});
@@ -1238,12 +1275,16 @@ async function populateCmpTeams(side){
     const sofaSeason=cfg.sofaSeasons[season];
     try{
       const rows=await loadCSV(`${RAW}/analytics/${league}/${league}_${sofaSeason}_advanced.csv`);
-      teamEl.innerHTML=`<option value="">Select team…</option>`+rows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
-    }catch(e){
-      // fallback to basic stats
-      try{
-        const rows=await loadCSV(`${RAW}/analytics/${league}/${league}_${season}_team_stats.csv`);
+      if(rows.length){
         teamEl.innerHTML=`<option value="">Select team…</option>`+rows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
+      }else{
+        const bRows=await loadCSV(`${RAW}/analytics/${league}/${league}_${season}_team_stats.csv`);
+        teamEl.innerHTML=`<option value="">Select team…</option>`+bRows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
+      }
+    }catch(e){
+      try{
+        const bRows=await loadCSV(`${RAW}/analytics/${league}/${league}_${season}_team_stats.csv`);
+        teamEl.innerHTML=`<option value="">Select team…</option>`+bRows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
       }catch(e2){teamEl.innerHTML=`<option value="">No data</option>`;}
     }
   };
@@ -1262,21 +1303,25 @@ async function runCompare(){
   el.innerHTML=`<div class="loading"><div class="spinner"></div><span>Loading comparison…</span></div>`;
 
   try{
-    const cfgA=LEAGUE_CONFIG[leagueA],cfgB=LEAGUE_CONFIG[leagueB];
+    const cfgA=LEAGUE_CONFIG[leagueA], cfgB=LEAGUE_CONFIG[leagueB];
+    const sofaA=cfgA.sofaSeasons[seasonA], sofaB=cfgB.sofaSeasons[seasonB];
+
     const [advA,advB,basicA,basicB]=await Promise.all([
-      loadCSV(`${RAW}/analytics/${leagueA}/${leagueA}_${cfgA.sofaSeasons[seasonA]}_advanced.csv`).catch(()=>[]),
-      loadCSV(`${RAW}/analytics/${leagueB}/${leagueB}_${cfgB.sofaSeasons[seasonB]}_advanced.csv`).catch(()=>[]),
+      loadCSV(`${RAW}/analytics/${leagueA}/${leagueA}_${sofaA}_advanced.csv`).catch(()=>[]),
+      loadCSV(`${RAW}/analytics/${leagueB}/${leagueB}_${sofaB}_advanced.csv`).catch(()=>[]),
       loadCSV(`${RAW}/analytics/${leagueA}/${leagueA}_${seasonA}_team_stats.csv`).catch(()=>[]),
       loadCSV(`${RAW}/analytics/${leagueB}/${leagueB}_${seasonB}_team_stats.csv`).catch(()=>[]),
     ]);
 
-    const dA=advA.find(t=>t.team===teamA)||{};
-    const dB=advB.find(t=>t.team===teamB)||{};
-    const bA=basicA.find(t=>t.team===teamA)||{};
-    const bB=basicB.find(t=>t.team===teamB)||{};
-
-    const merge=(adv,basic)=>({...basic,...adv});
-    const tA=merge(dA,bA),tB=merge(dB,bB);
+    // Find team rows — fuzzy match since names differ between sources
+    const findTeam=(rows,name)=>rows.find(r=>normalizeTeamName(r.team)===normalizeTeamName(name))||rows.find(r=>r.team===name)||{};
+    const dA=findTeam(advA,teamA);
+    const dB=findTeam(advB,teamB);
+    const bA=findTeam(basicA,teamA);
+    const bB=findTeam(basicB,teamB);
+    // Merge: basic stats first, advanced stats override (but keep basic points/goals)
+    const tA={...dA,...bA, ...{avg_expectedGoals:dA.avg_expectedGoals,avg_ballPossession:dA.avg_ballPossession,avg_totalShotsOnGoal:dA.avg_totalShotsOnGoal,avg_bigChanceCreated:dA.avg_bigChanceCreated,avg_cornerKicks:dA.avg_cornerKicks,avg_accuratePasses:dA.avg_accuratePasses,avg_yellowCards:dA.avg_yellowCards,avg_fouls:dA.avg_fouls}};
+    const tB={...dB,...bB, ...{avg_expectedGoals:dB.avg_expectedGoals,avg_ballPossession:dB.avg_ballPossession,avg_totalShotsOnGoal:dB.avg_totalShotsOnGoal,avg_bigChanceCreated:dB.avg_bigChanceCreated,avg_cornerKicks:dB.avg_cornerKicks,avg_accuratePasses:dB.avg_accuratePasses,avg_yellowCards:dB.avg_yellowCards,avg_fouls:dB.avg_fouls}};
 
     const statRow=(label,keyA,keyB,suffix='',higherBetter=true)=>{
       const vA=parseFloat(tA[keyA])||0,vB=parseFloat(tB[keyB])||0;
@@ -1295,7 +1340,8 @@ async function runCompare(){
       </div>`;
     };
 
-    const sA=cfgA.seasonLabels[seasonA],sB=cfgB.seasonLabels[seasonB];
+    const cfgA=LEAGUE_CONFIG[leagueA], cfgB=LEAGUE_CONFIG[leagueB];
+    const sA=cfgA.seasonLabels[seasonA]||seasonA, sB=cfgB.seasonLabels[seasonB]||seasonB;
 
     // Radar
     const radarLabels=['xG','Possession','Shots','Big Chances','Corners','Passes'];
@@ -1366,8 +1412,8 @@ async function populateFormTeams(){
   const el=document.getElementById('formTeam');
   if(!league||!season){el.innerHTML=`<option value="">Select team…</option>`;return;}
   try{
-    const rows=await loadCSV(`${RAW}/processed_sofascore/${league}/${league}_${LEAGUE_CONFIG[league].sofaSeasons[season]}.csv`);
-    const teams=[...new Set(rows.flatMap(r=>[r.home_team,r.away_team]).filter(Boolean))].sort();
+    const rows=await loadCSV(`${RAW}/analytics/${league}/${league}_${season}_team_stats.csv`);
+    const teams=rows.map(r=>r.team).filter(Boolean).sort();
     el.innerHTML=`<option value="">Select team…</option>`+teams.map(t=>`<option value="${t}">${t}</option>`).join('');
   }catch(e){el.innerHTML=`<option value="">No data</option>`;}
 }
@@ -1382,15 +1428,31 @@ async function runForm(){
   el.innerHTML=`<div class="loading"><div class="spinner"></div><span>Loading form data…</span></div>`;
 
   try{
-    const sofaSeason=LEAGUE_CONFIG[league].sofaSeasons[season];
-    const matches=await loadCSV(`${RAW}/processed_sofascore/${league}/${league}_${sofaSeason}.csv`);
-    const teamMatches=matches.filter(m=>m.home_team===team||m.away_team===team)
-      .sort((a,b)=>new Date(b.date)-new Date(a.date)).slice(0,5);
+    const cfg=LEAGUE_CONFIG[league];
+    const sofaSeason=cfg.sofaSeasons[season];
+    const [allMatches, sofaMatches]=await Promise.all([
+      loadCSV(`${RAW}/processed/${league}/${league}_${season}.csv`),
+      loadCSV(`${RAW}/processed_sofascore/${league}/${league}_${sofaSeason}.csv`).catch(()=>[])
+    ]);
+    const teamMatches=allMatches
+      .filter(m=>m.home_team===team||m.away_team===team)
+      .sort((a,b)=>new Date(b.date)-new Date(a.date))
+      .slice(0,5);
 
     if(!teamMatches.length){el.innerHTML=`<div style="text-align:center;padding:40px;color:var(--muted)">No matches found for ${team}</div>`;return;}
 
+    // Join SofaScore stats by matching date+teams
+    const enriched=teamMatches.map(m=>{
+      const sf=sofaMatches.find(s=>
+        s.date===m.date &&
+        (s.home_team===m.home_team||s.home_team?.includes(m.home_team?.split(' ')[0])) &&
+        (s.away_team===m.away_team||s.away_team?.includes(m.away_team?.split(' ')[0]))
+      );
+      return sf ? {...m,...sf} : m;
+    });
+
     // Summary form pills
-    const formStr=teamMatches.map(m=>{
+    const formStr=enriched.map(m=>{
       const isHome=m.home_team===team;
       const gf=isHome?parseFloat(m.home_goals):parseFloat(m.away_goals);
       const ga=isHome?parseFloat(m.away_goals):parseFloat(m.home_goals);
@@ -1407,7 +1469,7 @@ async function runForm(){
       <div id="formMatchCards"></div>`;
 
     const cardsEl=document.getElementById('formMatchCards');
-    cardsEl.innerHTML=teamMatches.map((m,idx)=>{
+    cardsEl.innerHTML=enriched.map((m,idx)=>{
       const isHome=m.home_team===team;
       const opp=isHome?m.away_team:m.home_team;
       const gf=isHome?parseFloat(m.home_goals||0):parseFloat(m.away_goals||0);
