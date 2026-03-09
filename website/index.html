@@ -573,15 +573,44 @@ footer span{color:var(--league-color);}
 <script>
 const GH_USER="aziz1998-lemriss",GH_REPO="match-analytics";
 const RAW=`https://raw.githubusercontent.com/${GH_USER}/${GH_REPO}/main/data`;
+const SUPABASE_URL="https://qabuvoecfmcftkxcsfrh.supabase.co";
+const SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhYnV2b2VjZm1jZnRreGNzZnJoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMwNDQ1MjIsImV4cCI6MjA4ODYyMDUyMn0.wET-5U-r8JAGFH8oJSghPCsfT3Nn1BUhxVG-9Gc7-AM";
+const SB=`${SUPABASE_URL}/rest/v1`;
+const SB_HEADERS={"apikey":SUPABASE_KEY,"Authorization":`Bearer ${SUPABASE_KEY}`};
+
+async function sbQuery(table, params={}){
+  const qs=Object.entries(params).map(([k,v])=>`${k}=${encodeURIComponent(v)}`).join('&');
+  const url=`${SB}/${table}${qs?'?'+qs:''}`;
+  const r=await fetch(url,{headers:{...SB_HEADERS,"Range":"0-9999"}});
+  if(!r.ok)throw new Error(`Supabase ${r.status}: ${await r.text()}`);
+  return r.json();
+}
+
 const LEAGUE_CONFIG={
-  premier_league:{name:"Premier League",country:"England",color:"#7b2fb5",abbr:"PL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  laliga:{name:"La Liga",country:"Spain",color:"#ee8700",abbr:"LL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  champions_league:{name:"Champions League",country:"Europe",color:"#1a8fff",abbr:"CL",isCup:true,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  bundesliga:{name:"Bundesliga",country:"Germany",color:"#d0021b",abbr:"BL",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  serie_a:{name:"Serie A",country:"Italy",color:"#007bc3",abbr:"SA",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  ligue1:{name:"Ligue 1",country:"France",color:"#4466ff",abbr:"L1",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  eredivisie:{name:"Eredivisie",country:"Netherlands",color:"#ff6b00",abbr:"ED",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
-  primeira_liga:{name:"Primeira Liga",country:"Portugal",color:"#006600",abbr:"PL2",isCup:false,seasons:["2023","2024","2025"],seasonLabels:{"2023":"23/24","2024":"24/25","2025":"25/26"},sofaSeasons:{"2023":"23-24","2024":"24-25","2025":"25-26"}},
+  premier_league:{name:"Premier League",country:"England",color:"#7b2fb5",abbr:"PL",isCup:false,
+    seasons:["21-22","22-23","23-24","24-25","25-26"],
+    seasonLabels:{"21-22":"21/22","22-23":"22/23","23-24":"23/24","24-25":"24/25","25-26":"25/26"}},
+  laliga:{name:"La Liga",country:"Spain",color:"#ee8700",abbr:"LL",isCup:false,
+    seasons:["21-22","22-23","23-24","24-25","25-26"],
+    seasonLabels:{"21-22":"21/22","22-23":"22/23","23-24":"23/24","24-25":"24/25","25-26":"25/26"}},
+  champions_league:{name:"Champions League",country:"Europe",color:"#1a8fff",abbr:"CL",isCup:true,
+    seasons:["21-22","22-23","23-24","24-25","25-26"],
+    seasonLabels:{"21-22":"21/22","22-23":"22/23","23-24":"23/24","24-25":"24/25","25-26":"25/26"}},
+  bundesliga:{name:"Bundesliga",country:"Germany",color:"#d0021b",abbr:"BL",isCup:false,
+    seasons:["21-22","22-23","23-24","24-25","25-26"],
+    seasonLabels:{"21-22":"21/22","22-23":"22/23","23-24":"23/24","24-25":"24/25","25-26":"25/26"}},
+  serie_a:{name:"Serie A",country:"Italy",color:"#007bc3",abbr:"SA",isCup:false,
+    seasons:["21-22","22-23","23-24","24-25","25-26"],
+    seasonLabels:{"21-22":"21/22","22-23":"22/23","23-24":"23/24","24-25":"24/25","25-26":"25/26"}},
+  ligue1:{name:"Ligue 1",country:"France",color:"#4466ff",abbr:"L1",isCup:false,
+    seasons:["21-22","22-23","23-24","24-25","25-26"],
+    seasonLabels:{"21-22":"21/22","22-23":"22/23","23-24":"23/24","24-25":"24/25","25-26":"25/26"}},
+  eredivisie:{name:"Eredivisie",country:"Netherlands",color:"#ff6b00",abbr:"ED",isCup:false,
+    seasons:["21-22","22-23","23-24","24-25","25-26"],
+    seasonLabels:{"21-22":"21/22","22-23":"22/23","23-24":"23/24","24-25":"24/25","25-26":"25/26"}},
+  primeira_liga:{name:"Primeira Liga",country:"Portugal",color:"#006600",abbr:"PL2",isCup:false,
+    seasons:["21-22","22-23","23-24","24-25","25-26"],
+    seasonLabels:{"21-22":"21/22","22-23":"22/23","23-24":"23/24","24-25":"24/25","25-26":"25/26"}},
 };
 let currentLeague=null,currentSeason=null,currentTeam=null;
 let allStats=[],advancedStats=[],rawMatches=[],clRawMatches=[];
@@ -605,6 +634,30 @@ async function loadJSON(url){
   const r=await fetch(url);
   if(!r.ok)throw new Error(`${r.status}`);
   return r.json();
+}
+
+// Supabase data loaders
+async function loadTeamStats(league, season){
+  return sbQuery('team_stats',{'league':'eq.'+league,'season':'eq.'+season,'select':'*','order':'points.desc'});
+}
+async function loadAdvancedStats(league, season){
+  return sbQuery('advanced_stats',{'league':'eq.'+league,'season':'eq.'+season,'select':'*'});
+}
+async function loadMatches(league, season){
+  return sbQuery('matches',{'league':'eq.'+league,'season':'eq.'+season,'select':'*','order':'date.asc','limit':'1000'});
+}
+async function loadAllMatches(){
+  // Load all matches across all leagues for H2H
+  const rows=[];
+  for(const league of Object.keys(LEAGUE_CONFIG)){
+    for(const season of LEAGUE_CONFIG[league].seasons){
+      try{
+        const data=await sbQuery('matches',{'league':'eq.'+league,'season':'eq.'+season,'select':'league,season,date,home_team,away_team,home_goals,away_goals,stage'});
+        rows.push(...data);
+      }catch(e){}
+    }
+  }
+  return rows;
 }
 
 function showView(id){
@@ -657,19 +710,44 @@ async function loadAndRenderOverview(){
   document.getElementById('overviewSub').textContent=`${cfg.country} · Click any team for deep analysis`;
   document.getElementById('breadcrumb').innerHTML=`<span>Overview</span>`;
   try{
-    const cfg=LEAGUE_CONFIG[currentLeague];
-    const sofaSeason=cfg.sofaSeasons[currentSeason];
-    const advUrl=`${RAW}/analytics/${currentLeague}/${currentLeague}_${sofaSeason}_advanced.csv`;
-    [allStats,rawMatches]=await Promise.all([
-      loadCSV(`${RAW}/analytics/${currentLeague}/${currentLeague}_${currentSeason}_team_stats.csv`),
-      loadCSV(`${RAW}/processed/${currentLeague}/${currentLeague}_${currentSeason}.csv`)
+    [allStats,rawMatches,advancedStats]=await Promise.all([
+      loadTeamStats(currentLeague, currentSeason),
+      loadMatches(currentLeague, currentSeason),
+      loadAdvancedStats(currentLeague, currentSeason).catch(()=>[])
     ]);
-    try{advancedStats=await loadCSV(advUrl);}catch(e){advancedStats=[];}
+    // Map Supabase lowercase cols back to what rendering expects
+    allStats=allStats.map(normalizeRow);
+    rawMatches=rawMatches.map(normalizeRow);
+    advancedStats=advancedStats.map(normalizeRow);
     filterQ='';renderCards();renderTable();renderSidebar();renderOverviewCharts();
   }catch(e){
-    document.getElementById('tableBody').innerHTML=`<tr><td colspan="13" style="text-align:center;padding:40px;color:var(--muted)">⚠️ Could not load data. Check GitHub repo.</td></tr>`;
+    document.getElementById('tableBody').innerHTML=`<tr><td colspan="13" style="text-align:center;padding:40px;color:var(--muted)">⚠️ Could not load data: ${e.message}</td></tr>`;
     document.getElementById('summaryCards').innerHTML='';
   }
+}
+
+// Normalize Supabase lowercase column names to camelCase for rendering
+function normalizeRow(r){
+  const map={
+    ballpossession:'ballPossession',expectedgoals:'expectedGoals',
+    bigchancecreated:'bigChanceCreated',bigchancemissed:'bigChanceMissed',
+    totalshotsongoal:'totalShotsOnGoal',shotsontarget:'shotsOnTarget',
+    shotsofftarget:'shotsOffTarget',blockedshots:'blockedShots',
+    goalkeepersaves:'goalkeeperSaves',cornerkicks:'cornerKicks',
+    yellowcards:'yellowCards',redcards:'redCards',
+    accuratepasses:'accuratePasses',accuratepassespercentage:'accuratePassesPercentage',
+    totalduels:'totalDuels',totalduelswon:'totalDuelsWon',
+  };
+  const out={...r};
+  for(const [lc,cc] of Object.entries(map)){
+    for(const prefix of ['home_','away_','avg_','home_avg_','away_avg_']){
+      const from=prefix+lc, to=prefix+cc;
+      if(from in out){out[to]=out[from];delete out[from];}
+    }
+    // also plain key
+    if(lc in out){out[cc]=out[lc];delete out[lc];}
+  }
+  return out;
 }
 function renderCards(){
   const s=[...allStats].sort((a,b)=>b.points-a.points);
@@ -988,27 +1066,30 @@ function renderAdvancedStats(){
 // ── H2H ──────────────────────────────────────────────────────
 async function loadH2HData(){
   document.getElementById('h2hResults').innerHTML=`<div class="loading"><div class="spinner"></div><span>Loading all competitions data…</span></div>`;
-  const allMatches=[];
-  for(const league of Object.keys(LEAGUE_CONFIG)){
-    const cfg=LEAGUE_CONFIG[league];
-    for(const season of cfg.seasons){
-      try{
-        const rows=await loadCSV(`${RAW}/processed/${league}/${league}_${season}.csv`);
-        rows.filter(m=>m.status==='FINISHED').forEach(m=>allMatches.push({...m,league,season,leagueName:cfg.name}));
-      }catch(e){}
-      await new Promise(r=>setTimeout(r,60));
-    }
+  try{
+    // Single query — get all matches from Supabase
+    const rows=await sbQuery('matches',{
+      'select':'league,season,date,home_team,away_team,home_goals,away_goals,stage',
+      'order':'date.asc',
+      'limit':'10000'
+    });
+    allH2HMatches=rows.map(m=>({
+      ...m,
+      home_goals_ft:m.home_goals,
+      away_goals_ft:m.away_goals,
+      leagueName:LEAGUE_CONFIG[m.league]?.name||m.league
+    }));
+    h2hDataLoaded=true;
+    const opponents=[...new Set(allH2HMatches
+      .filter(m=>m.home_team===currentTeam||m.away_team===currentTeam)
+      .map(m=>m.home_team===currentTeam?m.away_team:m.home_team)
+    )].filter(Boolean).sort();
+    const sel=document.getElementById('h2hOpponentSelect');
+    sel.innerHTML=`<option value="">Select opponent (${opponents.length} teams found)…</option>`+opponents.map(t=>`<option value="${t}">${t}</option>`).join('');
+    document.getElementById('h2hResults').innerHTML='';
+  }catch(e){
+    document.getElementById('h2hResults').innerHTML=`<div style="text-align:center;padding:40px;color:var(--muted)">⚠️ Could not load H2H data: ${e.message}</div>`;
   }
-  allH2HMatches=allMatches;
-  h2hDataLoaded=true;
-  // Only show opponents that have actually faced currentTeam
-  const opponents=[...new Set(allMatches
-    .filter(m=>m.home_team===currentTeam||m.away_team===currentTeam)
-    .map(m=>m.home_team===currentTeam?m.away_team:m.home_team)
-  )].filter(Boolean).sort();
-  const sel=document.getElementById('h2hOpponentSelect');
-  sel.innerHTML=`<option value="">Select opponent (${opponents.length} teams found)…</option>`+opponents.map(t=>`<option value="${t}">${t}</option>`).join('');
-  document.getElementById('h2hResults').innerHTML='';
 }
 
 function runH2H(){
@@ -1234,18 +1315,15 @@ async function populateCmpTeams(side){
   seasonEl.onchange=async()=>{
     const season=seasonEl.value;
     if(!season)return;
-    const cfg=LEAGUE_CONFIG[league];
-    const sofaSeason=cfg.sofaSeasons[season];
     try{
-      const rows=await loadCSV(`${RAW}/analytics/${league}/${league}_${sofaSeason}_advanced.csv`);
-      teamEl.innerHTML=`<option value="">Select team…</option>`+rows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
-    }catch(e){
-      // fallback to basic stats
-      try{
-        const rows=await loadCSV(`${RAW}/analytics/${league}/${league}_${season}_team_stats.csv`);
+      const rows=await sbQuery('advanced_stats',{'league':'eq.'+league,'season':'eq.'+season,'select':'team','order':'team.asc'});
+      if(rows.length){
         teamEl.innerHTML=`<option value="">Select team…</option>`+rows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
-      }catch(e2){teamEl.innerHTML=`<option value="">No data</option>`;}
-    }
+      }else{
+        const bRows=await sbQuery('team_stats',{'league':'eq.'+league,'season':'eq.'+season,'select':'team','order':'points.desc'});
+        teamEl.innerHTML=`<option value="">Select team…</option>`+bRows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
+      }
+    }catch(e){teamEl.innerHTML=`<option value="">No data</option>`;}
   };
 }
 
@@ -1262,21 +1340,18 @@ async function runCompare(){
   el.innerHTML=`<div class="loading"><div class="spinner"></div><span>Loading comparison…</span></div>`;
 
   try{
-    const cfgA=LEAGUE_CONFIG[leagueA],cfgB=LEAGUE_CONFIG[leagueB];
     const [advA,advB,basicA,basicB]=await Promise.all([
-      loadCSV(`${RAW}/analytics/${leagueA}/${leagueA}_${cfgA.sofaSeasons[seasonA]}_advanced.csv`).catch(()=>[]),
-      loadCSV(`${RAW}/analytics/${leagueB}/${leagueB}_${cfgB.sofaSeasons[seasonB]}_advanced.csv`).catch(()=>[]),
-      loadCSV(`${RAW}/analytics/${leagueA}/${leagueA}_${seasonA}_team_stats.csv`).catch(()=>[]),
-      loadCSV(`${RAW}/analytics/${leagueB}/${leagueB}_${seasonB}_team_stats.csv`).catch(()=>[]),
+      sbQuery('advanced_stats',{'league':'eq.'+leagueA,'season':'eq.'+seasonA,'team':'eq.'+teamA,'select':'*'}).catch(()=>[]),
+      sbQuery('advanced_stats',{'league':'eq.'+leagueB,'season':'eq.'+seasonB,'team':'eq.'+teamB,'select':'*'}).catch(()=>[]),
+      sbQuery('team_stats',{'league':'eq.'+leagueA,'season':'eq.'+seasonA,'team':'eq.'+teamA,'select':'*'}).catch(()=>[]),
+      sbQuery('team_stats',{'league':'eq.'+leagueB,'season':'eq.'+seasonB,'team':'eq.'+teamB,'select':'*'}).catch(()=>[]),
     ]);
 
-    const dA=advA.find(t=>t.team===teamA)||{};
-    const dB=advB.find(t=>t.team===teamB)||{};
-    const bA=basicA.find(t=>t.team===teamA)||{};
-    const bB=basicB.find(t=>t.team===teamB)||{};
-
-    const merge=(adv,basic)=>({...basic,...adv});
-    const tA=merge(dA,bA),tB=merge(dB,bB);
+    const dA=normalizeRow(advA[0]||{});
+    const dB=normalizeRow(advB[0]||{});
+    const bA=normalizeRow(basicA[0]||{});
+    const bB=normalizeRow(basicB[0]||{});
+    const tA={...bA,...dA}, tB={...bB,...dB};
 
     const statRow=(label,keyA,keyB,suffix='',higherBetter=true)=>{
       const vA=parseFloat(tA[keyA])||0,vB=parseFloat(tB[keyB])||0;
@@ -1366,7 +1441,7 @@ async function populateFormTeams(){
   const el=document.getElementById('formTeam');
   if(!league||!season){el.innerHTML=`<option value="">Select team…</option>`;return;}
   try{
-    const rows=await loadCSV(`${RAW}/processed_sofascore/${league}/${league}_${LEAGUE_CONFIG[league].sofaSeasons[season]}.csv`);
+    const rows=await sbQuery('matches',{'league':'eq.'+league,'season':'eq.'+season,'select':'home_team,away_team'});
     const teams=[...new Set(rows.flatMap(r=>[r.home_team,r.away_team]).filter(Boolean))].sort();
     el.innerHTML=`<option value="">Select team…</option>`+teams.map(t=>`<option value="${t}">${t}</option>`).join('');
   }catch(e){el.innerHTML=`<option value="">No data</option>`;}
@@ -1382,10 +1457,14 @@ async function runForm(){
   el.innerHTML=`<div class="loading"><div class="spinner"></div><span>Loading form data…</span></div>`;
 
   try{
-    const sofaSeason=LEAGUE_CONFIG[league].sofaSeasons[season];
-    const matches=await loadCSV(`${RAW}/processed_sofascore/${league}/${league}_${sofaSeason}.csv`);
-    const teamMatches=matches.filter(m=>m.home_team===team||m.away_team===team)
-      .sort((a,b)=>new Date(b.date)-new Date(a.date)).slice(0,5);
+    const allMatches=await sbQuery('matches',{
+      'league':'eq.'+league,'season':'eq.'+season,
+      'select':'*','order':'date.desc'
+    });
+    const teamMatches=allMatches
+      .filter(m=>m.home_team===team||m.away_team===team)
+      .slice(0,5)
+      .map(normalizeRow);
 
     if(!teamMatches.length){el.innerHTML=`<div style="text-align:center;padding:40px;color:var(--muted)">No matches found for ${team}</div>`;return;}
 
