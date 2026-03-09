@@ -1242,7 +1242,8 @@ function runH2H(){
 
 // ── TEAM DETAIL ───────────────────────────────────────────────
 function showTeam(teamName){
-  const stat=allStats.find(t=>t.team===teamName);if(!stat)return;
+  const stat=allStats.find(t=>normalizeTeamName(t.team)===normalizeTeamName(teamName))||allStats.find(t=>t.team===teamName);
+  if(!stat)return;
   currentTeam=teamName;
   h2hDataLoaded=false;
   document.querySelectorAll('.team-tab').forEach((t,i)=>t.classList.toggle('active',i===0));
@@ -1250,19 +1251,22 @@ function showTeam(teamName){
 
   const cfg=LEAGUE_CONFIG[currentLeague];
   const color=getComputedStyle(document.documentElement).getPropertyValue('--league-color').trim();
-  const finished=rawMatches.filter(m=>m.status==='FINISHED');
-  const homeM=finished.filter(m=>m.home_team===teamName);
-  const awayM=finished.filter(m=>m.away_team===teamName);
+
+  // rawMatches from Supabase — use home_goals/away_goals, no status filter needed
+  const homeM=rawMatches.filter(m=>normalizeTeamName(m.home_team)===normalizeTeamName(teamName));
+  const awayM=rawMatches.filter(m=>normalizeTeamName(m.away_team)===normalizeTeamName(teamName));
   const matches=[
-    ...homeM.map(m=>({date:m.date,matchday:m.matchday,opponent:m.away_team,goalsFor:m.home_goals_ft,goalsAgainst:m.away_goals_ft,result:m.result==='HOME_TEAM'?'W':m.result==='DRAW'?'D':'L',venue:'H'})),
-    ...awayM.map(m=>({date:m.date,matchday:m.matchday,opponent:m.home_team,goalsFor:m.away_goals_ft,goalsAgainst:m.home_goals_ft,result:m.result==='AWAY_TEAM'?'W':m.result==='DRAW'?'D':'L',venue:'A'}))
+    ...homeM.map((m,i)=>({date:m.date,matchday:i+1,opponent:m.away_team,goalsFor:parseFloat(m.home_goals||0),goalsAgainst:parseFloat(m.away_goals||0),result:parseFloat(m.home_goals||0)>parseFloat(m.away_goals||0)?'W':parseFloat(m.home_goals||0)<parseFloat(m.away_goals||0)?'L':'D',venue:'H'})),
+    ...awayM.map((m,i)=>({date:m.date,matchday:i+1,opponent:m.home_team,goalsFor:parseFloat(m.away_goals||0),goalsAgainst:parseFloat(m.home_goals||0),result:parseFloat(m.away_goals||0)>parseFloat(m.home_goals||0)?'W':parseFloat(m.away_goals||0)<parseFloat(m.home_goals||0)?'L':'D',venue:'A'}))
   ].sort((a,b)=>new Date(a.date)-new Date(b.date));
+  // Re-assign matchday by order
+  matches.forEach((m,i)=>m.matchday=i+1);
 
   const tla=(stat.home_team_tla||teamName.substring(0,3)).toUpperCase();
   document.getElementById('teamAvatar').textContent=tla;
   document.getElementById('teamHeroName').textContent=teamName;
   document.getElementById('h2hTeam1Name').textContent=teamName;
-  const rankPos=[...allStats].sort((a,b)=>b.points-a.points).findIndex(t=>t.team===teamName)+1;
+  const rankPos=[...allStats].sort((a,b)=>b.points-a.points).findIndex(t=>normalizeTeamName(t.team)===normalizeTeamName(teamName))+1;
   document.getElementById('teamHeroSub').textContent=`${cfg.name} · ${cfg.seasonLabels[currentSeason]} · ${stat.played} matches · Rank #${rankPos}`;
   document.getElementById('breadcrumb').innerHTML=`<span class="crumb-link" onclick="showOverview()">Overview</span><span style="color:var(--border);margin:0 6px">›</span><span class="crumb-active">${teamName}</span>`;
 
@@ -1280,15 +1284,22 @@ function showTeam(teamName){
     <div class="kpi"><div class="kpi-val">${gdStr(stat.goal_difference)}</div><div class="kpi-label">Goal Diff</div></div>
     <div class="kpi"><div class="kpi-val green">${stat.clean_sheets}</div><div class="kpi-label">Clean Sheets</div></div>
     <div class="kpi"><div class="kpi-val">${stat.avg_goals_scored}</div><div class="kpi-label">Avg Goals</div></div>
-    <div class="kpi"><div class="kpi-val">${stat.avg_goals_conceded}</div><div class="kpi-label">Avg Conceded</div></div>`;
+    <div class="kpi"><div class="kpi-val">${(stat.goals_conceded/Math.max(stat.played,1)).toFixed(2)}</div><div class="kpi-label">Avg Conceded</div></div>`;
 
-  const hW=stat.home_wins,hD=stat.home_draws,hL=stat.home_losses,hP=hW+hD+hL||1;
-  const aW=stat.away_wins,aD=stat.away_draws,aL=stat.away_losses,aP=aW+aD+aL||1;
-  const hGF=homeM.reduce((s,m)=>s+m.home_goals_ft,0),aGF=awayM.reduce((s,m)=>s+m.away_goals_ft,0);
-  const hGA=homeM.reduce((s,m)=>s+m.away_goals_ft,0),aGA=awayM.reduce((s,m)=>s+m.home_goals_ft,0);
+  const hW=homeM.filter(m=>parseFloat(m.home_goals||0)>parseFloat(m.away_goals||0)).length;
+  const hD=homeM.filter(m=>parseFloat(m.home_goals||0)===parseFloat(m.away_goals||0)).length;
+  const hL=homeM.filter(m=>parseFloat(m.home_goals||0)<parseFloat(m.away_goals||0)).length;
+  const aW=awayM.filter(m=>parseFloat(m.away_goals||0)>parseFloat(m.home_goals||0)).length;
+  const aD=awayM.filter(m=>parseFloat(m.away_goals||0)===parseFloat(m.home_goals||0)).length;
+  const aL=awayM.filter(m=>parseFloat(m.away_goals||0)<parseFloat(m.home_goals||0)).length;
+  const hP=homeM.length||1, aP=awayM.length||1;
+  const hGF=homeM.reduce((s,m)=>s+parseFloat(m.home_goals||0),0);
+  const aGF=awayM.reduce((s,m)=>s+parseFloat(m.away_goals||0),0);
+  const hGA=homeM.reduce((s,m)=>s+parseFloat(m.away_goals||0),0);
+  const aGA=awayM.reduce((s,m)=>s+parseFloat(m.home_goals||0),0);
   const hva=(label,hV,aV)=>{const mx=Math.max(hV,aV)||1;return `<div><div class="hva-label">${label}</div><div class="hva-bars"><span class="hva-tag home">H</span><div class="hva-bar-wrap"><div class="hva-bar-bg"><div class="hva-bar-home" style="width:${(hV/mx*100).toFixed(1)}%"></div></div></div><span class="hva-val">${hV}</span><span class="hva-val" style="color:var(--muted)">|</span><span class="hva-val">${aV}</span><div class="hva-bar-wrap"><div class="hva-bar-bg"><div class="hva-bar-away" style="width:${(aV/mx*100).toFixed(1)}%"></div></div></div><span class="hva-tag away">A</span></div></div>`;};
   document.getElementById('hvaRow').innerHTML=hva('Wins',hW,aW)+hva('Goals Scored',hGF,aGF)+hva('Goals Conceded',hGA,aGA)+hva('Played',hP,aP);
-  document.getElementById('resultsList').innerHTML=matches.slice(-10).reverse().map(m=>`<div class="result-item"><span class="r-date">${m.date}</span><div class="r-badge ${m.result}">${m.result}</div><span class="r-opponent">${m.opponent}</span><span class="r-score">${m.goalsFor}–${m.goalsAgainst}</span><span class="r-venue">${m.venue}</span></div>`).join('');
+  document.getElementById('resultsList').innerHTML=matches.slice(-10).reverse().map(m=>`<div class="result-item"><span class="r-date">${m.date||''}</span><div class="r-badge ${m.result}">${m.result}</div><span class="r-opponent">${m.opponent}</span><span class="r-score">${m.goalsFor}–${m.goalsAgainst}</span><span class="r-venue">${m.venue}</span></div>`).join('');
 
   let bestW=0,curW=0,longestWless=0,curWless=0,bigWin='N/A',bigLoss='N/A',bigWD=-1,bigLD=-1;
   matches.forEach(m=>{const d=m.goalsFor-m.goalsAgainst;if(m.result==='W'){curW++;bestW=Math.max(bestW,curW);curWless=0;if(d>bigWD){bigWD=d;bigWin=`${m.goalsFor}-${m.goalsAgainst} vs ${short(m.opponent)}`;}}else{curW=0;curWless++;longestWless=Math.max(longestWless,curWless);if(m.result==='L'&&Math.abs(d)>bigLD){bigLD=Math.abs(d);bigLoss=`${m.goalsFor}-${m.goalsAgainst} vs ${short(m.opponent)}`; }}});
