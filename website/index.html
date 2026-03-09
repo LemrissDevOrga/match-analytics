@@ -710,20 +710,64 @@ async function loadAndRenderOverview(){
   document.getElementById('overviewSub').textContent=`${cfg.country} · Click any team for deep analysis`;
   document.getElementById('breadcrumb').innerHTML=`<span>Overview</span>`;
   try{
-    [allStats,rawMatches,advancedStats]=await Promise.all([
-      loadTeamStats(currentLeague, currentSeason),
-      loadMatches(currentLeague, currentSeason),
+    let [basicStats, matches, advStats] = await Promise.all([
+      loadTeamStats(currentLeague, currentSeason).catch(()=>[]),
+      loadMatches(currentLeague, currentSeason).catch(()=>[]),
       loadAdvancedStats(currentLeague, currentSeason).catch(()=>[])
     ]);
-    // Map Supabase lowercase cols back to what rendering expects
-    allStats=allStats.map(normalizeRow);
-    rawMatches=rawMatches.map(normalizeRow);
-    advancedStats=advancedStats.map(normalizeRow);
+    basicStats  = basicStats.map(normalizeRow);
+    rawMatches  = matches.map(normalizeRow);
+    advStats    = advStats.map(normalizeRow);
+
+    // If no team_stats for this season, build from matches
+    if(!basicStats.length && rawMatches.length){
+      basicStats = buildStatsFromMatches(rawMatches);
+    }
+
+    // Merge advanced stats into allStats by fuzzy name match
+    allStats = basicStats.map(t=>{
+      const adv = advStats.find(a=>normalizeTeamName(a.team)===normalizeTeamName(t.team)) || {};
+      return {...t, ...adv, team: t.team}; // keep original team name
+    });
+
+    // If still no allStats, use advStats directly
+    if(!allStats.length) allStats = advStats;
+
+    advancedStats = advStats;
     filterQ='';renderCards();renderTable();renderSidebar();renderOverviewCharts();
   }catch(e){
     document.getElementById('tableBody').innerHTML=`<tr><td colspan="13" style="text-align:center;padding:40px;color:var(--muted)">⚠️ Could not load data: ${e.message}</td></tr>`;
     document.getElementById('summaryCards').innerHTML='';
   }
+}
+
+// Build basic team stats from raw match data (for seasons without team_stats)
+function buildStatsFromMatches(matches){
+  const teams={};
+  matches.forEach(m=>{
+    const hT=m.home_team, aT=m.away_team;
+    const hG=parseFloat(m.home_goals)||0, aG=parseFloat(m.away_goals)||0;
+    if(!teams[hT]) teams[hT]={team:hT,played:0,wins:0,draws:0,losses:0,points:0,goals_scored:0,goals_conceded:0,clean_sheets:0,home_played:0,home_wins:0,away_played:0,away_wins:0,form:[]};
+    if(!teams[aT]) teams[aT]={team:aT,played:0,wins:0,draws:0,losses:0,points:0,goals_scored:0,goals_conceded:0,clean_sheets:0,home_played:0,home_wins:0,away_played:0,away_wins:0,form:[]};
+    const ht=teams[hT], at=teams[aT];
+    ht.played++;at.played++;
+    ht.goals_scored+=hG;ht.goals_conceded+=aG;
+    at.goals_scored+=aG;at.goals_conceded+=hG;
+    ht.home_played++;at.away_played++;
+    if(aG===0)ht.clean_sheets++;
+    if(hG===0)at.clean_sheets++;
+    if(hG>aG){ht.wins++;ht.points+=3;ht.home_wins++;ht.form.push('W');at.losses++;at.form.push('L');}
+    else if(hG<aG){at.wins++;at.points+=3;at.away_wins++;at.form.push('W');ht.losses++;ht.form.push('L');}
+    else{ht.draws++;ht.points++;at.draws++;at.points++;ht.form.push('D');at.form.push('D');}
+  });
+  return Object.values(teams).map(t=>({
+    ...t,
+    goal_difference:t.goals_scored-t.goals_conceded,
+    avg_goals_scored:t.played?(t.goals_scored/t.played).toFixed(2):0,
+    home_win_rate:t.home_played?(t.home_wins/t.home_played*100).toFixed(1):0,
+    away_win_rate:t.away_played?(t.away_wins/t.away_played*100).toFixed(1):0,
+    form_last5:t.form.slice(-5).join(''),
+  })).sort((a,b)=>b.points-a.points);
 }
 
 // Normalize Supabase lowercase column names to camelCase for rendering
@@ -1103,13 +1147,18 @@ function runH2H(){
 
   const getFormBefore=(team,date)=>{
     return allH2HMatches.filter(m=>m.date<date&&(m.home_team===team||m.away_team===team)).slice(-5)
-      .map(m=>m.home_team===team?(m.result==='HOME_TEAM'?'W':m.result==='DRAW'?'D':'L'):(m.result==='AWAY_TEAM'?'W':m.result==='DRAW'?'D':'L'));
+      .map(m=>{
+        const isHome=m.home_team===team;
+        const gf=isHome?parseFloat(m.home_goals||0):parseFloat(m.away_goals||0);
+        const ga=isHome?parseFloat(m.away_goals||0):parseFloat(m.home_goals||0);
+        return gf>ga?'W':gf<ga?'L':'D';
+      });
   };
 
   const details=meetings.map(m=>{
     const isT1Home=m.home_team===team1;
-    const g1=isT1Home?m.home_goals_ft:m.away_goals_ft;
-    const g2=isT1Home?m.away_goals_ft:m.home_goals_ft;
+    const g1=isT1Home?parseFloat(m.home_goals||0):parseFloat(m.away_goals||0);
+    const g2=isT1Home?parseFloat(m.away_goals||0):parseFloat(m.home_goals||0);
     let res;
     if(g1>g2){res='T1';t1W++;}else if(g2>g1){res='T2';t2W++;}else{res='D';draws++;}
     t1G+=g1;t2G+=g2;
