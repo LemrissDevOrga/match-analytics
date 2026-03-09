@@ -1271,22 +1271,10 @@ async function populateCmpTeams(side){
   seasonEl.onchange=async()=>{
     const season=seasonEl.value;
     if(!season)return;
-    const cfg=LEAGUE_CONFIG[league];
-    const sofaSeason=cfg.sofaSeasons[season];
     try{
-      const rows=await loadCSV(`${RAW}/analytics/${league}/${league}_${sofaSeason}_advanced.csv`);
-      if(rows.length){
-        teamEl.innerHTML=`<option value="">Select team…</option>`+rows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
-      }else{
-        const bRows=await loadCSV(`${RAW}/analytics/${league}/${league}_${season}_team_stats.csv`);
-        teamEl.innerHTML=`<option value="">Select team…</option>`+bRows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
-      }
-    }catch(e){
-      try{
-        const bRows=await loadCSV(`${RAW}/analytics/${league}/${league}_${season}_team_stats.csv`);
-        teamEl.innerHTML=`<option value="">Select team…</option>`+bRows.map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
-      }catch(e2){teamEl.innerHTML=`<option value="">No data</option>`;}
-    }
+      const rows=await loadCSV(`${RAW}/analytics/${league}/${league}_${season}_team_stats.csv`);
+      teamEl.innerHTML=`<option value="">Select team\u2026</option>`+rows.sort((a,b)=>b.points-a.points).map(r=>`<option value="${r.team}">${r.team}</option>`).join('');
+    }catch(e){teamEl.innerHTML=`<option value="">No data</option>`;}
   };
 }
 
@@ -1313,17 +1301,20 @@ async function runCompare(){
       loadCSV(`${RAW}/analytics/${leagueB}/${leagueB}_${seasonB}_team_stats.csv`).catch(()=>[]),
     ]);
 
-    // Find team rows — fuzzy match since names differ between sources
-    const findTeam=(rows,name)=>rows.find(r=>normalizeTeamName(r.team)===normalizeTeamName(name))||rows.find(r=>r.team===name)||{};
+    // Find team rows — fuzzy match since names differ between sources (football-data vs SofaScore)
+    const findTeam=(rows,name)=>
+      rows.find(r=>r.team===name) ||
+      rows.find(r=>normalizeTeamName(r.team)===normalizeTeamName(name)) ||
+      rows.find(r=>{const n=normalizeTeamName(name),t=normalizeTeamName(r.team);return n.includes(t)||t.includes(n);}) || {};
     const dA=findTeam(advA,teamA);
     const dB=findTeam(advB,teamB);
     const bA=findTeam(basicA,teamA);
     const bB=findTeam(basicB,teamB);
-    // Merge: basic stats first, advanced stats override (but keep basic points/goals)
-    const tA={...dA,...bA, ...{avg_expectedGoals:dA.avg_expectedGoals,avg_ballPossession:dA.avg_ballPossession,avg_totalShotsOnGoal:dA.avg_totalShotsOnGoal,avg_bigChanceCreated:dA.avg_bigChanceCreated,avg_cornerKicks:dA.avg_cornerKicks,avg_accuratePasses:dA.avg_accuratePasses,avg_yellowCards:dA.avg_yellowCards,avg_fouls:dA.avg_fouls}};
-    const tB={...dB,...bB, ...{avg_expectedGoals:dB.avg_expectedGoals,avg_ballPossession:dB.avg_ballPossession,avg_totalShotsOnGoal:dB.avg_totalShotsOnGoal,avg_bigChanceCreated:dB.avg_bigChanceCreated,avg_cornerKicks:dB.avg_cornerKicks,avg_accuratePasses:dB.avg_accuratePasses,avg_yellowCards:dB.avg_yellowCards,avg_fouls:dB.avg_fouls}};
+    // Merge: start with basic (has points/goals), overlay advanced stats on top
+    const tA={...bA,...dA, points:bA.points, goals_scored:bA.goals_scored, goals_conceded:bA.goals_conceded, home_win_rate:bA.home_win_rate};
+    const tB={...bB,...dB, points:bB.points, goals_scored:bB.goals_scored, goals_conceded:bB.goals_conceded, home_win_rate:bB.home_win_rate};
 
-    const statRow=(label,keyA,keyB,suffix='',higherBetter=true)=>{
+    const sA=cfgA.seasonLabels[seasonA]||seasonA, sB=cfgB.seasonLabels[seasonB]||seasonB;
       const vA=parseFloat(tA[keyA])||0,vB=parseFloat(tB[keyB])||0;
       const mx=Math.max(vA,vB)||1;
       const wA=higherBetter?vA>vB:vA<vB,wB=higherBetter?vB>vA:vB<vA;
@@ -1340,7 +1331,6 @@ async function runCompare(){
       </div>`;
     };
 
-    const cfgA=LEAGUE_CONFIG[leagueA], cfgB=LEAGUE_CONFIG[leagueB];
     const sA=cfgA.seasonLabels[seasonA]||seasonA, sB=cfgB.seasonLabels[seasonB]||seasonB;
 
     // Radar
