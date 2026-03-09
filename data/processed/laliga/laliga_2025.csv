@@ -268,3 +268,4 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 544476,2025,27,2026-03-08,FINISHED,REGULAR_SEASON,Getafe CF,Getafe,GET,Real Betis Balompié,Real Betis,BET,2,0,2,0,HOME_TEAM,REGULAR,Francisco Hernández Maeso
 544480,2025,27,2026-03-08,FINISHED,REGULAR_SEASON,Sevilla FC,Sevilla FC,SEV,Rayo Vallecano de Madrid,Rayo Vallecano,RAY,1,1,1,0,DRAW,REGULAR,Alejandro Muñiz Ruiz
 544475,2025,27,2026-03-08,FINISHED,REGULAR_SEASON,Valencia CF,Valencia,VAL,Deportivo Alavés,Alavés,ALA,3,2,0,1,HOME_TEAM,REGULAR,José Luis Guzmán Mansilla
+544474,2025,27,2026-03-09,FINISHED,REGULAR_SEASON,RCD Espanyol de Barcelona,Espanyol,ESP,Real Oviedo,Real Oviedo,OVI,1,1,1,1,DRAW,REGULAR,Javier Alberola Rojas

@@ -13854,11 +13854,11 @@
     },
     "id": 545919,
     "utcDate": "2026-03-09T20:15:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 25,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-09T21:10:37Z",
+    "lastUpdated": "2026-03-09T21:53:00Z",
     "homeTeam": {
       "id": 1049,
       "name": "CD Tondela",
@@ -13874,11 +13874,11 @@
       "crest": "https://crests.football-data.org/496.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,

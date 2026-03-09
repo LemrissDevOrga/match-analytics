@@ -278,3 +278,4 @@ match_id,season,matchday,date,status,stage,home_team,home_team_short,home_team_t
 537085,2025,28,2026-03-08,FINISHED,REGULAR_SEASON,ACF Fiorentina,Fiorentina,FIO,Parma Calcio 1913,Parma,PAR,0,0,0,0,DRAW,REGULAR,Luca Zufferli
 537089,2025,28,2026-03-08,FINISHED,REGULAR_SEASON,Genoa CFC,Genoa,GEN,AS Roma,Roma,ROM,2,1,0,0,HOME_TEAM,REGULAR,Andrea Colombo
 537086,2025,28,2026-03-08,FINISHED,REGULAR_SEASON,AC Milan,Milan,MIL,FC Internazionale Milano,Inter,INT,1,0,1,0,HOME_TEAM,REGULAR,Daniele Doveri
+537092,2025,28,2026-03-09,FINISHED,REGULAR_SEASON,SS Lazio,Lazio,LAZ,US Sassuolo Calcio,Sassuolo,SAS,2,1,1,1,HOME_TEAM,REGULAR,Alberto Arena
