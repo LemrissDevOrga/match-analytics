@@ -581,7 +581,7 @@ const SB_HEADERS={"apikey":SUPABASE_KEY,"Authorization":`Bearer ${SUPABASE_KEY}`
 async function sbQuery(table, params={}){
   const qs=Object.entries(params).map(([k,v])=>`${k}=${encodeURIComponent(v)}`).join('&');
   const url=`${SB}/${table}${qs?'?'+qs:''}`;
-  const r=await fetch(url,{headers:{...SB_HEADERS,"Range":"0-9999"}});
+  const r=await fetch(url,{headers:{...SB_HEADERS,"Range":"0-19999","Prefer":"count=none"}});
   if(!r.ok)throw new Error(`Supabase ${r.status}: ${await r.text()}`);
   return r.json();
 }
@@ -1111,16 +1111,12 @@ function renderAdvancedStats(){
 async function loadH2HData(){
   document.getElementById('h2hResults').innerHTML=`<div class="loading"><div class="spinner"></div><span>Loading all competitions data…</span></div>`;
   try{
-    // Single query — get all matches from Supabase
     const rows=await sbQuery('matches',{
       'select':'league,season,date,home_team,away_team,home_goals,away_goals,stage',
-      'order':'date.asc',
-      'limit':'10000'
+      'order':'date.asc'
     });
     allH2HMatches=rows.map(m=>({
       ...m,
-      home_goals_ft:m.home_goals,
-      away_goals_ft:m.away_goals,
       leagueName:LEAGUE_CONFIG[m.league]?.name||m.league
     }));
     h2hDataLoaded=true;
@@ -1430,7 +1426,8 @@ async function runCompare(){
       </div>`;
     };
 
-    const sA=cfgA.seasonLabels[seasonA],sB=cfgB.seasonLabels[seasonB];
+    const cfgA=LEAGUE_CONFIG[leagueA], cfgB=LEAGUE_CONFIG[leagueB];
+    const sA=cfgA.seasonLabels[seasonA]||seasonA, sB=cfgB.seasonLabels[seasonB]||seasonB;
 
     // Radar
     const radarLabels=['xG','Possession','Shots','Big Chances','Corners','Passes'];
