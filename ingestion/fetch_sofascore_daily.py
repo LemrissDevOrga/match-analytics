@@ -90,7 +90,7 @@ async def fetch_daily():
             updated = 0
             new_stats = 0
 
-            for page_num in range(3):
+            for page_num in range(8):
                 url = f"https://api.sofascore.com/api/v1/unique-tournament/{league_id}/season/{s_id}/events/last/{page_num}"
                 try:
                     r = await page.request.get(url)
