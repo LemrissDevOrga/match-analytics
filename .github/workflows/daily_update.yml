@@ -6,14 +6,13 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - '**'       # all branches
+      - '**'
 
 permissions:
   contents: write
   pages: write
   id-token: write
 
-# Only one deployment at a time
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -21,6 +20,8 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # Only run the data pipeline on main branch or scheduled/manual runs
+    if: github.ref == 'refs/heads/main' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
@@ -68,7 +69,7 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
-      # ── COMMIT raw JSON only (no config.js) ────────────────
+      # ── COMMIT raw JSON only ───────────────────────────────
       - name: Commit and push raw data
         run: |
           git config --global user.name "github-actions"
@@ -81,30 +82,35 @@ jobs:
             echo "No changes to commit"
           fi
 
-      # ── BUILD SITE (inject config.js into a deploy folder) ─
-      - name: Build site for deployment
+  deploy:
+    runs-on: ubuntu-latest
+    # Always deploy on any branch push, and after update job on main/schedule/manual
+    needs: []
+    if: |
+      github.event_name == 'push' ||
+      github.event_name == 'schedule' ||
+      github.event_name == 'workflow_dispatch'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Build site
         run: |
           mkdir -p _site
           cp index.html _site/index.html
-          # Write config.js directly into the deploy folder — never touches the repo
           cat > _site/config.js << EOF
           window.SUPABASE_URL = "${{ secrets.SUPABASE_URL }}";
           window.SUPABASE_ANON_KEY = "${{ secrets.SUPABASE_ANON_KEY }}";
           EOF
 
-      # ── DEPLOY to GitHub Pages ──────────────────────────────
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
-  deploy:
-    needs: update
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
