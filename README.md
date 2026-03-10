@@ -1,6 +1,6 @@
 # ⚽ Football Analytics Platform
 
-A multi-league European football analytics platform that automatically collects, processes, and visualises match data across 8 competitions. Built on a lakehouse architecture using GitHub as both storage and hosting.
+A multi-league European football analytics platform that automatically collects, processes, and visualises match data across 8 competitions. Built on a medallion lakehouse architecture with Supabase as the database and GitHub Pages for hosting.
 
 **Live site:** [aziz1998-lemriss.github.io/match-analytics](https://aziz1998-lemriss.github.io/match-analytics/)
 
@@ -13,6 +13,7 @@ A multi-league European football analytics platform that automatically collects,
 - [Data Sources](#data-sources)
 - [Leagues Covered](#leagues-covered)
 - [Repository Structure](#repository-structure)
+- [Database Schema](#database-schema)
 - [Data Pipeline](#data-pipeline)
 - [Season Coverage](#season-coverage)
 - [Website Features](#website-features)
@@ -25,32 +26,37 @@ A multi-league European football analytics platform that automatically collects,
 
 ## Overview
 
-The platform ingests data from two sources daily, processes it through a bronze → silver → gold lakehouse pipeline, and serves it as a fully static website on GitHub Pages. No backend server, no database required at runtime — the website reads CSVs directly from the GitHub raw file CDN.
+The platform ingests data from two sources daily, processes it through a bronze → silver → gold medallion pipeline, and persists everything in Supabase (PostgreSQL). The frontend is a fully static single-page app on GitHub Pages that queries Supabase directly via the JS client — no CSV files, no backend server at runtime.
 
 ---
 
 ## Architecture
 
 ```
-Raw APIs → Bronze (JSON) → Silver (CSV) → Gold (aggregated CSV) → GitHub Pages (HTML/JS)
+Raw APIs → Bronze (JSON) → Supabase Silver (matches / sofascore_matches)
+                         → Supabase Gold  (team_stats / team_stats_advanced)
+                         → GitHub Pages (index.html queries Supabase JS client)
 ```
 
-### Lakehouse Layers
+### Medallion Layers
 
 | Layer | Location | Format | Description |
 |-------|----------|--------|-------------|
-| Bronze | `data/raw/` | JSON | football-data.org match objects |
-| Bronze | `data/raw_sofascore/` | JSON | SofaScore per-match event data |
-| Silver | `data/processed/` | CSV | Cleaned football-data matches |
-| Silver | `data/processed_sofascore/` | CSV | Cleaned SofaScore matches + stats |
-| Gold | `data/analytics/` | CSV | Aggregated team stats (basic + advanced) |
+| Bronze | `data/raw/` | JSON | football-data.org match objects (kept in repo) |
+| Bronze | `data/raw_sofascore/` | JSON | SofaScore per-match event data (kept in repo) |
+| Silver | Supabase `matches` | PostgreSQL | Cleaned football-data matches |
+| Silver | Supabase `sofascore_matches` | PostgreSQL | Cleaned SofaScore matches + per-match stats |
+| Gold | Supabase `team_stats` | PostgreSQL | Basic aggregated team stats (football-data) |
+| Gold | Supabase `team_stats_advanced` | PostgreSQL | Advanced aggregated team stats (SofaScore) |
+
+Raw JSON files are the only files committed to the repo. All processed and aggregated data lives exclusively in Supabase.
 
 ---
 
 ## Data Sources
 
 ### 1. football-data.org (scores & results backbone)
-- **API key:** GitHub Secret `FOOTBALL_API_KEY`
+- **API key:** `.env` as `FOOTBALL_API_KEY`, GitHub Secret `FOOTBALL_API_KEY`
 - **Coverage:** Last 2 seasons per league (free tier)
 - **Provides:** Match results, scores, dates, referee, stage/round
 - **Limitation:** No xG, no shots, no possession stats
@@ -76,7 +82,7 @@ Raw APIs → Bronze (JSON) → Silver (CSV) → Gold (aggregated CSV) → GitHub
 | Eredivisie | DED | 37 | `eredivisie` | `#ff6b00` |
 | Primeira Liga | PPL | 238 | `primeira_liga` | `#006600` |
 
-Champions League is flagged as `isCup: true` and gets a dedicated view (groups/knockout/stats) instead of the standard league table.
+Champions League is flagged as `isCup: true` and gets a dedicated view (group/league stage table, knockout bracket, team stats) instead of the standard league table.
 
 ---
 
@@ -88,47 +94,91 @@ match-analytics/
 │   ├── raw/                        # Bronze: football-data.org JSON per season
 │   │   └── {league}/
 │   │       └── {league}_{year}.json
-│   ├── raw_sofascore/              # Bronze: SofaScore JSON per match
-│   │   └── {league}/
-│   │       └── {SS_season}/
-│   │           └── {match_id}.json
-│   ├── processed/                  # Silver: cleaned football-data CSVs
-│   │   └── {league}/
-│   │       └── {league}_{year}.csv
-│   ├── processed_sofascore/        # Silver: cleaned SofaScore CSVs
-│   │   └── {league}/
-│   │       └── {league}_{SS_season}.csv
-│   └── analytics/                  # Gold: aggregated team stats
+│   └── raw_sofascore/              # Bronze: SofaScore JSON per match
 │       └── {league}/
-│           ├── {league}_{year}_team_stats.csv      # Basic stats (football-data)
-│           └── {league}_{SS_season}_advanced.csv   # Advanced stats (SofaScore)
+│           └── {SS_season}/
+│               └── {match_id}.json
 │
 ├── ingestion/
 │   ├── fetch_historical.py         # One-time: backfill all seasons from football-data
 │   ├── fetch_daily.py              # Daily: fetch new/recent results from football-data
 │   ├── fetch_sofascore_history.py  # One-time: backfill SofaScore historical seasons
 │   ├── fetch_sofascore_daily.py    # Daily: fetch new SofaScore match stats
-│   ├── fetch_sofascore_backfill_gaps.py  # Utility: fill any missing SofaScore matches
-│   ├── fetch_fixture_ids.py        # api-sports.io fixture ID fetcher (legacy)
-│   └── fetch_stats.py              # api-sports.io stats fetcher (legacy)
+│   └── fetch_sofascore_backfill_gaps.py  # Utility: fill any missing SofaScore matches
 │
 ├── transformation/
-│   ├── clean.py                    # Silver layer: process football-data JSON → CSV
-│   └── clean_sofascore.py          # Silver layer: process SofaScore JSON → CSV
+│   ├── clean.py                    # Silver layer: football-data JSON → Supabase matches
+│   └── clean_sofascore.py          # Silver layer: SofaScore JSON → Supabase sofascore_matches
 │
 ├── analysis/
-│   ├── team_stats.py               # Gold layer: basic team stats from football-data
-│   ├── team_stats_advanced.py      # Gold layer: (unused/legacy)
-│   └── team_stats_sofascore.py     # Gold layer: advanced stats from SofaScore
+│   ├── team_stats.py               # Gold layer: matches → Supabase team_stats
+│   └── team_stats_sofascore.py     # Gold layer: sofascore_matches → Supabase team_stats_advanced
+│
+├── scripts/
+│   └── db.py                       # Shared psycopg2 connection + bulk upsert helper
+│
+├── sql/
+│   └── schema.sql                  # Supabase table definitions (run once)
 │
 ├── .github/
 │   └── workflows/
 │       └── daily_update.yml        # GitHub Actions: runs every hour 15:00–01:00 UTC
 │
+├── config.js                       # Generated at build time by CI (gitignored locally)
 ├── index.html                      # Single-page frontend (all HTML/CSS/JS)
 ├── seasons_map.json                # SofaScore season IDs for all leagues
 └── requirements.txt                # Python dependencies
 ```
+
+---
+
+## Database Schema
+
+Four tables in Supabase (all in the `public` schema, RLS enabled with public read access):
+
+### `matches` — Silver layer (football-data.org)
+```
+match_id, league, season, matchday, date, status, stage,
+home_team, home_team_short, home_team_tla,
+away_team, away_team_short, away_team_tla,
+home_goals_ft, away_goals_ft, home_goals_ht, away_goals_ht,
+result, duration, referee
+```
+- `season` format: start year e.g. `"2024"` for the 24/25 season
+- `result` values: `HOME_TEAM`, `AWAY_TEAM`, `DRAW`
+- Unique constraint: `(match_id, league)`
+
+### `sofascore_matches` — Silver layer (SofaScore)
+```
+match_id, league, season, date, home_team, away_team,
+home_goals, away_goals, result,
+home_{stat}, away_{stat}  (22 stat columns each, all snake_case)
+```
+- `season` format: `"YY-YY"` e.g. `"25-26"`
+- Stat columns (snake_case): `ball_possession`, `expected_goals`, `big_chance_created`, `big_chance_missed`, `total_shots_on_goal`, `shots_on_target`, `shots_off_target`, `blocked_shots`, `goalkeeper_saves`, `corner_kicks`, `yellow_cards`, `red_cards`, `total_passes`, `accurate_passes`, `accurate_passes_percentage`, `fouls`, `offsides`, `dribbles`, `successful_dribbles`, `tackles`, `total_duels`, `total_duels_won`
+- Unique constraint: `(match_id, league)`
+
+### `team_stats` — Gold layer (football-data.org)
+```
+league, season, team, played, wins, draws, losses, points,
+goals_scored, goals_conceded, goal_difference,
+home_wins, home_draws, home_losses, away_wins, away_draws, away_losses,
+clean_sheets, avg_goals_scored, avg_goals_conceded,
+home_win_rate, away_win_rate, form_last5
+```
+- `season` format: start year e.g. `"2024"`
+- Unique constraint: `(league, season, team)`
+
+### `team_stats_advanced` — Gold layer (SofaScore)
+```
+league, season, team, played, wins, draws, losses, points,
+goals_scored, goals_conceded, goal_difference,
+home_played, home_wins, away_played, away_wins,
+home_win_rate, away_win_rate,
+avg_{stat}, home_avg_{stat}, away_avg_{stat}  (for each of 22 stat keys)
+```
+- `season` format: `"YY-YY"` e.g. `"25-26"`
+- Unique constraint: `(league, season, team)`
 
 ---
 
@@ -139,72 +189,32 @@ match-analytics/
 Runs on schedule `0 15-23,0 * * *` (every hour, 15:00–01:00 UTC):
 
 ```
-1. fetch_daily.py          → data/raw/{league}/
-2. clean.py                → data/processed/{league}/
-3. team_stats.py           → data/analytics/{league}/*_team_stats.csv
+1. fetch_daily.py              → data/raw/{league}/
+2. clean.py                    → Supabase: matches (upsert)
+3. team_stats.py               → Supabase: team_stats (upsert)
 
-4. fetch_sofascore_daily.py → data/raw_sofascore/{league}/{season}/
-5. clean_sofascore.py       → data/processed_sofascore/{league}/
-6. team_stats_sofascore.py  → data/analytics/{league}/*_advanced.csv
+4. fetch_sofascore_daily.py    → data/raw_sofascore/{league}/{season}/
+5. clean_sofascore.py          → Supabase: sofascore_matches (upsert)
+6. team_stats_sofascore.py     → Supabase: team_stats_advanced (upsert)
 
-7. git commit & push        → triggers GitHub Pages redeploy
+7. Generate config.js          → injects SUPABASE_URL + SUPABASE_ANON_KEY from secrets
+8. git commit & push           → raw JSON + config.js → triggers GitHub Pages redeploy
 ```
 
-### Key File Naming Conventions
+All upserts use `ON CONFLICT DO UPDATE` so reruns are safe and idempotent.
 
-Two different season key formats are used depending on the data source:
+### Season Key Conventions
 
-| File type | Season key format | Example |
-|-----------|-------------------|---------|
-| `*_team_stats.csv` (football-data) | `{start_year}` | `laliga_2025_team_stats.csv` |
-| `*_advanced.csv` (SofaScore) | `{YY}-{YY}` | `laliga_25-26_advanced.csv` |
-| `processed_sofascore/` CSVs | `{YY}-{YY}` | `laliga_25-26.csv` |
-| `processed/` CSVs | `{start_year}` | `laliga_2025.csv` |
+Two season key formats are used depending on the data source:
+
+| Table | Season key format | Example |
+|-------|-------------------|---------|
+| `matches`, `team_stats` | `{start_year}` | `"2024"` for 24/25 season |
+| `sofascore_matches`, `team_stats_advanced` | `{YY}-{YY}` | `"24-25"` for 24/25 season |
 
 The frontend maps between these using `sofaSeasons` in `LEAGUE_CONFIG`:
 ```js
 sofaSeasons: { "2023": "23-24", "2024": "24-25", "2025": "25-26" }
-```
-
-### Silver Layer — processed CSV fields
-
-**football-data (`processed/`):**
-```
-match_id, season, matchday, date, status, stage, home_team, home_team_short,
-home_team_tla, away_team, away_team_short, away_team_tla,
-home_goals_ft, away_goals_ft, home_goals_ht, away_goals_ht,
-result, duration, referee
-```
-- `result` values: `HOME_TEAM`, `AWAY_TEAM`, `DRAW`
-- `status` values: `FINISHED`
-
-**SofaScore (`processed_sofascore/`):**
-```
-match_id, date, home_team, away_team, home_goals, away_goals, result,
-home_{stat}, away_{stat}  (for each of 22 stat keys)
-```
-Stat keys include: `ballPossession`, `expectedGoals`, `bigChanceCreated`, `bigChanceMissed`,
-`totalShotsOnGoal`, `shotsOnTarget`, `shotsOffTarget`, `blockedShots`, `goalkeeperSaves`,
-`cornerKicks`, `yellowCards`, `redCards`, `totalPasses`, `accuratePasses`,
-`accuratePassesPercentage`, `fouls`, `offsides`, `dribbles`, `successfulDribbles`,
-`tackles`, `totalDuels`, `totalDuelsWon`
-
-### Gold Layer — analytics CSV fields
-
-**`*_team_stats.csv`** (football-data, basic):
-```
-team, played, wins, draws, losses, points, goals_scored, goals_conceded,
-goal_difference, home_wins, home_draws, home_losses, away_wins, away_draws,
-away_losses, clean_sheets, avg_goals_scored, avg_goals_conceded,
-home_win_rate, away_win_rate, form_last5
-```
-
-**`*_advanced.csv`** (SofaScore, advanced):
-```
-team, played, wins, draws, losses, points, goals_scored, goals_conceded,
-goal_difference, home_played, home_wins, away_played, away_wins,
-home_win_rate, away_win_rate,
-avg_{stat}, home_avg_{stat}, away_avg_{stat}  (for each of 22 stat keys)
 ```
 
 ---
@@ -219,22 +229,21 @@ avg_{stat}, home_avg_{stat}, away_avg_{stat}  (for each of 22 stat keys)
 | 24/25  | ✅ | ✅ | ✅ |
 | 25/26  | ✅ | ✅ | ✅ |
 
-Seasons with football-data show full functionality (league table, clean sheets, form, H2H).  
-SofaScore-only seasons (21/22, 22/23) show the same UI but sourced entirely from SofaScore — clean sheets and `form_last5` are not available.
+Seasons with football-data show full functionality (league table, clean sheets, form, H2H). SofaScore-only seasons (21/22, 22/23) show the same UI but sourced entirely from `team_stats_advanced` — clean sheets and `form_last5` are not available and are hidden gracefully.
 
-The website **dynamically discovers** available seasons at runtime by querying the GitHub contents API for `data/analytics/{league}/` — no hardcoded season lists.
+The website **dynamically discovers** available seasons at runtime by querying distinct seasons from Supabase — no hardcoded season lists in the frontend.
 
 ---
 
 ## Website Features
 
-The frontend is a single `index.html` file with no build step, no framework, and no server. It reads CSVs from `raw.githubusercontent.com`.
+The frontend is a single `index.html` file with no build step, no framework, and no server. It queries Supabase directly via the `@supabase/supabase-js` client. Credentials are injected at build time via `config.js` (generated by GitHub Actions from repository secrets — never hardcoded).
 
 ### Views
 
 | View | Description |
 |------|-------------|
-| **Home** | League selector grid + links to analytics tools |
+| **Home** | League selector grid |
 | **Overview** | League table, top scorers/defense, advanced rankings (xG/possession/shots), charts |
 | **Team Detail** | KPIs, home/away split, recent results, streaks, goals trend, W/D/L doughnut, cumulative points arc |
 | **Advanced Tab** | xG, possession, shots, big chances, radar vs league avg, discipline stats |
@@ -244,7 +253,7 @@ The frontend is a single `index.html` file with no build step, no framework, and
 | **Team Form** | Last 5 matches with expandable per-match SofaScore stats breakdown |
 
 ### Libraries Used (CDN only)
-- [PapaParse 5.4.1](https://www.papaparse.com/) — CSV parsing
+- [@supabase/supabase-js v2](https://supabase.com/docs/reference/javascript) — database client
 - [Chart.js 4.4.1](https://www.chartjs.org/) — all charts
 - [Google Fonts](https://fonts.google.com/) — Archivo Black, Archivo, DM Mono
 
@@ -255,8 +264,9 @@ The frontend is a single `index.html` file with no build step, no framework, and
 ### Requirements
 ```
 python >= 3.11
+psycopg2-binary
+python-dotenv
 playwright
-playwright chromium
 ```
 
 ### Install
@@ -266,10 +276,16 @@ playwright install chromium
 ```
 
 ### Environment variables
-Create a `.env` file:
+Create a `.env` file at the repo root:
 ```
 FOOTBALL_API_KEY=your_football_data_org_key
+DATABASE_URL=postgresql://postgres.[ref]:[password]@aws-0-xx-xxx.pooler.supabase.com:6543/postgres
 ```
+
+`DATABASE_URL` uses the **Transaction Pooler** connection string from Supabase → Settings → Database (not the direct connection — that requires a paid plan).
+
+### Supabase setup (first time only)
+Run `sql/schema.sql` in the Supabase SQL Editor to create all 4 tables, indexes, and RLS policies.
 
 ### Run the full pipeline manually
 ```bash
@@ -288,40 +304,59 @@ python analysis/team_stats_sofascore.py
 ```bash
 # Historical football-data (all seasons)
 python ingestion/fetch_historical.py
+python transformation/clean.py
+python analysis/team_stats.py
 
 # Historical SofaScore (all seasons)
 python ingestion/fetch_sofascore_history.py
+python transformation/clean_sofascore.py
+python analysis/team_stats_sofascore.py
 
-# Fill any gaps in existing SofaScore data
+# Fill any gaps in SofaScore data
 python ingestion/fetch_sofascore_backfill_gaps.py
+python transformation/clean_sofascore.py
+python analysis/team_stats_sofascore.py
 ```
 
 ### View the site locally
-Just open `index.html` in a browser — it fetches all data directly from GitHub raw URLs, so no local server needed.
+Create a `config.js` at the repo root (it's gitignored):
+```js
+window.SUPABASE_URL = "https://xxxx.supabase.co";
+window.SUPABASE_ANON_KEY = "eyJ...";
+```
+Then open `index.html` directly in a browser.
 
 ---
 
 ## GitHub Actions
 
-The workflow file `.github/workflows/daily_update.yml` runs the full pipeline automatically.
+The workflow `.github/workflows/daily_update.yml` runs the full pipeline automatically.
 
-**Schedule:** `0 15-23,0 * * *` — every hour from 15:00 to 01:00 UTC (covers match days across all European time zones).
+**Schedule:** `0 15-23,0 * * *` — every hour from 15:00 to 01:00 UTC.
 
-**Required secret:** `FOOTBALL_API_KEY` (set in repo Settings → Secrets → Actions).
+**Required secrets** (Settings → Secrets → Actions):
+
+| Secret | Description |
+|--------|-------------|
+| `FOOTBALL_API_KEY` | football-data.org API key |
+| `DATABASE_URL` | Supabase Transaction Pooler connection string |
+| `SUPABASE_URL` | Supabase project URL e.g. `https://xxxx.supabase.co` |
+| `SUPABASE_ANON_KEY` | Supabase anon/public key (starts with `eyJ`) |
 
 **What it does:**
 1. Checks out the repo
 2. Sets up Python 3.11 + installs dependencies + installs Playwright Chromium
-3. Runs the 6-step pipeline (fetch → clean → analyse, for both data sources)
-4. Commits any changed files in `data/` back to `main`
-5. GitHub Pages auto-deploys on push
+3. Runs the 6-step pipeline (fetch → transform → analyse, for both data sources)
+4. Generates `config.js` from secrets
+5. Commits raw JSON + `config.js` back to `main`
+6. GitHub Pages auto-deploys on push
 
 ---
 
 ## Adding New Leagues or Seasons
 
 ### Add a new season (existing league)
-Nothing to do — the website discovers seasons dynamically. Just run the pipeline and the new season's CSVs will appear automatically.
+Nothing to do — the website discovers seasons dynamically by querying distinct seasons from Supabase. Just run the pipeline and data appears automatically.
 
 ### Add a new league
 1. Add the SofaScore league ID to `seasons_map.json`
@@ -332,7 +367,7 @@ Nothing to do — the website discovers seasons dynamically. Just run the pipeli
 my_league: {
   name: "My League", country: "Country",
   color: "#hexcolor", abbr: "ML", isCup: false,
-  seasons: [],  // populated dynamically
+  seasons: [],  // populated dynamically at runtime
   seasonLabels: {"2023":"23/24","2024":"24/25","2025":"25/26"},
   sofaSeasons:  {"2023":"23-24","2024":"24-25","2025":"25-26"}
 }
@@ -341,18 +376,15 @@ my_league: {
 6. Run backfill scripts for historical data
 
 ### Update `seasons_map.json`
-SofaScore season IDs change every year. Run this to refresh:
-```bash
-python ingestion/fetch_sofascore_history.py --update-map-only
-```
-Or manually look up the new season ID on SofaScore and add it to the relevant league array in `seasons_map.json`.
+SofaScore season IDs change every year. Manually look up the new season ID on SofaScore and add it to the relevant league array in `seasons_map.json`.
 
 ---
 
 ## Known Limitations
 
 - **SofaScore scraping:** Relies on undocumented internal API endpoints. May break if SofaScore changes their API structure or Cloudflare protection.
-- **football-data free tier:** Only provides the last 2 completed seasons per league. Older seasons require SofaScore only.
-- **21/22 season:** SofaScore data exists but xG is not available for that season.
+- **football-data free tier:** Only provides the last 2 completed seasons per league. Older seasons are SofaScore-only.
+- **21/22 season:** SofaScore data exists but xG is not available.
 - **GitHub Actions rate limits:** The hourly schedule may occasionally be delayed by GitHub's queue during peak times.
-- **SofaScore team names:** Differ from football-data team names (e.g. "FC Barcelona" vs "Barcelona"). The frontend uses fuzzy matching (exact → normalised → partial) to reconcile these in the Advanced and Compare views.
+- **SofaScore team names:** Differ from football-data team names (e.g. "FC Barcelona" vs "Barcelona"). The frontend uses fuzzy matching to reconcile these in the Advanced and Compare views.
+- **Supabase free tier:** 500MB database storage and 2GB bandwidth per month. May need upgrading as historical data grows.
