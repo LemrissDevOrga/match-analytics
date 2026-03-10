@@ -10594,7 +10594,7 @@
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-10T17:58:16Z",
+    "lastUpdated": "2026-03-10T19:21:11Z",
     "homeTeam": {
       "id": 610,
       "name": "Galatasaray SK",
@@ -10610,14 +10610,14 @@
       "crest": "https://crests.football-data.org/64.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
