@@ -10590,11 +10590,11 @@
     },
     "id": 552069,
     "utcDate": "2026-03-10T17:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-04T01:32:05Z",
+    "lastUpdated": "2026-03-10T17:58:16Z",
     "homeTeam": {
       "id": 610,
       "name": "Galatasaray SK",
@@ -10610,15 +10610,27 @@
       "crest": "https://crests.football-data.org/64.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -10690,7 +10702,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 215543,
+        "name": "Espen Esk\u00e5s",
+        "type": "REFEREE",
+        "nationality": "Norway"
+      }
+    ]
   },
   {
     "area": {
@@ -10749,7 +10768,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11079,
+        "name": "Marco Guida",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -10808,7 +10834,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 43858,
+        "name": "Serdar G\u00f6z\u00fcb\u00fcy\u00fck",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {
