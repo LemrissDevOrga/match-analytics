@@ -10672,7 +10672,7 @@
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-10T20:17:29Z",
+    "lastUpdated": "2026-03-10T21:15:10Z",
     "homeTeam": {
       "id": 102,
       "name": "Atalanta BC",
@@ -10692,11 +10692,11 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 4
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 3
       },
       "regularTime": {
         "home": 0,
@@ -10750,7 +10750,7 @@
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-10T20:05:14Z",
+    "lastUpdated": "2026-03-10T21:07:10Z",
     "homeTeam": {
       "id": 67,
       "name": "Newcastle United FC",
@@ -10828,7 +10828,7 @@
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-10T20:23:30Z",
+    "lastUpdated": "2026-03-10T21:12:14Z",
     "homeTeam": {
       "id": 78,
       "name": "Club Atl\u00e9tico de Madrid",
@@ -10847,12 +10847,12 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
-        "away": 0
+        "home": 4,
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
+        "home": 4,
+        "away": 1
       },
       "regularTime": {
         "home": 0,
