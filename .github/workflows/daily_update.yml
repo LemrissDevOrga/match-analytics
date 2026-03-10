@@ -4,9 +4,19 @@ on:
   schedule:
     - cron: "0 15-23,0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - '**'       # all branches
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+# Only one deployment at a time
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -15,7 +25,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Fetches all history for all branches and tags
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -58,27 +68,43 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
-      # ── GENERATE config.js from secrets ──────────────────────
-      - name: Generate config.js
-        run: |
-          cat > config.js << 'ENDOFFILE'
-          window.SUPABASE_URL = "${{ secrets.SUPABASE_URL }}";
-          window.SUPABASE_ANON_KEY = "${{ secrets.SUPABASE_ANON_KEY }}";
-          ENDOFFILE
-
-      # ── COMMIT AND PUSH ──────────────────────────────────────
-      - name: Commit and push
+      # ── COMMIT raw JSON only (no config.js) ────────────────
+      - name: Commit and push raw data
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          # Ensure config.js is added even if it was previously ignored
-          git add -f config.js 
           git add data/raw/ data/raw_sofascore/ seasons_map.json
-          
-          # Only commit if there are actual changes
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "auto: daily update and config generation $(date +'%Y-%m-%d %H:%M')"
+            git commit -m "auto: daily update $(date +'%Y-%m-%d %H:%M')"
             git push
           else
             echo "No changes to commit"
           fi
+
+      # ── BUILD SITE (inject config.js into a deploy folder) ─
+      - name: Build site for deployment
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          # Write config.js directly into the deploy folder — never touches the repo
+          cat > _site/config.js << EOF
+          window.SUPABASE_URL = "${{ secrets.SUPABASE_URL }}";
+          window.SUPABASE_ANON_KEY = "${{ secrets.SUPABASE_ANON_KEY }}";
+          EOF
+
+      # ── DEPLOY to GitHub Pages ──────────────────────────────
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
