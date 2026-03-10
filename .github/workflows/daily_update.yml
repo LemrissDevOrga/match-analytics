@@ -12,9 +12,13 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetches all history for all branches and tags
 
-      - uses: actions/setup-python@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
@@ -62,11 +66,19 @@ jobs:
           window.SUPABASE_ANON_KEY = "${{ secrets.SUPABASE_ANON_KEY }}";
           ENDOFFILE
 
-      # ── COMMIT raw JSON + config.js ───────────────────────────
+      # ── COMMIT AND PUSH ──────────────────────────────────────
       - name: Commit and push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add data/raw/ data/raw_sofascore/ seasons_map.json config.js
-          git diff --cached --quiet || git commit -m "auto: daily update $(date +'%Y-%m-%d %H:%M')"
-          git push
+          # Ensure config.js is added even if it was previously ignored
+          git add -f config.js 
+          git add data/raw/ data/raw_sofascore/ seasons_map.json
+          
+          # Only commit if there are actual changes
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "auto: daily update and config generation $(date +'%Y-%m-%d %H:%M')"
+            git push
+          else
+            echo "No changes to commit"
+          fi
