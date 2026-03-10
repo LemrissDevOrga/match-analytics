@@ -24,33 +24,49 @@ jobs:
       - name: Install Playwright browsers
         run: playwright install chromium
 
-      # ── PIPELINE 1: football-data.org (scores + results) ──
+      # ── PIPELINE 1: football-data.org ──────────────────────
       - name: Fetch daily match results
         run: python ingestion/fetch_daily.py
         env:
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
 
-      - name: Transform football-data results
+      - name: Transform → Supabase matches
         run: python transformation/clean.py
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
-      - name: Compute basic team stats
+      - name: Compute basic team stats → Supabase team_stats
         run: python analysis/team_stats.py
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
-      # ── PIPELINE 2: SofaScore (deep stats) ──
+      # ── PIPELINE 2: SofaScore ──────────────────────────────
       - name: Fetch new SofaScore match stats
         run: python ingestion/fetch_sofascore_daily.py
 
-      - name: Transform SofaScore data
+      - name: Transform → Supabase sofascore_matches
         run: python transformation/clean_sofascore.py
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
-      - name: Compute advanced team stats
+      - name: Compute advanced team stats → Supabase team_stats_advanced
         run: python analysis/team_stats_sofascore.py
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
-      # ── COMMIT ──
+      # ── GENERATE config.js from secrets ──────────────────────
+      - name: Generate config.js
+        run: |
+          cat > config.js << 'ENDOFFILE'
+          window.SUPABASE_URL = "${{ secrets.SUPABASE_URL }}";
+          window.SUPABASE_ANON_KEY = "${{ secrets.SUPABASE_ANON_KEY }}";
+          ENDOFFILE
+
+      # ── COMMIT raw JSON + config.js ───────────────────────────
       - name: Commit and push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add data/ seasons_map.json
+          git add data/raw/ data/raw_sofascore/ seasons_map.json config.js
           git diff --cached --quiet || git commit -m "auto: daily update $(date +'%Y-%m-%d %H:%M')"
           git push
