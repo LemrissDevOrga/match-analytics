@@ -10590,11 +10590,11 @@
     },
     "id": 552069,
     "utcDate": "2026-03-10T17:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-10T19:21:11Z",
+    "lastUpdated": "2026-03-10T19:45:40Z",
     "homeTeam": {
       "id": 610,
       "name": "Galatasaray SK",
@@ -10668,11 +10668,11 @@
     },
     "id": 552071,
     "utcDate": "2026-03-10T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-04T01:32:05Z",
+    "lastUpdated": "2026-03-10T20:17:29Z",
     "homeTeam": {
       "id": 102,
       "name": "Atalanta BC",
@@ -10688,15 +10688,27 @@
       "crest": "https://crests.football-data.org/5.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -10734,11 +10746,11 @@
     },
     "id": 552072,
     "utcDate": "2026-03-10T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-04T01:32:05Z",
+    "lastUpdated": "2026-03-10T20:05:14Z",
     "homeTeam": {
       "id": 67,
       "name": "Newcastle United FC",
@@ -10754,15 +10766,27 @@
       "crest": "https://crests.football-data.org/81.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -10800,11 +10824,11 @@
     },
     "id": 552073,
     "utcDate": "2026-03-10T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-04T01:32:05Z",
+    "lastUpdated": "2026-03-10T20:23:30Z",
     "homeTeam": {
       "id": 78,
       "name": "Club Atl\u00e9tico de Madrid",
@@ -10820,15 +10844,27 @@
       "crest": "https://crests.football-data.org/73.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
