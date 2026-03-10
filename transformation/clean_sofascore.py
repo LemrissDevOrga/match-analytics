@@ -1,159 +1,123 @@
 """
 transformation/clean_sofascore.py
 
-Transforms raw SofaScore JSON match files into clean CSVs.
-Output: data/processed_sofascore/{league}/{league}_{season}.csv
-
-Each row = one match with all available stats flattened.
+Silver layer: reads SofaScore raw JSON → upserts into `sofascore_matches` table.
+Replaces the old CSV output in data/processed_sofascore/.
 """
 
 import json
-import csv
 import os
-from datetime import datetime
+import sys
+from datetime import datetime, timezone
 
-LEAGUES = {
-    "8":   "laliga",
-    "17":  "premier_league",
-    "7":   "champions_league",
-    "35":  "bundesliga",
-    "23":  "serie_a",
-    "34":  "ligue1",
-    "37":  "eredivisie",
-    "238": "primeira_liga",
-}
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+from scripts.db import get_conn, upsert
 
-# All known stat keys from SofaScore statistics
+LEAGUES = [
+    "laliga", "premier_league", "champions_league",
+    "bundesliga", "serie_a", "ligue1", "eredivisie", "primeira_liga",
+]
+
 STAT_KEYS = [
     "ballPossession", "expectedGoals", "bigChanceCreated", "bigChanceMissed",
     "totalShotsOnGoal", "shotsOnTarget", "shotsOffTarget", "blockedShots",
-    "goalkeeperSaves", "cornerKicks", "freeKicks", "yellowCards", "redCards",
+    "goalkeeperSaves", "cornerKicks", "yellowCards", "redCards",
     "totalPasses", "accuratePasses", "accuratePassesPercentage",
-    "totalLongBalls", "accurateLongBalls", "totalCross", "accurateCross",
-    "dribbles", "successfulDribbles", "tackles", "totalDuels", "totalDuelsWon",
-    "fouls", "offsides", "throwIns", "goalKicks",
+    "fouls", "offsides", "dribbles", "successfulDribbles",
+    "tackles", "totalDuels", "totalDuelsWon",
 ]
 
 
-def parse_score(event):
-    """Extract final score handling ET and penalties."""
+def safe_float(val):
+    try:
+        return float(val) if val not in (None, "", "None") else None
+    except (ValueError, TypeError):
+        return None
+
+
+def parse_event(event, league, season):
+    """Parse a single SofaScore event JSON into a flat dict."""
+    ts = event.get("startTimestamp", 0)
+    date = datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d") if ts else None
+
+    home = event.get("homeTeam", {})
+    away = event.get("awayTeam", {})
     home_score = event.get("homeScore", {})
     away_score = event.get("awayScore", {})
 
-    # Use normaltime if available (excludes ET and pens)
-    # Otherwise fall back to current (full time)
-    home_goals = home_score.get("normaltime", home_score.get("current", 0)) or 0
-    away_goals = away_score.get("normaltime", away_score.get("current", 0)) or 0
-
-    # Check if went to ET or penalties
-    home_et = home_score.get("overtime")
-    away_et = away_score.get("overtime")
-    home_pen = home_score.get("penalties")
-    away_pen = away_score.get("penalties")
-
-    if home_et is not None:
-        home_goals = home_score.get("normaltime", 0) + (home_et or 0)
-        away_goals = away_score.get("normaltime", 0) + (away_et or 0)
-
-    duration = "REGULAR"
-    if home_pen is not None:
-        duration = "PENALTY_SHOOTOUT"
-    elif home_et is not None:
-        duration = "EXTRA_TIME"
-
-    winner = None
-    if home_goals > away_goals:
-        winner = "HOME_TEAM"
-    elif away_goals > home_goals:
-        winner = "AWAY_TEAM"
+    hg = safe_float(home_score.get("current"))
+    ag = safe_float(away_score.get("current"))
+    if hg is not None and ag is not None:
+        result = "HOME_TEAM" if hg > ag else ("AWAY_TEAM" if ag > hg else "DRAW")
     else:
-        winner = "DRAW"
-
-    return home_goals, away_goals, duration, winner, home_pen, away_pen
-
-
-def parse_event(event):
-    home_goals, away_goals, duration, winner, home_pen, away_pen = parse_score(event)
+        result = None
 
     row = {
-        "match_id":        event.get("id"),
-        "date":            datetime.fromtimestamp(event.get("startTimestamp", 0)).strftime("%Y-%m-%d"),
-        "season":          event.get("season", {}).get("year", ""),
-        "round":           event.get("roundInfo", {}).get("round"),
-        "status":          event.get("status", {}).get("type", ""),
-        "home_team":       event.get("homeTeam", {}).get("name", ""),
-        "home_team_short": event.get("homeTeam", {}).get("shortName", ""),
-        "home_team_slug":  event.get("homeTeam", {}).get("slug", ""),
-        "away_team":       event.get("awayTeam", {}).get("name", ""),
-        "away_team_short": event.get("awayTeam", {}).get("shortName", ""),
-        "away_team_slug":  event.get("awayTeam", {}).get("slug", ""),
-        "home_goals":      home_goals,
-        "away_goals":      away_goals,
-        "duration":        duration,
-        "result":          winner,
-        "home_penalties":  home_pen,
-        "away_penalties":  away_pen,
-        "has_xg":          event.get("hasXg", False),
+        "match_id":   str(event.get("id", "")),
+        "league":     league,
+        "season":     season,
+        "date":       date,
+        "home_team":  home.get("name"),
+        "away_team":  away.get("name"),
+        "home_goals": hg,
+        "away_goals": ag,
+        "result":     result,
     }
 
-    # Flatten _stats if available
+    # Flatten _stats — use snake_case column names
+    import re as _re
     stats = event.get("_stats", {})
     for key in STAT_KEYS:
-        row[f"home_{key}"] = stats.get(f"home_{key}")
-        row[f"away_{key}"] = stats.get(f"away_{key}")
+        snake = _re.sub(r'([A-Z])', r'_\1', key).lower()
+        row[f"home_{snake}"] = safe_float(stats.get(f"home_{key}"))
+        row[f"away_{snake}"] = safe_float(stats.get(f"away_{key}"))
 
     return row
 
 
-def clean_league_season(league_name, season_dir):
-    src_dir = f"data/raw_sofascore/{league_name}/{season_dir}"
-    if not os.path.exists(src_dir):
-        return []
-
-    rows = []
-    for fname in sorted(os.listdir(src_dir)):
-        if not fname.endswith(".json"):
-            continue
-        with open(f"{src_dir}/{fname}") as f:
-            event = json.load(f)
-        if event.get("status", {}).get("type") != "finished":
-            continue
-        try:
-            rows.append(parse_event(event))
-        except Exception as e:
-            print(f"    ⚠️ Error parsing {fname}: {e}")
-
-    return rows
-
-
-def save_csv(rows, league_name, season_year):
-    if not rows:
+def load_raw_sofascore(league):
+    """Yield (event_dict, season_str) from all raw SofaScore JSON files."""
+    raw_dir = f"data/raw_sofascore/{league}"
+    if not os.path.exists(raw_dir):
         return
-    out_dir = f"data/processed_sofascore/{league_name}"
-    os.makedirs(out_dir, exist_ok=True)
-    safe_year = season_year.replace("/", "-")
-    out_path = f"{out_dir}/{league_name}_{safe_year}.csv"
-    with open(out_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=rows[0].keys())
-        writer.writeheader()
-        writer.writerows(rows)
-    stats_count = sum(1 for r in rows if r.get("home_expectedGoals") is not None)
-    print(f"  💾 {out_path} — {len(rows)} matches ({stats_count} with xG stats)")
+    for season_dir in sorted(os.listdir(raw_dir)):
+        season_path = f"{raw_dir}/{season_dir}"
+        if not os.path.isdir(season_path):
+            continue
+        season = season_dir  # e.g. "25-26"
+        for fname in sorted(os.listdir(season_path)):
+            if not fname.endswith(".json"):
+                continue
+            with open(f"{season_path}/{fname}", encoding="utf-8") as f:
+                try:
+                    event = json.load(f)
+                except json.JSONDecodeError:
+                    continue
+            # Only process finished matches
+            if event.get("status", {}).get("type") == "finished":
+                yield event, season
 
 
 def main():
-    print("🧹 Transforming SofaScore data...\n")
-    for league_name in LEAGUES.values():
-        league_dir = f"data/raw_sofascore/{league_name}"
-        if not os.path.exists(league_dir):
-            continue
-        print(f"\n🏆 {league_name.replace('_',' ').title()}")
-        for season_dir in sorted(os.listdir(league_dir), reverse=True):
-            rows = clean_league_season(league_name, season_dir)
-            if rows:
-                save_csv(rows, league_name, season_dir)
-            else:
-                print(f"  ⚠️  No finished matches in {season_dir}")
+    print("🔄 clean_sofascore.py — SofaScore JSON → Supabase sofascore_matches\n")
+    conn = get_conn()
+
+    for league in LEAGUES:
+        print(f"🏆 {league.replace('_', ' ').title()}")
+        rows = []
+        for event, season in load_raw_sofascore(league):
+            try:
+                rows.append(parse_event(event, league, season))
+            except Exception as e:
+                print(f"  ⚠️  Parse error: {e}")
+
+        if rows:
+            upsert(conn, "sofascore_matches", rows, conflict_cols=["match_id", "league"])
+        else:
+            print(f"  ℹ️  No data found")
+
+    conn.close()
+    print("\n✅ Done")
 
 
 if __name__ == "__main__":
