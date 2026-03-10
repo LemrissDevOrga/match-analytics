@@ -20,8 +20,8 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    # Only run the data pipeline on main branch or scheduled/manual runs
-    if: github.ref == 'refs/heads/main' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    # Only run on schedule or manual trigger — skip on push
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
@@ -84,12 +84,9 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    # Always deploy on any branch push, and after update job on main/schedule/manual
-    needs: []
-    if: |
-      github.event_name == 'push' ||
-      github.event_name == 'schedule' ||
-      github.event_name == 'workflow_dispatch'
+    # Wait for update if it ran, but proceed even if it was skipped
+    needs: [update]
+    if: always()
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
