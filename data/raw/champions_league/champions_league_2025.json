@@ -10854,11 +10854,11 @@
     },
     "id": 552075,
     "utcDate": "2026-03-11T17:45:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-05T01:32:03Z",
+    "lastUpdated": "2026-03-11T18:37:45Z",
     "homeTeam": {
       "id": 3,
       "name": "Bayer 04 Leverkusen",
@@ -10874,15 +10874,27 @@
       "crest": "https://crests.football-data.org/57.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -10954,7 +10966,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 206208,
+        "name": "Alejandro Hern\u00e1ndez Hern\u00e1ndez",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -11013,7 +11032,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11043,
+        "name": "Maurizio Mariani",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -11072,7 +11098,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 43954,
+        "name": "Ivan Kru\u017eliak",
+        "type": "REFEREE",
+        "nationality": "Slovakia"
+      }
+    ]
   },
   {
     "area": {
