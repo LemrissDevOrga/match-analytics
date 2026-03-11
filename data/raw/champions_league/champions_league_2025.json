@@ -10854,11 +10854,11 @@
     },
     "id": 552075,
     "utcDate": "2026-03-11T17:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-11T18:55:05Z",
+    "lastUpdated": "2026-03-11T19:43:40Z",
     "homeTeam": {
       "id": 3,
       "name": "Bayer 04 Leverkusen",
@@ -10874,11 +10874,11 @@
       "crest": "https://crests.football-data.org/57.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
@@ -10932,11 +10932,11 @@
     },
     "id": 552068,
     "utcDate": "2026-03-11T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-05T01:32:03Z",
+    "lastUpdated": "2026-03-11T20:17:15Z",
     "homeTeam": {
       "id": 524,
       "name": "Paris Saint-Germain FC",
@@ -10952,15 +10952,27 @@
       "crest": "https://crests.football-data.org/61.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -10998,11 +11010,11 @@
     },
     "id": 552070,
     "utcDate": "2026-03-11T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-11T00:20:58Z",
+    "lastUpdated": "2026-03-11T20:05:07Z",
     "homeTeam": {
       "id": 86,
       "name": "Real Madrid CF",
@@ -11018,15 +11030,27 @@
       "crest": "https://crests.football-data.org/65.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -11064,11 +11088,11 @@
     },
     "id": 552074,
     "utcDate": "2026-03-11T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-05T01:32:03Z",
+    "lastUpdated": "2026-03-11T20:05:21Z",
     "homeTeam": {
       "id": 5721,
       "name": "FK Bod\u00f8/Glimt",
@@ -11084,15 +11108,27 @@
       "crest": "https://crests.football-data.org/498.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
