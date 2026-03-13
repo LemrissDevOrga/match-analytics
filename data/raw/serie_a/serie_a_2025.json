@@ -18502,11 +18502,11 @@
     },
     "id": 537096,
     "utcDate": "2026-03-13T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-13T21:09:16Z",
+    "lastUpdated": "2026-03-13T21:49:15Z",
     "homeTeam": {
       "id": 586,
       "name": "Torino FC",
@@ -18525,7 +18525,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 3,
+        "home": 4,
         "away": 1
       },
       "halfTime": {

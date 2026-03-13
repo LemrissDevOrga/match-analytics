@@ -17660,11 +17660,11 @@
     },
     "id": 544481,
     "utcDate": "2026-03-13T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-13T21:08:40Z",
+    "lastUpdated": "2026-03-13T22:04:35Z",
     "homeTeam": {
       "id": 263,
       "name": "Deportivo Alav\u00e9s",
@@ -17680,11 +17680,11 @@
       "crest": "https://crests.football-data.org/94.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 1,
