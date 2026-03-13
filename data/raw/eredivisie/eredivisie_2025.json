@@ -15500,7 +15500,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 81350,
+        "name": "Alex Bos",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {
