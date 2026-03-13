@@ -14888,7 +14888,7 @@
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-13T20:14:12Z",
+    "lastUpdated": "2026-03-13T20:58:05Z",
     "homeTeam": {
       "id": 18,
       "name": "Borussia M\u00f6nchengladbach",
@@ -14907,11 +14907,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
