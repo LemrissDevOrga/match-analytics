@@ -14918,7 +14918,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57517,
+        "name": "Daniel Schlager",
+        "type": "REFEREE",
+        "nationality": "Germany"
+      }
+    ]
   },
   {
     "area": {
