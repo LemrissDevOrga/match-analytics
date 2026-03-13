@@ -14872,11 +14872,11 @@
     },
     "id": 542635,
     "utcDate": "2026-03-13T19:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T01:32:03Z",
+    "lastUpdated": "2026-03-13T19:50:31Z",
     "homeTeam": {
       "id": 516,
       "name": "Olympique de Marseille",
@@ -14892,15 +14892,27 @@
       "crest": "https://crests.football-data.org/519.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
