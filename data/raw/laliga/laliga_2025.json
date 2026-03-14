@@ -17882,11 +17882,11 @@
     },
     "id": 544485,
     "utcDate": "2026-03-14T17:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T19:13:47Z",
+    "lastUpdated": "2026-03-14T19:32:47Z",
     "homeTeam": {
       "id": 1048,
       "name": "Real Oviedo",
@@ -17960,11 +17960,11 @@
     },
     "id": 544487,
     "utcDate": "2026-03-14T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T00:21:02Z",
+    "lastUpdated": "2026-03-14T20:05:39Z",
     "homeTeam": {
       "id": 86,
       "name": "Real Madrid CF",
@@ -17980,15 +17980,27 @@
       "crest": "https://crests.football-data.org/285.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

@@ -15016,11 +15016,11 @@
     },
     "id": 542638,
     "utcDate": "2026-03-14T18:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T19:11:55Z",
+    "lastUpdated": "2026-03-14T20:05:20Z",
     "homeTeam": {
       "id": 532,
       "name": "Angers SCO",
@@ -15036,11 +15036,11 @@
       "crest": "https://crests.football-data.org/522.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "halfTime": {
         "home": 0,
@@ -15094,11 +15094,11 @@
     },
     "id": 542632,
     "utcDate": "2026-03-14T20:05:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-09T01:32:03Z",
+    "lastUpdated": "2026-03-14T20:10:19Z",
     "homeTeam": {
       "id": 548,
       "name": "AS Monaco FC",
@@ -15114,15 +15114,27 @@
       "crest": "https://crests.football-data.org/512.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

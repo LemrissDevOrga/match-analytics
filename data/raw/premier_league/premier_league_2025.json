@@ -19384,11 +19384,11 @@
     },
     "id": 538077,
     "utcDate": "2026-03-14T17:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T18:41:14Z",
+    "lastUpdated": "2026-03-14T19:36:23Z",
     "homeTeam": {
       "id": 57,
       "name": "Arsenal FC",
@@ -19404,10 +19404,10 @@
       "crest": "https://crests.football-data.org/62.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
@@ -19462,11 +19462,11 @@
     },
     "id": 538080,
     "utcDate": "2026-03-14T17:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T18:40:51Z",
+    "lastUpdated": "2026-03-14T19:34:45Z",
     "homeTeam": {
       "id": 61,
       "name": "Chelsea FC",
@@ -19540,11 +19540,11 @@
     },
     "id": 538084,
     "utcDate": "2026-03-14T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T00:21:02Z",
+    "lastUpdated": "2026-03-14T20:05:39Z",
     "homeTeam": {
       "id": 563,
       "name": "West Ham United FC",
@@ -19560,15 +19560,27 @@
       "crest": "https://crests.football-data.org/65.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

@@ -15610,11 +15610,11 @@
     },
     "id": 537681,
     "utcDate": "2026-03-14T17:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T19:21:03Z",
+    "lastUpdated": "2026-03-14T19:52:08Z",
     "homeTeam": {
       "id": 674,
       "name": "PSV",
@@ -15633,7 +15633,7 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 3
       },
       "halfTime": {
@@ -15692,7 +15692,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T19:05:40Z",
+    "lastUpdated": "2026-03-14T20:10:15Z",
     "homeTeam": {
       "id": 673,
       "name": "SC Heerenveen",
@@ -15708,14 +15708,14 @@
       "crest": "https://crests.football-data.org/1912.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
@@ -15766,11 +15766,11 @@
     },
     "id": 537675,
     "utcDate": "2026-03-14T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-09T01:32:03Z",
+    "lastUpdated": "2026-03-14T20:05:38Z",
     "homeTeam": {
       "id": 678,
       "name": "AFC Ajax",
@@ -15786,15 +15786,27 @@
       "crest": "https://crests.football-data.org/6806.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
