@@ -19388,7 +19388,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T17:35:14Z",
+    "lastUpdated": "2026-03-14T18:41:14Z",
     "homeTeam": {
       "id": 57,
       "name": "Arsenal FC",
@@ -19466,7 +19466,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T17:54:06Z",
+    "lastUpdated": "2026-03-14T18:40:51Z",
     "homeTeam": {
       "id": 61,
       "name": "Chelsea FC",
@@ -19490,7 +19490,7 @@
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,
