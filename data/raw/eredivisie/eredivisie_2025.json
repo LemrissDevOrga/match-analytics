@@ -15688,11 +15688,11 @@
     },
     "id": 537682,
     "utcDate": "2026-03-14T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T20:10:15Z",
+    "lastUpdated": "2026-03-14T21:00:46Z",
     "homeTeam": {
       "id": 673,
       "name": "SC Heerenveen",
@@ -15711,7 +15711,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
@@ -15770,7 +15770,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T20:05:38Z",
+    "lastUpdated": "2026-03-14T21:10:02Z",
     "homeTeam": {
       "id": 678,
       "name": "AFC Ajax",
@@ -15786,14 +15786,14 @@
       "crest": "https://crests.football-data.org/6806.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {

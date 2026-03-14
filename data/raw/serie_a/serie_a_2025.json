@@ -18728,7 +18728,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T19:50:09Z",
+    "lastUpdated": "2026-03-14T21:19:06Z",
     "homeTeam": {
       "id": 115,
       "name": "Udinese Calcio",
@@ -18744,15 +18744,15 @@
       "crest": "https://crests.football-data.org/109.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,

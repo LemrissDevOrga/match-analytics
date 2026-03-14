@@ -19544,7 +19544,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T20:05:39Z",
+    "lastUpdated": "2026-03-14T21:08:03Z",
     "homeTeam": {
       "id": 563,
       "name": "West Ham United FC",
@@ -19563,12 +19563,12 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "regularTime": {
         "home": 0,
