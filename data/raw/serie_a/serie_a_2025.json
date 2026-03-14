@@ -18568,11 +18568,11 @@
     },
     "id": 537098,
     "utcDate": "2026-03-14T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T15:10:05Z",
+    "lastUpdated": "2026-03-14T16:02:35Z",
     "homeTeam": {
       "id": 108,
       "name": "FC Internazionale Milano",
@@ -18588,11 +18588,11 @@
       "crest": "https://crests.football-data.org/102.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 1,
