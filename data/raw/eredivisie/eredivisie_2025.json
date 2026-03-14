@@ -15766,11 +15766,11 @@
     },
     "id": 537675,
     "utcDate": "2026-03-14T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T21:10:02Z",
+    "lastUpdated": "2026-03-14T21:59:55Z",
     "homeTeam": {
       "id": 678,
       "name": "AFC Ajax",
@@ -15789,7 +15789,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 4,
         "away": 0
       },
       "halfTime": {

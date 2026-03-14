@@ -14080,7 +14080,7 @@
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T20:43:07Z",
+    "lastUpdated": "2026-03-14T21:48:37Z",
     "homeTeam": {
       "id": 712,
       "name": "FC Arouca",
@@ -14096,14 +14096,14 @@
       "crest": "https://crests.football-data.org/1903.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {

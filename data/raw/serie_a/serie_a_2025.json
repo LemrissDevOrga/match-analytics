@@ -18724,11 +18724,11 @@
     },
     "id": 537103,
     "utcDate": "2026-03-14T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T21:19:06Z",
+    "lastUpdated": "2026-03-14T21:47:00Z",
     "homeTeam": {
       "id": 115,
       "name": "Udinese Calcio",

@@ -15094,11 +15094,11 @@
     },
     "id": 542632,
     "utcDate": "2026-03-14T20:05:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T21:15:07Z",
+    "lastUpdated": "2026-03-14T22:04:20Z",
     "homeTeam": {
       "id": 548,
       "name": "AS Monaco FC",
@@ -15117,7 +15117,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "halfTime": {

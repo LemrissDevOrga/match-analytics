@@ -17960,11 +17960,11 @@
     },
     "id": 544487,
     "utcDate": "2026-03-14T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T21:14:03Z",
+    "lastUpdated": "2026-03-14T22:05:50Z",
     "homeTeam": {
       "id": 86,
       "name": "Real Madrid CF",
@@ -17983,8 +17983,8 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
-        "away": 0
+        "home": 4,
+        "away": 1
       },
       "halfTime": {
         "home": 2,
