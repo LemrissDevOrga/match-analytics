@@ -13924,7 +13924,7 @@
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T15:59:33Z",
+    "lastUpdated": "2026-03-14T16:44:25Z",
     "homeTeam": {
       "id": 5543,
       "name": "Vit\u00f3ria SC",
@@ -13940,15 +13940,15 @@
       "crest": "https://crests.football-data.org/5531.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "regularTime": {
         "home": 0,

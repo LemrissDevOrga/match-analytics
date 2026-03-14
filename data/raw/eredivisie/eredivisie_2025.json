@@ -15536,7 +15536,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T16:19:04Z",
+    "lastUpdated": "2026-03-14T17:13:59Z",
     "homeTeam": {
       "id": 1919,
       "name": "FC Volendam",
@@ -15555,12 +15555,12 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 2
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "regularTime": {
         "home": 0,
@@ -15710,7 +15710,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 56923,
+        "name": "Sander Van der Eijk",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {

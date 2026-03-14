@@ -14950,11 +14950,11 @@
     },
     "id": 540631,
     "utcDate": "2026-03-14T14:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T16:05:00Z",
+    "lastUpdated": "2026-03-14T16:36:31Z",
     "homeTeam": {
       "id": 3,
       "name": "Bayer 04 Leverkusen",
@@ -14970,10 +14970,10 @@
       "crest": "https://crests.football-data.org/5.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
       "halfTime": {
@@ -15028,11 +15028,11 @@
     },
     "id": 540634,
     "utcDate": "2026-03-14T14:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T16:18:37Z",
+    "lastUpdated": "2026-03-14T16:34:52Z",
     "homeTeam": {
       "id": 2,
       "name": "TSG 1899 Hoffenheim",
@@ -15106,11 +15106,11 @@
     },
     "id": 540635,
     "utcDate": "2026-03-14T14:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T15:52:09Z",
+    "lastUpdated": "2026-03-14T16:28:47Z",
     "homeTeam": {
       "id": 4,
       "name": "Borussia Dortmund",
@@ -15184,11 +15184,11 @@
     },
     "id": 540638,
     "utcDate": "2026-03-14T14:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T16:03:28Z",
+    "lastUpdated": "2026-03-14T16:30:17Z",
     "homeTeam": {
       "id": 19,
       "name": "Eintracht Frankfurt",
