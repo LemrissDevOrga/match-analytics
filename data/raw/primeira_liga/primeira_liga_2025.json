@@ -13920,11 +13920,11 @@
     },
     "id": 545928,
     "utcDate": "2026-03-14T15:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T16:44:25Z",
+    "lastUpdated": "2026-03-14T17:33:30Z",
     "homeTeam": {
       "id": 5543,
       "name": "Vit\u00f3ria SC",
@@ -13998,11 +13998,11 @@
     },
     "id": 545927,
     "utcDate": "2026-03-14T18:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-08T01:32:05Z",
+    "lastUpdated": "2026-03-14T18:05:18Z",
     "homeTeam": {
       "id": 5533,
       "name": "Gil Vicente FC",
@@ -14018,15 +14018,27 @@
       "crest": "https://crests.football-data.org/7822.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
