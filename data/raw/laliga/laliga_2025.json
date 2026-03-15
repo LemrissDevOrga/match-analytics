@@ -18146,11 +18146,11 @@
     },
     "id": 544484,
     "utcDate": "2026-03-15T17:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-09T01:32:05Z",
+    "lastUpdated": "2026-03-15T17:43:30Z",
     "homeTeam": {
       "id": 90,
       "name": "Real Betis Balompi\u00e9",
@@ -18166,15 +18166,27 @@
       "crest": "https://crests.football-data.org/558.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18246,7 +18258,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 206215,
+        "name": "Guillermo Cuadra Fern\u00e1ndez",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {

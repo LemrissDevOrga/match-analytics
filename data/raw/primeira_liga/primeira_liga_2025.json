@@ -14177,11 +14177,11 @@
     },
     "id": 545925,
     "utcDate": "2026-03-15T15:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T16:39:22Z",
+    "lastUpdated": "2026-03-15T17:34:40Z",
     "homeTeam": {
       "id": 5529,
       "name": "CD Nacional",
@@ -14255,11 +14255,11 @@
     },
     "id": 545931,
     "utcDate": "2026-03-15T15:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T17:07:37Z",
+    "lastUpdated": "2026-03-15T17:35:57Z",
     "homeTeam": {
       "id": 10340,
       "name": "AVS",
@@ -14333,11 +14333,11 @@
     },
     "id": 545926,
     "utcDate": "2026-03-15T18:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-10T01:32:03Z",
+    "lastUpdated": "2026-03-15T18:05:33Z",
     "homeTeam": {
       "id": 496,
       "name": "Rio Ave FC",
@@ -14353,15 +14353,27 @@
       "crest": "https://crests.football-data.org/9136.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

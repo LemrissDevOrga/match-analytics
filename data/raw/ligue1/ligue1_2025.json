@@ -15273,11 +15273,11 @@
     },
     "id": 542631,
     "utcDate": "2026-03-15T16:15:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T17:07:40Z",
+    "lastUpdated": "2026-03-15T18:13:07Z",
     "homeTeam": {
       "id": 533,
       "name": "Le Havre AC",
@@ -15351,11 +15351,11 @@
     },
     "id": 542634,
     "utcDate": "2026-03-15T16:15:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T17:10:03Z",
+    "lastUpdated": "2026-03-15T18:22:41Z",
     "homeTeam": {
       "id": 545,
       "name": "FC Metz",
@@ -15374,8 +15374,8 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
-        "away": 3
+        "home": 3,
+        "away": 4
       },
       "halfTime": {
         "home": 2,
@@ -15463,7 +15463,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 15548,
+        "name": "J\u00e9r\u00f4me Brisard",
+        "type": "REFEREE",
+        "nationality": "France"
+      }
+    ]
   },
   {
     "area": {

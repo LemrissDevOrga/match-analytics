@@ -19004,7 +19004,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T17:14:32Z",
+    "lastUpdated": "2026-03-15T18:12:32Z",
     "homeTeam": {
       "id": 7397,
       "name": "Como 1907",
@@ -19028,7 +19028,7 @@
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,
@@ -19112,7 +19112,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11079,
+        "name": "Marco Guida",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
