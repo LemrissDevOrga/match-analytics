@@ -14333,11 +14333,11 @@
     },
     "id": 545926,
     "utcDate": "2026-03-15T18:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T19:09:10Z",
+    "lastUpdated": "2026-03-15T19:57:31Z",
     "homeTeam": {
       "id": 496,
       "name": "Rio Ave FC",
@@ -14357,7 +14357,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 2,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 1,

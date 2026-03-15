@@ -15436,11 +15436,11 @@
     },
     "id": 540633,
     "utcDate": "2026-03-15T18:30:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T19:22:58Z",
+    "lastUpdated": "2026-03-15T19:52:12Z",
     "homeTeam": {
       "id": 10,
       "name": "VfB Stuttgart",
@@ -15456,10 +15456,10 @@
       "crest": "https://crests.football-data.org/721.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {

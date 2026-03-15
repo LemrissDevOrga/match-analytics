@@ -18146,11 +18146,11 @@
     },
     "id": 544484,
     "utcDate": "2026-03-15T17:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T18:46:02Z",
+    "lastUpdated": "2026-03-15T19:34:56Z",
     "homeTeam": {
       "id": 90,
       "name": "Real Betis Balompi\u00e9",
@@ -18224,11 +18224,11 @@
     },
     "id": 544490,
     "utcDate": "2026-03-15T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-09T01:32:05Z",
+    "lastUpdated": "2026-03-15T20:05:03Z",
     "homeTeam": {
       "id": 92,
       "name": "Real Sociedad de F\u00fatbol",
@@ -18244,15 +18244,27 @@
       "crest": "https://crests.football-data.org/79.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

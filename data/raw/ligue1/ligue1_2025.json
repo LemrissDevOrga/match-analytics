@@ -15429,11 +15429,11 @@
     },
     "id": 542639,
     "utcDate": "2026-03-15T19:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T01:32:01Z",
+    "lastUpdated": "2026-03-15T19:53:35Z",
     "homeTeam": {
       "id": 529,
       "name": "Stade Rennais FC 1901",
@@ -15449,15 +15449,27 @@
       "crest": "https://crests.football-data.org/521.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
