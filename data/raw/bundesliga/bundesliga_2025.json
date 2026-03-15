@@ -15284,7 +15284,7 @@
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T14:40:29Z",
+    "lastUpdated": "2026-03-15T15:47:01Z",
     "homeTeam": {
       "id": 12,
       "name": "SV Werder Bremen",
@@ -15304,11 +15304,11 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,

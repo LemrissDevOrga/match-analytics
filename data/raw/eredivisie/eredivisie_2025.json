@@ -15874,11 +15874,11 @@
     },
     "id": 537676,
     "utcDate": "2026-03-15T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T15:15:10Z",
+    "lastUpdated": "2026-03-15T15:33:40Z",
     "homeTeam": {
       "id": 682,
       "name": "AZ",
@@ -15897,7 +15897,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 3,
+        "home": 4,
         "away": 0
       },
       "halfTime": {
@@ -15952,11 +15952,11 @@
     },
     "id": 537678,
     "utcDate": "2026-03-15T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T14:57:09Z",
+    "lastUpdated": "2026-03-15T15:33:11Z",
     "homeTeam": {
       "id": 675,
       "name": "Feyenoord Rotterdam",
@@ -16030,11 +16030,11 @@
     },
     "id": 537679,
     "utcDate": "2026-03-15T15:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T01:32:02Z",
+    "lastUpdated": "2026-03-15T16:01:59Z",
     "homeTeam": {
       "id": 718,
       "name": "Go Ahead Eagles",
@@ -16050,15 +16050,27 @@
       "crest": "https://crests.football-data.org/681.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

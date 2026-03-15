@@ -18844,11 +18844,11 @@
     },
     "id": 537100,
     "utcDate": "2026-03-15T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T15:20:32Z",
+    "lastUpdated": "2026-03-15T16:05:51Z",
     "homeTeam": {
       "id": 487,
       "name": "AC Pisa 1909",
@@ -18867,8 +18867,8 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
-        "away": 0
+        "home": 3,
+        "away": 1
       },
       "halfTime": {
         "home": 1,
@@ -18922,11 +18922,11 @@
     },
     "id": 537101,
     "utcDate": "2026-03-15T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T15:09:29Z",
+    "lastUpdated": "2026-03-15T16:04:21Z",
     "homeTeam": {
       "id": 471,
       "name": "US Sassuolo Calcio",
