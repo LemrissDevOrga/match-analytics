@@ -19082,7 +19082,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T20:18:33Z",
+    "lastUpdated": "2026-03-15T20:54:25Z",
     "homeTeam": {
       "id": 110,
       "name": "SS Lazio",
@@ -19105,7 +19105,7 @@
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {

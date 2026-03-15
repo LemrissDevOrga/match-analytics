@@ -15433,7 +15433,7 @@
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T19:53:35Z",
+    "lastUpdated": "2026-03-15T21:05:27Z",
     "homeTeam": {
       "id": 529,
       "name": "Stade Rennais FC 1901",
@@ -15452,12 +15452,12 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 1
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,

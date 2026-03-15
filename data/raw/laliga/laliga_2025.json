@@ -18228,7 +18228,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T20:05:03Z",
+    "lastUpdated": "2026-03-15T21:14:46Z",
     "homeTeam": {
       "id": 92,
       "name": "Real Sociedad de F\u00fatbol",
@@ -18244,14 +18244,14 @@
       "crest": "https://crests.football-data.org/79.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {
