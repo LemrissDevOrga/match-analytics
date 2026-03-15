@@ -15429,11 +15429,11 @@
     },
     "id": 542639,
     "utcDate": "2026-03-15T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T21:05:27Z",
+    "lastUpdated": "2026-03-15T21:44:20Z",
     "homeTeam": {
       "id": 529,
       "name": "Stade Rennais FC 1901",

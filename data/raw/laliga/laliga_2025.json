@@ -18224,11 +18224,11 @@
     },
     "id": 544490,
     "utcDate": "2026-03-15T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T21:14:46Z",
+    "lastUpdated": "2026-03-15T22:06:45Z",
     "homeTeam": {
       "id": 92,
       "name": "Real Sociedad de F\u00fatbol",
@@ -18247,8 +18247,8 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
-        "away": 0
+        "home": 3,
+        "away": 1
       },
       "halfTime": {
         "home": 2,

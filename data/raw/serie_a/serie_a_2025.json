@@ -19078,11 +19078,11 @@
     },
     "id": 537099,
     "utcDate": "2026-03-15T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T20:54:25Z",
+    "lastUpdated": "2026-03-15T21:48:05Z",
     "homeTeam": {
       "id": 110,
       "name": "SS Lazio",

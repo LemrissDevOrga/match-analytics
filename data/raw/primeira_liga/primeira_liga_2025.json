@@ -14415,7 +14415,7 @@
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T21:00:48Z",
+    "lastUpdated": "2026-03-15T22:12:46Z",
     "homeTeam": {
       "id": 503,
       "name": "FC Porto",
@@ -14434,11 +14434,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {
