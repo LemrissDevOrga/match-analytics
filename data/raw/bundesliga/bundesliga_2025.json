@@ -15358,11 +15358,11 @@
     },
     "id": 540636,
     "utcDate": "2026-03-15T16:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T18:25:00Z",
+    "lastUpdated": "2026-03-15T18:38:40Z",
     "homeTeam": {
       "id": 17,
       "name": "SC Freiburg",
@@ -15436,11 +15436,11 @@
     },
     "id": 540633,
     "utcDate": "2026-03-15T18:30:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T00:20:56Z",
+    "lastUpdated": "2026-03-15T19:22:58Z",
     "homeTeam": {
       "id": 10,
       "name": "VfB Stuttgart",
@@ -15456,15 +15456,27 @@
       "crest": "https://crests.football-data.org/721.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

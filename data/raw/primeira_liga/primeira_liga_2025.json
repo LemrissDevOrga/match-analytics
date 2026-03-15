@@ -14337,7 +14337,7 @@
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T18:05:33Z",
+    "lastUpdated": "2026-03-15T19:09:10Z",
     "homeTeam": {
       "id": 496,
       "name": "Rio Ave FC",
@@ -14353,14 +14353,14 @@
       "crest": "https://crests.football-data.org/9136.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
@@ -14445,7 +14445,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 40454,
+        "name": "Carlos Macedo",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {

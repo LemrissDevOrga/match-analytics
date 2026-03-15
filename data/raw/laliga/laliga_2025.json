@@ -18150,7 +18150,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T17:43:30Z",
+    "lastUpdated": "2026-03-15T18:46:02Z",
     "homeTeam": {
       "id": 90,
       "name": "Real Betis Balompi\u00e9",
@@ -18166,15 +18166,15 @@
       "crest": "https://crests.football-data.org/558.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,
