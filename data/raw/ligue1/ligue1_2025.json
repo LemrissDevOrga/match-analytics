@@ -15273,11 +15273,11 @@
     },
     "id": 542631,
     "utcDate": "2026-03-15T16:15:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T16:20:11Z",
+    "lastUpdated": "2026-03-15T17:07:40Z",
     "homeTeam": {
       "id": 533,
       "name": "Le Havre AC",
@@ -15351,11 +15351,11 @@
     },
     "id": 542634,
     "utcDate": "2026-03-15T16:15:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T16:20:12Z",
+    "lastUpdated": "2026-03-15T17:10:03Z",
     "homeTeam": {
       "id": 545,
       "name": "FC Metz",
@@ -15371,15 +15371,15 @@
       "crest": "https://crests.football-data.org/511.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 3
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 3
       },
       "regularTime": {
         "home": 0,

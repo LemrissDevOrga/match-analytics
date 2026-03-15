@@ -14181,7 +14181,7 @@
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T15:45:16Z",
+    "lastUpdated": "2026-03-15T16:39:22Z",
     "homeTeam": {
       "id": 5529,
       "name": "CD Nacional",
@@ -14205,7 +14205,7 @@
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,
@@ -14259,7 +14259,7 @@
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T15:35:19Z",
+    "lastUpdated": "2026-03-15T17:07:37Z",
     "homeTeam": {
       "id": 10340,
       "name": "AVS",
@@ -14275,11 +14275,11 @@
       "crest": "https://crests.football-data.org/5530.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,

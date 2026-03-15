@@ -15280,11 +15280,11 @@
     },
     "id": 540632,
     "utcDate": "2026-03-15T14:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T15:47:01Z",
+    "lastUpdated": "2026-03-15T16:30:50Z",
     "homeTeam": {
       "id": 12,
       "name": "SV Werder Bremen",
@@ -15358,11 +15358,11 @@
     },
     "id": 540636,
     "utcDate": "2026-03-15T16:30:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-09T01:32:05Z",
+    "lastUpdated": "2026-03-15T17:20:35Z",
     "homeTeam": {
       "id": 17,
       "name": "SC Freiburg",
@@ -15378,15 +15378,27 @@
       "crest": "https://crests.football-data.org/28.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -15458,7 +15470,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 8825,
+        "name": "Deniz Aytekin",
+        "type": "REFEREE",
+        "nationality": "Germany"
+      }
+    ]
   },
   {
     "area": {

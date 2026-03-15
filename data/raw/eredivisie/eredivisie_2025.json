@@ -16034,7 +16034,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T16:01:59Z",
+    "lastUpdated": "2026-03-15T16:53:59Z",
     "homeTeam": {
       "id": 718,
       "name": "Go Ahead Eagles",
@@ -16053,11 +16053,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 3,
         "away": 0
       },
       "regularTime": {

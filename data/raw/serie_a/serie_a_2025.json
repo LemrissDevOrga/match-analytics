@@ -19000,11 +19000,11 @@
     },
     "id": 537095,
     "utcDate": "2026-03-15T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T01:32:00Z",
+    "lastUpdated": "2026-03-15T17:14:32Z",
     "homeTeam": {
       "id": 7397,
       "name": "Como 1907",
@@ -19020,15 +19020,27 @@
       "crest": "https://crests.football-data.org/100.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
