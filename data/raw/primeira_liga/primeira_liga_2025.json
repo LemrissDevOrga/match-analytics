@@ -14411,11 +14411,11 @@
     },
     "id": 545929,
     "utcDate": "2026-03-15T20:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T22:12:46Z",
+    "lastUpdated": "2026-03-15T22:28:05Z",
     "homeTeam": {
       "id": 503,
       "name": "FC Porto",
