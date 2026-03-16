@@ -18258,7 +18258,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-16T20:05:29Z",
+    "lastUpdated": "2026-03-16T21:13:15Z",
     "homeTeam": {
       "id": 87,
       "name": "Rayo Vallecano de Madrid",
@@ -18274,15 +18274,15 @@
       "crest": "https://crests.football-data.org/88.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,
