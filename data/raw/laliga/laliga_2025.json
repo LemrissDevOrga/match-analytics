@@ -18254,11 +18254,11 @@
     },
     "id": 544489,
     "utcDate": "2026-03-16T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-16T21:13:15Z",
+    "lastUpdated": "2026-03-16T22:06:53Z",
     "homeTeam": {
       "id": 87,
       "name": "Rayo Vallecano de Madrid",
@@ -18274,10 +18274,10 @@
       "crest": "https://crests.football-data.org/88.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "halfTime": {

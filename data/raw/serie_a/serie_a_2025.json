@@ -19096,11 +19096,11 @@
     },
     "id": 537104,
     "utcDate": "2026-03-16T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-16T21:18:28Z",
+    "lastUpdated": "2026-03-16T21:44:48Z",
     "homeTeam": {
       "id": 457,
       "name": "US Cremonese",

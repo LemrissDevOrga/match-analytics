@@ -19822,11 +19822,11 @@
     },
     "id": 538078,
     "utcDate": "2026-03-16T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-16T21:10:33Z",
+    "lastUpdated": "2026-03-16T22:02:33Z",
     "homeTeam": {
       "id": 402,
       "name": "Brentford FC",
@@ -19842,11 +19842,11 @@
       "crest": "https://crests.football-data.org/76.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
         "home": 2,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 2,
