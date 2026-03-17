@@ -11118,11 +11118,11 @@
     },
     "id": 552082,
     "utcDate": "2026-03-17T17:45:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-17T19:43:58Z",
+    "lastUpdated": "2026-03-17T20:29:23Z",
     "homeTeam": {
       "id": 498,
       "name": "Sporting Clube de Portugal",
@@ -11141,7 +11141,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 3,
+        "home": 5,
         "away": 0
       },
       "halfTime": {
@@ -11153,7 +11153,7 @@
         "away": 0
       },
       "extraTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "penalties": {
@@ -11196,11 +11196,11 @@
     },
     "id": 552076,
     "utcDate": "2026-03-17T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-11T01:32:05Z",
+    "lastUpdated": "2026-03-17T20:20:32Z",
     "homeTeam": {
       "id": 61,
       "name": "Chelsea FC",
@@ -11216,15 +11216,27 @@
       "crest": "https://crests.football-data.org/524.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -11262,11 +11274,11 @@
     },
     "id": 552078,
     "utcDate": "2026-03-17T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-17T00:21:05Z",
+    "lastUpdated": "2026-03-17T20:27:27Z",
     "homeTeam": {
       "id": 65,
       "name": "Manchester City FC",
@@ -11282,15 +11294,27 @@
       "crest": "https://crests.football-data.org/86.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -11328,11 +11352,11 @@
     },
     "id": 552083,
     "utcDate": "2026-03-17T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-11T01:32:05Z",
+    "lastUpdated": "2026-03-17T20:05:02Z",
     "homeTeam": {
       "id": 57,
       "name": "Arsenal FC",
@@ -11348,15 +11372,27 @@
       "crest": "https://crests.football-data.org/3.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
