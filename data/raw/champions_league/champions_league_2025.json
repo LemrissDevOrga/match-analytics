@@ -11122,7 +11122,7 @@
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-17T18:37:28Z",
+    "lastUpdated": "2026-03-17T19:43:58Z",
     "homeTeam": {
       "id": 498,
       "name": "Sporting Clube de Portugal",
@@ -11141,7 +11141,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
@@ -11149,7 +11149,7 @@
         "away": 0
       },
       "regularTime": {
-        "home": 0,
+        "home": 3,
         "away": 0
       },
       "extraTime": {
