@@ -11118,11 +11118,11 @@
     },
     "id": 552082,
     "utcDate": "2026-03-17T17:45:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-17T17:50:28Z",
+    "lastUpdated": "2026-03-17T18:37:28Z",
     "homeTeam": {
       "id": 498,
       "name": "Sporting Clube de Portugal",
@@ -11138,14 +11138,14 @@
       "crest": "https://crests.football-data.org/5721.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
@@ -11230,7 +11230,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 9351,
+        "name": "Slavko Vin\u010di\u010d",
+        "type": "REFEREE",
+        "nationality": "Slovenia"
+      }
+    ]
   },
   {
     "area": {
@@ -11289,7 +11296,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 9374,
+        "name": "Cl\u00e9ment Turpin",
+        "type": "REFEREE",
+        "nationality": "France"
+      }
+    ]
   },
   {
     "area": {
