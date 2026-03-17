@@ -11196,11 +11196,11 @@
     },
     "id": 552076,
     "utcDate": "2026-03-17T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-17T21:24:25Z",
+    "lastUpdated": "2026-03-17T21:54:18Z",
     "homeTeam": {
       "id": 61,
       "name": "Chelsea FC",
@@ -11274,11 +11274,11 @@
     },
     "id": 552078,
     "utcDate": "2026-03-17T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-17T21:11:17Z",
+    "lastUpdated": "2026-03-17T22:00:58Z",
     "homeTeam": {
       "id": 65,
       "name": "Manchester City FC",
@@ -11294,11 +11294,11 @@
       "crest": "https://crests.football-data.org/86.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 1,
@@ -11352,11 +11352,11 @@
     },
     "id": 552083,
     "utcDate": "2026-03-17T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-17T21:25:46Z",
+    "lastUpdated": "2026-03-17T21:58:19Z",
     "homeTeam": {
       "id": 57,
       "name": "Arsenal FC",
