@@ -11390,11 +11390,11 @@
     },
     "id": 552080,
     "utcDate": "2026-03-18T17:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-12T01:32:04Z",
+    "lastUpdated": "2026-03-18T17:50:18Z",
     "homeTeam": {
       "id": 81,
       "name": "FC Barcelona",
@@ -11410,15 +11410,27 @@
       "crest": "https://crests.football-data.org/67.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
