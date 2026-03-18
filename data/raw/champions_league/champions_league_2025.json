@@ -11390,11 +11390,11 @@
     },
     "id": 552080,
     "utcDate": "2026-03-18T17:45:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-18T18:43:49Z",
+    "lastUpdated": "2026-03-18T19:28:23Z",
     "homeTeam": {
       "id": 81,
       "name": "FC Barcelona",
@@ -11413,7 +11413,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 3,
+        "home": 7,
         "away": 2
       },
       "halfTime": {
