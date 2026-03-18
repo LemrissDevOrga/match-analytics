@@ -11472,7 +11472,7 @@
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-18T20:05:04Z",
+    "lastUpdated": "2026-03-18T21:22:49Z",
     "homeTeam": {
       "id": 64,
       "name": "Liverpool FC",
@@ -11488,14 +11488,14 @@
       "crest": "https://crests.football-data.org/610.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
@@ -11550,7 +11550,7 @@
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-18T20:05:04Z",
+    "lastUpdated": "2026-03-18T21:21:24Z",
     "homeTeam": {
       "id": 5,
       "name": "FC Bayern M\u00fcnchen",
@@ -11566,14 +11566,14 @@
       "crest": "https://crests.football-data.org/102.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
@@ -11628,7 +11628,7 @@
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-18T20:05:29Z",
+    "lastUpdated": "2026-03-18T21:16:04Z",
     "homeTeam": {
       "id": 73,
       "name": "Tottenham Hotspur FC",
@@ -11644,14 +11644,14 @@
       "crest": "https://crests.football-data.org/78.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
