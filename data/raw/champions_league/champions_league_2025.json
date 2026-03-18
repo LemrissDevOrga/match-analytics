@@ -11390,11 +11390,11 @@
     },
     "id": 552080,
     "utcDate": "2026-03-18T17:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-18T19:28:23Z",
+    "lastUpdated": "2026-03-18T19:47:03Z",
     "homeTeam": {
       "id": 81,
       "name": "FC Barcelona",
@@ -11468,11 +11468,11 @@
     },
     "id": 552077,
     "utcDate": "2026-03-18T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-12T01:32:05Z",
+    "lastUpdated": "2026-03-18T20:05:04Z",
     "homeTeam": {
       "id": 64,
       "name": "Liverpool FC",
@@ -11488,15 +11488,27 @@
       "crest": "https://crests.football-data.org/610.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -11534,11 +11546,11 @@
     },
     "id": 552079,
     "utcDate": "2026-03-18T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-12T01:32:05Z",
+    "lastUpdated": "2026-03-18T20:05:04Z",
     "homeTeam": {
       "id": 5,
       "name": "FC Bayern M\u00fcnchen",
@@ -11554,15 +11566,27 @@
       "crest": "https://crests.football-data.org/102.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -11600,11 +11624,11 @@
     },
     "id": 552081,
     "utcDate": "2026-03-18T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-03-12T01:32:05Z",
+    "lastUpdated": "2026-03-18T20:05:29Z",
     "homeTeam": {
       "id": 73,
       "name": "Tottenham Hotspur FC",
@@ -11620,15 +11644,27 @@
       "crest": "https://crests.football-data.org/78.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
