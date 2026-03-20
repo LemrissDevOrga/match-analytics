@@ -14441,11 +14441,11 @@
     },
     "id": 545935,
     "utcDate": "2026-03-20T20:15:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T21:12:47Z",
+    "lastUpdated": "2026-03-20T22:19:13Z",
     "homeTeam": {
       "id": 9136,
       "name": "CF Estrela da Amadora",
@@ -14464,7 +14464,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 3,
+        "home": 4,
         "away": 0
       },
       "halfTime": {

@@ -18320,11 +18320,11 @@
     },
     "id": 544500,
     "utcDate": "2026-03-20T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T21:13:26Z",
+    "lastUpdated": "2026-03-20T22:03:03Z",
     "homeTeam": {
       "id": 94,
       "name": "Villarreal CF",

@@ -19888,11 +19888,11 @@
     },
     "id": 538085,
     "utcDate": "2026-03-20T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T21:08:02Z",
+    "lastUpdated": "2026-03-20T22:04:33Z",
     "homeTeam": {
       "id": 1044,
       "name": "AFC Bournemouth",
@@ -19911,8 +19911,8 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
         "home": 0,

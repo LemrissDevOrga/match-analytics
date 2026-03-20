@@ -15459,11 +15459,11 @@
     },
     "id": 542647,
     "utcDate": "2026-03-20T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T21:20:46Z",
+    "lastUpdated": "2026-03-20T21:46:54Z",
     "homeTeam": {
       "id": 546,
       "name": "Racing Club de Lens",

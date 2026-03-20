@@ -19240,11 +19240,11 @@
     },
     "id": 537110,
     "utcDate": "2026-03-20T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T21:16:04Z",
+    "lastUpdated": "2026-03-20T21:49:33Z",
     "homeTeam": {
       "id": 107,
       "name": "Genoa CFC",
@@ -19264,7 +19264,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,

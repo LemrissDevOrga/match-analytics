@@ -15466,11 +15466,11 @@
     },
     "id": 540647,
     "utcDate": "2026-03-20T19:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T21:18:56Z",
+    "lastUpdated": "2026-03-20T21:34:14Z",
     "homeTeam": {
       "id": 721,
       "name": "RB Leipzig",
