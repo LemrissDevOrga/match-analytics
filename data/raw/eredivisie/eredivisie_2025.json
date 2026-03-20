@@ -16060,11 +16060,11 @@
     },
     "id": 537688,
     "utcDate": "2026-03-20T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-14T01:32:04Z",
+    "lastUpdated": "2026-03-20T19:29:13Z",
     "homeTeam": {
       "id": 671,
       "name": "Heracles Almelo",
@@ -16080,15 +16080,27 @@
       "crest": "https://crests.football-data.org/670.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
