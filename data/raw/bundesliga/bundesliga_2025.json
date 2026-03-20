@@ -15470,7 +15470,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T20:19:12Z",
+    "lastUpdated": "2026-03-20T21:18:56Z",
     "homeTeam": {
       "id": 721,
       "name": "RB Leipzig",
@@ -15489,11 +15489,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 4,
+        "home": 5,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 4,
         "away": 0
       },
       "regularTime": {

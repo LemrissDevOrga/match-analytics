@@ -15463,7 +15463,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T20:15:23Z",
+    "lastUpdated": "2026-03-20T21:20:46Z",
     "homeTeam": {
       "id": 546,
       "name": "Racing Club de Lens",
@@ -15482,11 +15482,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
-        "away": 0
+        "home": 5,
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
+        "home": 3,
         "away": 0
       },
       "regularTime": {

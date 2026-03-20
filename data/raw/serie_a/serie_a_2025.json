@@ -19244,7 +19244,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T19:50:11Z",
+    "lastUpdated": "2026-03-20T21:16:04Z",
     "homeTeam": {
       "id": 107,
       "name": "Genoa CFC",
@@ -19260,11 +19260,11 @@
       "crest": "https://crests.football-data.org/115.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
