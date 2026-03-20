@@ -18320,11 +18320,11 @@
     },
     "id": 544500,
     "utcDate": "2026-03-20T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-16T01:32:01Z",
+    "lastUpdated": "2026-03-20T20:14:36Z",
     "homeTeam": {
       "id": 94,
       "name": "Villarreal CF",
@@ -18340,15 +18340,27 @@
       "crest": "https://crests.football-data.org/92.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

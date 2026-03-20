@@ -16064,7 +16064,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T19:29:13Z",
+    "lastUpdated": "2026-03-20T20:11:28Z",
     "homeTeam": {
       "id": 671,
       "name": "Heracles Almelo",
@@ -16087,7 +16087,7 @@
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {

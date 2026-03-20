@@ -19888,11 +19888,11 @@
     },
     "id": 538085,
     "utcDate": "2026-03-20T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T00:20:59Z",
+    "lastUpdated": "2026-03-20T20:05:04Z",
     "homeTeam": {
       "id": 1044,
       "name": "AFC Bournemouth",
@@ -19908,15 +19908,27 @@
       "crest": "https://crests.football-data.org/66.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
