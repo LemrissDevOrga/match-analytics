@@ -14511,7 +14511,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T15:35:26Z",
+    "lastUpdated": "2026-03-21T17:05:15Z",
     "homeTeam": {
       "id": 583,
       "name": "Moreirense FC",
@@ -14527,11 +14527,11 @@
       "crest": "https://crests.football-data.org/712.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
@@ -14589,7 +14589,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T15:35:27Z",
+    "lastUpdated": "2026-03-21T17:03:14Z",
     "homeTeam": {
       "id": 5531,
       "name": "FC Famalic\u00e3o",
@@ -14605,10 +14605,10 @@
       "crest": "https://crests.football-data.org/5529.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {

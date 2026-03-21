@@ -18468,7 +18468,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T16:15:11Z",
+    "lastUpdated": "2026-03-21T16:59:37Z",
     "homeTeam": {
       "id": 80,
       "name": "RCD Espanyol de Barcelona",
@@ -18487,12 +18487,12 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 2
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "regularTime": {
         "home": 0,

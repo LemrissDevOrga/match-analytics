@@ -20091,11 +20091,11 @@
     },
     "id": 538089,
     "utcDate": "2026-03-21T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T16:10:11Z",
+    "lastUpdated": "2026-03-21T17:05:10Z",
     "homeTeam": {
       "id": 63,
       "name": "Fulham FC",
@@ -20111,11 +20111,11 @@
       "crest": "https://crests.football-data.org/328.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 3,
+        "away": 1
       },
       "halfTime": {
         "home": 0,

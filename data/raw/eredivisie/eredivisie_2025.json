@@ -16130,7 +16130,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T15:41:54Z",
+    "lastUpdated": "2026-03-21T16:59:39Z",
     "homeTeam": {
       "id": 1920,
       "name": "Fortuna Sittard",
@@ -16146,14 +16146,14 @@
       "crest": "https://crests.football-data.org/666.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 0
+        "away": 2
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
