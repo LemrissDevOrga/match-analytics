@@ -19376,7 +19376,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T17:05:21Z",
+    "lastUpdated": "2026-03-21T18:22:08Z",
     "homeTeam": {
       "id": 98,
       "name": "AC Milan",
@@ -19392,15 +19392,15 @@
       "crest": "https://crests.football-data.org/586.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 3,
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "regularTime": {
         "home": 0,

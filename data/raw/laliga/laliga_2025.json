@@ -18464,11 +18464,11 @@
     },
     "id": 544494,
     "utcDate": "2026-03-21T15:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T16:59:37Z",
+    "lastUpdated": "2026-03-21T17:32:17Z",
     "homeTeam": {
       "id": 80,
       "name": "RCD Espanyol de Barcelona",
@@ -18542,11 +18542,11 @@
     },
     "id": 544495,
     "utcDate": "2026-03-21T17:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T01:32:04Z",
+    "lastUpdated": "2026-03-21T18:20:23Z",
     "homeTeam": {
       "id": 88,
       "name": "Levante UD",
@@ -18562,15 +18562,27 @@
       "crest": "https://crests.football-data.org/1048.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18608,11 +18620,11 @@
     },
     "id": 544499,
     "utcDate": "2026-03-21T17:30:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-15T01:32:04Z",
+    "lastUpdated": "2026-03-21T18:21:50Z",
     "homeTeam": {
       "id": 79,
       "name": "CA Osasuna",
@@ -18628,15 +18640,27 @@
       "crest": "https://crests.football-data.org/298.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

@@ -16126,11 +16126,11 @@
     },
     "id": 537687,
     "utcDate": "2026-03-21T15:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T16:59:39Z",
+    "lastUpdated": "2026-03-21T17:36:14Z",
     "homeTeam": {
       "id": 1920,
       "name": "Fortuna Sittard",
@@ -16204,11 +16204,11 @@
     },
     "id": 537691,
     "utcDate": "2026-03-21T17:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-16T01:32:03Z",
+    "lastUpdated": "2026-03-21T18:06:02Z",
     "homeTeam": {
       "id": 6806,
       "name": "Sparta Rotterdam",
@@ -16224,15 +16224,27 @@
       "crest": "https://crests.football-data.org/1919.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -16304,7 +16316,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 56917,
+        "name": "Erwin Blank",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {
