@@ -18542,11 +18542,11 @@
     },
     "id": 544495,
     "utcDate": "2026-03-21T17:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T18:50:29Z",
+    "lastUpdated": "2026-03-21T19:39:56Z",
     "homeTeam": {
       "id": 88,
       "name": "Levante UD",
@@ -18565,7 +18565,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 3,
+        "home": 4,
         "away": 2
       },
       "halfTime": {
@@ -18620,11 +18620,11 @@
     },
     "id": 544499,
     "utcDate": "2026-03-21T17:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T19:11:41Z",
+    "lastUpdated": "2026-03-21T19:30:39Z",
     "homeTeam": {
       "id": 79,
       "name": "CA Osasuna",
@@ -18698,11 +18698,11 @@
     },
     "id": 544496,
     "utcDate": "2026-03-21T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-17T01:32:03Z",
+    "lastUpdated": "2026-03-21T20:05:34Z",
     "homeTeam": {
       "id": 559,
       "name": "Sevilla FC",
@@ -18718,15 +18718,27 @@
       "crest": "https://crests.football-data.org/95.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

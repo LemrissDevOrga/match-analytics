@@ -15603,11 +15603,11 @@
     },
     "id": 542640,
     "utcDate": "2026-03-21T18:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T19:11:20Z",
+    "lastUpdated": "2026-03-21T20:04:57Z",
     "homeTeam": {
       "id": 519,
       "name": "AJ Auxerre",
@@ -15626,7 +15626,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
@@ -15681,11 +15681,11 @@
     },
     "id": 542644,
     "utcDate": "2026-03-21T20:05:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T01:32:01Z",
+    "lastUpdated": "2026-03-21T20:10:14Z",
     "homeTeam": {
       "id": 522,
       "name": "OGC Nice",
@@ -15701,15 +15701,27 @@
       "crest": "https://crests.football-data.org/524.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

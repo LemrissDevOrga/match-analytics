@@ -15844,11 +15844,11 @@
     },
     "id": 540648,
     "utcDate": "2026-03-21T17:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T19:13:28Z",
+    "lastUpdated": "2026-03-21T19:31:17Z",
     "homeTeam": {
       "id": 4,
       "name": "Borussia Dortmund",
@@ -15864,10 +15864,10 @@
       "crest": "https://crests.football-data.org/7.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 2
       },
       "halfTime": {

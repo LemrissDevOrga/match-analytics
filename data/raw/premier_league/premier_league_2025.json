@@ -20169,11 +20169,11 @@
     },
     "id": 538088,
     "utcDate": "2026-03-21T17:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T19:10:18Z",
+    "lastUpdated": "2026-03-21T19:30:37Z",
     "homeTeam": {
       "id": 62,
       "name": "Everton FC",
@@ -20247,11 +20247,11 @@
     },
     "id": 538090,
     "utcDate": "2026-03-21T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T15:21:15Z",
+    "lastUpdated": "2026-03-21T20:05:33Z",
     "homeTeam": {
       "id": 341,
       "name": "Leeds United FC",
@@ -20267,15 +20267,27 @@
       "crest": "https://crests.football-data.org/402.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

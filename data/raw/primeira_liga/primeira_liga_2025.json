@@ -14663,11 +14663,11 @@
     },
     "id": 545940,
     "utcDate": "2026-03-21T18:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T19:08:59Z",
+    "lastUpdated": "2026-03-21T20:03:56Z",
     "homeTeam": {
       "id": 5530,
       "name": "CD Santa Clara",
@@ -14683,10 +14683,10 @@
       "crest": "https://crests.football-data.org/5533.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
@@ -14741,11 +14741,11 @@
     },
     "id": 545942,
     "utcDate": "2026-03-21T18:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T19:12:15Z",
+    "lastUpdated": "2026-03-21T20:01:57Z",
     "homeTeam": {
       "id": 1903,
       "name": "Sport Lisboa e Benfica",
@@ -14764,7 +14764,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
