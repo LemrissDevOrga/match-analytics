@@ -16286,7 +16286,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T20:05:20Z",
+    "lastUpdated": "2026-03-21T21:09:08Z",
     "homeTeam": {
       "id": 684,
       "name": "PEC Zwolle",
@@ -16302,14 +16302,14 @@
       "crest": "https://crests.football-data.org/681.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {

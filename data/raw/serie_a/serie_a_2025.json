@@ -19454,7 +19454,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T20:05:59Z",
+    "lastUpdated": "2026-03-21T21:02:27Z",
     "homeTeam": {
       "id": 109,
       "name": "Juventus FC",
@@ -19470,14 +19470,14 @@
       "crest": "https://crests.football-data.org/471.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {

@@ -15681,11 +15681,11 @@
     },
     "id": 542644,
     "utcDate": "2026-03-21T20:05:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T20:10:14Z",
+    "lastUpdated": "2026-03-21T20:59:10Z",
     "homeTeam": {
       "id": 522,
       "name": "OGC Nice",
@@ -15701,15 +15701,15 @@
       "crest": "https://crests.football-data.org/524.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,

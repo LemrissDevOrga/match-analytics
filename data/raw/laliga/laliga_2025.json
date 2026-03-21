@@ -18698,11 +18698,11 @@
     },
     "id": 544496,
     "utcDate": "2026-03-21T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T20:05:34Z",
+    "lastUpdated": "2026-03-21T21:00:29Z",
     "homeTeam": {
       "id": 559,
       "name": "Sevilla FC",
@@ -18718,15 +18718,15 @@
       "crest": "https://crests.football-data.org/95.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "regularTime": {
         "home": 0,
