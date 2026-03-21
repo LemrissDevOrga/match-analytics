@@ -19372,11 +19372,11 @@
     },
     "id": 537106,
     "utcDate": "2026-03-21T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T18:22:08Z",
+    "lastUpdated": "2026-03-21T19:03:54Z",
     "homeTeam": {
       "id": 98,
       "name": "AC Milan",
@@ -19396,7 +19396,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 3,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 1,

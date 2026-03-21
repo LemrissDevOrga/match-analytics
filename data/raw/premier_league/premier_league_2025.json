@@ -20173,7 +20173,7 @@
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T18:09:18Z",
+    "lastUpdated": "2026-03-21T19:10:18Z",
     "homeTeam": {
       "id": 62,
       "name": "Everton FC",
@@ -20192,11 +20192,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {

@@ -16208,7 +16208,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T18:06:02Z",
+    "lastUpdated": "2026-03-21T18:53:52Z",
     "homeTeam": {
       "id": 6806,
       "name": "Sparta Rotterdam",
@@ -16227,11 +16227,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {

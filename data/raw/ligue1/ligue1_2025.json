@@ -15607,7 +15607,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T18:05:25Z",
+    "lastUpdated": "2026-03-21T19:11:20Z",
     "homeTeam": {
       "id": 519,
       "name": "AJ Auxerre",
@@ -15623,14 +15623,14 @@
       "crest": "https://crests.football-data.org/512.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {

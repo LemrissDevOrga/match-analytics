@@ -14667,7 +14667,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T18:05:11Z",
+    "lastUpdated": "2026-03-21T19:08:59Z",
     "homeTeam": {
       "id": 5530,
       "name": "CD Santa Clara",
@@ -14745,7 +14745,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T18:22:04Z",
+    "lastUpdated": "2026-03-21T19:12:15Z",
     "homeTeam": {
       "id": 1903,
       "name": "Sport Lisboa e Benfica",
@@ -14768,7 +14768,7 @@
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
@@ -14853,7 +14853,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 40158,
+        "name": "Miguel Nogueira",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
