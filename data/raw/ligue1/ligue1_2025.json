@@ -15681,11 +15681,11 @@
     },
     "id": 542644,
     "utcDate": "2026-03-21T20:05:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T20:59:10Z",
+    "lastUpdated": "2026-03-21T22:05:42Z",
     "homeTeam": {
       "id": 522,
       "name": "OGC Nice",
@@ -15705,7 +15705,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 4
       },
       "halfTime": {
         "home": 0,

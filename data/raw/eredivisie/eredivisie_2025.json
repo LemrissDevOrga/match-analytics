@@ -16282,11 +16282,11 @@
     },
     "id": 537690,
     "utcDate": "2026-03-21T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T21:09:08Z",
+    "lastUpdated": "2026-03-21T21:59:02Z",
     "homeTeam": {
       "id": 684,
       "name": "PEC Zwolle",
@@ -16306,7 +16306,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 2,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 2,

@@ -18698,11 +18698,11 @@
     },
     "id": 544496,
     "utcDate": "2026-03-21T20:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T21:00:29Z",
+    "lastUpdated": "2026-03-21T22:08:17Z",
     "homeTeam": {
       "id": 559,
       "name": "Sevilla FC",

@@ -19450,11 +19450,11 @@
     },
     "id": 537113,
     "utcDate": "2026-03-21T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T21:02:27Z",
+    "lastUpdated": "2026-03-21T21:49:01Z",
     "homeTeam": {
       "id": 109,
       "name": "Juventus FC",
