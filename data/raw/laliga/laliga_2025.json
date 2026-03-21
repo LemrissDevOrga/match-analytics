@@ -19104,26 +19104,26 @@
       "currentMatchday": 29,
       "winner": null
     },
-    "id": 544501,
+    "id": 544503,
     "utcDate": "2026-04-04T16:30:00Z",
     "status": "TIMED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-16T00:21:04Z",
+    "lastUpdated": "2026-03-20T23:25:26Z",
     "homeTeam": {
-      "id": 263,
-      "name": "Deportivo Alav\u00e9s",
-      "shortName": "Alav\u00e9s",
-      "tla": "ALA",
-      "crest": "https://crests.football-data.org/263.png"
+      "id": 90,
+      "name": "Real Betis Balompi\u00e9",
+      "shortName": "Real Betis",
+      "tla": "BET",
+      "crest": "https://crests.football-data.org/90.png"
     },
     "awayTeam": {
-      "id": 79,
-      "name": "CA Osasuna",
-      "shortName": "Osasuna",
-      "tla": "OSA",
-      "crest": "https://crests.football-data.org/79.png"
+      "id": 80,
+      "name": "RCD Espanyol de Barcelona",
+      "shortName": "Espanyol",
+      "tla": "ESP",
+      "crest": "https://crests.football-data.org/80.png"
     },
     "score": {
       "winner": null,
@@ -19399,26 +19399,26 @@
       "currentMatchday": 29,
       "winner": null
     },
-    "id": 544503,
+    "id": 544501,
     "utcDate": "2026-04-05T19:00:00Z",
     "status": "TIMED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-16T00:21:04Z",
+    "lastUpdated": "2026-03-20T23:25:26Z",
     "homeTeam": {
-      "id": 90,
-      "name": "Real Betis Balompi\u00e9",
-      "shortName": "Real Betis",
-      "tla": "BET",
-      "crest": "https://crests.football-data.org/90.png"
+      "id": 263,
+      "name": "Deportivo Alav\u00e9s",
+      "shortName": "Alav\u00e9s",
+      "tla": "ALA",
+      "crest": "https://crests.football-data.org/263.png"
     },
     "awayTeam": {
-      "id": 80,
-      "name": "RCD Espanyol de Barcelona",
-      "shortName": "Espanyol",
-      "tla": "ESP",
-      "crest": "https://crests.football-data.org/80.png"
+      "id": 79,
+      "name": "CA Osasuna",
+      "shortName": "Osasuna",
+      "tla": "OSA",
+      "crest": "https://crests.football-data.org/79.png"
     },
     "score": {
       "winner": null,
@@ -19995,7 +19995,7 @@
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-20T14:25:29Z",
+    "lastUpdated": "2026-03-20T14:25:28Z",
     "homeTeam": {
       "id": 77,
       "name": "Athletic Club",
