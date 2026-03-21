@@ -15525,11 +15525,11 @@
     },
     "id": 542643,
     "utcDate": "2026-03-21T16:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-16T01:32:03Z",
+    "lastUpdated": "2026-03-21T16:05:07Z",
     "homeTeam": {
       "id": 511,
       "name": "Toulouse FC",
@@ -15545,15 +15545,27 @@
       "crest": "https://crests.football-data.org/525.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

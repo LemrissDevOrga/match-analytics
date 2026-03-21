@@ -19294,11 +19294,11 @@
     },
     "id": 537114,
     "utcDate": "2026-03-21T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T15:17:06Z",
+    "lastUpdated": "2026-03-21T15:59:27Z",
     "homeTeam": {
       "id": 112,
       "name": "Parma Calcio 1913",
@@ -19318,7 +19318,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,

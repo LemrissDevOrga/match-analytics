@@ -15536,7 +15536,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T15:09:49Z",
+    "lastUpdated": "2026-03-21T16:18:23Z",
     "homeTeam": {
       "id": 44,
       "name": "1. FC Heidenheim 1846",
@@ -15552,15 +15552,15 @@
       "crest": "https://crests.football-data.org/3.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 2
+        "home": 3,
+        "away": 3
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "regularTime": {
         "home": 0,
@@ -15614,7 +15614,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T14:35:18Z",
+    "lastUpdated": "2026-03-21T16:01:54Z",
     "homeTeam": {
       "id": 11,
       "name": "VfL Wolfsburg",
@@ -15630,11 +15630,11 @@
       "crest": "https://crests.football-data.org/12.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
@@ -15692,7 +15692,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T14:56:12Z",
+    "lastUpdated": "2026-03-21T15:54:55Z",
     "homeTeam": {
       "id": 1,
       "name": "1. FC K\u00f6ln",
@@ -15708,15 +15708,15 @@
       "crest": "https://crests.football-data.org/18.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 2,
-        "away": 2
+        "away": 3
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 2
       },
       "regularTime": {
         "home": 0,
@@ -15770,7 +15770,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T14:35:19Z",
+    "lastUpdated": "2026-03-21T16:01:11Z",
     "homeTeam": {
       "id": 5,
       "name": "FC Bayern M\u00fcnchen",
@@ -15786,14 +15786,14 @@
       "crest": "https://crests.football-data.org/28.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 4,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {

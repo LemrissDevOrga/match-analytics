@@ -14507,11 +14507,11 @@
     },
     "id": 545936,
     "utcDate": "2026-03-21T15:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-21T01:32:01Z",
+    "lastUpdated": "2026-03-21T15:35:26Z",
     "homeTeam": {
       "id": 583,
       "name": "Moreirense FC",
@@ -14527,15 +14527,27 @@
       "crest": "https://crests.football-data.org/712.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -14573,11 +14585,11 @@
     },
     "id": 545939,
     "utcDate": "2026-03-21T15:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-16T01:32:03Z",
+    "lastUpdated": "2026-03-21T15:35:27Z",
     "homeTeam": {
       "id": 5531,
       "name": "FC Famalic\u00e3o",
@@ -14593,15 +14605,27 @@
       "crest": "https://crests.football-data.org/5529.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -14673,7 +14697,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 176741,
+        "name": "Claudio Pereira",
+        "type": "REFEREE",
+        "nationality": null
+      }
+    ]
   },
   {
     "area": {
@@ -14732,7 +14763,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 37629,
+        "name": "Lu\u00eds Godinho",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
