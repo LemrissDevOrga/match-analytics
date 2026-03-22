@@ -14919,7 +14919,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T18:05:19Z",
+    "lastUpdated": "2026-03-22T19:20:19Z",
     "homeTeam": {
       "id": 7822,
       "name": "FC Alverca",
@@ -14935,15 +14935,15 @@
       "crest": "https://crests.football-data.org/498.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,
@@ -15027,7 +15027,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 37386,
+        "name": "Ant\u00f3nio Nobre",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {

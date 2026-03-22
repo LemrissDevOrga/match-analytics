@@ -18876,7 +18876,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T18:03:25Z",
+    "lastUpdated": "2026-03-22T19:14:59Z",
     "homeTeam": {
       "id": 77,
       "name": "Athletic Club",
@@ -18895,11 +18895,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {

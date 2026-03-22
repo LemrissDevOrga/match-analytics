@@ -15940,11 +15940,11 @@
     },
     "id": 540642,
     "utcDate": "2026-03-22T16:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T18:13:06Z",
+    "lastUpdated": "2026-03-22T18:32:49Z",
     "homeTeam": {
       "id": 20,
       "name": "FC St. Pauli 1910",
@@ -16018,11 +16018,11 @@
     },
     "id": 540644,
     "utcDate": "2026-03-22T18:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T01:32:00Z",
+    "lastUpdated": "2026-03-22T19:05:54Z",
     "homeTeam": {
       "id": 16,
       "name": "FC Augsburg",
@@ -16038,15 +16038,27 @@
       "crest": "https://crests.football-data.org/10.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 3
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

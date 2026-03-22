@@ -15879,11 +15879,11 @@
     },
     "id": 542646,
     "utcDate": "2026-03-22T16:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T18:16:56Z",
+    "lastUpdated": "2026-03-22T18:28:19Z",
     "homeTeam": {
       "id": 516,
       "name": "Olympique de Marseille",
