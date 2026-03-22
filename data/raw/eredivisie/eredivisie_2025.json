@@ -16562,7 +16562,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T15:50:18Z",
+    "lastUpdated": "2026-03-22T17:06:00Z",
     "homeTeam": {
       "id": 677,
       "name": "FC Groningen",
@@ -16578,14 +16578,14 @@
       "crest": "https://crests.football-data.org/682.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
@@ -16640,7 +16640,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T15:50:18Z",
+    "lastUpdated": "2026-03-22T17:17:20Z",
     "homeTeam": {
       "id": 1912,
       "name": "Telstar 1963",
@@ -16656,14 +16656,14 @@
       "crest": "https://crests.football-data.org/674.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {

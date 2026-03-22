@@ -18794,11 +18794,11 @@
     },
     "id": 544497,
     "utcDate": "2026-03-22T15:15:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T16:10:47Z",
+    "lastUpdated": "2026-03-22T16:59:07Z",
     "homeTeam": {
       "id": 558,
       "name": "RC Celta de Vigo",
@@ -18814,11 +18814,11 @@
       "crest": "https://crests.football-data.org/263.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 3,
-        "away": 1
+        "away": 4
       },
       "halfTime": {
         "home": 3,
