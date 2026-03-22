@@ -19730,7 +19730,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T17:05:35Z",
+    "lastUpdated": "2026-03-22T18:22:13Z",
     "homeTeam": {
       "id": 100,
       "name": "AS Roma",
@@ -19746,10 +19746,10 @@
       "crest": "https://crests.football-data.org/5890.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {

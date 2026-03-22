@@ -15944,7 +15944,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T16:59:16Z",
+    "lastUpdated": "2026-03-22T18:13:06Z",
     "homeTeam": {
       "id": 20,
       "name": "FC St. Pauli 1910",
@@ -15960,14 +15960,14 @@
       "crest": "https://crests.football-data.org/17.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 0
+        "away": 2
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {

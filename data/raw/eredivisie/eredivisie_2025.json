@@ -16558,11 +16558,11 @@
     },
     "id": 537684,
     "utcDate": "2026-03-22T15:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T17:06:00Z",
+    "lastUpdated": "2026-03-22T17:41:51Z",
     "homeTeam": {
       "id": 677,
       "name": "FC Groningen",
@@ -16581,7 +16581,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
@@ -16636,11 +16636,11 @@
     },
     "id": 537692,
     "utcDate": "2026-03-22T15:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T17:17:20Z",
+    "lastUpdated": "2026-03-22T17:46:31Z",
     "homeTeam": {
       "id": 1912,
       "name": "Telstar 1963",
@@ -16659,7 +16659,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 1
       },
       "halfTime": {

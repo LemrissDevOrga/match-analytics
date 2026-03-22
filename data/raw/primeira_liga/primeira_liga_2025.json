@@ -14837,11 +14837,11 @@
     },
     "id": 545937,
     "utcDate": "2026-03-22T15:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T17:10:03Z",
+    "lastUpdated": "2026-03-22T17:37:14Z",
     "homeTeam": {
       "id": 582,
       "name": "GD Estoril Praia",
@@ -14915,11 +14915,11 @@
     },
     "id": 545938,
     "utcDate": "2026-03-22T18:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T01:32:00Z",
+    "lastUpdated": "2026-03-22T18:05:19Z",
     "homeTeam": {
       "id": 7822,
       "name": "FC Alverca",
@@ -14935,15 +14935,27 @@
       "crest": "https://crests.football-data.org/498.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
