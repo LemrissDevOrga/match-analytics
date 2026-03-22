@@ -15866,7 +15866,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T14:54:39Z",
+    "lastUpdated": "2026-03-22T15:40:33Z",
     "homeTeam": {
       "id": 15,
       "name": "1. FSV Mainz 05",
@@ -15889,8 +15889,8 @@
         "away": 1
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "regularTime": {
         "home": 0,

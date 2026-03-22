@@ -20355,11 +20355,11 @@
     },
     "id": 538086,
     "utcDate": "2026-03-22T14:15:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T15:10:23Z",
+    "lastUpdated": "2026-03-22T16:16:23Z",
     "homeTeam": {
       "id": 58,
       "name": "Aston Villa FC",
@@ -20378,7 +20378,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
@@ -20433,11 +20433,11 @@
     },
     "id": 538093,
     "utcDate": "2026-03-22T14:15:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T15:11:01Z",
+    "lastUpdated": "2026-03-22T16:09:44Z",
     "homeTeam": {
       "id": 73,
       "name": "Tottenham Hotspur FC",
@@ -20457,7 +20457,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 3
       },
       "halfTime": {
         "home": 0,

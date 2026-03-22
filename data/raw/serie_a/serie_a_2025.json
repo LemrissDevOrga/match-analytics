@@ -19570,11 +19570,11 @@
     },
     "id": 537108,
     "utcDate": "2026-03-22T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T15:08:19Z",
+    "lastUpdated": "2026-03-22T15:59:12Z",
     "homeTeam": {
       "id": 102,
       "name": "Atalanta BC",
@@ -19648,11 +19648,11 @@
     },
     "id": 537112,
     "utcDate": "2026-03-22T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T15:09:59Z",
+    "lastUpdated": "2026-03-22T16:00:31Z",
     "homeTeam": {
       "id": 103,
       "name": "Bologna FC 1909",
@@ -19668,11 +19668,11 @@
       "crest": "https://crests.football-data.org/110.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "halfTime": {
         "home": 0,

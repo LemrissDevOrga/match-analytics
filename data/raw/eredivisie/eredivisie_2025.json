@@ -16402,11 +16402,11 @@
     },
     "id": 537685,
     "utcDate": "2026-03-22T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T14:41:53Z",
+    "lastUpdated": "2026-03-22T15:32:38Z",
     "homeTeam": {
       "id": 676,
       "name": "FC Utrecht",
@@ -16426,7 +16426,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 2,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 2,
@@ -16480,11 +16480,11 @@
     },
     "id": 537686,
     "utcDate": "2026-03-22T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T14:51:28Z",
+    "lastUpdated": "2026-03-22T15:35:21Z",
     "homeTeam": {
       "id": 675,
       "name": "Feyenoord Rotterdam",
@@ -16500,10 +16500,10 @@
       "crest": "https://crests.football-data.org/678.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "halfTime": {
@@ -16558,11 +16558,11 @@
     },
     "id": 537684,
     "utcDate": "2026-03-22T15:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-16T01:32:04Z",
+    "lastUpdated": "2026-03-22T15:50:18Z",
     "homeTeam": {
       "id": 677,
       "name": "FC Groningen",
@@ -16578,15 +16578,27 @@
       "crest": "https://crests.football-data.org/682.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -16624,11 +16636,11 @@
     },
     "id": 537692,
     "utcDate": "2026-03-22T15:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-16T01:32:04Z",
+    "lastUpdated": "2026-03-22T15:50:18Z",
     "homeTeam": {
       "id": 1912,
       "name": "Telstar 1963",
@@ -16644,15 +16656,27 @@
       "crest": "https://crests.football-data.org/674.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
