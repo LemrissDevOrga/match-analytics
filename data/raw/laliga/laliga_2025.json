@@ -18872,11 +18872,11 @@
     },
     "id": 544491,
     "utcDate": "2026-03-22T17:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T19:14:59Z",
+    "lastUpdated": "2026-03-22T19:34:53Z",
     "homeTeam": {
       "id": 77,
       "name": "Athletic Club",
@@ -18950,11 +18950,11 @@
     },
     "id": 544498,
     "utcDate": "2026-03-22T20:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T00:20:54Z",
+    "lastUpdated": "2026-03-22T20:05:13Z",
     "homeTeam": {
       "id": 86,
       "name": "Real Madrid CF",
@@ -18970,15 +18970,27 @@
       "crest": "https://crests.football-data.org/78.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
