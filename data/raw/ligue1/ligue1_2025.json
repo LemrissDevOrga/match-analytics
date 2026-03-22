@@ -16035,11 +16035,11 @@
     },
     "id": 542641,
     "utcDate": "2026-03-22T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T21:04:38Z",
+    "lastUpdated": "2026-03-22T21:47:36Z",
     "homeTeam": {
       "id": 543,
       "name": "FC Nantes",
@@ -16055,11 +16055,11 @@
       "crest": "https://crests.football-data.org/576.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 2,
-        "away": 1
+        "away": 3
       },
       "halfTime": {
         "home": 1,

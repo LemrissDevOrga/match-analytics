@@ -18950,11 +18950,11 @@
     },
     "id": 544498,
     "utcDate": "2026-03-22T20:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T21:10:57Z",
+    "lastUpdated": "2026-03-22T22:03:01Z",
     "homeTeam": {
       "id": 86,
       "name": "Real Madrid CF",
@@ -18970,11 +18970,11 @@
       "crest": "https://crests.football-data.org/78.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 1
+        "home": 3,
+        "away": 2
       },
       "halfTime": {
         "home": 0,

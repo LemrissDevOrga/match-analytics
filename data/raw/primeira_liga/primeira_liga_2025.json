@@ -14997,7 +14997,7 @@
     "matchday": 27,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-22T20:35:19Z",
+    "lastUpdated": "2026-03-22T22:16:36Z",
     "homeTeam": {
       "id": 5613,
       "name": "Sporting Clube de Braga",
@@ -15013,11 +15013,11 @@
       "crest": "https://crests.football-data.org/503.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
         "home": 0,
