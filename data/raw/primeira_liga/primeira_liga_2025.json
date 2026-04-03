@@ -15113,11 +15113,11 @@
     },
     "id": 545951,
     "utcDate": "2026-04-03T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-03T18:31:29Z",
+    "lastUpdated": "2026-04-03T19:02:57Z",
     "homeTeam": {
       "id": 5543,
       "name": "Vit\u00f3ria SC",
