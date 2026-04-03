@@ -15994,11 +15994,11 @@
     },
     "id": 542654,
     "utcDate": "2026-04-03T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-03T19:53:42Z",
+    "lastUpdated": "2026-04-03T20:43:29Z",
     "homeTeam": {
       "id": 524,
       "name": "Paris Saint-Germain FC",
@@ -16017,7 +16017,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 1
       },
       "halfTime": {
