@@ -16028,7 +16028,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57092,
+        "name": "Eric Wattellier",
+        "type": "REFEREE",
+        "nationality": "France"
+      }
+    ]
   },
   {
     "area": {
