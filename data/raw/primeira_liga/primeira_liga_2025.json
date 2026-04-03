@@ -15117,7 +15117,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-03T17:26:31Z",
+    "lastUpdated": "2026-04-03T18:31:29Z",
     "homeTeam": {
       "id": 5543,
       "name": "Vit\u00f3ria SC",
@@ -15136,11 +15136,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 5,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {
@@ -15225,7 +15225,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 37207,
+        "name": "Andr\u00e9 Narciso",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
