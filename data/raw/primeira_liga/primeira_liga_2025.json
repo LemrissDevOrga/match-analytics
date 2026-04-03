@@ -15191,11 +15191,11 @@
     },
     "id": 545947,
     "utcDate": "2026-04-03T19:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-03T21:23:29Z",
+    "lastUpdated": "2026-04-03T21:38:09Z",
     "homeTeam": {
       "id": 498,
       "name": "Sporting Clube de Portugal",
@@ -15214,7 +15214,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 3,
+        "home": 4,
         "away": 2
       },
       "halfTime": {
