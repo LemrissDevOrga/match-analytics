@@ -15035,11 +15035,11 @@
     },
     "id": 545943,
     "utcDate": "2026-04-03T14:30:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-03T15:27:19Z",
+    "lastUpdated": "2026-04-03T16:20:34Z",
     "homeTeam": {
       "id": 5533,
       "name": "Gil Vicente FC",
@@ -15058,7 +15058,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
