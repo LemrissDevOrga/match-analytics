@@ -15467,11 +15467,11 @@
     },
     "id": 545946,
     "utcDate": "2026-04-04T19:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T20:53:46Z",
+    "lastUpdated": "2026-04-04T21:41:44Z",
     "homeTeam": {
       "id": 503,
       "name": "FC Porto",
@@ -15490,8 +15490,8 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
-        "away": 1
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
         "home": 1,
