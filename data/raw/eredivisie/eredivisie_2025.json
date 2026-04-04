@@ -16654,11 +16654,11 @@
     },
     "id": 537699,
     "utcDate": "2026-04-04T14:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T16:15:33Z",
+    "lastUpdated": "2026-04-04T16:32:44Z",
     "homeTeam": {
       "id": 674,
       "name": "PSV",
@@ -16674,10 +16674,10 @@
       "crest": "https://crests.football-data.org/676.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 3,
+        "home": 4,
         "away": 3
       },
       "halfTime": {
@@ -16732,11 +16732,11 @@
     },
     "id": 537701,
     "utcDate": "2026-04-04T16:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-29T01:32:03Z",
+    "lastUpdated": "2026-04-04T16:50:38Z",
     "homeTeam": {
       "id": 1912,
       "name": "Telstar 1963",
@@ -16752,15 +16752,27 @@
       "crest": "https://crests.football-data.org/677.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -16798,11 +16810,11 @@
     },
     "id": 537694,
     "utcDate": "2026-04-04T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T16:20:46Z",
+    "lastUpdated": "2026-04-04T17:20:38Z",
     "homeTeam": {
       "id": 682,
       "name": "AZ",
@@ -16818,15 +16830,27 @@
       "crest": "https://crests.football-data.org/1920.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -16898,7 +16922,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 56923,
+        "name": "Sander Van der Eijk",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {
@@ -16957,7 +16988,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 81350,
+        "name": "Alex Bos",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {

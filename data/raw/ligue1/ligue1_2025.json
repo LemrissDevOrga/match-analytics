@@ -16060,11 +16060,11 @@
     },
     "id": 542655,
     "utcDate": "2026-04-04T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T16:11:19Z",
+    "lastUpdated": "2026-04-04T17:02:09Z",
     "homeTeam": {
       "id": 576,
       "name": "RC Strasbourg Alsace",
@@ -16084,7 +16084,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 3,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 3,
@@ -16138,11 +16138,11 @@
     },
     "id": 542657,
     "utcDate": "2026-04-04T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-29T01:32:03Z",
+    "lastUpdated": "2026-04-04T17:10:52Z",
     "homeTeam": {
       "id": 512,
       "name": "Stade Brestois 29",
@@ -16158,15 +16158,27 @@
       "crest": "https://crests.football-data.org/529.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -16238,7 +16250,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 43918,
+        "name": "Fran\u00e7ois Letexier",
+        "type": "REFEREE",
+        "nationality": "France"
+      }
+    ]
   },
   {
     "area": {

@@ -19904,7 +19904,7 @@
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T16:05:17Z",
+    "lastUpdated": "2026-04-04T17:09:30Z",
     "homeTeam": {
       "id": 450,
       "name": "Hellas Verona FC",
@@ -20012,7 +20012,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57868,
+        "name": "Matteo Marcenaro",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {

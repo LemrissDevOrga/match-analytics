@@ -19202,11 +19202,11 @@
     },
     "id": 544503,
     "utcDate": "2026-04-04T16:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-29T01:32:02Z",
+    "lastUpdated": "2026-04-04T16:35:23Z",
     "homeTeam": {
       "id": 90,
       "name": "Real Betis Balompi\u00e9",
@@ -19222,15 +19222,27 @@
       "crest": "https://crests.football-data.org/80.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -19302,7 +19314,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 217698,
+        "name": "Mateo Busquets Ferrer",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
