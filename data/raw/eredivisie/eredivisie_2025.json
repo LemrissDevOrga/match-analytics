@@ -16736,7 +16736,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T16:50:38Z",
+    "lastUpdated": "2026-04-04T17:57:52Z",
     "homeTeam": {
       "id": 1912,
       "name": "Telstar 1963",
@@ -16752,15 +16752,15 @@
       "crest": "https://crests.football-data.org/677.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,
@@ -16814,7 +16814,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T17:20:38Z",
+    "lastUpdated": "2026-04-04T18:26:16Z",
     "homeTeam": {
       "id": 682,
       "name": "AZ",
@@ -16834,10 +16834,10 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 2,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {

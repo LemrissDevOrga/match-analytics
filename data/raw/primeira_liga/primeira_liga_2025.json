@@ -15315,7 +15315,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T17:12:46Z",
+    "lastUpdated": "2026-04-04T18:25:38Z",
     "homeTeam": {
       "id": 496,
       "name": "Rio Ave FC",
@@ -15334,12 +15334,12 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 1
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "regularTime": {
         "home": 0,
@@ -15393,7 +15393,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T17:05:19Z",
+    "lastUpdated": "2026-04-04T18:13:02Z",
     "homeTeam": {
       "id": 583,
       "name": "Moreirense FC",
@@ -15409,15 +15409,15 @@
       "crest": "https://crests.football-data.org/5613.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,
@@ -15501,7 +15501,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57283,
+        "name": "S\u00e9rgio Guelho",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {

@@ -19900,11 +19900,11 @@
     },
     "id": 537115,
     "utcDate": "2026-04-04T16:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T17:09:30Z",
+    "lastUpdated": "2026-04-04T18:02:35Z",
     "homeTeam": {
       "id": 450,
       "name": "Hellas Verona FC",
@@ -19920,11 +19920,11 @@
       "crest": "https://crests.football-data.org/99.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
