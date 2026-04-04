@@ -16216,11 +16216,11 @@
     },
     "id": 542653,
     "utcDate": "2026-04-04T19:05:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T19:10:01Z",
+    "lastUpdated": "2026-04-04T20:04:26Z",
     "homeTeam": {
       "id": 521,
       "name": "Lille OSC",
@@ -16236,14 +16236,14 @@
       "crest": "https://crests.football-data.org/546.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
