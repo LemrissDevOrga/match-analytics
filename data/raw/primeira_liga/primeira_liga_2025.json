@@ -15471,7 +15471,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T20:11:46Z",
+    "lastUpdated": "2026-04-04T20:53:46Z",
     "homeTeam": {
       "id": 503,
       "name": "FC Porto",
@@ -15487,14 +15487,14 @@
       "crest": "https://crests.football-data.org/5531.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {

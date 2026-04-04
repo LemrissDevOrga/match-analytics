@@ -19280,11 +19280,11 @@
     },
     "id": 544502,
     "utcDate": "2026-04-04T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T20:16:11Z",
+    "lastUpdated": "2026-04-04T21:09:29Z",
     "homeTeam": {
       "id": 78,
       "name": "Club Atl\u00e9tico de Madrid",
@@ -19300,11 +19300,11 @@
       "crest": "https://crests.football-data.org/81.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 1,
