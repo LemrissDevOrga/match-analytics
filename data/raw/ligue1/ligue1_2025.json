@@ -16138,11 +16138,11 @@
     },
     "id": 542657,
     "utcDate": "2026-04-04T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T18:25:38Z",
+    "lastUpdated": "2026-04-04T19:07:30Z",
     "homeTeam": {
       "id": 512,
       "name": "Stade Brestois 29",
@@ -16158,11 +16158,11 @@
       "crest": "https://crests.football-data.org/529.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
-        "away": 2
+        "home": 3,
+        "away": 4
       },
       "halfTime": {
         "home": 1,
@@ -16216,11 +16216,11 @@
     },
     "id": 542653,
     "utcDate": "2026-04-04T19:05:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-29T01:32:03Z",
+    "lastUpdated": "2026-04-04T19:10:01Z",
     "homeTeam": {
       "id": 521,
       "name": "Lille OSC",
@@ -16236,15 +16236,27 @@
       "crest": "https://crests.football-data.org/546.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
