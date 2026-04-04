@@ -16654,11 +16654,11 @@
     },
     "id": 537699,
     "utcDate": "2026-04-04T14:30:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T15:22:10Z",
+    "lastUpdated": "2026-04-04T16:15:33Z",
     "homeTeam": {
       "id": 674,
       "name": "PSV",
@@ -16674,11 +16674,11 @@
       "crest": "https://crests.football-data.org/676.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
-        "away": 2
+        "home": 3,
+        "away": 3
       },
       "halfTime": {
         "home": 1,
@@ -16704,72 +16704,6 @@
       {
         "id": 43858,
         "name": "Serdar G\u00f6z\u00fcb\u00fcy\u00fck",
-        "type": "REFEREE",
-        "nationality": "Netherlands"
-      }
-    ]
-  },
-  {
-    "area": {
-      "id": 2163,
-      "name": "Netherlands",
-      "code": "NLD",
-      "flag": "https://crests.football-data.org/8601.svg"
-    },
-    "competition": {
-      "id": 2003,
-      "name": "Eredivisie",
-      "code": "DED",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/ED.png"
-    },
-    "season": {
-      "id": 2400,
-      "startDate": "2025-08-08",
-      "endDate": "2026-05-17",
-      "currentMatchday": 29,
-      "winner": null
-    },
-    "id": 537694,
-    "utcDate": "2026-04-04T16:45:00Z",
-    "status": "TIMED",
-    "matchday": 29,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2026-03-29T01:32:03Z",
-    "homeTeam": {
-      "id": 682,
-      "name": "AZ",
-      "shortName": "AZ",
-      "tla": "AZ",
-      "crest": "https://crests.football-data.org/682.png"
-    },
-    "awayTeam": {
-      "id": 1920,
-      "name": "Fortuna Sittard",
-      "shortName": "Sittard",
-      "tla": "SIT",
-      "crest": "https://crests.football-data.org/1920.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": [
-      {
-        "id": 56908,
-        "name": "Richard Martens",
         "type": "REFEREE",
         "nationality": "Netherlands"
       }
@@ -16836,6 +16770,72 @@
       {
         "id": 80087,
         "name": "Jannick van der Laan",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
+  },
+  {
+    "area": {
+      "id": 2163,
+      "name": "Netherlands",
+      "code": "NLD",
+      "flag": "https://crests.football-data.org/8601.svg"
+    },
+    "competition": {
+      "id": 2003,
+      "name": "Eredivisie",
+      "code": "DED",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/ED.png"
+    },
+    "season": {
+      "id": 2400,
+      "startDate": "2025-08-08",
+      "endDate": "2026-05-17",
+      "currentMatchday": 29,
+      "winner": null
+    },
+    "id": 537694,
+    "utcDate": "2026-04-04T17:00:00Z",
+    "status": "TIMED",
+    "matchday": 29,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-04-04T16:20:46Z",
+    "homeTeam": {
+      "id": 682,
+      "name": "AZ",
+      "shortName": "AZ",
+      "tla": "AZ",
+      "crest": "https://crests.football-data.org/682.png"
+    },
+    "awayTeam": {
+      "id": 1920,
+      "name": "Fortuna Sittard",
+      "shortName": "Sittard",
+      "tla": "SIT",
+      "crest": "https://crests.football-data.org/1920.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 56908,
+        "name": "Richard Martens",
         "type": "REFEREE",
         "nationality": "Netherlands"
       }

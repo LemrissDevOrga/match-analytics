@@ -16064,7 +16064,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T15:05:22Z",
+    "lastUpdated": "2026-04-04T16:11:19Z",
     "homeTeam": {
       "id": 576,
       "name": "RC Strasbourg Alsace",
@@ -16080,14 +16080,14 @@
       "crest": "https://crests.football-data.org/522.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 3,
         "away": 0
       },
       "regularTime": {

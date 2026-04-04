@@ -16060,11 +16060,11 @@
     },
     "id": 540649,
     "utcDate": "2026-04-04T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T15:18:23Z",
+    "lastUpdated": "2026-04-04T15:38:00Z",
     "homeTeam": {
       "id": 17,
       "name": "SC Freiburg",
@@ -16080,11 +16080,11 @@
       "crest": "https://crests.football-data.org/5.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 2,
-        "away": 1
+        "away": 3
       },
       "halfTime": {
         "home": 0,
@@ -16138,11 +16138,11 @@
     },
     "id": 540651,
     "utcDate": "2026-04-04T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T15:13:45Z",
+    "lastUpdated": "2026-04-04T15:30:26Z",
     "homeTeam": {
       "id": 2,
       "name": "TSG 1899 Hoffenheim",
@@ -16216,11 +16216,11 @@
     },
     "id": 540652,
     "utcDate": "2026-04-04T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T14:47:43Z",
+    "lastUpdated": "2026-04-04T15:35:32Z",
     "homeTeam": {
       "id": 12,
       "name": "SV Werder Bremen",
@@ -16239,7 +16239,7 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 2
       },
       "halfTime": {
@@ -16294,11 +16294,11 @@
     },
     "id": 540653,
     "utcDate": "2026-04-04T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T15:10:58Z",
+    "lastUpdated": "2026-04-04T15:35:33Z",
     "homeTeam": {
       "id": 3,
       "name": "Bayer 04 Leverkusen",
@@ -16317,7 +16317,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 5,
+        "home": 6,
         "away": 3
       },
       "halfTime": {
@@ -16372,11 +16372,11 @@
     },
     "id": 540654,
     "utcDate": "2026-04-04T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T14:55:52Z",
+    "lastUpdated": "2026-04-04T15:33:13Z",
     "homeTeam": {
       "id": 7,
       "name": "Hamburger SV",
@@ -16450,11 +16450,11 @@
     },
     "id": 540656,
     "utcDate": "2026-04-04T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T15:09:04Z",
+    "lastUpdated": "2026-04-04T15:29:36Z",
     "homeTeam": {
       "id": 18,
       "name": "Borussia M\u00f6nchengladbach",
