@@ -19310,11 +19310,11 @@
     },
     "id": 544507,
     "utcDate": "2026-04-05T12:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:00Z",
+    "lastUpdated": "2026-04-05T14:00:56Z",
     "homeTeam": {
       "id": 82,
       "name": "Getafe CF",
@@ -19330,21 +19330,40 @@
       "crest": "https://crests.football-data.org/77.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 206203,
+        "name": "Juan Mart\u00ednez Munuera",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -19369,11 +19388,11 @@
     },
     "id": 544508,
     "utcDate": "2026-04-05T14:15:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-04T01:32:02Z",
+    "lastUpdated": "2026-04-05T15:13:21Z",
     "homeTeam": {
       "id": 95,
       "name": "Valencia CF",
@@ -19389,21 +19408,40 @@
       "crest": "https://crests.football-data.org/558.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 215593,
+        "name": "Iosu Galech Apeztegu\u00eda",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -19462,7 +19500,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 206208,
+        "name": "Alejandro Hern\u00e1ndez Hern\u00e1ndez",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {

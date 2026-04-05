@@ -16984,11 +16984,11 @@
     },
     "id": 537697,
     "utcDate": "2026-04-05T10:15:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-30T01:32:03Z",
+    "lastUpdated": "2026-04-05T13:45:35Z",
     "homeTeam": {
       "id": 718,
       "name": "Go Ahead Eagles",
@@ -17004,21 +17004,40 @@
       "crest": "https://crests.football-data.org/684.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 5,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 43899,
+        "name": "Danny Makkelie",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {
@@ -17043,11 +17062,11 @@
     },
     "id": 537696,
     "utcDate": "2026-04-05T12:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:00Z",
+    "lastUpdated": "2026-04-05T14:28:56Z",
     "homeTeam": {
       "id": 1919,
       "name": "FC Volendam",
@@ -17063,21 +17082,40 @@
       "crest": "https://crests.football-data.org/675.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 9561,
+        "name": "Allard Lindhout",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {
@@ -17102,11 +17140,11 @@
     },
     "id": 537700,
     "utcDate": "2026-04-05T12:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:00Z",
+    "lastUpdated": "2026-04-05T14:35:25Z",
     "homeTeam": {
       "id": 673,
       "name": "SC Heerenveen",
@@ -17122,21 +17160,40 @@
       "crest": "https://crests.football-data.org/671.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 17127,
+        "name": "Ingmar Oostrom",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {
@@ -17161,11 +17218,11 @@
     },
     "id": 537698,
     "utcDate": "2026-04-05T14:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:00Z",
+    "lastUpdated": "2026-04-05T14:50:32Z",
     "homeTeam": {
       "id": 681,
       "name": "NAC Breda",
@@ -17181,21 +17238,40 @@
       "crest": "https://crests.football-data.org/6806.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 81036,
+        "name": "Robin Hensgens",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {
