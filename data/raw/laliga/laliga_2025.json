@@ -19466,11 +19466,11 @@
     },
     "id": 544506,
     "utcDate": "2026-04-05T16:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:00Z",
+    "lastUpdated": "2026-04-05T17:11:21Z",
     "homeTeam": {
       "id": 1048,
       "name": "Real Oviedo",
@@ -19486,15 +19486,27 @@
       "crest": "https://crests.football-data.org/559.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -19566,7 +19578,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 207113,
+        "name": "C\u00e9sar Soto Grado",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {

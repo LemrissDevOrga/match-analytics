@@ -16600,11 +16600,11 @@
     },
     "id": 540657,
     "utcDate": "2026-04-05T15:30:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T16:21:05Z",
+    "lastUpdated": "2026-04-05T17:17:11Z",
     "homeTeam": {
       "id": 19,
       "name": "Eintracht Frankfurt",
@@ -16623,8 +16623,8 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
         "home": 0,

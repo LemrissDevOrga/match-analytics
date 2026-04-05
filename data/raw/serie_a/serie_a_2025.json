@@ -20102,7 +20102,7 @@
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T16:05:05Z",
+    "lastUpdated": "2026-04-05T17:09:51Z",
     "homeTeam": {
       "id": 487,
       "name": "AC Pisa 1909",
@@ -20210,7 +20210,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57826,
+        "name": "Simone Sozza",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
