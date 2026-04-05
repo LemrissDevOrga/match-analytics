@@ -19544,11 +19544,11 @@
     },
     "id": 544501,
     "utcDate": "2026-04-05T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T20:13:12Z",
+    "lastUpdated": "2026-04-05T21:06:06Z",
     "homeTeam": {
       "id": 263,
       "name": "Deportivo Alav\u00e9s",
@@ -19567,8 +19567,8 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
-        "away": 1
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
         "home": 1,

@@ -20176,11 +20176,11 @@
     },
     "id": 537116,
     "utcDate": "2026-04-05T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T20:21:20Z",
+    "lastUpdated": "2026-04-05T20:45:20Z",
     "homeTeam": {
       "id": 108,
       "name": "FC Internazionale Milano",
