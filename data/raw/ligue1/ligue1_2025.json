@@ -16574,7 +16574,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T18:50:02Z",
+    "lastUpdated": "2026-04-05T20:10:01Z",
     "homeTeam": {
       "id": 548,
       "name": "AS Monaco FC",
@@ -16590,10 +16590,10 @@
       "crest": "https://crests.football-data.org/516.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {

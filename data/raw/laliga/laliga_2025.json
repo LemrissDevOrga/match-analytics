@@ -19548,7 +19548,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T19:13:33Z",
+    "lastUpdated": "2026-04-05T20:13:12Z",
     "homeTeam": {
       "id": 263,
       "name": "Deportivo Alav\u00e9s",
@@ -19564,15 +19564,15 @@
       "crest": "https://crests.football-data.org/79.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "regularTime": {
         "home": 0,
