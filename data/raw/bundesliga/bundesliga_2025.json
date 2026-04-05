@@ -16522,11 +16522,11 @@
     },
     "id": 540655,
     "utcDate": "2026-04-05T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T14:46:06Z",
+    "lastUpdated": "2026-04-05T15:31:21Z",
     "homeTeam": {
       "id": 28,
       "name": "1. FC Union Berlin",
@@ -16600,11 +16600,11 @@
     },
     "id": 540657,
     "utcDate": "2026-04-05T15:30:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-30T01:32:03Z",
+    "lastUpdated": "2026-04-05T16:21:05Z",
     "homeTeam": {
       "id": 19,
       "name": "Eintracht Frankfurt",
@@ -16620,15 +16620,27 @@
       "crest": "https://crests.football-data.org/1.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

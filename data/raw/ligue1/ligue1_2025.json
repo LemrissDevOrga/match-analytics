@@ -16336,11 +16336,11 @@
     },
     "id": 542649,
     "utcDate": "2026-04-05T15:15:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T15:20:28Z",
+    "lastUpdated": "2026-04-05T16:10:23Z",
     "homeTeam": {
       "id": 533,
       "name": "Le Havre AC",
@@ -16359,12 +16359,12 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "regularTime": {
         "home": 0,
@@ -16418,7 +16418,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T15:20:28Z",
+    "lastUpdated": "2026-04-05T16:25:43Z",
     "homeTeam": {
       "id": 525,
       "name": "FC Lorient",
@@ -16496,7 +16496,7 @@
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T15:20:17Z",
+    "lastUpdated": "2026-04-05T16:25:04Z",
     "homeTeam": {
       "id": 545,
       "name": "FC Metz",
