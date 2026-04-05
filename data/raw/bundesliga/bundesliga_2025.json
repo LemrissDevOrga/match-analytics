@@ -16600,11 +16600,11 @@
     },
     "id": 540657,
     "utcDate": "2026-04-05T15:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T17:17:11Z",
+    "lastUpdated": "2026-04-05T17:31:51Z",
     "homeTeam": {
       "id": 19,
       "name": "Eintracht Frankfurt",

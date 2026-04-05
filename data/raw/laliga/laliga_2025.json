@@ -19470,7 +19470,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T17:11:21Z",
+    "lastUpdated": "2026-04-05T17:47:53Z",
     "homeTeam": {
       "id": 1048,
       "name": "Real Oviedo",
@@ -19493,7 +19493,7 @@
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
