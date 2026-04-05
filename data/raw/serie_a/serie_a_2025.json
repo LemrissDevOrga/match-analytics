@@ -20176,11 +20176,11 @@
     },
     "id": 537116,
     "utcDate": "2026-04-05T18:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-30T01:32:03Z",
+    "lastUpdated": "2026-04-05T18:54:02Z",
     "homeTeam": {
       "id": 108,
       "name": "FC Internazionale Milano",
@@ -20196,15 +20196,27 @@
       "crest": "https://crests.football-data.org/100.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

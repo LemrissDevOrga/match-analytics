@@ -19466,11 +19466,11 @@
     },
     "id": 544506,
     "utcDate": "2026-04-05T16:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T17:47:53Z",
+    "lastUpdated": "2026-04-05T18:37:51Z",
     "homeTeam": {
       "id": 1048,
       "name": "Real Oviedo",
@@ -19544,11 +19544,11 @@
     },
     "id": 544501,
     "utcDate": "2026-04-05T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:01Z",
+    "lastUpdated": "2026-04-05T19:13:33Z",
     "homeTeam": {
       "id": 263,
       "name": "Deportivo Alav\u00e9s",
@@ -19564,15 +19564,27 @@
       "crest": "https://crests.football-data.org/79.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
