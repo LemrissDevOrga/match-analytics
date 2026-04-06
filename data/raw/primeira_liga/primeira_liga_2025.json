@@ -7311,7 +7311,7 @@
     "matchday": 14,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-06T00:20:34Z",
+    "lastUpdated": "2026-04-06T22:25:22Z",
     "homeTeam": {
       "id": 5529,
       "name": "CD Nacional",
@@ -7334,6 +7334,18 @@
         "away": 1
       },
       "halfTime": {
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 3,
+        "away": 1
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
         "home": 0,
         "away": 0
       }
@@ -15575,11 +15587,11 @@
     },
     "id": 545949,
     "utcDate": "2026-04-06T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 28,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-06T21:23:11Z",
+    "lastUpdated": "2026-04-06T21:52:31Z",
     "homeTeam": {
       "id": 6618,
       "name": "Casa Pia AC",
@@ -15595,10 +15607,10 @@
       "crest": "https://crests.football-data.org/1903.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "halfTime": {
