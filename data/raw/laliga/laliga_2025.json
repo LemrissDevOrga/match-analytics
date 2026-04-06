@@ -19578,7 +19578,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-06T19:05:13Z",
+    "lastUpdated": "2026-04-06T20:11:22Z",
     "homeTeam": {
       "id": 298,
       "name": "Girona FC",
@@ -19594,14 +19594,14 @@
       "crest": "https://crests.football-data.org/94.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
