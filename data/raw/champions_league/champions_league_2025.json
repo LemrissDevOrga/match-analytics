@@ -11658,7 +11658,7 @@
     "matchday": 1,
     "stage": "QUARTER_FINALS",
     "group": null,
-    "lastUpdated": "2026-04-07T19:46:22Z",
+    "lastUpdated": "2026-04-07T20:10:22Z",
     "homeTeam": {
       "id": 86,
       "name": "Real Madrid CF",
@@ -11678,11 +11678,11 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,
@@ -11736,7 +11736,7 @@
     "matchday": 1,
     "stage": "QUARTER_FINALS",
     "group": null,
-    "lastUpdated": "2026-04-07T19:05:04Z",
+    "lastUpdated": "2026-04-07T20:30:54Z",
     "homeTeam": {
       "id": 498,
       "name": "Sporting Clube de Portugal",
@@ -11752,11 +11752,11 @@
       "crest": "https://crests.football-data.org/57.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
