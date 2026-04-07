@@ -7311,7 +7311,7 @@
     "matchday": 14,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-07T00:21:00Z",
+    "lastUpdated": "2026-04-07T13:25:24Z",
     "homeTeam": {
       "id": 5529,
       "name": "CD Nacional",
@@ -7334,6 +7334,18 @@
         "away": 1
       },
       "halfTime": {
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
         "home": 0,
         "away": 0
       }
