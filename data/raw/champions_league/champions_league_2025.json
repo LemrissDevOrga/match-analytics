@@ -11654,11 +11654,11 @@
     },
     "id": 556719,
     "utcDate": "2026-04-07T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 1,
     "stage": "QUARTER_FINALS",
     "group": null,
-    "lastUpdated": "2026-04-07T20:10:22Z",
+    "lastUpdated": "2026-04-07T20:59:32Z",
     "homeTeam": {
       "id": 86,
       "name": "Real Madrid CF",
@@ -11677,7 +11677,7 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 2
       },
       "halfTime": {
@@ -11732,11 +11732,11 @@
     },
     "id": 556721,
     "utcDate": "2026-04-07T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 1,
     "stage": "QUARTER_FINALS",
     "group": null,
-    "lastUpdated": "2026-04-07T20:30:54Z",
+    "lastUpdated": "2026-04-07T21:00:52Z",
     "homeTeam": {
       "id": 498,
       "name": "Sporting Clube de Portugal",
