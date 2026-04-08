@@ -11786,11 +11786,11 @@
     },
     "id": 556718,
     "utcDate": "2026-04-08T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 1,
     "stage": "QUARTER_FINALS",
     "group": null,
-    "lastUpdated": "2026-04-08T20:29:32Z",
+    "lastUpdated": "2026-04-08T20:58:52Z",
     "homeTeam": {
       "id": 524,
       "name": "Paris Saint-Germain FC",
@@ -11864,11 +11864,11 @@
     },
     "id": 556720,
     "utcDate": "2026-04-08T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 1,
     "stage": "QUARTER_FINALS",
     "group": null,
-    "lastUpdated": "2026-04-08T20:12:12Z",
+    "lastUpdated": "2026-04-08T21:01:31Z",
     "homeTeam": {
       "id": 81,
       "name": "FC Barcelona",
@@ -11888,7 +11888,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,
