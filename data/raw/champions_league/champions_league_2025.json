@@ -11790,7 +11790,7 @@
     "matchday": 1,
     "stage": "QUARTER_FINALS",
     "group": null,
-    "lastUpdated": "2026-04-08T19:05:32Z",
+    "lastUpdated": "2026-04-08T20:29:32Z",
     "homeTeam": {
       "id": 524,
       "name": "Paris Saint-Germain FC",
@@ -11806,14 +11806,14 @@
       "crest": "https://crests.football-data.org/64.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
@@ -11868,7 +11868,7 @@
     "matchday": 1,
     "stage": "QUARTER_FINALS",
     "group": null,
-    "lastUpdated": "2026-04-08T19:05:03Z",
+    "lastUpdated": "2026-04-08T20:12:12Z",
     "homeTeam": {
       "id": 81,
       "name": "FC Barcelona",
@@ -11884,15 +11884,15 @@
       "crest": "https://crests.football-data.org/78.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,
