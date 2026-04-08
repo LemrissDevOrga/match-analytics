@@ -11820,7 +11820,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 207080,
+        "name": "Jos\u00e9 S\u00e1nchez Mart\u00ednez",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -11879,7 +11886,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 37278,
+        "name": "Istv\u00e1n Kov\u00e1cs",
+        "type": "REFEREE",
+        "nationality": "Romania"
+      }
+    ]
   },
   {
     "area": {
