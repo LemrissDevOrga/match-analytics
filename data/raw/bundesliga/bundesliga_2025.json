@@ -16654,11 +16654,11 @@
     },
     "id": 540665,
     "utcDate": "2026-04-10T18:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-09T05:27:37Z",
+    "lastUpdated": "2026-04-10T18:35:04Z",
     "homeTeam": {
       "id": 16,
       "name": "FC Augsburg",
@@ -16674,15 +16674,27 @@
       "crest": "https://crests.football-data.org/2.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
