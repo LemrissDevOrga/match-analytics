@@ -16654,11 +16654,11 @@
     },
     "id": 540665,
     "utcDate": "2026-04-10T18:30:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T18:35:04Z",
+    "lastUpdated": "2026-04-10T19:23:03Z",
     "homeTeam": {
       "id": 16,
       "name": "FC Augsburg",
@@ -16677,12 +16677,12 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 2
       },
       "regularTime": {
         "home": 0,

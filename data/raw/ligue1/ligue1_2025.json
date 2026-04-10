@@ -16588,11 +16588,11 @@
     },
     "id": 542659,
     "utcDate": "2026-04-10T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T18:39:59Z",
+    "lastUpdated": "2026-04-10T19:02:26Z",
     "homeTeam": {
       "id": 1045,
       "name": "Paris FC",
@@ -16666,11 +16666,11 @@
     },
     "id": 542663,
     "utcDate": "2026-04-10T19:05:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:03Z",
+    "lastUpdated": "2026-04-10T19:24:25Z",
     "homeTeam": {
       "id": 516,
       "name": "Olympique de Marseille",
@@ -16686,15 +16686,27 @@
       "crest": "https://crests.football-data.org/545.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

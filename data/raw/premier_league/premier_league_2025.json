@@ -20475,11 +20475,11 @@
     },
     "id": 538104,
     "utcDate": "2026-04-10T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T00:21:02Z",
+    "lastUpdated": "2026-04-10T19:05:04Z",
     "homeTeam": {
       "id": 563,
       "name": "West Ham United FC",
@@ -20495,15 +20495,27 @@
       "crest": "https://crests.football-data.org/76.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

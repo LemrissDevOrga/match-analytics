@@ -17252,7 +17252,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T18:40:28Z",
+    "lastUpdated": "2026-04-10T19:10:26Z",
     "homeTeam": {
       "id": 666,
       "name": "FC Twente '65",
@@ -17275,7 +17275,7 @@
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {
