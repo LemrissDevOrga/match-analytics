@@ -19644,7 +19644,7 @@
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T19:05:03Z",
+    "lastUpdated": "2026-04-10T20:16:08Z",
     "homeTeam": {
       "id": 86,
       "name": "Real Madrid CF",
@@ -19660,10 +19660,10 @@
       "crest": "https://crests.football-data.org/298.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {

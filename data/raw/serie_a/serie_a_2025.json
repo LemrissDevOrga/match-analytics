@@ -20486,7 +20486,7 @@
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T19:34:56Z",
+    "lastUpdated": "2026-04-10T20:02:49Z",
     "homeTeam": {
       "id": 100,
       "name": "AS Roma",
@@ -20505,11 +20505,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {

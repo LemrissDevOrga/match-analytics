@@ -17248,11 +17248,11 @@
     },
     "id": 537710,
     "utcDate": "2026-04-10T18:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T19:10:26Z",
+    "lastUpdated": "2026-04-10T19:59:52Z",
     "homeTeam": {
       "id": 666,
       "name": "FC Twente '65",
@@ -17272,7 +17272,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 2,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 2,

@@ -16670,7 +16670,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T19:24:25Z",
+    "lastUpdated": "2026-04-10T20:20:33Z",
     "homeTeam": {
       "id": 516,
       "name": "Olympique de Marseille",
@@ -16689,11 +16689,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
@@ -18258,7 +18258,7 @@
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T13:25:29Z",
+    "lastUpdated": "2026-04-10T13:25:28Z",
     "homeTeam": {
       "id": 524,
       "name": "Paris Saint-Germain FC",
@@ -18376,7 +18376,7 @@
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T13:25:29Z",
+    "lastUpdated": "2026-04-10T13:25:28Z",
     "homeTeam": {
       "id": 522,
       "name": "OGC Nice",
@@ -18435,7 +18435,7 @@
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T13:25:29Z",
+    "lastUpdated": "2026-04-10T13:25:28Z",
     "homeTeam": {
       "id": 521,
       "name": "Lille OSC",
@@ -18553,7 +18553,7 @@
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T13:25:29Z",
+    "lastUpdated": "2026-04-10T13:25:28Z",
     "homeTeam": {
       "id": 1045,
       "name": "Paris FC",
@@ -18671,7 +18671,7 @@
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T13:25:29Z",
+    "lastUpdated": "2026-04-10T13:25:28Z",
     "homeTeam": {
       "id": 523,
       "name": "Olympique Lyonnais",

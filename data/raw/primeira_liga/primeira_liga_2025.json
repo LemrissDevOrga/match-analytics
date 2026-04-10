@@ -15629,11 +15629,11 @@
     },
     "id": 545958,
     "utcDate": "2026-04-10T19:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:03Z",
+    "lastUpdated": "2026-04-10T19:56:43Z",
     "homeTeam": {
       "id": 5531,
       "name": "FC Famalic\u00e3o",
@@ -15649,15 +15649,27 @@
       "crest": "https://crests.football-data.org/583.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
