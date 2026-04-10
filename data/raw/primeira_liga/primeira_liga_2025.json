@@ -15629,11 +15629,11 @@
     },
     "id": 545958,
     "utcDate": "2026-04-10T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T21:26:37Z",
+    "lastUpdated": "2026-04-10T21:54:51Z",
     "homeTeam": {
       "id": 5531,
       "name": "FC Famalic\u00e3o",
