@@ -16654,11 +16654,11 @@
     },
     "id": 540665,
     "utcDate": "2026-04-10T18:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T19:41:36Z",
+    "lastUpdated": "2026-04-10T20:30:32Z",
     "homeTeam": {
       "id": 16,
       "name": "FC Augsburg",

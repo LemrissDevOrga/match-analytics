@@ -16666,11 +16666,11 @@
     },
     "id": 542663,
     "utcDate": "2026-04-10T19:05:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T20:20:33Z",
+    "lastUpdated": "2026-04-10T21:06:37Z",
     "homeTeam": {
       "id": 516,
       "name": "Olympique de Marseille",
@@ -16689,7 +16689,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 1
       },
       "halfTime": {
@@ -18612,7 +18612,7 @@
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T13:25:29Z",
+    "lastUpdated": "2026-04-10T13:25:28Z",
     "homeTeam": {
       "id": 576,
       "name": "RC Strasbourg Alsace",

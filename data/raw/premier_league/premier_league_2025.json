@@ -20475,11 +20475,11 @@
     },
     "id": 538104,
     "utcDate": "2026-04-10T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-10T20:08:33Z",
+    "lastUpdated": "2026-04-10T20:59:37Z",
     "homeTeam": {
       "id": 563,
       "name": "West Ham United FC",
@@ -20498,7 +20498,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 4,
         "away": 0
       },
       "halfTime": {
