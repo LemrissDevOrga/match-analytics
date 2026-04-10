@@ -18169,131 +18169,13 @@
       "currentMatchday": 29,
       "winner": null
     },
-    "id": 542685,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 32,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2025-08-13T08:22:25Z",
-    "homeTeam": {
-      "id": 519,
-      "name": "AJ Auxerre",
-      "shortName": "Auxerre",
-      "tla": "AJA",
-      "crest": "https://crests.football-data.org/519.png"
-    },
-    "awayTeam": {
-      "id": 532,
-      "name": "Angers SCO",
-      "shortName": "Angers SCO",
-      "tla": "ANG",
-      "crest": "https://crests.football-data.org/532.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2081,
-      "name": "France",
-      "code": "FRA",
-      "flag": "https://crests.football-data.org/773.svg"
-    },
-    "competition": {
-      "id": 2015,
-      "name": "Ligue 1",
-      "code": "FL1",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/FL1.png"
-    },
-    "season": {
-      "id": 2420,
-      "startDate": "2025-08-17",
-      "endDate": "2026-05-16",
-      "currentMatchday": 29,
-      "winner": null
-    },
-    "id": 542686,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 32,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2025-08-13T08:22:24Z",
-    "homeTeam": {
-      "id": 545,
-      "name": "FC Metz",
-      "shortName": "FC Metz",
-      "tla": "FCM",
-      "crest": "https://crests.football-data.org/545.png"
-    },
-    "awayTeam": {
-      "id": 548,
-      "name": "AS Monaco FC",
-      "shortName": "Monaco",
-      "tla": "ASM",
-      "crest": "https://crests.football-data.org/548.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2081,
-      "name": "France",
-      "code": "FRA",
-      "flag": "https://crests.football-data.org/773.svg"
-    },
-    "competition": {
-      "id": 2015,
-      "name": "Ligue 1",
-      "code": "FL1",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/FL1.png"
-    },
-    "season": {
-      "id": 2420,
-      "startDate": "2025-08-17",
-      "endDate": "2026-05-16",
-      "currentMatchday": 29,
-      "winner": null
-    },
     "id": 542687,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-01T18:45:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2025-08-13T08:22:24Z",
+    "lastUpdated": "2026-04-10T13:25:28Z",
     "homeTeam": {
       "id": 543,
       "name": "FC Nantes",
@@ -18346,249 +18228,13 @@
       "currentMatchday": 29,
       "winner": null
     },
-    "id": 542688,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 32,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2025-08-13T08:23:19Z",
-    "homeTeam": {
-      "id": 1045,
-      "name": "Paris FC",
-      "shortName": "Paris FC",
-      "tla": "PFC",
-      "crest": "https://crests.football-data.org/1045.png"
-    },
-    "awayTeam": {
-      "id": 512,
-      "name": "Stade Brestois 29",
-      "shortName": "Brest",
-      "tla": "BRE",
-      "crest": "https://crests.football-data.org/512.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2081,
-      "name": "France",
-      "code": "FRA",
-      "flag": "https://crests.football-data.org/773.svg"
-    },
-    "competition": {
-      "id": 2015,
-      "name": "Ligue 1",
-      "code": "FL1",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/FL1.png"
-    },
-    "season": {
-      "id": 2420,
-      "startDate": "2025-08-17",
-      "endDate": "2026-05-16",
-      "currentMatchday": 29,
-      "winner": null
-    },
-    "id": 542689,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 32,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2025-08-13T08:22:24Z",
-    "homeTeam": {
-      "id": 522,
-      "name": "OGC Nice",
-      "shortName": "Nice",
-      "tla": "NIC",
-      "crest": "https://crests.football-data.org/522.png"
-    },
-    "awayTeam": {
-      "id": 546,
-      "name": "Racing Club de Lens",
-      "shortName": "RC Lens",
-      "tla": "RCL",
-      "crest": "https://crests.football-data.org/546.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2081,
-      "name": "France",
-      "code": "FRA",
-      "flag": "https://crests.football-data.org/773.svg"
-    },
-    "competition": {
-      "id": 2015,
-      "name": "Ligue 1",
-      "code": "FL1",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/FL1.png"
-    },
-    "season": {
-      "id": 2420,
-      "startDate": "2025-08-17",
-      "endDate": "2026-05-16",
-      "currentMatchday": 29,
-      "winner": null
-    },
-    "id": 542690,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 32,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2025-08-13T08:22:25Z",
-    "homeTeam": {
-      "id": 523,
-      "name": "Olympique Lyonnais",
-      "shortName": "Olympique Lyon",
-      "tla": "LYO",
-      "crest": "https://crests.football-data.org/523.png"
-    },
-    "awayTeam": {
-      "id": 529,
-      "name": "Stade Rennais FC 1901",
-      "shortName": "Stade Rennais",
-      "tla": "REN",
-      "crest": "https://crests.football-data.org/529.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2081,
-      "name": "France",
-      "code": "FRA",
-      "flag": "https://crests.football-data.org/773.svg"
-    },
-    "competition": {
-      "id": 2015,
-      "name": "Ligue 1",
-      "code": "FL1",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/FL1.png"
-    },
-    "season": {
-      "id": 2420,
-      "startDate": "2025-08-17",
-      "endDate": "2026-05-16",
-      "currentMatchday": 29,
-      "winner": null
-    },
-    "id": 542691,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 32,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2025-08-13T08:22:24Z",
-    "homeTeam": {
-      "id": 521,
-      "name": "Lille OSC",
-      "shortName": "Lille",
-      "tla": "LIL",
-      "crest": "https://crests.football-data.org/521.png"
-    },
-    "awayTeam": {
-      "id": 533,
-      "name": "Le Havre AC",
-      "shortName": "Le Havre",
-      "tla": "HAC",
-      "crest": "https://crests.football-data.org/533.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2081,
-      "name": "France",
-      "code": "FRA",
-      "flag": "https://crests.football-data.org/773.svg"
-    },
-    "competition": {
-      "id": 2015,
-      "name": "Ligue 1",
-      "code": "FL1",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/FL1.png"
-    },
-    "season": {
-      "id": 2420,
-      "startDate": "2025-08-17",
-      "endDate": "2026-05-16",
-      "currentMatchday": 29,
-      "winner": null
-    },
     "id": 542692,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-02T15:00:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2025-08-29T05:20:57Z",
+    "lastUpdated": "2026-04-10T13:25:29Z",
     "homeTeam": {
       "id": 524,
       "name": "Paris Saint-Germain FC",
@@ -18641,13 +18287,308 @@
       "currentMatchday": 29,
       "winner": null
     },
-    "id": 542693,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "id": 542686,
+    "utcDate": "2026-05-02T17:00:00Z",
+    "status": "TIMED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2025-08-13T08:22:25Z",
+    "lastUpdated": "2026-04-10T13:25:28Z",
+    "homeTeam": {
+      "id": 545,
+      "name": "FC Metz",
+      "shortName": "FC Metz",
+      "tla": "FCM",
+      "crest": "https://crests.football-data.org/545.png"
+    },
+    "awayTeam": {
+      "id": 548,
+      "name": "AS Monaco FC",
+      "shortName": "Monaco",
+      "tla": "ASM",
+      "crest": "https://crests.football-data.org/548.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2081,
+      "name": "France",
+      "code": "FRA",
+      "flag": "https://crests.football-data.org/773.svg"
+    },
+    "competition": {
+      "id": 2015,
+      "name": "Ligue 1",
+      "code": "FL1",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/FL1.png"
+    },
+    "season": {
+      "id": 2420,
+      "startDate": "2025-08-17",
+      "endDate": "2026-05-16",
+      "currentMatchday": 29,
+      "winner": null
+    },
+    "id": 542689,
+    "utcDate": "2026-05-02T19:05:00Z",
+    "status": "TIMED",
+    "matchday": 32,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-04-10T13:25:29Z",
+    "homeTeam": {
+      "id": 522,
+      "name": "OGC Nice",
+      "shortName": "Nice",
+      "tla": "NIC",
+      "crest": "https://crests.football-data.org/522.png"
+    },
+    "awayTeam": {
+      "id": 546,
+      "name": "Racing Club de Lens",
+      "shortName": "RC Lens",
+      "tla": "RCL",
+      "crest": "https://crests.football-data.org/546.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2081,
+      "name": "France",
+      "code": "FRA",
+      "flag": "https://crests.football-data.org/773.svg"
+    },
+    "competition": {
+      "id": 2015,
+      "name": "Ligue 1",
+      "code": "FL1",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/FL1.png"
+    },
+    "season": {
+      "id": 2420,
+      "startDate": "2025-08-17",
+      "endDate": "2026-05-16",
+      "currentMatchday": 29,
+      "winner": null
+    },
+    "id": 542691,
+    "utcDate": "2026-05-03T13:00:00Z",
+    "status": "TIMED",
+    "matchday": 32,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-04-10T13:25:29Z",
+    "homeTeam": {
+      "id": 521,
+      "name": "Lille OSC",
+      "shortName": "Lille",
+      "tla": "LIL",
+      "crest": "https://crests.football-data.org/521.png"
+    },
+    "awayTeam": {
+      "id": 533,
+      "name": "Le Havre AC",
+      "shortName": "Le Havre",
+      "tla": "HAC",
+      "crest": "https://crests.football-data.org/533.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2081,
+      "name": "France",
+      "code": "FRA",
+      "flag": "https://crests.football-data.org/773.svg"
+    },
+    "competition": {
+      "id": 2015,
+      "name": "Ligue 1",
+      "code": "FL1",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/FL1.png"
+    },
+    "season": {
+      "id": 2420,
+      "startDate": "2025-08-17",
+      "endDate": "2026-05-16",
+      "currentMatchday": 29,
+      "winner": null
+    },
+    "id": 542685,
+    "utcDate": "2026-05-03T15:15:00Z",
+    "status": "TIMED",
+    "matchday": 32,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-04-10T13:25:28Z",
+    "homeTeam": {
+      "id": 519,
+      "name": "AJ Auxerre",
+      "shortName": "Auxerre",
+      "tla": "AJA",
+      "crest": "https://crests.football-data.org/519.png"
+    },
+    "awayTeam": {
+      "id": 532,
+      "name": "Angers SCO",
+      "shortName": "Angers SCO",
+      "tla": "ANG",
+      "crest": "https://crests.football-data.org/532.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2081,
+      "name": "France",
+      "code": "FRA",
+      "flag": "https://crests.football-data.org/773.svg"
+    },
+    "competition": {
+      "id": 2015,
+      "name": "Ligue 1",
+      "code": "FL1",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/FL1.png"
+    },
+    "season": {
+      "id": 2420,
+      "startDate": "2025-08-17",
+      "endDate": "2026-05-16",
+      "currentMatchday": 29,
+      "winner": null
+    },
+    "id": 542688,
+    "utcDate": "2026-05-03T15:15:00Z",
+    "status": "TIMED",
+    "matchday": 32,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-04-10T13:25:29Z",
+    "homeTeam": {
+      "id": 1045,
+      "name": "Paris FC",
+      "shortName": "Paris FC",
+      "tla": "PFC",
+      "crest": "https://crests.football-data.org/1045.png"
+    },
+    "awayTeam": {
+      "id": 512,
+      "name": "Stade Brestois 29",
+      "shortName": "Brest",
+      "tla": "BRE",
+      "crest": "https://crests.football-data.org/512.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2081,
+      "name": "France",
+      "code": "FRA",
+      "flag": "https://crests.football-data.org/773.svg"
+    },
+    "competition": {
+      "id": 2015,
+      "name": "Ligue 1",
+      "code": "FL1",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/FL1.png"
+    },
+    "season": {
+      "id": 2420,
+      "startDate": "2025-08-17",
+      "endDate": "2026-05-16",
+      "currentMatchday": 29,
+      "winner": null
+    },
+    "id": 542693,
+    "utcDate": "2026-05-03T15:15:00Z",
+    "status": "TIMED",
+    "matchday": 32,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-04-10T13:25:29Z",
     "homeTeam": {
       "id": 576,
       "name": "RC Strasbourg Alsace",
@@ -18661,6 +18602,65 @@
       "shortName": "Toulouse",
       "tla": "TOU",
       "crest": "https://crests.football-data.org/511.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2081,
+      "name": "France",
+      "code": "FRA",
+      "flag": "https://crests.football-data.org/773.svg"
+    },
+    "competition": {
+      "id": 2015,
+      "name": "Ligue 1",
+      "code": "FL1",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/FL1.png"
+    },
+    "season": {
+      "id": 2420,
+      "startDate": "2025-08-17",
+      "endDate": "2026-05-16",
+      "currentMatchday": 29,
+      "winner": null
+    },
+    "id": 542690,
+    "utcDate": "2026-05-03T18:45:00Z",
+    "status": "TIMED",
+    "matchday": 32,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-04-10T13:25:29Z",
+    "homeTeam": {
+      "id": 523,
+      "name": "Olympique Lyonnais",
+      "shortName": "Olympique Lyon",
+      "tla": "LYO",
+      "crest": "https://crests.football-data.org/523.png"
+    },
+    "awayTeam": {
+      "id": 529,
+      "name": "Stade Rennais FC 1901",
+      "shortName": "Stade Rennais",
+      "tla": "REN",
+      "crest": "https://crests.football-data.org/529.png"
     },
     "score": {
       "winner": null,
@@ -19291,12 +19291,12 @@
       "winner": null
     },
     "id": 542665,
-    "utcDate": "2026-05-13T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-13T18:00:00Z",
+    "status": "TIMED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-08T15:21:02Z",
+    "lastUpdated": "2026-04-10T13:25:28Z",
     "homeTeam": {
       "id": 512,
       "name": "Stade Brestois 29",
