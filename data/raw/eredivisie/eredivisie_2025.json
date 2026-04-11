@@ -17392,11 +17392,11 @@
     },
     "id": 537709,
     "utcDate": "2026-04-11T16:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T18:00:36Z",
+    "lastUpdated": "2026-04-11T18:51:49Z",
     "homeTeam": {
       "id": 6806,
       "name": "Sparta Rotterdam",
@@ -17416,7 +17416,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,
@@ -17474,7 +17474,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T18:05:12Z",
+    "lastUpdated": "2026-04-11T19:17:04Z",
     "homeTeam": {
       "id": 677,
       "name": "FC Groningen",
@@ -17548,11 +17548,11 @@
     },
     "id": 537706,
     "utcDate": "2026-04-11T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:05Z",
+    "lastUpdated": "2026-04-11T19:24:17Z",
     "homeTeam": {
       "id": 671,
       "name": "Heracles Almelo",
@@ -17568,15 +17568,27 @@
       "crest": "https://crests.football-data.org/678.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

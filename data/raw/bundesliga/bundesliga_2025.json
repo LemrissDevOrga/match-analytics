@@ -17032,11 +17032,11 @@
     },
     "id": 540658,
     "utcDate": "2026-04-11T16:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T18:26:53Z",
+    "lastUpdated": "2026-04-11T18:34:12Z",
     "homeTeam": {
       "id": 20,
       "name": "FC St. Pauli 1910",
@@ -17056,7 +17056,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 5
+        "away": 6
       },
       "halfTime": {
         "home": 0,

@@ -16720,11 +16720,11 @@
     },
     "id": 542658,
     "utcDate": "2026-04-11T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T18:06:30Z",
+    "lastUpdated": "2026-04-11T19:00:23Z",
     "homeTeam": {
       "id": 519,
       "name": "AJ Auxerre",
@@ -16798,11 +16798,11 @@
     },
     "id": 542666,
     "utcDate": "2026-04-11T19:05:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T01:32:01Z",
+    "lastUpdated": "2026-04-11T19:22:58Z",
     "homeTeam": {
       "id": 529,
       "name": "Stade Rennais FC 1901",
@@ -16818,15 +16818,27 @@
       "crest": "https://crests.football-data.org/532.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
