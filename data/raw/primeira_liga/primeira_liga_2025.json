@@ -15851,11 +15851,11 @@
     },
     "id": 545956,
     "utcDate": "2026-04-11T19:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T20:58:54Z",
+    "lastUpdated": "2026-04-11T21:38:12Z",
     "homeTeam": {
       "id": 9136,
       "name": "CF Estrela da Amadora",
