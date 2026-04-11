@@ -20775,11 +20775,11 @@
     },
     "id": 538101,
     "utcDate": "2026-04-11T16:30:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T17:23:05Z",
+    "lastUpdated": "2026-04-11T18:28:53Z",
     "homeTeam": {
       "id": 64,
       "name": "Liverpool FC",

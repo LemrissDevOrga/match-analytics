@@ -15777,7 +15777,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T17:05:00Z",
+    "lastUpdated": "2026-04-11T18:26:55Z",
     "homeTeam": {
       "id": 5530,
       "name": "CD Santa Clara",
@@ -15793,11 +15793,11 @@
       "crest": "https://crests.football-data.org/496.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "halfTime": {
         "home": 0,
@@ -15885,7 +15885,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 98928,
+        "name": "David Silva",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
