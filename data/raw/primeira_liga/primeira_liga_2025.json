@@ -15695,11 +15695,11 @@
     },
     "id": 545954,
     "utcDate": "2026-04-11T14:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T15:45:41Z",
+    "lastUpdated": "2026-04-11T16:39:32Z",
     "homeTeam": {
       "id": 10340,
       "name": "AVS",
@@ -15773,11 +15773,11 @@
     },
     "id": 545959,
     "utcDate": "2026-04-11T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-07T01:32:02Z",
+    "lastUpdated": "2026-04-11T17:05:00Z",
     "homeTeam": {
       "id": 5530,
       "name": "CD Santa Clara",
@@ -15793,15 +15793,27 @@
       "crest": "https://crests.football-data.org/496.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
