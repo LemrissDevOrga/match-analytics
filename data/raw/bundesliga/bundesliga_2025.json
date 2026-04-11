@@ -16720,11 +16720,11 @@
     },
     "id": 540659,
     "utcDate": "2026-04-11T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T14:40:17Z",
+    "lastUpdated": "2026-04-11T15:29:33Z",
     "homeTeam": {
       "id": 4,
       "name": "Borussia Dortmund",
@@ -16798,11 +16798,11 @@
     },
     "id": 540660,
     "utcDate": "2026-04-11T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T14:39:32Z",
+    "lastUpdated": "2026-04-11T15:32:39Z",
     "homeTeam": {
       "id": 11,
       "name": "VfL Wolfsburg",
@@ -16821,7 +16821,7 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 2
       },
       "halfTime": {
@@ -16876,11 +16876,11 @@
     },
     "id": 540663,
     "utcDate": "2026-04-11T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T15:14:48Z",
+    "lastUpdated": "2026-04-11T15:31:30Z",
     "homeTeam": {
       "id": 721,
       "name": "RB Leipzig",
@@ -16954,11 +16954,11 @@
     },
     "id": 540664,
     "utcDate": "2026-04-11T13:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T15:13:02Z",
+    "lastUpdated": "2026-04-11T15:32:40Z",
     "homeTeam": {
       "id": 44,
       "name": "1. FC Heidenheim 1846",
@@ -16977,7 +16977,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 3,
+        "home": 4,
         "away": 1
       },
       "halfTime": {

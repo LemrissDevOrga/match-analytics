@@ -20619,11 +20619,11 @@
     },
     "id": 538098,
     "utcDate": "2026-04-11T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T15:11:51Z",
+    "lastUpdated": "2026-04-11T16:01:04Z",
     "homeTeam": {
       "id": 402,
       "name": "Brentford FC",
@@ -20642,8 +20642,8 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
-        "away": 1
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
         "home": 1,
@@ -20697,11 +20697,11 @@
     },
     "id": 538099,
     "utcDate": "2026-04-11T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T15:11:07Z",
+    "lastUpdated": "2026-04-11T16:04:50Z",
     "homeTeam": {
       "id": 328,
       "name": "Burnley FC",
@@ -20721,7 +20721,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,

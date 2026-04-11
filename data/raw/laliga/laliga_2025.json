@@ -19784,11 +19784,11 @@
     },
     "id": 544514,
     "utcDate": "2026-04-11T14:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T15:24:04Z",
+    "lastUpdated": "2026-04-11T16:15:47Z",
     "homeTeam": {
       "id": 285,
       "name": "Elche CF",
@@ -19804,10 +19804,10 @@
       "crest": "https://crests.football-data.org/95.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
