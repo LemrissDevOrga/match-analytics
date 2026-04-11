@@ -16720,11 +16720,11 @@
     },
     "id": 540659,
     "utcDate": "2026-04-11T13:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-09T05:27:24Z",
+    "lastUpdated": "2026-04-11T14:40:17Z",
     "homeTeam": {
       "id": 4,
       "name": "Borussia Dortmund",
@@ -16740,15 +16740,27 @@
       "crest": "https://crests.football-data.org/3.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -16786,11 +16798,11 @@
     },
     "id": 540660,
     "utcDate": "2026-04-11T13:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T00:21:02Z",
+    "lastUpdated": "2026-04-11T14:39:32Z",
     "homeTeam": {
       "id": 11,
       "name": "VfL Wolfsburg",
@@ -16806,15 +16818,27 @@
       "crest": "https://crests.football-data.org/19.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -16852,11 +16876,11 @@
     },
     "id": 540663,
     "utcDate": "2026-04-11T13:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:04Z",
+    "lastUpdated": "2026-04-11T15:14:48Z",
     "homeTeam": {
       "id": 721,
       "name": "RB Leipzig",
@@ -16872,15 +16896,27 @@
       "crest": "https://crests.football-data.org/18.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -16918,11 +16954,11 @@
     },
     "id": 540664,
     "utcDate": "2026-04-11T13:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T01:32:00Z",
+    "lastUpdated": "2026-04-11T15:13:02Z",
     "homeTeam": {
       "id": 44,
       "name": "1. FC Heidenheim 1846",
@@ -16938,15 +16974,27 @@
       "crest": "https://crests.football-data.org/28.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

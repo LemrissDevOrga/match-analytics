@@ -15695,11 +15695,11 @@
     },
     "id": 545954,
     "utcDate": "2026-04-11T14:30:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T01:32:01Z",
+    "lastUpdated": "2026-04-11T15:25:48Z",
     "homeTeam": {
       "id": 10340,
       "name": "AVS",
@@ -15715,21 +15715,40 @@
       "crest": "https://crests.football-data.org/5543.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 38408,
+        "name": "Iancu Vasilica",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
@@ -15788,7 +15807,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 40158,
+        "name": "Miguel Nogueira",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {

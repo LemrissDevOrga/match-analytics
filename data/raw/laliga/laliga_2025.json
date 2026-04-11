@@ -19706,11 +19706,11 @@
     },
     "id": 544516,
     "utcDate": "2026-04-11T12:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-06T01:32:02Z",
+    "lastUpdated": "2026-04-11T14:10:37Z",
     "homeTeam": {
       "id": 92,
       "name": "Real Sociedad de F\u00fatbol",
@@ -19726,21 +19726,40 @@
       "crest": "https://crests.football-data.org/263.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 3
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 56995,
+        "name": "V\u00edctor Garc\u00eda Verdura",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -19765,11 +19784,11 @@
     },
     "id": 544514,
     "utcDate": "2026-04-11T14:15:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-07T01:32:02Z",
+    "lastUpdated": "2026-04-11T15:24:04Z",
     "homeTeam": {
       "id": 285,
       "name": "Elche CF",
@@ -19785,21 +19804,40 @@
       "crest": "https://crests.football-data.org/95.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 214213,
+        "name": "Francisco Hern\u00e1ndez Maeso",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -19858,7 +19896,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 206208,
+        "name": "Alejandro Hern\u00e1ndez Hern\u00e1ndez",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -19917,7 +19962,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57930,
+        "name": "Isidro D\u00edaz de Mera",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {

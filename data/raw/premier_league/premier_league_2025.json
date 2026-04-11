@@ -20541,11 +20541,11 @@
     },
     "id": 538097,
     "utcDate": "2026-04-11T11:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:03Z",
+    "lastUpdated": "2026-04-11T13:30:40Z",
     "homeTeam": {
       "id": 57,
       "name": "Arsenal FC",
@@ -20561,15 +20561,27 @@
       "crest": "https://crests.football-data.org/bournemouth.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -20607,11 +20619,11 @@
     },
     "id": 538098,
     "utcDate": "2026-04-11T14:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:04Z",
+    "lastUpdated": "2026-04-11T15:11:51Z",
     "homeTeam": {
       "id": 402,
       "name": "Brentford FC",
@@ -20627,15 +20639,27 @@
       "crest": "https://crests.football-data.org/62.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -20673,11 +20697,11 @@
     },
     "id": 538099,
     "utcDate": "2026-04-11T14:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-05T01:32:04Z",
+    "lastUpdated": "2026-04-11T15:11:07Z",
     "homeTeam": {
       "id": 328,
       "name": "Burnley FC",
@@ -20693,15 +20717,27 @@
       "crest": "https://crests.football-data.org/397.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
