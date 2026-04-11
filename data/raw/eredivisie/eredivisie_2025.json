@@ -17474,7 +17474,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T20:07:56Z",
+    "lastUpdated": "2026-04-11T20:07:57Z",
     "homeTeam": {
       "id": 677,
       "name": "FC Groningen",
@@ -17548,11 +17548,11 @@
     },
     "id": 537706,
     "utcDate": "2026-04-11T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T20:12:15Z",
+    "lastUpdated": "2026-04-11T21:02:02Z",
     "homeTeam": {
       "id": 671,
       "name": "Heracles Almelo",

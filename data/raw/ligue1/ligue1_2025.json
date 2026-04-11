@@ -16786,11 +16786,11 @@
     },
     "id": 542666,
     "utcDate": "2026-04-11T19:05:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T20:13:36Z",
+    "lastUpdated": "2026-04-11T21:04:52Z",
     "homeTeam": {
       "id": 529,
       "name": "Stade Rennais FC 1901",
@@ -16810,7 +16810,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 2,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 2,
