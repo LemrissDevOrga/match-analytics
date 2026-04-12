@@ -15893,11 +15893,11 @@
     },
     "id": 545957,
     "utcDate": "2026-04-12T14:30:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T01:32:00Z",
+    "lastUpdated": "2026-04-12T15:26:05Z",
     "homeTeam": {
       "id": 7822,
       "name": "FC Alverca",
@@ -15913,21 +15913,40 @@
       "crest": "https://crests.football-data.org/6618.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 291275,
+        "name": "Lu\u00ed\u00ads Carlos Mateus Filipe",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
@@ -15986,7 +16005,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 176741,
+        "name": "Claudio Pereira",
+        "type": "REFEREE",
+        "nationality": null
+      }
+    ]
   },
   {
     "area": {
@@ -16045,7 +16071,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 37812,
+        "name": "F\u00e1bio Ver\u00edssimo",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {

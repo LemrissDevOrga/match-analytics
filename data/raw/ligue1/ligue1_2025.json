@@ -16852,11 +16852,11 @@
     },
     "id": 542660,
     "utcDate": "2026-04-12T15:15:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T01:32:02Z",
+    "lastUpdated": "2026-04-12T15:20:24Z",
     "homeTeam": {
       "id": 511,
       "name": "Toulouse FC",
@@ -16872,15 +16872,27 @@
       "crest": "https://crests.football-data.org/521.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -16918,11 +16930,11 @@
     },
     "id": 542661,
     "utcDate": "2026-04-12T15:15:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-06T01:32:05Z",
+    "lastUpdated": "2026-04-12T15:20:25Z",
     "homeTeam": {
       "id": 522,
       "name": "OGC Nice",
@@ -16938,15 +16950,27 @@
       "crest": "https://crests.football-data.org/533.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
