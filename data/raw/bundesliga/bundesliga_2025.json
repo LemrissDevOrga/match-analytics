@@ -17128,11 +17128,11 @@
     },
     "id": 540666,
     "utcDate": "2026-04-12T15:30:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T16:22:41Z",
+    "lastUpdated": "2026-04-12T17:19:44Z",
     "homeTeam": {
       "id": 10,
       "name": "VfB Stuttgart",
@@ -17151,7 +17151,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 4,
         "away": 0
       },
       "halfTime": {

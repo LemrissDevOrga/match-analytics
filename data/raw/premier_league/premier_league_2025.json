@@ -21039,11 +21039,11 @@
     },
     "id": 538100,
     "utcDate": "2026-04-12T15:30:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T16:22:03Z",
+    "lastUpdated": "2026-04-12T17:01:55Z",
     "homeTeam": {
       "id": 61,
       "name": "Chelsea FC",
@@ -21059,11 +21059,11 @@
       "crest": "https://crests.football-data.org/65.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 3
       },
       "halfTime": {
         "home": 0,
