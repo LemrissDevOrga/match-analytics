@@ -16131,7 +16131,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T20:11:44Z",
+    "lastUpdated": "2026-04-12T21:20:32Z",
     "homeTeam": {
       "id": 582,
       "name": "GD Estoril Praia",
@@ -16150,12 +16150,12 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 2
+        "home": 1,
+        "away": 3
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "regularTime": {
         "home": 0,

@@ -17008,11 +17008,11 @@
     },
     "id": 542662,
     "utcDate": "2026-04-12T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T20:08:07Z",
+    "lastUpdated": "2026-04-12T20:49:26Z",
     "homeTeam": {
       "id": 523,
       "name": "Olympique Lyonnais",

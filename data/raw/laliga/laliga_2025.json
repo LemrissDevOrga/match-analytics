@@ -20204,11 +20204,11 @@
     },
     "id": 544511,
     "utcDate": "2026-04-12T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T20:15:04Z",
+    "lastUpdated": "2026-04-12T21:05:42Z",
     "homeTeam": {
       "id": 77,
       "name": "Athletic Club",
@@ -20227,8 +20227,8 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 2
+        "home": 1,
+        "away": 3
       },
       "halfTime": {
         "home": 0,
