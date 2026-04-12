@@ -16856,7 +16856,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T15:20:24Z",
+    "lastUpdated": "2026-04-12T16:24:42Z",
     "homeTeam": {
       "id": 511,
       "name": "Toulouse FC",
@@ -16872,15 +16872,15 @@
       "crest": "https://crests.football-data.org/521.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,
@@ -16934,7 +16934,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T15:20:25Z",
+    "lastUpdated": "2026-04-12T16:25:26Z",
     "homeTeam": {
       "id": 522,
       "name": "OGC Nice",
@@ -16950,15 +16950,15 @@
       "crest": "https://crests.football-data.org/533.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,

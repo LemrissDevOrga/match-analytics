@@ -20048,11 +20048,11 @@
     },
     "id": 544515,
     "utcDate": "2026-04-12T14:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T15:26:11Z",
+    "lastUpdated": "2026-04-12T16:16:53Z",
     "homeTeam": {
       "id": 89,
       "name": "RCD Mallorca",
@@ -20071,7 +20071,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
