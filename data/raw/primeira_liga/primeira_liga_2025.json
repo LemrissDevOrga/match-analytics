@@ -16127,11 +16127,11 @@
     },
     "id": 545955,
     "utcDate": "2026-04-12T19:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T00:20:59Z",
+    "lastUpdated": "2026-04-12T20:11:44Z",
     "homeTeam": {
       "id": 582,
       "name": "GD Estoril Praia",
@@ -16147,15 +16147,27 @@
       "crest": "https://crests.football-data.org/503.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
