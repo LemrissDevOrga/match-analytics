@@ -15975,7 +15975,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T17:05:04Z",
+    "lastUpdated": "2026-04-12T18:34:22Z",
     "homeTeam": {
       "id": 5613,
       "name": "Sporting Clube de Braga",
@@ -15991,10 +15991,10 @@
       "crest": "https://crests.football-data.org/712.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
@@ -16053,7 +16053,7 @@
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T17:21:03Z",
+    "lastUpdated": "2026-04-12T18:09:29Z",
     "homeTeam": {
       "id": 1903,
       "name": "Sport Lisboa e Benfica",
@@ -16076,7 +16076,7 @@
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {
@@ -16161,7 +16161,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 37629,
+        "name": "Lu\u00eds Godinho",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {

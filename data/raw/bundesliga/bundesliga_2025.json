@@ -17128,11 +17128,11 @@
     },
     "id": 540666,
     "utcDate": "2026-04-12T15:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T17:19:44Z",
+    "lastUpdated": "2026-04-12T17:28:58Z",
     "homeTeam": {
       "id": 10,
       "name": "VfB Stuttgart",
@@ -17206,11 +17206,11 @@
     },
     "id": 540661,
     "utcDate": "2026-04-12T17:30:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-06T01:32:05Z",
+    "lastUpdated": "2026-04-12T18:23:30Z",
     "homeTeam": {
       "id": 15,
       "name": "1. FSV Mainz 05",
@@ -17226,15 +17226,27 @@
       "crest": "https://crests.football-data.org/17.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
