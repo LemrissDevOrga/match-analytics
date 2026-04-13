@@ -20234,11 +20234,11 @@
     },
     "id": 544519,
     "utcDate": "2026-04-13T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-13T01:32:00Z",
+    "lastUpdated": "2026-04-13T20:14:14Z",
     "homeTeam": {
       "id": 88,
       "name": "Levante UD",
@@ -20254,15 +20254,27 @@
       "crest": "https://crests.football-data.org/82.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
