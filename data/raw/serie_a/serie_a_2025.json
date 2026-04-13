@@ -21076,11 +21076,11 @@
     },
     "id": 537125,
     "utcDate": "2026-04-13T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-13T19:59:43Z",
+    "lastUpdated": "2026-04-13T20:52:51Z",
     "homeTeam": {
       "id": 99,
       "name": "ACF Fiorentina",

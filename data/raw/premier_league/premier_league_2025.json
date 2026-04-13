@@ -21010,11 +21010,11 @@
     },
     "id": 538102,
     "utcDate": "2026-04-13T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-13T20:32:13Z",
+    "lastUpdated": "2026-04-13T21:01:42Z",
     "homeTeam": {
       "id": 66,
       "name": "Manchester United FC",

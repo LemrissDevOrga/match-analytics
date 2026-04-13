@@ -16157,11 +16157,11 @@
     },
     "id": 545953,
     "utcDate": "2026-04-13T19:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-13T20:28:54Z",
+    "lastUpdated": "2026-04-13T21:24:11Z",
     "homeTeam": {
       "id": 1049,
       "name": "CD Tondela",
@@ -16180,8 +16180,8 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
-        "away": 1
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
         "home": 1,
