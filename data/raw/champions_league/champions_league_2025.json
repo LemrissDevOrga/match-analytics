@@ -11918,11 +11918,11 @@
     },
     "id": 556722,
     "utcDate": "2026-04-14T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 2,
     "stage": "QUARTER_FINALS",
     "group": null,
-    "lastUpdated": "2026-04-08T01:32:04Z",
+    "lastUpdated": "2026-04-14T19:05:04Z",
     "homeTeam": {
       "id": 64,
       "name": "Liverpool FC",
@@ -11938,15 +11938,27 @@
       "crest": "https://crests.football-data.org/524.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -11984,11 +11996,11 @@
     },
     "id": 556724,
     "utcDate": "2026-04-14T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 2,
     "stage": "QUARTER_FINALS",
     "group": null,
-    "lastUpdated": "2026-04-08T01:32:04Z",
+    "lastUpdated": "2026-04-14T19:10:08Z",
     "homeTeam": {
       "id": 78,
       "name": "Club Atl\u00e9tico de Madrid",
@@ -12004,15 +12016,27 @@
       "crest": "https://crests.football-data.org/81.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
