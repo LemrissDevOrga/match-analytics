@@ -11918,11 +11918,11 @@
     },
     "id": 556722,
     "utcDate": "2026-04-14T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 2,
     "stage": "QUARTER_FINALS",
     "group": null,
-    "lastUpdated": "2026-04-14T20:41:45Z",
+    "lastUpdated": "2026-04-14T21:06:56Z",
     "homeTeam": {
       "id": 64,
       "name": "Liverpool FC",
@@ -11942,7 +11942,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,
@@ -11996,11 +11996,11 @@
     },
     "id": 556724,
     "utcDate": "2026-04-14T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 2,
     "stage": "QUARTER_FINALS",
     "group": null,
-    "lastUpdated": "2026-04-14T20:24:44Z",
+    "lastUpdated": "2026-04-14T21:06:57Z",
     "homeTeam": {
       "id": 78,
       "name": "Club Atl\u00e9tico de Madrid",
