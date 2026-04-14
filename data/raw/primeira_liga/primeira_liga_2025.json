@@ -16753,12 +16753,12 @@
       "winner": null
     },
     "id": 545930,
-    "utcDate": "2026-04-23T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-04-23T19:15:00Z",
+    "status": "TIMED",
     "matchday": 26,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-13T15:20:35Z",
+    "lastUpdated": "2026-04-14T13:25:27Z",
     "homeTeam": {
       "id": 6618,
       "name": "Casa Pia AC",
