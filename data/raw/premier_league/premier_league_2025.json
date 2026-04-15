@@ -21440,7 +21440,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 214210,
+        "name": "Thomas Kirk",
+        "type": "REFEREE",
+        "nationality": "England"
+      }
+    ]
   },
   {
     "area": {
@@ -21499,7 +21506,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 213813,
+        "name": "Sam Barrott",
+        "type": "REFEREE",
+        "nationality": "England"
+      }
+    ]
   },
   {
     "area": {
@@ -21558,7 +21572,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11443,
+        "name": "Chris Kavanagh",
+        "type": "REFEREE",
+        "nationality": "England"
+      }
+    ]
   },
   {
     "area": {
@@ -21617,7 +21638,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11580,
+        "name": "Anthony Taylor",
+        "type": "REFEREE",
+        "nationality": "England"
+      }
+    ]
   },
   {
     "area": {
