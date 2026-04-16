@@ -21176,7 +21176,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11129,
+        "name": "Francesco Fourneau",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -21235,7 +21242,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57762,
+        "name": "Matteo Marchetti",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -21294,7 +21308,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 145272,
+        "name": "Davide Di Marco",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -21353,7 +21374,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57764,
+        "name": "Luca Zufferli",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -21412,7 +21440,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57868,
+        "name": "Matteo Marcenaro",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -21471,7 +21506,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 10985,
+        "name": "Michael Fabbri",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -21530,7 +21572,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11053,
+        "name": "Daniele Chiffi",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -21589,7 +21638,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 159361,
+        "name": "Valerio Crezzini",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -21648,7 +21704,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11043,
+        "name": "Maurizio Mariani",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -21707,7 +21770,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 10977,
+        "name": "Fabio Maresca",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
