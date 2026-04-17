@@ -21214,11 +21214,11 @@
     },
     "id": 537140,
     "utcDate": "2026-04-17T16:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-17T17:40:12Z",
+    "lastUpdated": "2026-04-17T18:31:12Z",
     "homeTeam": {
       "id": 471,
       "name": "US Sassuolo Calcio",

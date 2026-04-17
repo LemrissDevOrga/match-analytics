@@ -16257,7 +16257,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 220533,
+        "name": "H\u00e9lder Carvalho",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
