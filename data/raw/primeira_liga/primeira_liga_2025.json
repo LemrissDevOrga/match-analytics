@@ -16223,11 +16223,11 @@
     },
     "id": 545961,
     "utcDate": "2026-04-17T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-17T21:29:31Z",
+    "lastUpdated": "2026-04-17T21:47:31Z",
     "homeTeam": {
       "id": 496,
       "name": "Rio Ave FC",
