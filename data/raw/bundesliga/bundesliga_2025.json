@@ -17248,11 +17248,11 @@
     },
     "id": 540673,
     "utcDate": "2026-04-17T18:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-17T20:24:52Z",
+    "lastUpdated": "2026-04-17T20:37:32Z",
     "homeTeam": {
       "id": 20,
       "name": "FC St. Pauli 1910",
