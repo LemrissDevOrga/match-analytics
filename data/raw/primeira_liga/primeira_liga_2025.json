@@ -16227,7 +16227,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-17T19:50:31Z",
+    "lastUpdated": "2026-04-17T20:26:29Z",
     "homeTeam": {
       "id": 496,
       "name": "Rio Ave FC",
@@ -16246,8 +16246,8 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
         "home": 0,
