@@ -17626,11 +17626,11 @@
     },
     "id": 540669,
     "utcDate": "2026-04-18T16:30:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-18T17:22:38Z",
+    "lastUpdated": "2026-04-18T18:30:41Z",
     "homeTeam": {
       "id": 19,
       "name": "Eintracht Frankfurt",
@@ -17646,11 +17646,11 @@
       "crest": "https://crests.football-data.org/721.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 1
+        "away": 3
       },
       "halfTime": {
         "home": 1,
