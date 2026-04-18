@@ -17272,11 +17272,11 @@
     },
     "id": 542671,
     "utcDate": "2026-04-18T19:05:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-18T20:13:20Z",
+    "lastUpdated": "2026-04-18T21:07:02Z",
     "homeTeam": {
       "id": 521,
       "name": "Lille OSC",
