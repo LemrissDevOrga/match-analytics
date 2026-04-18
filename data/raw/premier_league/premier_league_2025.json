@@ -21310,11 +21310,11 @@
     },
     "id": 538114,
     "utcDate": "2026-04-18T16:30:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T01:32:04Z",
+    "lastUpdated": "2026-04-18T17:26:39Z",
     "homeTeam": {
       "id": 73,
       "name": "Tottenham Hotspur FC",
@@ -21330,15 +21330,27 @@
       "crest": "https://crests.football-data.org/397.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

@@ -17116,11 +17116,11 @@
     },
     "id": 542668,
     "utcDate": "2026-04-18T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-18T16:22:23Z",
+    "lastUpdated": "2026-04-18T17:02:16Z",
     "homeTeam": {
       "id": 525,
       "name": "FC Lorient",
@@ -17194,11 +17194,11 @@
     },
     "id": 542675,
     "utcDate": "2026-04-18T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T01:32:04Z",
+    "lastUpdated": "2026-04-18T17:18:46Z",
     "homeTeam": {
       "id": 532,
       "name": "Angers SCO",
@@ -17214,15 +17214,27 @@
       "crest": "https://crests.football-data.org/533.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
