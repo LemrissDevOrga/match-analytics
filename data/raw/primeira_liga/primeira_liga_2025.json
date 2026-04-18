@@ -16445,11 +16445,11 @@
     },
     "id": 545966,
     "utcDate": "2026-04-18T19:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-18T21:09:02Z",
+    "lastUpdated": "2026-04-18T21:42:27Z",
     "homeTeam": {
       "id": 5533,
       "name": "Gil Vicente FC",
