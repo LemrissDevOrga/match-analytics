@@ -17276,7 +17276,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-18T19:24:22Z",
+    "lastUpdated": "2026-04-18T20:13:20Z",
     "homeTeam": {
       "id": 521,
       "name": "Lille OSC",
@@ -17292,11 +17292,11 @@
       "crest": "https://crests.football-data.org/522.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 0
       },
       "halfTime": {
         "home": 0,
