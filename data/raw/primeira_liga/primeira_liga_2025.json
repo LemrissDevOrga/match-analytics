@@ -16289,11 +16289,11 @@
     },
     "id": 545963,
     "utcDate": "2026-04-18T14:30:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-18T15:27:27Z",
+    "lastUpdated": "2026-04-18T16:07:13Z",
     "homeTeam": {
       "id": 5529,
       "name": "CD Nacional",
@@ -16309,10 +16309,10 @@
       "crest": "https://crests.football-data.org/7822.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {

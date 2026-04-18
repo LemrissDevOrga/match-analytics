@@ -17120,7 +17120,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-18T15:05:44Z",
+    "lastUpdated": "2026-04-18T16:22:23Z",
     "homeTeam": {
       "id": 525,
       "name": "FC Lorient",
@@ -17136,14 +17136,14 @@
       "crest": "https://crests.football-data.org/516.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
