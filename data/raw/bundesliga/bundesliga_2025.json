@@ -17314,11 +17314,11 @@
     },
     "id": 540674,
     "utcDate": "2026-04-18T13:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-18T01:32:00Z",
+    "lastUpdated": "2026-04-18T15:26:17Z",
     "homeTeam": {
       "id": 12,
       "name": "SV Werder Bremen",
@@ -17334,15 +17334,27 @@
       "crest": "https://crests.football-data.org/7.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -17380,11 +17392,11 @@
     },
     "id": 540675,
     "utcDate": "2026-04-18T13:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-16T06:00:37Z",
+    "lastUpdated": "2026-04-18T14:39:10Z",
     "homeTeam": {
       "id": 3,
       "name": "Bayer 04 Leverkusen",
@@ -17400,15 +17412,27 @@
       "crest": "https://crests.football-data.org/16.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -17446,11 +17470,11 @@
     },
     "id": 540667,
     "utcDate": "2026-04-18T13:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-16T06:00:39Z",
+    "lastUpdated": "2026-04-18T15:24:33Z",
     "homeTeam": {
       "id": 2,
       "name": "TSG 1899 Hoffenheim",
@@ -17466,15 +17490,27 @@
       "crest": "https://crests.football-data.org/4.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -17512,11 +17548,11 @@
     },
     "id": 540671,
     "utcDate": "2026-04-18T13:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-18T00:21:01Z",
+    "lastUpdated": "2026-04-18T15:20:43Z",
     "homeTeam": {
       "id": 28,
       "name": "1. FC Union Berlin",
@@ -17532,15 +17568,27 @@
       "crest": "https://crests.football-data.org/11.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

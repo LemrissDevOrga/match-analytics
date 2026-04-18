@@ -16289,11 +16289,11 @@
     },
     "id": 545963,
     "utcDate": "2026-04-18T14:30:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-13T01:32:02Z",
+    "lastUpdated": "2026-04-18T15:27:27Z",
     "homeTeam": {
       "id": 5529,
       "name": "CD Nacional",
@@ -16309,21 +16309,40 @@
       "crest": "https://crests.football-data.org/7822.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 40158,
+        "name": "Miguel Nogueira",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
@@ -16382,7 +16401,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 37386,
+        "name": "Ant\u00f3nio Nobre",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {

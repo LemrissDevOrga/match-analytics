@@ -21274,11 +21274,11 @@
     },
     "id": 537142,
     "utcDate": "2026-04-18T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-18T01:32:00Z",
+    "lastUpdated": "2026-04-18T15:03:12Z",
     "homeTeam": {
       "id": 115,
       "name": "Udinese Calcio",
@@ -21294,15 +21294,27 @@
       "crest": "https://crests.football-data.org/112.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -22567,26 +22579,26 @@
       "currentMatchday": 33,
       "winner": null
     },
-    "id": 537155,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "id": 537156,
+    "utcDate": "2026-05-02T18:45:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2025-07-04T12:08:07Z",
+    "lastUpdated": "2026-04-18T03:25:26Z",
     "homeTeam": {
-      "id": 100,
-      "name": "AS Roma",
-      "shortName": "Roma",
-      "tla": "ROM",
-      "crest": "https://crests.football-data.org/100.png"
+      "id": 102,
+      "name": "Atalanta BC",
+      "shortName": "Atalanta",
+      "tla": "ATA",
+      "crest": "https://crests.football-data.org/102.png"
     },
     "awayTeam": {
-      "id": 99,
-      "name": "ACF Fiorentina",
-      "shortName": "Fiorentina",
-      "tla": "FIO",
-      "crest": "https://crests.football-data.org/99.png"
+      "id": 107,
+      "name": "Genoa CFC",
+      "shortName": "Genoa",
+      "tla": "GEN",
+      "crest": "https://crests.football-data.org/107.png"
     },
     "score": {
       "winner": null,
@@ -22626,7 +22638,7 @@
       "currentMatchday": 33,
       "winner": null
     },
-    "id": 537156,
+    "id": 537155,
     "utcDate": "2026-05-03T00:00:00Z",
     "status": "SCHEDULED",
     "matchday": 35,
@@ -22634,18 +22646,18 @@
     "group": null,
     "lastUpdated": "2025-07-04T12:08:07Z",
     "homeTeam": {
-      "id": 102,
-      "name": "Atalanta BC",
-      "shortName": "Atalanta",
-      "tla": "ATA",
-      "crest": "https://crests.football-data.org/102.png"
+      "id": 100,
+      "name": "AS Roma",
+      "shortName": "Roma",
+      "tla": "ROM",
+      "crest": "https://crests.football-data.org/100.png"
     },
     "awayTeam": {
-      "id": 107,
-      "name": "Genoa CFC",
-      "shortName": "Genoa",
-      "tla": "GEN",
-      "crest": "https://crests.football-data.org/107.png"
+      "id": 99,
+      "name": "ACF Fiorentina",
+      "shortName": "Fiorentina",
+      "tla": "FIO",
+      "crest": "https://crests.football-data.org/99.png"
     },
     "score": {
       "winner": null,
