@@ -22662,72 +22662,13 @@
       "currentMatchday": 33,
       "winner": null
     },
-    "id": 537155,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 35,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2025-07-04T12:08:07Z",
-    "homeTeam": {
-      "id": 100,
-      "name": "AS Roma",
-      "shortName": "Roma",
-      "tla": "ROM",
-      "crest": "https://crests.football-data.org/100.png"
-    },
-    "awayTeam": {
-      "id": 99,
-      "name": "ACF Fiorentina",
-      "shortName": "Fiorentina",
-      "tla": "FIO",
-      "crest": "https://crests.football-data.org/99.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2114,
-      "name": "Italy",
-      "code": "ITA",
-      "flag": "https://crests.football-data.org/784.svg"
-    },
-    "competition": {
-      "id": 2019,
-      "name": "Serie A",
-      "code": "SA",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/c111.png"
-    },
-    "season": {
-      "id": 2395,
-      "startDate": "2025-08-24",
-      "endDate": "2026-05-24",
-      "currentMatchday": 33,
-      "winner": null
-    },
     "id": 537158,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-03T10:30:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2025-07-04T12:08:06Z",
+    "lastUpdated": "2026-04-18T22:25:24Z",
     "homeTeam": {
       "id": 103,
       "name": "Bologna FC 1909",
@@ -22780,131 +22721,13 @@
       "currentMatchday": 33,
       "winner": null
     },
-    "id": 537159,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 35,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2025-08-29T05:20:57Z",
-    "homeTeam": {
-      "id": 108,
-      "name": "FC Internazionale Milano",
-      "shortName": "Inter",
-      "tla": "INT",
-      "crest": "https://crests.football-data.org/108.png"
-    },
-    "awayTeam": {
-      "id": 112,
-      "name": "Parma Calcio 1913",
-      "shortName": "Parma",
-      "tla": "PAR",
-      "crest": "https://crests.football-data.org/112.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2114,
-      "name": "Italy",
-      "code": "ITA",
-      "flag": "https://crests.football-data.org/784.svg"
-    },
-    "competition": {
-      "id": 2019,
-      "name": "Serie A",
-      "code": "SA",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/c111.png"
-    },
-    "season": {
-      "id": 2395,
-      "startDate": "2025-08-24",
-      "endDate": "2026-05-24",
-      "currentMatchday": 33,
-      "winner": null
-    },
-    "id": 537160,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 35,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2025-08-29T05:20:57Z",
-    "homeTeam": {
-      "id": 109,
-      "name": "Juventus FC",
-      "shortName": "Juventus",
-      "tla": "JUV",
-      "crest": "https://crests.football-data.org/109.png"
-    },
-    "awayTeam": {
-      "id": 450,
-      "name": "Hellas Verona FC",
-      "shortName": "Verona",
-      "tla": "HVE",
-      "crest": "https://crests.football-data.org/450.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2114,
-      "name": "Italy",
-      "code": "ITA",
-      "flag": "https://crests.football-data.org/784.svg"
-    },
-    "competition": {
-      "id": 2019,
-      "name": "Serie A",
-      "code": "SA",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/c111.png"
-    },
-    "season": {
-      "id": 2395,
-      "startDate": "2025-08-24",
-      "endDate": "2026-05-24",
-      "currentMatchday": 33,
-      "winner": null
-    },
     "id": 537162,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-03T13:00:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2025-07-04T12:08:07Z",
+    "lastUpdated": "2026-04-18T22:25:24Z",
     "homeTeam": {
       "id": 471,
       "name": "US Sassuolo Calcio",
@@ -22957,13 +22780,131 @@
       "currentMatchday": 33,
       "winner": null
     },
-    "id": 537164,
-    "utcDate": "2026-05-03T00:00:00Z",
-    "status": "SCHEDULED",
+    "id": 537160,
+    "utcDate": "2026-05-03T16:00:00Z",
+    "status": "TIMED",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2025-07-04T12:08:06Z",
+    "lastUpdated": "2026-04-18T22:25:24Z",
+    "homeTeam": {
+      "id": 109,
+      "name": "Juventus FC",
+      "shortName": "Juventus",
+      "tla": "JUV",
+      "crest": "https://crests.football-data.org/109.png"
+    },
+    "awayTeam": {
+      "id": 450,
+      "name": "Hellas Verona FC",
+      "shortName": "Verona",
+      "tla": "HVE",
+      "crest": "https://crests.football-data.org/450.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2114,
+      "name": "Italy",
+      "code": "ITA",
+      "flag": "https://crests.football-data.org/784.svg"
+    },
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "code": "SA",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/c111.png"
+    },
+    "season": {
+      "id": 2395,
+      "startDate": "2025-08-24",
+      "endDate": "2026-05-24",
+      "currentMatchday": 33,
+      "winner": null
+    },
+    "id": 537159,
+    "utcDate": "2026-05-03T18:45:00Z",
+    "status": "TIMED",
+    "matchday": 35,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-04-18T22:25:24Z",
+    "homeTeam": {
+      "id": 108,
+      "name": "FC Internazionale Milano",
+      "shortName": "Inter",
+      "tla": "INT",
+      "crest": "https://crests.football-data.org/108.png"
+    },
+    "awayTeam": {
+      "id": 112,
+      "name": "Parma Calcio 1913",
+      "shortName": "Parma",
+      "tla": "PAR",
+      "crest": "https://crests.football-data.org/112.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2114,
+      "name": "Italy",
+      "code": "ITA",
+      "flag": "https://crests.football-data.org/784.svg"
+    },
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "code": "SA",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/c111.png"
+    },
+    "season": {
+      "id": 2395,
+      "startDate": "2025-08-24",
+      "endDate": "2026-05-24",
+      "currentMatchday": 33,
+      "winner": null
+    },
+    "id": 537164,
+    "utcDate": "2026-05-04T16:30:00Z",
+    "status": "TIMED",
+    "matchday": 35,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-04-18T22:25:24Z",
     "homeTeam": {
       "id": 457,
       "name": "US Cremonese",
@@ -22977,6 +22918,65 @@
       "shortName": "Lazio",
       "tla": "LAZ",
       "crest": "https://crests.football-data.org/110.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2114,
+      "name": "Italy",
+      "code": "ITA",
+      "flag": "https://crests.football-data.org/784.svg"
+    },
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "code": "SA",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/c111.png"
+    },
+    "season": {
+      "id": 2395,
+      "startDate": "2025-08-24",
+      "endDate": "2026-05-24",
+      "currentMatchday": 33,
+      "winner": null
+    },
+    "id": 537155,
+    "utcDate": "2026-05-04T18:45:00Z",
+    "status": "TIMED",
+    "matchday": 35,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-04-18T22:25:24Z",
+    "homeTeam": {
+      "id": 100,
+      "name": "AS Roma",
+      "shortName": "Roma",
+      "tla": "ROM",
+      "crest": "https://crests.football-data.org/100.png"
+    },
+    "awayTeam": {
+      "id": 99,
+      "name": "ACF Fiorentina",
+      "shortName": "Fiorentina",
+      "tla": "FIO",
+      "crest": "https://crests.football-data.org/99.png"
     },
     "score": {
       "winner": null,
