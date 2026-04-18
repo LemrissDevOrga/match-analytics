@@ -21430,11 +21430,11 @@
     },
     "id": 537135,
     "utcDate": "2026-04-18T18:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-12T01:32:04Z",
+    "lastUpdated": "2026-04-18T19:02:19Z",
     "homeTeam": {
       "id": 100,
       "name": "AS Roma",
@@ -21450,15 +21450,27 @@
       "crest": "https://crests.football-data.org/102.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

@@ -17194,11 +17194,11 @@
     },
     "id": 542675,
     "utcDate": "2026-04-18T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-18T18:10:16Z",
+    "lastUpdated": "2026-04-18T19:02:33Z",
     "homeTeam": {
       "id": 532,
       "name": "Angers SCO",
@@ -17272,11 +17272,11 @@
     },
     "id": 542671,
     "utcDate": "2026-04-18T19:05:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-13T01:32:03Z",
+    "lastUpdated": "2026-04-18T19:24:22Z",
     "homeTeam": {
       "id": 521,
       "name": "Lille OSC",
@@ -17292,15 +17292,27 @@
       "crest": "https://crests.football-data.org/522.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
