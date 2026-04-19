@@ -21640,11 +21640,11 @@
     },
     "id": 538111,
     "utcDate": "2026-04-19T15:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-19T16:58:42Z",
+    "lastUpdated": "2026-04-19T17:32:38Z",
     "homeTeam": {
       "id": 65,
       "name": "Manchester City FC",

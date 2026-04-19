@@ -21628,11 +21628,11 @@
     },
     "id": 537139,
     "utcDate": "2026-04-19T16:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-19T17:19:28Z",
+    "lastUpdated": "2026-04-19T17:59:12Z",
     "homeTeam": {
       "id": 487,
       "name": "AC Pisa 1909",
