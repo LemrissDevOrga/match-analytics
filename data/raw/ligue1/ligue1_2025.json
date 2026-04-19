@@ -17314,11 +17314,11 @@
     },
     "id": 542667,
     "utcDate": "2026-04-19T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-13T01:32:04Z",
+    "lastUpdated": "2026-04-19T15:05:17Z",
     "homeTeam": {
       "id": 548,
       "name": "AS Monaco FC",
@@ -17334,15 +17334,27 @@
       "crest": "https://crests.football-data.org/519.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -17380,11 +17392,11 @@
     },
     "id": 542669,
     "utcDate": "2026-04-19T15:15:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-13T01:32:04Z",
+    "lastUpdated": "2026-04-19T15:20:38Z",
     "homeTeam": {
       "id": 545,
       "name": "FC Metz",
@@ -17400,15 +17412,27 @@
       "crest": "https://crests.football-data.org/1045.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -17446,11 +17470,11 @@
     },
     "id": 542670,
     "utcDate": "2026-04-19T15:15:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-13T01:32:04Z",
+    "lastUpdated": "2026-04-19T15:30:08Z",
     "homeTeam": {
       "id": 543,
       "name": "FC Nantes",
@@ -17466,15 +17490,27 @@
       "crest": "https://crests.football-data.org/512.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -17512,11 +17548,11 @@
     },
     "id": 542673,
     "utcDate": "2026-04-19T15:15:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-13T01:32:04Z",
+    "lastUpdated": "2026-04-19T15:20:38Z",
     "homeTeam": {
       "id": 576,
       "name": "RC Strasbourg Alsace",
@@ -17532,15 +17568,27 @@
       "crest": "https://crests.football-data.org/529.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
