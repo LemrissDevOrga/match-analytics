@@ -21640,11 +21640,11 @@
     },
     "id": 538111,
     "utcDate": "2026-04-19T15:30:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-19T16:22:29Z",
+    "lastUpdated": "2026-04-19T16:58:42Z",
     "homeTeam": {
       "id": 65,
       "name": "Manchester City FC",
@@ -21660,10 +21660,10 @@
       "crest": "https://crests.football-data.org/57.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
       "halfTime": {
