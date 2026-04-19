@@ -17800,11 +17800,11 @@
     },
     "id": 540668,
     "utcDate": "2026-04-19T17:30:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-19T18:22:34Z",
+    "lastUpdated": "2026-04-19T19:32:07Z",
     "homeTeam": {
       "id": 18,
       "name": "Borussia M\u00f6nchengladbach",
@@ -17820,11 +17820,11 @@
       "crest": "https://crests.football-data.org/15.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 1,

@@ -16685,11 +16685,11 @@
     },
     "id": 545965,
     "utcDate": "2026-04-19T17:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-19T18:31:43Z",
+    "lastUpdated": "2026-04-19T19:24:07Z",
     "homeTeam": {
       "id": 498,
       "name": "Sporting Clube de Portugal",
@@ -16708,8 +16708,8 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 1
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
         "home": 0,
@@ -16763,11 +16763,11 @@
     },
     "id": 545968,
     "utcDate": "2026-04-19T19:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T10:21:13Z",
+    "lastUpdated": "2026-04-19T19:35:26Z",
     "homeTeam": {
       "id": 503,
       "name": "FC Porto",
@@ -16783,15 +16783,27 @@
       "crest": "https://crests.football-data.org/1049.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -16829,11 +16841,11 @@
     },
     "id": 545969,
     "utcDate": "2026-04-19T19:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-24T10:21:05Z",
+    "lastUpdated": "2026-04-19T19:35:27Z",
     "homeTeam": {
       "id": 5613,
       "name": "Sporting Clube de Braga",
@@ -16849,15 +16861,27 @@
       "crest": "https://crests.football-data.org/5531.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
