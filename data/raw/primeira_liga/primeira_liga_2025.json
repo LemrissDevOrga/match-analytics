@@ -16647,7 +16647,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-19T19:35:26Z",
+    "lastUpdated": "2026-04-19T21:06:37Z",
     "homeTeam": {
       "id": 503,
       "name": "FC Porto",
@@ -16663,10 +16663,10 @@
       "crest": "https://crests.football-data.org/1049.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
@@ -16721,11 +16721,11 @@
     },
     "id": 545969,
     "utcDate": "2026-04-19T19:30:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-19T20:24:46Z",
+    "lastUpdated": "2026-04-19T21:03:44Z",
     "homeTeam": {
       "id": 5613,
       "name": "Sporting Clube de Braga",
@@ -16741,11 +16741,11 @@
       "crest": "https://crests.football-data.org/5531.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 1,
