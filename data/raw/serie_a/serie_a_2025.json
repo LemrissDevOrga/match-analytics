@@ -21736,11 +21736,11 @@
     },
     "id": 537144,
     "utcDate": "2026-04-20T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-20T20:27:27Z",
+    "lastUpdated": "2026-04-20T20:52:47Z",
     "homeTeam": {
       "id": 5890,
       "name": "US Lecce",
