@@ -21736,11 +21736,11 @@
     },
     "id": 537144,
     "utcDate": "2026-04-20T18:45:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-20T19:43:03Z",
+    "lastUpdated": "2026-04-20T20:27:27Z",
     "homeTeam": {
       "id": 5890,
       "name": "US Lecce",
@@ -21756,10 +21756,10 @@
       "crest": "https://crests.football-data.org/99.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "halfTime": {

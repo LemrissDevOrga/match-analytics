@@ -16696,7 +16696,7 @@
     "matchday": 30,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-20T19:38:42Z",
+    "lastUpdated": "2026-04-20T20:29:22Z",
     "homeTeam": {
       "id": 583,
       "name": "Moreirense FC",
@@ -16719,7 +16719,7 @@
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {
