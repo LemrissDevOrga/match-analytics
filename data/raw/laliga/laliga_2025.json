@@ -20720,11 +20720,11 @@
     },
     "id": 544532,
     "utcDate": "2026-04-22T19:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-22T21:22:05Z",
+    "lastUpdated": "2026-04-22T21:54:05Z",
     "homeTeam": {
       "id": 81,
       "name": "FC Barcelona",
