@@ -17842,11 +17842,11 @@
     },
     "id": 537718,
     "utcDate": "2026-04-22T18:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-22T18:52:04Z",
+    "lastUpdated": "2026-04-22T19:57:21Z",
     "homeTeam": {
       "id": 1912,
       "name": "Telstar 1963",
@@ -17862,10 +17862,10 @@
       "crest": "https://crests.football-data.org/6806.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 4,
         "away": 1
       },
       "halfTime": {
