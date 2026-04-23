@@ -20918,11 +20918,11 @@
     },
     "id": 544535,
     "utcDate": "2026-04-23T19:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-23T21:08:25Z",
+    "lastUpdated": "2026-04-23T21:37:45Z",
     "homeTeam": {
       "id": 1048,
       "name": "Real Oviedo",
