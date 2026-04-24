@@ -17710,11 +17710,11 @@
     },
     "id": 542683,
     "utcDate": "2026-04-24T18:45:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-24T19:37:08Z",
+    "lastUpdated": "2026-04-24T20:11:46Z",
     "homeTeam": {
       "id": 512,
       "name": "Stade Brestois 29",
@@ -17734,7 +17734,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 3,
-        "away": 0
+        "away": 2
       },
       "halfTime": {
         "home": 3,
