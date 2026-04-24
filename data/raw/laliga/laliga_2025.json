@@ -20994,7 +20994,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 207113,
+        "name": "C\u00e9sar Soto Grado",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {

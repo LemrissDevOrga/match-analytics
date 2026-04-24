@@ -21836,7 +21836,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11065,
+        "name": "Daniele Doveri",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -21895,7 +21902,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 160813,
+        "name": "Andrea Calzavara",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -21954,7 +21968,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11060,
+        "name": "Marco Di Bello",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -22013,7 +22034,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11029,
+        "name": "Davide Massa",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -22072,7 +22100,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11119,
+        "name": "Livio Marinelli",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -22131,7 +22166,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 10980,
+        "name": "Federico La Penna",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -22190,7 +22232,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 11043,
+        "name": "Maurizio Mariani",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -22249,7 +22298,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57826,
+        "name": "Simone Sozza",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -22308,7 +22364,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 206189,
+        "name": "Juan Luca Sacchi",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -22367,7 +22430,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 188502,
+        "name": "Kevin Bonacina",
+        "type": "REFEREE",
+        "nationality": "Italy"
+      }
+    ]
   },
   {
     "area": {
@@ -23216,131 +23286,13 @@
       "currentMatchday": 33,
       "winner": null
     },
-    "id": 537165,
-    "utcDate": "2026-05-10T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 36,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2025-07-04T12:08:06Z",
-    "homeTeam": {
-      "id": 99,
-      "name": "ACF Fiorentina",
-      "shortName": "Fiorentina",
-      "tla": "FIO",
-      "crest": "https://crests.football-data.org/99.png"
-    },
-    "awayTeam": {
-      "id": 107,
-      "name": "Genoa CFC",
-      "shortName": "Genoa",
-      "tla": "GEN",
-      "crest": "https://crests.football-data.org/107.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2114,
-      "name": "Italy",
-      "code": "ITA",
-      "flag": "https://crests.football-data.org/784.svg"
-    },
-    "competition": {
-      "id": 2019,
-      "name": "Serie A",
-      "code": "SA",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/c111.png"
-    },
-    "season": {
-      "id": 2395,
-      "startDate": "2025-08-24",
-      "endDate": "2026-05-24",
-      "currentMatchday": 33,
-      "winner": null
-    },
-    "id": 537166,
-    "utcDate": "2026-05-10T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 36,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2025-07-04T12:08:07Z",
-    "homeTeam": {
-      "id": 98,
-      "name": "AC Milan",
-      "shortName": "Milan",
-      "tla": "MIL",
-      "crest": "https://crests.football-data.org/98.png"
-    },
-    "awayTeam": {
-      "id": 102,
-      "name": "Atalanta BC",
-      "shortName": "Atalanta",
-      "tla": "ATA",
-      "crest": "https://crests.football-data.org/102.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2114,
-      "name": "Italy",
-      "code": "ITA",
-      "flag": "https://crests.football-data.org/784.svg"
-    },
-    "competition": {
-      "id": 2019,
-      "name": "Serie A",
-      "code": "SA",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/c111.png"
-    },
-    "season": {
-      "id": 2395,
-      "startDate": "2025-08-24",
-      "endDate": "2026-05-24",
-      "currentMatchday": 33,
-      "winner": null
-    },
     "id": 537169,
-    "utcDate": "2026-05-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-10T10:30:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2025-07-04T12:08:05Z",
+    "lastUpdated": "2026-04-24T13:25:28Z",
     "homeTeam": {
       "id": 450,
       "name": "Hellas Verona FC",
@@ -23393,13 +23345,131 @@
       "currentMatchday": 33,
       "winner": null
     },
-    "id": 537171,
-    "utcDate": "2026-05-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "id": 537165,
+    "utcDate": "2026-05-10T13:00:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2025-07-04T12:08:07Z",
+    "lastUpdated": "2026-04-24T13:25:28Z",
+    "homeTeam": {
+      "id": 99,
+      "name": "ACF Fiorentina",
+      "shortName": "Fiorentina",
+      "tla": "FIO",
+      "crest": "https://crests.football-data.org/99.png"
+    },
+    "awayTeam": {
+      "id": 107,
+      "name": "Genoa CFC",
+      "shortName": "Genoa",
+      "tla": "GEN",
+      "crest": "https://crests.football-data.org/107.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2114,
+      "name": "Italy",
+      "code": "ITA",
+      "flag": "https://crests.football-data.org/784.svg"
+    },
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "code": "SA",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/c111.png"
+    },
+    "season": {
+      "id": 2395,
+      "startDate": "2025-08-24",
+      "endDate": "2026-05-24",
+      "currentMatchday": 33,
+      "winner": null
+    },
+    "id": 537173,
+    "utcDate": "2026-05-10T13:00:00Z",
+    "status": "TIMED",
+    "matchday": 36,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-04-24T13:25:29Z",
+    "homeTeam": {
+      "id": 457,
+      "name": "US Cremonese",
+      "shortName": "Cremonese",
+      "tla": "CRE",
+      "crest": "https://crests.football-data.org/457.png"
+    },
+    "awayTeam": {
+      "id": 487,
+      "name": "AC Pisa 1909",
+      "shortName": "AC Pisa",
+      "tla": "PIS",
+      "crest": "https://crests.football-data.org/487.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2114,
+      "name": "Italy",
+      "code": "ITA",
+      "flag": "https://crests.football-data.org/784.svg"
+    },
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "code": "SA",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/c111.png"
+    },
+    "season": {
+      "id": 2395,
+      "startDate": "2025-08-24",
+      "endDate": "2026-05-24",
+      "currentMatchday": 33,
+      "winner": null
+    },
+    "id": 537171,
+    "utcDate": "2026-05-10T16:00:00Z",
+    "status": "TIMED",
+    "matchday": 36,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-04-24T13:25:28Z",
     "homeTeam": {
       "id": 112,
       "name": "Parma Calcio 1913",
@@ -23452,26 +23522,26 @@
       "currentMatchday": 33,
       "winner": null
     },
-    "id": 537172,
-    "utcDate": "2026-05-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "id": 537166,
+    "utcDate": "2026-05-10T18:45:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2025-07-04T12:08:05Z",
+    "lastUpdated": "2026-04-24T13:25:28Z",
     "homeTeam": {
-      "id": 113,
-      "name": "SSC Napoli",
-      "shortName": "Napoli",
-      "tla": "NAP",
-      "crest": "https://crests.football-data.org/113.png"
+      "id": 98,
+      "name": "AC Milan",
+      "shortName": "Milan",
+      "tla": "MIL",
+      "crest": "https://crests.football-data.org/98.png"
     },
     "awayTeam": {
-      "id": 103,
-      "name": "Bologna FC 1909",
-      "shortName": "Bologna",
-      "tla": "BOL",
-      "crest": "https://crests.football-data.org/103.png"
+      "id": 102,
+      "name": "Atalanta BC",
+      "shortName": "Atalanta",
+      "tla": "ATA",
+      "crest": "https://crests.football-data.org/102.png"
     },
     "score": {
       "winner": null,
@@ -23511,26 +23581,26 @@
       "currentMatchday": 33,
       "winner": null
     },
-    "id": 537173,
-    "utcDate": "2026-05-10T00:00:00Z",
-    "status": "SCHEDULED",
+    "id": 537172,
+    "utcDate": "2026-05-11T18:45:00Z",
+    "status": "TIMED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2025-07-04T12:08:07Z",
+    "lastUpdated": "2026-04-24T13:25:29Z",
     "homeTeam": {
-      "id": 457,
-      "name": "US Cremonese",
-      "shortName": "Cremonese",
-      "tla": "CRE",
-      "crest": "https://crests.football-data.org/457.png"
+      "id": 113,
+      "name": "SSC Napoli",
+      "shortName": "Napoli",
+      "tla": "NAP",
+      "crest": "https://crests.football-data.org/113.png"
     },
     "awayTeam": {
-      "id": 487,
-      "name": "AC Pisa 1909",
-      "shortName": "AC Pisa",
-      "tla": "PIS",
-      "crest": "https://crests.football-data.org/487.png"
+      "id": 103,
+      "name": "Bologna FC 1909",
+      "shortName": "Bologna",
+      "tla": "BOL",
+      "crest": "https://crests.football-data.org/103.png"
     },
     "score": {
       "winner": null,
