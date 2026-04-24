@@ -21802,11 +21802,11 @@
     },
     "id": 537154,
     "utcDate": "2026-04-24T18:45:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-20T01:32:02Z",
+    "lastUpdated": "2026-04-24T19:40:06Z",
     "homeTeam": {
       "id": 113,
       "name": "SSC Napoli",
@@ -21822,15 +21822,27 @@
       "crest": "https://crests.football-data.org/457.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -23292,7 +23304,7 @@
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-24T13:25:29Z",
+    "lastUpdated": "2026-04-24T13:25:28Z",
     "homeTeam": {
       "id": 450,
       "name": "Hellas Verona FC",
