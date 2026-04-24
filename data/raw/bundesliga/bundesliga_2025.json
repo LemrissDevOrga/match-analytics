@@ -17842,11 +17842,11 @@
     },
     "id": 540682,
     "utcDate": "2026-04-24T18:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-22T06:00:56Z",
+    "lastUpdated": "2026-04-24T18:35:28Z",
     "homeTeam": {
       "id": 721,
       "name": "RB Leipzig",
@@ -17862,15 +17862,27 @@
       "crest": "https://crests.football-data.org/28.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
