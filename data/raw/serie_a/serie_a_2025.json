@@ -21802,11 +21802,11 @@
     },
     "id": 537154,
     "utcDate": "2026-04-24T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-24T20:04:04Z",
+    "lastUpdated": "2026-04-24T20:46:00Z",
     "homeTeam": {
       "id": 113,
       "name": "SSC Napoli",

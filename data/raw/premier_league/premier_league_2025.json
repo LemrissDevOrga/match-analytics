@@ -21934,11 +21934,11 @@
     },
     "id": 538116,
     "utcDate": "2026-04-24T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-24T20:28:43Z",
+    "lastUpdated": "2026-04-24T21:02:40Z",
     "homeTeam": {
       "id": 71,
       "name": "Sunderland AFC",
@@ -21957,8 +21957,8 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
-        "away": 4
+        "home": 0,
+        "away": 5
       },
       "halfTime": {
         "home": 0,

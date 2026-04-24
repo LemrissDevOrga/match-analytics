@@ -16824,11 +16824,11 @@
     },
     "id": 545976,
     "utcDate": "2026-04-24T19:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-24T20:34:04Z",
+    "lastUpdated": "2026-04-24T21:21:20Z",
     "homeTeam": {
       "id": 7822,
       "name": "FC Alverca",
@@ -16844,10 +16844,10 @@
       "crest": "https://crests.football-data.org/712.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
       "halfTime": {
