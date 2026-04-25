@@ -18148,11 +18148,11 @@
     },
     "id": 537712,
     "utcDate": "2026-04-25T14:30:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-25T15:23:25Z",
+    "lastUpdated": "2026-04-25T16:30:10Z",
     "homeTeam": {
       "id": 675,
       "name": "Feyenoord Rotterdam",
@@ -18171,8 +18171,8 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
-        "away": 0
+        "home": 3,
+        "away": 1
       },
       "halfTime": {
         "home": 2,
@@ -18326,7 +18326,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 43858,
+        "name": "Serdar G\u00f6z\u00fcb\u00fcy\u00fck",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {
