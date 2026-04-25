@@ -18118,11 +18118,11 @@
     },
     "id": 537717,
     "utcDate": "2026-04-25T16:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-25T18:25:03Z",
+    "lastUpdated": "2026-04-25T18:48:38Z",
     "homeTeam": {
       "id": 673,
       "name": "SC Heerenveen",
@@ -18200,7 +18200,7 @@
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-25T18:29:03Z",
+    "lastUpdated": "2026-04-25T19:12:11Z",
     "homeTeam": {
       "id": 681,
       "name": "NAC Breda",
@@ -18220,11 +18220,11 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "regularTime": {
         "home": 0,
@@ -18274,11 +18274,11 @@
     },
     "id": 537719,
     "utcDate": "2026-04-25T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-22T10:21:16Z",
+    "lastUpdated": "2026-04-25T19:17:43Z",
     "homeTeam": {
       "id": 666,
       "name": "FC Twente '65",
@@ -18294,15 +18294,27 @@
       "crest": "https://crests.football-data.org/1915.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
