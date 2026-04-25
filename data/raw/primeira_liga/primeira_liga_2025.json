@@ -17046,11 +17046,11 @@
     },
     "id": 545978,
     "utcDate": "2026-04-25T19:30:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-25T20:25:27Z",
+    "lastUpdated": "2026-04-25T21:10:40Z",
     "homeTeam": {
       "id": 5543,
       "name": "Vit\u00f3ria SC",
@@ -17066,10 +17066,10 @@
       "crest": "https://crests.football-data.org/496.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
