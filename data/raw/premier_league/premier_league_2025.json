@@ -22000,11 +22000,11 @@
     },
     "id": 538120,
     "utcDate": "2026-04-25T11:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-19T01:32:03Z",
+    "lastUpdated": "2026-04-25T13:27:40Z",
     "homeTeam": {
       "id": 63,
       "name": "Fulham FC",
@@ -22020,15 +22020,27 @@
       "crest": "https://crests.football-data.org/58.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -22066,11 +22078,11 @@
     },
     "id": 538121,
     "utcDate": "2026-04-25T14:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-19T01:32:04Z",
+    "lastUpdated": "2026-04-25T15:10:19Z",
     "homeTeam": {
       "id": 64,
       "name": "Liverpool FC",
@@ -22086,15 +22098,27 @@
       "crest": "https://crests.football-data.org/354.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -22132,11 +22156,11 @@
     },
     "id": 538123,
     "utcDate": "2026-04-25T14:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-19T01:32:04Z",
+    "lastUpdated": "2026-04-25T15:15:16Z",
     "homeTeam": {
       "id": 563,
       "name": "West Ham United FC",
@@ -22152,15 +22176,27 @@
       "crest": "https://crests.football-data.org/62.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -22198,11 +22234,11 @@
     },
     "id": 538124,
     "utcDate": "2026-04-25T14:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-25T00:21:08Z",
+    "lastUpdated": "2026-04-25T15:11:44Z",
     "homeTeam": {
       "id": 76,
       "name": "Wolverhampton Wanderers FC",
@@ -22218,15 +22254,27 @@
       "crest": "https://crests.football-data.org/73.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
