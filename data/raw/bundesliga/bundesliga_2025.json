@@ -18298,11 +18298,11 @@
     },
     "id": 540684,
     "utcDate": "2026-04-25T16:30:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-25T17:24:57Z",
+    "lastUpdated": "2026-04-25T17:47:21Z",
     "homeTeam": {
       "id": 7,
       "name": "Hamburger SV",
