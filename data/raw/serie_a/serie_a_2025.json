@@ -22228,11 +22228,11 @@
     },
     "id": 537151,
     "utcDate": "2026-04-25T18:45:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-25T19:37:35Z",
+    "lastUpdated": "2026-04-25T19:54:11Z",
     "homeTeam": {
       "id": 450,
       "name": "Hellas Verona FC",
