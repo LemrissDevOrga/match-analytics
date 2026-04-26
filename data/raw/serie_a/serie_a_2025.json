@@ -22540,11 +22540,11 @@
     },
     "id": 537146,
     "utcDate": "2026-04-26T18:45:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-26T19:39:16Z",
+    "lastUpdated": "2026-04-26T19:57:42Z",
     "homeTeam": {
       "id": 98,
       "name": "AC Milan",
