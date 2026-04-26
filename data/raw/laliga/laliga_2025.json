@@ -21368,11 +21368,11 @@
     },
     "id": 544529,
     "utcDate": "2026-04-26T14:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-26T15:27:12Z",
+    "lastUpdated": "2026-04-26T16:19:25Z",
     "homeTeam": {
       "id": 1048,
       "name": "Real Oviedo",
@@ -21391,7 +21391,7 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 2
       },
       "halfTime": {
