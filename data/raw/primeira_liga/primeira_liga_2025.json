@@ -17326,7 +17326,7 @@
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-26T19:35:32Z",
+    "lastUpdated": "2026-04-26T21:08:50Z",
     "homeTeam": {
       "id": 10340,
       "name": "AVS",
@@ -17345,8 +17345,8 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
         "home": 0,
