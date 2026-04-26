@@ -18532,11 +18532,11 @@
     },
     "id": 540680,
     "utcDate": "2026-04-26T13:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-11T10:21:12Z",
+    "lastUpdated": "2026-04-26T15:31:02Z",
     "homeTeam": {
       "id": 10,
       "name": "VfB Stuttgart",
@@ -18552,15 +18552,27 @@
       "crest": "https://crests.football-data.org/12.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18598,11 +18610,11 @@
     },
     "id": 540679,
     "utcDate": "2026-04-26T15:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-03-27T15:21:10Z",
+    "lastUpdated": "2026-04-26T15:35:00Z",
     "homeTeam": {
       "id": 4,
       "name": "Borussia Dortmund",
@@ -18618,15 +18630,27 @@
       "crest": "https://crests.football-data.org/17.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

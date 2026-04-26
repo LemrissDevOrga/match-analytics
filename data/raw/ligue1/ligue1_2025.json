@@ -17974,11 +17974,11 @@
     },
     "id": 542677,
     "utcDate": "2026-04-26T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-20T01:32:04Z",
+    "lastUpdated": "2026-04-26T15:15:06Z",
     "homeTeam": {
       "id": 525,
       "name": "FC Lorient",
@@ -17994,15 +17994,27 @@
       "crest": "https://crests.football-data.org/576.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 3
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18040,11 +18052,11 @@
     },
     "id": 542676,
     "utcDate": "2026-04-26T15:15:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-20T01:32:04Z",
+    "lastUpdated": "2026-04-26T15:34:11Z",
     "homeTeam": {
       "id": 533,
       "name": "Le Havre AC",
@@ -18060,15 +18072,27 @@
       "crest": "https://crests.football-data.org/545.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18106,11 +18130,11 @@
     },
     "id": 542678,
     "utcDate": "2026-04-26T15:15:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-26T01:32:01Z",
+    "lastUpdated": "2026-04-26T15:20:33Z",
     "homeTeam": {
       "id": 1045,
       "name": "Paris FC",
@@ -18126,15 +18150,27 @@
       "crest": "https://crests.football-data.org/521.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18172,11 +18208,11 @@
     },
     "id": 542684,
     "utcDate": "2026-04-26T15:15:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-20T01:32:04Z",
+    "lastUpdated": "2026-04-26T15:27:39Z",
     "homeTeam": {
       "id": 529,
       "name": "Stade Rennais FC 1901",
@@ -18192,15 +18228,27 @@
       "crest": "https://crests.football-data.org/543.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

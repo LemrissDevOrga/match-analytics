@@ -17088,11 +17088,11 @@
     },
     "id": 545974,
     "utcDate": "2026-04-26T14:30:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 31,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-25T01:32:02Z",
+    "lastUpdated": "2026-04-26T15:21:01Z",
     "homeTeam": {
       "id": 582,
       "name": "GD Estoril Praia",
@@ -17108,21 +17108,40 @@
       "crest": "https://crests.football-data.org/5531.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 40454,
+        "name": "Carlos Macedo",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
@@ -17181,7 +17200,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 37629,
+        "name": "Lu\u00eds Godinho",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
@@ -17240,7 +17266,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 220533,
+        "name": "H\u00e9lder Carvalho",
+        "type": "REFEREE",
+        "nationality": "Portugal"
+      }
+    ]
   },
   {
     "area": {
