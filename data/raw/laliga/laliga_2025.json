@@ -21554,11 +21554,11 @@
     },
     "id": 544523,
     "utcDate": "2026-04-27T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-27T20:12:41Z",
+    "lastUpdated": "2026-04-27T21:04:40Z",
     "homeTeam": {
       "id": 80,
       "name": "RCD Espanyol de Barcelona",
