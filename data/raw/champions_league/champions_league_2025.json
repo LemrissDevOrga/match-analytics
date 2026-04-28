@@ -12216,7 +12216,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 31823,
+        "name": "Sandro Sch\u00e4rer",
+        "type": "REFEREE",
+        "nationality": "Switzerland"
+      }
+    ]
   },
   {
     "area": {
@@ -12275,7 +12282,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 43899,
+        "name": "Danny Makkelie",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {
