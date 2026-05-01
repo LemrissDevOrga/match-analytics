@@ -22462,11 +22462,11 @@
     },
     "id": 537161,
     "utcDate": "2026-05-01T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-01T19:55:03Z",
+    "lastUpdated": "2026-05-01T20:45:43Z",
     "homeTeam": {
       "id": 487,
       "name": "AC Pisa 1909",
@@ -22482,11 +22482,11 @@
       "crest": "https://crests.football-data.org/5890.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
         "home": 0,
