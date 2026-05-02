@@ -18826,11 +18826,11 @@
     },
     "id": 540687,
     "utcDate": "2026-05-02T16:30:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T17:23:11Z",
+    "lastUpdated": "2026-05-02T18:28:43Z",
     "homeTeam": {
       "id": 3,
       "name": "Bayer 04 Leverkusen",
@@ -18849,8 +18849,8 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
-        "away": 0
+        "home": 4,
+        "away": 1
       },
       "halfTime": {
         "home": 2,

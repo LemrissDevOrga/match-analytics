@@ -22606,11 +22606,11 @@
     },
     "id": 537157,
     "utcDate": "2026-05-02T16:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T17:13:29Z",
+    "lastUpdated": "2026-05-02T18:04:08Z",
     "homeTeam": {
       "id": 7397,
       "name": "Como 1907",

@@ -22696,11 +22696,11 @@
     },
     "id": 538127,
     "utcDate": "2026-05-02T16:30:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T17:25:06Z",
+    "lastUpdated": "2026-05-02T18:32:16Z",
     "homeTeam": {
       "id": 57,
       "name": "Arsenal FC",
