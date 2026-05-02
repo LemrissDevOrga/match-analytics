@@ -22696,11 +22696,11 @@
     },
     "id": 538127,
     "utcDate": "2026-05-02T16:30:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T16:35:04Z",
+    "lastUpdated": "2026-05-02T17:25:06Z",
     "homeTeam": {
       "id": 57,
       "name": "Arsenal FC",
@@ -22716,14 +22716,14 @@
       "crest": "https://crests.football-data.org/63.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 3,
         "away": 0
       },
       "regularTime": {

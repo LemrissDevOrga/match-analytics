@@ -18544,11 +18544,11 @@
     },
     "id": 537723,
     "utcDate": "2026-05-02T14:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T16:29:43Z",
+    "lastUpdated": "2026-05-02T16:44:15Z",
     "homeTeam": {
       "id": 676,
       "name": "FC Utrecht",
@@ -18567,7 +18567,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
@@ -18622,11 +18622,11 @@
     },
     "id": 537722,
     "utcDate": "2026-05-02T16:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-01-02T15:21:03Z",
+    "lastUpdated": "2026-05-02T17:32:08Z",
     "homeTeam": {
       "id": 677,
       "name": "FC Groningen",
@@ -18642,15 +18642,27 @@
       "crest": "https://crests.football-data.org/670.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18788,7 +18800,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 56912,
+        "name": "Jeroen Manschot",
+        "type": "REFEREE",
+        "nationality": "Netherlands"
+      }
+    ]
   },
   {
     "area": {
