@@ -17796,11 +17796,11 @@
     },
     "id": 545981,
     "utcDate": "2026-05-02T19:30:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T19:35:00Z",
+    "lastUpdated": "2026-05-02T20:26:13Z",
     "homeTeam": {
       "id": 503,
       "name": "FC Porto",
@@ -17816,14 +17816,14 @@
       "crest": "https://crests.football-data.org/7822.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "regularTime": {

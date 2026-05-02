@@ -18592,11 +18592,11 @@
     },
     "id": 537720,
     "utcDate": "2026-05-02T18:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T19:44:24Z",
+    "lastUpdated": "2026-05-02T20:01:42Z",
     "homeTeam": {
       "id": 678,
       "name": "AFC Ajax",
@@ -18612,10 +18612,10 @@
       "crest": "https://crests.football-data.org/674.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 2
       },
       "halfTime": {
@@ -18670,11 +18670,11 @@
     },
     "id": 537726,
     "utcDate": "2026-05-02T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T19:39:39Z",
+    "lastUpdated": "2026-05-02T20:20:12Z",
     "homeTeam": {
       "id": 1915,
       "name": "NEC",
@@ -18698,7 +18698,7 @@
       },
       "halfTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "regularTime": {
         "home": 0,

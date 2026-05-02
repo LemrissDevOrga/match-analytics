@@ -22684,11 +22684,11 @@
     },
     "id": 537156,
     "utcDate": "2026-05-02T18:45:00Z",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T19:37:37Z",
+    "lastUpdated": "2026-05-02T19:53:38Z",
     "homeTeam": {
       "id": 102,
       "name": "Atalanta BC",
