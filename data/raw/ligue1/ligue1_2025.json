@@ -18460,11 +18460,11 @@
     },
     "id": 542686,
     "utcDate": "2026-05-02T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T18:23:08Z",
+    "lastUpdated": "2026-05-02T19:02:07Z",
     "homeTeam": {
       "id": 545,
       "name": "FC Metz",
@@ -18480,11 +18480,11 @@
       "crest": "https://crests.football-data.org/548.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,
@@ -18538,11 +18538,11 @@
     },
     "id": 542689,
     "utcDate": "2026-05-02T19:05:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-26T01:32:04Z",
+    "lastUpdated": "2026-05-02T19:10:01Z",
     "homeTeam": {
       "id": 522,
       "name": "OGC Nice",
@@ -18558,15 +18558,27 @@
       "crest": "https://crests.football-data.org/546.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
