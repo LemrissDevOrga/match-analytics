@@ -18386,7 +18386,7 @@
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T15:17:45Z",
+    "lastUpdated": "2026-05-02T16:24:55Z",
     "homeTeam": {
       "id": 524,
       "name": "Paris Saint-Germain FC",
@@ -18402,15 +18402,15 @@
       "crest": "https://crests.football-data.org/525.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "regularTime": {
         "home": 0,

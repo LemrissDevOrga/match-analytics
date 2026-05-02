@@ -21764,11 +21764,11 @@
     },
     "id": 544547,
     "utcDate": "2026-05-02T14:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T15:27:55Z",
+    "lastUpdated": "2026-05-02T16:22:38Z",
     "homeTeam": {
       "id": 95,
       "name": "Valencia CF",
@@ -21784,11 +21784,11 @@
       "crest": "https://crests.football-data.org/78.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "halfTime": {
         "home": 0,
@@ -21842,11 +21842,11 @@
     },
     "id": 544541,
     "utcDate": "2026-05-02T16:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T01:32:01Z",
+    "lastUpdated": "2026-05-02T16:35:05Z",
     "homeTeam": {
       "id": 263,
       "name": "Deportivo Alav\u00e9s",
@@ -21862,15 +21862,27 @@
       "crest": "https://crests.football-data.org/77.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
