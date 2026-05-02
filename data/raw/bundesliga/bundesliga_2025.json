@@ -18436,11 +18436,11 @@
     },
     "id": 540688,
     "utcDate": "2026-05-02T13:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T00:21:10Z",
+    "lastUpdated": "2026-05-02T15:37:51Z",
     "homeTeam": {
       "id": 2,
       "name": "TSG 1899 Hoffenheim",
@@ -18456,15 +18456,27 @@
       "crest": "https://crests.football-data.org/10.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 3
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18502,11 +18514,11 @@
     },
     "id": 540690,
     "utcDate": "2026-05-02T13:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T00:21:10Z",
+    "lastUpdated": "2026-05-02T15:05:11Z",
     "homeTeam": {
       "id": 12,
       "name": "SV Werder Bremen",
@@ -18522,15 +18534,27 @@
       "crest": "https://crests.football-data.org/16.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 3
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18568,11 +18592,11 @@
     },
     "id": 540691,
     "utcDate": "2026-05-02T13:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-26T01:32:03Z",
+    "lastUpdated": "2026-05-02T15:12:10Z",
     "homeTeam": {
       "id": 5,
       "name": "FC Bayern M\u00fcnchen",
@@ -18588,15 +18612,27 @@
       "crest": "https://crests.football-data.org/44.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 3
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18634,11 +18670,11 @@
     },
     "id": 540692,
     "utcDate": "2026-05-02T13:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-27T01:32:01Z",
+    "lastUpdated": "2026-05-02T15:28:24Z",
     "homeTeam": {
       "id": 28,
       "name": "1. FC Union Berlin",
@@ -18654,15 +18690,27 @@
       "crest": "https://crests.football-data.org/1.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18700,11 +18748,11 @@
     },
     "id": 540693,
     "utcDate": "2026-05-02T13:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-27T01:32:01Z",
+    "lastUpdated": "2026-05-02T14:52:16Z",
     "homeTeam": {
       "id": 19,
       "name": "Eintracht Frankfurt",
@@ -18720,15 +18768,27 @@
       "crest": "https://crests.football-data.org/7.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

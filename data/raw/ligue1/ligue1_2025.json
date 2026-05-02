@@ -18304,11 +18304,11 @@
     },
     "id": 542687,
     "utcDate": "2026-05-02T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-26T01:32:03Z",
+    "lastUpdated": "2026-05-02T15:00:33Z",
     "homeTeam": {
       "id": 543,
       "name": "FC Nantes",
@@ -18324,15 +18324,27 @@
       "crest": "https://crests.football-data.org/516.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18370,11 +18382,11 @@
     },
     "id": 542692,
     "utcDate": "2026-05-02T15:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-26T01:32:04Z",
+    "lastUpdated": "2026-05-02T15:17:45Z",
     "homeTeam": {
       "id": 524,
       "name": "Paris Saint-Germain FC",
@@ -18390,15 +18402,27 @@
       "crest": "https://crests.football-data.org/525.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

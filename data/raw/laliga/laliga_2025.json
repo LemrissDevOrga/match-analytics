@@ -21686,11 +21686,11 @@
     },
     "id": 544549,
     "utcDate": "2026-05-02T12:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-26T01:32:03Z",
+    "lastUpdated": "2026-05-02T14:07:44Z",
     "homeTeam": {
       "id": 94,
       "name": "Villarreal CF",
@@ -21706,21 +21706,40 @@
       "crest": "https://crests.football-data.org/88.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 5,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 206208,
+        "name": "Alejandro Hern\u00e1ndez Hern\u00e1ndez",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -21745,11 +21764,11 @@
     },
     "id": 544547,
     "utcDate": "2026-05-02T14:15:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-27T01:32:02Z",
+    "lastUpdated": "2026-05-02T15:27:55Z",
     "homeTeam": {
       "id": 95,
       "name": "Valencia CF",
@@ -21765,21 +21784,40 @@
       "crest": "https://crests.football-data.org/78.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 206223,
+        "name": "Jos\u00e9 Munuera Montero",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -21838,7 +21876,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 214410,
+        "name": "Alejandro Quintero Gonz\u00e1lez",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -21897,7 +21942,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57930,
+        "name": "Isidro D\u00edaz de Mera",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {

@@ -22462,11 +22462,11 @@
     },
     "id": 538128,
     "utcDate": "2026-05-02T14:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-26T01:32:03Z",
+    "lastUpdated": "2026-05-02T15:18:47Z",
     "homeTeam": {
       "id": 402,
       "name": "Brentford FC",
@@ -22482,15 +22482,27 @@
       "crest": "https://crests.football-data.org/563.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -22528,11 +22540,11 @@
     },
     "id": 538133,
     "utcDate": "2026-05-02T14:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T01:32:00Z",
+    "lastUpdated": "2026-05-02T15:27:27Z",
     "homeTeam": {
       "id": 67,
       "name": "Newcastle United FC",
@@ -22548,15 +22560,27 @@
       "crest": "https://crests.football-data.org/397.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -22594,11 +22618,11 @@
     },
     "id": 538134,
     "utcDate": "2026-05-02T14:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-02T00:21:11Z",
+    "lastUpdated": "2026-05-02T15:19:38Z",
     "homeTeam": {
       "id": 76,
       "name": "Wolverhampton Wanderers FC",
@@ -22614,15 +22638,27 @@
       "crest": "https://crests.football-data.org/71.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
