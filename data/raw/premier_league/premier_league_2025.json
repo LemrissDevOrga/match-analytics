@@ -22882,11 +22882,11 @@
     },
     "id": 538126,
     "utcDate": "2026-05-03T18:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-27T01:32:04Z",
+    "lastUpdated": "2026-05-03T18:31:02Z",
     "homeTeam": {
       "id": 58,
       "name": "Aston Villa FC",
@@ -22902,15 +22902,27 @@
       "crest": "https://crests.football-data.org/73.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
