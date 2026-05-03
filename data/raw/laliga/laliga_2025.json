@@ -22028,11 +22028,11 @@
     },
     "id": 544545,
     "utcDate": "2026-05-03T14:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-03T15:30:20Z",
+    "lastUpdated": "2026-05-03T16:22:39Z",
     "homeTeam": {
       "id": 82,
       "name": "Getafe CF",
@@ -22052,7 +22052,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,
@@ -22106,11 +22106,11 @@
     },
     "id": 544542,
     "utcDate": "2026-05-03T16:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-27T01:32:03Z",
+    "lastUpdated": "2026-05-03T16:35:26Z",
     "homeTeam": {
       "id": 90,
       "name": "Real Betis Balompi\u00e9",
@@ -22126,15 +22126,27 @@
       "crest": "https://crests.football-data.org/1048.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
