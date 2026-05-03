@@ -18934,11 +18934,11 @@
     },
     "id": 537721,
     "utcDate": "2026-05-03T14:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-03T16:02:38Z",
+    "lastUpdated": "2026-05-03T16:45:19Z",
     "homeTeam": {
       "id": 682,
       "name": "AZ",
@@ -18954,10 +18954,10 @@
       "crest": "https://crests.football-data.org/666.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 2
       },
       "halfTime": {
@@ -19012,11 +19012,11 @@
     },
     "id": 537728,
     "utcDate": "2026-05-03T14:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-03T16:29:21Z",
+    "lastUpdated": "2026-05-03T16:47:19Z",
     "homeTeam": {
       "id": 6806,
       "name": "Sparta Rotterdam",

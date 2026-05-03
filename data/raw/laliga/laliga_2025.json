@@ -22106,11 +22106,11 @@
     },
     "id": 544542,
     "utcDate": "2026-05-03T16:30:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-03T16:35:26Z",
+    "lastUpdated": "2026-05-03T17:29:06Z",
     "homeTeam": {
       "id": 90,
       "name": "Real Betis Balompi\u00e9",
@@ -22126,14 +22126,14 @@
       "crest": "https://crests.football-data.org/1048.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "regularTime": {
