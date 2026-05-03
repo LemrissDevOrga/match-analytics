@@ -18988,11 +18988,11 @@
     },
     "id": 540689,
     "utcDate": "2026-05-03T17:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-03T18:39:19Z",
+    "lastUpdated": "2026-05-03T19:32:28Z",
     "homeTeam": {
       "id": 17,
       "name": "SC Freiburg",
@@ -19011,8 +19011,8 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
         "home": 0,

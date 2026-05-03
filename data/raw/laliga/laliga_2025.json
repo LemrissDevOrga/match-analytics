@@ -22184,11 +22184,11 @@
     },
     "id": 544544,
     "utcDate": "2026-05-03T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-03T01:32:00Z",
+    "lastUpdated": "2026-05-03T19:05:50Z",
     "homeTeam": {
       "id": 80,
       "name": "RCD Espanyol de Barcelona",
@@ -22204,15 +22204,27 @@
       "crest": "https://crests.football-data.org/86.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
