@@ -23002,11 +23002,11 @@
     },
     "id": 538130,
     "utcDate": "2026-05-04T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T00:21:07Z",
+    "lastUpdated": "2026-05-04T20:09:14Z",
     "homeTeam": {
       "id": 62,
       "name": "Everton FC",
@@ -23022,15 +23022,27 @@
       "crest": "https://crests.football-data.org/65.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

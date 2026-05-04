@@ -18012,11 +18012,11 @@
     },
     "id": 545984,
     "utcDate": "2026-05-04T19:15:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 32,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-04-28T01:32:03Z",
+    "lastUpdated": "2026-05-04T19:47:25Z",
     "homeTeam": {
       "id": 498,
       "name": "Sporting Clube de Portugal",
@@ -18032,15 +18032,27 @@
       "crest": "https://crests.football-data.org/5543.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
