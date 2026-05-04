@@ -23068,11 +23068,11 @@
     },
     "id": 537155,
     "utcDate": "2026-05-04T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T20:09:24Z",
+    "lastUpdated": "2026-05-04T20:44:48Z",
     "homeTeam": {
       "id": 100,
       "name": "AS Roma",
