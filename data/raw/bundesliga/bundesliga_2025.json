@@ -19424,7 +19424,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 337,
+        "name": "Patrick Ittrich",
+        "type": "REFEREE",
+        "nationality": "Germany"
+      }
+    ]
   },
   {
     "area": {
@@ -19483,7 +19490,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57519,
+        "name": "Robert Schr\u00f6der",
+        "type": "REFEREE",
+        "nationality": "Germany"
+      }
+    ]
   },
   {
     "area": {
@@ -19542,7 +19556,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57515,
+        "name": "S\u00f6ren Storks",
+        "type": "REFEREE",
+        "nationality": "Germany"
+      }
+    ]
   },
   {
     "area": {
@@ -19601,7 +19622,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 57512,
+        "name": "Tobias Reichel",
+        "type": "REFEREE",
+        "nationality": "Germany"
+      }
+    ]
   },
   {
     "area": {
@@ -19660,7 +19688,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 43922,
+        "name": "Benjamin Brand",
+        "type": "REFEREE",
+        "nationality": "Germany"
+      }
+    ]
   },
   {
     "area": {
@@ -19719,7 +19754,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 56230,
+        "name": "Matthias J\u00f6llenbeck",
+        "type": "REFEREE",
+        "nationality": "Germany"
+      }
+    ]
   },
   {
     "area": {
@@ -19778,7 +19820,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 43878,
+        "name": "Felix Zwayer",
+        "type": "REFEREE",
+        "nationality": "Germany"
+      }
+    ]
   },
   {
     "area": {
@@ -19837,7 +19886,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 15824,
+        "name": "Sven Jablonski",
+        "type": "REFEREE",
+        "nationality": "Germany"
+      }
+    ]
   },
   {
     "area": {
@@ -19896,7 +19952,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 58466,
+        "name": "Florian Exner",
+        "type": "REFEREE",
+        "nationality": "Germany"
+      }
+    ]
   },
   {
     "area": {
