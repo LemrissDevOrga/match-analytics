@@ -22502,11 +22502,11 @@
     },
     "id": 544552,
     "utcDate": "2026-05-09T16:30:00Z",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-09T16:36:24Z",
+    "lastUpdated": "2026-05-09T17:24:53Z",
     "homeTeam": {
       "id": 78,
       "name": "Club Atl\u00e9tico de Madrid",
