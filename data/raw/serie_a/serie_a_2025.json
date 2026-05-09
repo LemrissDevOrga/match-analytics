@@ -23188,11 +23188,11 @@
     },
     "id": 537167,
     "utcDate": "2026-05-09T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:01Z",
+    "lastUpdated": "2026-05-09T15:05:42Z",
     "homeTeam": {
       "id": 104,
       "name": "Cagliari Calcio",
@@ -23208,15 +23208,27 @@
       "crest": "https://crests.football-data.org/115.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
