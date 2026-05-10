@@ -22676,11 +22676,11 @@
     },
     "id": 544551,
     "utcDate": "2026-05-10T14:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T15:41:37Z",
+    "lastUpdated": "2026-05-10T16:21:12Z",
     "homeTeam": {
       "id": 77,
       "name": "Athletic Club",
@@ -22696,11 +22696,11 @@
       "crest": "https://crests.football-data.org/95.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
@@ -22742,11 +22742,11 @@
     },
     "id": 544559,
     "utcDate": "2026-05-10T16:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T16:41:44Z",
     "homeTeam": {
       "id": 1048,
       "name": "Real Oviedo",
@@ -22762,11 +22762,11 @@
       "crest": "https://crests.football-data.org/82.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
         "home": null,

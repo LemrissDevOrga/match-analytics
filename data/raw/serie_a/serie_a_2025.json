@@ -23415,6 +23415,18 @@
       "halfTime": {
         "home": 0,
         "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -23479,6 +23491,18 @@
         "away": 0
       },
       "halfTime": {
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
         "home": 0,
         "away": 0
       }
@@ -23547,6 +23571,18 @@
       "halfTime": {
         "home": 1,
         "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -23584,11 +23620,11 @@
     },
     "id": 537171,
     "utcDate": "2026-05-10T16:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-09T01:32:01Z",
+    "lastUpdated": "2026-05-10T16:27:29Z",
     "homeTeam": {
       "id": 112,
       "name": "Parma Calcio 1913",
@@ -23604,15 +23640,27 @@
       "crest": "https://crests.football-data.org/100.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
