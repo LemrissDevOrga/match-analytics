@@ -19455,18 +19455,6 @@
       "halfTime": {
         "home": 1,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -19533,18 +19521,6 @@
       "halfTime": {
         "home": 1,
         "away": 2
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -19582,11 +19558,11 @@
     },
     "id": 540700,
     "utcDate": "2026-05-10T17:30:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T18:32:53Z",
+    "lastUpdated": "2026-05-10T19:39:02Z",
     "homeTeam": {
       "id": 15,
       "name": "1. FSV Mainz 05",
@@ -19605,24 +19581,12 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 1
+        "home": 1,
+        "away": 3
       },
       "halfTime": {
         "home": 0,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {

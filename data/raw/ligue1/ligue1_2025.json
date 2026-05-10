@@ -18964,11 +18964,11 @@
     },
     "id": 542694,
     "utcDate": "2026-05-10T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T19:52:58Z",
     "homeTeam": {
       "id": 533,
       "name": "Le Havre AC",
@@ -18984,11 +18984,11 @@
       "crest": "https://crests.football-data.org/516.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
         "home": null,
@@ -19030,11 +19030,11 @@
     },
     "id": 542695,
     "utcDate": "2026-05-10T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T19:52:38Z",
     "homeTeam": {
       "id": 519,
       "name": "AJ Auxerre",
@@ -19050,11 +19050,11 @@
       "crest": "https://crests.football-data.org/522.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
         "home": null,
@@ -19096,11 +19096,11 @@
     },
     "id": 542696,
     "utcDate": "2026-05-10T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T19:52:23Z",
     "homeTeam": {
       "id": 548,
       "name": "AS Monaco FC",
@@ -19116,11 +19116,11 @@
       "crest": "https://crests.football-data.org/521.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
         "home": null,
@@ -19162,11 +19162,11 @@
     },
     "id": 542697,
     "utcDate": "2026-05-10T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T19:52:33Z",
     "homeTeam": {
       "id": 545,
       "name": "FC Metz",
@@ -19182,11 +19182,11 @@
       "crest": "https://crests.football-data.org/525.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
         "home": null,
@@ -19228,11 +19228,11 @@
     },
     "id": 542698,
     "utcDate": "2026-05-10T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T19:51:43Z",
     "homeTeam": {
       "id": 511,
       "name": "Toulouse FC",
@@ -19248,11 +19248,11 @@
       "crest": "https://crests.football-data.org/523.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
         "home": null,
@@ -19294,11 +19294,11 @@
     },
     "id": 542699,
     "utcDate": "2026-05-10T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T19:52:18Z",
     "homeTeam": {
       "id": 524,
       "name": "Paris Saint-Germain FC",
@@ -19314,11 +19314,11 @@
       "crest": "https://crests.football-data.org/512.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
         "home": null,
@@ -19360,11 +19360,11 @@
     },
     "id": 542701,
     "utcDate": "2026-05-10T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T19:52:19Z",
     "homeTeam": {
       "id": 532,
       "name": "Angers SCO",
@@ -19380,11 +19380,11 @@
       "crest": "https://crests.football-data.org/576.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
         "home": null,
@@ -19426,11 +19426,11 @@
     },
     "id": 542702,
     "utcDate": "2026-05-10T19:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T19:51:44Z",
     "homeTeam": {
       "id": 529,
       "name": "Stade Rennais FC 1901",
@@ -19446,11 +19446,11 @@
       "crest": "https://crests.football-data.org/1045.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
         "home": null,
