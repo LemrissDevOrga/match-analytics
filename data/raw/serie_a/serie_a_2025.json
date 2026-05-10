@@ -23386,11 +23386,11 @@
     },
     "id": 537169,
     "utcDate": "2026-05-10T10:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-05T01:32:01Z",
+    "lastUpdated": "2026-05-10T12:33:17Z",
     "homeTeam": {
       "id": 450,
       "name": "Hellas Verona FC",
@@ -23406,15 +23406,15 @@
       "crest": "https://crests.football-data.org/7397.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -23452,11 +23452,11 @@
     },
     "id": 537165,
     "utcDate": "2026-05-10T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T15:04:28Z",
     "homeTeam": {
       "id": 99,
       "name": "ACF Fiorentina",
@@ -23472,15 +23472,15 @@
       "crest": "https://crests.football-data.org/107.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -23518,11 +23518,11 @@
     },
     "id": 537173,
     "utcDate": "2026-05-10T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T14:54:38Z",
     "homeTeam": {
       "id": 457,
       "name": "US Cremonese",
@@ -23538,15 +23538,15 @@
       "crest": "https://crests.football-data.org/487.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     "odds": {

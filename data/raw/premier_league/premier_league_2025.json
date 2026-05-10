@@ -23386,11 +23386,11 @@
     },
     "id": 538137,
     "utcDate": "2026-05-10T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-05T01:32:01Z",
+    "lastUpdated": "2026-05-10T15:00:37Z",
     "homeTeam": {
       "id": 354,
       "name": "Crystal Palace FC",
@@ -23406,15 +23406,27 @@
       "crest": "https://crests.football-data.org/62.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -23452,11 +23464,11 @@
     },
     "id": 538138,
     "utcDate": "2026-05-10T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T15:04:52Z",
     "homeTeam": {
       "id": 328,
       "name": "Burnley FC",
@@ -23472,15 +23484,27 @@
       "crest": "https://crests.football-data.org/58.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -23518,11 +23542,11 @@
     },
     "id": 538142,
     "utcDate": "2026-05-10T13:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T15:03:08Z",
     "homeTeam": {
       "id": 351,
       "name": "Nottingham Forest FC",
@@ -23538,15 +23562,27 @@
       "crest": "https://crests.football-data.org/67.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -23584,11 +23620,11 @@
     },
     "id": 538144,
     "utcDate": "2026-05-10T15:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T15:36:20Z",
     "homeTeam": {
       "id": 563,
       "name": "West Ham United FC",
@@ -23604,15 +23640,27 @@
       "crest": "https://crests.football-data.org/57.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {

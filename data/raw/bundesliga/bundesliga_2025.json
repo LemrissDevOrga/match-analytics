@@ -19426,11 +19426,11 @@
     },
     "id": 540697,
     "utcDate": "2026-05-10T13:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T15:32:47Z",
     "homeTeam": {
       "id": 7,
       "name": "Hamburger SV",
@@ -19446,15 +19446,15 @@
       "crest": "https://crests.football-data.org/17.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       }
     },
     "odds": {
@@ -19492,11 +19492,11 @@
     },
     "id": 540702,
     "utcDate": "2026-05-10T15:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-04T01:32:02Z",
+    "lastUpdated": "2026-05-10T15:43:20Z",
     "homeTeam": {
       "id": 1,
       "name": "1. FC K\u00f6ln",
@@ -19512,11 +19512,11 @@
       "crest": "https://crests.football-data.org/44.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
         "home": null,
