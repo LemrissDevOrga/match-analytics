@@ -23716,11 +23716,11 @@
     },
     "id": 537172,
     "utcDate": "2026-05-11T18:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:01Z",
+    "lastUpdated": "2026-05-11T19:27:55Z",
     "homeTeam": {
       "id": 113,
       "name": "SSC Napoli",
@@ -23736,11 +23736,11 @@
       "crest": "https://crests.football-data.org/103.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "halfTime": {
         "home": null,
