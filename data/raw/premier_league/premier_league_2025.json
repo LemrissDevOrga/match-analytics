@@ -23650,11 +23650,11 @@
     },
     "id": 538143,
     "utcDate": "2026-05-11T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T21:09:55Z",
+    "lastUpdated": "2026-05-11T21:11:50Z",
     "homeTeam": {
       "id": 73,
       "name": "Tottenham Hotspur FC",

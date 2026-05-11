@@ -23745,18 +23745,6 @@
       "halfTime": {
         "home": 1,
         "away": 2
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -23793,12 +23781,12 @@
       "winner": null
     },
     "id": 537175,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-17T13:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:02Z",
+    "lastUpdated": "2026-05-11T22:25:26Z",
     "homeTeam": {
       "id": 100,
       "name": "AS Roma",
@@ -23852,12 +23840,12 @@
       "winner": null
     },
     "id": 537176,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-17T13:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
+    "lastUpdated": "2026-05-11T22:25:26Z",
     "homeTeam": {
       "id": 102,
       "name": "Atalanta BC",
@@ -23911,12 +23899,12 @@
       "winner": null
     },
     "id": 537177,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-17T13:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
+    "lastUpdated": "2026-05-11T22:25:26Z",
     "homeTeam": {
       "id": 104,
       "name": "Cagliari Calcio",
@@ -23970,12 +23958,12 @@
       "winner": null
     },
     "id": 537178,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-17T13:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:02Z",
+    "lastUpdated": "2026-05-11T22:25:26Z",
     "homeTeam": {
       "id": 107,
       "name": "Genoa CFC",
@@ -24029,12 +24017,12 @@
       "winner": null
     },
     "id": 537179,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-17T13:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
+    "lastUpdated": "2026-05-11T22:25:26Z",
     "homeTeam": {
       "id": 7397,
       "name": "Como 1907",
@@ -24088,12 +24076,12 @@
       "winner": null
     },
     "id": 537180,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-17T13:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
+    "lastUpdated": "2026-05-11T22:25:26Z",
     "homeTeam": {
       "id": 108,
       "name": "FC Internazionale Milano",
@@ -24147,12 +24135,12 @@
       "winner": null
     },
     "id": 537181,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-17T13:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
+    "lastUpdated": "2026-05-11T22:25:26Z",
     "homeTeam": {
       "id": 109,
       "name": "Juventus FC",
@@ -24206,12 +24194,12 @@
       "winner": null
     },
     "id": 537182,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-17T13:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
+    "lastUpdated": "2026-05-11T22:25:26Z",
     "homeTeam": {
       "id": 487,
       "name": "AC Pisa 1909",
@@ -24265,12 +24253,12 @@
       "winner": null
     },
     "id": 537183,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-17T13:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
+    "lastUpdated": "2026-05-11T22:25:26Z",
     "homeTeam": {
       "id": 471,
       "name": "US Sassuolo Calcio",
@@ -24324,12 +24312,12 @@
       "winner": null
     },
     "id": 537184,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-17T13:00:00Z",
+    "status": "TIMED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
+    "lastUpdated": "2026-05-11T22:25:26Z",
     "homeTeam": {
       "id": 115,
       "name": "Udinese Calcio",

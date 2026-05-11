@@ -18210,11 +18210,11 @@
     },
     "id": 545988,
     "utcDate": "2026-05-11T19:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T21:11:15Z",
+    "lastUpdated": "2026-05-11T21:24:15Z",
     "homeTeam": {
       "id": 5543,
       "name": "Vit\u00f3ria SC",
@@ -18230,11 +18230,11 @@
       "crest": "https://crests.football-data.org/6618.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
         "home": 0,
@@ -18276,11 +18276,11 @@
     },
     "id": 545989,
     "utcDate": "2026-05-11T19:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T21:11:20Z",
+    "lastUpdated": "2026-05-11T21:22:25Z",
     "homeTeam": {
       "id": 5533,
       "name": "Gil Vicente FC",
@@ -18342,11 +18342,11 @@
     },
     "id": 545990,
     "utcDate": "2026-05-11T19:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T21:11:35Z",
+    "lastUpdated": "2026-05-11T21:20:30Z",
     "homeTeam": {
       "id": 1049,
       "name": "CD Tondela",
@@ -18408,11 +18408,11 @@
     },
     "id": 545992,
     "utcDate": "2026-05-11T19:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T21:11:26Z",
+    "lastUpdated": "2026-05-11T21:24:30Z",
     "homeTeam": {
       "id": 9136,
       "name": "CF Estrela da Amadora",
@@ -18474,11 +18474,11 @@
     },
     "id": 545994,
     "utcDate": "2026-05-11T19:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T21:10:51Z",
+    "lastUpdated": "2026-05-11T21:19:21Z",
     "homeTeam": {
       "id": 496,
       "name": "Rio Ave FC",
@@ -18498,7 +18498,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 3
+        "away": 4
       },
       "halfTime": {
         "home": 1,
@@ -18540,11 +18540,11 @@
     },
     "id": 545995,
     "utcDate": "2026-05-11T19:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T21:11:16Z",
+    "lastUpdated": "2026-05-11T21:22:35Z",
     "homeTeam": {
       "id": 5530,
       "name": "CD Santa Clara",
@@ -18563,7 +18563,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
@@ -18606,11 +18606,11 @@
     },
     "id": 545996,
     "utcDate": "2026-05-11T19:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 33,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T21:11:31Z",
+    "lastUpdated": "2026-05-11T21:25:15Z",
     "homeTeam": {
       "id": 1903,
       "name": "Sport Lisboa e Benfica",
@@ -18626,11 +18626,11 @@
       "crest": "https://crests.football-data.org/5613.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
         "home": 2,
-        "away": 1
+        "away": 2
       },
       "halfTime": {
         "home": 0,
