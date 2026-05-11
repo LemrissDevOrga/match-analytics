@@ -22874,11 +22874,11 @@
     },
     "id": 544560,
     "utcDate": "2026-05-11T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 35,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T19:26:40Z",
+    "lastUpdated": "2026-05-11T21:03:00Z",
     "homeTeam": {
       "id": 87,
       "name": "Rayo Vallecano de Madrid",
@@ -22897,12 +22897,24 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
+        "home": 1,
+        "away": 1
+      },
+      "halfTime": {
         "home": 0,
         "away": 0
       },
-      "halfTime": {
-        "home": null,
-        "away": null
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
