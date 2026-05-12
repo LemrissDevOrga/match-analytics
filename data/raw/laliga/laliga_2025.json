@@ -22940,11 +22940,11 @@
     },
     "id": 544563,
     "utcDate": "2026-05-12T17:00:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-06T01:32:02Z",
+    "lastUpdated": "2026-05-12T19:03:34Z",
     "homeTeam": {
       "id": 558,
       "name": "RC Celta de Vigo",
@@ -22960,15 +22960,15 @@
       "crest": "https://crests.football-data.org/88.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 3
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       }
     },
     "odds": {
@@ -22999,11 +22999,11 @@
     },
     "id": 544562,
     "utcDate": "2026-05-12T18:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-12T01:32:00Z",
+    "lastUpdated": "2026-05-12T19:27:14Z",
     "homeTeam": {
       "id": 90,
       "name": "Real Betis Balompi\u00e9",
@@ -23019,15 +23019,15 @@
       "crest": "https://crests.football-data.org/285.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       }
     },
     "odds": {
