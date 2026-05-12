@@ -18671,12 +18671,12 @@
       "winner": null
     },
     "id": 545997,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-16T14:30:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
+    "lastUpdated": "2026-05-12T03:25:23Z",
     "homeTeam": {
       "id": 583,
       "name": "Moreirense FC",
@@ -18729,131 +18729,13 @@
       "currentMatchday": 33,
       "winner": null
     },
-    "id": 545998,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 34,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
-    "homeTeam": {
-      "id": 5531,
-      "name": "FC Famalic\u00e3o",
-      "shortName": "Famalic\u00e3o",
-      "tla": "FAM",
-      "crest": "https://crests.football-data.org/5531.png"
-    },
-    "awayTeam": {
-      "id": 7822,
-      "name": "FC Alverca",
-      "shortName": "Alverca",
-      "tla": "ALV",
-      "crest": "https://crests.football-data.org/7822.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2187,
-      "name": "Portugal",
-      "code": "POR",
-      "flag": "https://crests.football-data.org/765.svg"
-    },
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "code": "PPL",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/PPL.png"
-    },
-    "season": {
-      "id": 2433,
-      "startDate": "2025-08-08",
-      "endDate": "2026-05-17",
-      "currentMatchday": 33,
-      "winner": null
-    },
-    "id": 545999,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 34,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
-    "homeTeam": {
-      "id": 498,
-      "name": "Sporting Clube de Portugal",
-      "shortName": "Sporting CP",
-      "tla": "SPO",
-      "crest": "https://crests.football-data.org/498.png"
-    },
-    "awayTeam": {
-      "id": 5533,
-      "name": "Gil Vicente FC",
-      "shortName": "Gil Vicente",
-      "tla": "GIL",
-      "crest": "https://crests.football-data.org/5533.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2187,
-      "name": "Portugal",
-      "code": "POR",
-      "flag": "https://crests.football-data.org/765.svg"
-    },
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "code": "PPL",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/PPL.png"
-    },
-    "season": {
-      "id": 2433,
-      "startDate": "2025-08-08",
-      "endDate": "2026-05-17",
-      "currentMatchday": 33,
-      "winner": null
-    },
     "id": 546000,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-16T14:30:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-12T01:32:01Z",
+    "lastUpdated": "2026-05-12T03:25:23Z",
     "homeTeam": {
       "id": 503,
       "name": "FC Porto",
@@ -18906,72 +18788,13 @@
       "currentMatchday": 33,
       "winner": null
     },
-    "id": 546001,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
-    "matchday": 34,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
-    "homeTeam": {
-      "id": 582,
-      "name": "GD Estoril Praia",
-      "shortName": "Estoril Praia",
-      "tla": "EST",
-      "crest": "https://crests.football-data.org/582.png"
-    },
-    "awayTeam": {
-      "id": 1903,
-      "name": "Sport Lisboa e Benfica",
-      "shortName": "SL Benfica",
-      "tla": "BEN",
-      "crest": "https://crests.football-data.org/1903.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2187,
-      "name": "Portugal",
-      "code": "POR",
-      "flag": "https://crests.football-data.org/765.svg"
-    },
-    "competition": {
-      "id": 2017,
-      "name": "Primeira Liga",
-      "code": "PPL",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/PPL.png"
-    },
-    "season": {
-      "id": 2433,
-      "startDate": "2025-08-08",
-      "endDate": "2026-05-17",
-      "currentMatchday": 33,
-      "winner": null
-    },
     "id": 546002,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-16T17:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
+    "lastUpdated": "2026-05-12T03:25:24Z",
     "homeTeam": {
       "id": 5529,
       "name": "CD Nacional",
@@ -19025,12 +18848,12 @@
       "winner": null
     },
     "id": 546003,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-16T17:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-12T01:32:02Z",
+    "lastUpdated": "2026-05-12T03:25:24Z",
     "homeTeam": {
       "id": 6618,
       "name": "Casa Pia AC",
@@ -19084,12 +18907,12 @@
       "winner": null
     },
     "id": 546004,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-16T17:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
+    "lastUpdated": "2026-05-12T03:25:24Z",
     "homeTeam": {
       "id": 712,
       "name": "FC Arouca",
@@ -19143,12 +18966,12 @@
       "winner": null
     },
     "id": 546005,
-    "utcDate": "2026-05-17T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-16T17:00:00Z",
+    "status": "TIMED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-10T01:32:03Z",
+    "lastUpdated": "2026-05-12T03:25:24Z",
     "homeTeam": {
       "id": 5613,
       "name": "Sporting Clube de Braga",
@@ -19162,6 +18985,183 @@
       "shortName": "Amadora",
       "tla": "AMA",
       "crest": "https://crests.football-data.org/9136.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2187,
+      "name": "Portugal",
+      "code": "POR",
+      "flag": "https://crests.football-data.org/765.svg"
+    },
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "code": "PPL",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/PPL.png"
+    },
+    "season": {
+      "id": 2433,
+      "startDate": "2025-08-08",
+      "endDate": "2026-05-17",
+      "currentMatchday": 33,
+      "winner": null
+    },
+    "id": 545998,
+    "utcDate": "2026-05-16T19:30:00Z",
+    "status": "TIMED",
+    "matchday": 34,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-05-12T03:25:23Z",
+    "homeTeam": {
+      "id": 5531,
+      "name": "FC Famalic\u00e3o",
+      "shortName": "Famalic\u00e3o",
+      "tla": "FAM",
+      "crest": "https://crests.football-data.org/5531.png"
+    },
+    "awayTeam": {
+      "id": 7822,
+      "name": "FC Alverca",
+      "shortName": "Alverca",
+      "tla": "ALV",
+      "crest": "https://crests.football-data.org/7822.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2187,
+      "name": "Portugal",
+      "code": "POR",
+      "flag": "https://crests.football-data.org/765.svg"
+    },
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "code": "PPL",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/PPL.png"
+    },
+    "season": {
+      "id": 2433,
+      "startDate": "2025-08-08",
+      "endDate": "2026-05-17",
+      "currentMatchday": 33,
+      "winner": null
+    },
+    "id": 545999,
+    "utcDate": "2026-05-16T19:30:00Z",
+    "status": "TIMED",
+    "matchday": 34,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-05-12T03:25:23Z",
+    "homeTeam": {
+      "id": 498,
+      "name": "Sporting Clube de Portugal",
+      "shortName": "Sporting CP",
+      "tla": "SPO",
+      "crest": "https://crests.football-data.org/498.png"
+    },
+    "awayTeam": {
+      "id": 5533,
+      "name": "Gil Vicente FC",
+      "shortName": "Gil Vicente",
+      "tla": "GIL",
+      "crest": "https://crests.football-data.org/5533.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2187,
+      "name": "Portugal",
+      "code": "POR",
+      "flag": "https://crests.football-data.org/765.svg"
+    },
+    "competition": {
+      "id": 2017,
+      "name": "Primeira Liga",
+      "code": "PPL",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/PPL.png"
+    },
+    "season": {
+      "id": 2433,
+      "startDate": "2025-08-08",
+      "endDate": "2026-05-17",
+      "currentMatchday": 33,
+      "winner": null
+    },
+    "id": 546001,
+    "utcDate": "2026-05-16T19:30:00Z",
+    "status": "TIMED",
+    "matchday": 34,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-05-12T03:25:23Z",
+    "homeTeam": {
+      "id": 582,
+      "name": "GD Estoril Praia",
+      "shortName": "Estoril Praia",
+      "tla": "EST",
+      "crest": "https://crests.football-data.org/582.png"
+    },
+    "awayTeam": {
+      "id": 1903,
+      "name": "Sport Lisboa e Benfica",
+      "shortName": "SL Benfica",
+      "tla": "BEN",
+      "crest": "https://crests.football-data.org/1903.png"
     },
     "score": {
       "winner": null,
