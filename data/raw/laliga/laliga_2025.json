@@ -23117,11 +23117,11 @@
     },
     "id": 544566,
     "utcDate": "2026-05-13T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-13T17:06:15Z",
+    "lastUpdated": "2026-05-13T19:00:05Z",
     "homeTeam": {
       "id": 80,
       "name": "RCD Espanyol de Barcelona",
@@ -23137,25 +23137,13 @@
       "crest": "https://crests.football-data.org/77.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
         "home": 0,
         "away": 0
       }
@@ -23195,11 +23183,11 @@
     },
     "id": 544569,
     "utcDate": "2026-05-13T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-13T17:05:45Z",
+    "lastUpdated": "2026-05-13T19:01:20Z",
     "homeTeam": {
       "id": 94,
       "name": "Villarreal CF",
@@ -23215,27 +23203,15 @@
       "crest": "https://crests.football-data.org/559.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 3
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 2
       }
     },
     "odds": {
@@ -23307,7 +23283,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 207080,
+        "name": "Jos\u00e9 S\u00e1nchez Mart\u00ednez",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -23366,7 +23349,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 206203,
+        "name": "Juan Mart\u00ednez Munuera",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
