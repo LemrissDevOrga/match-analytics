@@ -19551,11 +19551,11 @@
     },
     "id": 542664,
     "utcDate": "2026-05-13T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-13T19:31:10Z",
+    "lastUpdated": "2026-05-13T21:03:45Z",
     "homeTeam": {
       "id": 546,
       "name": "Racing Club de Lens",
@@ -19571,15 +19571,15 @@
       "crest": "https://crests.football-data.org/524.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       }
     },
     "odds": {

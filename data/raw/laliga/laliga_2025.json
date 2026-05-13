@@ -23249,11 +23249,11 @@
     },
     "id": 544561,
     "utcDate": "2026-05-13T19:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-13T01:32:00Z",
+    "lastUpdated": "2026-05-13T21:16:50Z",
     "homeTeam": {
       "id": 263,
       "name": "Deportivo Alav\u00e9s",
@@ -23269,15 +23269,15 @@
       "crest": "https://crests.football-data.org/81.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     "odds": {
@@ -23315,11 +23315,11 @@
     },
     "id": 544564,
     "utcDate": "2026-05-13T19:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-13T01:32:00Z",
+    "lastUpdated": "2026-05-13T21:16:10Z",
     "homeTeam": {
       "id": 82,
       "name": "Getafe CF",
@@ -23335,15 +23335,15 @@
       "crest": "https://crests.football-data.org/89.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       }
     },
     "odds": {
