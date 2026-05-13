@@ -19492,11 +19492,11 @@
     },
     "id": 542665,
     "utcDate": "2026-05-13T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 29,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-07T01:32:02Z",
+    "lastUpdated": "2026-05-13T17:08:25Z",
     "homeTeam": {
       "id": 512,
       "name": "Stade Brestois 29",
@@ -19512,11 +19512,11 @@
       "crest": "https://crests.football-data.org/576.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
         "home": null,
