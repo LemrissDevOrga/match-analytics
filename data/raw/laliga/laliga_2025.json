@@ -23410,6 +23410,18 @@
       "halfTime": {
         "home": 1,
         "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -23476,6 +23488,18 @@
       "halfTime": {
         "home": 0,
         "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -23513,11 +23537,11 @@
     },
     "id": 544570,
     "utcDate": "2026-05-14T19:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-14T20:22:01Z",
+    "lastUpdated": "2026-05-14T21:28:16Z",
     "homeTeam": {
       "id": 86,
       "name": "Real Madrid CF",
@@ -23533,15 +23557,27 @@
       "crest": "https://crests.football-data.org/1048.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
