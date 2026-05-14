@@ -23410,18 +23410,6 @@
       "halfTime": {
         "home": 1,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -23488,18 +23476,6 @@
       "halfTime": {
         "home": 0,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -23565,18 +23541,6 @@
       },
       "halfTime": {
         "home": 1,
-        "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
         "away": 0
       }
     },
@@ -24735,12 +24699,12 @@
       "winner": null
     },
     "id": 544588,
-    "utcDate": "2026-05-24T00:00:00Z",
-    "status": "SCHEDULED",
+    "utcDate": "2026-05-24T19:00:00Z",
+    "status": "TIMED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2025-08-29T05:20:57Z",
+    "lastUpdated": "2026-05-14T22:25:22Z",
     "homeTeam": {
       "id": 94,
       "name": "Villarreal CF",
