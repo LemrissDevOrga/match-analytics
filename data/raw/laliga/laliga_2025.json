@@ -23415,7 +23415,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 214410,
+        "name": "Alejandro Quintero Gonz\u00e1lez",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -23474,7 +23481,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 214573,
+        "name": "Miguel Sesma Espinosa",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
@@ -23533,7 +23547,14 @@
     "odds": {
       "msg": "Activate Odds-Package in User-Panel to retrieve odds."
     },
-    "referees": []
+    "referees": [
+      {
+        "id": 15628,
+        "name": "Ricardo de Burgos",
+        "type": "REFEREE",
+        "nationality": "Spain"
+      }
+    ]
   },
   {
     "area": {
