@@ -23381,11 +23381,11 @@
     },
     "id": 544568,
     "utcDate": "2026-05-14T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-14T18:28:31Z",
+    "lastUpdated": "2026-05-14T19:06:46Z",
     "homeTeam": {
       "id": 95,
       "name": "Valencia CF",
@@ -23447,11 +23447,11 @@
     },
     "id": 544565,
     "utcDate": "2026-05-14T18:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-14T18:28:27Z",
+    "lastUpdated": "2026-05-14T20:02:56Z",
     "homeTeam": {
       "id": 298,
       "name": "Girona FC",
@@ -23470,12 +23470,12 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       }
     },
     "odds": {
@@ -23513,11 +23513,11 @@
     },
     "id": 544570,
     "utcDate": "2026-05-14T19:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 36,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-14T00:20:59Z",
+    "lastUpdated": "2026-05-14T20:22:01Z",
     "homeTeam": {
       "id": 86,
       "name": "Real Madrid CF",
@@ -23533,11 +23533,11 @@
       "crest": "https://crests.football-data.org/1048.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
         "home": null,
