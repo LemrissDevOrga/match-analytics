@@ -19653,18 +19653,6 @@
       "halfTime": {
         "home": 0,
         "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -19731,18 +19719,6 @@
       "halfTime": {
         "home": 0,
         "away": 2
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -19784,7 +19760,7 @@
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-16T15:32:46Z",
+    "lastUpdated": "2026-05-16T15:32:47Z",
     "homeTeam": {
       "id": 17,
       "name": "SC Freiburg",
@@ -19809,18 +19785,6 @@
       "halfTime": {
         "home": 2,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -19887,18 +19851,6 @@
       "halfTime": {
         "home": 0,
         "away": 2
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -19965,18 +19917,6 @@
       "halfTime": {
         "home": 0,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -20042,18 +19982,6 @@
       },
       "halfTime": {
         "home": 2,
-        "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
         "away": 0
       }
     },
@@ -20121,18 +20049,6 @@
       "halfTime": {
         "home": 2,
         "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -20199,18 +20115,6 @@
       "halfTime": {
         "home": 3,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -20275,18 +20179,6 @@
         "away": 1
       },
       "halfTime": {
-        "home": 0,
-        "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
         "home": 0,
         "away": 0
       }
