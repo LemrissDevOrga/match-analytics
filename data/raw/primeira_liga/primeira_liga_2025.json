@@ -18701,6 +18701,18 @@
       "halfTime": {
         "home": 0,
         "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18758,6 +18770,18 @@
         "away": 0
       },
       "halfTime": {
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
         "home": 0,
         "away": 0
       }
@@ -18819,6 +18843,18 @@
       "halfTime": {
         "home": 0,
         "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18877,6 +18913,18 @@
       },
       "halfTime": {
         "home": 1,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
         "away": 0
       }
     },
@@ -18937,6 +18985,18 @@
       "halfTime": {
         "home": 1,
         "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -18996,6 +19056,18 @@
       "halfTime": {
         "home": 1,
         "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -19026,11 +19098,11 @@
     },
     "id": 545998,
     "utcDate": "2026-05-16T19:30:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-16T20:25:02Z",
+    "lastUpdated": "2026-05-16T21:35:02Z",
     "homeTeam": {
       "id": 5531,
       "name": "FC Famalic\u00e3o",
@@ -19046,13 +19118,25 @@
       "crest": "https://crests.football-data.org/7822.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
+        "home": 0,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
         "home": 0,
         "away": 0
       }
@@ -19085,11 +19169,11 @@
     },
     "id": 545999,
     "utcDate": "2026-05-16T19:30:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-16T20:28:37Z",
+    "lastUpdated": "2026-05-16T21:35:02Z",
     "homeTeam": {
       "id": 498,
       "name": "Sporting Clube de Portugal",
@@ -19108,11 +19192,23 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
         "home": 2,
+        "away": 0
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
         "away": 0
       }
     },
@@ -19144,11 +19240,11 @@
     },
     "id": 546001,
     "utcDate": "2026-05-16T19:30:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-16T20:26:02Z",
+    "lastUpdated": "2026-05-16T21:34:07Z",
     "homeTeam": {
       "id": 582,
       "name": "GD Estoril Praia",
@@ -19167,12 +19263,24 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 3
       },
       "halfTime": {
         "home": 0,
         "away": 3
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
