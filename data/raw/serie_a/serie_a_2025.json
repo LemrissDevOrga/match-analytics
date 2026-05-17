@@ -24178,11 +24178,11 @@
     },
     "id": 537176,
     "utcDate": "2026-05-17T16:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T17:49:11Z",
+    "lastUpdated": "2026-05-17T17:58:56Z",
     "homeTeam": {
       "id": 102,
       "name": "Atalanta BC",
@@ -24244,11 +24244,11 @@
     },
     "id": 537177,
     "utcDate": "2026-05-17T18:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-12T10:21:09Z",
+    "lastUpdated": "2026-05-17T18:51:08Z",
     "homeTeam": {
       "id": 104,
       "name": "Cagliari Calcio",
@@ -24264,11 +24264,11 @@
       "crest": "https://crests.football-data.org/586.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
         "home": null,
@@ -24310,11 +24310,11 @@
     },
     "id": 537183,
     "utcDate": "2026-05-17T18:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-12T10:21:09Z",
+    "lastUpdated": "2026-05-17T18:51:03Z",
     "homeTeam": {
       "id": 471,
       "name": "US Sassuolo Calcio",
@@ -24330,11 +24330,11 @@
       "crest": "https://crests.football-data.org/5890.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
         "home": null,
@@ -24376,11 +24376,11 @@
     },
     "id": 537184,
     "utcDate": "2026-05-17T18:45:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-12T10:21:09Z",
+    "lastUpdated": "2026-05-17T18:51:03Z",
     "homeTeam": {
       "id": 115,
       "name": "Udinese Calcio",
@@ -24396,11 +24396,11 @@
       "crest": "https://crests.football-data.org/457.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
         "home": null,

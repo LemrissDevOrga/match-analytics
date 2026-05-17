@@ -24178,11 +24178,11 @@
     },
     "id": 538153,
     "utcDate": "2026-05-17T16:30:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T17:48:27Z",
+    "lastUpdated": "2026-05-17T18:34:01Z",
     "homeTeam": {
       "id": 67,
       "name": "Newcastle United FC",
@@ -24201,8 +24201,8 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
-        "away": 0
+        "home": 3,
+        "away": 1
       },
       "halfTime": {
         "home": 2,
