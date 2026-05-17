@@ -24248,7 +24248,7 @@
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T18:51:08Z",
+    "lastUpdated": "2026-05-17T20:01:02Z",
     "homeTeam": {
       "id": 104,
       "name": "Cagliari Calcio",
@@ -24264,15 +24264,15 @@
       "crest": "https://crests.football-data.org/586.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       }
     },
     "odds": {
@@ -24314,7 +24314,7 @@
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T18:51:03Z",
+    "lastUpdated": "2026-05-17T20:00:12Z",
     "homeTeam": {
       "id": 471,
       "name": "US Sassuolo Calcio",
@@ -24330,15 +24330,15 @@
       "crest": "https://crests.football-data.org/5890.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       }
     },
     "odds": {
@@ -24380,7 +24380,7 @@
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T18:51:03Z",
+    "lastUpdated": "2026-05-17T20:01:17Z",
     "homeTeam": {
       "id": 115,
       "name": "Udinese Calcio",
@@ -24396,15 +24396,15 @@
       "crest": "https://crests.football-data.org/457.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       }
     },
     "odds": {

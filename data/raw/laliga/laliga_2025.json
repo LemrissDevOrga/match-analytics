@@ -23579,11 +23579,11 @@
     },
     "id": 544571,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T18:18:07Z",
+    "lastUpdated": "2026-05-17T19:03:26Z",
     "homeTeam": {
       "id": 77,
       "name": "Athletic Club",
@@ -23608,18 +23608,6 @@
       "halfTime": {
         "home": 0,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -23657,11 +23645,11 @@
     },
     "id": 544572,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T18:11:37Z",
+    "lastUpdated": "2026-05-17T19:00:17Z",
     "homeTeam": {
       "id": 78,
       "name": "Club Atl\u00e9tico de Madrid",
@@ -23685,18 +23673,6 @@
       },
       "halfTime": {
         "home": 1,
-        "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
         "away": 0
       }
     },
@@ -23735,11 +23711,11 @@
     },
     "id": 544574,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T18:11:37Z",
+    "lastUpdated": "2026-05-17T19:01:57Z",
     "homeTeam": {
       "id": 285,
       "name": "Elche CF",
@@ -23763,18 +23739,6 @@
       },
       "halfTime": {
         "home": 1,
-        "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
         "away": 0
       }
     },
@@ -23813,11 +23777,11 @@
     },
     "id": 544575,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T18:11:27Z",
+    "lastUpdated": "2026-05-17T19:05:51Z",
     "homeTeam": {
       "id": 88,
       "name": "Levante UD",
@@ -23836,23 +23800,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
         "home": 1,
-        "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
         "away": 0
       }
     },
@@ -23891,11 +23843,11 @@
     },
     "id": 544576,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T18:13:37Z",
+    "lastUpdated": "2026-05-17T19:02:42Z",
     "homeTeam": {
       "id": 87,
       "name": "Rayo Vallecano de Madrid",
@@ -23919,18 +23871,6 @@
       },
       "halfTime": {
         "home": 1,
-        "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
         "away": 0
       }
     },
@@ -23969,11 +23909,11 @@
     },
     "id": 544577,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T18:29:03Z",
+    "lastUpdated": "2026-05-17T19:05:32Z",
     "homeTeam": {
       "id": 92,
       "name": "Real Sociedad de F\u00fatbol",
@@ -23989,27 +23929,15 @@
       "crest": "https://crests.football-data.org/95.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 3,
-        "away": 2
+        "away": 4
       },
       "halfTime": {
         "home": 1,
         "away": 2
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -24047,11 +23975,11 @@
     },
     "id": 544578,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T18:11:27Z",
+    "lastUpdated": "2026-05-17T19:00:37Z",
     "homeTeam": {
       "id": 1048,
       "name": "Real Oviedo",
@@ -24076,18 +24004,6 @@
       "halfTime": {
         "home": 0,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -24125,11 +24041,11 @@
     },
     "id": 544579,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T18:19:22Z",
+    "lastUpdated": "2026-05-17T19:01:57Z",
     "homeTeam": {
       "id": 79,
       "name": "CA Osasuna",
@@ -24154,18 +24070,6 @@
       "halfTime": {
         "home": 0,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -24203,11 +24107,11 @@
     },
     "id": 544580,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T18:13:08Z",
+    "lastUpdated": "2026-05-17T19:01:57Z",
     "homeTeam": {
       "id": 559,
       "name": "Sevilla FC",
@@ -24232,18 +24136,6 @@
       "halfTime": {
         "home": 0,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -24281,11 +24173,11 @@
     },
     "id": 544573,
     "utcDate": "2026-05-17T19:15:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-15T15:21:00Z",
+    "lastUpdated": "2026-05-17T20:00:18Z",
     "homeTeam": {
       "id": 81,
       "name": "FC Barcelona",
@@ -24301,11 +24193,11 @@
       "crest": "https://crests.football-data.org/90.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
         "home": null,
