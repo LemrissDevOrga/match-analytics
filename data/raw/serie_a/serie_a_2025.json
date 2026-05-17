@@ -24244,11 +24244,11 @@
     },
     "id": 537177,
     "utcDate": "2026-05-17T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T20:01:02Z",
+    "lastUpdated": "2026-05-17T20:49:41Z",
     "homeTeam": {
       "id": 104,
       "name": "Cagliari Calcio",
@@ -24310,11 +24310,11 @@
     },
     "id": 537183,
     "utcDate": "2026-05-17T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T20:00:12Z",
+    "lastUpdated": "2026-05-17T20:54:17Z",
     "homeTeam": {
       "id": 471,
       "name": "US Sassuolo Calcio",
@@ -24333,8 +24333,8 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
-        "away": 2
+        "home": 2,
+        "away": 3
       },
       "halfTime": {
         "home": 1,
@@ -24376,11 +24376,11 @@
     },
     "id": 537184,
     "utcDate": "2026-05-17T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T20:01:17Z",
+    "lastUpdated": "2026-05-17T20:50:02Z",
     "homeTeam": {
       "id": 115,
       "name": "Udinese Calcio",
