@@ -23608,18 +23608,6 @@
       "halfTime": {
         "home": 0,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -23685,18 +23673,6 @@
       },
       "halfTime": {
         "home": 1,
-        "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
         "away": 0
       }
     },
@@ -23764,18 +23740,6 @@
       "halfTime": {
         "home": 1,
         "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -23841,18 +23805,6 @@
       },
       "halfTime": {
         "home": 1,
-        "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
         "away": 0
       }
     },
@@ -23920,18 +23872,6 @@
       "halfTime": {
         "home": 1,
         "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -23998,18 +23938,6 @@
       "halfTime": {
         "home": 1,
         "away": 2
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -24076,18 +24004,6 @@
       "halfTime": {
         "home": 0,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -24154,18 +24070,6 @@
       "halfTime": {
         "home": 0,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -24232,18 +24136,6 @@
       "halfTime": {
         "home": 0,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -24281,11 +24173,11 @@
     },
     "id": 544573,
     "utcDate": "2026-05-17T19:15:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T20:52:48Z",
+    "lastUpdated": "2026-05-17T21:17:26Z",
     "homeTeam": {
       "id": 81,
       "name": "FC Barcelona",
@@ -24304,23 +24196,11 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 1
       },
       "halfTime": {
         "home": 1,
-        "away": 0
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
         "away": 0
       }
     },
