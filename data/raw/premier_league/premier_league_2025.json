@@ -23848,11 +23848,11 @@
     },
     "id": 538152,
     "utcDate": "2026-05-17T11:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T00:20:57Z",
+    "lastUpdated": "2026-05-17T13:33:57Z",
     "homeTeam": {
       "id": 66,
       "name": "Manchester United FC",
@@ -23868,15 +23868,15 @@
       "crest": "https://crests.football-data.org/351.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     "odds": {
@@ -23914,11 +23914,11 @@
     },
     "id": 538148,
     "utcDate": "2026-05-17T14:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-12T01:32:02Z",
+    "lastUpdated": "2026-05-17T15:50:22Z",
     "homeTeam": {
       "id": 402,
       "name": "Brentford FC",
@@ -23934,15 +23934,15 @@
       "crest": "https://crests.football-data.org/354.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       }
     },
     "odds": {
@@ -23980,11 +23980,11 @@
     },
     "id": 538150,
     "utcDate": "2026-05-17T14:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:02Z",
+    "lastUpdated": "2026-05-17T15:49:32Z",
     "homeTeam": {
       "id": 62,
       "name": "Everton FC",
@@ -24000,15 +24000,15 @@
       "crest": "https://crests.football-data.org/71.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     "odds": {
@@ -24046,11 +24046,11 @@
     },
     "id": 538151,
     "utcDate": "2026-05-17T14:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T00:20:57Z",
+    "lastUpdated": "2026-05-17T15:49:32Z",
     "homeTeam": {
       "id": 341,
       "name": "Leeds United FC",
@@ -24066,15 +24066,15 @@
       "crest": "https://crests.football-data.org/397.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -24112,11 +24112,11 @@
     },
     "id": 538154,
     "utcDate": "2026-05-17T14:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T05:21:10Z",
+    "lastUpdated": "2026-05-17T15:49:32Z",
     "homeTeam": {
       "id": 76,
       "name": "Wolverhampton Wanderers FC",
@@ -24132,15 +24132,15 @@
       "crest": "https://crests.football-data.org/63.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       }
     },
     "odds": {

@@ -19624,11 +19624,11 @@
     },
     "id": 537738,
     "utcDate": "2026-05-17T12:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:02Z",
+    "lastUpdated": "2026-05-17T14:27:42Z",
     "homeTeam": {
       "id": 682,
       "name": "AZ",
@@ -19644,15 +19644,15 @@
       "crest": "https://crests.football-data.org/681.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 3
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       }
     },
     "odds": {
@@ -19683,11 +19683,11 @@
     },
     "id": 537739,
     "utcDate": "2026-05-17T12:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:02Z",
+    "lastUpdated": "2026-05-17T14:29:57Z",
     "homeTeam": {
       "id": 676,
       "name": "FC Utrecht",
@@ -19703,15 +19703,15 @@
       "crest": "https://crests.football-data.org/1920.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     "odds": {
@@ -19742,11 +19742,11 @@
     },
     "id": 537740,
     "utcDate": "2026-05-17T12:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:02Z",
+    "lastUpdated": "2026-05-17T14:37:47Z",
     "homeTeam": {
       "id": 1919,
       "name": "FC Volendam",
@@ -19762,15 +19762,15 @@
       "crest": "https://crests.football-data.org/1912.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       }
     },
     "odds": {
@@ -19801,11 +19801,11 @@
     },
     "id": 537741,
     "utcDate": "2026-05-17T12:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:02Z",
+    "lastUpdated": "2026-05-17T14:30:37Z",
     "homeTeam": {
       "id": 671,
       "name": "Heracles Almelo",
@@ -19821,15 +19821,15 @@
       "crest": "https://crests.football-data.org/677.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       }
     },
     "odds": {
@@ -19860,11 +19860,11 @@
     },
     "id": 537742,
     "utcDate": "2026-05-17T12:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:02Z",
+    "lastUpdated": "2026-05-17T14:33:47Z",
     "homeTeam": {
       "id": 1915,
       "name": "NEC",
@@ -19880,15 +19880,15 @@
       "crest": "https://crests.football-data.org/718.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       }
     },
     "odds": {
@@ -19919,11 +19919,11 @@
     },
     "id": 537743,
     "utcDate": "2026-05-17T12:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:02Z",
+    "lastUpdated": "2026-05-17T14:26:37Z",
     "homeTeam": {
       "id": 684,
       "name": "PEC Zwolle",
@@ -19939,15 +19939,15 @@
       "crest": "https://crests.football-data.org/675.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -19978,11 +19978,11 @@
     },
     "id": 537744,
     "utcDate": "2026-05-17T12:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:02Z",
+    "lastUpdated": "2026-05-17T14:29:52Z",
     "homeTeam": {
       "id": 674,
       "name": "PSV",
@@ -19998,15 +19998,15 @@
       "crest": "https://crests.football-data.org/666.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 5,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       }
     },
     "odds": {
@@ -20037,11 +20037,11 @@
     },
     "id": 537745,
     "utcDate": "2026-05-17T12:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:02Z",
+    "lastUpdated": "2026-05-17T14:31:57Z",
     "homeTeam": {
       "id": 673,
       "name": "SC Heerenveen",
@@ -20057,15 +20057,15 @@
       "crest": "https://crests.football-data.org/678.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -20096,11 +20096,11 @@
     },
     "id": 537746,
     "utcDate": "2026-05-17T12:30:00Z",
-    "status": "TIMED",
+    "status": "FINISHED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:02Z",
+    "lastUpdated": "2026-05-17T14:30:32Z",
     "homeTeam": {
       "id": 6806,
       "name": "Sparta Rotterdam",
@@ -20116,15 +20116,15 @@
       "crest": "https://crests.football-data.org/670.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 3
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       }
     },
     "odds": {
