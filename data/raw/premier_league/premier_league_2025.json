@@ -24182,7 +24182,7 @@
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T16:45:07Z",
+    "lastUpdated": "2026-05-17T17:48:27Z",
     "homeTeam": {
       "id": 67,
       "name": "Newcastle United FC",
@@ -24198,15 +24198,15 @@
       "crest": "https://crests.football-data.org/563.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       }
     },
     "odds": {

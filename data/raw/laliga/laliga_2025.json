@@ -23579,11 +23579,11 @@
     },
     "id": 544571,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:03Z",
+    "lastUpdated": "2026-05-17T17:47:02Z",
     "homeTeam": {
       "id": 77,
       "name": "Athletic Club",
@@ -23599,11 +23599,11 @@
       "crest": "https://crests.football-data.org/558.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
         "home": null,
@@ -23645,11 +23645,11 @@
     },
     "id": 544572,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:03Z",
+    "lastUpdated": "2026-05-17T17:48:37Z",
     "homeTeam": {
       "id": 78,
       "name": "Club Atl\u00e9tico de Madrid",
@@ -23665,11 +23665,11 @@
       "crest": "https://crests.football-data.org/298.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
         "home": null,
@@ -23711,11 +23711,11 @@
     },
     "id": 544574,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:03Z",
+    "lastUpdated": "2026-05-17T17:47:57Z",
     "homeTeam": {
       "id": 285,
       "name": "Elche CF",
@@ -23731,11 +23731,11 @@
       "crest": "https://crests.football-data.org/82.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
         "home": null,
@@ -23777,11 +23777,11 @@
     },
     "id": 544575,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:03Z",
+    "lastUpdated": "2026-05-17T17:48:17Z",
     "homeTeam": {
       "id": 88,
       "name": "Levante UD",
@@ -23797,11 +23797,11 @@
       "crest": "https://crests.football-data.org/89.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
         "home": null,
@@ -23843,11 +23843,11 @@
     },
     "id": 544576,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:03Z",
+    "lastUpdated": "2026-05-17T17:47:17Z",
     "homeTeam": {
       "id": 87,
       "name": "Rayo Vallecano de Madrid",
@@ -23863,11 +23863,11 @@
       "crest": "https://crests.football-data.org/94.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "halfTime": {
         "home": null,
@@ -23909,11 +23909,11 @@
     },
     "id": 544577,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:03Z",
+    "lastUpdated": "2026-05-17T17:47:03Z",
     "homeTeam": {
       "id": 92,
       "name": "Real Sociedad de F\u00fatbol",
@@ -23929,11 +23929,11 @@
       "crest": "https://crests.football-data.org/95.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "halfTime": {
         "home": null,
@@ -23975,11 +23975,11 @@
     },
     "id": 544578,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:03Z",
+    "lastUpdated": "2026-05-17T17:47:03Z",
     "homeTeam": {
       "id": 1048,
       "name": "Real Oviedo",
@@ -23995,11 +23995,11 @@
       "crest": "https://crests.football-data.org/263.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
         "home": null,
@@ -24041,11 +24041,11 @@
     },
     "id": 544579,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:03Z",
+    "lastUpdated": "2026-05-17T17:47:58Z",
     "homeTeam": {
       "id": 79,
       "name": "CA Osasuna",
@@ -24061,11 +24061,11 @@
       "crest": "https://crests.football-data.org/80.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
         "home": null,
@@ -24107,11 +24107,11 @@
     },
     "id": 544580,
     "utcDate": "2026-05-17T17:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T05:21:09Z",
+    "lastUpdated": "2026-05-17T17:48:18Z",
     "homeTeam": {
       "id": 559,
       "name": "Sevilla FC",
@@ -24127,11 +24127,11 @@
       "crest": "https://crests.football-data.org/86.png"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "halfTime": {
         "home": null,

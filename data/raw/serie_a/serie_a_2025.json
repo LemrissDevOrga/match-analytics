@@ -24182,7 +24182,7 @@
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T16:45:17Z",
+    "lastUpdated": "2026-05-17T17:49:11Z",
     "homeTeam": {
       "id": 102,
       "name": "Atalanta BC",
@@ -24198,15 +24198,15 @@
       "crest": "https://crests.football-data.org/103.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
