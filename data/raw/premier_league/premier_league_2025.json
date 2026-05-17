@@ -23914,11 +23914,11 @@
     },
     "id": 538148,
     "utcDate": "2026-05-17T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T15:50:22Z",
+    "lastUpdated": "2026-05-17T16:08:42Z",
     "homeTeam": {
       "id": 402,
       "name": "Brentford FC",
@@ -23934,10 +23934,10 @@
       "crest": "https://crests.football-data.org/354.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 2
       },
       "halfTime": {
@@ -23980,11 +23980,11 @@
     },
     "id": 538150,
     "utcDate": "2026-05-17T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T15:49:32Z",
+    "lastUpdated": "2026-05-17T16:02:37Z",
     "homeTeam": {
       "id": 62,
       "name": "Everton FC",
@@ -24004,7 +24004,7 @@
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 2
+        "away": 3
       },
       "halfTime": {
         "home": 1,
@@ -24046,11 +24046,11 @@
     },
     "id": 538151,
     "utcDate": "2026-05-17T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T15:49:32Z",
+    "lastUpdated": "2026-05-17T16:04:37Z",
     "homeTeam": {
       "id": 341,
       "name": "Leeds United FC",
@@ -24066,10 +24066,10 @@
       "crest": "https://crests.football-data.org/397.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
@@ -24112,11 +24112,11 @@
     },
     "id": 538154,
     "utcDate": "2026-05-17T14:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-17T15:49:32Z",
+    "lastUpdated": "2026-05-17T16:01:17Z",
     "homeTeam": {
       "id": 76,
       "name": "Wolverhampton Wanderers FC",
@@ -24178,11 +24178,11 @@
     },
     "id": 538153,
     "utcDate": "2026-05-17T16:30:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 37,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-11T01:32:03Z",
+    "lastUpdated": "2026-05-17T16:45:07Z",
     "homeTeam": {
       "id": 67,
       "name": "Newcastle United FC",
@@ -24198,11 +24198,11 @@
       "crest": "https://crests.football-data.org/563.png"
     },
     "score": {
-      "winner": null,
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "halfTime": {
         "home": null,
