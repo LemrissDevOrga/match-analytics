@@ -19676,11 +19676,11 @@
     },
     "id": 542704,
     "utcDate": "2026-05-17T19:00:00Z",
-    "status": "IN_PLAY",
+    "status": "CANCELLED",
     "matchday": 34,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-18T00:59:56Z",
+    "lastUpdated": "2026-05-18T07:05:03Z",
     "homeTeam": {
       "id": 543,
       "name": "FC Nantes",
