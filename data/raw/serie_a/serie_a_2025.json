@@ -24617,65 +24617,6 @@
       "currentMatchday": 37,
       "winner": null
     },
-    "id": 537188,
-    "utcDate": "2026-05-24T13:00:00Z",
-    "status": "TIMED",
-    "matchday": 38,
-    "stage": "REGULAR_SEASON",
-    "group": null,
-    "lastUpdated": "2026-05-18T01:32:00Z",
-    "homeTeam": {
-      "id": 586,
-      "name": "Torino FC",
-      "shortName": "Torino",
-      "tla": "TOR",
-      "crest": "https://crests.football-data.org/586.png"
-    },
-    "awayTeam": {
-      "id": 109,
-      "name": "Juventus FC",
-      "shortName": "Juventus",
-      "tla": "JUV",
-      "crest": "https://crests.football-data.org/109.png"
-    },
-    "score": {
-      "winner": null,
-      "duration": "REGULAR",
-      "fullTime": {
-        "home": null,
-        "away": null
-      },
-      "halfTime": {
-        "home": null,
-        "away": null
-      }
-    },
-    "odds": {
-      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-    },
-    "referees": []
-  },
-  {
-    "area": {
-      "id": 2114,
-      "name": "Italy",
-      "code": "ITA",
-      "flag": "https://crests.football-data.org/784.svg"
-    },
-    "competition": {
-      "id": 2019,
-      "name": "Serie A",
-      "code": "SA",
-      "type": "LEAGUE",
-      "emblem": "https://crests.football-data.org/c111.png"
-    },
-    "season": {
-      "id": 2395,
-      "startDate": "2025-08-24",
-      "endDate": "2026-05-24",
-      "currentMatchday": 37,
-      "winner": null
-    },
     "id": 537191,
     "utcDate": "2026-05-24T13:00:00Z",
     "status": "TIMED",
@@ -24814,6 +24755,65 @@
       "shortName": "Cagliari",
       "tla": "CAG",
       "crest": "https://crests.football-data.org/104.png"
+    },
+    "score": {
+      "winner": null,
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": null,
+        "away": null
+      },
+      "halfTime": {
+        "home": null,
+        "away": null
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": []
+  },
+  {
+    "area": {
+      "id": 2114,
+      "name": "Italy",
+      "code": "ITA",
+      "flag": "https://crests.football-data.org/784.svg"
+    },
+    "competition": {
+      "id": 2019,
+      "name": "Serie A",
+      "code": "SA",
+      "type": "LEAGUE",
+      "emblem": "https://crests.football-data.org/c111.png"
+    },
+    "season": {
+      "id": 2395,
+      "startDate": "2025-08-24",
+      "endDate": "2026-05-24",
+      "currentMatchday": 37,
+      "winner": null
+    },
+    "id": 537188,
+    "utcDate": "2026-05-24T18:45:00Z",
+    "status": "TIMED",
+    "matchday": 38,
+    "stage": "REGULAR_SEASON",
+    "group": null,
+    "lastUpdated": "2026-05-19T13:25:29Z",
+    "homeTeam": {
+      "id": 586,
+      "name": "Torino FC",
+      "shortName": "Torino",
+      "tla": "TOR",
+      "crest": "https://crests.football-data.org/586.png"
+    },
+    "awayTeam": {
+      "id": 109,
+      "name": "Juventus FC",
+      "shortName": "Juventus",
+      "tla": "JUV",
+      "crest": "https://crests.football-data.org/109.png"
     },
     "score": {
       "winner": null,
