@@ -24442,11 +24442,11 @@
     },
     "id": 537185,
     "utcDate": "2026-05-22T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-22T19:23:01Z",
+    "lastUpdated": "2026-05-22T20:42:56Z",
     "homeTeam": {
       "id": 99,
       "name": "ACF Fiorentina",
@@ -24465,12 +24465,12 @@
       "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       }
     },
     "odds": {
