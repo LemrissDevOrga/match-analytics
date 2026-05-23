@@ -24239,11 +24239,11 @@
     },
     "id": 544581,
     "utcDate": "2026-05-23T19:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-23T19:56:01Z",
+    "lastUpdated": "2026-05-23T21:04:01Z",
     "homeTeam": {
       "id": 263,
       "name": "Deportivo Alav\u00e9s",
@@ -24259,11 +24259,11 @@
       "crest": "https://crests.football-data.org/87.png"
     },
     "score": {
-      "winner": "HOME_TEAM",
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
-        "away": 0
+        "away": 2
       },
       "halfTime": {
         "home": 1,
@@ -24305,11 +24305,11 @@
     },
     "id": 544582,
     "utcDate": "2026-05-23T19:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-23T19:57:21Z",
+    "lastUpdated": "2026-05-23T21:03:11Z",
     "homeTeam": {
       "id": 90,
       "name": "Real Betis Balompi\u00e9",
@@ -24325,10 +24325,10 @@
       "crest": "https://crests.football-data.org/88.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
       "halfTime": {
@@ -24371,11 +24371,11 @@
     },
     "id": 544583,
     "utcDate": "2026-05-23T19:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-23T19:53:46Z",
+    "lastUpdated": "2026-05-23T21:03:36Z",
     "homeTeam": {
       "id": 558,
       "name": "RC Celta de Vigo",
@@ -24391,10 +24391,10 @@
       "crest": "https://crests.football-data.org/559.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
@@ -24437,11 +24437,11 @@
     },
     "id": 544584,
     "utcDate": "2026-05-23T19:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-23T19:55:21Z",
+    "lastUpdated": "2026-05-23T21:03:11Z",
     "homeTeam": {
       "id": 80,
       "name": "RCD Espanyol de Barcelona",
@@ -24457,10 +24457,10 @@
       "crest": "https://crests.football-data.org/92.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "halfTime": {
@@ -24503,11 +24503,11 @@
     },
     "id": 544585,
     "utcDate": "2026-05-23T19:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-23T19:55:02Z",
+    "lastUpdated": "2026-05-23T21:04:36Z",
     "homeTeam": {
       "id": 82,
       "name": "Getafe CF",
@@ -24523,10 +24523,10 @@
       "crest": "https://crests.football-data.org/79.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "halfTime": {
@@ -24569,11 +24569,11 @@
     },
     "id": 544586,
     "utcDate": "2026-05-23T19:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-23T19:55:37Z",
+    "lastUpdated": "2026-05-23T21:01:56Z",
     "homeTeam": {
       "id": 89,
       "name": "RCD Mallorca",
@@ -24592,7 +24592,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
@@ -24635,11 +24635,11 @@
     },
     "id": 544587,
     "utcDate": "2026-05-23T19:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-23T19:55:27Z",
+    "lastUpdated": "2026-05-23T21:00:47Z",
     "homeTeam": {
       "id": 86,
       "name": "Real Madrid CF",
@@ -24658,8 +24658,8 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
-        "away": 1
+        "home": 4,
+        "away": 2
       },
       "halfTime": {
         "home": 2,
@@ -24701,11 +24701,11 @@
     },
     "id": 544589,
     "utcDate": "2026-05-23T19:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-23T19:58:07Z",
+    "lastUpdated": "2026-05-23T21:07:56Z",
     "homeTeam": {
       "id": 95,
       "name": "Valencia CF",
@@ -24721,11 +24721,11 @@
       "crest": "https://crests.football-data.org/81.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
-        "away": 0
+        "home": 3,
+        "away": 1
       },
       "halfTime": {
         "home": 0,
@@ -24767,11 +24767,11 @@
     },
     "id": 544590,
     "utcDate": "2026-05-23T19:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-23T19:56:47Z",
+    "lastUpdated": "2026-05-23T21:06:31Z",
     "homeTeam": {
       "id": 298,
       "name": "Girona FC",
@@ -24787,10 +24787,10 @@
       "crest": "https://crests.football-data.org/285.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "halfTime": {

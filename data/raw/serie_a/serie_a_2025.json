@@ -24537,18 +24537,6 @@
       "halfTime": {
         "home": 2,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
@@ -24586,11 +24574,11 @@
     },
     "id": 537190,
     "utcDate": "2026-05-23T18:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-23T19:54:31Z",
+    "lastUpdated": "2026-05-23T20:42:31Z",
     "homeTeam": {
       "id": 110,
       "name": "SS Lazio",
@@ -24615,18 +24603,6 @@
       "halfTime": {
         "home": 2,
         "away": 1
-      },
-      "regularTime": {
-        "home": 0,
-        "away": 0
-      },
-      "extraTime": {
-        "home": 0,
-        "away": 0
-      },
-      "penalties": {
-        "home": 0,
-        "away": 0
       }
     },
     "odds": {
