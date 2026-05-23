@@ -24508,11 +24508,11 @@
     },
     "id": 537187,
     "utcDate": "2026-05-23T16:00:00Z",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-18T15:20:42Z",
+    "lastUpdated": "2026-05-23T16:50:41Z",
     "homeTeam": {
       "id": 103,
       "name": "Bologna FC 1909",
@@ -24528,11 +24528,11 @@
       "crest": "https://crests.football-data.org/108.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "halfTime": {
         "home": null,
