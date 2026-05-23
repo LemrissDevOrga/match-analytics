@@ -24537,6 +24537,18 @@
       "halfTime": {
         "home": 2,
         "away": 1
+      },
+      "regularTime": {
+        "home": 0,
+        "away": 0
+      },
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
@@ -24578,7 +24590,7 @@
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-23T18:55:01Z",
+    "lastUpdated": "2026-05-23T19:54:31Z",
     "homeTeam": {
       "id": 110,
       "name": "SS Lazio",
@@ -24594,15 +24606,27 @@
       "crest": "https://crests.football-data.org/487.png"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": 2,
+        "away": 1
+      },
+      "regularTime": {
         "home": 0,
         "away": 0
       },
-      "halfTime": {
-        "home": null,
-        "away": null
+      "extraTime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalties": {
+        "home": 0,
+        "away": 0
       }
     },
     "odds": {
