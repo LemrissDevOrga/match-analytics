@@ -24833,11 +24833,11 @@
     },
     "id": 544588,
     "utcDate": "2026-05-24T19:00:00Z",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T19:57:17Z",
+    "lastUpdated": "2026-05-24T20:58:41Z",
     "homeTeam": {
       "id": 94,
       "name": "Villarreal CF",
@@ -24856,7 +24856,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 4,
+        "home": 5,
         "away": 1
       },
       "halfTime": {
