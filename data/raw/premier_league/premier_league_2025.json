@@ -24442,11 +24442,11 @@
     },
     "id": 538155,
     "utcDate": "2026-05-24T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T16:51:51Z",
+    "lastUpdated": "2026-05-24T17:08:41Z",
     "homeTeam": {
       "id": 71,
       "name": "Sunderland AFC",
@@ -24508,11 +24508,11 @@
     },
     "id": 538156,
     "utcDate": "2026-05-24T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T16:51:51Z",
+    "lastUpdated": "2026-05-24T17:02:06Z",
     "homeTeam": {
       "id": 397,
       "name": "Brighton & Hove Albion FC",
@@ -24574,11 +24574,11 @@
     },
     "id": 538157,
     "utcDate": "2026-05-24T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T16:50:31Z",
+    "lastUpdated": "2026-05-24T17:06:46Z",
     "homeTeam": {
       "id": 354,
       "name": "Crystal Palace FC",
@@ -24597,7 +24597,7 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 0,
+        "home": 1,
         "away": 2
       },
       "halfTime": {
@@ -24640,11 +24640,11 @@
     },
     "id": 538158,
     "utcDate": "2026-05-24T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T16:52:16Z",
+    "lastUpdated": "2026-05-24T17:11:06Z",
     "homeTeam": {
       "id": 328,
       "name": "Burnley FC",
@@ -24706,11 +24706,11 @@
     },
     "id": 538159,
     "utcDate": "2026-05-24T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T16:52:06Z",
+    "lastUpdated": "2026-05-24T17:06:02Z",
     "homeTeam": {
       "id": 63,
       "name": "Fulham FC",
@@ -24772,11 +24772,11 @@
     },
     "id": 538160,
     "utcDate": "2026-05-24T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T16:52:16Z",
+    "lastUpdated": "2026-05-24T17:07:06Z",
     "homeTeam": {
       "id": 64,
       "name": "Liverpool FC",
@@ -24838,11 +24838,11 @@
     },
     "id": 538161,
     "utcDate": "2026-05-24T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T16:52:07Z",
+    "lastUpdated": "2026-05-24T17:08:16Z",
     "homeTeam": {
       "id": 65,
       "name": "Manchester City FC",
@@ -24858,10 +24858,10 @@
       "crest": "https://crests.football-data.org/58.png"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 1,
+        "home": 2,
         "away": 2
       },
       "halfTime": {
@@ -24904,11 +24904,11 @@
     },
     "id": 538162,
     "utcDate": "2026-05-24T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T16:51:32Z",
+    "lastUpdated": "2026-05-24T17:09:06Z",
     "homeTeam": {
       "id": 351,
       "name": "Nottingham Forest FC",
@@ -24970,11 +24970,11 @@
     },
     "id": 538163,
     "utcDate": "2026-05-24T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T16:52:07Z",
+    "lastUpdated": "2026-05-24T17:14:46Z",
     "homeTeam": {
       "id": 73,
       "name": "Tottenham Hotspur FC",
@@ -25036,11 +25036,11 @@
     },
     "id": 538164,
     "utcDate": "2026-05-24T15:00:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T16:52:07Z",
+    "lastUpdated": "2026-05-24T17:03:02Z",
     "homeTeam": {
       "id": 563,
       "name": "West Ham United FC",
@@ -25059,7 +25059,7 @@
       "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 2,
+        "home": 3,
         "away": 0
       },
       "halfTime": {
