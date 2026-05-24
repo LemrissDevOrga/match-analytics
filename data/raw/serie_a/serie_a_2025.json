@@ -25036,11 +25036,11 @@
     },
     "id": 537188,
     "utcDate": "2026-05-24T19:45:00Z",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T21:45:06Z",
+    "lastUpdated": "2026-05-24T21:54:16Z",
     "homeTeam": {
       "id": 586,
       "name": "Torino FC",
