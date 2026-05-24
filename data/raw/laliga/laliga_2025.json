@@ -24705,7 +24705,7 @@
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-24T00:20:44Z",
+    "lastUpdated": "2026-05-24T05:39:52Z",
     "homeTeam": {
       "id": 95,
       "name": "Valencia CF",
@@ -24833,11 +24833,11 @@
     },
     "id": 544588,
     "utcDate": "2026-05-24T19:00:00Z",
-    "status": "TIMED",
+    "status": "PAUSED",
     "matchday": 38,
     "stage": "REGULAR_SEASON",
     "group": null,
-    "lastUpdated": "2026-05-18T01:32:01Z",
+    "lastUpdated": "2026-05-24T19:57:17Z",
     "homeTeam": {
       "id": 94,
       "name": "Villarreal CF",
@@ -24853,15 +24853,15 @@
       "crest": "https://crests.football-data.org/78.png"
     },
     "score": {
-      "winner": null,
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 1
       },
       "halfTime": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 1
       }
     },
     "odds": {
