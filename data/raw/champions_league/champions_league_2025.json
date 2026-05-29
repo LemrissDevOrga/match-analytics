@@ -1016,7 +1016,7 @@
     "matchday": 1,
     "stage": "LEAGUE_STAGE",
     "group": null,
-    "lastUpdated": "2026-05-26T05:20:45Z",
+    "lastUpdated": "2026-05-11T05:21:09Z",
     "homeTeam": {
       "id": 65,
       "name": "Manchester City FC",
@@ -2534,7 +2534,7 @@
     "matchday": 3,
     "stage": "LEAGUE_STAGE",
     "group": null,
-    "lastUpdated": "2026-05-28T13:25:04Z",
+    "lastUpdated": "2026-05-28T13:25:03Z",
     "homeTeam": {
       "id": 3929,
       "name": "Royale Union Saint-Gilloise",
@@ -4184,7 +4184,7 @@
     "matchday": 4,
     "stage": "LEAGUE_STAGE",
     "group": null,
-    "lastUpdated": "2026-05-26T05:20:45Z",
+    "lastUpdated": "2026-05-11T05:21:09Z",
     "homeTeam": {
       "id": 11034,
       "name": "Paphos FC",
@@ -7616,7 +7616,7 @@
     "matchday": 7,
     "stage": "LEAGUE_STAGE",
     "group": null,
-    "lastUpdated": "2026-05-26T05:20:45Z",
+    "lastUpdated": "2026-05-11T05:21:09Z",
     "homeTeam": {
       "id": 86,
       "name": "Real Madrid CF",
@@ -7880,7 +7880,7 @@
     "matchday": 7,
     "stage": "LEAGUE_STAGE",
     "group": null,
-    "lastUpdated": "2026-05-26T05:20:45Z",
+    "lastUpdated": "2026-05-11T05:21:09Z",
     "homeTeam": {
       "id": 516,
       "name": "Olympique de Marseille",
@@ -8738,7 +8738,7 @@
     "matchday": 8,
     "stage": "LEAGUE_STAGE",
     "group": null,
-    "lastUpdated": "2026-05-26T05:20:45Z",
+    "lastUpdated": "2026-05-11T05:21:09Z",
     "homeTeam": {
       "id": 851,
       "name": "Club Brugge KV",
@@ -9200,7 +9200,7 @@
     "matchday": 8,
     "stage": "LEAGUE_STAGE",
     "group": null,
-    "lastUpdated": "2026-05-28T13:25:07Z",
+    "lastUpdated": "2026-05-28T13:25:06Z",
     "homeTeam": {
       "id": 11034,
       "name": "Paphos FC",
@@ -9332,7 +9332,7 @@
     "matchday": 8,
     "stage": "LEAGUE_STAGE",
     "group": null,
-    "lastUpdated": "2026-05-26T05:20:45Z",
+    "lastUpdated": "2026-05-11T05:21:09Z",
     "homeTeam": {
       "id": 113,
       "name": "SSC Napoli",
@@ -10660,7 +10660,7 @@
     "matchday": 1,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-05-26T05:20:45Z",
+    "lastUpdated": "2026-05-11T05:21:09Z",
     "homeTeam": {
       "id": 102,
       "name": "Atalanta BC",
@@ -11196,7 +11196,7 @@
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-05-26T05:20:45Z",
+    "lastUpdated": "2026-05-11T05:21:09Z",
     "homeTeam": {
       "id": 61,
       "name": "Chelsea FC",
@@ -11394,7 +11394,7 @@
     "matchday": 2,
     "stage": "LAST_16",
     "group": null,
-    "lastUpdated": "2026-05-26T05:20:45Z",
+    "lastUpdated": "2026-05-11T05:21:09Z",
     "homeTeam": {
       "id": 81,
       "name": "FC Barcelona",
@@ -12450,7 +12450,7 @@
     "matchday": null,
     "stage": "FINAL",
     "group": null,
-    "lastUpdated": "2026-05-26T05:20:45Z",
+    "lastUpdated": "2026-05-11T05:21:09Z",
     "homeTeam": {
       "id": 524,
       "name": "Paris Saint-Germain FC",
